@@ -3,13 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Informe de Requerimientos y Nudos Críticos del Sistema Actual
-=============================================================
 
-Contents:
+Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales
+===================================================================
+
+Contenidos:
 
 .. toctree::
    :maxdepth: 2
+
+   objetivo
+   metodologia
+   flujogramas
+   nudos
+   requerimientos
 
 
 
