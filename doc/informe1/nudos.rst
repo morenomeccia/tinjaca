@@ -1,6 +1,6 @@
-**************
-Nudos Críticos
-**************
+*******************************************
+Nudos Críticos y Requerimientos del Sistema
+*******************************************
 
 Definición básica del entorno de trabajo y del proceso de solicitud de créditos
 
