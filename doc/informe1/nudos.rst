@@ -8,10 +8,9 @@ Definición básica del entorno de trabajo y del proceso de solicitud de crédit
 Estadística:
 -------------
 
-1) La oficina de Estadística (Crédito), recibe una a una las carpetas en físico con las
+# La oficina de Estadística (Crédito), recibe una a una las carpetas en físico con las
 propuestas de financiamiento que han sido categorizadas como “viables”.
-
-2) Se genera una lista en hoja de calculo introduciendo una a una las propuestas. Puede consultar
+# Se genera una lista en hoja de calculo introduciendo una a una las propuestas. Puede consultar
  la información del sistema SICA-WebAdmin para ingresarla a mano en las columnas de la hoja de
  cálculo. En esta plantilla se tiene un control del estatus de cada solicitante durante este
  proceso.

@@ -1,6 +1,6 @@
-***********
-Flujogramas
-***********
+**********************
+Flujogramas y procesos
+**********************
 
 .. graphviz::
 
