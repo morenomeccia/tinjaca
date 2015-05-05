@@ -4,9 +4,9 @@ Nudos Críticos y Requerimientos del Sistema
 
 Definición básica del entorno de trabajo y del proceso de solicitud de créditos
 
--------------
+------------
 Estadística:
--------------
+------------
 
 # La oficina de Estadística (Crédito), recibe una a una las carpetas en físico con las
 propuestas de financiamiento que han sido categorizadas como “viables”.
@@ -14,32 +14,27 @@ propuestas de financiamiento que han sido categorizadas como “viables”.
  la información del sistema SICA-WebAdmin para ingresarla a mano en las columnas de la hoja de
  cálculo. En esta plantilla se tiene un control del estatus de cada solicitante durante este
  proceso.
-
-3) Se estudia cada caso para enviar por correo los requisitos correspondientes a las propuestas,
+# Se estudia cada caso para enviar por correo los requisitos correspondientes a las propuestas,
 según el sector de financiamiento.
-
-4) También se envía por correo la invitación para la asistencia al taller,
+# También se envía por correo la invitación para la asistencia al taller,
 con la fecha que le corresponderá según el número de propuestas una vez alcanzado el límite de
 cupos para cada lista. Esta lista es firmada el día del taller por cada persona como control de
 asistencia. En caso que algún solicitante falta al taller, se coloca en lista de espera hasta que
  la persona se reporte de nuevo, y se incluye en la próxima lista de taller.
-
-5) Luego de la asistencia al taller se le asigna una cita programada para presentarse ante la
+# Luego de la asistencia al taller se le asigna una cita programada para presentarse ante la
 oficina de Información de Crédito para consignar los requisitos. Nota: en dicha oficina se aclaró
  que no trabajan con esa cita, sino que depende del tiempo que demore cada solicitante en
  recaudar los requisitos.
-
-6) Trimestralmente se genera un reporte estadístico de todos las solicitudes ingresadas. Se hace
+# Trimestralmente se genera un reporte estadístico de todos las solicitudes ingresadas. Se hace
 un conteo por sector dentro de cada municipio, con las sumas de los montos solicitados,
 y las totalizaciones. Este procedimiento se hace a mano utilizando una hoja de cálculo.
-
-7) También se tiene un formato para informes POA, que son solicitados por
+# También se tiene un formato para informes POA, que son solicitados por
 presidencia.
 
 
--------------
+---------------------
 Ciencia y Tecnología:
--------------
+---------------------
 
 1) Existe en primer lugar una oficina de asesoramiento técnico, a la cual pueden acudir las
 personas sin propuestas concretas para recibir instrucciones y recomendaciones al momento de
