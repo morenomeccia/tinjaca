@@ -9,8 +9,9 @@ créditos.
 +---------------------------------------------------+
 |Nombre del Proceso: Solicitud de Crédito           |
 |                                                   |
-|Descripción: Abarca desde la solicitud de información |
-| por parte del beneficiario/-a hasta su entrega a Secretaría Ejecutiva  |
+|Descripción: Abarca desde la solicitud de          |
+|información por parte del beneficiario/-a hasta su |
+|entrega a Secretaría Ejecutiva                     |
 |Unidad ejecutora: Gerencia de Crédito              |
 +===============+====================+==============+
 |     Entrada   |      Actividades   |   Salida     |

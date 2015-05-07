@@ -17,8 +17,7 @@ Pasó ud por casa
 .. toctree::
    :maxdepth: 2
 
-   objetivo
-   metodologia
+   descripcion
    flujogramas
    nudos
    requerimientos
