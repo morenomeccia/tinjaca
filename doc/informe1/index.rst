@@ -18,7 +18,7 @@ Pasó ud por casa
    :maxdepth: 2
 
    descripcion
-   flujogramas
+   procesos
    nudos
    requerimientos
 
