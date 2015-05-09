@@ -7,13 +7,13 @@ FOMDES en lo relativo a la asignación, acompañamiento en la ejecución y recup
 créditos.
 
 
-+-------------------------------------------+
-|Descripción: Abarca desde la solicitud de  |
-|información por parte del beneficiario/-a  |
-|hasta su entrega a Secretaría Ejecutiva    |
-|                                           |
-|Unidad ejecutora: Gerencia de Crédito      |
-+-------------------------------------------+
++-----------------------------------------------+
+|**Descripción**: Abarca desde la solicitud de  |
+|información por parte del beneficiario/-a      |
+|hasta su entrega a Secretaría Ejecutiva        |
+|                                               |
+|**Unidad ejecutora**: Gerencia de Crédito      |
++-----------------------------------------------+
 
 .. list-table:: Solicitud de Crédito
    :widths: 40 40 40
