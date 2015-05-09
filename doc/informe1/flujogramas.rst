@@ -6,24 +6,25 @@ A continuación se presentan los procesos identificados para la estructura funci
 FOMDES en lo relativo a la asignación, acompañamiento en la ejecución y recuperación de los
 créditos.
 
-+---------------------------------------------------+
-|Nombre del Proceso: Solicitud de Crédito           |
-|                                                   |
-|Descripción: Abarca desde la solicitud de          |
-|información por parte del beneficiario/-a hasta su |
-|entrega a Secretaría Ejecutiva                     |
-|Unidad ejecutora: Gerencia de Crédito              |
-+===============+====================+==============+
-|     Entrada   |      Actividades   |   Salida     |
-+---------------+--------------------+--------------+
-|               |                    |              |
-|               |                    |              |
-|               |                    |              |
-+---------------+--------------------+--------------+
-|               |                    |              |
-|               |                    |              |
-|               |                    |              |
-+---------------+--------------------+--------------+
+
++-------------------------------------------+
+|Descripción: Abarca desde la solicitud de  |
+|información por parte del beneficiario/-a  |
+|hasta su entrega a Secretaría Ejecutiva    |
+|                                           |
+|Unidad ejecutora: Gerencia de Crédito      |
++-------------------------------------------+
+
+.. list-table:: Solicitud de Crédito
+   :widths: 40 40 40
+   :header-rows: 1
+
+   * - Entrada
+     - Actividades
+     - Salida
+   * - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
+     - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
+     - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
 
 Flujograma
 
