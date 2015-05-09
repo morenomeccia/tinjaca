@@ -3,7 +3,7 @@ Requerimientos
 **************
 
 .. list-table:: **Requerimientos  por Dependencia**
-   :widths: 40 40 40
+   :widths: 40 40 40 40
    :header-rows: 1
 
    * - Dependencia
