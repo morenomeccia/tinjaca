@@ -15,7 +15,7 @@ créditos.
 |**Unidad ejecutora**: Gerencia de Crédito      |
 +-----------------------------------------------+
 
-.. list-table:: Solicitud de Crédito
+.. list-table:: **Solicitud de Crédito**
    :widths: 40 40 40
    :header-rows: 1
 
