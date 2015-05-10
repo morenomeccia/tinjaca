@@ -248,60 +248,14 @@ créditos.
        B1 -> A2 [arrowtail=rcrowlvee];
        }
 
-#. **Gestión de cobranzas**
-
-    * **Descripción**: Abarca desde la solicitud de información por parte del beneficiario/-a hasta la entrega de Recaudos a dependencia
-
-    * **Dependencia responsable**: Gerencia de Crédito
-
-    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Estadística
-
-    * **Tabla de Actividades**:
-
-    .. list-table::
-       :widths: 40 40 40
-       :header-rows: 1
-
-       * - Entrada
-         - Actividades
-         - Salida
-       * - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-
-    * **Flujograma**:
-
-    .. graphviz::
-
-       digraph G05 { rankdir=LR; node [shape=box, style=rounded];
-
-        subgraph clusterA { labeljust=l; label="any-section@company.com";
-         AS [label="", shape=circle, width="0.3"];
-         AE [label="", shape=circle, width="0.3", style=bold];
-         A1 [label="A1: Daily\nReport"];
-         A2 [label="A2: Memo"];
-
-         AS -> A1;
-         A2 -> AE;
-         A1 -> A2 [style=invis];
-        }
-
-        subgraph clusterB { labeljust=l; label="section-leader@company.com";
-         B1 [label="B1: Review"];
-        }
-
-       A1 -> B1 [tailport=sw,headport=nw]; // *Specify positions of tail port and head port*
-       B1 -> A1 [arrowtail=odiamond, label="NG"];
-       B1 -> A2 [arrowtail=rcrowlvee];
-       }
-
 #. **Pagos**
 
-    * **Descripción**: Abarca desde la solicitud de información por parte del beneficiario/-a hasta la entrega de Recaudos a dependencia
+    * **Descripción**: Incluye actividades de recepción de pagos y actualización de estados de
+    cuenta de beneficiarios/-as
 
-    * **Dependencia responsable**: Gerencia de Crédito
+    * **Dependencia responsable**: Administración
 
-    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Estadística
+    * **Unidad(es) Ejecutora(s)**: Caja
 
     * **Tabla de Actividades**:
 
@@ -341,14 +295,63 @@ créditos.
        B1 -> A1 [arrowtail=odiamond, label="NG"];
        B1 -> A2 [arrowtail=rcrowlvee];
        }
+
+#. **Gestión de cobranzas**
+
+    * **Descripción**: Comprende actividades relativas al trámite y gestión de recuperación de
+    pagos caídos por parte de beneficiarios/-as.
+
+    * **Dependencia responsable**: Gerencia de Recuperaciones
+
+    * **Unidad(es) Ejecutora(s)**: Gerencia de Recuperaciones y Consultoría Jurídica
+
+    * **Tabla de Actividades**:
+
+    .. list-table::
+       :widths: 40 40 40
+       :header-rows: 1
+
+       * - Entrada
+         - Actividades
+         - Salida
+       * - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
+         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
+         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
+
+    * **Flujograma**:
+
+    .. graphviz::
+
+       digraph G05 { rankdir=LR; node [shape=box, style=rounded];
+
+        subgraph clusterA { labeljust=l; label="any-section@company.com";
+         AS [label="", shape=circle, width="0.3"];
+         AE [label="", shape=circle, width="0.3", style=bold];
+         A1 [label="A1: Daily\nReport"];
+         A2 [label="A2: Memo"];
+
+         AS -> A1;
+         A2 -> AE;
+         A1 -> A2 [style=invis];
+        }
+
+        subgraph clusterB { labeljust=l; label="section-leader@company.com";
+         B1 [label="B1: Review"];
+        }
+
+       A1 -> B1 [tailport=sw,headport=nw]; // *Specify positions of tail port and head port*
+       B1 -> A1 [arrowtail=odiamond, label="NG"];
+       B1 -> A2 [arrowtail=rcrowlvee];
+       }
+
 
 #. **Liberación de créditos**
 
-    * **Descripción**: Abarca desde la solicitud de información por parte del beneficiario/-a hasta la entrega de Recaudos a dependencia
+    * **Descripción**: Contempla actividades relativas a la liberación de los créditos.
 
-    * **Dependencia responsable**: Gerencia de Crédito
+    * **Dependencia responsable**: Administración
 
-    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Estadística
+    * **Unidad(es) Ejecutora(s)**: Administración, Presidencia, Consultoría Jurídica
 
     * **Tabla de Actividades**:
 
