@@ -2,11 +2,11 @@
 Requerimientos
 **************
 
-.. list-table:: **Requerimientos  por Dependencia**
+.. list-table:: **Requerimientos por Unidad Ejecutora**
    :widths: 40 40 40 40
    :header-rows: 1
 
-   * - Dependencia
+   * - Unidad Ejecutora (Dependencia)
      - Proceso
      - Sistema
      - Requerimientos
