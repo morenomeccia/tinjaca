@@ -106,12 +106,12 @@ créditos.
 #. **Aprobación de Créditos**
 
     * **Descripción**: Abarca desde la recepción del listado de expedientes sugeridos para
-    aprobación de créditos hasta la generación del Documento de Crédito y constitución de la
+    aprobación de créditos hasta la elaboración del Documento de Crédito y constitución de la
     empresa (de requerirse) para cada uno de los beneficiarios/-as.
 
-    * **Dependencia responsable**: Gerencia de Crédito
+    * **Dependencia responsable**: Presidencia
 
-    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Estadística
+    * **Unidad(es) Ejecutora(s)**: Secretaría Ejecutiva, Consejo Directivo
 
     * **Tabla de Actividades**:
 
@@ -154,11 +154,12 @@ créditos.
 
 #. **Liquidación de créditos**
 
-    * **Descripción**: Abarca desde la solicitud de información por parte del beneficiario/-a hasta la entrega de Recaudos a dependencia
+    * **Descripción**: Abarca desde la consignación de los documentos notariados por parte de los
+     beneficiarios/-as hasta la entrega del cheque respectivo.
 
-    * **Dependencia responsable**: Gerencia de Crédito
+    * **Dependencia responsable**: Administración
 
-    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Estadística
+    * **Unidad(es) Ejecutora(s)**: Presupuesto, Finanzas, Secretaría Ejecutiva, Presidencia
 
     * **Tabla de Actividades**:
 
