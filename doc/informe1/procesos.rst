@@ -7,13 +7,14 @@ FOMDES en lo relativo a la asignación, acompañamiento en la ejecución y recup
 créditos.
 
 
-#. **Recepción de Solicitudes**
+#. **Recepción de Propuestas**
 
-    * **Descripción**: Abarca desde la solicitud de información por parte del beneficiario/-a hasta la entrega de Recaudos a dependencia
+    * **Descripción**: Abarca desde la solicitud de información por parte del beneficiario/-a
+    hasta la asistencia al taller
 
     * **Dependencia responsable**: Gerencia de Crédito
 
-    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Estadística
+    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Estadística y evaluación de riesgos
 
     * **Tabla de Actividades**:
 
@@ -54,13 +55,14 @@ créditos.
        B1 -> A2 [arrowtail=rcrowlvee];
        }
 
-#. **Evaluación de solcitudes**
+#. **Recepción y Evaluación de solicitudes**
 
-    * **Descripción**: Abarca desde la solicitud de información por parte del beneficiario/-a hasta la entrega de Recaudos a dependencia
+    * **Descripción**: Abarca desde la entrega de recaudos para solicitud de crédito hasta la
+    generación del listado de expedientes sugeridos para aprobación de créditos
 
     * **Dependencia responsable**: Gerencia de Crédito
 
-    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Estadística
+    * **Unidad(es) Ejecutora(s)**: Análisis Jurídico, Análisis Económico
 
     * **Tabla de Actividades**:
 
@@ -103,7 +105,9 @@ créditos.
 
 #. **Aprobación de Créditos**
 
-    * **Descripción**: Abarca desde la solicitud de información por parte del beneficiario/-a hasta la entrega de Recaudos a dependencia
+    * **Descripción**: Abarca desde la recepción del listado de expedientes sugeridos para
+    aprobación de créditos hasta la generación del Documento de Crédito y constitución de la
+    empresa (de requerirse) para cada uno de los beneficiarios/-as.
 
     * **Dependencia responsable**: Gerencia de Crédito
 
@@ -195,7 +199,7 @@ créditos.
        B1 -> A2 [arrowtail=rcrowlvee];
        }
 
-#. **Inspección de créditos**
+#. **Inspección de inversiones**
 
     * **Descripción**: Abarca desde la solicitud de información por parte del beneficiario/-a hasta la entrega de Recaudos a dependencia
 
