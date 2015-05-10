@@ -202,11 +202,12 @@ créditos.
 
 #. **Inspección de inversiones**
 
-    * **Descripción**: Abarca desde la solicitud de información por parte del beneficiario/-a hasta la entrega de Recaudos a dependencia
+    * **Descripción**: Comprende actividades relativas a la verificación de la ejecución del plan
+     de inversión por parte del beneficiario.
 
     * **Dependencia responsable**: Gerencia de Crédito
 
-    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Estadística
+    * **Unidad(es) Ejecutora(s)**: Departamento de Seguimiento, Verificación y Asistencia Técnica
 
     * **Tabla de Actividades**:
 
