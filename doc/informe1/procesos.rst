@@ -8,14 +8,17 @@ créditos.
 
 
 +-----------------------------------------------+
+|**Proceso**: Recepción de Solicitudes
 |**Descripción**: Abarca desde la solicitud de  |
 |información por parte del beneficiario/-a      |
-|hasta su entrega a Secretaría Ejecutiva        |
-|                                               |
-|**Unidad ejecutora**: Gerencia de Crédito      |
+|hasta la entrega de Recaudos a dependencia     |
+|**Dependencia responsable**: Gerencia de Crédi |
+|  to                                           |
+|**Unidad(es) Ejecutora(s)**: Información de Cré|
+|  dito, Estadística                            |
 +-----------------------------------------------+
 
-.. list-table:: **Solicitud de Crédito**
+.. list-table::
    :widths: 40 40 40
    :header-rows: 1
 
