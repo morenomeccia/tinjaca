@@ -1,0 +1,332 @@
+digraph  {
+	graph [fontname="Liberation Sans Narrow Condensed",
+		label="Diagrama de Procesos FOMDES",
+		rankdir=LR,
+		splines=ortho
+	];
+	node [fontname="Liberation Sans Narrow Condensed",
+		label="\N"
+	];
+	edge [fontname="Liberation Sans Narrow Condensed",
+		fontsize=10
+	];
+	subgraph cluster_er {
+		graph [label=<<B>Estadística y Evaluación de Riesgos</B>>,
+			labeljust=l
+		];
+		er0		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="person.png"/></TD></TR>
+<TR><TD>Añadir al usuario a<br/>la lista del taller</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		er1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="envelope.png"/></TD></TR>
+<TR><TD>Enviar Planilla de<br/>Requisitos</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		er0 -> er1;
+	}
+	subgraph cluster_aj {
+		graph [label=<<B>Análisis Jurídico</B>>,
+			labeljust=l
+		];
+		aj0		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="person.png"/></TD></TR>
+<TR><TD>Verificar validez<br/>legal de los<br/>requisitos</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		aj1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="person.png"/></TD></TR>
+<TR><TD>Elaborar Informe de<br/>Control Previo</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		aj0 -> aj1;
+		aj2		 [fillcolor="white:grey",
+			fontsize=10,
+			image="cross.png",
+			label="",
+			shape=diamond,
+			style=filled,
+			xlabel="¿La garantía cumple?"];
+		aj1 -> aj2;
+		aj3		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="envelope.png"/></TD></TR>
+<TR><TD>Enviar Expediente a<br/>Análisis Económico</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		aj2 -> aj3		 [xlabel=Si];
+	}
+	subgraph cluster_ae {
+		graph [label=<<B>Análisis Económico</B>>,
+			labeljust=l
+		];
+		ae1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="person.png"/></TD></TR>
+<TR><TD>Planificar las rutas</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ae2		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="person.png"/></TD></TR>
+<TR><TD>Realizar la<br/>Inspección</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ae1 -> ae2;
+		ae0		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Recibir Expediente"];
+		ae0 -> ae1;
+		ae3		 [fillcolor="white:grey",
+			fontsize=10,
+			image="cross.png",
+			label="",
+			shape=diamond,
+			style=filled,
+			xlabel="¿Requiere Garantía?"];
+		ae5		 [fillcolor="white:grey",
+			fontsize=10,
+			image="cross.png",
+			label="",
+			shape=diamond,
+			style=filled];
+		ae3 -> ae5		 [xlabel=No];
+		ae4		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="person.png"/></TD></TR>
+<TR><TD>Realizar avalúo de<br/>la garantía</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ae3 -> ae4		 [xlabel=Si];
+		ae2 -> ae3;
+		ae6		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="person.png"/></TD></TR>
+<TR><TD>Realizar Informe<br/>Técnico</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ae5 -> ae6;
+		ae4 -> ae5;
+		ae7		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="envelope.png"/></TD></TR>
+<TR><TD>Enviar Expediente al<br/>Gerente de Crédito</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ae8		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6];
+		ae7 -> ae8;
+		ae6 -> ae7;
+	}
+	subgraph cluster_ic {
+		graph [label=<<B>Información de Crédito</B>>,
+			labeljust=l
+		];
+		ic3		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6];
+		ic2		 [fillcolor="white:grey",
+			fontsize=10,
+			image="cross.png",
+			label="",
+			shape=diamond,
+			style=filled,
+			xlabel="¿La propuesta es viable?"];
+		ic2 -> ic3		 [xlabel=No];
+		ic1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="person.png"/></TD></TR>
+<TR><TD>Evaluar viabilidad<br/>de la Propuesta</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ic1 -> ic2;
+		ic0		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Recibir Propuesta de
+Financiamiento"];
+		ic0 -> ic1;
+		ic7		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6];
+		ic6		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="person.png"/></TD></TR>
+<TR><TD>Entrevista con el<br/>usuario</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ic6 -> ic7		 [style=invis];
+		ic5		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="person.png"/></TD></TR>
+<TR><TD>Crear Expediente</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ic5 -> ic6;
+		ic4		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Recibir Requisitos"];
+		ic4 -> ic5;
+	}
+	subgraph cluster_gc {
+		graph [label=<<B>Gerencia de Crédito</B>>,
+			labeljust=l
+		];
+		gc1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="person.png"/></TD></TR>
+<TR><TD>Revisión del<br/>Expediente</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		gc2		 [fillcolor="white:grey",
+			fontsize=10,
+			image="asterisk.png",
+			label="",
+			shape=diamond,
+			style=filled,
+			xlabel="Dictamen del Informe Técnico"];
+		gc1 -> gc2;
+		gc0		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Recibir Expediente"];
+		gc0 -> gc1;
+		gc3		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="envelope.png"/></TD></TR>
+<TR><TD>Enviar Expediente a<br/>Secretaría Ejecutiva</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		gc4		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6];
+		gc3 -> gc4;
+		gc2 -> gc3		 [xlabel=Aprobado];
+	}
+	subgraph cluster_u {
+		graph [label=<<B>Usuario / Beneficiario</B>>,
+			labeljust=l
+		];
+		u5		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="person.png"/></TD></TR>
+<TR><TD>Reunir Requisitos</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		u6		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="envelope.png"/></TD></TR>
+<TR><TD>Consignar los<br/>Requisitos</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		u5 -> u6;
+		u4		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Recibir Requisitos"];
+		u4 -> u5;
+		u7		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6,
+			xlabel="Fin Requisitos"];
+		u6 -> u7;
+		u1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="person.png"/></TD></TR>
+<TR><TD>Descargar Propuesta<br/>de Financiamiento</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		u2		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="envelope.png"/></TD></TR>
+<TR><TD>Introducir Propuesta<br/>de Financiamiento</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		u1 -> u2;
+		u0		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Propuesta de
+Financiamiento"];
+		u0 -> u1;
+		u3		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6,
+			xlabel="Fin Propuesta de
+Financiamiento"];
+		u2 -> u3;
+	}
+	u6 -> ic4	 [style=dashed];
+	u2 -> ic0	 [style=dashed];
+	ic2 -> er0	 [style=dashed,
+		xlabel=Si];
+	ic6 -> aj0	 [style=dashed];
+	er1 -> u4	 [style=dashed];
+	er1 -> ic3	 [style=dashed];
+	aj3 -> ic7	 [style=dashed];
+	aj3 -> ae0	 [style=dashed];
+	ae7 -> gc0	 [style=dashed];
+}
