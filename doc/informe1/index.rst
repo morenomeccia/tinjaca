@@ -7,17 +7,30 @@
 Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales
 ===================================================================
 
-Contenidos:
-Hola Don pepito
+-------
+FOMDES
+-------
 
-Hola Don José
+Breve descripción de FOMDES con un párafo de diagnóstico general del problema a solucionar por
+Tinjacá
 
-Pasó ud por casa
+Existen varios sectores de financiamiento: Agrícola y pecuario, Artesanía, Turístico,
+Microempresas, PyME, PyMI, Industrial,  Cooperativas, Ciencia y Tecnología. Cada sector tiene una partida presupuestaria diferente. El sector Ciencia y Tecnología no tiene partida propia, por lo que se asocia a otro sector relacionado al proyecto. Tanto el monto máximo, como el número de cuotas, tiempo de pago, meses de gracia, y porcentaje de interés, dependen del sector de financiamiento y del tipo de empresa solicitante.
+
+--------------------
+Objetivo del informe
+--------------------
+El presente informe corresponde a la Etapa 1 del proyecto **SISTEMA INTEGRADO PARA EL CONTROL ADMINISTRATIVO DE FOMDES (TINJACÁ)**, relativo al Diagnóstico de requerimientos y nudos críticos con duplicaciones de procesos en los sistemas actuales del FOMDES.
+
+
+
+
 
 .. toctree::
    :maxdepth: 2
 
-   descripcion
+
+   visitas
    procesos
    nudos
    requerimientos
