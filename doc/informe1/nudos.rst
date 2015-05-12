@@ -4,9 +4,8 @@ Nudos Críticos de los procesos
 
 Definición básica del entorno de trabajo y del proceso de solicitud de créditos
 
-------------
-Estadística:
-------------
+Estadística
+===========
 
 # La oficina de Estadística (Crédito), recibe una a una las carpetas en físico con las
 propuestas de financiamiento que han sido categorizadas como “viables”.
@@ -31,9 +30,9 @@ y las totalizaciones. Este procedimiento se hace a mano utilizando una hoja de c
 # También se tiene un formato para informes POA, que son solicitados por
 presidencia.
 
----------------------
-Ciencia y Tecnología:
----------------------
+
+Ciencia y Tecnología
+====================
 
 1) Existe en primer lugar una oficina de asesoramiento técnico, a la cual pueden acudir las
 personas sin propuestas concretas para recibir instrucciones y recomendaciones al momento de
@@ -66,9 +65,9 @@ prima y proveedores.
 9) Esta oficina es relativamente nueva en FOMDES, iniciándose la modalidad de ingreso en el año
 2015, por lo que su integración con el resto de los procesos no esta del todo bien definida.
 
----------------------------
-Seguimiento/Acompañamiento:
----------------------------
+
+Seguimiento/Acompañamiento
+==========================
 
 1) Administración pasa listas de créditos liquidados a Seguimiento. Estas listas son elaboradas
 en forma manual.
