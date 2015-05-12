@@ -6,11 +6,10 @@ A continuación se presentan los procesos identificados para la estructura funci
 FOMDES en lo relativo a la asignación, acompañamiento en la ejecución y recuperación de los
 créditos.
 
+**Recepción de Propuestas**
+===========================
 
-#. **Recepción de Propuestas**
-
-    * **Descripción**: Abarca desde la solicitud de información por parte del beneficiario/-a
-    hasta la asistencia al taller
+    * **Descripción**: Abarca desde la solicitud de información por parte del beneficiario/-a hasta la asistencia al taller
 
     * **Dependencia responsable**: Gerencia de Crédito
 
@@ -55,10 +54,11 @@ créditos.
        B1 -> A2 [arrowtail=rcrowlvee];
        }
 
-#. **Recepción y Evaluación de solicitudes**
+**Recepción y Evaluación de solicitudes**
+=========================================
 
     * **Descripción**: Abarca desde la entrega de recaudos para solicitud de crédito hasta la
-    generación del listado de expedientes sugeridos para aprobación de créditos
+      generación del listado de expedientes sugeridos para aprobación de créditos
 
     * **Dependencia responsable**: Gerencia de Crédito
 
@@ -103,11 +103,12 @@ créditos.
        B1 -> A2 [arrowtail=rcrowlvee];
        }
 
-#. **Aprobación de Créditos**
+**Aprobación de Créditos**
+==========================
 
     * **Descripción**: Abarca desde la recepción del listado de expedientes sugeridos para
-    aprobación de créditos hasta la elaboración del Documento de Crédito y constitución de la
-    empresa (de requerirse) para cada uno de los beneficiarios/-as.
+      aprobación de créditos hasta la elaboración del Documento de Crédito y constitución de la
+      empresa (de requerirse) para cada uno de los beneficiarios/-as.
 
     * **Dependencia responsable**: Presidencia
 
@@ -152,10 +153,11 @@ créditos.
        B1 -> A2 [arrowtail=rcrowlvee];
        }
 
-#. **Liquidación de créditos**
+**Liquidación de créditos**
+===========================
 
     * **Descripción**: Abarca desde la consignación de los documentos notariados por parte de los
-     beneficiarios/-as hasta la entrega del cheque respectivo.
+      beneficiarios/-as hasta la entrega del cheque respectivo.
 
     * **Dependencia responsable**: Administración
 
@@ -200,10 +202,11 @@ créditos.
        B1 -> A2 [arrowtail=rcrowlvee];
        }
 
-#. **Inspección de inversiones**
+**Inspección de inversiones**
+=============================
 
     * **Descripción**: Comprende actividades relativas a la verificación de la ejecución del plan
-     de inversión por parte del beneficiario.
+      de inversión por parte del beneficiario.
 
     * **Dependencia responsable**: Gerencia de Crédito
 
@@ -248,10 +251,11 @@ créditos.
        B1 -> A2 [arrowtail=rcrowlvee];
        }
 
-#. **Pagos**
+**Pagos**
+=========
 
     * **Descripción**: Incluye actividades de recepción de pagos y actualización de estados de
-    cuenta de beneficiarios/-as
+      cuenta de beneficiarios/-as
 
     * **Dependencia responsable**: Administración
 
@@ -296,10 +300,11 @@ créditos.
        B1 -> A2 [arrowtail=rcrowlvee];
        }
 
-#. **Gestión de cobranzas**
+**Gestión de cobranzas**
+========================
 
     * **Descripción**: Comprende actividades relativas al trámite y gestión de recuperación de
-    pagos caídos por parte de beneficiarios/-as.
+      pagos caídos por parte de beneficiarios/-as.
 
     * **Dependencia responsable**: Gerencia de Recuperaciones
 
@@ -345,7 +350,8 @@ créditos.
        }
 
 
-#. **Liberación de créditos**
+**Liberación de créditos**
+==========================
 
     * **Descripción**: Contempla actividades relativas a la liberación de los créditos.
 
@@ -391,4 +397,3 @@ créditos.
        B1 -> A1 [arrowtail=odiamond, label="NG"];
        B1 -> A2 [arrowtail=rcrowlvee];
        }
-

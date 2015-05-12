@@ -11,26 +11,25 @@ Estadística:
 # La oficina de Estadística (Crédito), recibe una a una las carpetas en físico con las
 propuestas de financiamiento que han sido categorizadas como “viables”.
 # Se genera una lista en hoja de calculo introduciendo una a una las propuestas. Puede consultar
- la información del sistema SICA-WebAdmin para ingresarla a mano en las columnas de la hoja de
- cálculo. En esta plantilla se tiene un control del estatus de cada solicitante durante este
- proceso.
+la información del sistema SICA-WebAdmin para ingresarla a mano en las columnas de la hoja de
+cálculo. En esta plantilla se tiene un control del estatus de cada solicitante durante este
+proceso.
 # Se estudia cada caso para enviar por correo los requisitos correspondientes a las propuestas,
 según el sector de financiamiento.
 # También se envía por correo la invitación para la asistencia al taller,
 con la fecha que le corresponderá según el número de propuestas una vez alcanzado el límite de
 cupos para cada lista. Esta lista es firmada el día del taller por cada persona como control de
 asistencia. En caso que algún solicitante falta al taller, se coloca en lista de espera hasta que
- la persona se reporte de nuevo, y se incluye en la próxima lista de taller.
+la persona se reporte de nuevo, y se incluye en la próxima lista de taller.
 # Luego de la asistencia al taller se le asigna una cita programada para presentarse ante la
 oficina de Información de Crédito para consignar los requisitos. Nota: en dicha oficina se aclaró
- que no trabajan con esa cita, sino que depende del tiempo que demore cada solicitante en
- recaudar los requisitos.
+que no trabajan con esa cita, sino que depende del tiempo que demore cada solicitante en
+recaudar los requisitos.
 # Trimestralmente se genera un reporte estadístico de todos las solicitudes ingresadas. Se hace
 un conteo por sector dentro de cada municipio, con las sumas de los montos solicitados,
 y las totalizaciones. Este procedimiento se hace a mano utilizando una hoja de cálculo.
 # También se tiene un formato para informes POA, que son solicitados por
 presidencia.
-
 
 ---------------------
 Ciencia y Tecnología:
@@ -48,10 +47,10 @@ esta asesoría es brindada por la oficina de Ciencia y Tecnología, dado a la co
 tanto técnicos como económicos, para afinar propuesta de modo de hacerla viable.
 
 4) Una vez culminada la sesión, si tiene el visto bueno se le indica a la persona que presente la
- planilla de propuesta ante la oficina de Información de Crédito. Esta información queda
- almacenada internamente, es decir, no se ingresa a ningún sistema y no forma parte de ningún
- otro proceso. No hay ninguna relación directa con ninguna oficina de crédito y por lo tanto no
- hay seguimiento formal de dichas propuestas.
+planilla de propuesta ante la oficina de Información de Crédito. Esta información queda
+almacenada internamente, es decir, no se ingresa a ningún sistema y no forma parte de ningún
+otro proceso. No hay ninguna relación directa con ninguna oficina de crédito y por lo tanto no
+hay seguimiento formal de dichas propuestas.
 
 5) Puede consultar información de SIGEFOMDES-crédito, para los casos que ya tengan proyectos
 ingresados (no quedó claro este punto).
@@ -119,10 +118,10 @@ visita cuando no son atendidos por el beneficiario.
 
 14) Se desea incorporar un formato de minuta para atención en oficina,
 para ser firmada por los beneficiarios, donde se incluyan las declaraciones hechas por los mismos
- como soporte.
+como soporte.
 
 15) Cada crédito requiere una visita por cada desembolso liquidado. En caso de no ser atendido se
- debería realizar un máximo de dos visitas. Debe llevarse registro de esto.
+debería realizar un máximo de dos visitas. Debe llevarse registro de esto.
 
 16) Existe también el formato de charla, que también debe ser firmado en físico.
 
