@@ -11,11 +11,11 @@ Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales
 FOMDES
 -------
 
-Breve descripción de FOMDES con un párafo de diagnóstico general del problema a solucionar por
-Tinjacá
+El Fondo Merideño para el Desarrollo Económico Sustentable (FOMDES), es un ente regional adscrito a la Gobernación del estado Mérida, encargado del otorgamiento de créditos para los distintos sectores productivos distinguidos por
+los organismos de planificación del estado.
 
-Existen varios sectores de financiamiento: Agrícola y pecuario, Artesanía, Turístico,
-Microempresas, PyME, PyMI, Industrial,  Cooperativas, Ciencia y Tecnología. Cada sector tiene una partida presupuestaria diferente. El sector Ciencia y Tecnología no tiene partida propia, por lo que se asocia a otro sector relacionado al proyecto. Tanto el monto máximo, como el número de cuotas, tiempo de pago, meses de gracia, y porcentaje de interés, dependen del sector de financiamiento y del tipo de empresa solicitante.
+En este contexto, existen varios sectores de financiamiento: Agrícola y pecuario, Artesanía, Turístico,
+Microempresas, PyME, PyMI, Industrial, Cooperativas, Ciencia y Tecnología. Por su naturaleza Cada sector tiene una partida presupuestaria diferente. El sector Ciencia y Tecnología no tiene partida propia, por lo que se asocia a otro sector relacionado al proyecto. Tanto el monto máximo, como el número de cuotas, tiempo de pago, meses de gracia, y porcentaje de interés, dependen del sector de financiamiento y del tipo de empresa solicitante. Adicional a ello, los créditos de FOMDES tienen varios tipos de respaldos: Fiador, Hipoteca, Fianza Financiera y Prenda sin desplazamiento.
 
 --------------------
 Objetivo del informe
