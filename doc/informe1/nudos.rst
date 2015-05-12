@@ -1,6 +1,6 @@
-*******************************
+******************************
 Nudos Críticos de los procesos
-*******************************
+******************************
 
 Definición básica del entorno de trabajo y del proceso de solicitud de créditos
 
