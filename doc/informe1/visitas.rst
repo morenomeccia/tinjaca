@@ -1,5 +1,5 @@
-***************************
-Descripción De las Visitas
+**************************
+Descripción de las Visitas
 **************************
 
 

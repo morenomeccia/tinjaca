@@ -11,7 +11,6 @@ Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales
 .. toctree::
    :maxdepth: 2
 
-
    descripcion
    visitas
    procesos
