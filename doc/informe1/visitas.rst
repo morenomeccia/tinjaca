@@ -411,3 +411,104 @@ economicos van hasta la unidad de produccion y la inspeccionan, hacen una inspec
    que tambien ira a la unidad de produccion y hara un informe, si se encuentra alguna irregularidad en este punto se le puede
     pedir al usuario que devuelva el prestamo. Finalmente el departamento de recuperacion entrega un estado de cuenta al
      usuario que dice como se pagara el prestamo al FOMDES.
+
+
+Fecha de la visita: 9 de Abril del 2015
+========================================
+
+Visitantes
+----------
+
+* Adriana Torres
+* Francisco Palm
+* Hector Ospino
+* Mar'ia Alejandra Rujano
+* Sirius Fuenmayor
+
+Departamentos Visitados
+-----------------------
+
+ * Gerencia de Cr'edito: Estaci'on de An'alisis Jur'idico
+ * Gerencia de Cr'edito: Estaci'on de An'alisis Econ'omico
+ * Secretar'ia Ejecutiva.
+
+
+Contactos de los departamentos visitados
+----------------------------------------
+
+LLAMAR A PREGUNTAR POR EL CARGO - informaci'on de crédito:
+Karina Peña 
+tlf: 0424-9064347 llamar de 8 a 4pm entre semana
+email: LLAMAR A PREGUNTAR POR EL E-MAIL
+
+Analista jur'idico de crédito: - informaci'on de crédito:
+Neyda Cardozo
+tlf: 0426-7070064 llamar de 8 a 4pm entre semana
+email: neidabeatrizcardozo@hotmail.com
+
+analista econ'omico - LLAMAR A PREGUNTAR POR OFICINA:
+Tibisay Torres
+tlf: 0414-7395921 llamar de 8 a 4pm entre semana
+email: tibisayoca@gmail.com
+
+Analista economico - LLAMAR A PREGUNTAR POR OFICINA:
+Cecilia Molina 
+tlf: 0416-7743554 
+email: celmoli22@hotmail.com
+ 
+Analista economico - LLAMAR A PREGUNTAR POR OFICINA:
+Marybel Rivas 
+tlf: 0426-1087703 
+email: belri17@hotmail.com
+
+LLAMAR A PREGUNTAR POR EL CARGO - Secretaria Ejecutiva
+Alba Pabon
+tlf: 0424-8674420
+email: albapabonm25@gmail.com
+ 
+Minuta de la visita
+--------------------
+
+Gerencia de Cr'edito: Estaci'on de An'alisis Jur'idico
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Los créditos de FOMDES tienen varios tipos de respaldos o garant'ias: Aval con letra de cambio (Fiador), Hipoteca, fianza financiera (sociedad de garant'ias reciprocas) y Prenda sin desplazamiento. Esta instancia se encarga de verificar que la documentaci'on suministrada para respaldo de garant'ia de la solicitud sea válida legalmente y la transcribe en el sistema. Una vez hecho este procedimiento asigna el valor de "CUMPLE" o "NO CUMPLE" según se satisfagan los requisitos para las mismas. Cuando la garant'ia es hipoteca, el sistema arroja la planilla desde informaci'on de cr'edito con un campo donde se transcribe dicho documento hipotecario. Esta instancia también se encarga de ajustar expedientes que no fueron aprobados en el per'iodo inmediatamente anterior por falta de recursos. Dichos expedientes son asignados en el sistema como "rechazados" e ingresados nuevamente con un c'odigo diferente que refleja su pertenencia presupuestaria en el año en curso. Los expedientes que "cumplen" con los requisitos son pasados a la siguiente estaci'on.
+
+El sistema actual utilizado en esta dependencia es SIGEFOMDES el cual se utiliza para verificar los datos de las garant'ias. Actualmente el sistema permite informar de esta situaci'on en el campo de observaciones. El sistema arroja un reporte que se imprime donde está reflejado datos básicos del expediente, la condici'on de cumple o no cumple, la observaci'on y el texto de la hipoteca o detalle de la garant'ia. 
+
+Esta instancia también se encarga de ajustar expedientes que no fueron aprobados en el per'iodo inmediatamente anterior por falta de recursos. Dichos expedientes son asignados en el sistema como "rechazados" e ingresados nuevamente con un c'odigo diferente que refleja su pertenencia presupuestaria en el año en curso. Nos expedientes que "cumple"n con los requisitos son pasados a la siguiente estaci'on.
+
+El analista jur'idico sugiere que debe existir una opci'on intermedia para aquellos expedientes a los cuales les faltan requisitos, como "Cumple condicionado". El requisito que mas tarda en ser entregado por los usuarios es la solvencia laboral (proveniente del INCE, Seguro Social y banavih). 
+
+Se solicita que se anexe un estatus adicional para asignar a aquellos casos en los cuales se cumple con los recaudos de garant'ia pero, por ejemplo, falta algún documento menor como copia de RIF o cédula.
+
+Como cr'edito y administraci'on no estan conectados entre si para saber cuanto dinero queda, los que son rechazados por falta de cr'edito de un año son los primeros en la lista del año siguiente, para esto se vuelve a hacer una etiqueta en la carpeta del expediente con el nuevo año. Los expedientes que cumplen se pasan a sistema de inspecciones (Economistas) y los que no cumplen a gerencia general. 
+
+
+Gerencia de Cr'edito: Estaci'on de An'alisis Econ'omico
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+En la estaci'on de An'alisis Econ'omico de la Gerencia de Credito se encargan de hacer dos estudios: un aval de garant'ias (en el caso de hipotecas y en el caso de garant'ias prendatarias sin desplazamiento) y un informe de actividad econ'omica que tiene que ver con un estudio básico sobre la actividad propuesta para financiamiento y las condiciones expresadas en el proyecto para ello. Se realiza una inspecci'on para conocer si la garant'ia cubre o no el cr'edito (la misma debe ser 2 veces mayor al cr'edito). En la inspeccion se utilizan dos instrumentos: un informe t'ecnico (evaluaci'on) y minuta (datos del cr'edito), para cr'editos mayores a 200 mil. Para las visitas de inspecci'on del aval de garant'ias se dispone de 4 formatos distintos: para pyme, pimi y artesan'ia, agr'icola vegetal, agr'icola anial y turismo. 
+
+Los análisis del departamento de  An'alisis Econ'omico tienen como resultado la solicitud de un nuevo aval, por ejemplo porque el que se present'o no tenga valor estimado para responder al crédito, o porque haya algún tema de sobreestimaci'on de la actividad o de las capacidades de atenci'on del mercado, por ejemplo. El sistema deber'ia poder cargar fotograf'ias de inspecci'on con cada expediente de modo que en cualquier instancia de decisi'on pueda ser visualizada esta informaci'on.
+
+El sistema utilizado en esta estacion es SIGEFOMDES. Los analistas registran las minutas que levantan en campo, en el sistema. Piden que tanto el registro fotográfico como las minutas y el informe puedan registrarse en un único espacio en el sistema y generar un único reporte para facilitar seguimiento puesto que en cada reporte de los que se preparan en este momento y se anexan al expediente en f'isico, reflejan informaci'on repetida. 
+
+El informe tecnico y la minuta de la inspeccion se realizan actualmente en word para llevar los datos del cr'edito y la memoria fotogr'afica y en excel para los c'alculos de la evaluaci'on con un formulario est'andar. 
+
+Tanto en el informe t'ecnico como en la minuta se repite informaci'on por lo que sugieren se unifiquen en un solo formato. Tienes problemas para imprimir. En general un analista econ'omico revisa los estados financieros de la empresa, es decir si esta produciendo o no con informe y fotos.
+
+
+Secretaria Ejecutiva
+~~~~~~~~~~~~~~~~~~~~
+
+Secretar'ia ejecutiva organiza los expedientes que le env'ia Créditos en una hoja impresa, para ser presentados a Consejo Directivo para su aprobaci'on. 
+Realiza la agenda con los casos previamente filtrados que van a discutir en el consejo directivo (4 miembros + presidente). Imprime la asistencia del consejo directivo y hace el acta del consejo (con datos de la agenda). 
+
+Secretar'ia ejecutiva tambien crea y aprueba el documento del cr'edito (vac'ia los datos de la hipoteca, registro, etc). Una vez entregado el documento al beneficiario este tiene un m'aximo de 30 d'ias para autenticar el documento, en caso contrario se puede revocar la solicitud por no cumplir con la condici'on del consejo directivo o por no llevar el documento al FOMDES.  
+
+En secretar'ia ejecutiva se trabaja con el sistema informatico SIGEFOMDES, se utiliza este sistema para: registrar asistentes al consejo directivo, montar la agenda, generar el acta del consejo directivo, generar recibos para beneficiarios al momento de recibir los documentos que deben protocolizar para acceder al crédito una vez aprobado. Del mismo modo, en casos en que los cheques no se retiren o los créditos se rechacen por los beneficiarios, secretar'ia ejecutiva asigna el caracter de "revocado" en el sistema. Puede acceder a informaci'on parcial de los expedientes. Quisiera que el sistema pudiera aportarle el formato de documento de crédito para su protocolizaci'on para evitar que ese proceso se haga de forma manual.
+
+Existe un listado de estaciones para hacer un seguimiento interno de los procesos por los cuales va pasando el expediente y una condici'on: exonerado (en caso de muerte del beneficiario con hijos menores de edad, vaguadas, etc), negado, aprobado, aprobado condicionado, aprobado especial, diferido y revocado. Ellos sugieren que el sistema debe reflejar que le falta al expediente y en que condici'on se encuentra.
+Las letras de cambio de aval con garant'ia se llevan en calc.
+Secretaria ejecutiva y administraci'on no se conectan entre si, por lo que se debe permitir modificar los datos del expediente, ya que por ejemplo los datos del conyugue no son vaciados por informaci'on de cr'edito pero para secretaria ejecutiva son importantes.  
