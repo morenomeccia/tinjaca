@@ -299,4 +299,29 @@ Solicitudes al personal de FOMDES:
 
 - Planillas y Formatos internos.
 
+Fecha de la visita: 7 de Abril del 2015
+========================================
+
+Visitantes
+----------
+
+* Adriana Torres
+* Hector Ospino
+* Jorge Moreno
+* María Alejandra Rujano
+* Sirius Fuenmayor
+
+Departamentos Visitados
+-----------------------
+
+* Atención al ciudadano
+* Gerencia de Crédito
+* Acompañamiento
+
+Contactos de los departamentos visitados
+----------------------------------------
+
+
+Minuta de la visita
+--------------------
 
