@@ -3,10 +3,10 @@ Descripción de las Visitas
 **************************
 
 A continuación se presentan los resúmenes de las visitas realizadas a las instalaciones del
-FOMDES desde el 6 de Abril hasta el 6 de Mayo.
+FOMDES desde el 6 de Abril hasta el 6 de Mayo del 2015.
 
-Fecha de la visita: 31 de Marzo
-===============================
+Fecha de la visita: 31 de Marzo del 2015
+========================================
 
 Visitantes
 ----------
