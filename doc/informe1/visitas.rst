@@ -11,23 +11,19 @@ Fecha de la visita: 31 de Marzo del 2015
 Visitantes
 ----------
 
-* Hector Ospino
 * Francisco Palm
+* Hector Ospino
 
 Departamentos Visitados
 -----------------------
 
-* Atención al ciudadano
-* Gerencia de Crédito
-* Acompañamiento
 
 Contactos de los departamentos visitados
 ----------------------------------------
 
 
-Minutas de la visita
---------------------
-
+Minuta de la visita
+-------------------
 
 Se dió una primera aproximación sobre necesidades de actualización de las formas de trabajo institucional,
 según lo planteado en reuniones sostenidas con el prof Juan Carlos Villegas F:
@@ -94,4 +90,31 @@ La ruta del beneficiario dentro de la organización:
         Redacta los documentos de demanda para ejecución de garantías.
 
 
+Se acord'o enviar por correo electr'onico los manuales de normas y procedimientos.
+
+Fecha de la visita: 6 de Abril del 2015
+========================================
+
+Visitantes
+----------
+
+* Adriana Torres
+* Francisco Palm
+* Hector Ospino
+* Mar'ia Alejandra Rujano
+* Sirius Fuenmayor
+
+Departamentos Visitados
+-----------------------
+
+* Atención al ciudadano
+* Gerencia de Crédito
+* Acompañamiento
+
+Contactos de los departamentos visitados
+----------------------------------------
+
+
+Minutas de la visita
+--------------------
 
