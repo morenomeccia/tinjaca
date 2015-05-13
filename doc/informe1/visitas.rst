@@ -436,28 +436,28 @@ Departamentos Visitados
 Contactos de los departamentos visitados
 ----------------------------------------
 
-LLAMAR A PREGUNTAR POR EL CARGO - informaci'on de crédito:
-Karina Peña 
-tlf: 0424-9064347 llamar de 8 a 4pm entre semana
+Karina Peña | 
+LLAMAR A PREGUNTAR POR EL CARGO - informaci'on de crédito |
+tlf: 0424-9064347 llamar de 8 a 4pm entre semana |
 email: LLAMAR A PREGUNTAR POR EL E-MAIL
 
-Analista jur'idico de crédito: - informaci'on de crédito:
 Neyda Cardozo
+Analista jur'idico de crédito: - informaci'on de crédito:
 tlf: 0426-7070064 llamar de 8 a 4pm entre semana
 email: neidabeatrizcardozo@hotmail.com
 
-analista econ'omico - LLAMAR A PREGUNTAR POR OFICINA:
 Tibisay Torres
+analista econ'omico - LLAMAR A PREGUNTAR POR OFICINA:
 tlf: 0414-7395921 llamar de 8 a 4pm entre semana
 email: tibisayoca@gmail.com
 
-Analista economico - LLAMAR A PREGUNTAR POR OFICINA:
 Cecilia Molina 
+Analista economico - LLAMAR A PREGUNTAR POR OFICINA:
 tlf: 0416-7743554 
 email: celmoli22@hotmail.com
- 
-Analista economico - LLAMAR A PREGUNTAR POR OFICINA:
+
 Marybel Rivas 
+Analista economico - LLAMAR A PREGUNTAR POR OFICINA:
 tlf: 0426-1087703 
 email: belri17@hotmail.com
 
