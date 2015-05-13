@@ -289,9 +289,6 @@ Solicitudes al personal de FOMDES
 - Planillas y Formatos internos.
 
 
-
-
-
 La gerencia de crédito selecciona los proyectos que van al consejo directivo para su posterior aprobación o negación. Este lista se maneja utilizando calc.
 Cada año se genera una cola de rezagados luego de terminarse el presupuesto pautado, los cuales se consideran como los primeros en cola del año siguiente con nuevo código de expediente.
 El consejo directivo discute los casos aprobados bajo dos modalidades Aprobado, Aprobado condicionado y Negación.
