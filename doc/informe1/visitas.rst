@@ -413,6 +413,7 @@ economicos van hasta la unidad de produccion y la inspeccionan, hacen una inspec
      usuario que dice como se pagara el prestamo al FOMDES.
 
 
+		
 Fecha de la visita: 9 de Abril del 2015 
 ======================================== 
 
@@ -428,9 +429,9 @@ Visitantes
 Departamentos Visitados 
 ----------------------- 
 
- * Gerencia de Crédito: Estación de Análisis Jurídico 
- * Gerencia de Crédito: Estación de Análisis Económico 
- * Secretaría Ejecutiva. 
+* Gerencia de Crédito: Estación de Análisis Jurídico 
+* Gerencia de Crédito: Estación de Análisis Económico 
+* Secretaría Ejecutiva. 
 
 
 Contactos de los departamentos visitados 
@@ -440,27 +441,27 @@ Contactos de los departamentos visitados
 | LLAMAR A PREGUNTAR POR EL CARGO - Información de crédito 
 | Tlf: 0424-9064347  
 | Correo Electrónico: LLAMAR A PREGUNTAR POR EL CORREO 
-
+|
 | Neyda Cardozo 
 | Analista jurídico de crédito: - información de crédito 
 | Tlf: 0426-7070064 
 | Correo Electrónico: neidabeatrizcardozo@hotmail.com 
-
+|
 | Tibisay Torres 
 | Analista Económico - LLAMAR A PREGUNTAR POR OFICINA 
 | Tlf: 0414-7395921 llamar de 8 a 4pm entre semana 
 | Correo Electrónico: tibisayoca@gmail.com 
-
+|
 | Cecilia Molina 
 | Analista Economico - LLAMAR A PREGUNTAR POR OFICINA 
 | Tlf: 0416-7743554 
 | Correo Electrónico: celmoli22@hotmail.com 
-
+|
 | Marybel Rivas 
 | Analista Economico - LLAMAR A PREGUNTAR POR OFICINA 
 | Tlf: 0426-1087703 
 | Correo Electrónico: belri17@hotmail.com 
-
+|
 | LLAMAR A PREGUNTAR POR EL CARGO - Secretaria Ejecutiva 
 | Alba Pabon 
 | Tlf: 0424-8674420 
@@ -512,3 +513,189 @@ En secretaría ejecutiva se trabaja con el sistema informático SIGEFOMDES, se u
 Existe un listado de estaciones para hacer un seguimiento interno de los procesos por los cuales va pasando el expediente y una condición: exonerado (en caso de muerte del beneficiario con hijos menores de edad, vaguadas, etc), negado, aprobado, aprobado condicionado, aprobado especial, diferido y revocado. Ellos sugieren que el sistema debe reflejar que le falta al expediente y en que condición se encuentra. 
 Las letras de cambio de aval con garantía se llevan en en el software de ofimática Libre Office Calc. 
 Secretaria ejecutiva y administración no se conectan entre si, por lo que se debe permitir modificar los datos del expediente, ya que por ejemplo los datos del conyugue no son vaciados por información de crédito pero para secretaria ejecutiva son importantes.
+
+
+Fecha de la visita: 14 de Abril del 2015
+========================================
+
+Visitantes
+----------
+
+* Francisco Palm
+* Hector Ospino
+* María Alejandra Rujano
+
+Departamentos Visitados
+-----------------------
+
+* Gerencia de recuperaciones
+* Gerencia de sistemas
+
+Contactos de los departamentos visitados
+----------------------------------------
+
+| Kelly Contreras
+| LLAMAR A PREGUNTAR POR EL CARGO - Gerencia de recuperaciones 
+| Tlf: 0426-1772979 
+| Correo Electrónico: kellyroxy@hotmail.com 
+|
+| Ciseron Paz 
+| LLAMAR A PREGUNTAR POR EL CARGO - Gerencia de sistemas, recuperaciones y gestion de riesgo
+| Tlf: 0416-1343718 
+| Correo Electrónico: ceta_paz@hotmail.com
+
+  
+Minuta de la visita
+--------------------
+
+Gerencia de recuperaciones
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Administración utiliza los datos del cheque del credito para generar las tablas de amortizacion y los estados de cuenta. Luego recuperaciones realiza una factura para Caja con los datos del usuario, monto aprobado, tasas de interés y cuotas entre otras. Las cuotas vencidas o pagadas no se reflejan en los reportes. 
+
+#. La gerencia de recuperaciones cuenta con una lista de expedientes por fecha, municipio, programa (sector), rutas (sectores para las visitas supervisadas), institutos (incluye FOMDES y son carteras heredadas externas), tipo de garantía, categoría del cliente (depende de las cuotas vencidas) entre otras.
+ 
+#. No existe un reporte desglosado por niveles de morosidad que seria de utilidad para enviar mensajes de texto para recordar el vencimiento de las cuotas.
+
+#. Las listas de los expedientes se filtran y se crea un archivo en HTML y cada 3 meses (por la densidad de información) los ejecutivos de cobranza hacen una lista manual (ya que no se genera automaticamente por el sistema) en la herramienta ofimatica LibreOffice Calc con las personas que deben visitar por fecha, municipio y sectores cuando existen cuotas vencidas. 
+
+#. Las carteras (menos detalle) y las sabanas (mas detalle) son los listados de expedientes en recuperaciones, con información del crédito (cuotas = capital + interés). 
+
+#. Manejan dos fechas limites para el pago de las cuotas, los días 3 y 17 de cada mes. 
+
+#. Los estados de cuentas se ubican por cédula y expediente. 
+
+#. Se quiere que cada ejecutivo tenga asignado automáticamente una cierta cantidad de expedientes y filtrarlos por criterios para los reportes en el que se muestren las cuotas que están mas próximas a vencerse (de mayor a menor, diferenciadas por colores).
+
+#. Los pagos de las cuotas de la caja express van a la bases de datos, pero se actualiza cada 3 meses. 
+
+#. No existe una diferenciación en el sistema entre "deuda vigente" y "deuda vencida", todo se llama deuda vencida. 
+
+#. En FOMDES existen alrededor de 18 a 20 mil expedientes. 
+
+#. Los intereses de los meses de gracia (que son como minimo 3 meses de intereses que dependen del sector) son sumados al total del crédito (capital+intereses) de manera manual y si se cancela por adelantado son descontados.
+
+#. Los 15 ejecutivos activos hacen contacto con aproximadamente 25 beneficiarios al día (en promedio 500 al mes) pero este proceso no se refleja en el sistema sino en las listas manuales realizadas con la herramienta ofimatica LibreOffice Calc en la que filtran por fecha y otros lo llevan en un cuaderno personal. 
+
+#. Solo 1 abogado es el encargado de realizar en casos extremos de morosidad la misma función de los ejecutivos con los pagos de las carteras. Existen 3 estatus de morosidad: extrajudicial es cuando el abogado actúa y se bloquean los pagos en caja hasta tanto el beneficiario no se entrevista con el mismo para ser desbloqueado; liberado, es cuando paga todo y consultoría jurídica libera la hipoteca o fianza y la ultima es demanda.    
+
+#. Las cuotas para el pago son fijas (capital + intereses) y se pueden pagar en abonos previo acuerdo con el FOMDES. Se recargara el 3% diario de mora sobre la tasa de interés. 
+
+#.  Recuperaciones no mete nada en físico al expediente. 
+
+#. En recuperaciones se trabaja con el sistema informatico SISAC.   
+
+#. Se hace una conciliación de datos entre el sistema informartico utilizado en administración (SIGEFOMDES) y el sistema informatico utilizado en la gerencia de recuperaciones (SISAC) ya que si en el primero se hace un pago en el segundo este pago se debe actualizar de manera manual. 
+
+#. Sugieren que debe existir una nota de débito del cheque para ajustar las fracciones de pago, ya que cuando se hace un pago con cheque y se genera el recibo, es luego de 15 dias que el banco reporta que el cheque fue rechazado y se genera un error porque se debe anular el recibo y la cuota pagada. Se le notifica al usuario y en el nuevo recibo se le hace el ajuste y se explica el porque de la situación. 
+
+#. Para la presidencia del FOMDES es importante conocer cuanto fue el ingreso diario de caja (reporte), es decir cuanto se cobro y cuanto falta por cobrar. Establecieron metas diarias de recuperación, montos mayores a 120 mil se considera que van bien en caso contrario van mal. Este reporte se hace de manera manual y quieren que se vea el monto total en la interfaz del sistema.
+
+#. La gerencia de recuperaciones es la encargada de hacer las exoneraciones (en caso de muerte del beneficiario, vaguadas, etc). Las exoneraciones no tienen filtros por año en el sistema. 
+
+#. No tienen actualizado en el sistema el sector de ciencia y tecnología.
+
+#. Cuentan con un modulo denominado "Gestión del trabajo" en donde cada ejecutivo de cobranza debe vaciar la información de su labor diaria y otro modulo denominado "Seguimiento registrados" para vaciar la información que obtienen del beneficiario. 
+
+#. El capital que se recupera vuelve a crédito y los intereses a administración para gastos internos de la institución.  
+
+#. Aparte de los ejecutivos de cobranza existen los ejecutivos de calle, que son los encargados de llevar los estados de cuenta a los beneficiarios y actualizar los datos (teléfonos).
+
+#. Los estados de cuenta tienen dos campos: Un campo denominado "recibo", que guarda la lista de los recibos del expediente que los beneficiarios entregan en físico, por fax o correo y un campo denominado "Seguimiento", el cual guarda un resumen del histórico de FOMDES con el beneficiario, es decir si se contacto a través de una visita o una llamada y a que acuerdo de fecha y pago se llego. En seguimiento no hay alertas en las fechas próximas en que el beneficiario se compromete a pagar las cuotas vencidas. Tienen un modulo para consultar los depósitos de las cuotas. 
+
+Gerencia de sistemas, recuperaciones y gestion de riesgo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Una de las labores de gerencia de sistemas es corregir las deficiencias para generar los estados de cuentas y cobranzas por parte de recuperaciones; si un beneficiario paga las cuotas del credito por adelantado se exonera mas de lo permitido, el saldo negativo es mayor o se generan mas cuotas de las que se deben pagar. Esto lo resuelve al gerencia de sistemas de manera manual, ya que si este error persiste cuando va a administración es rechazado. El recibo de cancelación total del crédito en algunos casos es distinto al de administración, porque sistemas es quien coloca el estatus de "cancelación total del crédito".  
+
+#. Los sistemas informaticos de kas gerencias de Crédito, Administración y Recuperaciones están separados y tienen bases de datos distintas en servidores independientes. Sin embargo, administración y recuperación tienen bases de datos distintas pero comparten el mismo servidor. Cuando administración realiza el balance general de comprobación este puede llegar a durar 6 horas, ya que hace un barrido desde el año 2001 en los que hay créditos activos a la fecha. Debido al tiempo que toman estos balances son realizados de noche para no obstaculizar el proceso en el día. Los resultados de los balances no se guardan en la bases de datos porque son acumulativos, sino en fisico (impresos). 
+
+#. El entrevistado en la gerencia de sistemas propone que los cálculos de recuperaciones se pueden optimizar, cuando se haga esto hay que tomar en cuenta el cambio de las políticas y las tasas de interés. 
+
+#. La gerencia de Sistemas tiene 4 servidores activos: Uno para la ruta del crédito, otro para el eespaldo de la bases de datos, SISAC, SIGEFOMDES, capta huella, otro para la impresión de documentos y uno para la vigilancia de la institucion.
+
+#. Tambien existen otros sistemas informaticos en la institucion de los que se encarga la gerencia de credito; Webchat (chat interno entre los trabajadores), WebAdmin (información de crédito) y Foncismac (monitoreo de los equipos con la dirección IP). 
+
+#. La información de crédito se debe hacer a través de reportes con conteos sencillos. 
+
+#. Los reportes se deben poder generar utilizando filtros. Actualmente se extraer de la base de datos de manera manual.
+
+#. Los gerentes tienen permiso para modificar/corregir datos en el sistema. Esto para aliviar carga de sistemas. Sin embargo, la gerencia de crédito no puede editar la información básica y cuando se presentan errores lo corrige la gerencia de sistemas. 
+
+#. La gerencia de administración tiene un ingreso no reportado por pago de los beneficiarios, del cual no puede disponer hasta que no se contraste con los bauches originales. 
+
+#. Los reportes de las carteras de cobranza (personas al día y morosos) se hacen una vez por mes pero deberían actualizarse constantemente. 
+
+#. Los reportes de las gerencias de seguimiento y de recuperaciones son diferentes, los reportes de la gerencia de recuperaciones poseen mayor detalle ya que reflejan las cobranzas. 
+
+#. El nuevo sistema informatico que utilicen las gerencias de credito y recuperaciones debe ser flexible y tener portabilidad para que se ajuste a las nuevas políticas y a las exigencias de cada presidente. Otra caracteristica deseable del nuevo sistema es que sea de facil mantenimiento.
+
+#. El sistema informatico que utiliza Caja tiene problemas con el manejo de los céntimos. 
+
+#. La gerencia de sistemas recomienda integrar los expedientes desde cero (creación) hasta la liberación del crédito en recuperación. 
+
+Fecha de la visita: 18 de Abril del 2015
+========================================
+
+Visitantes
+----------
+
+* Francisco Palm
+* Hector Ospino
+* María Alejandra Rujano
+* Jorge Moreno
+
+Departamentos Visitados
+-----------------------
+
+* Departamento de Estadística
+* Oficina de Ciencia y Tecnologia
+
+Contactos de los departamentos visitados
+----------------------------------------
+
+| ??????
+| ?????? - ?????? 
+| Tlf: ?????? 
+| Correo Electrónico: ?????? 
+  
+Minuta de la visita
+--------------------
+
+Departamento de Estadística
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. La oficina de Estadística (Crédito), recibe una a una las carpetas en físico con las propuestas de financiamiento que han sido categorizadas como “viables”.
+
+#. Se genera una lista en hoja de calculo introduciendo una a una las propuestas. Puede consultar la información del sistema SICA-WebAdmin para ingresarla a mano en las columnas de la hoja de cálculo. En esta plantilla se tiene un control del estatus de cada solicitante durante este proceso.
+
+#. Se estudia cada caso para enviar por correo los requisitos correspondientes a las propuestas, según el sector de financiamiento.
+
+#. También se envía por correo la invitación para la asistencia al taller, con la fecha que le corresponderá según el número de propuestas una vez alcanzado el límite de cupos para cada lista. Esta lista es firmada el día del taller por cada persona como control de asistencia. En caso que algún solicitante falta al taller, se coloca en lista de espera hasta que la persona se reporte de nuevo, y se incluye en la próxima lista de taller.
+
+#. Luego de la asistencia al taller se le asigna una cita programada para presentarse ante la oficina de Información de Crédito para consignar los requisitos. Nota: en dicha oficina se aclaró que no trabajan con esa cita, sino que depende del tiempo que demore cada solicitante en recaudar los requisitos.
+
+#. Trimestralmente se genera un reporte estadístico de todos las solicitudes ingresadas. Se hace un conteo por sector dentro de cada municipio, con las sumas de los montos solicitados, y las totalizaciones. Este procedimiento se hace a mano utilizando una hoja de cálculo.
+
+#. También se tiene un formato para informes POA, que son solicitados por presidencia.
+
+Oficina de Ciencia y Tecnología
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Existe en primer lugar una oficina de asesoramiento técnico, a la cual pueden acudir las personas sin propuestas concretas para recibir instrucciones y recomendaciones al momento de elaborar sus propuestas. Las personas son enviadas a esta oficina desde la taquilla de entrada.
+
+#. Para el caso particular de las propuestas asociadas al área científico-tecnológica, esta asesoría es brindada por la oficina de Ciencia y Tecnología, dado a la complejidad de dicho ámbito. Normalmente se atienden proyectos ya encaminados, o con algún producto inicial o prototipo.
+
+#. Se realiza una entrevista con la persona para discutir a detalle todos los aspectos, tanto técnicos como económicos, para afinar propuesta de modo de hacerla viable.
+
+#. Una vez culminada la sesión, si tiene el visto bueno se le indica a la persona que presente la planilla de propuesta ante la oficina de Información de Crédito. Esta información queda almacenada internamente, es decir, no se ingresa a ningún sistema y no forma parte de ningún otro proceso. No hay ninguna relación directa con ninguna oficina de crédito y por lo tanto no hay seguimiento formal de dichas propuestas.
+
+#. Puede consultar información de SIGEFOMDES-crédito, para los casos que ya tengan proyectos ingresados (no quedó claro este punto).
+
+#. Se utiliza una hoja de cálculo para guardar información de las propuestas y llevar un control de las personas atendidas. Esta información se pasa a presidencia de modo informativo.
+
+#. Se realizan estadísticas por sectores y municipios manualmente.
+
+#. Se desea llevar estadísticas de ciertas características, como lugar de procedencia de materia prima y proveedores.
+
+#. Esta oficina es relativamente nueva en FOMDES, iniciándose la modalidad de ingreso en el año 2015, por lo que su integración con el resto de los procesos no esta del todo bien definida.
