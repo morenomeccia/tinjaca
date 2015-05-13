@@ -429,9 +429,9 @@ Visitantes
 Departamentos Visitados 
 ----------------------- 
 
- * Gerencia de Crédito: Estación de Análisis Jurídico 
- * Gerencia de Crédito: Estación de Análisis Económico 
- * Secretaría Ejecutiva. 
+* Gerencia de Crédito: Estación de Análisis Jurídico 
+* Gerencia de Crédito: Estación de Análisis Económico 
+* Secretaría Ejecutiva. 
 
 
 Contactos de los departamentos visitados 
@@ -529,7 +529,7 @@ Departamentos Visitados
 -----------------------
 
 * Gerencia de recuperaciones
-* Gerencia de sistemas, recuperaciones y gestion de riesgo
+* Gerencia de sistemas
 
 Contactos de los departamentos visitados
 ----------------------------------------
@@ -633,3 +633,69 @@ Gerencia de sistemas, recuperaciones y gestion de riesgo
 #. El sistema informatico que utiliza Caja tiene problemas con el manejo de los céntimos. 
 
 #. La gerencia de sistemas recomienda integrar los expedientes desde cero (creación) hasta la liberación del crédito en recuperación. 
+
+Fecha de la visita: 18 de Abril del 2015
+========================================
+
+Visitantes
+----------
+
+* Francisco Palm
+* Hector Ospino
+* María Alejandra Rujano
+* Jorge Moreno
+
+Departamentos Visitados
+-----------------------
+
+* Departamento de Estadística
+* Oficina de Ciencia y Tecnologia
+
+Contactos de los departamentos visitados
+----------------------------------------
+
+| ??????
+| ?????? - ?????? 
+| Tlf: ?????? 
+| Correo Electrónico: ?????? 
+  
+Minuta de la visita
+--------------------
+
+Departamento de Estadística
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. La oficina de Estadística (Crédito), recibe una a una las carpetas en físico con las propuestas de financiamiento que han sido categorizadas como “viables”.
+
+#. Se genera una lista en hoja de calculo introduciendo una a una las propuestas. Puede consultar la información del sistema SICA-WebAdmin para ingresarla a mano en las columnas de la hoja de cálculo. En esta plantilla se tiene un control del estatus de cada solicitante durante este proceso.
+
+#. Se estudia cada caso para enviar por correo los requisitos correspondientes a las propuestas, según el sector de financiamiento.
+
+#. También se envía por correo la invitación para la asistencia al taller, con la fecha que le corresponderá según el número de propuestas una vez alcanzado el límite de cupos para cada lista. Esta lista es firmada el día del taller por cada persona como control de asistencia. En caso que algún solicitante falta al taller, se coloca en lista de espera hasta que la persona se reporte de nuevo, y se incluye en la próxima lista de taller.
+
+#. Luego de la asistencia al taller se le asigna una cita programada para presentarse ante la oficina de Información de Crédito para consignar los requisitos. Nota: en dicha oficina se aclaró que no trabajan con esa cita, sino que depende del tiempo que demore cada solicitante en recaudar los requisitos.
+
+#. Trimestralmente se genera un reporte estadístico de todos las solicitudes ingresadas. Se hace un conteo por sector dentro de cada municipio, con las sumas de los montos solicitados, y las totalizaciones. Este procedimiento se hace a mano utilizando una hoja de cálculo.
+
+#. También se tiene un formato para informes POA, que son solicitados por presidencia.
+
+Oficina de Ciencia y Tecnología
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Existe en primer lugar una oficina de asesoramiento técnico, a la cual pueden acudir las personas sin propuestas concretas para recibir instrucciones y recomendaciones al momento de elaborar sus propuestas. Las personas son enviadas a esta oficina desde la taquilla de entrada.
+
+#. Para el caso particular de las propuestas asociadas al área científico-tecnológica, esta asesoría es brindada por la oficina de Ciencia y Tecnología, dado a la complejidad de dicho ámbito. Normalmente se atienden proyectos ya encaminados, o con algún producto inicial o prototipo.
+
+#. Se realiza una entrevista con la persona para discutir a detalle todos los aspectos, tanto técnicos como económicos, para afinar propuesta de modo de hacerla viable.
+
+#. Una vez culminada la sesión, si tiene el visto bueno se le indica a la persona que presente la planilla de propuesta ante la oficina de Información de Crédito. Esta información queda almacenada internamente, es decir, no se ingresa a ningún sistema y no forma parte de ningún otro proceso. No hay ninguna relación directa con ninguna oficina de crédito y por lo tanto no hay seguimiento formal de dichas propuestas.
+
+#. Puede consultar información de SIGEFOMDES-crédito, para los casos que ya tengan proyectos ingresados (no quedó claro este punto).
+
+#. Se utiliza una hoja de cálculo para guardar información de las propuestas y llevar un control de las personas atendidas. Esta información se pasa a presidencia de modo informativo.
+
+#. Se realizan estadísticas por sectores y municipios manualmente.
+
+#. Se desea llevar estadísticas de ciertas características, como lugar de procedencia de materia prima y proveedores.
+
+#. Esta oficina es relativamente nueva en FOMDES, iniciándose la modalidad de ingreso en el año 2015, por lo que su integración con el resto de los procesos no esta del todo bien definida.
