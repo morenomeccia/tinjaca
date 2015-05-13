@@ -134,8 +134,8 @@ Minuta de la visita
 --------------------
 
 
-- Oficina de Atención del Ciudadano: Recepción
-...............................................
+Oficina de Atención del Ciudadano: Recepción
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Sistema utilizado en recepción: SICA
@@ -159,8 +159,8 @@ fechas y cédula.
 
 Es un sistema sencillo que no presenta fallas.
 
-- Relación con otras dependencias
-..................................
+Relación con otras dependencias
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Debería generar listas de orden de atención por dependencia. No registra hora de
@@ -169,8 +169,8 @@ salida, se debería hacer seguimiento de las visitas por las dependencias.
 Los datos de los visitantes quedan disponibles para el resto de las
 dependencias, la idea es que minimicen la necesidad de transcribir información.
 
-- Consultas por teléfono
-........................
+Consultas por teléfono
+~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Atienden por teléfono solicitudes del estado de la solicitud del crédito que
@@ -184,8 +184,8 @@ recuperación y cobranzas. ¿Cuánto deben? ¿Cuántas cuotas faltan?
 Ofrecer la planilla de solicitud por Internet alivió muchísimo el trabajo de la
 Oficina de atención al Ciudadano.
 
-- Comentarios de Ceblín Ruíz
-.............................
+Comentarios de Ceblín Ruíz
+~~~~~~~~~~~~~~~
 
 
 Ceblín Ruíz explicó mas adelante que como Oficina de Atención al ciudadano se da
@@ -196,15 +196,12 @@ otorgados por otra institución.
 Se trata de un ente contralor desde un punto de vista integral, jurídico, con
 criterios de equidad social y territorial.
 
-- Gerencia de Crédito: Políticas de Financiamiento
-...................................................
+Gerencia de Crédito: Políticas de Financiamiento
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Cada año en la gerencia de crédito se discuten las políticas de financiamiento,
 en la que se establecen las tasas de interés, y los montos asginados por sector
 y por rubro.
-
-Solicitudes
------------
 
 Información de Crédito
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -271,7 +268,7 @@ Que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los
 montos y a los rubros.
 
 Solicitudes al personal de FOMDES
-=================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Decreto de creación de FOMDES y actualizaciones si las hay.
 
