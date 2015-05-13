@@ -24,9 +24,9 @@ créditos.
        * - Entrada
          - Actividades
          - Salida
-       * - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
+       * - Recepción propuesta de financiamiento
+         - Ingreso de datos al sistema
+         - Planilla propuesta de financiamiento
 
     * **Flujograma**:
 
@@ -123,9 +123,9 @@ créditos.
        * - Entrada
          - Actividades
          - Salida
-       * - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
+       * - Recepción de Propuesta de Financiamiento.
+         - Ingreso de datos al sistema (Web Admin).
+         - Planilla de la propuesta de financiamiento.
 
     * **Flujograma**:
 
