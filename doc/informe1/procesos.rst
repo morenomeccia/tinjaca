@@ -13,20 +13,26 @@ créditos.
 
     * **Dependencia responsable**: Gerencia de Crédito
 
-    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Estadística y evaluación de riesgos
+    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Analistas de Crédito, Estadística y Evaluación de Riesgos
 
     * **Tabla de Actividades**:
 
     .. list-table::
        :widths: 40 40 40
-       :header-rows: 1
+       :header-rows: 3
 
        * - Entrada
          - Actividades
          - Salida
-       * - Recepción propuesta de financiamiento
-         - Ingreso de datos al sistema
-         - Planilla propuesta de financiamiento
+       * - Propuesta de financiamiento
+         - Ingreso de datos al sistema WebAdmin
+         - Propuesta con código
+       * - Propuesta con código
+         - Revisión de la viabilidad de la propuesta
+         - Propuesta viable/no viable
+       * - Propuesta viable
+         - Incluye en lista del taller y envia requisitos
+         - Propuesta seleccionada para taller
 
     * **Flujograma**:
 
@@ -62,20 +68,26 @@ créditos.
 
     * **Dependencia responsable**: Gerencia de Crédito
 
-    * **Unidad(es) Ejecutora(s)**: Análisis Jurídico, Análisis Económico
+    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Análisis Jurídico, Análisis Económico
 
     * **Tabla de Actividades**:
 
     .. list-table::
        :widths: 40 40 40
-       :header-rows: 1
+       :header-rows: 3
 
        * - Entrada
          - Actividades
          - Salida
-       * - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
+       * - Requisitos por sector
+         - Ingreso de datos al sistema SIGEFOMDES-Crédito
+         - Expediente con codigo por sector
+       * - Expediente
+         - Revisión de la garantia
+         - Propuesta que cumplen/no cumplen
+       * - Propuesta que cumplen/no cumplen
+         - Realiza inspeccion y avaluo a la unidad de producción
+         - Informe tecnico
 
     * **Flujograma**:
 
