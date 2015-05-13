@@ -122,7 +122,7 @@ Departamentos Visitados
 Contactos de los departamentos visitados
 ----------------------------------------
 * Atención del Ciudadano:
-    - Supervisora Natalia Guzmán
+    - Supervisora: Natalia Guzmán
     - Belkis Guillén
     - Daniel Zambrano
 
@@ -135,6 +135,7 @@ Minuta de la visita
 
 
 - Oficina de Atención del Ciudadano: Recepción
+...............................................
 
 
 Sistema utilizado en recepción: SICA
@@ -159,6 +160,7 @@ fechas y cédula.
 Es un sistema sencillo que no presenta fallas.
 
 - Relación con otras dependencias
+..................................
 
 
 Debería generar listas de orden de atención por dependencia. No registra hora de
@@ -168,6 +170,7 @@ Los datos de los visitantes quedan disponibles para el resto de las
 dependencias, la idea es que minimicen la necesidad de transcribir información.
 
 - Consultas por teléfono
+........................
 
 
 Atienden por teléfono solicitudes del estado de la solicitud del crédito que
@@ -182,6 +185,7 @@ Ofrecer la planilla de solicitud por Internet alivió muchísimo el trabajo de l
 Oficina de atención al Ciudadano.
 
 - Comentarios de Ceblín Ruíz
+.............................
 
 
 Ceblín Ruíz explicó mas adelante que como Oficina de Atención al ciudadano se da
@@ -192,22 +196,8 @@ otorgados por otra institución.
 Se trata de un ente contralor desde un punto de vista integral, jurídico, con
 criterios de equidad social y territorial.
 
-Gerencia de Crédito
-===================
-
-Contacto
---------
-
-Gerente: Maybell Vera
-tlf: 0426 9757717
-email: mabellyvm75@gmail.com
-
-Jefe Dpto. de Acompañamiento: Nancy Molina
-tlf: 0424 7200901
-
-
-Políticas de Financiamiento
----------------------------
+- Gerencia de Crédito: Políticas de Financiamiento
+...................................................
 
 Cada año en la gerencia de crédito se discuten las políticas de financiamiento,
 en la que se establecen las tasas de interés, y los montos asginados por sector
