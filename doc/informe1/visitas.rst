@@ -121,8 +121,14 @@ Departamentos Visitados
 
 Contactos de los departamentos visitados
 ----------------------------------------
-Atención del Ciudadano: Belkis Guillén y Daniel Zambrano
-Gerencia de Crédito: Maybell Vera
+* Atención del Ciudadano:
+    - Supervisora Natalia Guzmán
+    - Belkis Guillén
+    - Daniel Zambrano
+
+* Gerencia de Crédito: Maybell Vera
+
+* Acompañamiento: Nancy Molina
 
 Minuta de la visita
 --------------------
@@ -161,8 +167,8 @@ salida, se debería hacer seguimiento de las visitas por las dependencias.
 Los datos de los visitantes quedan disponibles para el resto de las
 dependencias, la idea es que minimicen la necesidad de transcribir información.
 
-Consultas por teléfono
-++++++++++++++++++++++
+- Consultas por teléfono
+
 
 Atienden por teléfono solicitudes del estado de la solicitud del crédito que
 está en el sistema SIGEFOMDES. Muestra un menu incluso sin haberse logueado, si
@@ -175,8 +181,8 @@ recuperación y cobranzas. ¿Cuánto deben? ¿Cuántas cuotas faltan?
 Ofrecer la planilla de solicitud por Internet alivió muchísimo el trabajo de la
 Oficina de atención al Ciudadano.
 
-Comentarios de Ceblín Ruíz
-++++++++++++++++++++++++++
+- Comentarios de Ceblín Ruíz
+
 
 Ceblín Ruíz explicó mas adelante que como Oficina de Atención al ciudadano se da
 atención integral a los usuarios de FOMDES. Se recibían denuncias en vista que
