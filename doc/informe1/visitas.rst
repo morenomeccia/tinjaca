@@ -128,36 +128,32 @@ Minuta de la visita
 --------------------
 
 
-Oficina de Atención del Ciudadano: Recepción
-+++++++++++++++++++++++++++++++++++++++++++
+- Oficina de Atención del Ciudadano: Recepción
+
 
 Sistema utilizado en recepción: SICA
 SICA (Sistema Integrado de Información Adminsitrativa)
 
-Se introducen los datos personales del solicitante: nombre, apellido, cedula,
-ubicación política, dependencia a visitar, observación y la hora de entrada/salida
-del FOMDES en el SICA (Sistema Integrado de Control Administrativo).
+Si el usuario llega a FOMDES por vez primera se registra en SICA, solicitando Nombre,
+Apellido, Cédula, Ubicación, Dependencia, y Observaciones.
+
+Cuando llega un usuario ya registrado se solicita cédula y dependencia destino.
+El sistema registra automáticamente la fecha y hora.
 
 Si el solicitante llama para pedir información sobre el estatus de su crédito,
 atención al usuario levanta la pestaña de los sistemas  WebAdmin y SIGEFOMDES
 para dar la información correspondiente.
 
-La persona en la recepción debe iniciar sesión, si pasa el sistema un período de
+La persona en la recepción debe iniciar sesión en SICA, si pasa el sistema un período de
 tiempo inactivo solicita el reinición de la sesión.
-
-Cuando llega un usuario ya registrado se solicita cédula y dependencia destino.
-El sistema registra automáticamente la fecha y hora.
-
-Si el usuario llega a FOMDES por vez primera se registra, solicitando Nombre,
-Apellido, Cédula, Ubicación, Dependencia, y Observaciones.
 
 Se realizan reportes de los últimos vistantes. Se hacen búsquedas por rango de
 fechas y cédula.
 
 Es un sistema sencillo que no presenta fallas.
 
-Relación con otras dependencias
-+++++++++++++++++++++++++++++++
+- Relación con otras dependencias
+
 
 Debería generar listas de orden de atención por dependencia. No registra hora de
 salida, se debería hacer seguimiento de las visitas por las dependencias.
