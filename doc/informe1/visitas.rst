@@ -185,7 +185,7 @@ Consultas por teléfono:
     Se recalcó que el ofrecimiento de la planilla de solicitud por Internet alivió el trabajo de la
     Oficina de atención al Ciudadano.
 
-Comentarios de Ceblín Ruíz
+Comentarios de Ceblín Ruíz:
 
 
     Ceblín Ruíz explicó como la Oficina de Atención al ciudadano ofrece
@@ -201,10 +201,16 @@ Comentarios de Ceblín Ruíz
 Gerencia de Crédito: Políticas de Financiamiento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cada año, en la gerencia de crédito se discuten y se modifican las políticas de financiamiento para el otorgamiento
+Anualmente, en la gerencia de crédito se discuten y se modifican las políticas de financiamiento para el otorgamiento
 de los créditos, en la que se establecen las tasas de interés y los montos asginados por sector, rubro o garantía .
 
-Información de Crédito
+La gerencia de crédito selecciona los proyectos que van al consejo directivo para su posterior aprobación o
+negación. Este lista se maneja utilizando una hoja de cálculo.
+Cada año, se genera una cola de rezagados luego de terminarse el presupuesto pautado, los cuales pasan a ser
+los primeros en cola del año siguiente con nuevo código de expediente.
+
+
+Información de Crédito:
 
 
     Se inicia con la descarga de la planilla de Propuesta de Financiamiento desde el
@@ -221,13 +227,13 @@ Información de Crédito
     Al finalizar el taller se entrega la lista de requisitos. Estos requisitos
     dependen del tipo de solicitud (sector, monto, rubro).
 
-Análisis Jurídico
+Análisis Jurídico:
 
 
     Una vez que se reciben los requisitos, pasa a "Analisis Jurídico" donde se
     realiza el "Informe de control previo" (tiene un Formato).
 
-Análisis Económico
+Análisis Económico:
 
 
     Si se recibe el visto bueno del Análisis Jurídico, pasa a una lista para el
@@ -242,7 +248,7 @@ Análisis Económico
     También se realiza un "Avalúo de Garantía" sobre un bien o propiedad que puede
     encontrarse en otro lugar.
 
-Revisión de Presidencia
+Revisión de Presidencia:
 
 
     La inspección técnica tiene sugerencia de aprobación o negación, es revisado en
@@ -250,19 +256,24 @@ Revisión de Presidencia
     Directivo, difiere la revisión, verifica los que tienen sugerencia de negados,
     etc.
 
-Consejo Directivo
+Consejo Directivo:
 
 
-Da la aprobación definitiva de las solicitudes de crédito. Generalmente es una
-formalidad.
+    Da la aprobación definitiva de las solicitudes de crédito. Generalmente es una
+    formalidad.
 
-Existen excepciones: los créditos entre 1.200.000 y 3.600.000 BsF
-son otorgados por orden del Gobernador del Estado.
+    Existen excepciones: los créditos entre 1.200.000 y 3.600.000 BsF
+    son otorgados por orden del Gobernador del Estado.
+
+    El consejo directivo discute los casos bajo tres modalidades:
+    - Aprobado
+    - Aprobado condicionado
+    - Negación
 
 Mejoras sugeridas
 ~~~~~~~~~~~~~~~~~
 
-Reportes
+Reportes:
 
 
     Se considera que la principal mejora del sistema debe estar en los reportes, que
@@ -274,13 +285,13 @@ Reportes
 
     Actualmente se realiza con la hoja de cálculo.
 
-Personalizar requisitos
+Personalizar requisitos:
 
 
     Se sugiere que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los
     montos y a los rubros.
 
-Solicitudes al personal de FOMDES
+Solicitudes al personal de FOMDES:
 
 - Decreto de creación de FOMDES y actualizaciones si las hay.
 
@@ -289,6 +300,3 @@ Solicitudes al personal de FOMDES
 - Planillas y Formatos internos.
 
 
-La gerencia de crédito selecciona los proyectos que van al consejo directivo para su posterior aprobación o negación. Este lista se maneja utilizando calc.
-Cada año se genera una cola de rezagados luego de terminarse el presupuesto pautado, los cuales se consideran como los primeros en cola del año siguiente con nuevo código de expediente.
-El consejo directivo discute los casos aprobados bajo dos modalidades Aprobado, Aprobado condicionado y Negación.
