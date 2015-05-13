@@ -157,7 +157,9 @@ descrito en términos generales de la siguiente forma:
 
     Se hacen búsquedas por rango de fechas y cédula.
 
-    Es un sistema sencillo que no presenta fallas.
+    El sistema muestra un menu sin necesidad de acceder (loguear) al mismo. Al
+    seleccionar un elemento del menú, el sistema se bloquea y es necesario recargar
+    la página. Se hace engorroso dar las actualizaciones.
 
 Relación con otras dependencias:
 
@@ -175,110 +177,110 @@ Consultas por teléfono:
 
 
     Se atienden por teléfono solicitudes del estado de la solicitud del crédito que
-    está en el sistema SIGEFOMDES. El sistema muestra un menu incluso sin haberse logueado, si
-    se selecciona un elemento del menú el sistema se bloquea y es necesario recargar
-    a página. Es muy engorrodso dar las actualizaciones.
+    está en el sistema SIGEFOMDES.
 
     También reciben consultas sobre el estado del pago de los créditos sobre
-    recuperación y cobranzas. ¿Cuánto deben? ¿Cuántas cuotas faltan?
+    recuperación y cobranzas.
 
-    Ofrecer la planilla de solicitud por Internet alivió muchísimo el trabajo de la
+    Se recalcó que el ofrecimiento de la planilla de solicitud por Internet alivió el trabajo de la
     Oficina de atención al Ciudadano.
 
 Comentarios de Ceblín Ruíz
 
 
-    Ceblín Ruíz explicó mas adelante que como Oficina de Atención al ciudadano se da
+    Ceblín Ruíz explicó como la Oficina de Atención al ciudadano ofrece
     atención integral a los usuarios de FOMDES.
 
-    Se recibían denuncias en vista que
-    eran un centro contralor. Se atendían dudas sobre créditos aunque hayan sido
+    Anteriormente se recibían denuncias, en vista que
+    eran un centro contralor. Se atendían dudas sobre créditos, aunque hayan sido
     otorgados por otra institución.
 
-    Se trata de un ente contralor desde un punto de vista integral, jurídico, con
+    Según su optica, se trata de un ente contralor desde un punto de vista integral, jurídico, con
     criterios de equidad social y territorial.
 
 Gerencia de Crédito: Políticas de Financiamiento
-----------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cada año en la gerencia de crédito se discuten y se modifican las políticas de financiamiento para el otorgamiento
-de los créditos,en la que se establecen las tasas de interés y los montos asginados por sector, rubro o garantía .
+Cada año, en la gerencia de crédito se discuten y se modifican las políticas de financiamiento para el otorgamiento
+de los créditos, en la que se establecen las tasas de interés y los montos asginados por sector, rubro o garantía .
 
 Información de Crédito
-~~~~~~~~~~~~~~~~~~~~~~
-
-Se inicia con la descarga de la planilla de Propuesta de Financiamiento desde el
-sitio web de FOMDES. En "Información de Crédito" se vacia la información de la
-planilla. Se realiza una primer filtro en relación a la viabilidad y si se
-ajusta a las políticas del FOMDES.
-
-Si pasa este filtro pasa a una lista de espera para la realización del taller.
-
- Los beneficiarios que pasen el primer filtro, se les convoca, vía telefónica, a la realización de un taller
- con una capacidad máx. de 100 personas cada martes. Este listado de personas se lleva de manera manual.
 
 
- al finalizar el taller se entrega la lista de requisitos. Estos requisitos
-dependen del tipo de solicitud (sector, monto, rubro).
+    Se inicia con la descarga de la planilla de Propuesta de Financiamiento desde el
+    sitio web de FOMDES. En "Información de Crédito" se vacia la información de la
+    planilla. Se realiza una primer filtro en relación a la viabilidad y si se
+    ajusta a las políticas del FOMDES.
+
+    Al pasar este filtro, el beneficiario pasa a una lista de espera para la realización del taller. A dicho
+    taller se convoca por vía telefónica, con una capacidad máx. de 100 personas y a ser realizado los Martes de cada semana.
+
+    Este listado de personas se lleva de manera manual.
+
+
+    Al finalizar el taller se entrega la lista de requisitos. Estos requisitos
+    dependen del tipo de solicitud (sector, monto, rubro).
 
 Análisis Jurídico
-~~~~~~~~~~~~~~~~~
 
-Una vez que se reciben los requisitos pasa a "Analisis Jurídico" donde se
-realiza el "Informe de control previo" (tiene un Formato).
+
+    Una vez que se reciben los requisitos, pasa a "Analisis Jurídico" donde se
+    realiza el "Informe de control previo" (tiene un Formato).
 
 Análisis Económico
-~~~~~~~~~~~~~~~~~~
 
-Si recibe el visto bueno del Análisis Jurídico pasa a una lista para el
-"Análisis Económico".
 
-Los analistas económicos de crédito están sectorizados por municipios y parroquias.
-Se asignan los analistas para las inspecciones por municipios para optimizar los tiempos por los traslados.
+    Si se recibe el visto bueno del Análisis Jurídico, pasa a una lista para el
+    "Análisis Económico".
 
-De las inspecciones se realiza un informe y minuta (que se consideran unificar),
-aparte de un registro fotográfico. Existe un Formato para la inspección. También
-se realiza un "Avalúo de Garantía" sobre un bien o propiedad que puede
-encontrarse en otro lugar.
+    Los analistas económicos de crédito están sectorizados por municipios y parroquias.
+    Se asignan los analistas para las inspecciones por municipios para optimizar los tiempos por los traslados.
+
+    De las inspecciones se realiza un informe y minuta (que se considera unificar),
+    aparte de un registro fotográfico. Existe un formato para la inspección.
+
+    También se realiza un "Avalúo de Garantía" sobre un bien o propiedad que puede
+    encontrarse en otro lugar.
 
 Revisión de Presidencia
-~~~~~~~~~~~~~~~~~~~~~~~
 
-La inspección técnica tiene sugerencia de aprobación o negación, es revisado en
-presidencia que prioriza las solicitudes, decide si llevarla al Consejo
-Directivo, difiere la revisión, verifica los que tienen sugerencia de negados
-etc.
+
+    La inspección técnica tiene sugerencia de aprobación o negación, es revisado en
+    presidencia, quien prioriza las solicitudes, decide si llevarla al Consejo
+    Directivo, difiere la revisión, verifica los que tienen sugerencia de negados,
+    etc.
 
 Consejo Directivo
-~~~~~~~~~~~~~~~~~
+
 
 Da la aprobación definitiva de las solicitudes de crédito. Generalmente es una
-formalidad. Existen excepciones: los créditos entre 1.200.000 y 3.600.000 BsF
+formalidad.
+
+Existen excepciones: los créditos entre 1.200.000 y 3.600.000 BsF
 son otorgados por orden del Gobernador del Estado.
 
 Mejoras sugeridas
------------------
+~~~~~~~~~~~~~~~~~
 
 Reportes
-~~~~~~~~
 
-Se considera que la principal mejora del sistema debe estar en los reportes, que
-permita revisar las solicitudes de crédito de cualquier forma.
 
-Por ejemplo que se puedan realizar reportes por municipio, por rubro, por
-status, por rango de fechas. Y generar información estadística, que permita
-presentar los reportes de forma resumida.
+    Se considera que la principal mejora del sistema debe estar en los reportes, que
+    permita revisar las solicitudes de crédito de cualquier forma.
 
-Actualmente se realiza con la hoja de cálculo.
+    Por ejemplo, que se puedan realizar reportes por municipio, por rubro, por
+    status, por rango de fechas. Y generar información estadística, que permita
+    presentar los reportes de forma resumida.
+
+    Actualmente se realiza con la hoja de cálculo.
 
 Personalizar requisitos
-~~~~~~~~~~~~~~~~~~~~~~~
 
-Que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los
-montos y a los rubros.
+
+    Se sugiere que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los
+    montos y a los rubros.
 
 Solicitudes al personal de FOMDES
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Decreto de creación de FOMDES y actualizaciones si las hay.
 
