@@ -24,15 +24,15 @@ créditos.
        * - Entrada
          - Actividades
          - Salida
-       * - Propuesta de financiamiento.
-         - Ingreso de datos al sistema WebAdmin.
-         - Propuesta con código.
-       * - Propuesta con código.
-         - Revisión de la viabilidad de la propuesta.
-         - Propuesta viable/no viable.
-       * - Propuesta viable.
-         - Incluye en lista del taller y envia requisitos.
-         - Propuesta seleccionada para taller..
+       * - Propuesta de financiamiento
+         - Ingreso de datos al sistema WebAdmin
+         - Propuesta de financiamiento
+       * - Propuesta de financiamiento
+         - Revisión de la viabilidad de la propuesta
+         - Propuesta viable/no viable
+       * - Propuesta viable
+         - Incluye propuesta en lista del taller y envia requisitos
+         - Propuesta seleccionada para taller
 
     * **Flujograma**:
 
@@ -81,13 +81,13 @@ créditos.
          - Salida
        * - Requisitos por sector
          - Ingreso de datos al sistema SIGEFOMDES-Crédito
-         - Expediente con codigo por sector
+         - Expediente con código por sector
        * - Expediente
          - Revisión de la garantia
-         - Propuesta que cumplen/no cumplen
-       * - Propuesta que cumplen/no cumplen
-         - Realiza inspeccion y avaluo a la unidad de producción
-         - Informe tecnico
+         - Expediente con control previo
+       * - Expediente con control previo
+         - Realiza inspección y avalúo a la unidad de producción
+         - Informe técnico de evaluación para aprobar/rechazar crédito
 
     * **Flujograma**:
 
@@ -124,7 +124,7 @@ créditos.
 
     * **Dependencia responsable**: Presidencia
 
-    * **Unidad(es) Ejecutora(s)**: Secretaría Ejecutiva, Consejo Directivo
+    * **Unidad(es) Ejecutora(s)**: Analistas de Crédito, Presupuesto, Secretaría Ejecutiva, Consejo Directivo, Presupuesto, Secretaría Ejecutiva
 
     * **Tabla de Actividades**:
 
@@ -135,9 +135,24 @@ créditos.
        * - Entrada
          - Actividades
          - Salida
-       * - Recepción de Propuesta de Financiamiento.
-         - Ingreso de datos al sistema (Web Admin).
-         - Planilla de la propuesta de financiamiento.
+       * - Propuesta sugerida para aprobar/rechazar
+         - Revisión de la propuesta para aprobar/rechazar
+         - Informe sobre perfil de la actividad, inversión y proyección económica
+       * - Expediente
+         - Revisión del expediente
+         - Certificación presupuestaria por sector
+       * - Propuesta sugerida para aprobar/rechazar
+         - Convoca al consejo directivo
+         - Lista de propuestas para aprobar/rechazar
+       * - Propuesta para aprobar/rechazar
+         - Revisión de expediente
+         - Acta de propuesta aprobada
+       * - Expediente
+         - Realiza control previo de los requisitos
+         - Certificación de disponibilidad de dinero para liquidación de crédito
+       * - Propuesta aprobada
+         - Redacta documentos
+         - Entrega documento de crédito y documento de constitución de empresa al beneficiario
 
     * **Flujograma**:
 
@@ -171,9 +186,9 @@ créditos.
     * **Descripción**: Abarca desde la consignación de los documentos notariados por parte de los
       beneficiarios/-as hasta la entrega del cheque respectivo.
 
-    * **Dependencia responsable**: Administración
+    * **Dependencia responsable**: Administración y Finanzas
 
-    * **Unidad(es) Ejecutora(s)**: Presupuesto, Finanzas, Secretaría Ejecutiva, Presidencia
+    * **Unidad(es) Ejecutora(s)**: Secretaria Ejecutiva, Administración, Presidencia, Secretaría Ejecutiva
 
     * **Tabla de Actividades**:
 
@@ -184,9 +199,18 @@ créditos.
        * - Entrada
          - Actividades
          - Salida
-       * - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
+       * - Documento protocolizado del cŕedito
+         - Revisión del documento protocolizado
+         - Envia expediente a Administración
+       * - Expediente
+         - Ingreso de datos al sistema SIGEFOMDES-Administración-SISAC
+         - Cuentas por cobrar/tabla de amortización/orden de liquidación/cheque firmado
+       * - Cheque firmado por Administración
+         - Firma del cheque
+         - Cheque firmado
+       * - Cheque firmado
+         - Convoca acto público con el Gobernador
+         - Entrega de cheque a beneficiario
 
     * **Flujograma**:
 
@@ -199,7 +223,6 @@ créditos.
          AE [label="", shape=circle, width="0.3", style=bold];
          A1 [label="A1: Daily\nReport"];
          A2 [label="A2: Memo"];
-
          AS -> A1;
          A2 -> AE;
          A1 -> A2 [style=invis];
@@ -222,7 +245,7 @@ créditos.
 
     * **Dependencia responsable**: Gerencia de Crédito
 
-    * **Unidad(es) Ejecutora(s)**: Departamento de Seguimiento, Verificación y Asistencia Técnica
+    * **Unidad(es) Ejecutora(s)**: Acompañamiento y Asistencia Técnica, Consultoria Juridica, Archivo
 
     * **Tabla de Actividades**:
 
@@ -233,9 +256,15 @@ créditos.
        * - Entrada
          - Actividades
          - Salida
-       * - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
+       * - Expediente
+         - Visita la unidad de producción para verificar si cumple/no cumple con el plan de inversión
+         - Informe de verificación de la inversión/Recomendación del beneficiario para futuros créditos
+       * - Expediente que no cumple con el plan de inversión
+         - Solicitud de reintegro del crédito
+         - Crédito otorgado
+       * - Expediente
+         - Introduce documentos al expediente
+         - Expediente
 
     * **Flujograma**:
 
@@ -282,9 +311,9 @@ créditos.
        * - Entrada
          - Actividades
          - Salida
-       * - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
+       * - Cuentas por cobrar
+         - Recibe pago de cuotas de crédito
+         - Recibo de pago realizado. Original al beneficiario y copia al expediente
 
     * **Flujograma**:
 
@@ -320,7 +349,7 @@ créditos.
 
     * **Dependencia responsable**: Gerencia de Recuperaciones
 
-    * **Unidad(es) Ejecutora(s)**: Gerencia de Recuperaciones y Consultoría Jurídica
+    * **Unidad(es) Ejecutora(s)**: Recuperaciones, Ejecutivos de Cobranza, Consultoría Jurídica
 
     * **Tabla de Actividades**:
 
@@ -331,9 +360,15 @@ créditos.
        * - Entrada
          - Actividades
          - Salida
-       * - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
+       * - Expediente que cumple con el plan de inversión
+         - Revisión de carteras y sabanas
+         - Lista de cuotas pagadas/vencidas
+       * - Lista de cuotas pagadas/vencidas
+         - Planifica seguimiento y rutas de cobranza
+         - Informe de seguimiento al beneficiario
+       * - Lista de morosos
+         - Demanda por ejecución de garantia
+         - Garantia del crédito
 
     * **Flujograma**:
 
@@ -369,7 +404,7 @@ créditos.
 
     * **Dependencia responsable**: Administración
 
-    * **Unidad(es) Ejecutora(s)**: Administración, Presidencia, Consultoría Jurídica
+    * **Unidad(es) Ejecutora(s)**: Administración, Consultoría Jurídica, Presidencia
 
     * **Tabla de Actividades**:
 
@@ -380,9 +415,15 @@ créditos.
        * - Entrada
          - Actividades
          - Salida
-       * - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
+       * - Expediente
+         - Revisión de sabana
+         - Informe para liberación de crédito
+       * - Expediente
+         - Redacta documento de liberación del crédito
+         - Documento de liberación del crédito
+       * - Documento de liberación del crédito
+         - Firma documento de liberación del crédito
+         - Entrega de documento al beneficiario
 
     * **Flujograma**:
 

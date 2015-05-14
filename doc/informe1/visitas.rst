@@ -36,8 +36,8 @@ Se realiz'o el acto de firma de contrato para la prestaci'on de servicio.
 Se dió una primera aproximación sobre necesidades de actualización de las formas de trabajo institucional,
 según lo planteado en reuniones sostenidas con el prof Juan Carlos Villegas:
 
-    Facilitar la transición de los funcionarios entre los sistemas actuales y TINJACÁ.
-    TINJACÁ debe contemplar tres tipos de usuarios:
+    - Facilitar la transición de los funcionarios entre el sistema TINJACA y los sistemas actuales.
+    - TINJACÁ debe contemplar tres tipos de usuarios:
         1. Los funcionarios administradores según sus jerarquías (tipo super usuario).
         2. Los funcionarios operadores según sus cargos y ubicación administrativa (tipo usuario).
         3. El público en general (tipo invitado): quienes accedan por las herramientas WEB para:
@@ -50,9 +50,9 @@ según lo planteado en reuniones sostenidas con el prof Juan Carlos Villegas:
             * Registrar pagos efectuados mediante transferencia o depósito lo que implica la posterior recepción física del comprobante.
             * Las cuentas de usuario invitado pueden tener uno o mas expedientes asociados y una fecha de vencimiento inicial de dos meses que en ultima instancia coincida con la fecha de liberación del crédito, pudiendo reactivarse en caso de nuevas solicitudes.
 
-    La inserción de información estará distribuida entre las herramientas web y las disponibles en la institución; igualmente debe ser utilizada de forma eficiente.
+    - La inserción de información estará distribuida entre las herramientas web y las disponibles en la institución; igualmente debe ser utilizada de forma eficiente.
 
-    Se planteó permitir la edición de datos por parte del usuario tipo invitado, requiriendo una validación por parte de este en las oficinas de la institución a fin de que su edición tenga efecto (Dirección, teléfono, otros).
+    - Se planteó permitir la edición de datos por parte del usuario tipo invitado, requiriendo una validación por parte de este en las oficinas de la institución a fin de que su edición tenga efecto (Dirección, teléfono, otros).
 
 
 Sobre la estructura de la organización y sus procesos, se puntializó la existencia de procedimientos comunes que a nivel del diseño de TINJACÁ pudieran ser considerados como instancias de una misma clase: Los analistas de Crédito hacen inspecciones e informes con registros fotográficos;
@@ -135,17 +135,17 @@ Contactos de los departamentos visitados
 | Natalia Guzmán
 | Supervisora de Atención del Ciudadano
 | Tlf: 0416 5234643
-| Correo Electrónico: ???
+| Correo Electrónico: itzaguva@gmail.com
 |
 | Belkis Guillén
 | Recepcionista de Atenci'on del Ciudadano
-| Tlf: ???
-| Correo Electrónico: ???
+| Tlf: 0414-1798083
+| Correo Electrónico: elkisguillen@hotmail.com
 |
 | Daniel Zambrano
 | Recepcionista de Atenci'on del Ciudadano
-| Tlf: ???
-| Correo Electrónico: ???
+| Tlf: 0424-7233787
+| Correo Electrónico: danielzambrano650@gmail.com
 |
 | Maybell Vera
 | Gerencia de Crédito
@@ -319,9 +319,13 @@ Departamentos Visitados
 
 Contactos de los departamentos visitados
 ----------------------------------------
-* Oscar Barillas
-* Información de Crédito: No se logró contacto con el personal
-* Acompañamiento: Nancy Molina
+| Oscar Barillas
+| Gerente de Sistemas
+| Tlf: 0424-7517353
+| Correo Electrónico: barillasoj@cantv.net
+|
+| Información de Crédito: No se logró contacto con el personal
+
 
 Minuta de la visita
 -------------------
@@ -501,7 +505,7 @@ recibos.
 7. Cancelación Total. El sistema arroja una lista de créditos cancelados en su totalidad. Por errores
 de cálculo, el sistema no indica la "Cancelación Total", lo que requiere una llamada de Caja a Sistemas para cambiar el estado.
 
-    Se busca el expediente y se consolida la información de SISAC y SIGEFOMDES. Se verifica recibo por recibo y se realiza
+    Se busca el expediente y se consolida la información de los sistemas informaticos SISAC y SIGEFOMDES. Se verifica recibo por recibo y se realiza
     el ajuste de céntimos. Entonces, se pasa al departamento de Consultoría Jurídica para elaborar el Documento de Liberación.
 
 
@@ -536,10 +540,9 @@ Fecha de la visita: 9 de Abril del 2015
 Visitantes 
 ---------- 
 
-* Francisco Palm 
+* Mariangela Petrizzo
 * Hector Ospino 
-* María Alejandra Rujano 
-* Sirius Fuenmayor 
+* María Alejandra Rujano
 
 Departamentos Visitados 
 ----------------------- 
@@ -553,33 +556,33 @@ Contactos de los departamentos visitados
 ---------------------------------------- 
 
 | Karina Peña 
-| LLAMAR A PREGUNTAR POR EL CARGO - Información de crédito 
+|Asesora de atenci'on al beneficiario- Información de crédito
 | Tlf: 0424-9064347  
-| Correo Electrónico: LLAMAR A PREGUNTAR POR EL CORREO 
+| Correo Electrónico: karinapena1985@gmail.com
 |
 | Neyda Cardozo 
-| Analista jurídico de crédito: - información de crédito 
+| Analista jurídico de crédito - Información de crédito
 | Tlf: 0426-7070064 
 | Correo Electrónico: neidabeatrizcardozo@hotmail.com 
 |
 | Tibisay Torres 
-| Analista Económico - LLAMAR A PREGUNTAR POR OFICINA 
-| Tlf: 0414-7395921 llamar de 8 a 4pm entre semana 
+| Analista jurídico de crédito - Información de crédito
+| Tlf: 0414-7395921
 | Correo Electrónico: tibisayoca@gmail.com 
 |
 | Cecilia Molina 
-| Analista Economico - LLAMAR A PREGUNTAR POR OFICINA 
+| Analista Economico - Información de crédito
 | Tlf: 0416-7743554 
 | Correo Electrónico: celmoli22@hotmail.com 
 |
 | Marybel Rivas 
-| Analista Economico - LLAMAR A PREGUNTAR POR OFICINA 
+| Analista Economico - Información de crédito
 | Tlf: 0426-1087703 
 | Correo Electrónico: belri17@hotmail.com 
 |
-| LLAMAR A PREGUNTAR POR EL CARGO - Secretaria Ejecutiva 
-| Alba Pabon 
-| Tlf: 0424-8674420 
+| Alba Pabon
+| Secretaria ejecutiva - Secretar'ia Ejecutiva
+| Tlf: 0424-8674420
 | Correo Electrónico: albapabonm25@gmail.com 
  
 Minuta de la visita 
@@ -650,12 +653,12 @@ Contactos de los departamentos visitados
 ----------------------------------------
 
 | Kelly Contreras
-| LLAMAR A PREGUNTAR POR EL CARGO - Gerencia de recuperaciones 
+| Jefe del departamento de estadistica y auditor'ia de cobranza - Gerencia de recuperaciones
 | Tlf: 0426-1772979 
 | Correo Electrónico: kellyroxy@hotmail.com 
 |
 | Ciseron Paz 
-| LLAMAR A PREGUNTAR POR EL CARGO - Gerencia de sistemas, recuperaciones y gestion de riesgo
+| Analista de procesamiento de datos - Gerencia de sistemas, recuperaciones y gestion de riesgo
 | Tlf: 0416-1343718 
 | Correo Electrónico: ceta_paz@hotmail.com
 
@@ -719,7 +722,8 @@ Gerencia de recuperaciones
 #. Los estados de cuenta tienen dos campos: Un campo denominado "recibo", que guarda la lista de los recibos del expediente que los beneficiarios entregan en físico, por fax o correo y un campo denominado "Seguimiento", el cual guarda un resumen del histórico de FOMDES con el beneficiario, es decir si se contacto a través de una visita o una llamada y a que acuerdo de fecha y pago se llego. En seguimiento no hay alertas en las fechas próximas en que el beneficiario se compromete a pagar las cuotas vencidas. Tienen un modulo para consultar los depósitos de las cuotas. 
 
 Gerencia de sistemas, recuperaciones y gestion de riesgo
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
+
 
 #. Una de las labores de gerencia de sistemas es corregir las deficiencias para generar los estados de cuentas y cobranzas por parte de recuperaciones; si un beneficiario paga las cuotas del credito por adelantado se exonera mas de lo permitido, el saldo negativo es mayor o se generan mas cuotas de las que se deben pagar. Esto lo resuelve al gerencia de sistemas de manera manual, ya que si este error persiste cuando va a administración es rechazado. El recibo de cancelación total del crédito en algunos casos es distinto al de administración, porque sistemas es quien coloca el estatus de "cancelación total del crédito".  
 
@@ -757,28 +761,32 @@ Visitantes
 
 * Francisco Palm
 * Hector Ospino
-* María Alejandra Rujano
 * Jorge Moreno
 
 Departamentos Visitados
 -----------------------
 
-* Departamento de estadistica
+* Gerencia de Credito: Departamento de estadistica
 * Oficina de Ciencia y Tecnologia
 
 Contactos de los departamentos visitados
 ----------------------------------------
 
-| ??????
-| ?????? - ?????? 
-| Tlf: ?????? 
-| Correo Electrónico: ?????? 
-  
+| Genny Acosta
+| Asesora de credito - Departamento de estad'istica
+| Tlf: 0416-8736548
+| Correo Electrónico: acostagenny@gmail.com
+|
+| Lizmar Vivas
+| Analista de proyecto - Unidad de industrializaci'on y desarrollo en cienca y tecnolog'ia
+| Tlf:
+| Correo Electrónico:
+
 Minuta de la visita
---------------------
+-------------------
 
 Departamento de estadistica
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. La oficina de Estadística (Crédito), recibe una a una las carpetas en físico con las propuestas de financiamiento que han sido categorizadas como “viables”.
 
@@ -794,8 +802,8 @@ Departamento de estadistica
 
 #. También se tiene un formato para informes POA, que son solicitados por presidencia.
 
-Oficina de Ciencia y Tecnología
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Oficina de Ciencia y Tecnologia
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Existe en primer lugar una oficina de asesoramiento técnico, a la cual pueden acudir las personas sin propuestas concretas para recibir instrucciones y recomendaciones al momento de elaborar sus propuestas. Las personas son enviadas a esta oficina desde la taquilla de entrada.
 
@@ -835,7 +843,7 @@ Contactos de los departamentos visitados
 ----------------------------------------
 
 | Oscar Barillas 
-| ?????? - Gerencia de Sistemas 
+| Gerente de Sistemas
 | Tlf: 0424-7517353
 | Correo Electrónico: barillasoj@cantv.net 
   
@@ -914,9 +922,35 @@ Minuta de la visita
 		+ Cartera de cobranza (quienes me deben): es una lista de beneficiarios a cobrar por cada ejecutivo de cobranza.
 		+ Sabanas (cuanto me deben cada uno): es una consulta de todos los detalles asociados a la deuda de cada uno de los beneficiarios asignados a cada ejecutivo de cobranza.
 
+Fecha de la visita: 22 de Abril del 2015
+========================================
+
+Visitantes
+----------
+
+* Francisco Palm
+* Adriana Torres
+
+Departamentos Visitados
+-----------------------
+
+* Salon de reuniones
+
+Contactos de los departamentos visitados
+----------------------------------------
+
+| Oscar Barillas
+| Gerente de Sistemas
+| Tlf: 0424-7517353
+| Correo Electrónico: barillasoj@cantv.net
+  
+Minuta de la visita
+--------------------
+
+
 
 Fecha de la visita: Visita 7 de Mayo del 2015
-==============================================
+=============================================
 
 Visitantes
 ----------
@@ -934,12 +968,12 @@ Contactos de los departamentos visitados
 ----------------------------------------
 
 | Jakelin Zerpa 
-| ?????? - Departamento de presupuesto  
+| Jefe de deparamento - Departamento de presupuesto
 | Tlf: 0416-2759526
 | Correo Electrónico: 2yakelin@hotmail.com 
   
 Minuta de la visita
---------------------
+-------------------
 
 #. La ONAPRE es un catalogo de cuentas del Estado y FOMDES se debe regir por este clasificador para la parte presupuestaria y contable.
 
@@ -969,4 +1003,4 @@ Minuta de la visita
 
 #. En FOMDES se manejan fondos: el fondo 1 es el situado mensual de la gobernación; el fondo 2 es el proveniente de los ingresos propios de recuperaciones y el fondo 3 es asociado con los gastos de funcionamiento. En la actualidad se llevan solo los fondos 1 y 2 en una sola cuenta de inversión, sin embargo comentaron que cada fondo debe estar en cuentas separadas. 
 
-#. _CARGO_DE_JACKELIN_ del departamento presupuesto hace la certificación presupuestaria por cada sector (situado de la gobernacion + ingresos propios) ante el consejo directivo para aprobar el crédito. El consejo directivo emite un acta con los aprobados para que el _CARGO_DE_JACKELIN_ realice un control previo (visual) a cada expediente para verificar si tiene todos los requisitos y anexa a cada uno la certificación de disponibilidad del dinero para la liquidación del crédito. 
+#. El jefe del departamento presupuesto hace la certificación presupuestaria por cada sector (situado de la gobernacion + ingresos propios) ante el consejo directivo para aprobar el crédito. El consejo directivo emite un acta con los aprobados para que el jefe de departamento de presupuesto realice un control previo (visual) a cada expediente para verificar si tiene todos los requisitos y anexa a cada uno la certificación de disponibilidad del dinero para la liquidación del crédito.
