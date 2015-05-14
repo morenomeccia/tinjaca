@@ -18,7 +18,7 @@ Visitantes
 Departamentos Visitados
 -----------------------
 
-Salón de Reuniones
+ * Salón de Reuniones
 
 Contactos de los departamentos visitados
 ----------------------------------------
@@ -381,6 +381,150 @@ Existen 5 sistemas informaticos que no están conectados entre si:
     *	SIGEFOMDES 2: genera las cuentas por cobrar
     *	SISAC (Sistema de Actualización de cuentas): usado por administración, genera errores de redondeo en los montos hasta
     un 20%. Gerencia de sistemas debe corregir los errores del SISAC de manera manual para generar los estados de cuenta
+
+Fecha de la visita: 8 de Abril del 2015
+========================================
+
+Visitantes
+----------
+
+* Francisco Palm
+* Hector Ospino
+* María Alejandra Rujano
+* Sirius Fuenmayor
+
+Departamentos Visitados
+-----------------------
+* Gerencia de Administración
+* Salón de Reuniones
+
+Contactos de los departamentos visitados
+----------------------------------------
+
+| Rosaura Sánchez
+| Analista Financiera - Área de Contabilidad
+| Tlf: 0424 7334132
+| Correo Electrónico: sanchezxrosaura@hotmail.com
+|
+| María Auxiliadora Hernández
+| Realiza los cheques de compras - Compras
+| Tlf: 0414 9659230
+| Correo Electrónico: mariauxihernandez@hotmail.com
+|
+| María Andreina Briceño
+| Realiza los cheques de liquidación de crédito - Asesor Administrativo
+| Tlf: 0414 7173591
+| Correo Electrónico: andreina060920@gmail.com
+|
+| Merly Soto
+| Jefe de Planificación
+| Tlf: 0426 7751055
+| Correo Electrónico: merly1629@hotmail.com 
+
+
+Minuta de la visita
+--------------------
+
+
+1. Apertura de Cuentas. Una vez que Secretaría Ejecutiva aprueba los créditos envía un lista al departamento
+de Administración para la apertura de cuentas.
+
+Es una lista impresa que se genera desde SISAC con los siguientes datos:
+- Monto
+- Cédula
+- Numero de expediente
+- Numero y fecha de Consejo directivo
+
+En Administración se transcribe esta información en el sistema informatico SIGEFOMDES
+para la apertura de las cuentas.
+
+2. Elaboración de cheques. Se procede a elaborar los cheques en la medida que Secretaría Ejecutiva da el
+visto bueno para la liquidación. Se puede realizar en una o mas partes, en el
+caso que el solicitante no presenta el Registro de Comercio o algún otro tipo de
+recaudo. Para el resto de la liquidación se tienen que tomar como base la hoja
+de cálculo del anterior cheque y modificar la información manualmente.
+
+Los datos se vuelven a transcribir a una hoja de Cálculo que tiene el formato de
+los cheques que en la actualidad se realizan desde un único banco.
+
+El formato del cheque consta de:
+- Comprobante de impresión
+- 2 órdenes de pago
+- Orden de liquidación.
+
+El departamento de Consultoría jurídica les exije que las órdenes de pago tengan
+números correlativos que se editan manualmente.
+
+3. Tabla de amortización. Después de elaborar el cheque, se genera la tabla de amortización que se tiene
+tanto en el sistema informatico SISAC como en SIGEFOMDES.
+
+4. Disponibilidad. El cheque se pasa a la estacion de presupuesto, donde se trabaja en la herramienta
+ofimatica Microsoft EXCEL, para verificar la disponibilidad presupuestaria de acuerdo al sector.
+
+Luego pasa al departamento de administración donde se procesa el cheque para verificar la
+disponibilidad bancaria. El dinero ya existe de manera tal que se realiza es una
+conciliación bancaria.
+
+5. Entrega del cheque. Finalmente se pasa a Secretaría Ejecutiva que es la que realiza la entrega del
+cheque. Pudiendose realizar en acto individual o en actos públicos.
+
+Los expedientes de los créditos otorgados pasan al departamento de
+seguimiento-acompañamiento donde se verifica que se ha ejecutado. Se envían
+copias del expediente a las estaciones de presupuesto, contabilidad y archivo.
+
+6. Cancelación del Crédito. Los pagos se hacen por Caja o por Taquilla Express (se va a las localidades con
+un portátil y un pendrive de conexión a Internet). En ambos casos se hace a traves del sistema informatico
+SISAC donde se verifican los montos, se registran los pagos y se generan los
+recibos.
+
+Al cierre todos esos, los recibos se envían al departamento de adminsitración,
+al Area de contabilidad, donde son transcritos uno a uno en el módulo de administración del sistema informatico SIGEFOMDES. Los pagos se
+van insertando al expediente.
+
+La parte del pago que amortiza el crédito, va a la partida de inversión. Lo que
+tiene que ver con intereses y comisión por gastos administrativos, va a
+la partida de gastos que se utiliza para compras y pago de nómina.
+
+Los morosos entran en distintas categorías:
+- A para los solventes
+- B, C, D de acuerdo al número de cuotas vencidas.
+
+El departamento de Seguimiento verifica el plan de inversión, si hay faltas graves se solicita la devolución del monto otorgado.
+
+7. Cancelación Total. El sistema arroja una lista de créditos cancelados en su totalidad. Por errores
+de cálculo, el sistema no indica la "Cancelación Total", lo que requiere una llamada de Caja a Sistemas para cambiar el estado.
+
+Se busca el expediente y se consolida la información de SISAC y SIGEFOMDES. Se verifica recibo por recibo y se realiza
+el ajuste de céntimos. Entonces, se pasa al departamento de Consultoría Jurídica para elaborar el Documento de Liberación.
+
+
+Notas Adicionales
+~~~~~~~~~~~~~~~~~
+
+1. Departamento de Acompañamiento: El punto álgido de este departamento es el informe fotográfico que hacen los
+analistas de crédito.
+
+2. Departamento de Recuperaciones: En este departamento se generan "sábanas" de los créditos que se encuentran en
+categorías B, C y D. Esto es, el estado de los créditos morosos por municipio para planificar los cobros.
+
+En recuperaciones se realizan consultas del sistema.
+
+Se desea un sistema que envié mensajes SMS o correos electronicos a los beneficiarios que caigan en
+alguna categoría de morosos.
+
+Se generan reportes, mes a mes, del número de seguimientos realizados que se
+utilizan como comprobante del trabajo realizado por los analistas.
+
+Visitas Restantes
+~~~~~~~~~~~~~~~~~
+
+Se planificó para mañana jueves a las 2 pm con Secretaría Ejecutiva y el departamento de
+Acompañamiento. Y queda para el viernes la primera visita al departamento de Recuperaciones.
+
+
+
+
+
 
 
 Fecha de la visita: 9 de Abril del 2015 
