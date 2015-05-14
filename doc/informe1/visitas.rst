@@ -168,26 +168,19 @@ Oficina de Atención del Ciudadano
 Se dió a conocer que el sistema utilizado en recepción es SICA (Sistema Integrado de Información Adminsitrativa),
 descrito en términos generales de la siguiente forma:
 
-+ Si el usuario llega a FOMDES por vez primera se registra en SICA, solicitando: Nombre,
-Apellido, Cédula, Ubicación, Dependencia, y Observaciones.
++ Si el usuario llega a FOMDES por vez primera se registra en SICA, solicitando: Nombre, Apellido, Cédula, Ubicación, Dependencia, y Observaciones.
 
-+ Al llegar un usuario ya registrado, se solicita cédula y dependencia destino, registrandose en el sistema
-automáticamente la fecha y hora
++ Al llegar un usuario ya registrado, se solicita cédula y dependencia destino, registrandose en el sistema automáticamente la fecha y hora
 
-+ Si el solicitante llama para pedir información sobre el estatus de su crédito,
-atención al usuario levanta la pestaña de los sistemas  WebAdmin y SIGEFOMDES
-para dar la información correspondiente.
++ Si el solicitante llama para pedir información sobre el estatus de su crédito, atención al usuario levanta la pestaña de los sistemas  WebAdmin y SIGEFOMDES para dar la información correspondiente.
 
-+ El personal de recepción debe iniciar sesión en SICA, si el sistema pasa un período de
-tiempo inactivo, solicita el reinicio de la sesión.
++ El personal de recepción debe iniciar sesión en SICA, si el sistema pasa un período de tiempo inactivo, solicita el reinicio de la sesión.
 
 + Se realizan reportes de los últimos vistantes.
 
 + Se hacen búsquedas por rango de fechas y cédula.
 
-+ El sistema muestra un menu sin necesidad de acceder (loguear) al mismo. Al
-seleccionar un elemento del menú, el sistema se bloquea y es necesario recargar
-la página. Se hace engorroso dar las actualizaciones.
++ El sistema muestra un menu sin necesidad de acceder (loguear) al mismo. Al seleccionar un elemento del menú, el sistema se bloquea y es necesario recargar la página. Se hace engorroso dar las actualizaciones.
 
 1. Relación con otras dependencias
 
@@ -198,33 +191,25 @@ la página. Se hace engorroso dar las actualizaciones.
 
 + Debería hacer seguimiento de las visitas por las dependencias.
 
-+ Los datos de los visitantes quedan disponibles para el resto de las
-dependencias, la idea es que minimicen la necesidad de transcribir información.
++ Los datos de los visitantes quedan disponibles para el resto de las dependencias, la idea es que minimicen la necesidad de transcribir información.
 
 2. Consultas por teléfono
 
 
-+ Se atienden por teléfono solicitudes del estado de la solicitud del crédito que
-está en el sistema SIGEFOMDES.
++ Se atienden por teléfono solicitudes del estado de la solicitud del crédito que está en el sistema SIGEFOMDES.
 
-+ También reciben consultas sobre el estado del pago de los créditos sobre
-recuperación y cobranzas.
++ También reciben consultas sobre el estado del pago de los créditos sobre recuperación y cobranzas.
 
-+ Se recalcó que el ofrecimiento de la planilla de solicitud por Internet alivió el trabajo de la
-Oficina de atención al Ciudadano.
++ Se recalcó que el ofrecimiento de la planilla de solicitud por Internet alivió el trabajo de la Oficina de atención al Ciudadano.
 
 3. Comentarios de Ceblín Ruíz
 
 
-+ Ceblín Ruíz explicó como la Oficina de Atención al ciudadano ofrece
-atención integral a los usuarios de FOMDES.
++ Ceblín Ruíz explicó como la Oficina de Atención al ciudadano ofrece atención integral a los usuarios de FOMDES.
 
-+ Anteriormente se recibían denuncias, en vista que
-eran un centro contralor. Se atendían dudas sobre créditos, aunque hayan sido
-otorgados por otra institución.
++ Anteriormente se recibían denuncias, en vista que eran un centro contralor. Se atendían dudas sobre créditos, aunque hayan sido otorgados por otra institución.
 
-+ Según su optica, se trata de un ente contralor desde un punto de vista integral, jurídico, con
-criterios de equidad social y territorial.
++ Según su optica, se trata de un ente contralor desde un punto de vista integral, jurídico, con criterios de equidad social y territorial.
 
 Gerencia de Crédito: Políticas de Financiamiento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
