@@ -59,44 +59,44 @@ Sobre la estructura de la organización y sus procesos, se puntializó la existe
 esto se hace también en Acompañamiento. Otro ejemplo puede ser el uso de dos conjuntos de plantillas para automatizar la creación de documentos de crédito y de liberación, simplificando la inserción de datos básicos ya registrados.
 
 Se obtuvo una ruta general del beneficiario dentro de la organización:
-    1. Departamento de Atención al Ciudadano: Recepción.
-    2. Departamento de Gerencia de Crédito:
-        + Información y recepción de documentos.
-        + Taller de formación integral al beneficiario.
-        + Análisis Jurídico.
-        + Análisis Económico, inspección y avalúo de garantías.
-        + Análisis Económico, Informe técnico y minuta.
-        + Revisión por parte de el o la Gerente.
-    3. Departamento de Secretaria Ejecutiva:
-        + Elaboración del documento de crédito.
-        + Exposición en consejo directivo. (aprobar o negar)
-        + Entrega del documento al beneficiario para notariado.
-        + Recepción del documento notariado.
-    #. Departamento de Gerencia de Administración y Finanzas:
-        + Registro de la cuenta por cobrar.
-        + Elaboración del cheque.
-        + Certificación presupuestaria y financiera.
-        + Firma del cheque por parte de el o la Gerente.
-    #. Presidencia:
-        + Firma del cheque por parte de el o la Presidente.
-    #. Secretaría Ejecutiva:
-        + Acto de entrega de crédito.
-    #. Departamento de Gerencia de Credito:
-        + Acompañamiento: verificación del plan de inversión.
-        + Informe de la inspección con registros fotográficos.
-        + Acompañamiento: autoriza desembolso de segundas y terceras partes o solicita el reintegro del capital.
-    #. Departamento de Gerencia de Administración: Caja principal, Taquillas de pago y Taquilla Express;
-        + Consulta la tabla de amortización del crédito,
-        + Recibe los pagos realizados por los beneficiarios; estos pueden ser por el monto total o parcial de la cuota e incluso abonos a cuotas por vencerse.
-    #. Departamento de Gerencia de Recuperaciones:
-        + Mantiene controlado el nivel de morosidad mediante diversas estrategias de cobranza, abordaje y seguimiento de los beneficiarios,
-        + Utiliza los datos de los beneficiarios y las tablas de amortización de crédito para determinar los niveles de morosidad por eje (páramo, metropolitano, panamericano, mocotíes, pueblos del sur), municipio y parroquia.
-        + Define carteras de cobranza a que se distribuyen entre sus ejecutivos para la correspondiente gestión persona a persona.
-        + Cada ejecutivo registra su actividad de contacto (llamada, mensaje, visita, citación, etc) en el expediente mediante un seguimiento.
-        + Pasa a la Consultoría Jurídica los Expedientes en dos casos generales: liberación (PAGADO TOTALMENTE) y demanda (INCUMPLIMIENTO EN EL PAGO)
-    #. Departamento de Consultoría Jurídica:
-        + Redacta los documentos de liberación por cancelación total y los entrega al beneficiario para su tramitación en notaría.
-        + Redacta los documentos de demanda para ejecución de garantías.
+1. Departamento de Atención al Ciudadano: Recepción.
+2. Departamento de Gerencia de Crédito:
+    + Información y recepción de documentos.
+    + Taller de formación integral al beneficiario.
+    + Análisis Jurídico.
+    + Análisis Económico, inspección y avalúo de garantías.
+    + Análisis Económico, Informe técnico y minuta.
+    + Revisión por parte de el o la Gerente.
+3. Departamento de Secretaria Ejecutiva:
+    + Elaboración del documento de crédito.
+    + Exposición en consejo directivo. (aprobar o negar)
+    + Entrega del documento al beneficiario para notariado.
+    + Recepción del documento notariado.
+#. Departamento de Gerencia de Administración y Finanzas:
+    + Registro de la cuenta por cobrar.
+    + Elaboración del cheque.
+    + Certificación presupuestaria y financiera.
+    + Firma del cheque por parte de el o la Gerente.
+#. Presidencia:
+    + Firma del cheque por parte de el o la Presidente.
+#. Secretaría Ejecutiva:
+    + Acto de entrega de crédito.
+#. Departamento de Gerencia de Credito:
+    + Acompañamiento: verificación del plan de inversión.
+    + Informe de la inspección con registros fotográficos.
+    + Acompañamiento: autoriza desembolso de segundas y terceras partes o solicita el reintegro del capital.
+#. Departamento de Gerencia de Administración: Caja principal, Taquillas de pago y Taquilla Express;
+    + Consulta la tabla de amortización del crédito,
+    + Recibe los pagos realizados por los beneficiarios; estos pueden ser por el monto total o parcial de la cuota e incluso abonos a cuotas por vencerse.
+#. Departamento de Gerencia de Recuperaciones:
+    + Mantiene controlado el nivel de morosidad mediante diversas estrategias de cobranza, abordaje y seguimiento de los beneficiarios,
+    + Utiliza los datos de los beneficiarios y las tablas de amortización de crédito para determinar los niveles de morosidad por eje (páramo, metropolitano, panamericano, mocotíes, pueblos del sur), municipio y parroquia.
+    + Define carteras de cobranza a que se distribuyen entre sus ejecutivos para la correspondiente gestión persona a persona.
+    + Cada ejecutivo registra su actividad de contacto (llamada, mensaje, visita, citación, etc) en el expediente mediante un seguimiento.
+    + Pasa a la Consultoría Jurídica los Expedientes en dos casos generales: liberación (PAGADO TOTALMENTE) y demanda (INCUMPLIMIENTO EN EL PAGO)
+#. Departamento de Consultoría Jurídica:
+    + Redacta los documentos de liberación por cancelación total y los entrega al beneficiario para su tramitación en notaría.
+    + Redacta los documentos de demanda para ejecución de garantías.
 
 
 Se acordó enviar por correo electrónico los manuales de normas y procedimientos.
@@ -184,31 +184,31 @@ descrito en términos generales de la siguiente forma:
 1. Relación con otras dependencias
 
 
-- Debería generar listas de orden de atención por dependencia.
+    - Debería generar listas de orden de atención por dependencia.
 
-- No registra hora de salida.
+    - No registra hora de salida.
 
-- Debería hacer seguimiento de las visitas por las dependencias.
+    - Debería hacer seguimiento de las visitas por las dependencias.
 
-- Los datos de los visitantes quedan disponibles para el resto de las dependencias, la idea es que minimicen la necesidad de transcribir información.
+    - Los datos de los visitantes quedan disponibles para el resto de las dependencias, la idea es que minimicen la necesidad de transcribir información.
 
 2. Consultas por teléfono
 
 
-- Se atienden por teléfono solicitudes del estado de la solicitud del crédito que está en el sistema SIGEFOMDES.
+    - Se atienden por teléfono solicitudes del estado de la solicitud del crédito que está en el sistema SIGEFOMDES.
 
-- También reciben consultas sobre el estado del pago de los créditos sobre recuperación y cobranzas.
+    - También reciben consultas sobre el estado del pago de los créditos sobre recuperación y cobranzas.
 
-- Se recalcó que el ofrecimiento de la planilla de solicitud por Internet alivió el trabajo del departamento de Atención al Ciudadano.
+    - Se recalcó que el ofrecimiento de la planilla de solicitud por Internet alivió el trabajo del departamento de Atención al Ciudadano.
 
 3. Comentarios de Ceblín Ruíz
 
 
-- Ceblín Ruíz explicó como el departamento de Atención al ciudadano ofrece atención integral a los usuarios de FOMDES.
+    - Ceblín Ruíz explicó como el departamento de Atención al ciudadano ofrece atención integral a los usuarios de FOMDES.
 
-- Anteriormente se recibían denuncias, en vista que eran un centro contralor. Se atendían dudas sobre créditos, aunque hayan sido otorgados por otra institución.
+    - Anteriormente se recibían denuncias, en vista que eran un centro contralor. Se atendían dudas sobre créditos, aunque hayan sido otorgados por otra institución.
 
-- Según su optica, se trata de un ente contralor desde un punto de vista integral, jurídico, con criterios de equidad social y territorial.
+    - Según su optica, se trata de un ente contralor desde un punto de vista integral, jurídico, con criterios de equidad social y territorial.
 
 Gerencia de Crédito: Políticas de Financiamiento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -225,46 +225,46 @@ los primeros en cola del año siguiente con nuevo código de expediente.
 1. Estacion de Información de Crédito
 
 
-- Se inicia con la descarga de la planilla de Propuesta de Financiamiento desde el sitio web de FOMDES. En la estacion de Información de Crédito se vacia la información de la planilla. Se realiza una primer filtro en relación a la viabilidad y si se ajusta a las políticas del FOMDES.
+    - Se inicia con la descarga de la planilla de Propuesta de Financiamiento desde el sitio web de FOMDES. En la estacion de Información de Crédito se vacia la información de la planilla. Se realiza una primer filtro en relación a la viabilidad y si se ajusta a las políticas del FOMDES.
 
-- Al pasar este filtro, el beneficiario pasa a una lista de espera para la realización del taller. A dicho taller se convoca por vía telefónica, con una capacidad máx. de 100 personas y a ser realizado los Martes de cada semana.
+    - Al pasar este filtro, el beneficiario pasa a una lista de espera para la realización del taller. A dicho taller se convoca por vía telefónica, con una capacidad máx. de 100 personas y a ser realizado los Martes de cada semana.
 
-- Este listado de personas se lleva de manera manual.
+    - Este listado de personas se lleva de manera manual.
 
-- Al finalizar el taller se entrega la lista de requisitos. Estos requisitos dependen del tipo de solicitud (sector, monto, rubro).
+    - Al finalizar el taller se entrega la lista de requisitos. Estos requisitos dependen del tipo de solicitud (sector, monto, rubro).
 
 2. Estacion de Análisis Jurídico
 
 
-- Una vez que se reciben los requisitos, pasa a Analisis Jurídico donde se realiza el "Informe de control previo" (tiene un Formato).
+    - Una vez que se reciben los requisitos, pasa a Analisis Jurídico donde se realiza el "Informe de control previo" (tiene un Formato).
 
 3. Estacion de Análisis Económico
 
 
-- Si se recibe el visto bueno de Análisis Jurídico, pasa a una lista a la estacion de Análisis Económico.
+    - Si se recibe el visto bueno de Análisis Jurídico, pasa a una lista a la estacion de Análisis Económico.
 
-- Los analistas económicos de crédito están sectorizados por municipios y parroquias. Se asignan los analistas para las inspecciones por municipios para optimizar los tiempos por los traslados.
+    - Los analistas económicos de crédito están sectorizados por municipios y parroquias. Se asignan los analistas para las inspecciones por municipios para optimizar los tiempos por los traslados.
 
-- De las inspecciones se realiza un informe y minuta (que se considera unificar), aparte de un registro fotográfico. Existe un formato para la inspección.
+    - De las inspecciones se realiza un informe y minuta (que se considera unificar), aparte de un registro fotográfico. Existe un formato para la inspección.
 
-- También se realiza un 'Avalúo de Garantía' sobre un bien o propiedad que puede encontrarse en otro lugar.
+    - También se realiza un 'Avalúo de Garantía' sobre un bien o propiedad que puede encontrarse en otro lugar.
 
 4. Revisión de Presidencia
 
 
-- La inspección técnica tiene sugerencia de aprobación o negación, es revisado en presidencia, quien prioriza las solicitudes, decide si llevarla al Consejo Directivo, difiere la revisión, verifica los que tienen sugerencia de negados.
+    - La inspección técnica tiene sugerencia de aprobación o negación, es revisado en presidencia, quien prioriza las solicitudes, decide si llevarla al Consejo Directivo, difiere la revisión, verifica los que tienen sugerencia de negados.
 
 5. Consejo Directivo
 
 
-- Da la aprobación definitiva de las solicitudes de crédito. Generalmente es una formalidad.
+    - Da la aprobación definitiva de las solicitudes de crédito. Generalmente es una formalidad.
 
-- Existen excepciones: los créditos entre 1.200.000 y 3.600.000 BsF son otorgados por orden del Gobernador del Estado.
+    - Existen excepciones: los créditos entre 1.200.000 y 3.600.000 BsF son otorgados por orden del Gobernador del Estado.
 
-- El consejo directivo discute los casos bajo tres modalidades:
-+ Aprobado
-+ Aprobado condicionado
-+ Negación
+    - El consejo directivo discute los casos bajo tres modalidades:
+    + Aprobado
+    + Aprobado condicionado
+    + Negación
 
 Mejoras sugeridas
 ~~~~~~~~~~~~~~~~~
@@ -272,16 +272,16 @@ Mejoras sugeridas
 1. Reportes
 
 
-- Se considera que la principal mejora del sistema debe estar en los reportes, que permita revisar las solicitudes de crédito de cualquier forma.
+    - Se considera que la principal mejora del sistema debe estar en los reportes, que permita revisar las solicitudes de crédito de cualquier forma.
 
-- Poder realizar reportes por municipio, por rubro, por status, por rango de fechas. Y generar información estadística, que permita presentar los reportes de forma resumida.
+    - Poder realizar reportes por municipio, por rubro, por status, por rango de fechas. Y generar información estadística, que permita presentar los reportes de forma resumida.
 
-- Actualmente se realiza con la hoja de cálculo.
+    - Actualmente se realiza con la hoja de cálculo.
 
 2. Personalizar requisitos
 
 
-- Se sugiere que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los montos y a los rubros.
+    - Se sugiere que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los montos y a los rubros.
 
 
 Solicitudes al personal de FOMDES
@@ -297,6 +297,7 @@ Solicitudes al personal de FOMDES
 El equipo fue invitado al taller del día martes 7 de Abril, donde explicarían la información del proceso a los solicitantes.
 
 Al salir del taller o en la tarde se realizaría la visita al departamento de Acompañamiento. Quedarían pendientes los departamentos de gerencia de Administración para solicitar información sobre el pago y cobro de los créditos, y el de Gerencia de Recuperaciones.
+
 
 Fecha de la visita: 7 de Abril del 2015
 =======================================
@@ -513,13 +514,13 @@ analistas de crédito.
 2. Departamento de Recuperaciones: En este departamento se generan "sábanas" de los créditos que se encuentran en
 categorías B, C y D. Esto es, el estado de los créditos morosos por municipio para planificar los cobros.
 
-En recuperaciones se realizan consultas del sistema.
+    En recuperaciones se realizan consultas del sistema.
 
-Se desea un sistema que envié mensajes SMS o correos electronicos a los beneficiarios que caigan en
-alguna categoría de morosos.
+    Se desea un sistema que envié mensajes SMS o correos electronicos a los beneficiarios que caigan en
+    alguna categoría de morosos.
 
-Se generan reportes, mes a mes, del número de seguimientos realizados que se
-utilizan como comprobante del trabajo realizado por los analistas.
+    Se generan reportes, mes a mes, del número de seguimientos realizados que se
+    utilizan como comprobante del trabajo realizado por los analistas.
 
 Visitas Restantes
 ~~~~~~~~~~~~~~~~~
