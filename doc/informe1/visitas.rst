@@ -841,7 +841,7 @@ Minuta de la visita
 
 #. El departamento de presupuesto tiene como funciones lo referente a gastos de personal (RAC), gastos de funcionamiento (programación de compras) y créditos, cuyos intereses de mora y capital son invertidos en el funcionamiento del FOMDES.
 
-#. El departamento de presupuesto hace un control interno y procesa todas las certificaciones presupuestarias que se inician cuando el crédito esta próximo a ser aprobado. Este proceso se hace manualmente en una hoja de la herramienta ofimatica LibreOffice Calc. La ?????????? del departamento de presupuesto debe consultar los sistemas informaticos SIGEFOMDES Administracion, SIGEFOMDES Crédito y SISAC para actualizar de manera manual su hoja de trabajo.   
+#. El departamento de presupuesto hace un control interno y procesa todas las certificaciones presupuestarias que se inician cuando el crédito esta próximo a ser aprobado. Este proceso se hace manualmente en una hoja de la herramienta ofimatica LibreOffice Calc. La _CARGO_DE_JACKELIN_ del departamento de presupuesto debe consultar los sistemas informaticos SIGEFOMDES Administracion, SIGEFOMDES Crédito y SISAC para actualizar de manera manual su hoja de trabajo.   
 
 #. Cada sector tiene una partida presupuestaria por separado. 
 
