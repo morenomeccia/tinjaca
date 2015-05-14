@@ -415,7 +415,7 @@ economicos van hasta la unidad de produccion y la inspeccionan, hacen una inspec
 
 
 Fecha de la visita: 9 de Abril del 2015 
-=======================================
+======================================== 
 
 Visitantes 
 ---------- 
@@ -468,10 +468,10 @@ Contactos de los departamentos visitados
 | Correo Electrónico: albapabonm25@gmail.com 
  
 Minuta de la visita 
--------------------
+-------------------- 
 
 Gerencia de Crédito: Estación de Análisis Jurídico 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 Los créditos de FOMDES tienen varios tipos de respaldos o garantías: Aval con letra de cambio (Fiador), Hipoteca, fianza financiera (sociedad de garantías reciprocas) y Prenda sin desplazamiento. Esta instancia se encarga de verificar que la documentación suministrada para respaldo de garantía de la solicitud sea válida legalmente y la transcribe en el sistema. Una vez hecho este procedimiento asigna el valor de "CUMPLE" o "NO CUMPLE" según se satisfagan los requisitos para las mismas. Cuando la garantía es hipoteca, el sistema arroja la planilla desde información de crédito con un campo donde se transcribe dicho documento hipotecario. Esta instancia también se encarga de ajustar expedientes que no fueron aprobados en el período inmediatamente anterior por falta de recursos. Dichos expedientes son asignados en el sistema como "rechazados" e ingresados nuevamente con un código diferente que refleja su pertenencia presupuestaria en el año en curso. Los expedientes que "cumplen" con los requisitos son pasados a la siguiente estación. 
 
@@ -487,7 +487,7 @@ Como crédito y administración no están conectados entre si para saber cuanto 
 
 
 Gerencia de Crédito: Estación de Análisis Económico 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
  
 En la estación de Análisis Económico de la Gerencia de Crédito se encargan de hacer dos estudios: un aval de garantías (en el caso de hipotecas y en el caso de garantías prendatarias sin desplazamiento) y un informe de actividad económica que tiene que ver con un estudio básico sobre la actividad propuesta para financiamiento y las condiciones expresadas en el proyecto para ello. Se realiza una inspección para conocer si la garantía cubre o no el crédito (la misma debe ser 2 veces mayor al crédito). En la inspección se utilizan dos instrumentos: un informe técnico (evaluación) y minuta (datos del crédito), para créditos mayores a 200 mil. Para las visitas de inspección del aval de garantías se dispone de 4 formatos distintos: para pyme, pimi y artesanía, agrícola vegetal, agrícola anual y turismo. 
 
@@ -501,7 +501,7 @@ Tanto en el informe técnico como en la minuta se repite información por lo que
 
 
 Secretaria Ejecutiva 
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~ 
 
 Secretaría ejecutiva organiza los expedientes que le envía Créditos en una hoja impresa, para ser presentados a Consejo Directivo para su aprobación. 
 Realiza la agenda con los casos previamente filtrados que van a discutir en el consejo directivo (4 miembros + presidente). Imprime la asistencia del consejo directivo y hace el acta del consejo (con datos de la agenda). 
@@ -546,10 +546,10 @@ Contactos de los departamentos visitados
 
   
 Minuta de la visita
--------------------
+--------------------
 
 Gerencia de recuperaciones
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Administración utiliza los datos del cheque del credito para generar las tablas de amortizacion y los estados de cuenta. Luego recuperaciones realiza una factura para Caja con los datos del usuario, monto aprobado, tasas de interés y cuotas entre otras. Las cuotas vencidas o pagadas no se reflejan en los reportes. 
 
@@ -604,7 +604,7 @@ Gerencia de recuperaciones
 #. Los estados de cuenta tienen dos campos: Un campo denominado "recibo", que guarda la lista de los recibos del expediente que los beneficiarios entregan en físico, por fax o correo y un campo denominado "Seguimiento", el cual guarda un resumen del histórico de FOMDES con el beneficiario, es decir si se contacto a través de una visita o una llamada y a que acuerdo de fecha y pago se llego. En seguimiento no hay alertas en las fechas próximas en que el beneficiario se compromete a pagar las cuotas vencidas. Tienen un modulo para consultar los depósitos de las cuotas. 
 
 Gerencia de sistemas, recuperaciones y gestion de riesgo
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Una de las labores de gerencia de sistemas es corregir las deficiencias para generar los estados de cuentas y cobranzas por parte de recuperaciones; si un beneficiario paga las cuotas del credito por adelantado se exonera mas de lo permitido, el saldo negativo es mayor o se generan mas cuotas de las que se deben pagar. Esto lo resuelve al gerencia de sistemas de manera manual, ya que si este error persiste cuando va a administración es rechazado. El recibo de cancelación total del crédito en algunos casos es distinto al de administración, porque sistemas es quien coloca el estatus de "cancelación total del crédito".  
 
@@ -660,10 +660,10 @@ Contactos de los departamentos visitados
 | Correo Electrónico: ?????? 
   
 Minuta de la visita
--------------------
+--------------------
 
 Departamento de estadistica
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. La oficina de Estadística (Crédito), recibe una a una las carpetas en físico con las propuestas de financiamiento que han sido categorizadas como “viables”.
 
@@ -680,7 +680,7 @@ Departamento de estadistica
 #. También se tiene un formato para informes POA, que son solicitados por presidencia.
 
 Oficina de Ciencia y Tecnología
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Existe en primer lugar una oficina de asesoramiento técnico, a la cual pueden acudir las personas sin propuestas concretas para recibir instrucciones y recomendaciones al momento de elaborar sus propuestas. Las personas son enviadas a esta oficina desde la taquilla de entrada.
 
@@ -725,7 +725,7 @@ Contactos de los departamentos visitados
 | Correo Electrónico: barillasoj@cantv.net 
   
 Minuta de la visita
--------------------
+--------------------
 
 #. FOMDES tiene dos entradas de recursos, los que provienen de la caja de recuperaciones y los que provienen del situado constitucional (Tesorería de la Gobernación). Estos recursos son manejados por presupuesto/contabilidad para la planificación anual. Sin embargo, si a mitad de año se quedan sin dinero solicitan a la gobernación una inyección de capital.
 
@@ -733,7 +733,7 @@ Minuta de la visita
 
 #. En la ruta del expediente, no existe un historial de inserción de documentos en el expediente. 
 
-#. En archivo, se lleva una lista interna de a quien se le presta el expediente en la herramienta ofimaico LibreOffic Calc. 
+#. En archivo, se lleva una lista interna de a quien se le presta el expediente en la herramienta ofimatica LibreOffice Calc. 
 
 #. No están definidos los roles de usuarios en el sistema.
 
@@ -742,18 +742,15 @@ Minuta de la visita
 #. Estadística y evaluación de riesgo utilizan el sistema informatico WebAdmin que se utiliza en crédito y recuperaciones. 
 
 #. Los códigos utilizados por FOMDES para identificar los 7 sectores empresariales son:
-
-    +------------------------------------+
-	|MEP -> microempresas                |
-	|PYME -> pequeña y mediana empresa   |
-	|PYMI -> pequeña y mediana industria |
-	|COOP -> cooperativas                |
-	|A -> artesanías                     |
-	|AGR -> agrícola                     |
-	|T -> turismo                        |
-    +------------------------------------+
-
-
+|
+|MEP -> microempresas
+|PYME -> pequeña y mediana empresa
+|PYMI -> pequeña y mediana industria 
+|COOP -> cooperativas
+|A -> artesanías
+|AGR -> agrícola 
+|T -> turismo
+|
 #. El sector de ciencia y tecnología entra como MEP, PYME y PYMI 
 
 #. Los sectores de mayor demanda en FOMDES son PYMI y AGR.
@@ -764,8 +761,8 @@ Minuta de la visita
 
 #. Un beneficiario moroso en FOMDES tiene dos alternativas para cancelar sus deudas:
  
-	* Pagar en la caja del FOMDES (al día) o pagar en las taquillas express (distintos puntos de Mérida). El recibo de caja se diferencia con la letra "C" y de taquilla con la letra "X".
-	* Efectuar el pago a traves de un operativo de cobranza. Los operativos de cobranza se efectuan por municipio (alcaldía) y visitan a los beneficiarios morosos para que se dirijan al punto de la taquilla express para cancelar cuota. 
+* Pagar en la caja del FOMDES (al día) o pagar en las taquillas express (distintos puntos de Mérida). El recibo de caja se diferencia con la letra "C" y de taquilla con la letra "X".
+* Efectuar el pago a traves de un operativo de cobranza. Los operativos de cobranza se efectuan por municipio (alcaldía) y visitan a los beneficiarios morosos para que se dirijan al punto de la taquilla express para cancelar cuota. 
 
 #. Si un beneficiario moroso no cancela sus deudas a tiempo, es citado, si no cumple con el acuerdo de pago, es demandado para la ejecución de garantía (bloqueo en caja).
 
@@ -801,3 +798,60 @@ Minuta de la visita
 		+ Recuperaciones: revisa cuentas por cobrar/exoneraciones (casos extremos); actualiza el seguimiento/direcciones (ejecutivos de calle); administra las carteras de cobranza y define las rutas de cobranza por municipio. 
 		+ Cartera de cobranza (quienes me deben): es una lista de beneficiarios a cobrar por cada ejecutivo de cobranza.
 		+ Sabanas (cuanto me deben cada uno): es una consulta de todos los detalles asociados a la deuda de cada uno de los beneficiarios asignados a cada ejecutivo de cobranza.
+
+
+Fecha de la visita: Visita 7 de Mayo del 2015
+==============================================
+
+Visitantes
+----------
+
+* Francisco Palm
+* Hector Ospino
+* María Alejandra Rujano
+
+Departamentos Visitados
+-----------------------
+
+* Gerencia de administracion y finanzas, Departamento de Presupuesto
+
+Contactos de los departamentos visitados
+----------------------------------------
+
+| Jakelin Zerpa 
+| ?????? - Departamento de presupuesto  
+| Tlf: 0416-2759526
+| Correo Electrónico: 2yakelin@hotmail.com 
+  
+Minuta de la visita
+--------------------
+
+#. La ONAPRE es un catalogo de cuentas del Estado y FOMDES se debe regir por este clasificador para la parte presupuestaria y contable.
+
+#. El departamento de presupuesto tiene como funciones lo referente a gastos de personal (RAC), gastos de funcionamiento (programación de compras) y créditos, cuyos intereses de mora y capital son invertidos en el funcionamiento del FOMDES.
+
+#. El departamento de presupuesto hace un control interno y procesa todas las certificaciones presupuestarias que se inician cuando el crédito esta próximo a ser aprobado. Este proceso se hace manualmente en una hoja de la herramienta ofimatica LibreOffice Calc. La ?????????? del departamento de presupuesto debe consultar los sistemas informaticos SIGEFOMDES Administracion, SIGEFOMDES Crédito y SISAC para actualizar de manera manual su hoja de trabajo.   
+
+#. Cada sector tiene una partida presupuestaria por separado. 
+
+#. La gerencia de administración se divide en dos procesos: presupuesto que compromete los gastos y contabilidad que causa y paga lo estipulado. Estos dos procesos no se comunican a través de ningún sistema. Para llevar la contabilidad se utiliza el sistema informatico SISAC.
+
+#. El presupuesto del FOMDES se comienza a planificar en el mes de Agosto y en el mes de Diciembre debe esta completado para ser aprobado. Cada año se comienza con un numero de partidas y si durante el mismo se necesitan mas se pueden crear de acuerdo a las necesidades del FOMDES o bien por aportes nuevos que alimentan al presupuesto. Los ingresos se cargan mensualmente.
+
+#. El capital de los créditos se usa como partidas de inversión por sector y los intereses para gastos de funcionamiento y personal. Estos intereses se acumulan en años subsiguientes. 
+
+#. Los créditos tienen un limite inferior de 12 meses, y un limite superior de 48 meses, para ser cancelados.
+
+#. Las proyecciones de presupuesto dependen de los créditos otorgados.
+
+#. Existen dos entradas de capital para los créditos: del situado mensual de la gobernación (equivalente al 3.5 del presupuesto de estado) y los ingresos propios que provienen de recuperaciones.
+
+#. El capital total del FOMDES esta formado por capital otorgado (y obtenido de las recuperaciones) y los intereses (mora + capital) . 
+
+#. El consejo directivo puede revocar un crédito por 3 causas; la primera es que no llegue el documento de Credito a Secretaria Ejecutiva, la segunda es que el beneficiario rechaze el crédito por ser insuficiente y la tercera es que el beneficiario no cumpla con el plan de inversión. 
+
+#. A patir de la recepcion de la propuesta de financiamiento hay un periodo de aproximadamente 45 días hasta el otorgamiento del cheque.
+
+#. En FOMDES se manejan fondos: el fondo 1 es el situado mensual de la gobernación; el fondo 2 es el proveniente de los ingresos propios de recuperaciones y el fondo 3 es asociado con los gastos de funcionamiento. En la actualidad se llevan solo los fondos 1 y 2 en una sola cuenta de inversión, sin embargo comentaron que cada fondo debe estar en cuentas separadas. 
+
+#. _CARGO_DE_JACKELIN_ del departamento presupuesto hace la certificación presupuestaria por cada sector (situado de la gobernacion + ingresos propios) ante el consejo directivo para aprobar el crédito. El consejo directivo emite un acta con los aprobados para que el _CARGO_DE_JACKELIN_ realice un control previo (visual) a cada expediente para verificar si tiene todos los requisitos y anexa a cada uno la certificación de disponibilidad del dinero para la liquidación del crédito. 
