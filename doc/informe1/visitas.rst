@@ -36,7 +36,7 @@ Se realiz'o el acto de firma de contrato para la prestaci'on de servicio.
 Se dió una primera aproximación sobre necesidades de actualización de las formas de trabajo institucional,
 según lo planteado en reuniones sostenidas con el prof Juan Carlos Villegas:
 
-    Facilitar la transición de los funcionarios entre los sistemas actuales y TINJACÁ.
+    - Facilitar la transición de los funcionarios entre el sistema TINJACA y los sistemas actuales.
     TINJACÁ debe contemplar tres tipos de usuarios:
         1. Los funcionarios administradores según sus jerarquías (tipo super usuario).
         2. Los funcionarios operadores según sus cargos y ubicación administrativa (tipo usuario).
@@ -50,9 +50,9 @@ según lo planteado en reuniones sostenidas con el prof Juan Carlos Villegas:
             * Registrar pagos efectuados mediante transferencia o depósito lo que implica la posterior recepción física del comprobante.
             * Las cuentas de usuario invitado pueden tener uno o mas expedientes asociados y una fecha de vencimiento inicial de dos meses que en ultima instancia coincida con la fecha de liberación del crédito, pudiendo reactivarse en caso de nuevas solicitudes.
 
-    La inserción de información estará distribuida entre las herramientas web y las disponibles en la institución; igualmente debe ser utilizada de forma eficiente.
+    - La inserción de información estará distribuida entre las herramientas web y las disponibles en la institución; igualmente debe ser utilizada de forma eficiente.
 
-    Se planteó permitir la edición de datos por parte del usuario tipo invitado, requiriendo una validación por parte de este en las oficinas de la institución a fin de que su edición tenga efecto (Dirección, teléfono, otros).
+    - Se planteó permitir la edición de datos por parte del usuario tipo invitado, requiriendo una validación por parte de este en las oficinas de la institución a fin de que su edición tenga efecto (Dirección, teléfono, otros).
 
 
 Sobre la estructura de la organización y sus procesos, se puntializó la existencia de procedimientos comunes que a nivel del diseño de TINJACÁ pudieran ser considerados como instancias de una misma clase: Los analistas de Crédito hacen inspecciones e informes con registros fotográficos;
