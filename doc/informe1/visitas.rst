@@ -371,8 +371,8 @@ expediente.
     Nudo crítico 1 y 4. No existe transferencia de datos entre SICA y SIGEFOMDES.
 
 5.	El expediente es asignado a los analistas económicos (4 analistas), quienes, de previo acuerdo con el beneficiario,
- visitan las unidades de producción para inspeccionar las actividades objeto de la propuesta (se toman de 6 a 8 fotos
- para sustentar la inspección).
+visitan las unidades de producción para inspeccionar las actividades objeto de la propuesta (se
+toman de 6 a 8 fotos para sustentar la inspección).
 
     Realizan un informe en Writer para sugerir la aprobación o negación del crédito ante el consejo directivo. Este paso
     vendría siendo el segundo filtro.
@@ -384,13 +384,14 @@ al FOMDES se genera el cheque, el cual es entregado en acto protocolar con el Go
 otorgados. Recuperación elabora el programa de cómo se van a cancelar las cuotas del crédito (existen dos fechas para
 cancelar vía deposito, transferencia o tarjeta de crédito,  el 3 o 17 de cada mes. 3% interés de mora). El expediente
 es transferido a Archivo (el manejo del archivo se realiza con calc). Luego de que la unidad de producción rinda frutos,
- Acompañamiento realiza un informe de recomendación para que el beneficiario pueda solicitar créditos posteriores.
+Acompañamiento realiza un informe de recomendación para que el beneficiario pueda solicitar créditos posteriores.
 8.	Existen 5 sistemas que no están conectados entre si:
-o	SICA: atención al usuario-lista de visitantes
-o	WebAdmin: propuesta de financiamiento antes del taller
-o	SIGEFOMDES: procedimiento del crédito después del taller
-o	SIGEFOMDES 2: genera las cuentas por cobrar
-o	SISAC (Sistema de Actualización de cuentas): usado por administración (genera errores de redondeo en los montos,
+    *	SICA: atención al usuario-lista de visitantes
+    *	WebAdmin: propuesta de financiamiento antes del taller
+    *	SIGEFOMDES: procedimiento del crédito después del taller
+    *	SIGEFOMDES 2: genera las cuentas por cobrar
+    *	SISAC (Sistema de Actualización de cuentas): usado por administración (genera errores de
+    redondeo en los montos,
 hasta un 20%. Departamento de sistemas debe corregir los errores del SISAC de manera manual) para generar los estados
  de cuenta
 
@@ -741,15 +742,18 @@ Minuta de la visita
 #. Estadística y evaluación de riesgo utilizan el sistema informatico WebAdmin que se utiliza en crédito y recuperaciones. 
 
 #. Los códigos utilizados por FOMDES para identificar los 7 sectores empresariales son:
-	|
-	|MEP -> microempresas
-	|PYME -> pequeña y mediana empresa
-	|PYMI -> pequeña y mediana industria 
-	|COOP -> cooperativas
-	|A -> artesanías
-	|AGR -> agrícola 
-	|T -> turismo
-	|
+
+    +------------------------------------+
+	|MEP -> microempresas                |
+	|PYME -> pequeña y mediana empresa   |
+	|PYMI -> pequeña y mediana industria |
+	|COOP -> cooperativas                |
+	|A -> artesanías                     |
+	|AGR -> agrícola                     |
+	|T -> turismo                        |
+    +------------------------------------+
+
+
 #. El sector de ciencia y tecnología entra como MEP, PYME y PYMI 
 
 #. Los sectores de mayor demanda en FOMDES son PYMI y AGR.
