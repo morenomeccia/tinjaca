@@ -19,20 +19,20 @@ créditos.
 
     .. list-table::
        :widths: 40 40 40
-       :header-rows: 3
+       :header-rows: 1
 
        * - Entrada
          - Actividades
          - Salida
-       * - Propuesta de financiamiento
-         - Ingreso de datos al sistema WebAdmin
-         - Propuesta con código
-       * - Propuesta con código
-         - Revisión de la viabilidad de la propuesta
-         - Propuesta viable/no viable
-       * - Propuesta viable
-         - Incluye en lista del taller y envia requisitos
-         - Propuesta seleccionada para taller
+       * - Propuesta de financiamiento.
+         - Ingreso de datos al sistema WebAdmin.
+         - Propuesta con código.
+       * - Propuesta con código.
+         - Revisión de la viabilidad de la propuesta.
+         - Propuesta viable/no viable.
+       * - Propuesta viable.
+         - Incluye en lista del taller y envia requisitos.
+         - Propuesta seleccionada para taller..
 
     * **Flujograma**:
 
@@ -74,7 +74,7 @@ créditos.
 
     .. list-table::
        :widths: 40 40 40
-       :header-rows: 3
+       :header-rows: 1
 
        * - Entrada
          - Actividades
