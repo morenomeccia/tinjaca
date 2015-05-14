@@ -19,7 +19,7 @@ créditos.
 
     .. list-table::
        :widths: 40 40 40
-       :header-rows: 3
+       :header-rows: 1
 
        * - Entrada
          - Actividades
@@ -74,7 +74,7 @@ créditos.
 
     .. list-table::
        :widths: 40 40 40
-       :header-rows: 3
+       :header-rows: 1
 
        * - Entrada
          - Actividades
