@@ -59,20 +59,20 @@ Sobre la estructura de la organización y sus procesos, se puntializó la existe
 esto se hace también en Acompañamiento. Otro ejemplo puede ser el uso de dos conjuntos de plantillas para automatizar la creación de documentos de crédito y de liberación, simplificando la inserción de datos básicos ya registrados.
 
 Se obtuvo una ruta general del beneficiario dentro de la organización:
-    1. Atención al Ciudadano: Recepción.
-    2. Gerencia de Crédito:
+    1. Departamento de Atención al Ciudadano: Recepción.
+    2. Departamento de Gerencia de Crédito:
         + Información y recepción de documentos.
         + Taller de formación integral al beneficiario.
         + Análisis Jurídico.
         + Análisis Económico, inspección y avalúo de garantías.
         + Análisis Económico, Informe técnico y minuta.
         + Revisión por parte de el o la Gerente.
-    3. Secretaria Ejecutiva:
+    3. Departamento de Secretaria Ejecutiva:
         + Elaboración del documento de crédito.
         + Exposición en consejo directivo. (aprobar o negar)
         + Entrega del documento al beneficiario para notariado.
         + Recepción del documento notariado.
-    #. Gerencia de Administración y Finanzas:
+    #. Departamento de Gerencia de Administración y Finanzas:
         + Registro de la cuenta por cobrar.
         + Elaboración del cheque.
         + Certificación presupuestaria y financiera.
@@ -81,20 +81,20 @@ Se obtuvo una ruta general del beneficiario dentro de la organización:
         + Firma del cheque por parte de el o la Presidente.
     #. Secretaría Ejecutiva:
         + Acto de entrega de crédito.
-    #. Gerencia de Credito:
+    #. Departamento de Gerencia de Credito:
         + Acompañamiento: verificación del plan de inversión.
         + Informe de la inspección con registros fotográficos.
         + Acompañamiento: autoriza desembolso de segundas y terceras partes o solicita el reintegro del capital.
-    #. Gerencia de Administración: Caja principal, Taquillas de pago y Taquilla Express;
+    #. Departamento de Gerencia de Administración: Caja principal, Taquillas de pago y Taquilla Express;
         + Consulta la tabla de amortización del crédito,
         + Recibe los pagos realizados por los beneficiarios; estos pueden ser por el monto total o parcial de la cuota e incluso abonos a cuotas por vencerse.
-    #. Gerencia de Recuperaciones:
+    #. Departamento de Gerencia de Recuperaciones:
         + Mantiene controlado el nivel de morosidad mediante diversas estrategias de cobranza, abordaje y seguimiento de los beneficiarios,
         + Utiliza los datos de los beneficiarios y las tablas de amortización de crédito para determinar los niveles de morosidad por eje (páramo, metropolitano, panamericano, mocotíes, pueblos del sur), municipio y parroquia.
         + Define carteras de cobranza a que se distribuyen entre sus ejecutivos para la correspondiente gestión persona a persona.
         + Cada ejecutivo registra su actividad de contacto (llamada, mensaje, visita, citación, etc) en el expediente mediante un seguimiento.
         + Pasa a la Consultoría Jurídica los Expedientes en dos casos generales: liberación (PAGADO TOTALMENTE) y demanda (INCUMPLIMIENTO EN EL PAGO)
-    #. Consultoría Jurídica:
+    #. Departamento de Consultoría Jurídica:
         + Redacta los documentos de liberación por cancelación total y los entrega al beneficiario para su tramitación en notaría.
         + Redacta los documentos de demanda para ejecución de garantías.
 
@@ -123,7 +123,6 @@ Departamentos Visitados
 
 * Atención al ciudadano
 * Gerencia de Crédito
-* Acompañamiento
 
 Contactos de los departamentos visitados
 ----------------------------------------
@@ -200,12 +199,12 @@ descrito en términos generales de la siguiente forma:
 
 - También reciben consultas sobre el estado del pago de los créditos sobre recuperación y cobranzas.
 
-- Se recalcó que el ofrecimiento de la planilla de solicitud por Internet alivió el trabajo de la Oficina de atención al Ciudadano.
+- Se recalcó que el ofrecimiento de la planilla de solicitud por Internet alivió el trabajo del departamento de Atención al Ciudadano.
 
 3. Comentarios de Ceblín Ruíz
 
 
-- Ceblín Ruíz explicó como la Oficina de Atención al ciudadano ofrece atención integral a los usuarios de FOMDES.
+- Ceblín Ruíz explicó como el departamento de Atención al ciudadano ofrece atención integral a los usuarios de FOMDES.
 
 - Anteriormente se recibían denuncias, en vista que eran un centro contralor. Se atendían dudas sobre créditos, aunque hayan sido otorgados por otra institución.
 
@@ -223,39 +222,37 @@ Cada año, se genera una cola de rezagados luego de terminarse el presupuesto pa
 los primeros en cola del año siguiente con nuevo código de expediente.
 
 
-1. Información de Crédito
+1. Estacion de Información de Crédito
 
 
-- Se inicia con la descarga de la planilla de Propuesta de Financiamiento desde el sitio web de FOMDES. En "Información de Crédito" se vacia la información de la planilla. Se realiza una primer filtro en relación a la viabilidad y si se ajusta a las políticas del FOMDES.
+- Se inicia con la descarga de la planilla de Propuesta de Financiamiento desde el sitio web de FOMDES. En la estacion de Información de Crédito se vacia la información de la planilla. Se realiza una primer filtro en relación a la viabilidad y si se ajusta a las políticas del FOMDES.
 
 - Al pasar este filtro, el beneficiario pasa a una lista de espera para la realización del taller. A dicho taller se convoca por vía telefónica, con una capacidad máx. de 100 personas y a ser realizado los Martes de cada semana.
 
 - Este listado de personas se lleva de manera manual.
 
-
 - Al finalizar el taller se entrega la lista de requisitos. Estos requisitos dependen del tipo de solicitud (sector, monto, rubro).
 
-2. Análisis Jurídico
+2. Estacion de Análisis Jurídico
 
 
-- Una vez que se reciben los requisitos, pasa a "Analisis Jurídico" donde se
-realiza el "Informe de control previo" (tiene un Formato).
+- Una vez que se reciben los requisitos, pasa a Analisis Jurídico donde se realiza el "Informe de control previo" (tiene un Formato).
 
-3. Análisis Económico
+3. Estacion de Análisis Económico
 
 
-- Si se recibe el visto bueno del Análisis Jurídico, pasa a una lista para el "Análisis Económico".
+- Si se recibe el visto bueno de Análisis Jurídico, pasa a una lista a la estacion de Análisis Económico.
 
 - Los analistas económicos de crédito están sectorizados por municipios y parroquias. Se asignan los analistas para las inspecciones por municipios para optimizar los tiempos por los traslados.
 
 - De las inspecciones se realiza un informe y minuta (que se considera unificar), aparte de un registro fotográfico. Existe un formato para la inspección.
 
-- También se realiza un "Avalúo de Garantía" sobre un bien o propiedad que puede encontrarse en otro lugar.
+- También se realiza un 'Avalúo de Garantía' sobre un bien o propiedad que puede encontrarse en otro lugar.
 
 4. Revisión de Presidencia
 
 
-- La inspección técnica tiene sugerencia de aprobación o negación, es revisado en presidencia, quien prioriza las solicitudes, decide si llevarla al Consejo Directivo, difiere la revisión, verifica los que tienen sugerencia de negados, etc.
+- La inspección técnica tiene sugerencia de aprobación o negación, es revisado en presidencia, quien prioriza las solicitudes, decide si llevarla al Consejo Directivo, difiere la revisión, verifica los que tienen sugerencia de negados.
 
 5. Consejo Directivo
 
@@ -296,13 +293,9 @@ Solicitudes al personal de FOMDES:
 * Planillas y Formatos internos.
 
 
-El equipo fue invitado al taller del día martes 7 de Abril, donde
-explicarían la información del proceso a los solicitantes.
+El equipo fue invitado al taller del día martes 7 de Abril, donde explicarían la información del proceso a los solicitantes.
 
-Al salir del taller o en la tarde se realizaría la visita al departamento de
-acompañamiento. Quedarían pendientes las gerencias de Administración para
-solicitar información sobre el pago y cobro de los créditos y la de Gerencia de
-Recuperaciones.
+Al salir del taller o en la tarde se realizaría la visita al departamento de Acompañamiento. Quedarían pendientes los departamentos de gerencia de Administración para solicitar información sobre el pago y cobro de los créditos, y el de Gerencia de Recuperaciones.
 
 Fecha de la visita: 7 de Abril del 2015
 =======================================
@@ -319,7 +312,7 @@ Visitantes
 Departamentos Visitados
 -----------------------
 
-* Información de Crédito
+* Gerencia de credito: Información de Crédito
 
 
 Contactos de los departamentos visitados
@@ -348,23 +341,20 @@ día del taller.
     Esta etapa se considera como un primer filtro.
 
 3.	El día del taller, se le indica cuales son los requisitos dependiendo del sector y monto solicitado que debe consignar
-posteriormente en una cita, en una fecha que se establece en la misma planilla, con la oficina Información de Crédito.
+posteriormente en una cita, en una fecha que se establece en la misma planilla, con la estacion de Información de Crédito.
 Se dan las instrucciones para el llenado y el funcionario le asigna el número de propuesta (código) a la planilla Propuesta
 de Financiamiento.
 
     En la charla se explican los sectores, tasas de interés, montos que pueden solicitar y los tipos de garantías.
 
-4.	Recepción de documentos. El usuario entrega los requisitos a los funcionarios del departamento de Informaci'on de Cr'edito
-en la fecha propuesta, se hace una breve entrevista con el beneficiario y se asigna el código alfanumérico del
-expediente. Luego, los requisitos y la planilla de financiamiento pasan al departamento de An'alisis Jur'idico
-(parte de Gerencia de Credito) el cual verfica la validez legal de los requisitos.
+4.	Recepción de documentos. El usuario entrega los requisitos a los funcionarios de la estacion de Informaci'on de Cr'edito en la fecha propuesta, se hace una breve entrevista con el beneficiario y se asigna el código alfanumérico del expediente. Luego, los requisitos y la planilla de financiamiento pasan a la estacion de An'alisis Jur'idico, el cual verfica la validez legal de los requisitos.
 
     Segundo ingreso de datos del usuario (Datos del Representante Legal) al SIGEFOMDES (Sistema Integrado
     de Gestión del FOMDES).
 
     No existe transferencia de datos entre los sistemas inform'aticos SICA y SIGEFOMDES.
 
-5.	Posteriormente, el expediente es asignado al departamento de Analistas Económicos, quienes, de previo acuerdo con el beneficiario,
+5.	Posteriormente, el expediente es asignado a la estacion de Analistas Económicos, quienes, de previo acuerdo con el beneficiario,
 visitan las unidades de producción para inspeccionar las actividades objeto de la propuesta (se toman de 6 a 8 fotos
 para sustentar la inspección). En la inspeccion de factibilidad se evaluan tres elementos:
 - Que exista la unidad de produccion
@@ -374,10 +364,10 @@ para sustentar la inspección). En la inspeccion de factibilidad se evaluan tres
     Realizan un informe en la herramienta ofim'atica Libre Office Writer para sugerir la aprobación o negación del crédito ante la Gerencia de Credito donde el Consejo directivo tomar'a la decision final sobre el credito. Este paso se puede considerar como el segundo filtro.
 
 
-6.	De ser aprobada la solicitud, Secretaria ejecutiva junto con la consultoría jurídica elaboran el documento para el crédito y dependiendo del monto solicitado va a registro o notaria. Una vez devuelto el documento al FOMDES se genera el cheque, el cual es entregado en acto protocolar con el Gobernador del Estado.
+6.	De ser aprobada la solicitud, Secretaria ejecutiva junto con el departamento de consultoría jurídica elaboran el documento para el crédito y dependiendo del monto solicitado va a registro o notaria. Una vez devuelto el documento al FOMDES se genera el cheque, el cual es entregado en acto protocolar con el Gobernador del Estado.
 
 7.	La unidad de producción comienza a trabajar con 3 meses de gracia. El departamento de Acompañamiento verifica el destino de los recursos
-otorgados, deben entregarse facturas de las compras realizadas con el credito a este departamento, quien tambien, va a la unidad de produccion y redacta un informe, de encontrar alguna irregularidad en este punto, se puede solicitar al beneficiario que devuelva el credito.
+otorgados, deben entregarse facturas de las compras realizadas con el credito a este departamento, quien tambien, va a la unidad de produccion y redacta un informe, de encontrar alguna irregularidad en este punto, se puede solicitar al beneficiario devolver el credito.
 
 8. EL departamento de Recuperación elabora el programa de cómo se van a cancelar las cuotas del crédito (existen dos fechas para
 cancelar: vía deposito, transferencia o tarjeta de crédito,  los 3 o 17 de cada mes con 3% interés de mora). El expediente
@@ -389,19 +379,8 @@ Existen 5 sistemas informaticos que no están conectados entre si:
     *	WebAdmin: propuesta de financiamiento antes del taller
     *	SIGEFOMDES: procedimiento del crédito después del taller
     *	SIGEFOMDES 2: genera las cuentas por cobrar
-    *	SISAC (Sistema de Actualización de cuentas): usado por administración, genera errores de
-    redondeo en los montos hasta un 20%. Gerencia de sistemas debe corregir los errores del SISAC de manera manual para generar los estados
- de cuenta
-
-
- Luego
-  que el credito se aprueba pasa a la Secretaria Ejecutiva la cual llamara al usuario para tramitar el prestamo.
-   Se le da un lapso de 3 meses al usuario para invierta el dinero del prestamo en los recursos necesarios y luego
-   del departamento de ??? (no mencionaron nunca el nombre pero pertenece a Gerencia de Credito) verifica que se hizo
-   una inversion adecuada del dinero, se deben entregar facturas de las compras realizadas con el credito a este departamento
-   que tambien ira a la unidad de produccion y hara un informe, si se encuentra alguna irregularidad en este punto se le puede
-    pedir al usuario que devuelva el prestamo. Finalmente el departamento de recuperacion entrega un estado de cuenta al
-     usuario que dice como se pagara el prestamo al FOMDES.
+    *	SISAC (Sistema de Actualización de cuentas): usado por administración, genera errores de redondeo en los montos hasta
+    un 20%. Gerencia de sistemas debe corregir los errores del SISAC de manera manual para generar los estados de cuenta
 
 
 Fecha de la visita: 9 de Abril del 2015 
@@ -410,7 +389,6 @@ Fecha de la visita: 9 de Abril del 2015
 Visitantes 
 ---------- 
 
-* Adriana Torres 
 * Francisco Palm 
 * Hector Ospino 
 * María Alejandra Rujano 
