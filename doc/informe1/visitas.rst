@@ -168,48 +168,48 @@ Oficina de Atención del Ciudadano
 Se dió a conocer que el sistema utilizado en recepción es SICA (Sistema Integrado de Información Adminsitrativa),
 descrito en términos generales de la siguiente forma:
 
-+ Si el usuario llega a FOMDES por vez primera se registra en SICA, solicitando: Nombre, Apellido, Cédula, Ubicación, Dependencia, y Observaciones.
+- Si el usuario llega a FOMDES por vez primera se registra en SICA, solicitando: Nombre, Apellido, Cédula, Ubicación, Dependencia, y Observaciones.
 
-+ Al llegar un usuario ya registrado, se solicita cédula y dependencia destino, registrandose en el sistema automáticamente la fecha y hora
+- Al llegar un usuario ya registrado, se solicita cédula y dependencia destino, registrandose en el sistema automáticamente la fecha y hora
 
-+ Si el solicitante llama para pedir información sobre el estatus de su crédito, atención al usuario levanta la pestaña de los sistemas  WebAdmin y SIGEFOMDES para dar la información correspondiente.
+- Si el solicitante llama para pedir información sobre el estatus de su crédito, atención al usuario levanta la pestaña de los sistemas  WebAdmin y SIGEFOMDES para dar la información correspondiente.
 
-+ El personal de recepción debe iniciar sesión en SICA, si el sistema pasa un período de tiempo inactivo, solicita el reinicio de la sesión.
+- El personal de recepción debe iniciar sesión en SICA, si el sistema pasa un período de tiempo inactivo, solicita el reinicio de la sesión.
 
-+ Se realizan reportes de los últimos vistantes.
+- Se realizan reportes de los últimos vistantes.
 
-+ Se hacen búsquedas por rango de fechas y cédula.
+- Se hacen búsquedas por rango de fechas y cédula.
 
-+ El sistema muestra un menu sin necesidad de acceder (loguear) al mismo. Al seleccionar un elemento del menú, el sistema se bloquea y es necesario recargar la página. Se hace engorroso dar las actualizaciones.
+- El sistema muestra un menu sin necesidad de acceder (loguear) al mismo. Al seleccionar un elemento del menú, el sistema se bloquea y es necesario recargar la página. Se hace engorroso dar las actualizaciones.
 
 1. Relación con otras dependencias
 
 
-+ Debería generar listas de orden de atención por dependencia.
+- Debería generar listas de orden de atención por dependencia.
 
-+ No registra hora de salida.
+- No registra hora de salida.
 
-+ Debería hacer seguimiento de las visitas por las dependencias.
+- Debería hacer seguimiento de las visitas por las dependencias.
 
-+ Los datos de los visitantes quedan disponibles para el resto de las dependencias, la idea es que minimicen la necesidad de transcribir información.
+- Los datos de los visitantes quedan disponibles para el resto de las dependencias, la idea es que minimicen la necesidad de transcribir información.
 
 2. Consultas por teléfono
 
 
-+ Se atienden por teléfono solicitudes del estado de la solicitud del crédito que está en el sistema SIGEFOMDES.
+- Se atienden por teléfono solicitudes del estado de la solicitud del crédito que está en el sistema SIGEFOMDES.
 
-+ También reciben consultas sobre el estado del pago de los créditos sobre recuperación y cobranzas.
+- También reciben consultas sobre el estado del pago de los créditos sobre recuperación y cobranzas.
 
-+ Se recalcó que el ofrecimiento de la planilla de solicitud por Internet alivió el trabajo de la Oficina de atención al Ciudadano.
+- Se recalcó que el ofrecimiento de la planilla de solicitud por Internet alivió el trabajo de la Oficina de atención al Ciudadano.
 
 3. Comentarios de Ceblín Ruíz
 
 
-+ Ceblín Ruíz explicó como la Oficina de Atención al ciudadano ofrece atención integral a los usuarios de FOMDES.
+- Ceblín Ruíz explicó como la Oficina de Atención al ciudadano ofrece atención integral a los usuarios de FOMDES.
 
-+ Anteriormente se recibían denuncias, en vista que eran un centro contralor. Se atendían dudas sobre créditos, aunque hayan sido otorgados por otra institución.
+- Anteriormente se recibían denuncias, en vista que eran un centro contralor. Se atendían dudas sobre créditos, aunque hayan sido otorgados por otra institución.
 
-+ Según su optica, se trata de un ente contralor desde un punto de vista integral, jurídico, con criterios de equidad social y territorial.
+- Según su optica, se trata de un ente contralor desde un punto de vista integral, jurídico, con criterios de equidad social y territorial.
 
 Gerencia de Crédito: Políticas de Financiamiento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -226,62 +226,48 @@ los primeros en cola del año siguiente con nuevo código de expediente.
 1. Información de Crédito
 
 
-+ Se inicia con la descarga de la planilla de Propuesta de Financiamiento desde el
-sitio web de FOMDES. En "Información de Crédito" se vacia la información de la
-planilla. Se realiza una primer filtro en relación a la viabilidad y si se
-ajusta a las políticas del FOMDES.
+- Se inicia con la descarga de la planilla de Propuesta de Financiamiento desde el sitio web de FOMDES. En "Información de Crédito" se vacia la información de la planilla. Se realiza una primer filtro en relación a la viabilidad y si se ajusta a las políticas del FOMDES.
 
-+ Al pasar este filtro, el beneficiario pasa a una lista de espera para la realización del taller. A dicho
-taller se convoca por vía telefónica, con una capacidad máx. de 100 personas y a ser realizado los Martes de cada semana.
+- Al pasar este filtro, el beneficiario pasa a una lista de espera para la realización del taller. A dicho taller se convoca por vía telefónica, con una capacidad máx. de 100 personas y a ser realizado los Martes de cada semana.
 
-+ Este listado de personas se lleva de manera manual.
+- Este listado de personas se lleva de manera manual.
 
 
-+ Al finalizar el taller se entrega la lista de requisitos. Estos requisitos
-dependen del tipo de solicitud (sector, monto, rubro).
+- Al finalizar el taller se entrega la lista de requisitos. Estos requisitos dependen del tipo de solicitud (sector, monto, rubro).
 
 2. Análisis Jurídico
 
 
-+ Una vez que se reciben los requisitos, pasa a "Analisis Jurídico" donde se
+- Una vez que se reciben los requisitos, pasa a "Analisis Jurídico" donde se
 realiza el "Informe de control previo" (tiene un Formato).
 
 3. Análisis Económico
 
 
-+ Si se recibe el visto bueno del Análisis Jurídico, pasa a una lista para el
-"Análisis Económico".
+- Si se recibe el visto bueno del Análisis Jurídico, pasa a una lista para el "Análisis Económico".
 
-+ Los analistas económicos de crédito están sectorizados por municipios y parroquias.
-Se asignan los analistas para las inspecciones por municipios para optimizar los tiempos por los traslados.
+- Los analistas económicos de crédito están sectorizados por municipios y parroquias. Se asignan los analistas para las inspecciones por municipios para optimizar los tiempos por los traslados.
 
-+ De las inspecciones se realiza un informe y minuta (que se considera unificar),
-aparte de un registro fotográfico. Existe un formato para la inspección.
+- De las inspecciones se realiza un informe y minuta (que se considera unificar), aparte de un registro fotográfico. Existe un formato para la inspección.
 
-+ También se realiza un "Avalúo de Garantía" sobre un bien o propiedad que puede
-encontrarse en otro lugar.
+- También se realiza un "Avalúo de Garantía" sobre un bien o propiedad que puede encontrarse en otro lugar.
 
 4. Revisión de Presidencia
 
 
-+ La inspección técnica tiene sugerencia de aprobación o negación, es revisado en
-presidencia, quien prioriza las solicitudes, decide si llevarla al Consejo
-Directivo, difiere la revisión, verifica los que tienen sugerencia de negados,
-etc.
+- La inspección técnica tiene sugerencia de aprobación o negación, es revisado en presidencia, quien prioriza las solicitudes, decide si llevarla al Consejo Directivo, difiere la revisión, verifica los que tienen sugerencia de negados, etc.
 
 5. Consejo Directivo
 
 
-+ Da la aprobación definitiva de las solicitudes de crédito. Generalmente es una
-formalidad.
+- Da la aprobación definitiva de las solicitudes de crédito. Generalmente es una formalidad.
 
-+ Existen excepciones: los créditos entre 1.200.000 y 3.600.000 BsF
-son otorgados por orden del Gobernador del Estado.
+- Existen excepciones: los créditos entre 1.200.000 y 3.600.000 BsF son otorgados por orden del Gobernador del Estado.
 
-+ El consejo directivo discute los casos bajo tres modalidades:
-- Aprobado
-- Aprobado condicionado
-- Negación
+- El consejo directivo discute los casos bajo tres modalidades:
++ Aprobado
++ Aprobado condicionado
++ Negación
 
 Mejoras sugeridas
 ~~~~~~~~~~~~~~~~~
@@ -289,28 +275,26 @@ Mejoras sugeridas
 1. Reportes
 
 
-+ Se considera que la principal mejora del sistema debe estar en los reportes, que
-permita revisar las solicitudes de crédito de cualquier forma.
+- Se considera que la principal mejora del sistema debe estar en los reportes, que permita revisar las solicitudes de crédito de cualquier forma.
 
-+ Poder realizar reportes por municipio, por rubro, por
-status, por rango de fechas. Y generar información estadística, que permita
-presentar los reportes de forma resumida.
+- Poder realizar reportes por municipio, por rubro, por status, por rango de fechas. Y generar información estadística, que permita presentar los reportes de forma resumida.
 
-+ Actualmente se realiza con la hoja de cálculo.
+- Actualmente se realiza con la hoja de cálculo.
 
 2. Personalizar requisitos
 
 
-+ Se sugiere que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los
+- Se sugiere que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los
 montos y a los rubros.
+
 
 Solicitudes al personal de FOMDES:
 
-- Decreto de creación de FOMDES y actualizaciones si las hay.
+* Decreto de creación de FOMDES y actualizaciones si las hay.
 
-- Capturas de pantalla de los sistemas (ya que no existe manual de usuario)
+* Capturas de pantalla de los sistemas (ya que no existe manual de usuario)
 
-- Planillas y Formatos internos.
+* Planillas y Formatos internos.
 
 
 El equipo fue invitado al taller del día martes 7 de Abril, donde
@@ -841,7 +825,7 @@ Minuta de la visita
 
 #. El departamento de presupuesto tiene como funciones lo referente a gastos de personal (RAC), gastos de funcionamiento (programación de compras) y créditos, cuyos intereses de mora y capital son invertidos en el funcionamiento del FOMDES.
 
-#. El departamento de presupuesto hace un control interno y procesa todas las certificaciones presupuestarias que se inician cuando el crédito esta próximo a ser aprobado. Este proceso se hace manualmente en una hoja de la herramienta ofimatica LibreOffice Calc. La _CARGO_DE_JACKELIN_ del departamento de presupuesto debe consultar los sistemas informaticos SIGEFOMDES Administracion, SIGEFOMDES Crédito y SISAC para actualizar de manera manual su hoja de trabajo.   
+#. El departamento de presupuesto hace un control interno y procesa todas las certificaciones presupuestarias que se inician cuando el crédito esta próximo a ser aprobado. Este proceso se hace manualmente en una hoja de la herramienta ofimatica LibreOffice Calc. La ?????????? del departamento de presupuesto debe consultar los sistemas informaticos SIGEFOMDES Administracion, SIGEFOMDES Crédito y SISAC para actualizar de manera manual su hoja de trabajo.   
 
 #. Cada sector tiene una partida presupuestaria por separado. 
 
