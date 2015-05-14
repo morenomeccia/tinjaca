@@ -26,8 +26,8 @@ créditos.
          - Salida
        * - Propuesta de financiamiento
          - Ingreso de datos al sistema WebAdmin
-         - Propuesta con código
-       * - Propuesta con código
+         - Propuesta de financiamiento
+       * - Propuesta de financiamiento
          - Revisión de la viabilidad de la propuesta
          - Propuesta viable/no viable
        * - Propuesta viable
@@ -130,7 +130,7 @@ créditos.
 
     .. list-table::
        :widths: 40 40 40
-       :header-rows: 6
+       :header-rows: 1
 
        * - Entrada
          - Actividades
@@ -194,16 +194,16 @@ créditos.
 
     .. list-table::
        :widths: 40 40 40
-       :header-rows: 4
+       :header-rows: 1
 
        * - Entrada
          - Actividades
          - Salida
        * - Documento protocolizado del cŕedito
+         - Revisión del documento protocolizado
          - Envia expediente a Administración
-         -
        * - Expediente
-         - Ingreso de datos al sistema SIGEFOMDES-Administración
+         - Ingreso de datos al sistema SIGEFOMDES-Administración-SISAC
          - Cuentas por cobrar/tabla de amortización/orden de liquidación/cheque firmado
        * - Cheque firmado por Administración
          - Firma del cheque
@@ -223,7 +223,6 @@ créditos.
          AE [label="", shape=circle, width="0.3", style=bold];
          A1 [label="A1: Daily\nReport"];
          A2 [label="A2: Memo"];
-
          AS -> A1;
          A2 -> AE;
          A1 -> A2 [style=invis];
@@ -246,7 +245,7 @@ créditos.
 
     * **Dependencia responsable**: Gerencia de Crédito
 
-    * **Unidad(es) Ejecutora(s)**: Acompañamiento y Asistencia Técnica
+    * **Unidad(es) Ejecutora(s)**: Acompañamiento y Asistencia Técnica, Consultoria Juridica, Archivo
 
     * **Tabla de Actividades**:
 
@@ -258,8 +257,14 @@ créditos.
          - Actividades
          - Salida
        * - Expediente
-         - Visita la unidad de producción para verificar compra y factura de insumos y equipos
+         - Visita la unidad de producción para verificar si cumple/no cumple con el plan de inversión
          - Informe de verificación de la inversión/Recomendación del beneficiario para futuros créditos
+       * - Expediente que no cumple con el plan de inversión
+         - Solicitud de reintegro del crédito
+         - Crédito otorgado
+       * - Expediente
+         - Introduce documentos al expediente
+         - Expediente
 
     * **Flujograma**:
 
@@ -306,9 +311,9 @@ créditos.
        * - Entrada
          - Actividades
          - Salida
-       * - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
+       * - Cuentas por cobrar
+         - Recibe pago de cuotas de crédito
+         - Recibo de pago realizado. Original al beneficiario y copia al expediente
 
     * **Flujograma**:
 
@@ -344,7 +349,7 @@ créditos.
 
     * **Dependencia responsable**: Gerencia de Recuperaciones
 
-    * **Unidad(es) Ejecutora(s)**: Gerencia de Recuperaciones y Consultoría Jurídica
+    * **Unidad(es) Ejecutora(s)**: Recuperaciones, Ejecutivos de Cobranza, Consultoría Jurídica
 
     * **Tabla de Actividades**:
 
@@ -355,9 +360,15 @@ créditos.
        * - Entrada
          - Actividades
          - Salida
-       * - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
+       * - Expediente que cumple con el plan de inversión
+         - Revisión de carteras y sabanas
+         - Lista de cuotas pagadas/vencidas
+       * - Lista de cuotas pagadas/vencidas
+         - Planifica seguimiento y rutas de cobranza
+         - Informe de seguimiento al beneficiario
+       * - Lista de morosos
+         - Demanda por ejecución de garantia
+         - Garantia del crédito
 
     * **Flujograma**:
 
@@ -393,7 +404,7 @@ créditos.
 
     * **Dependencia responsable**: Administración
 
-    * **Unidad(es) Ejecutora(s)**: Administración, Presidencia, Consultoría Jurídica
+    * **Unidad(es) Ejecutora(s)**: Administración, Consultoría Jurídica, Presidencia
 
     * **Tabla de Actividades**:
 
@@ -404,9 +415,15 @@ créditos.
        * - Entrada
          - Actividades
          - Salida
-       * - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
-         - TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTO TEXTO
+       * - Expediente
+         - Revisión de sabana
+         - Informe para liberación de crédito
+       * - Expediente
+         - Redacta documento de liberación del crédito
+         - Documento de liberación del crédito
+       * - Documento de liberación del crédito
+         - Firma documento de liberación del crédito
+         - Entrega de documento al beneficiario
 
     * **Flujograma**:
 
