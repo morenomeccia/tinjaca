@@ -101,7 +101,7 @@ Fecha de inicio de visitas para levantamiento de información en las dependencia
   - Acompañamiento.
 
 Fecha de la visita: 6 de Abril del 2015
-========================================
+=======================================
 
 Visitantes
 ----------
@@ -133,7 +133,7 @@ Contactos de los departamentos visitados
 
 
 Minuta de la visita
---------------------
+-------------------
 
 
 Oficina de Atención del Ciudadano
@@ -201,7 +201,7 @@ Comentarios de Ceblín Ruíz:
     criterios de equidad social y territorial.
 
 Gerencia de Crédito: Políticas de Financiamiento
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Anualmente, en la gerencia de crédito se discuten y se modifican las políticas de financiamiento para el otorgamiento
 de los créditos, en la que se establecen las tasas de interés y los montos asginados por sector, rubro o garantía .
@@ -311,7 +311,7 @@ solicitar información sobre el pago y cobro de los créditos y la de Gerencia d
 Recuperaciones.
 
 Fecha de la visita: 7 de Abril del 2015
-========================================
+=======================================
 
 Visitantes
 ----------
@@ -335,7 +335,7 @@ Contactos de los departamentos visitados
 * Acompañamiento: Nancy Molina
 
 Minuta de la visita
---------------------
+-------------------
 
 Luego de presenciar la realización del  “Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario”, se procedió
 a consolidar toda la informacion recabada hasta este dia en conjunto con Oscar Barillas, desglosandose de la siguiente forma:
@@ -414,7 +414,7 @@ economicos van hasta la unidad de produccion y la inspeccionan, hacen una inspec
 
 
 Fecha de la visita: 9 de Abril del 2015 
-======================================== 
+=======================================
 
 Visitantes 
 ---------- 
@@ -467,10 +467,10 @@ Contactos de los departamentos visitados
 | Correo Electrónico: albapabonm25@gmail.com 
  
 Minuta de la visita 
--------------------- 
+-------------------
 
 Gerencia de Crédito: Estación de Análisis Jurídico 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Los créditos de FOMDES tienen varios tipos de respaldos o garantías: Aval con letra de cambio (Fiador), Hipoteca, fianza financiera (sociedad de garantías reciprocas) y Prenda sin desplazamiento. Esta instancia se encarga de verificar que la documentación suministrada para respaldo de garantía de la solicitud sea válida legalmente y la transcribe en el sistema. Una vez hecho este procedimiento asigna el valor de "CUMPLE" o "NO CUMPLE" según se satisfagan los requisitos para las mismas. Cuando la garantía es hipoteca, el sistema arroja la planilla desde información de crédito con un campo donde se transcribe dicho documento hipotecario. Esta instancia también se encarga de ajustar expedientes que no fueron aprobados en el período inmediatamente anterior por falta de recursos. Dichos expedientes son asignados en el sistema como "rechazados" e ingresados nuevamente con un código diferente que refleja su pertenencia presupuestaria en el año en curso. Los expedientes que "cumplen" con los requisitos son pasados a la siguiente estación. 
 
@@ -486,7 +486,7 @@ Como crédito y administración no están conectados entre si para saber cuanto 
 
 
 Gerencia de Crédito: Estación de Análisis Económico 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
 En la estación de Análisis Económico de la Gerencia de Crédito se encargan de hacer dos estudios: un aval de garantías (en el caso de hipotecas y en el caso de garantías prendatarias sin desplazamiento) y un informe de actividad económica que tiene que ver con un estudio básico sobre la actividad propuesta para financiamiento y las condiciones expresadas en el proyecto para ello. Se realiza una inspección para conocer si la garantía cubre o no el crédito (la misma debe ser 2 veces mayor al crédito). En la inspección se utilizan dos instrumentos: un informe técnico (evaluación) y minuta (datos del crédito), para créditos mayores a 200 mil. Para las visitas de inspección del aval de garantías se dispone de 4 formatos distintos: para pyme, pimi y artesanía, agrícola vegetal, agrícola anual y turismo. 
 
@@ -500,7 +500,7 @@ Tanto en el informe técnico como en la minuta se repite información por lo que
 
 
 Secretaria Ejecutiva 
-~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~
 
 Secretaría ejecutiva organiza los expedientes que le envía Créditos en una hoja impresa, para ser presentados a Consejo Directivo para su aprobación. 
 Realiza la agenda con los casos previamente filtrados que van a discutir en el consejo directivo (4 miembros + presidente). Imprime la asistencia del consejo directivo y hace el acta del consejo (con datos de la agenda). 
@@ -545,10 +545,10 @@ Contactos de los departamentos visitados
 
   
 Minuta de la visita
---------------------
+-------------------
 
 Gerencia de recuperaciones
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Administración utiliza los datos del cheque del credito para generar las tablas de amortizacion y los estados de cuenta. Luego recuperaciones realiza una factura para Caja con los datos del usuario, monto aprobado, tasas de interés y cuotas entre otras. Las cuotas vencidas o pagadas no se reflejan en los reportes. 
 
@@ -603,7 +603,7 @@ Gerencia de recuperaciones
 #. Los estados de cuenta tienen dos campos: Un campo denominado "recibo", que guarda la lista de los recibos del expediente que los beneficiarios entregan en físico, por fax o correo y un campo denominado "Seguimiento", el cual guarda un resumen del histórico de FOMDES con el beneficiario, es decir si se contacto a través de una visita o una llamada y a que acuerdo de fecha y pago se llego. En seguimiento no hay alertas en las fechas próximas en que el beneficiario se compromete a pagar las cuotas vencidas. Tienen un modulo para consultar los depósitos de las cuotas. 
 
 Gerencia de sistemas, recuperaciones y gestion de riesgo
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Una de las labores de gerencia de sistemas es corregir las deficiencias para generar los estados de cuentas y cobranzas por parte de recuperaciones; si un beneficiario paga las cuotas del credito por adelantado se exonera mas de lo permitido, el saldo negativo es mayor o se generan mas cuotas de las que se deben pagar. Esto lo resuelve al gerencia de sistemas de manera manual, ya que si este error persiste cuando va a administración es rechazado. El recibo de cancelación total del crédito en algunos casos es distinto al de administración, porque sistemas es quien coloca el estatus de "cancelación total del crédito".  
 
@@ -659,10 +659,10 @@ Contactos de los departamentos visitados
 | Correo Electrónico: ?????? 
   
 Minuta de la visita
---------------------
+-------------------
 
 Departamento de estadistica
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. La oficina de Estadística (Crédito), recibe una a una las carpetas en físico con las propuestas de financiamiento que han sido categorizadas como “viables”.
 
@@ -679,7 +679,7 @@ Departamento de estadistica
 #. También se tiene un formato para informes POA, que son solicitados por presidencia.
 
 Oficina de Ciencia y Tecnología
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Existe en primer lugar una oficina de asesoramiento técnico, a la cual pueden acudir las personas sin propuestas concretas para recibir instrucciones y recomendaciones al momento de elaborar sus propuestas. Las personas son enviadas a esta oficina desde la taquilla de entrada.
 
@@ -724,7 +724,7 @@ Contactos de los departamentos visitados
 | Correo Electrónico: barillasoj@cantv.net 
   
 Minuta de la visita
---------------------
+-------------------
 
 #. FOMDES tiene dos entradas de recursos, los que provienen de la caja de recuperaciones y los que provienen del situado constitucional (Tesorería de la Gobernación). Estos recursos son manejados por presupuesto/contabilidad para la planificación anual. Sin embargo, si a mitad de año se quedan sin dinero solicitan a la gobernación una inyección de capital.
 
