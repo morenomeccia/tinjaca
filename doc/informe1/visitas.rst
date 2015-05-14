@@ -319,9 +319,13 @@ Departamentos Visitados
 
 Contactos de los departamentos visitados
 ----------------------------------------
-* Oscar Barillas
-* Información de Crédito: No se logró contacto con el personal
-* Acompañamiento: Nancy Molina
+| Oscar Barillas
+| Gerente de Sistemas
+| Tlf: 0424-7517353
+| Correo Electrónico: barillasoj@cantv.net
+|
+| Información de Crédito: No se logró contacto con el personal
+
 
 Minuta de la visita
 -------------------
@@ -536,10 +540,9 @@ Fecha de la visita: 9 de Abril del 2015
 Visitantes 
 ---------- 
 
-* Francisco Palm 
+* Mariangela Petrizzo
 * Hector Ospino 
-* María Alejandra Rujano 
-* Sirius Fuenmayor 
+* María Alejandra Rujano
 
 Departamentos Visitados 
 ----------------------- 
@@ -564,7 +567,7 @@ Contactos de los departamentos visitados
 |
 | Tibisay Torres 
 | Analista Económico - LLAMAR A PREGUNTAR POR OFICINA 
-| Tlf: 0414-7395921 llamar de 8 a 4pm entre semana 
+| Tlf: 0414-7395921
 | Correo Electrónico: tibisayoca@gmail.com 
 |
 | Cecilia Molina 
@@ -577,9 +580,9 @@ Contactos de los departamentos visitados
 | Tlf: 0426-1087703 
 | Correo Electrónico: belri17@hotmail.com 
 |
-| LLAMAR A PREGUNTAR POR EL CARGO - Secretaria Ejecutiva 
-| Alba Pabon 
-| Tlf: 0424-8674420 
+| Alba Pabon
+| LLAMAR A PREGUNTAR POR EL CARGO - Secretaria Ejecutiva
+| Tlf: 0424-8674420
 | Correo Electrónico: albapabonm25@gmail.com 
  
 Minuta de la visita 
@@ -835,7 +838,7 @@ Contactos de los departamentos visitados
 ----------------------------------------
 
 | Oscar Barillas 
-| ?????? - Gerencia de Sistemas 
+| Gerente de Sistemas
 | Tlf: 0424-7517353
 | Correo Electrónico: barillasoj@cantv.net 
   
