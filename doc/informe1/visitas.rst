@@ -284,7 +284,8 @@ Mejoras sugeridas
 - Se sugiere que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los montos y a los rubros.
 
 
-Solicitudes al personal de FOMDES:
+Solicitudes al personal de FOMDES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Decreto de creación de FOMDES y actualizaciones si las hay.
 
@@ -347,7 +348,10 @@ de Financiamiento.
 
     En la charla se explican los sectores, tasas de interés, montos que pueden solicitar y los tipos de garantías.
 
-4.	Recepción de documentos. El usuario entrega los requisitos a los funcionarios de la estacion de Informaci'on de Cr'edito en la fecha propuesta, se hace una breve entrevista con el beneficiario y se asigna el código alfanumérico del expediente. Luego, los requisitos y la planilla de financiamiento pasan a la estacion de An'alisis Jur'idico, el cual verfica la validez legal de los requisitos.
+4.	Recepción de documentos. El usuario entrega los requisitos a los funcionarios de la estacion de Informaci'on de
+Cr'edito en la fecha propuesta, se hace una breve entrevista con el beneficiario y se asigna el código alfanumérico del
+expediente. Luego, los requisitos y la planilla de financiamiento pasan a la estacion de An'alisis Jur'idico, el cual verfica
+la validez legal de los requisitos.
 
     Segundo ingreso de datos del usuario (Datos del Representante Legal) al SIGEFOMDES (Sistema Integrado
     de Gestión del FOMDES).
@@ -364,7 +368,9 @@ para sustentar la inspección). En la inspeccion de factibilidad se evaluan tres
     Realizan un informe en la herramienta ofim'atica Libre Office Writer para sugerir la aprobación o negación del crédito ante la Gerencia de Credito donde el Consejo directivo tomar'a la decision final sobre el credito. Este paso se puede considerar como el segundo filtro.
 
 
-6.	De ser aprobada la solicitud, Secretaria ejecutiva junto con el departamento de consultoría jurídica elaboran el documento para el crédito y dependiendo del monto solicitado va a registro o notaria. Una vez devuelto el documento al FOMDES se genera el cheque, el cual es entregado en acto protocolar con el Gobernador del Estado.
+6.	De ser aprobada la solicitud, Secretaria ejecutiva junto con el departamento de consultoría jurídica elaboran el
+documento para el crédito y dependiendo del monto solicitado va a registro o notaria. Una vez devuelto el documento al
+FOMDES se genera el cheque, el cual es entregado en acto protocolar con el Gobernador del Estado.
 
 7.	La unidad de producción comienza a trabajar con 3 meses de gracia. El departamento de Acompañamiento verifica el destino de los recursos
 otorgados, deben entregarse facturas de las compras realizadas con el credito a este departamento, quien tambien, va a la unidad de produccion y redacta un informe, de encontrar alguna irregularidad en este punto, se puede solicitar al beneficiario devolver el credito.
@@ -494,8 +500,8 @@ recibos.
 7. Cancelación Total. El sistema arroja una lista de créditos cancelados en su totalidad. Por errores
 de cálculo, el sistema no indica la "Cancelación Total", lo que requiere una llamada de Caja a Sistemas para cambiar el estado.
 
-Se busca el expediente y se consolida la información de SISAC y SIGEFOMDES. Se verifica recibo por recibo y se realiza
-el ajuste de céntimos. Entonces, se pasa al departamento de Consultoría Jurídica para elaborar el Documento de Liberación.
+    Se busca el expediente y se consolida la información de SISAC y SIGEFOMDES. Se verifica recibo por recibo y se realiza
+    el ajuste de céntimos. Entonces, se pasa al departamento de Consultoría Jurídica para elaborar el Documento de Liberación.
 
 
 Notas Adicionales
@@ -520,10 +526,6 @@ Visitas Restantes
 
 Se planificó para mañana jueves a las 2 pm con Secretaría Ejecutiva y el departamento de
 Acompañamiento. Y queda para el viernes la primera visita al departamento de Recuperaciones.
-
-
-
-
 
 
 
