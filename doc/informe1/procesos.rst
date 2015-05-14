@@ -84,8 +84,8 @@ créditos.
          - Expediente con código por sector
        * - Expediente
          - Revisión de la garantia
-         - Propuesta que cumple/no cumple con las políticas de financiamiento
-       * - Propuesta que cumple/no cumple con las políticas de financiamiento
+         - Expediente con control previo
+       * - Expediente con control previo
          - Realiza inspección y avalúo a la unidad de producción
          - Informe técnico de evaluación para aprobar/rechazar crédito
 
