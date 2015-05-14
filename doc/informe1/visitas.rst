@@ -135,17 +135,17 @@ Contactos de los departamentos visitados
 | Natalia Guzmán
 | Supervisora de Atención del Ciudadano
 | Tlf: 0416 5234643
-| Correo Electrónico: ???
+| Correo Electrónico: itzaguva@gmail.com
 |
 | Belkis Guillén
 | Recepcionista de Atenci'on del Ciudadano
-| Tlf: ???
-| Correo Electrónico: ???
+| Tlf: 0414-1798083
+| Correo Electrónico: elkisguillen@hotmail.com
 |
 | Daniel Zambrano
 | Recepcionista de Atenci'on del Ciudadano
-| Tlf: ???
-| Correo Electrónico: ???
+| Tlf: 0424-7233787
+| Correo Electrónico: danielzambrano650@gmail.com
 |
 | Maybell Vera
 | Gerencia de Crédito
@@ -505,7 +505,7 @@ recibos.
 7. Cancelación Total. El sistema arroja una lista de créditos cancelados en su totalidad. Por errores
 de cálculo, el sistema no indica la "Cancelación Total", lo que requiere una llamada de Caja a Sistemas para cambiar el estado.
 
-    Se busca el expediente y se consolida la información de SISAC y SIGEFOMDES. Se verifica recibo por recibo y se realiza
+    Se busca el expediente y se consolida la información de los sistemas informaticos SISAC y SIGEFOMDES. Se verifica recibo por recibo y se realiza
     el ajuste de céntimos. Entonces, se pasa al departamento de Consultoría Jurídica para elaborar el Documento de Liberación.
 
 
@@ -556,32 +556,32 @@ Contactos de los departamentos visitados
 ---------------------------------------- 
 
 | Karina Peña 
-| LLAMAR A PREGUNTAR POR EL CARGO - Información de crédito 
+|Asesora de atenci'on al beneficiario- Información de crédito
 | Tlf: 0424-9064347  
-| Correo Electrónico: LLAMAR A PREGUNTAR POR EL CORREO 
+| Correo Electrónico: karinapena1985@gmail.com
 |
 | Neyda Cardozo 
-| Analista jurídico de crédito: - información de crédito 
+| Analista jurídico de crédito - Información de crédito
 | Tlf: 0426-7070064 
 | Correo Electrónico: neidabeatrizcardozo@hotmail.com 
 |
 | Tibisay Torres 
-| Analista Económico - LLAMAR A PREGUNTAR POR OFICINA 
+| Analista jurídico de crédito - Información de crédito
 | Tlf: 0414-7395921
 | Correo Electrónico: tibisayoca@gmail.com 
 |
 | Cecilia Molina 
-| Analista Economico - LLAMAR A PREGUNTAR POR OFICINA 
+| Analista Economico - Información de crédito
 | Tlf: 0416-7743554 
 | Correo Electrónico: celmoli22@hotmail.com 
 |
 | Marybel Rivas 
-| Analista Economico - LLAMAR A PREGUNTAR POR OFICINA 
+| Analista Economico - Información de crédito
 | Tlf: 0426-1087703 
 | Correo Electrónico: belri17@hotmail.com 
 |
 | Alba Pabon
-| LLAMAR A PREGUNTAR POR EL CARGO - Secretaria Ejecutiva
+| Secretaria ejecutiva - Secretar'ia Ejecutiva
 | Tlf: 0424-8674420
 | Correo Electrónico: albapabonm25@gmail.com 
  
@@ -653,12 +653,12 @@ Contactos de los departamentos visitados
 ----------------------------------------
 
 | Kelly Contreras
-| LLAMAR A PREGUNTAR POR EL CARGO - Gerencia de recuperaciones 
+| Jefe del departamento de estadistica y auditor'ia de cobranza - Gerencia de recuperaciones
 | Tlf: 0426-1772979 
 | Correo Electrónico: kellyroxy@hotmail.com 
 |
 | Ciseron Paz 
-| LLAMAR A PREGUNTAR POR EL CARGO - Gerencia de sistemas, recuperaciones y gestion de riesgo
+| Analista de procesamiento de datos - Gerencia de sistemas, recuperaciones y gestion de riesgo
 | Tlf: 0416-1343718 
 | Correo Electrónico: ceta_paz@hotmail.com
 
@@ -761,22 +761,26 @@ Visitantes
 
 * Francisco Palm
 * Hector Ospino
-* María Alejandra Rujano
 * Jorge Moreno
 
 Departamentos Visitados
 -----------------------
 
-* Departamento de estadistica
+* Gerencia de Credito: Departamento de estadistica
 * Oficina de Ciencia y Tecnologia
 
 Contactos de los departamentos visitados
 ----------------------------------------
 
-| ??????
-| ?????? - ?????? 
-| Tlf: ?????? 
-| Correo Electrónico: ??????
+| Genny Acosta
+| Asesora de credito - Departamento de estad'istica
+| Tlf: 0416-8736548
+| Correo Electrónico: acostagenny@gmail.com
+|
+| Lizmar Vivas
+| Analista de proyecto - Unidad de industrializaci'on y desarrollo en cienca y tecnolog'ia
+| Tlf:
+| Correo Electrónico:
 
 Minuta de la visita
 -------------------
@@ -938,7 +942,7 @@ Contactos de los departamentos visitados
 ----------------------------------------
 
 | Jakelin Zerpa 
-| ?????? - Departamento de presupuesto  
+| Jefe de deparamento - Departamento de presupuesto
 | Tlf: 0416-2759526
 | Correo Electrónico: 2yakelin@hotmail.com 
   
