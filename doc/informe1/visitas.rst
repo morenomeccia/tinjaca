@@ -3,7 +3,7 @@ Descripción de las Visitas
 **************************
 
 A continuación se presentan los resúmenes de las visitas realizadas a las instalaciones del
-FOMDES desde el 6 de Abril hasta el 6 de Mayo del 2015.
+FOMDES desde el 31 de Marzo hasta el 7 de Mayo del 2015.
 
 Fecha de la visita: 31 de Marzo del 2015
 ========================================
@@ -34,7 +34,7 @@ Minuta de la visita
 Se realiz'o el acto de firma de contrato para la prestaci'on de servicio.
 
 Se dió una primera aproximación sobre necesidades de actualización de las formas de trabajo institucional,
-según lo planteado en reuniones sostenidas con el prof Juan Carlos Villegas F:
+según lo planteado en reuniones sostenidas con el prof Juan Carlos Villegas:
 
     Facilitar la transición de los funcionarios entre los sistemas actuales y TINJACÁ.
     TINJACÁ debe contemplar tres tipos de usuarios:
@@ -284,8 +284,7 @@ Mejoras sugeridas
 2. Personalizar requisitos
 
 
-- Se sugiere que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los
-montos y a los rubros.
+- Se sugiere que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los montos y a los rubros.
 
 
 Solicitudes al personal de FOMDES:
@@ -338,7 +337,7 @@ a consolidar toda la informacion recabada hasta este dia en conjunto con Oscar B
 1. El usuario descarga la “planilla de propuesta de negocio" del portal web, debe ser llenada con los datos solicitados e
 identificada con una foto tipo carnet en la planilla. Luego es llevada dentro de una carpeta marrón tamaño oficio al FOMDES.
 
-    Este es el primer ingreso de datos del usuario al sistema SICA (Sistema Integrado de Control Administrativo) y al WebAdmin
+    Este es el primer ingreso de datos del usuario al sistema SICA (Sistema Integrado de Control Administrativo) y al sistema informatico WebAdmin
     para generar el número de la propuesta (código).
 
 2.	Comienza la ruta del crédito. Los analistas de crédito verifican si la propuesta es viable y si cumplen con las
@@ -355,51 +354,47 @@ de Financiamiento.
 
     En la charla se explican los sectores, tasas de interés, montos que pueden solicitar y los tipos de garantías.
 
-4.	Recepción de documentos. Luego de consignar los requisitos, pasan al departamento de Analisis Juridico (parte
-de Gerencia de Credito) el cual verfica la validez legal de los mismos.  la
-oficina Información de Crédito hace una breve entrevista con el beneficiario y asigna el código alfanumérico del
-expediente.
+4.	Recepción de documentos. El usuario entrega los requisitos a los funcionarios del departamento de Informaci'on de Cr'edito
+en la fecha propuesta, se hace una breve entrevista con el beneficiario y se asigna el código alfanumérico del
+expediente. Luego, los requisitos y la planilla de financiamiento pasan al departamento de An'alisis Jur'idico
+(parte de Gerencia de Credito) el cual verfica la validez legal de los requisitos.
 
-    Segundo ingreso de datos del usuario (Datos del Representante Legal) al sistema SIGEFOMDES (Sistema Integrado
+    Segundo ingreso de datos del usuario (Datos del Representante Legal) al SIGEFOMDES (Sistema Integrado
     de Gestión del FOMDES).
 
-    Nudo crítico 1 y 4. No existe transferencia de datos entre SICA y SIGEFOMDES.
+    No existe transferencia de datos entre los sistemas inform'aticos SICA y SIGEFOMDES.
 
-5.	El expediente es asignado a los analistas económicos (4 analistas), quienes, de previo acuerdo con el beneficiario,
-visitan las unidades de producción para inspeccionar las actividades objeto de la propuesta (se
-toman de 6 a 8 fotos para sustentar la inspección).
+5.	Posteriormente, el expediente es asignado al departamento de Analistas Económicos, quienes, de previo acuerdo con el beneficiario,
+visitan las unidades de producción para inspeccionar las actividades objeto de la propuesta (se toman de 6 a 8 fotos
+para sustentar la inspección). En la inspeccion de factibilidad se evaluan tres elementos:
+- Que exista la unidad de produccion
+- El conocimiento y experiencia de la actividad que se desea realizar con el credito por parte del emprendedor
+- La comercializacion del producto.
 
-    Realizan un informe en Writer para sugerir la aprobación o negación del crédito ante el consejo directivo. Este paso
-    vendría siendo el segundo filtro.
+    Realizan un informe en la herramienta ofim'atica Libre Office Writer para sugerir la aprobación o negación del crédito ante la Gerencia de Credito donde el Consejo directivo tomar'a la decision final sobre el credito. Este paso se puede considerar como el segundo filtro.
 
-6.	De ser aprobada la solicitud, secretaria ejecutiva (consejo directivo) junto con la consultoría jurídica elaboran
-el documento para el crédito y dependiendo del monto solicitado va a registro o notaria. Una vez devuelto el documento
-al FOMDES se genera el cheque, el cual es entregado en acto protocolar con el Gobernador del Estado.
-7.	La unidad de producción comienza a trabajar con 3 meses de gracia. Acompañamiento verifica el destino de los recursos
-otorgados. Recuperación elabora el programa de cómo se van a cancelar las cuotas del crédito (existen dos fechas para
-cancelar vía deposito, transferencia o tarjeta de crédito,  el 3 o 17 de cada mes. 3% interés de mora). El expediente
-es transferido a Archivo (el manejo del archivo se realiza con calc). Luego de que la unidad de producción rinda frutos,
+
+6.	De ser aprobada la solicitud, Secretaria ejecutiva junto con la consultoría jurídica elaboran el documento para el crédito y dependiendo del monto solicitado va a registro o notaria. Una vez devuelto el documento al FOMDES se genera el cheque, el cual es entregado en acto protocolar con el Gobernador del Estado.
+
+7.	La unidad de producción comienza a trabajar con 3 meses de gracia. El departamento de Acompañamiento verifica el destino de los recursos
+otorgados, deben entregarse facturas de las compras realizadas con el credito a este departamento, quien tambien, va a la unidad de produccion y redacta un informe, de encontrar alguna irregularidad en este punto, se puede solicitar al beneficiario que devuelva el credito.
+
+8. EL departamento de Recuperación elabora el programa de cómo se van a cancelar las cuotas del crédito (existen dos fechas para
+cancelar: vía deposito, transferencia o tarjeta de crédito,  los 3 o 17 de cada mes con 3% interés de mora). El expediente
+es transferido a Archivo (el manejo del Archivo se realiza con la herramienta ofim'atica Libre Office Calc). Luego de que la unidad de producción rinda frutos, el departamento de
 Acompañamiento realiza un informe de recomendación para que el beneficiario pueda solicitar créditos posteriores.
-8.	Existen 5 sistemas que no están conectados entre si:
+
+Existen 5 sistemas informaticos que no están conectados entre si:
     *	SICA: atención al usuario-lista de visitantes
     *	WebAdmin: propuesta de financiamiento antes del taller
     *	SIGEFOMDES: procedimiento del crédito después del taller
     *	SIGEFOMDES 2: genera las cuentas por cobrar
-    *	SISAC (Sistema de Actualización de cuentas): usado por administración (genera errores de
-    redondeo en los montos,
-hasta un 20%. Departamento de sistemas debe corregir los errores del SISAC de manera manual) para generar los estados
+    *	SISAC (Sistema de Actualización de cuentas): usado por administración, genera errores de
+    redondeo en los montos hasta un 20%. Gerencia de sistemas debe corregir los errores del SISAC de manera manual para generar los estados
  de cuenta
 
 
-
- luego los requisitos y la planilla de financiamiento pasan al departamento de Analisis Juridico (parte
-de Gerencia de Credito) el cual verfica la validez legal de los requisitos. Luego de pasar por el departamento de
-Analisis Juridico los requisitos y la planilla pasan al Departamento de 'Analistas Economicos', los analistas
-economicos van hasta la unidad de produccion y la inspeccionan, hacen una inspeccion de factibilidad en la que
- se evaluan tres elementos; primero que exista la unidad de produccion, segundo el conocimiento y experiencia
- de la actividad que se desea realizar con el credito por parte del emprendedor y tercero la comercializacion
- del producto. Una vez se ha realizado el analisis del credito por los economistas estos hacen un informe y lo
-  pasan a la Gerencia de Credito donde un consejo directivo tomara la decision final de aprobar el credito. Luego
+ Luego
   que el credito se aprueba pasa a la Secretaria Ejecutiva la cual llamara al usuario para tramitar el prestamo.
    Se le da un lapso de 3 meses al usuario para invierta el dinero del prestamo en los recursos necesarios y luego
    del departamento de ??? (no mencionaron nunca el nombre pero pertenece a Gerencia de Credito) verifica que se hizo
