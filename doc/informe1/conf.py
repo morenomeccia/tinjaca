@@ -210,7 +210,7 @@ htmlhelp_basename = 'InformeRequerimientosyNudosCrticosSistemaActualdoc'
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'letterpaper',
+'papersize': 'letterpaper',
 
 # The font size ('10pt', '11pt' or '12pt').
 #'pointsize': '10pt',
@@ -226,13 +226,13 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'InformeRequerimientosyNudosCrticosSistemaActual.tex', u'Informe Requerimientos y Nudos Críticos Sistema Actual Documentation',
+  (master_doc, 'informe01.tex', u'Informe de Requerimientos y Nudos\nCríticos del Sistema Actual',
    u'Cooperativa Saní Tecnologías Comunes', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#latex_logo = None
+latex_logo = "static/sani_logo_notxt_100px.png"
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
