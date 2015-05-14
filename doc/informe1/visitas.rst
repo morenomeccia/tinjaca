@@ -37,7 +37,7 @@ Se dió una primera aproximación sobre necesidades de actualización de las for
 según lo planteado en reuniones sostenidas con el prof Juan Carlos Villegas:
 
     - Facilitar la transición de los funcionarios entre el sistema TINJACA y los sistemas actuales.
-    TINJACÁ debe contemplar tres tipos de usuarios:
+    - TINJACÁ debe contemplar tres tipos de usuarios:
         1. Los funcionarios administradores según sus jerarquías (tipo super usuario).
         2. Los funcionarios operadores según sus cargos y ubicación administrativa (tipo usuario).
         3. El público en general (tipo invitado): quienes accedan por las herramientas WEB para:
@@ -921,6 +921,32 @@ Minuta de la visita
 		+ Recuperaciones: revisa cuentas por cobrar/exoneraciones (casos extremos); actualiza el seguimiento/direcciones (ejecutivos de calle); administra las carteras de cobranza y define las rutas de cobranza por municipio. 
 		+ Cartera de cobranza (quienes me deben): es una lista de beneficiarios a cobrar por cada ejecutivo de cobranza.
 		+ Sabanas (cuanto me deben cada uno): es una consulta de todos los detalles asociados a la deuda de cada uno de los beneficiarios asignados a cada ejecutivo de cobranza.
+
+Fecha de la visita: 22 de Abril del 2015
+========================================
+
+Visitantes
+----------
+
+* Francisco Palm
+* Adriana Torres
+
+Departamentos Visitados
+-----------------------
+
+* Salon de reuniones
+
+Contactos de los departamentos visitados
+----------------------------------------
+
+| Oscar Barillas
+| Gerente de Sistemas
+| Tlf: 0424-7517353
+| Correo Electrónico: barillasoj@cantv.net
+  
+Minuta de la visita
+--------------------
+
 
 
 Fecha de la visita: Visita 7 de Mayo del 2015
