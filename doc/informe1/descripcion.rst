@@ -20,7 +20,8 @@ La naturaleza de cada tipo de crédito demanda de FOMDES y su equipo la mayor de
 Objetivo del informe
 ====================
 
-El presente informe corresponde a la Etapa 1 del proyecto **SISTEMA INTEGRADO PARA EL CONTROL ADMINISTRATIVO DE FOMDES (TINJACÁ)**, relativo al Diagnóstico de requerimientos y nudos críticos con duplicaciones de procesos en los sistemas actuales del FOMDES.
+El presente informe corresponde a la Etapa 1 del proyecto **Sistema Integrado para el Control
+Administrativo de FOMDES (TINJACÁ)**, relativo al Diagnóstico de requerimientos y nudos críticos con duplicaciones de procesos en los sistemas actuales del FOMDES.
 
 En el documento se encuentra una descripción de los procesos que actualmente se desarrollan en el
  FOMDES, conocidos a partir de las visitas realizadas a la institución y la consulta a los
