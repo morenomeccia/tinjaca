@@ -60,7 +60,7 @@ créditos.
        B1 -> A2 [arrowtail=rcrowlvee];
        }
 
-**Recepción y Evaluación de solicitudes**
+**Recepción y Evaluación de Solicitudes**
 =========================================
 
     * **Descripción**: Abarca desde la entrega de recaudos para solicitud de crédito hasta la
@@ -85,9 +85,9 @@ créditos.
        * - Expediente
          - Revisión de la garantia
          - Expediente con control previo
-       * - Expediente con control previo
+       * - Expediente
          - Realiza inspección y avalúo a la unidad de producción
-         - Informe técnico de evaluación para aprobar/rechazar crédito
+         - Expediente con informe técnico de evaluación.
 
     * **Flujograma**:
 
@@ -135,7 +135,7 @@ créditos.
        * - Entrada
          - Actividades
          - Salida
-       * - Propuesta sugerida para aprobar/rechazar
+       * - Expediente
          - Revisión de la propuesta para aprobar/rechazar
          - Informe sobre perfil de la actividad, inversión y proyección económica
        * - Expediente
@@ -150,7 +150,7 @@ créditos.
        * - Expediente
          - Realiza control previo de los requisitos
          - Certificación de disponibilidad de dinero para liquidación de crédito
-       * - Propuesta aprobada
+       * - Expediente aprobado
          - Redacta documentos
          - Entrega documento de crédito y documento de constitución de empresa al beneficiario
 
@@ -180,7 +180,7 @@ créditos.
        B1 -> A2 [arrowtail=rcrowlvee];
        }
 
-**Liquidación de créditos**
+**Liquidación de Créditos**
 ===========================
 
     * **Descripción**: Abarca desde la consignación de los documentos notariados por parte de los
@@ -237,7 +237,7 @@ créditos.
        B1 -> A2 [arrowtail=rcrowlvee];
        }
 
-**Inspección de inversiones**
+**Inspección de Inversiones**
 =============================
 
     * **Descripción**: Comprende actividades relativas a la verificación de la ejecución del plan
@@ -341,7 +341,7 @@ créditos.
        B1 -> A2 [arrowtail=rcrowlvee];
        }
 
-**Gestión de cobranzas**
+**Gestión de Cobranzas**
 ========================
 
     * **Descripción**: Comprende actividades relativas al trámite y gestión de recuperación de
@@ -397,7 +397,7 @@ créditos.
        }
 
 
-**Liberación de créditos**
+**Liberación de Créditos**
 ==========================
 
     * **Descripción**: Contempla actividades relativas a la liberación de los créditos.
