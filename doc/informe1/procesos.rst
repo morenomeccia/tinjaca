@@ -130,7 +130,7 @@ créditos.
 
     .. list-table::
        :widths: 40 40 40
-       :header-rows: 6
+       :header-rows: 1
 
        * - Entrada
          - Actividades
