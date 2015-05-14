@@ -32,7 +32,7 @@ créditos.
          - Propuesta viable/no viable.
        * - Propuesta viable.
          - Incluye en lista del taller y envia requisitos.
-         - Propuesta seleccionada para taller.
+         - Propuesta seleccionada para taller..
 
     * **Flujograma**:
 
