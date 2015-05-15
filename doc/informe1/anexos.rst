@@ -160,7 +160,7 @@ Contactos de los departamentos visitados
 | Correo Electrónico: ceblin2@yahoo.com
 
 Minuta de la visita
---------------------
+-------------------
 
 
 Oficina de Atención del Ciudadano
@@ -194,7 +194,6 @@ Se dió a conocer que el sistema utilizado en recepción es SICA (Sistema Integr
 
 2. Consultas por teléfono
 
-
     - Se atienden por teléfono solicitudes del estado de la solicitud del crédito que está en el sistema SIGEFOMDES.
 
     - También reciben consultas sobre el estado del pago de los créditos sobre recuperación y cobranzas.
@@ -203,7 +202,6 @@ Se dió a conocer que el sistema utilizado en recepción es SICA (Sistema Integr
 
 3. Comentarios de Ceblín Ruíz
 
-
     - Ceblín Ruíz explicó como el departamento de Atención al ciudadano ofrece atención integral a los usuarios de FOMDES.
 
     - Anteriormente se recibían denuncias, en vista que eran un centro contralor. Se atendían dudas sobre créditos, aunque hayan sido otorgados por otra institución.
@@ -211,7 +209,7 @@ Se dió a conocer que el sistema utilizado en recepción es SICA (Sistema Integr
     - Según su óptica, se trata de un ente contralor desde un punto de vista integral, jurídico, con criterios de equidad social y territorial.
 
 Gerencia de Crédito: Políticas de Financiamiento
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Anualmente, en la gerencia de crédito se discuten y se modifican las políticas de financiamiento para el otorgamiento de los créditos, en la que se establecen las tasas de interés y los montos asignados por sector, rubro o garantía.
 
@@ -220,7 +218,6 @@ Cada año, se genera una cola de rezagados luego de terminarse el presupuesto pa
 
 
 1. Estación de Información de Crédito
-
 
     - Se inicia con la descarga de la planilla de Propuesta de Financiamiento desde el sitio web de FOMDES. En la estación de Información de Crédito se vacía la información de la planilla. Se realiza un primer filtro en relación a la viabilidad y si se ajusta a las políticas del FOMDES.
 
@@ -232,11 +229,9 @@ Cada año, se genera una cola de rezagados luego de terminarse el presupuesto pa
 
 2. Estación de Análisis Jurídico
 
-
     - Una vez que se reciben los requisitos, pasa a Análisis Jurídico donde se realiza el "Informe de control previo" (tiene un Formato).
 
 3. Estación de Análisis Económico
-
 
     - Si se recibe el visto bueno de Análisis Jurídico, pasa a una lista a la estación de Análisis Económico.
 
@@ -248,15 +243,14 @@ Cada año, se genera una cola de rezagados luego de terminarse el presupuesto pa
 
 4. Revisión de Presidencia
 
-
     - La inspección técnica tiene sugerencia de aprobación o negación, es revisado en presidencia, quien prioriza las solicitudes, decide si llevarla al Consejo Directivo, difiere la revisión, verifica los que tienen sugerencia de negados.
 
 5. Consejo Directivo
 
-
     - Da la aprobación definitiva de las solicitudes de crédito. Generalmente es una formalidad.
 
-    - Existen excepciones: los créditos entre 1.200.000 y 3.600.000 BsF son otorgados por orden del Gobernador del Estado.
+    - Existen excepciones: los créditos entre 1.200.000BsF y 3.600.000 BsF son otorgados por orden
+    del Gobernador del Estado.
 
     - El consejo directivo discute los casos bajo tres modalidades:
     + Aprobado
@@ -268,7 +262,6 @@ Mejoras sugeridas
 
 1. Reportes
 
-
     - Se considera que la principal mejora del sistema debe estar en los reportes, que permita revisar las solicitudes de crédito de cualquier forma.
 
     - Poder realizar reportes por municipio, por rubro, por status, por rango de fechas. Y generar información estadística, que permita presentar los reportes de forma resumida.
@@ -276,7 +269,6 @@ Mejoras sugeridas
     - Actualmente se realiza con la hoja de cálculo.
 
 2. Personalizar requisitos
-
 
     - Se sugiere que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los montos y a los rubros.
 
@@ -313,7 +305,6 @@ Departamentos Visitados
 
 * Gerencia de crédito: Información de Crédito
 
-
 Contactos de los departamentos visitados
 ----------------------------------------
 | Oscar Barillas
@@ -345,8 +336,6 @@ No existe transferencia de datos entre los sistemas informáticos SICA y SIGEFOM
 - El conocimiento y experiencia de la actividad que se desea realizar con el crédito por parte del emprendedor
 - La comercialización del producto.
 Realizan un informe en la herramienta ofimática Libre Office Writer para sugerir la aprobación o negación del crédito ante la Gerencia de Crédito donde el Consejo directivo tomará la decisión final sobre el crédito. Este paso se puede considerar como el segundo filtro.
-
-
 6. De ser aprobada la solicitud, Secretaria ejecutiva junto con el departamento de consultoría jurídica elaboran el documento para el crédito y dependiendo del monto solicitado va a registro o notaria. Una vez devuelto el documento al FOMDES se genera el cheque, el cual es entregado en acto protocolar con el Gobernador del Estado.
 7. La unidad de producción comienza a trabajar con 3 meses de gracia. El departamento de Acompañamiento verifica el destino de los recursos otorgados, deben entregarse facturas de las compras realizadas con el crédito a este departamento, quien también, va a la unidad de producción y redacta un informe, de encontrar alguna irregularidad en este punto, se puede solicitar al beneficiario devolver el crédito.
 8. EL departamento de Recuperación elabora el programa de cómo se van a cancelar las cuotas del crédito (existen dos fechas para cancelar: vía depósito, transferencia o tarjeta de crédito,  los 3 o 17 de cada mes con 3% de interés de mora). El expediente es transferido a Archivo (el manejo del Archivo se realiza con la herramienta ofimática Libre Office Calc). Luego de que la unidad de producción rinda frutos, el departamento de Acompañamiento realiza un informe de recomendación para que el beneficiario pueda solicitar créditos posteriores.
@@ -358,7 +347,7 @@ Existen 5 sistemas informáticos que no están conectados entre si:
 * SISAC (Sistema de Actualización de cuentas): usado por administración, genera errores de redondeo en los montos hasta un 20%. Gerencia de sistemas debe corregir los errores del SISAC de manera manual para generar los estados de cuenta
 
 Fecha de la visita: 8 de Abril del 2015
-========================================
+=======================================
 
 Visitantes
 ----------
@@ -397,7 +386,7 @@ Contactos de los departamentos visitados
 | Correo Electrónico: merly1629@hotmail.com
 
 Minuta de la visita
---------------------
+-------------------
 
 
 1. Apertura de Cuentas. Una vez que Secretaría Ejecutiva aprueba los créditos envía una lista al departamento de Administración para la apertura de cuentas.
@@ -442,13 +431,13 @@ Visitas Restantes
 Se planificó para mañana jueves a las 2 pm con Secretaría Ejecutiva y el departamento de Acompañamiento. Y queda para el viernes la primera visita al departamento de Recuperaciones.
 
 Fecha de la visita: 9 de Abril del 2015
-========================================
+=======================================
 
 Visitantes
 ----------
 
 * Adriana Torres
-* Francisco Palm
+* María Angela Petrizzo
 * Héctor Ospino
 * María Alejandra Rujano
 * Sirius Fuenmayor
@@ -459,7 +448,6 @@ Departamentos Visitados
 * Gerencia de Crédito: Estación de Análisis Jurídico
 * Gerencia de Crédito: Estación de Análisis Económico
 * Secretaría Ejecutiva.
-
 
 Contactos de los departamentos visitados
 ----------------------------------------
@@ -495,10 +483,10 @@ Contactos de los departamentos visitados
 | Correo Electrónico: albapabonm25@gmail.com
 
 Minuta de la visita
---------------------
+-------------------
 
 Gerencia de Crédito: Estación de Análisis Jurídico
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Los respaldos o garantías de los créditos de FOMDES son el Aval con letra de cambio (Fiador), la Hipoteca, la fianza financiera (sociedad de garantías reciprocas) y la Prenda sin Desplazamiento. La Estación de Análisis Jurídico se encarga de verificar que la documentación suministrada para el respaldo de garantía de la solicitud sea válida legalmente y la transcribe en el sistema. Una vez hecho este procedimiento asigna el valor de "CUMPLE" o "NO CUMPLE" según se satisfagan los requisitos para las mismas. Cuando la garantía es una hipoteca, el sistema arroja la planilla desde información de crédito con un campo donde se transcribe dicho documento hipotecario. Esta instancia también se encarga de ajustar expedientes que no fueron aprobados en el período inmediatamente anterior por falta de recursos. Dichos expedientes son asignados en el sistema como "rechazados" e ingresados nuevamente con un código diferente que refleja su pertenencia presupuestaria en el año en curso. Los expedientes que "cumplen" con los requisitos son pasados a la siguiente estación.
 
@@ -514,7 +502,7 @@ Gerencia de Crédito: Estación de Análisis Jurídico
 
 
 Gerencia de Crédito: Estación de Análisis Económico
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. En la estación de Análisis Económico de la Gerencia de Crédito se encargan de hacer dos estudios: un aval de garantías (en el caso de hipotecas y en el caso de garantías prendatarias sin desplazamiento) y un informe de actividad económica que tiene que ver con un estudio básico sobre la actividad propuesta para financiamiento y las condiciones expresadas en el proyecto para ello. Se realiza una inspección para conocer si la garantía cubre o no el crédito (la misma debe ser 2 veces mayor al crédito). En la inspección se utilizan dos instrumentos: un informe técnico (evaluación) y minuta (datos del crédito), para créditos mayores a 200 mil. Para las visitas de inspección del aval de garantías se dispone de 4 formatos distintos: para pyme, pimi y artesanía, agrícola vegetal, agrícola anual y turismo.
 
@@ -527,7 +515,7 @@ Gerencia de Crédito: Estación de Análisis Económico
 #. Tanto en el informe técnico como en la minuta se repite información por lo que sugieren se unifiquen en un solo formato. Tienes problemas para imprimir. En general un analista económico revisa los estados financieros de la empresa, es decir si esta produciendo o no con informe y fotos.
 
 Secretaria Ejecutiva
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 #. Secretaría ejecutiva organiza los expedientes que le envía la gerencia de créditos en una hoja impresa, para ser presentados a Consejo Directivo para su aprobación. Realiza la agenda con los casos previamente filtrados que van a discutir en el consejo directivo (4 miembros + presidente). Imprime la asistencia del consejo directivo y hace el acta del consejo (con datos de la agenda).
 
@@ -567,10 +555,10 @@ Contactos de los departamentos visitados
 | Correo Electrónico: ceta_paz@hotmail.com
 
 Minuta de la visita
---------------------
+-------------------
 
 Gerencia de recuperaciones
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. La gerencia de administración utiliza los datos del cheque del crédito para generar las tablas de amortización y los estados de cuenta. Luego la gerencia de recuperaciones realiza una factura para Caja con los datos del usuario, monto aprobado, tasas de interés y cuotas entre otras. Las cuotas vencidas o pagadas no se reflejan en los reportes.
 
@@ -625,7 +613,7 @@ Gerencia de recuperaciones
 #. Los estados de cuenta tienen dos campos: Un campo denominado "recibo", que guarda la lista de los recibos del expediente que los beneficiarios entregan en físico, por fax o correo y un campo denominado "Seguimiento", el cual guarda un resumen del histórico de FOMDES con el beneficiario, es decir si se contactó a través de una visita o una llamada y a qué acuerdo de fecha y pago se llegó. En seguimiento no hay alertas en las fechas próximas en que el beneficiario se compromete a pagar las cuotas vencidas. Tienen un módulo para consultar los depósitos de las cuotas.
 
 Gerencia de sistemas, recuperaciones y gestión de riesgo
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Una de las labores de gerencia de sistemas es corregir las deficiencias para generar los estados de cuentas y cobranzas por parte de recuperaciones; si un beneficiario paga las cuotas del crédito por adelantado se exonera mas de lo permitido, el saldo negativo es mayor o se generan mas cuotas de las que se deben pagar. Esto lo resuelve la gerencia de sistemas de manera manual, ya que si este error persiste cuando va a la gerencia de administración es rechazado. El recibo de cancelación total del crédito en algunos casos es distinto al de la gerencia de administración, porque sistemas es quien coloca el estatus de "cancelación total del crédito".
 
@@ -686,10 +674,10 @@ Contactos de los departamentos visitados
 | Correo Electrónico:
 
 Minuta de la visita
---------------------
+-------------------
 
 Departamento de estadística
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. La oficina de Estadística (parte de gerencia de crédito), recibe una a una las carpetas en físico con las propuestas de financiamiento que han sido categorizadas como “viables”.
 
@@ -706,7 +694,7 @@ Departamento de estadística
 #. También se tiene un formato para informes POA, que son solicitados por presidencia.
 
 Oficina de Ciencia y Tecnología
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Existe en primer lugar una oficina de asesoramiento técnico, a la cual pueden acudir las personas sin propuestas concretas para recibir instrucciones y recomendaciones al momento de elaborar sus propuestas. Las personas son enviadas a esta oficina desde la taquilla de entrada.
 
@@ -751,7 +739,7 @@ Contactos de los departamentos visitados
 | Correo Electrónico: barillasoj@cantv.net
 
 Minuta de la visita
---------------------
+-------------------
 
 #. FOMDES tiene dos entradas de recursos, los que provienen de la caja de recuperaciones y los que provienen del situado constitucional (Tesorería de la Gobernación). Estos recursos son manejados por presupuesto/contabilidad para la planificación anual. Sin embargo, si a mitad de año se quedan sin dinero solicitan a la gobernación una inyección de capital.
 
@@ -827,7 +815,7 @@ Minuta de la visita
 
 
 Fecha de la visita: Visita 7 de Mayo del 2015
-==============================================
+=============================================
 
 Visitantes
 ----------
@@ -882,5 +870,3 @@ Minuta de la visita
 #. El jefe del departamento de presupuesto hace la certificación presupuestaria por cada sector (situado de la gobernación + ingresos propios) ante el consejo directivo para aprobar el crédito. El consejo directivo emite un acta con los aprobados para que el jefe de departamento de presupuesto realice un control previo (visual) a cada expediente para verificar si tiene todos los requisitos y anexa a cada uno la certificación de disponibilidad del dinero para la liquidación del crédito.
 
 #. La ONAPRE es un catálogo de cuentas del Estado y FOMDES se debe regir por este clasificador para la parte presupuestaria y contable.
-
-
