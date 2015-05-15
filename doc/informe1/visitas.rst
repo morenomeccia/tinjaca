@@ -18,7 +18,7 @@ Visitantes
 Departamentos Visitados
 -----------------------
 
- * Salón de Reuniones
+ * Gerente de Sistemas
 
 Contactos de los departamentos visitados
 ----------------------------------------
@@ -122,6 +122,7 @@ Departamentos Visitados
 
 * Atención al ciudadano
 * Gerencia de Crédito
+* Unidad de Apoyo a Presidencia
 
 Contactos de los departamentos visitados
 ----------------------------------------
@@ -160,65 +161,62 @@ Minuta de la visita
 --------------------
 
 
-Oficina de Atención del Ciudadano
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Atención al Ciudadano
+~~~~~~~~~~~~~~~~~~~~~~
 
 Se dió a conocer que el sistema utilizado en recepción es SICA (Sistema Integrado de Información Administrativa), descrito en términos generales de la siguiente forma:
 
-- Si el usuario llega a FOMDES por vez primera se registra en SICA, solicitando: Nombre, Apellido, Cédula, Ubicación, Dependencia, y Observaciones.
+#. Si el usuario llega a FOMDES por vez primera se registra en SICA, solicitando: Nombre, Apellido, Cédula, Ubicación, Dependencia, y Observaciones.
 
-- Al llegar un usuario ya registrado, se solicita cédula y dependencia destino, registrándose en el sistema automáticamente la fecha y hora
+#. Al llegar un usuario ya registrado, se solicita cédula y dependencia destino, registrándose en el sistema automáticamente la fecha y hora
 
-- Si el solicitante llama para pedir información sobre el estatus de su crédito, atención al usuario levanta la pestaña de los sistemas  WebAdmin y SIGEFOMDES para dar la información correspondiente.
+#. Si el solicitante llama para pedir información sobre el estatus de su crédito, se levanta la pestaña de los sistemas  WebAdmin y SIGEFOMDES para dar la información correspondiente.
 
-- El personal de recepción debe iniciar sesión en SICA, si el sistema pasa un período de tiempo inactivo, solicita el reinicio de la sesión.
+#. El personal de recepción debe iniciar sesión en SICA, si el sistema pasa un período de tiempo inactivo, solicita el reinicio de la sesión.
 
-- Se realizan reportes de los últimos visitantes.
+#. Se realizan reportes de los últimos visitantes.
 
-- Se hacen búsquedas por rango de fechas y cédula.
+#. Se hacen búsquedas por rango de fechas y cédula.
 
-- El sistema muestra un menú sin necesidad de acceder al mismo. Al seleccionar un elemento del menú, el sistema se bloquea y es necesario recargar la página. Se hace engorroso dar las actualizaciones.
+#. El sistema muestra un menú sin necesidad de acceder al mismo. Al seleccionar un elemento del menú, el sistema se bloquea y es necesario recargar la página. Se hace engorroso dar las actualizaciones.
 
-1. Relación con otras dependencias
+#. Debería generar colas por orden de atención y por dependencia.
 
+#. No se registra hora de salida.
 
-    - Debería generar listas de orden de atención por dependencia.
+#. Debería hacer seguimiento de las visitas por las dependencias.
 
-    - No registra hora de salida.
+#. Los datos de los visitantes quedan disponibles para el resto de las dependencias, la idea es que minimicen la necesidad de transcribir información.
 
-    - Debería hacer seguimiento de las visitas por las dependencias.
+#. También reciben consultas sobre el estado del pago de los créditos sobre recuperación y cobranzas.
 
-    - Los datos de los visitantes quedan disponibles para el resto de las dependencias, la idea es que minimicen la necesidad de transcribir información.
+#. Se recalcó que el ofrecimiento de la planilla de solicitud por Internet alivió el trabajo de este departamento.
 
-2. Consultas por teléfono
+#. El departamento de Atención al ciudadano ofrece atención integral a los usuarios de FOMDES.
 
+Jefe de Unidad de Apoyo a Presidencia
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    - Se atienden por teléfono solicitudes del estado de la solicitud del crédito que está en el sistema SIGEFOMDES.
+#. Anteriormente se recibían denuncias, en vista que eran un centro contralor. Se atendían dudas sobre créditos, aunque hayan sido otorgados por otra institución.
 
-    - También reciben consultas sobre el estado del pago de los créditos sobre recuperación y cobranzas.
+#. Según su óptica, se trata de un ente contralor desde un punto de vista integral, jurídico, con criterios de equidad social y territorial.
 
-    - Se recalcó que el ofrecimiento de la planilla de solicitud por Internet alivió el trabajo del departamento de Atención al Ciudadano.
+Gerencia de Crédito:
+~~~~~~~~~~~~~~~~~~~~
 
-3. Comentarios de Ceblín Ruíz
+#. Anualmente, en la gerencia de crédito se discuten y se modifican las políticas de financiamiento para el otorgamiento de los créditos, en la que se establecen las tasas de interés y los montos asignados por sector, rubro o garantía.
 
+#. La gerencia de crédito selecciona los proyectos que van al consejo directivo para su posterior aprobación o negación. Esta lista se maneja utilizando una hoja de cálculo.
 
-    - Ceblín Ruíz explicó como el departamento de Atención al ciudadano ofrece atención integral a los usuarios de FOMDES.
+#. Cada año, se genera una cola de rezagados luego de terminarse el presupuesto pautado, los cuales pasan a ser los primeros en cola del año siguiente con nuevo código de expediente.
 
-    - Anteriormente se recibían denuncias, en vista que eran un centro contralor. Se atendían dudas sobre créditos, aunque hayan sido otorgados por otra institución.
+#. Se considera que la principal mejora del sistema debe estar en los reportes, que permita revisar las solicitudes de crédito de cualquier forma.
 
-    - Según su óptica, se trata de un ente contralor desde un punto de vista integral, jurídico, con criterios de equidad social y territorial.
+#. Poder realizar reportes por municipio, por rubro, por status, por rango de fechas. Y generar información estadística, que permita presentar los reportes de forma resumida. Actualmente se realiza con la hoja de cálculo.
 
-Gerencia de Crédito: Políticas de Financiamiento
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#. Se sugiere que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los montos y a los rubros.
 
-Anualmente, en la gerencia de crédito se discuten y se modifican las políticas de financiamiento para el otorgamiento de los créditos, en la que se establecen las tasas de interés y los montos asignados por sector, rubro o garantía.
-
-La gerencia de crédito selecciona los proyectos que van al consejo directivo para su posterior aprobación o negación. Esta lista se maneja utilizando una hoja de cálculo.
-Cada año, se genera una cola de rezagados luego de terminarse el presupuesto pautado, los cuales pasan a ser los primeros en cola del año siguiente con nuevo código de expediente.
-
-
-1. Estación de Información de Crédito
-
+#. Estación de Información de Crédito
 
     - Se inicia con la descarga de la planilla de Propuesta de Financiamiento desde el sitio web de FOMDES. En la estación de Información de Crédito se vacía la información de la planilla. Se realiza un primer filtro en relación a la viabilidad y si se ajusta a las políticas del FOMDES.
 
@@ -228,13 +226,11 @@ Cada año, se genera una cola de rezagados luego de terminarse el presupuesto pa
 
     - Al finalizar el taller se entrega la lista de requisitos. Estos requisitos dependen del tipo de solicitud (sector, monto, rubro).
 
-2. Estación de Análisis Jurídico
-
+#. Estación de Análisis Jurídico
 
     - Una vez que se reciben los requisitos, pasa a Análisis Jurídico donde se realiza el "Informe de control previo" (tiene un Formato).
 
-3. Estación de Análisis Económico
-
+#. Estación de Análisis Económico
 
     - Si se recibe el visto bueno de Análisis Jurídico, pasa a una lista a la estación de Análisis Económico.
 
@@ -244,13 +240,11 @@ Cada año, se genera una cola de rezagados luego de terminarse el presupuesto pa
 
     - También se realiza un avalúo de Garantía' sobre un bien o propiedad que puede encontrarse en otro lugar.
 
-4. Revisión de Presidencia
-
+#. Revisión de Presidencia
 
     - La inspección técnica tiene sugerencia de aprobación o negación, es revisado en presidencia, quien prioriza las solicitudes, decide si llevarla al Consejo Directivo, difiere la revisión, verifica los que tienen sugerencia de negados.
 
-5. Consejo Directivo
-
+#. Consejo Directivo
 
     - Da la aprobación definitiva de las solicitudes de crédito. Generalmente es una formalidad.
 
@@ -261,38 +255,6 @@ Cada año, se genera una cola de rezagados luego de terminarse el presupuesto pa
     + Aprobado
     + Aprobado condicionado
     + Negación
-
-Mejoras sugeridas
-~~~~~~~~~~~~~~~~~
-
-#. Reportes
-
-
-    - Se considera que la principal mejora del sistema debe estar en los reportes, que permita revisar las solicitudes de crédito de cualquier forma.
-
-    - Poder realizar reportes por municipio, por rubro, por status, por rango de fechas. Y generar información estadística, que permita presentar los reportes de forma resumida.
-
-    - Actualmente se realiza con la hoja de cálculo.
-
-#. Personalizar requisitos
-
-
-    - Se sugiere que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los montos y a los rubros.
-
-
-Solicitudes al personal de FOMDES
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* Decreto de creación de FOMDES y actualizaciones si las hay.
-
-* Capturas de pantalla de los sistemas (ya que no existe manual de usuario)
-
-* Planillas y Formatos internos.
-
-
-El equipo fue invitado al taller del día martes 7 de Abril, donde explicarían la información del proceso a los solicitantes.
-
-Al salir del taller o en la tarde se realizaría la visita al departamento de Acompañamiento. Quedarían pendientes los departamentos de gerencia de Administración para solicitar información sobre el pago y cobro de los créditos, y el de Gerencia de Recuperaciones.
 
 
 Fecha de la visita: 7 de Abril del 2015
@@ -310,7 +272,7 @@ Visitantes
 Departamentos Visitados
 -----------------------
 
-* Gerencia de crédito: Información de Crédito
+* Información de Crédito
 
 
 Contactos de los departamentos visitados
@@ -365,7 +327,7 @@ Visitantes
 Departamentos Visitados
 -----------------------
 * Gerencia de Administración
-* Salón de Reuniones
+* Gerente de Sistemas
 
 Contactos de los departamentos visitados
 ----------------------------------------
@@ -448,8 +410,8 @@ Visitantes
 Departamentos Visitados 
 ----------------------- 
 
-* Gerencia de Crédito: Estación de Análisis Jurídico 
-* Gerencia de Crédito: Estación de Análisis Económico 
+* Análisis Jurídico 
+* Análisis Económico 
 * Secretaría Ejecutiva. 
 
 
@@ -489,8 +451,8 @@ Contactos de los departamentos visitados
 Minuta de la visita 
 -------------------- 
 
-Gerencia de Crédito: Estación de Análisis Jurídico 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+Análisis Jurídico 
+~~~~~~~~~~~~~~~~~ 
 
 #. Los respaldos o garantías de los créditos de FOMDES son el Aval con letra de cambio (Fiador), la Hipoteca, la fianza financiera (sociedad de garantías reciprocas) y la Prenda sin Desplazamiento. La Estación de Análisis Jurídico se encarga de verificar que la documentación suministrada para el respaldo de garantía de la solicitud sea válida legalmente y la transcribe en el sistema. Una vez hecho este procedimiento asigna el valor de "CUMPLE" o "NO CUMPLE" según se satisfagan los requisitos para las mismas. Cuando la garantía es una hipoteca, el sistema arroja la planilla desde información de crédito con un campo donde se transcribe dicho documento hipotecario. Esta instancia también se encarga de ajustar expedientes que no fueron aprobados en el período inmediatamente anterior por falta de recursos. Dichos expedientes son asignados en el sistema como "rechazados" e ingresados nuevamente con un código diferente que refleja su pertenencia presupuestaria en el año en curso. Los expedientes que "cumplen" con los requisitos son pasados a la siguiente estación.
 #. El sistema informático actual utilizado en esta dependencia es SIGEFOMDES el cual se utiliza para verificar los datos de las garantías. Actualmente el sistema permite informar de esta situación en el campo de observaciones. El sistema arroja un reporte que se imprime dónde está reflejado datos básicos del expediente, la condición de cumple o no cumple, la observación y el texto de la hipoteca o detalle de la garantía.
@@ -500,8 +462,8 @@ Gerencia de Crédito: Estación de Análisis Jurídico
 #. Como las gerencias de crédito y administración no están conectadas entre sí para saber cuánto dinero queda, los que son rechazados por falta de crédito de un año son los primeros en la lista del año siguiente, para esto se vuelve a hacer una etiqueta en la carpeta del expediente con el nuevo año. Los expedientes que cumplen se pasan a sistema de inspecciones (Economistas) y los que no cumplen a gerencia general. 
 
 
-Gerencia de Crédito: Estación de Análisis Económico 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+Análisis Económico 
+~~~~~~~~~~~~~~~~~~ 
  
 #. En la estación de Análisis Económico de la Gerencia de Crédito se encargan de hacer dos estudios: un aval de garantías (en el caso de hipotecas y en el caso de garantías prendatarias sin desplazamiento) y un informe de actividad económica que tiene que ver con un estudio básico sobre la actividad propuesta para financiamiento y las condiciones expresadas en el proyecto para ello. Se realiza una inspección para conocer si la garantía cubre o no el crédito (la misma debe ser 2 veces mayor al crédito). En la inspección se utilizan dos instrumentos: un informe técnico (evaluación) y minuta (datos del crédito), para créditos mayores a 200 mil. Para las visitas de inspección del aval de garantías se dispone de 4 formatos distintos: para pyme, pimi y artesanía, agrícola vegetal, agrícola anual y turismo. 
 #. Los análisis del departamento de  Análisis Económico tienen como resultado la solicitud de un nuevo aval, por ejemplo porque el que se presentó no tenga valor estimado para responder al crédito, o porque haya algún tema de sobreestimación de la actividad o de las capacidades de atención del mercado, por ejemplo. El sistema debería poder cargar fotografías de inspección con cada expediente de modo que en cualquier instancia de decisión pueda ser visualizada esta información. 
@@ -578,8 +540,8 @@ Gerencia de recuperaciones
 #. Aparte de los ejecutivos de cobranza existen los ejecutivos de calle, que son los encargados de llevar los estados de cuenta a los beneficiarios y actualizar los datos (teléfonos).
 #. Los estados de cuenta tienen dos campos: Un campo denominado "recibo", que guarda la lista de los recibos del expediente que los beneficiarios entregan en físico, por fax o correo y un campo denominado "Seguimiento", el cual guarda un resumen del histórico de FOMDES con el beneficiario, es decir si se contactó a través de una visita o una llamada y a qué acuerdo de fecha y pago se llegó. En seguimiento no hay alertas en las fechas próximas en que el beneficiario se compromete a pagar las cuotas vencidas. Tienen un módulo para consultar los depósitos de las cuotas. 
 
-Gerencia de sistemas, recuperaciones y gestión de riesgo
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Gerencia de sistemas
+~~~~~~~~~~~~~~~~~~~~
 
 #. Una de las labores de gerencia de sistemas es corregir las deficiencias para generar los estados de cuentas y cobranzas por parte de recuperaciones; si un beneficiario paga las cuotas del crédito por adelantado se exonera mas de lo permitido, el saldo negativo es mayor o se generan mas cuotas de las que se deben pagar. Esto lo resuelve la gerencia de sistemas de manera manual, ya que si este error persiste cuando va a la gerencia de administración es rechazado. El recibo de cancelación total del crédito en algunos casos es distinto al de la gerencia de administración, porque sistemas es quien coloca el estatus de "cancelación total del crédito".  
 #. Los sistemas informáticos de las gerencias de Crédito, la gerencia de Administración y Recuperaciones están separados y tienen bases de datos distintas en servidores independientes. Sin embargo, las gerencias de administración y recuperaciones tienen bases de datos distintas pero comparten el mismo servidor. Cuando la gerencia de administración realiza el balance general de comprobación este puede llegar a durar 6 horas, ya que hace un barrido desde el año 2001 en los que hay créditos activos a la fecha. Debido al tiempo que toman estos balances son realizados de noche para no obstaculizar el proceso en el día. Los resultados de los balances no se guardan en la bases de datos porque son acumulativos, sino en físico (impresos). 
@@ -610,8 +572,8 @@ Visitantes
 Departamentos Visitados
 -----------------------
 
-* Gerencia de Crédito: Departamento de estadística
-* Oficina de Ciencia y Tecnología
+* Estadística y analisis de riesgo
+* Ciencia y Tecnología
 
 Contactos de los departamentos visitados
 ----------------------------------------
@@ -629,8 +591,8 @@ Contactos de los departamentos visitados
 Minuta de la visita
 --------------------
 
-Departamento de estadística
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Estadística y Analisis de Riesgos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. La oficina de Estadística (parte de gerencia de crédito), recibe una a una las carpetas en físico con las propuestas de financiamiento que han sido categorizadas como “viables”.
 #. Se genera una lista en hoja de cálculo introduciendo una a una las propuestas. Puede consultar la información del sistema SICA-WebAdmin para ingresarla a mano en las columnas de la hoja de cálculo. En esta plantilla se tiene un control del estatus de cada solicitante durante este proceso.
@@ -640,8 +602,8 @@ Departamento de estadística
 #. Trimestralmente se genera un reporte estadístico de todas las solicitudes ingresadas. Se hace un conteo por sector dentro de cada municipio, con las sumas de los montos solicitados, y las totalizaciones. Este procedimiento se hace a mano utilizando una hoja de cálculo.
 #. También se tiene un formato para informes POA, que son solicitados por presidencia.
 
-Oficina de Ciencia y Tecnología
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ciencia y Tecnología
+~~~~~~~~~~~~~~~~~~~~
 
 #. Existe en primer lugar una oficina de asesoramiento técnico, a la cual pueden acudir las personas sin propuestas concretas para recibir instrucciones y recomendaciones al momento de elaborar sus propuestas. Las personas son enviadas a esta oficina desde la taquilla de entrada.
 #. Para el caso particular de las propuestas asociadas al área científico-tecnológica, esta asesoría es brindada por la oficina de Ciencia y Tecnología, dado a la complejidad de dicho ámbito. Normalmente se atienden proyectos ya encaminados, o con algún producto inicial o prototipo.
@@ -667,7 +629,7 @@ Visitantes
 Departamentos Visitados
 -----------------------
 
-* Salón de reuniones
+* Gerente de Sistemas
 
 Contactos de los departamentos visitados
 ----------------------------------------
@@ -749,7 +711,7 @@ Visitantes
 Departamentos Visitados
 -----------------------
 
-* Gerencia de administración y finanzas, Departamento de Presupuesto
+* 	Presupuesto
 
 Contactos de los departamentos visitados
 ----------------------------------------
