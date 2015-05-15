@@ -19,8 +19,8 @@ PROCESS_LABEL = "Recepción de Propuestas"
 # A graph for FOMDES processes
 F = pgv.AGraph(strict=False, directed=True)
 
-F.graph_attr.update(label=TITLE_TEMPLATE.format(PROCESS_LABEL), rankdir="LR", splines="ortho",
-                    fontname="Liberation Sans Narrow Condensed")
+F.graph_attr.update(label="", rankdir="TB", splines="ortho", labelloc="b",
+                    size="8, 7.5", forcelabels="true", ranksep="0.25", fontname="Liberation Sans Narrow Condensed")
 F.node_attr.update(fontname="Liberation Sans Narrow Condensed")
 F.edge_attr.update(fontname="Liberation Sans Narrow Condensed", fontsize="10")
 
@@ -54,9 +54,13 @@ er_edges = {"er0": {"er1": {}}}
 
 ER = add_cluster(F, "er", "Estadística y Evaluación de Riesgos", er_cluster, er_edges)
 
+F.add_node("Webadmin", image="static/database.png", shape="plaintext", label="", xlabel="Webadmin")
+
 global_edges = {"u2":  {"ic0": {"style": "dashed"}},
                 "ic2": {"er0": {"xlabel": "Si", "style": "dashed"}},
-                "er1": {"ic3": {"style": "dashed"}, "Usuario": {"style": "dashed"}}}
+                "er1": {"ic3": {"style": "dashed"}, "Usuario": {"style": "dashed"}},
+                "ic1": {"Webadmin": {"style": "dashed"}},
+                "Webadmin": {"er0": {"style": "dashed"}}}
 
 add_edges(F, global_edges)
 

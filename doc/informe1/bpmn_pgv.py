@@ -19,15 +19,15 @@ from textwrap import fill
 IMAGE_PATH = "static/"
 
 LABEL_TEMPLATE = """<<TABLE border="0" cellborder="0">
-    <TR><TD align="left"><IMG SRC="{}"/></TD></TR>
-    <TR><TD>{}</TD></TR>
-    </TABLE>>"""
+                <TR><TD align="left"><IMG SRC="{}"/></TD></TR>
+                <TR><TD>{}</TD></TR>
+                </TABLE>>"""
 
 TITLE_TEMPLATE = "<<B>{}</B>>"
 
 GATE_TEMPLATE = """<<TABLE border="0" cellborder="0" cellpadding="0">
-    <TR><TD><IMG SRC="{}"/></TD></TR>
-    </TABLE>>"""
+                <TR><TD><IMG SRC="{}"/></TD></TR>
+                </TABLE>>"""
 
 ACTIV_ICON = {"human": IMAGE_PATH + "person.png",
               "message": IMAGE_PATH + "envelope.png"}

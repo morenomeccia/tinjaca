@@ -19,8 +19,8 @@ PROCESS_LABEL = "Recepción y Evaluación de Solicitudes 1"
 # A graph for FOMDES processes
 F = pgv.AGraph(strict=False, directed=True)
 
-F.graph_attr.update(label=TITLE_TEMPLATE.format(PROCESS_LABEL), rankdir="TB", splines="ortho", labelloc="b",
-                    size="18, 8", forcelabels="true", ranksep="0.25", fontname="Liberation Sans Narrow Condensed")
+F.graph_attr.update(label="", rankdir="TB", splines="ortho", labelloc="b",
+                    size="8, 7.5", forcelabels="true", ranksep="0.25", fontname="Liberation Sans Narrow Condensed")
 F.node_attr.update(fontname="Liberation Sans Narrow Condensed")
 F.edge_attr.update(fontname="Liberation Sans Narrow Condensed", fontsize="10")
 
@@ -58,12 +58,12 @@ aj_edges = {"aj0": {"aj1": {}},
 
 AJ = add_cluster(F, "aj", "Análisis Jurídico", aj_cluster, aj_edges)
 
-
-
-#F.add_node("Webadmin", image="static/database.png", shape="plaintext", label="", xlabel="Webadmin")
+F.add_node("SIGEFOMDES Crédito", image="static/database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Crédito")
 
 global_edges = {"u6":  {"ic4": {"style": "dashed"}},
                 "ic6": {"aj0": {"style": "dashed"}},
+                "ic5": {"SIGEFOMDES Crédito": {"style": "dashed"}},
+                "aj1": {"SIGEFOMDES Crédito": {"style": "dashed"}},
                 "aj3": {"ic7": {"style": "dashed"}, "Análisis Económico": {"style": "dashed"}}}
 
 add_edges(F, global_edges)

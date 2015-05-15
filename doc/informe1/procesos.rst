@@ -33,10 +33,9 @@ créditos.
          - Añade al usuario en la lista del Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario y se envia lista de requisitos
          - Usuario convocado para realizar taller
 
-    * **Flujograma**:
+    * **Flujograma**: Ver Figura 3.1
 
     .. graphviz:: proc1.dot
-       :inline:
        :caption: Recepción de Propuestas
 
 
@@ -51,7 +50,6 @@ créditos.
     * **Unidad(es) Ejecutora(s)**: Información de Crédito, Análisis Jurídico, Análisis Económico
 
     * **Tabla de Actividades**:
-
 
     .. tabularcolumns:: |p{4cm}|p{7cm}|p{4cm}|
 
@@ -72,14 +70,14 @@ créditos.
          - Realiza inspección y avalúo a la unidad de producción
          - Expediente con informe técnico de evaluación.
 
-    * **Flujograma**:
+    * **Flujograma**: Ver Figuras 3.2 y 3.3
 
     .. graphviz:: proc21.dot
-       :caption: Recepción de Propuestas
-
+       :caption: Recepción y Evaluación de Solicitudes 1
 
     .. graphviz:: proc22.dot
-       :caption: Recepción de Propuestas
+       :caption: Recepción y Evaluación de Solicitudes 2
+
 
 **Aprobación de Créditos**
 ==========================

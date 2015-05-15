@@ -1,11 +1,10 @@
 digraph  {
 	graph [fontname="Liberation Sans Narrow Condensed",
 		forcelabels=true,
-		label=<<B>Recepción y Evaluación de Solicitudes 1</B>>,
 		labelloc=b,
 		rankdir=TB,
 		ranksep=0.25,
-		size="18, 8",
+		size="8, 7.5",
 		splines=ortho
 	];
 	node [fontname="Liberation Sans Narrow Condensed",
@@ -14,41 +13,6 @@ digraph  {
 	edge [fontname="Liberation Sans Narrow Condensed",
 		fontsize=10
 	];
-	subgraph cluster_ic {
-		graph [label=<<B>Información de Crédito</B>>,
-			labeljust=l
-		];
-		ic7		 [fillcolor="white:grey",
-			fontsize=10,
-			label="",
-			shape=circle,
-			style="filled, bold",
-			width=0.6];
-		ic6		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Entrevista con el<br/>usuario</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		ic6 -> ic7		 [style=invis];
-		ic5		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Crear Expediente</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		ic5 -> ic6;
-		ic4		 [fillcolor="white:grey",
-			fontsize=10,
-			label="",
-			shape=circle,
-			style=filled,
-			width=0.6,
-			xlabel="Recibir Requisitos"];
-		ic4 -> ic5;
-	}
 	subgraph cluster_aj {
 		graph [label=<<B>Análisis Jurídico</B>>,
 			labeljust=l
@@ -89,6 +53,41 @@ digraph  {
 			style="rounded,filled"];
 		aj2 -> aj3		 [xlabel=Si];
 	}
+	subgraph cluster_ic {
+		graph [label=<<B>Información de Crédito</B>>,
+			labeljust=l
+		];
+		ic7		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6];
+		ic6		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Entrevista con el<br/>usuario</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ic6 -> ic7		 [style=invis];
+		ic5		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Crear Expediente</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ic5 -> ic6;
+		ic4		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Recibir Requisitos"];
+		ic4 -> ic5;
+	}
 	subgraph cluster_u {
 		graph [label=<<B>Usuario / Beneficiario</B>>,
 			labeljust=l
@@ -127,6 +126,12 @@ digraph  {
 	}
 	u6 -> ic4	 [style=dashed];
 	ic6 -> aj0	 [style=dashed];
+	"SIGEFOMDES Crédito"	 [image="static/database.png",
+		label="",
+		shape=plaintext,
+		xlabel="SIGEFOMDES Crédito"];
+	ic5 -> "SIGEFOMDES Crédito"	 [style=dashed];
+	aj1 -> "SIGEFOMDES Crédito"	 [style=dashed];
 	aj3 -> ic7	 [style=dashed];
 	aj3 -> "Análisis Económico"	 [style=dashed];
 }

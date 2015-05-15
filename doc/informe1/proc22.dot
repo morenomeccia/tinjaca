@@ -1,11 +1,10 @@
 digraph  {
 	graph [fontname="Liberation Sans Narrow Condensed",
 		forcelabels=true,
-		label=<<B>Recepción y Evaluación de Solicitudes 2</B>>,
 		labelloc=b,
 		rankdir=TB,
 		ranksep=0.25,
-		size="8, 8",
+		size="8, 7.5",
 		splines=ortho
 	];
 	node [fontname="Liberation Sans Narrow Condensed",
@@ -14,53 +13,6 @@ digraph  {
 	edge [fontname="Liberation Sans Narrow Condensed",
 		fontsize=10
 	];
-	subgraph cluster_gc {
-		graph [label=<<B>Gerencia de Crédito</B>>,
-			labeljust=l
-		];
-		gc1		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Revisión del<br/>Expediente</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		gc2		 [fillcolor="white:grey",
-			fixedsize=true,
-			fontsize=10,
-			height=1,
-			label=<<TABLE border="0" cellborder="0" cellpadding="0">
-                <TR><TD><IMG SRC="static/asterisk.png"/></TD></TR>
-                </TABLE>>,
-			shape=diamond,
-			style=filled,
-			width=1,
-			xlabel="Dictamen del Informe Técnico"];
-		gc1 -> gc2;
-		gc0		 [fillcolor="white:grey",
-			fontsize=10,
-			label="",
-			shape=circle,
-			style=filled,
-			width=0.6,
-			xlabel="Recibir Expediente"];
-		gc0 -> gc1;
-		gc3		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
-                <TR><TD>Enviar Expediente a<br/>Secretaría Ejecutiva</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		gc4		 [fillcolor="white:grey",
-			fontsize=10,
-			label="",
-			shape=circle,
-			style="filled, bold",
-			width=0.6];
-		gc3 -> gc4;
-		gc2 -> gc3		 [xlabel=Aprobado];
-	}
 	subgraph cluster_ae {
 		graph [label=<<B>Análisis Económico</B>>,
 			labeljust=l
@@ -144,7 +96,62 @@ digraph  {
 		ae7 -> ae8;
 		ae6 -> ae7;
 	}
+	subgraph cluster_gc {
+		graph [label=<<B>Gerencia de Crédito</B>>,
+			labeljust=l
+		];
+		gc1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Revisión del<br/>Expediente</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		gc2		 [fillcolor="white:grey",
+			fixedsize=true,
+			fontsize=10,
+			height=1,
+			label=<<TABLE border="0" cellborder="0" cellpadding="0">
+                <TR><TD><IMG SRC="static/asterisk.png"/></TD></TR>
+                </TABLE>>,
+			shape=diamond,
+			style=filled,
+			width=1,
+			xlabel="Dictamen del Informe Técnico"];
+		gc1 -> gc2;
+		gc0		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Recibir Expediente"];
+		gc0 -> gc1;
+		gc3		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
+                <TR><TD>Enviar Expediente a<br/>Secretaría Ejecutiva</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		gc4		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6];
+		gc3 -> gc4;
+		gc2 -> gc3		 [xlabel=Aprobado];
+	}
+	ae0 -> gc0	 [style=invis];
+	"SIGEFOMDES Crédito"	 [image="static/database.png",
+		label="",
+		shape=plaintext,
+		xlabel="SIGEFOMDES Crédito"];
+	ae2 -> "SIGEFOMDES Crédito"	 [style=dashed];
+	ae4 -> "SIGEFOMDES Crédito"	 [style=dashed];
 	ae7 -> gc0	 [style=dashed];
-	gc0 -> ae0	 [style=invis];
+	ae6 -> "SIGEFOMDES Crédito"	 [style=dashed];
+	"SIGEFOMDES Crédito" -> gc1	 [style=dashed];
 	"Ánálisis Jurídico" -> ae0	 [style=dashed];
 }
