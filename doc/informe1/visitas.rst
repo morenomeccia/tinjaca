@@ -265,7 +265,7 @@ Cada año, se genera una cola de rezagados luego de terminarse el presupuesto pa
 Mejoras sugeridas
 ~~~~~~~~~~~~~~~~~
 
-1. Reportes
+#. Reportes
 
 
     - Se considera que la principal mejora del sistema debe estar en los reportes, que permita revisar las solicitudes de crédito de cualquier forma.
@@ -274,7 +274,7 @@ Mejoras sugeridas
 
     - Actualmente se realiza con la hoja de cálculo.
 
-2. Personalizar requisitos
+#. Personalizar requisitos
 
 
     - Se sugiere que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los montos y a los rubros.
@@ -422,11 +422,11 @@ Minuta de la visita
 Notas Adicionales
 ~~~~~~~~~~~~~~~~~
 
-1. Departamento de Acompañamiento: El punto álgido de este departamento es el informe fotográfico que hacen los analistas de crédito.
-2. Departamento de Recuperaciones: En este departamento se generan "sábanas" de los créditos que se encuentran en categorías B, C y D. Esto es, el estado de los créditos morosos por municipio para planificar los cobros.
-3.En recuperaciones se realizan consultas del sistema.
-4. Se desea un sistema que envié mensajes SMS o correos electrónicos a los beneficiarios que caigan en alguna categoría de morosos.
-5. Se generan reportes, mes a mes, del número de seguimientos realizados que se utilizan como comprobante del trabajo realizado por los analistas.
+#. Departamento de Acompañamiento: El punto álgido de este departamento es el informe fotográfico que hacen los analistas de crédito.
+#. Departamento de Recuperaciones: En este departamento se generan "sábanas" de los créditos que se encuentran en categorías B, C y D. Esto es, el estado de los créditos morosos por municipio para planificar los cobros.
+#. En recuperaciones se realizan consultas del sistema.
+#. Se desea un sistema que envié mensajes SMS o correos electrónicos a los beneficiarios que caigan en alguna categoría de morosos.
+#. Se generan reportes, mes a mes, del número de seguimientos realizados que se utilizan como comprobante del trabajo realizado por los analistas.
 
 Visitas Restantes
 ~~~~~~~~~~~~~~~~~
