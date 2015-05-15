@@ -29,7 +29,7 @@ Dichos procesos se complementan con la descripción de los flujos de informació
 realizadas en la actualidad por la institución, a partir de los cuales se identificaron los nudos críticos observados tanto en procesos como en flujos de información y tares, como los requerimientos presentados por las unidades consultadas y también los dereivaos de la observación de los procesos de FOMDES.
 
 En el desarrollo de esta actvidad, se ha utilizado las herramientas ofrecidas por las
-metodologías ágiles. En este sentido, la sección **Requerimientos** presenta dos secciones. De
+metodologías ágiles. En este sentido, la sección **Requerimientos** presenta dos sub-secciones. De
 una parte las llamadas *historias de usuarios*, entendidas como relatos por parte de los usuarios
 de los sistemas, en términos de las funcionalidades que idenifican ayudaría al sistema a operar
 de un mejor modo.
