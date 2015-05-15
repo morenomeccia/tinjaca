@@ -31,12 +31,12 @@ realizadas en la actualidad por la institución, a partir de los cuales se ident
 En el desarrollo de esta actvidad, se ha utilizado las herramientas ofrecidas por las
 metodologías ágiles. En este sentido, la sección **Requerimientos** presenta dos sub-secciones. De
 una parte las llamadas *historias de usuarios*, entendidas como relatos por parte de los usuarios
-de los sistemas, en términos de las funcionalidades que idenifican ayudaría al sistema a operar
-de un mejor modo.
+de los sistemas sobre deseos con respecto a éste. Y por la otra, en términos de la
+funcionalidad del sistema, cuáles elementos se idenifican como de ayuda para TINJACA.
 
 Las entrevistas, disponibles desde la sección de Anexos del presente informe, han sido el
 principal insumo para el levantamiento de procesos y tareas qe actualmente desempeña el FOMDES y
 las necesidades que, desde la perspectiva del usuario es necesario incluir.
 
-Pero adicionalmente, se incluyen también requerimientos funcionales del sistema que, a buen
+Pero adicionalmente, se incluyen también requerimientos funcionales del sistema TINJACA que, a buen
 seguro, seran interroantes planteadas durante su desarrollo.
