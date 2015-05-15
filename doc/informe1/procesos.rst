@@ -24,7 +24,7 @@ créditos.
        * - Entrada
          - Actividades
          - Salida
-       * - El usuario descarga la planilla Propuesta de Financiamiento desde la web y la introduce en Información de Crédito
+       * - Propuesta de financiamiento
          - Revisa propuesta e ingresa los datos al sistema WebAdmin para generar código de la propuesta
          - Propuesta de financiamiento con código
        * - Propuesta de financiamiento con código
