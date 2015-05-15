@@ -5,7 +5,7 @@ Requerimientos
 A continuación se presentan las historias de ususarios identificadas para los procesos del FOMDES en lo relativo a la asignación, acompañamiento y recuperación de los créditos, basadas en la información recolectada en las entrevistas con los trabajadores.
 
 **Atencion al Ciudadano**
-===========================
+=========================
 
 	.. list-table::
 		:widths: 40 40 40
@@ -34,7 +34,7 @@ A continuación se presentan las historias de ususarios identificadas para los p
 		  - Controlar el orden de atencion de los visitantes dentro de la institucion
 
 **Unidad de Apoyo a Presidencia**
-=========================================
+=================================
 
     .. list-table::
        :widths: 40 40 40

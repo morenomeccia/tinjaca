@@ -106,7 +106,7 @@ Fecha de inicio de visitas para levantamiento de información en las dependencia
   - Acompañamiento.
 
 Fecha de la visita: 6 de Abril del 2015
-========================================
+=======================================
 
 Visitantes
 ----------
@@ -158,11 +158,11 @@ Contactos de los departamentos visitados
 | Correo Electrónico: ceblin2@yahoo.com
 
 Minuta de la visita
---------------------
+-------------------
 
 
 Atención al Ciudadano
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 Se dió a conocer que el sistema utilizado en recepción es SICA (Sistema Integrado de Información Administrativa), descrito en términos generales de la siguiente forma:
 
@@ -314,7 +314,7 @@ Existen 5 sistemas informáticos que no están conectados entre si:
 * SISAC (Sistema de Actualización de cuentas): usado por administración, genera errores de redondeo en los montos hasta un 20%. Gerencia de sistemas debe corregir los errores del SISAC de manera manual para generar los estados de cuenta
 
 Fecha de la visita: 8 de Abril del 2015
-========================================
+=======================================
 
 Visitantes
 ----------
@@ -353,7 +353,7 @@ Contactos de los departamentos visitados
 | Correo Electrónico: merly1629@hotmail.com 
 
 Minuta de la visita
---------------------
+-------------------
 
 #. Apertura de Cuentas. Una vez que Secretaría Ejecutiva aprueba los créditos envía una lista al departamento de Administración para la apertura de cuentas. Es una lista impresa que se genera desde SISAC con los siguientes datos:
 
@@ -396,7 +396,7 @@ Visitas Restantes
 Se planificó para mañana jueves a las 2 pm con Secretaría Ejecutiva y el departamento de Acompañamiento. Y queda para el viernes la primera visita al departamento de Recuperaciones.
 
 Fecha de la visita: 9 de Abril del 2015 
-======================================== 
+=======================================
 
 Visitantes 
 ---------- 
@@ -449,7 +449,7 @@ Contactos de los departamentos visitados
 | Correo Electrónico: albapabonm25@gmail.com 
  
 Minuta de la visita 
--------------------- 
+-------------------
 
 Análisis Jurídico 
 ~~~~~~~~~~~~~~~~~ 
@@ -472,7 +472,7 @@ Análisis Económico
 #. Tanto en el informe técnico como en la minuta se repite información por lo que sugieren se unifiquen en un solo formato. Tienes problemas para imprimir. En general un analista económico revisa los estados financieros de la empresa, es decir si esta produciendo o no con informe y fotos. 
 
 Secretaria Ejecutiva 
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 #. Secretaría ejecutiva organiza los expedientes que le envía la gerencia de créditos en una hoja impresa, para ser presentados a Consejo Directivo para su aprobación. Realiza la agenda con los casos previamente filtrados que van a discutir en el consejo directivo (4 miembros + presidente). Imprime la asistencia del consejo directivo y hace el acta del consejo (con datos de la agenda).
 #. Secretaría ejecutiva también crea y aprueba el documento del crédito (vacía los datos de la hipoteca, registro, etc). Una vez entregado el documento al beneficiario este tiene un máximo de 30 días para autenticar el documento, en caso contrario se puede revocar la solicitud por no cumplir con la condición del consejo directivo o por no llevar el documento al FOMDES.
@@ -509,10 +509,10 @@ Contactos de los departamentos visitados
 | Correo Electrónico: ceta_paz@hotmail.com
   
 Minuta de la visita
---------------------
+-------------------
 
 Gerencia de recuperaciones
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. La gerencia de administración utiliza los datos del cheque del crédito para generar las tablas de amortización y los estados de cuenta. Luego la gerencia de recuperaciones realiza una factura para Caja con los datos del usuario, monto aprobado, tasas de interés y cuotas entre otras. Las cuotas vencidas o pagadas no se reflejan en los reportes. 
 #. La gerencia de recuperaciones cuenta con una lista de expedientes por fecha, municipio, programa (sector), rutas (sectores para las visitas supervisadas), institutos (incluye FOMDES y son carteras heredadas externas), tipo de garantía, categoría del cliente (depende de las cuotas vencidas) entre otras.
@@ -589,7 +589,7 @@ Contactos de los departamentos visitados
 | Correo Electrónico:
   
 Minuta de la visita
---------------------
+-------------------
 
 Estadística y Analisis de Riesgos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -640,7 +640,7 @@ Contactos de los departamentos visitados
 | Correo Electrónico: barillasoj@cantv.net 
   
 Minuta de la visita
---------------------
+-------------------
 
 #. FOMDES tiene dos entradas de recursos, los que provienen de la caja de recuperaciones y los que provienen del situado constitucional (Tesorería de la Gobernación). Estos recursos son manejados por presupuesto/contabilidad para la planificación anual. Sin embargo, si a mitad de año se quedan sin dinero solicitan a la gobernación una inyección de capital.
 #. No existe un formato para hacer una orden de compra en la gerencia de administración.
@@ -699,7 +699,7 @@ Minuta de la visita
 
 
 Fecha de la visita: Visita 7 de Mayo del 2015
-==============================================
+=============================================
 
 Visitantes
 ----------
