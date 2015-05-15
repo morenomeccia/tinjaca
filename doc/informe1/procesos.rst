@@ -13,7 +13,7 @@ créditos.
 
     * **Dependencia responsable**: Gerencia de Crédito
 
-    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Analistas de Crédito, Estadística y Evaluación de Riesgos
+    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Estadística y Evaluación de Riesgos
 
     * **Tabla de Actividades**:
 
@@ -27,14 +27,11 @@ créditos.
          - Actividades
          - Salida
        * - Propuesta de financiamiento
-         - Ingreso de datos al sistema WebAdmin
-         - Propuesta de financiamiento
-       * - Propuesta de financiamiento
-         - Revisión de la viabilidad de la propuesta
+         - Evaluan la viabilidad de la propuesta y si cumple con las normativas del FOMDES
          - Propuesta viable/no viable
        * - Propuesta viable
-         - Incluye propuesta en lista del taller y envia requisitos
-         - Propuesta seleccionada para taller
+         - Añade al usuario en la lista del Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario y se envia lista de requisitos
+         - Usuario convocado para realizar taller
 
     * **Flujograma**:
 
