@@ -59,24 +59,24 @@ Sobre la estructura de la organización y sus procesos, se puntualizó la existe
 Se obtuvo una ruta general del beneficiario dentro de la organización:
 1. Departamento de Atención al Ciudadano: Recepción.
 2. Departamento de Gerencia de Crédito:
-    + Información y recepción de documentos.
-    + Taller de formación integral al beneficiario.
-    + Análisis Jurídico.
-    + Análisis Económico, inspección y avalúo de garantías.
-    + Análisis Económico, Informe técnico y minuta.
-    + Revisión por parte de él o la Gerente.
++ Información y recepción de documentos.
++ Taller de formación integral al beneficiario.
++ Análisis Jurídico.
++ Análisis Económico, inspección y avalúo de garantías.
++ Análisis Económico, Informe técnico y minuta.
++ Revisión por parte de él o la Gerente.
 3. Departamento de Secretaria Ejecutiva:
-    + Elaboración del documento de crédito.
-    + Exposición en consejo directivo (aprobar o negar).
-    + Entrega del documento al beneficiario para notariado.
-    + Recepción del documento notariado.
++ Elaboración del documento de crédito.
++ Exposición en consejo directivo (aprobar o negar).
++ Entrega del documento al beneficiario para notariado.
++ Recepción del documento notariado.
 #. Departamento de Gerencia de Administración y Finanzas:
-    + Registro de la cuenta por cobrar.
-    + Elaboración del cheque.
-    + Certificación presupuestaria y financiera.
-    + Firma del cheque por parte de él o la Gerente.
++ Registro de la cuenta por cobrar.
++ Elaboración del cheque.
++ Certificación presupuestaria y financiera.
++ Firma del cheque por parte de él o la Gerente.
 #. Presidencia:
-    + Firma del cheque por parte de él o la Presidente.
++ Firma del cheque por parte de él o la Presidente.
 #. Secretaría Ejecutiva:
     + Acto de entrega de crédito.
 #. Departamento de Gerencia de Crédito:
