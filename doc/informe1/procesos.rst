@@ -28,10 +28,10 @@ créditos.
          - Ingreso de datos al sistema WebAdmin
          - Propuesta de financiamiento
        * - Propuesta de financiamiento
-         - Revisión de la viabilidad de la propuesta
+         - Evaluar viabilidad de la propuesta
          - Propuesta viable/no viable
        * - Propuesta viable
-         - Incluye propuesta en lista del taller y envia requisitos
+         - Añadir usuario en lista del taller y envia lista de requisitos
          - Propuesta seleccionada para taller
 
     * **Flujograma**:
