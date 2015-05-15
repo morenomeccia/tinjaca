@@ -24,15 +24,15 @@ créditos.
        * - Entrada
          - Actividades
          - Salida
-       * - Propuesta de financiamiento
-         - Ingreso de datos al sistema WebAdmin
-         - Propuesta de financiamiento
-       * - Propuesta de financiamiento
-         - Evaluar viabilidad de la propuesta
+       * - El usuario descarga la planilla Propuesta de Financiamiento desde la web y la introduce en Información de Crédito
+         - Revisa propuesta e ingresa los datos al sistema WebAdmin para generar código de la propuesta
+         - Propuesta de financiamiento con código
+       * - Propuesta de financiamiento con código
+         - Evaluan la viabilidad de la propuesta y si cumple con las normativas del FOMDES
          - Propuesta viable/no viable
        * - Propuesta viable
-         - Añadir usuario en lista del taller y envia lista de requisitos
-         - Propuesta seleccionada para taller
+         - Añade al usuario en la lista del Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario y se envia lista de requisitos
+         - Usuario convocado para realizar taller
 
     * **Flujograma**:
 
