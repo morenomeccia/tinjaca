@@ -9,13 +9,15 @@ créditos.
 **Recepción de Propuestas**
 ===========================
 
-    * **Descripción**: Abarca desde la solicitud de información por parte del beneficiario/-a hasta la asistencia al taller
+    * **Descripción**: Abarca desde la solicitud de información por parte del beneficiario(a) hasta la asistencia al taller
 
     * **Dependencia responsable**: Gerencia de Crédito
 
     * **Unidad(es) Ejecutora(s)**: Información de Crédito, Analistas de Crédito, Estadística y Evaluación de Riesgos
 
     * **Tabla de Actividades**:
+
+    .. tabularcolumns:: |p{4cm}|p{7cm}|p{4cm}|
 
     .. list-table::
        :widths: 40 40 40
@@ -36,41 +38,25 @@ créditos.
 
     * **Flujograma**:
 
-    .. graphviz::
+    .. graphviz:: proc1.dot
+       :inline:
+       :caption: Recepción de Propuestas
 
-       digraph G05 { rankdir=LR; node [shape=box, style=rounded];
-
-        subgraph clusterA { labeljust=l; label="any-section@company.com";
-         AS [label="", shape=circle, width="0.3"];
-         AE [label="", shape=circle, width="0.3", style=bold];
-         A1 [label="A1: Daily\nReport"];
-         A2 [label="A2: Memo"];
-
-         AS -> A1;
-         A2 -> AE;
-         A1 -> A2 [style=invis];
-        }
-
-        subgraph clusterB { labeljust=l; label="section-leader@company.com";
-         B1 [label="B1: Review"];
-        }
-
-       A1 -> B1 [tailport=sw,headport=nw]; // *Specify positions of tail port and head port*
-       B1 -> A1 [arrowtail=odiamond, label="NG"];
-       B1 -> A2 [arrowtail=rcrowlvee];
-       }
 
 **Recepción y Evaluación de Solicitudes**
 =========================================
 
-    * **Descripción**: Abarca desde la entrega de recaudos para solicitud de crédito hasta la
-      generación del listado de expedientes sugeridos para aprobación de créditos
+    * **Descripción**: Abarca desde la entrega de recaudos para solicitud de crédito hasta la generación del listado de
+        expedientes sugeridos para aprobación de créditos
 
     * **Dependencia responsable**: Gerencia de Crédito
 
     * **Unidad(es) Ejecutora(s)**: Información de Crédito, Análisis Jurídico, Análisis Económico
 
     * **Tabla de Actividades**:
+
+
+    .. tabularcolumns:: |p{4cm}|p{7cm}|p{4cm}|
 
     .. list-table::
        :widths: 40 40 40
@@ -91,29 +77,12 @@ créditos.
 
     * **Flujograma**:
 
-    .. graphviz::
+    .. graphviz:: proc21.dot
+       :caption: Recepción de Propuestas
 
-       digraph G05 { rankdir=LR; node [shape=box, style=rounded];
 
-        subgraph clusterA { labeljust=l; label="any-section@company.com";
-         AS [label="", shape=circle, width="0.3"];
-         AE [label="", shape=circle, width="0.3", style=bold];
-         A1 [label="A1: Daily\nReport"];
-         A2 [label="A2: Memo"];
-
-         AS -> A1;
-         A2 -> AE;
-         A1 -> A2 [style=invis];
-        }
-
-        subgraph clusterB { labeljust=l; label="section-leader@company.com";
-         B1 [label="B1: Review"];
-        }
-
-       A1 -> B1 [tailport=sw,headport=nw]; // *Specify positions of tail port and head port*
-       B1 -> A1 [arrowtail=odiamond, label="NG"];
-       B1 -> A2 [arrowtail=rcrowlvee];
-       }
+    .. graphviz:: proc22.dot
+       :caption: Recepción de Propuestas
 
 **Aprobación de Créditos**
 ==========================
