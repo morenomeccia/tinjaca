@@ -2,7 +2,8 @@
 Nudos Críticos de los procesos
 ******************************
 
-Definición básica del entorno de trabajo y del proceso de solicitud de créditos
+De las visitas realizadas Definición básica del entorno de trabajo y del proceso de solicitud de
+créditos
 
 Estadística
 ===========
