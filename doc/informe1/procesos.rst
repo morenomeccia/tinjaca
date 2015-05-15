@@ -13,7 +13,7 @@ créditos.
 
     * **Dependencia responsable**: Gerencia de Crédito
 
-    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Analistas de Crédito, Estadística y Evaluación de Riesgos
+    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Estadística y Evaluación de Riesgos
 
     * **Tabla de Actividades**:
 
@@ -25,9 +25,6 @@ créditos.
          - Actividades
          - Salida
        * - Propuesta de financiamiento
-         - Revisa propuesta e ingresa los datos al sistema WebAdmin para generar código de la propuesta
-         - Propuesta de financiamiento con código
-       * - Propuesta de financiamiento con código
          - Evaluan la viabilidad de la propuesta y si cumple con las normativas del FOMDES
          - Propuesta viable/no viable
        * - Propuesta viable
