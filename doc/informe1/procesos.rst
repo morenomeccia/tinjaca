@@ -13,33 +13,36 @@ créditos.
 
     * **Dependencia responsable**: Gerencia de Crédito
 
-    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Analistas de Crédito, Estadística y Evaluación de Riesgos
+    * **Unidad(es) Ejecutora(s)**: Usuario/Beneficiario, Información de Crédito, Estadística y Evaluación de Riesgos
 
     * **Tabla de Actividades**:
 
     .. tabularcolumns:: |p{4cm}|p{7cm}|p{4cm}|
 
     .. list-table::
-       :widths: 40 40 40
+       :widths: 40 70 40
        :header-rows: 1
 
        * - Entrada
          - Actividades
          - Salida
+       * - Necesidad de solicitar un crédito
+         - Descargar e introducir planilla de "Propuesta de Financiamiento"
+         - Propuesta de financiamiento
        * - Propuesta de financiamiento
-         - Revisa propuesta e ingresa los datos al sistema WebAdmin para generar código de la propuesta
+         - Revisar propuesta e ingresar los datos al sistema WebAdmin para generar código de la propuesta
          - Propuesta de financiamiento con código
-       * - Propuesta de financiamiento con código
-         - Evaluan la viabilidad de la propuesta y si cumple con las normativas del FOMDES
+       * - Propuesta de financiamiento
+         - Evaluar la viabilidad de la propuesta y si cumple con las normativas del FOMDES
          - Propuesta viable/no viable
        * - Propuesta viable
-         - Añade al usuario en la lista del Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario y se envia lista de requisitos
+         - Añadir al usuario en la lista del "Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario" y
+           enviar lista de requisitos
          - Usuario convocado para realizar taller
 
     * **Flujograma**: Ver Figura 3.1
 
     .. graphviz:: proc1.dot
-..       :caption: Recepción de Propuestas
 
 
 **Recepción y Evaluación de Solicitudes**
@@ -50,36 +53,43 @@ créditos.
 
     * **Dependencia responsable**: Gerencia de Crédito
 
-    * **Unidad(es) Ejecutora(s)**: Información de Crédito, Análisis Jurídico, Análisis Económico
+    * **Unidad(es) Ejecutora(s)**: Usuario/Beneficiario, Información de Crédito, Análisis Jurídico, Análisis Económico
 
     * **Tabla de Actividades**:
 
     .. tabularcolumns:: |p{4cm}|p{7cm}|p{4cm}|
 
     .. list-table::
-       :widths: 40 40 40
+       :widths: 40 70 40
        :header-rows: 1
 
        * - Entrada
          - Actividades
          - Salida
+       * - Planilla de requisitos
+         - Reunir y consignar los requisitos
+         - Requisitos por sector
        * - Requisitos por sector
-         - Ingreso de datos al sistema SIGEFOMDES-Crédito
+         - Ingresar datos al sistema SIGEFOMDES-Crédito, y crear expediente.
          - Expediente con código por sector
        * - Expediente
-         - Revisión de la garantía
+         - Revisar validez legal de la garantía
          - Expediente con control previo
        * - Expediente
-         - Realiza inspección y avalúo a la unidad de producción
-         - Expediente con informe técnico de evaluación.
+         - Verificar la viabilidad económica de la unidad de producción
+         - Expediente con informe de inspección
+       * - Expediente
+         - Verificar la garantía en el sitio
+         - Expediente con informe de avalúo
+       * - Expediente
+         - Realizar el informe técnico
+         - Expediente con informe técnico (con memoria fotográfica)
 
     * **Flujograma**: Ver Figuras 3.2 y 3.3
 
     .. graphviz:: proc21.dot
-..       :caption: Recepción y Evaluación de Solicitudes 1
 
     .. graphviz:: proc22.dot
-..       :caption: Recepción y Evaluación de Solicitudes 2
 
 
 **Aprobación de Créditos**
