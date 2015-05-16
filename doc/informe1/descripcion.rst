@@ -31,7 +31,8 @@ necesidades que, desde la perspectiva del usuario es necesario incluir.
 Pero adicionalmente, se incluyen también requerimientos funcionales del sistema TINJACA que, a buen
 seguro, seran interroantes planteadas durante su desarrollo.
 
-FOMDES ======
+FOMDES
+======
 
 El Fondo Merideño para el Desarrollo Económico Sustentable (FOMDES), es un ente regional adscrito a
 la Gobernación del estado Mérida, encargado del otorgamiento de créditos para los distintos sectores
