@@ -36,7 +36,7 @@ créditos.
     * **Flujograma**: Ver Figura 3.1
 
     .. graphviz:: proc1.dot
-       :caption: Recepción de Propuestas
+..       :caption: Recepción de Propuestas
 
 
 **Recepción y Evaluación de Solicitudes**
@@ -64,7 +64,7 @@ créditos.
          - Ingreso de datos al sistema SIGEFOMDES-Crédito
          - Expediente con código por sector
        * - Expediente
-         - Revisión de la garantia
+         - Revisión de la garantía
          - Expediente con control previo
        * - Expediente
          - Realiza inspección y avalúo a la unidad de producción
@@ -73,10 +73,10 @@ créditos.
     * **Flujograma**: Ver Figuras 3.2 y 3.3
 
     .. graphviz:: proc21.dot
-       :caption: Recepción y Evaluación de Solicitudes 1
+..       :caption: Recepción y Evaluación de Solicitudes 1
 
     .. graphviz:: proc22.dot
-       :caption: Recepción y Evaluación de Solicitudes 2
+..       :caption: Recepción y Evaluación de Solicitudes 2
 
 
 **Aprobación de Créditos**

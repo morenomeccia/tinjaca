@@ -12,6 +12,7 @@ Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales
    :maxdepth: 2
 
    descripcion
+   visitas
    procesos
    nudos
    requerimientos
