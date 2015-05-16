@@ -34,6 +34,8 @@ ACTIV_ICON = {"human": IMAGE_PATH + "person.png",
 
 EV_STYLE = {"start": "filled", "end": "filled, bold"}
 
+TEXT_WIDTH = 25
+
 def add_event(G, node, xlabel, ev_type):
     """
     Add an event node to G with label xlabel and event type ev_type.
@@ -44,7 +46,7 @@ def add_event(G, node, xlabel, ev_type):
     :param ev_type: a string used as EV_STYLE key.
     :return: None
     """
-    G.add_node(node, label="", xlabel=fill(xlabel, 20), shape="circle", width="0.6",
+    G.add_node(node, label="", xlabel=fill(xlabel, TEXT_WIDTH), shape="circle", width="0.6",
                style=EV_STYLE[ev_type], fillcolor="white:grey", fontsize="10")
 
 def add_activity(G, node, label, act_type):
@@ -57,7 +59,7 @@ def add_activity(G, node, label, act_type):
     :param act_type: a string used as ACTIV_ICON key.
     :return: None
     """
-    label = fill(label, 20)
+    label = fill(label, TEXT_WIDTH)
     label = label.replace('\n', '<br/>')
     label = LABEL_TEMPLATE.format(ACTIV_ICON[act_type], label)
     G.add_node(node, label=label, shape="box", style="rounded,filled", fillcolor="white:grey")
