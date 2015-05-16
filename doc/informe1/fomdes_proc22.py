@@ -66,7 +66,8 @@ global_edges = {"Ánálisis Jurídico": {"ae0": {"style": "dashed"}},
                 "ae2": {"SIGEFOMDES Crédito": {"style": "dashed"}},
                 "ae4": {"SIGEFOMDES Crédito": {"style": "dashed"}},
                 "ae6": {"SIGEFOMDES Crédito": {"style": "dashed"}},
-                "SIGEFOMDES Crédito": {"gc1": {"style": "dashed"}},}
+                "SIGEFOMDES Crédito": {"gc1": {"style": "dashed"}},
+                "gc3": {"Secretaría Ejecutiva": {"style": "dashed"}}}
 
 add_edges(F, global_edges)
 
