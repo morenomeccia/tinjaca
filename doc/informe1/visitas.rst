@@ -1,45 +1,38 @@
-**************************
-Descripción de las Visitas
-**************************
+*************************
+Resumen de la entrevistas
+*************************
 
-A continuación se presentan los resúmenes de las visitas realizadas a las instalaciones del
-FOMDES desde el 31 de Marzo hasta el 7 de Mayo del 2015.
+A continuación se presentan los resúmenes de las entrevistas realizadas en las instalaciones del FOMDES desde el 31 de Marzo hasta el 7 de Mayo del 2015.
 
-Fecha de la visita: 31 de Marzo del 2015
-========================================
+Gerencia de sistemas
+====================
+
+31 de Marzo del 2015 
+--------------------
 
 Visitantes
-----------
+~~~~~~~~~~
 
 * Francisco Palm
 * Héctor Ospino
 * María Alejandra Rujano
 
-Departamentos Visitados
------------------------
+Entrevistados
+~~~~~~~~~~~~~
 
- * Gerente de Sistemas
-
-Contactos de los departamentos visitados
-----------------------------------------
-
-| Oscar Barillas
-| Gerente de Sistemas
-| Telf.: 0424-7517353
-| Correo Electrónico: barillasoj@cantv.net
-
+* Oscar Barillas
+* Juan Carlos Villegas
 
 Minuta de la visita
--------------------
-Se realizó el acto de firma de contrato para la prestación de servicio.
+~~~~~~~~~~~~~~~~~~~
 
-Se dió una primera aproximación sobre necesidades de actualización de las formas de trabajo institucional, según lo planteado en reuniones sostenidas con el Prof. Juan Carlos Villegas:
+#. Primera aproximación sobre necesidades de actualización de las formas de trabajo institucional:
 
     - Facilitar la transición de los funcionarios entre el sistema TINJACA y los sistemas actuales.
     - TINJACÁ debe contemplar tres tipos de usuarios:
-        1. Los funcionarios administradores según sus jerarquías (tipo súper usuario).
-        2. Los funcionarios operadores según sus cargos y ubicación administrativa (tipo usuario).
-        3. El público en general (tipo invitado): quienes accedan por las herramientas WEB para:
+        #) Los funcionarios administradores según sus jerarquías (tipo súper usuario).
+        #) Los funcionarios operadores según sus cargos y ubicación administrativa (tipo usuario).
+        #) El público en general (tipo invitado): quienes accedan por las herramientas WEB para:
             * Crear sus cuentas de usuario.
             * Llenar y editar datos personales, direcciones, teléfonos.
             * Llenar planillas, subir Fotografía, y otros documentos escaneados.
@@ -53,57 +46,51 @@ Se dió una primera aproximación sobre necesidades de actualización de las for
 
     - Se planteó permitir la edición de datos por parte del usuario tipo invitado, requiriendo una validación por parte de este en las oficinas de la institución a fin de que su edición tenga efecto (Dirección, teléfono, otros).
 
+#. Sobre la estructura de la organización y sus procesos, se puntualizó la existencia de procedimientos comunes que a nivel del diseño de TINJACÁ pudieran ser considerados como instancias de una misma clase: Los analistas de Crédito hacen inspecciones e informes con registros fotográficos; esto se hace también en Acompañamiento. Otro ejemplo puede ser el uso de dos conjuntos de plantillas para automatizar la creación de documentos de crédito y de liberación, simplificando la inserción de datos básicos ya registrados.
 
-Sobre la estructura de la organización y sus procesos, se puntualizó la existencia de procedimientos comunes que a nivel del diseño de TINJACÁ pudieran ser considerados como instancias de una misma clase: Los analistas de Crédito hacen inspecciones e informes con registros fotográficos; esto se hace también en Acompañamiento. Otro ejemplo puede ser el uso de dos conjuntos de plantillas para automatizar la creación de documentos de crédito y de liberación, simplificando la inserción de datos básicos ya registrados.
+#. Se obtuvo una ruta general del beneficiario dentro de la organización:
 
-Se obtuvo una ruta general del beneficiario dentro de la organización:
-
-#. Departamento de Atención al Ciudadano: Recepción.
-#. Departamento de Gerencia de Crédito:
-	- Información y recepción de documentos.
-	- Taller de formación integral al beneficiario.
-	- Análisis Jurídico.
-	- Análisis Económico, inspección y avalúo de garantías.
-	- Análisis Económico, Informe técnico y minuta.
-	- Revisión por parte de él o la Gerente.
-#. Departamento de Secretaria Ejecutiva:
-	- Elaboración del documento de crédito.
-	- Exposición en consejo directivo (aprobar o negar).
-	- Entrega del documento al beneficiario para notariado.
-	- Recepción del documento notariado.
-#. Departamento de Gerencia de Administración y Finanzas:
-	- Registro de la cuenta por cobrar.
-	- Elaboración del cheque.
-	- Certificación presupuestaria y financiera.
-	- Firma del cheque por parte de él o la Gerente.
-#. Presidencia:
-	- Firma del cheque por parte de él o la Presidente.
-#. Secretaría Ejecutiva:
-	- Acto de entrega de crédito.
-#. Departamento de Gerencia de Crédito:
-	- Acompañamiento: verificación del plan de inversión.
-	- Informe de la inspección con registros fotográficos.
-	- Acompañamiento: autoriza desembolso de segundas y terceras partes o solicita el reintegro del capital.
-#. Departamento de Gerencia de Administración: Caja principal, Taquillas de pago y Taquilla Express;
-	- Consulta la tabla de amortización del crédito,
-	- Recibe los pagos realizados por los beneficiarios; estos pueden ser por el monto total o parcial de la cuota e incluso abonos a cuotas por vencerse.
-#. Departamento de Gerencia de Recuperaciones:
-	- Mantiene controlado el nivel de morosidad mediante diversas estrategias de cobranza, abordaje y seguimiento de los beneficiarios,
-	- Utiliza los datos de los beneficiarios y las tablas de amortización de crédito para determinar los niveles de morosidad por eje (páramo, metropolitano, panamericano, mocotíes, pueblos del sur), municipio y parroquia.
-	- Define carteras de cobranza a que se distribuyen entre sus ejecutivos para la correspondiente gestión persona a persona.
-	- Cada ejecutivo registra su actividad de contacto (llamada, mensaje, visita, citación, etc) en el expediente mediante un seguimiento.
-	- Pasa a la Consultoría Jurídica los Expedientes en dos casos generales: liberación (PAGADO TOTALMENTE) y demanda (INCUMPLIMIENTO EN EL PAGO)
-#. Departamento de Consultoría Jurídica:
-	- Redacta los documentos de liberación por cancelación total y los entrega al beneficiario para su tramitación en notaría.
-	- Redacta los documentos de demanda para ejecución de garantías.
+	#) Departamento de Atención al Ciudadano: Recepción.
+	#) Departamento de Gerencia de Crédito:
+		- Información y recepción de documentos.
+		- Taller de formación integral al beneficiario.
+		- Análisis Jurídico.
+		- Análisis Económico, inspección y avalúo de garantías.
+		- Análisis Económico, Informe técnico y minuta.
+		- Revisión por parte de él o la Gerente.
+	#) Departamento de Secretaria Ejecutiva:
+		- Elaboración del documento de crédito.
+		- Exposición en consejo directivo (aprobar o negar).
+		- Entrega del documento al beneficiario para notariado.
+		- Recepción del documento notariado.
+	#) Departamento de Gerencia de Administración y Finanzas:
+		- Registro de la cuenta por cobrar.
+		- Elaboración del cheque.
+		- Certificación presupuestaria y financiera.
+		- Firma del cheque por parte de él o la Gerente.
+	#) Presidencia:
+		- Firma del cheque por parte de él o la Presidente.
+	#) Secretaría Ejecutiva:
+		- Acto de entrega de crédito.
+	#) Departamento de Gerencia de Crédito:
+		- Acompañamiento: verificación del plan de inversión.
+		- Informe de la inspección con registros fotográficos.
+		- Acompañamiento: autoriza desembolso de segundas y terceras partes o solicita el reintegro del capital.
+	#) Departamento de Gerencia de Administración: Caja principal, Taquillas de pago y Taquilla Express;
+		- Consulta la tabla de amortización del crédito,
+		- Recibe los pagos realizados por los beneficiarios; estos pueden ser por el monto total o parcial de la cuota e incluso abonos a cuotas por vencerse.
+	#) Departamento de Gerencia de Recuperaciones:
+		- Mantiene controlado el nivel de morosidad mediante diversas estrategias de cobranza, abordaje y seguimiento de los beneficiarios,
+		- Utiliza los datos de los beneficiarios y las tablas de amortización de crédito para determinar los niveles de morosidad por eje (páramo, metropolitano, panamericano, mocotíes, pueblos del sur), municipio y parroquia.
+		- Define carteras de cobranza a que se distribuyen entre sus ejecutivos para la correspondiente gestión persona a persona.
+		- Cada ejecutivo registra su actividad de contacto (llamada, mensaje, visita, citación, etc) en el expediente mediante un seguimiento.
+		- Pasa a la Consultoría Jurídica los Expedientes en dos casos generales: liberación (PAGADO TOTALMENTE) y demanda (INCUMPLIMIENTO EN EL PAGO)
+	#) Departamento de Consultoría Jurídica:
+		- Redacta los documentos de liberación por cancelación total y los entrega al beneficiario para su tramitación en notaría.
+		- Redacta los documentos de demanda para ejecución de garantías.
 
 
-Se acordó enviar por correo electrónico los manuales de normas y procedimientos.
-
-Fecha de inicio de visitas para levantamiento de información en las dependencias pautada para el 6 de Abril de 2015:
-  - Atención al ciudadano
-  - Gerencia de Crédito
-  - Acompañamiento.
+#. Se acordó enviar por correo electrónico los manuales de normas y procedimientos.
 
 Fecha de la visita: 6 de Abril del 2015
 =======================================
@@ -210,9 +197,7 @@ Gerencia de Crédito:
 
 #. Cada año, se genera una cola de rezagados luego de terminarse el presupuesto pautado, los cuales pasan a ser los primeros en cola del año siguiente con nuevo código de expediente.
 
-#. Se considera que la principal mejora del sistema debe estar en los reportes, que permita revisar las solicitudes de crédito de cualquier forma.
-
-#. Poder realizar reportes por municipio, por rubro, por status, por rango de fechas. Y generar información estadística, que permita presentar los reportes de forma resumida. Actualmente se realiza con la hoja de cálculo.
+#. Se quiere poder realizar reportes por municipio, por rubro, por estatus, por rango de fechas. Y generar información estadística, que permita presentar los reportes de forma resumida. Actualmente se realiza con la hoja de cálculo.
 
 #. Se sugiere que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los montos y a los rubros.
 
