@@ -20,14 +20,14 @@ digraph  {
 		u1		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
                 <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Descargar Propuesta<br/>de Financiamiento</TD></TR>
+                <TR><TD>Descargar Propuesta de<br/>Financiamiento</TD></TR>
                 </TABLE>>,
 			shape=box,
 			style="rounded,filled"];
 		u2		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
                 <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
-                <TR><TD>Introducir Propuesta<br/>de Financiamiento</TD></TR>
+                <TR><TD>Introducir Propuesta de<br/>Financiamiento</TD></TR>
                 </TABLE>>,
 			shape=box,
 			style="rounded,filled"];
@@ -50,26 +50,6 @@ Financiamiento"];
 			xlabel="Fin Propuesta de
 Financiamiento"];
 		u2 -> u3;
-	}
-	subgraph cluster_er {
-		graph [label=<<B>Estadística y Evaluación de Riesgos</B>>,
-			labeljust=l
-		];
-		er0		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Añadir al usuario a<br/>la lista del taller</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		er1		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
-                <TR><TD>Enviar Planilla de<br/>Requisitos</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		er0 -> er1;
 	}
 	subgraph cluster_ic {
 		graph [label=<<B>Información de Crédito</B>>,
@@ -96,7 +76,7 @@ Financiamiento"];
 		ic1		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
                 <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Evaluar viabilidad<br/>de la Propuesta</TD></TR>
+                <TR><TD>Evaluar viabilidad de la<br/>Propuesta</TD></TR>
                 </TABLE>>,
 			shape=box,
 			style="rounded,filled"];
@@ -110,6 +90,26 @@ Financiamiento"];
 			xlabel="Recibir Propuesta de
 Financiamiento"];
 		ic0 -> ic1;
+	}
+	subgraph cluster_er {
+		graph [label=<<B>Estadística y Evaluación de Riesgos</B>>,
+			labeljust=l
+		];
+		er0		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Añadir al usuario a la<br/>lista del taller</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		er1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
+                <TR><TD>Enviar Planilla de<br/>Requisitos</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		er0 -> er1;
 	}
 	u2 -> ic0	 [style=dashed];
 	ic2 -> er0	 [style=dashed,

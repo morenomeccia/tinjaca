@@ -13,89 +13,6 @@ digraph  {
 	edge [fontname="Liberation Sans Narrow Condensed",
 		fontsize=10
 	];
-	subgraph cluster_ae {
-		graph [label=<<B>Análisis Económico</B>>,
-			labeljust=l
-		];
-		ae1		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Planificar las rutas</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		ae2		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Realizar la<br/>Inspección</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		ae1 -> ae2;
-		ae0		 [fillcolor="white:grey",
-			fontsize=10,
-			label="",
-			shape=circle,
-			style=filled,
-			width=0.6,
-			xlabel="Recibir Expediente"];
-		ae0 -> ae1;
-		ae3		 [fillcolor="white:grey",
-			fixedsize=true,
-			fontsize=10,
-			height=1,
-			label=<<TABLE border="0" cellborder="0" cellpadding="0">
-                <TR><TD><IMG SRC="static/cross.png"/></TD></TR>
-                </TABLE>>,
-			shape=diamond,
-			style=filled,
-			width=1,
-			xlabel="¿Requiere Garantía?"];
-		ae5		 [fillcolor="white:grey",
-			fixedsize=true,
-			fontsize=10,
-			height=1,
-			label=<<TABLE border="0" cellborder="0" cellpadding="0">
-                <TR><TD><IMG SRC="static/cross.png"/></TD></TR>
-                </TABLE>>,
-			shape=diamond,
-			style=filled,
-			width=1];
-		ae3 -> ae5		 [xlabel=No];
-		ae4		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Realizar avalúo de<br/>la garantía</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		ae3 -> ae4		 [xlabel=Si];
-		ae2 -> ae3;
-		ae6		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Realizar Informe<br/>Técnico</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		ae5 -> ae6;
-		ae4 -> ae5;
-		ae7		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
-                <TR><TD>Enviar Expediente al<br/>Gerente de Crédito</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		ae8		 [fillcolor="white:grey",
-			fontsize=10,
-			label="",
-			shape=circle,
-			style="filled, bold",
-			width=0.6];
-		ae7 -> ae8;
-		ae6 -> ae7;
-	}
 	subgraph cluster_gc {
 		graph [label=<<B>Gerencia de Crédito</B>>,
 			labeljust=l
@@ -103,7 +20,7 @@ digraph  {
 		gc1		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
                 <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Revisión del<br/>Expediente</TD></TR>
+                <TR><TD>Revisión del Expediente</TD></TR>
                 </TABLE>>,
 			shape=box,
 			style="rounded,filled"];
@@ -143,6 +60,89 @@ digraph  {
 		gc3 -> gc4;
 		gc2 -> gc3		 [xlabel=Aprobado];
 	}
+	subgraph cluster_ae {
+		graph [label=<<B>Análisis Económico</B>>,
+			labeljust=l
+		];
+		ae1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Planificar las rutas</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ae2		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Realizar la Inspección</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ae1 -> ae2;
+		ae0		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Recibir Expediente"];
+		ae0 -> ae1;
+		ae3		 [fillcolor="white:grey",
+			fixedsize=true,
+			fontsize=10,
+			height=1,
+			label=<<TABLE border="0" cellborder="0" cellpadding="0">
+                <TR><TD><IMG SRC="static/cross.png"/></TD></TR>
+                </TABLE>>,
+			shape=diamond,
+			style=filled,
+			width=1,
+			xlabel="¿Requiere Garantía?"];
+		ae5		 [fillcolor="white:grey",
+			fixedsize=true,
+			fontsize=10,
+			height=1,
+			label=<<TABLE border="0" cellborder="0" cellpadding="0">
+                <TR><TD><IMG SRC="static/cross.png"/></TD></TR>
+                </TABLE>>,
+			shape=diamond,
+			style=filled,
+			width=1];
+		ae3 -> ae5		 [xlabel=No];
+		ae4		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Realizar avalúo de la<br/>garantía</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ae3 -> ae4		 [xlabel=Si];
+		ae2 -> ae3;
+		ae6		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Realizar Informe Técnico</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ae5 -> ae6;
+		ae4 -> ae5;
+		ae7		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
+                <TR><TD>Enviar Expediente al<br/>Gerente de Crédito</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ae8		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6];
+		ae7 -> ae8;
+		ae6 -> ae7;
+	}
 	ae0 -> gc0	 [style=invis];
 	"SIGEFOMDES Crédito"	 [image="static/database.png",
 		label="",
@@ -152,6 +152,7 @@ digraph  {
 	ae4 -> "SIGEFOMDES Crédito"	 [style=dashed];
 	ae7 -> gc0	 [style=dashed];
 	ae6 -> "SIGEFOMDES Crédito"	 [style=dashed];
+	gc3 -> "Secretaría Ejecutiva"	 [style=dashed];
 	"SIGEFOMDES Crédito" -> gc1	 [style=dashed];
 	"Ánálisis Jurídico" -> ae0	 [style=dashed];
 }

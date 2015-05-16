@@ -1,0 +1,111 @@
+digraph  {
+	graph [fontname="Liberation Sans Narrow Condensed",
+		label=<<B>Recepción de Propuestas</B>>,
+		splines=ortho
+	];
+	node [fontname="Liberation Sans Narrow Condensed",
+		label="\N"
+	];
+	edge [fontname="Liberation Sans Narrow Condensed",
+		fontsize=10
+	];
+	subgraph cluster_ic {
+		graph [label=<<B>Información de Crédito</B>>,
+			labeljust=l
+		];
+		ic3		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6];
+		ic2		 [fillcolor="white:grey",
+			fontsize=10,
+			image="cross.png",
+			label="",
+			shape=diamond,
+			style=filled,
+			xlabel="¿La propuesta es viable?"];
+		ic2 -> ic3		 [xlabel=No];
+		ic1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="person.png"/></TD></TR>
+<TR><TD>Evaluar viabilidad<br/>de la Propuesta</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ic1 -> ic2;
+		ic0		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Recibir Propuesta de
+Financiamiento"];
+		ic0 -> ic1;
+	}
+	subgraph cluster_u {
+		graph [label=<<B>Usuario / Beneficiario</B>>,
+			labeljust=l
+		];
+		u1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="person.png"/></TD></TR>
+<TR><TD>Descargar Propuesta<br/>de Financiamiento</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		u2		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="envelope.png"/></TD></TR>
+<TR><TD>Introducir Propuesta<br/>de Financiamiento</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		u1 -> u2;
+		u0		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Propuesta de
+Financiamiento"];
+		u0 -> u1;
+		u3		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6,
+			xlabel="Fin Propuesta de
+Financiamiento"];
+		u2 -> u3;
+	}
+	subgraph cluster_er {
+		graph [label=<<B>Estadística y Evaluación de Riesgos</B>>,
+			labeljust=l
+		];
+		er0		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="person.png"/></TD></TR>
+<TR><TD>Añadir al usuario a<br/>la lista del taller</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		er1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+<TR><TD align="left"><IMG SRC="envelope.png"/></TD></TR>
+<TR><TD>Enviar Planilla de<br/>Requisitos</TD></TR>
+</TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		er0 -> er1;
+	}
+	u2 -> ic0	 [style=dashed];
+	ic2 -> er0	 [style=dashed,
+		xlabel=Si];
+	er1 -> ic3	 [style=dashed];
+	er1 -> Usuario	 [style=dashed];
+}

@@ -13,46 +13,6 @@ digraph  {
 	edge [fontname="Liberation Sans Narrow Condensed",
 		fontsize=10
 	];
-	subgraph cluster_aj {
-		graph [label=<<B>Análisis Jurídico</B>>,
-			labeljust=l
-		];
-		aj0		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Verificar validez<br/>legal de los<br/>requisitos</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		aj1		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Elaborar Informe de<br/>Control Previo</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		aj0 -> aj1;
-		aj2		 [fillcolor="white:grey",
-			fixedsize=true,
-			fontsize=10,
-			height=1,
-			label=<<TABLE border="0" cellborder="0" cellpadding="0">
-                <TR><TD><IMG SRC="static/cross.png"/></TD></TR>
-                </TABLE>>,
-			shape=diamond,
-			style=filled,
-			width=1,
-			xlabel="¿La garantía cumple?"];
-		aj1 -> aj2;
-		aj3		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
-                <TR><TD>Enviar Expediente a<br/>Análisis Económico</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		aj2 -> aj3		 [xlabel=Si];
-	}
 	subgraph cluster_ic {
 		graph [label=<<B>Información de Crédito</B>>,
 			labeljust=l
@@ -66,7 +26,7 @@ digraph  {
 		ic6		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
                 <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Entrevista con el<br/>usuario</TD></TR>
+                <TR><TD>Entrevista con el usuario</TD></TR>
                 </TABLE>>,
 			shape=box,
 			style="rounded,filled"];
@@ -102,7 +62,7 @@ digraph  {
 		u6		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
                 <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
-                <TR><TD>Consignar los<br/>Requisitos</TD></TR>
+                <TR><TD>Consignar los Requisitos</TD></TR>
                 </TABLE>>,
 			shape=box,
 			style="rounded,filled"];
@@ -123,6 +83,46 @@ digraph  {
 			width=0.6,
 			xlabel="Fin Requisitos"];
 		u6 -> u7;
+	}
+	subgraph cluster_aj {
+		graph [label=<<B>Análisis Jurídico</B>>,
+			labeljust=l
+		];
+		aj0		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Verificar validez legal<br/>de los requisitos</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		aj1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Elaborar Informe de<br/>Control Previo</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		aj0 -> aj1;
+		aj2		 [fillcolor="white:grey",
+			fixedsize=true,
+			fontsize=10,
+			height=1,
+			label=<<TABLE border="0" cellborder="0" cellpadding="0">
+                <TR><TD><IMG SRC="static/cross.png"/></TD></TR>
+                </TABLE>>,
+			shape=diamond,
+			style=filled,
+			width=1,
+			xlabel="¿La garantía cumple?"];
+		aj1 -> aj2;
+		aj3		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
+                <TR><TD>Enviar Expediente a<br/>Análisis Económico</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		aj2 -> aj3		 [xlabel=Si];
 	}
 	u6 -> ic4	 [style=dashed];
 	ic6 -> aj0	 [style=dashed];
