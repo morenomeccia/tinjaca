@@ -1,0 +1,88 @@
+digraph  {
+	graph [fontname="Liberation Sans Narrow Condensed",
+		forcelabels=true,
+		labelloc=b,
+		rankdir=TB,
+		ranksep=0.25,
+		size="7.5, 7.5",
+		splines=ortho
+	];
+	node [fontname="Liberation Sans Narrow Condensed",
+		label="\N"
+	];
+	edge [fontname="Liberation Sans Narrow Condensed",
+		fontsize=10
+	];
+	subgraph cluster_cj {
+		graph [label=<<B>Consultoría Jurídica</B>>,
+			labeljust=l
+		];
+		cj0		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Exigir reintegro del<br/>crédito</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+	}
+	subgraph cluster_a {
+		graph [label=<<B>Acompañamiento</B>>,
+			labeljust=l
+		];
+		a1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Verificar cumplimiento<br/>del plan de inversión</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		a2		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Elaborar informe del plan<br/>de inversión</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		a1 -> a2;
+		a0		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Recibir expediente"];
+		a0 -> a1;
+		a3		 [fillcolor="white:grey",
+			fixedsize=true,
+			fontsize=10,
+			height=1,
+			label=<<TABLE border="0" cellborder="0" cellpadding="0">
+                <TR><TD><IMG SRC="static/cross.png"/></TD></TR>
+                </TABLE>>,
+			shape=diamond,
+			style=filled,
+			width=1,
+			xlabel="¿Cumple?"];
+		a4		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
+                <TR><TD>Enviar expediente a<br/>Recuperaciones</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		a3 -> a4		 [xlabel=Si];
+		a2 -> a3;
+		a5		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6];
+		a4 -> a5;
+	}
+	a3 -> cj0	 [style=dashed,
+		xlabel=No];
+	a4 -> Recuperaciones	 [style=dashed];
+	cj0 -> a5	 [style=dashed];
+	"Secretaría Ejecutiva" -> a0	 [style=dashed];
+}
