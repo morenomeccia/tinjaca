@@ -63,34 +63,8 @@ Historias de usario
 		  - Conocer su historial de visitas
 		* - Recepcionista
 		  - Generar colas por orden de atención y por dependencia
-		  - Controlar el orden de atencion de los visitantes dentro de la institucion
-
-**Gerencia de Crédito**
------------------------
-
-    .. list-table::
-       :widths: 40 40 40
-       :header-rows: 1
-
-       * - Como
-         - Quiero
-         - Para
-       * - gerente de credito
-         - modificar las tasas de interés y los montos asignados por sector, rubro o garantía
-         - atender los cambios en las politicas de financiamiento
-	   * - Gerente de credito
-		 - Seleccionar los proyectos que van al consejo directivo 
-		 - Su posterior aprobación o negación.
-	   * - Gerente de credito
-		 - Generar una cola de rezagados en caso de que se termine el presupuesto pautado 
-		 - Que estos rezagados pasan a ser los primeros en la cola del año siguiente
-	   * - Gerente de credito
-		 - Realizar reportes por municipio, por rubro, por estatus y por rango de fechas 
-		 - Generar información estadística		
-
-
-	
-
+		  - Controlar el orden de atencion de los visitantes dentro de la institucion		
+	   
 **Ciencia y Tecnologia**
 ------------------------
 
@@ -115,9 +89,11 @@ Historias de usario
        * - Como
          - Quiero
          - Para
-       * - a
-         - b
-         - c
+       * - Analista de credito
+         - Ingresar los datos de la planilla de financiamiento al sistema
+         - disponer de esta informacion en el sistema para su futuro uso
+       * - Analista de credito
+		 
 
 **Estadiatica y analisis de riesgo**
 ------------------------------------
@@ -143,9 +119,9 @@ Historias de usario
        * - Como
          - Quiero
          - Para
-       * - a
-         - b
-         - c
+       * - Analista Juridico
+         - Generar un informe de control previo
+         - Su uso en las siguientes fases del proceso de evaluacion de propuestas
 
 **Analisis Economico**
 ----------------------
@@ -157,9 +133,34 @@ Historias de usario
        * - Como
          - Quiero
          - Para
-       * - a
-         - b
-         - c
+       * - Analista de credito
+         - Realizar un informe de inspeccion con registro fotografico
+         - Su uso en las siguientes fases del proceso de evaluacion de propuestas
+       * - Analista de credito
+		 - 
+
+**Gerencia de Crédito**
+-----------------------
+
+    .. list-table::
+       :widths: 40 40 40
+       :header-rows: 1
+
+       * - Como
+         - Quiero
+         - Para
+       * - gerente de credito
+         - modificar las tasas de interés y los montos asignados por sector, rubro o garantía
+         - atender los cambios en las politicas de financiamiento
+	   * - Gerente de credito
+		 - Seleccionar los proyectos que van al consejo directivo 
+		 - Su posterior aprobación o negación.
+	   * - Gerente de credito
+		 - Generar una cola de rezagados en caso de que se termine el presupuesto pautado 
+		 - Que estos rezagados pasan a ser los primeros en la cola del año siguiente
+	   * - Gerente de credito
+		 - Realizar reportes por municipio, por rubro, por estatus y por rango de fechas 
+		 - Generar información estadística
 
 **Gerencia de Acompanamiento**
 ------------------------------
@@ -200,9 +201,9 @@ Historias de usario
        * - Como
          - Quiero
          - Para
-       * - a
-         - b
-         - c
+       * - Secretaria(o) ejecutiva(o)
+         - Asignar el estatus de la solicitud de crédito en base a lo discutido en el consejo directivo
+         - Dar continuidad al proceso de aprobacion de credito
 
 **Gerencia de Administracion**
 ------------------------------
@@ -214,9 +215,22 @@ Historias de usario
        * - Como
          - Quiero
          - Para
-       * - a
-         - b
-         - c
+       * - Asesor Administrativo
+         - Abrir las cuentas de los usuarios cuyos créditos fueron aprobados
+         - Dar continuidad al proceso de aprobacion de credito 
+       * - ??????????????????
+         - Elaborar los cheques de los usuarios cuyos créditos fueron aprobados
+         - Dar continuidad al proceso de aprobacion de credito 
+       * - ??????????????????
+         - Generar la tabla de amortización de los usuarios cuyos cheques fueron procesados
+         - Dar continuidad al proceso de aprobacion de credito 
+	   * - Cajero
+		 - registrar los pagos de los beneficiarios para la cancelacion de cuotas de los credito
+         - para actualizar el estado de cuenta del credito del beneficiario 
+		
+
+ se generan los recibos
+
 
 **Gerencia de Caja**
 --------------------
@@ -242,9 +256,9 @@ Historias de usario
        * - Como
          - Quiero
          - Para
-       * - a
-         - b
-         - c
+       * - Jefe de departamento de presupuesto
+         - Verificar la disponibilidad presupuestaria para el pago del credito al beneficiario
+         - Dar continuidad al proceso de aprobacion de credito 
 
 **Gerencia de Sistemas**
 ------------------------
@@ -280,8 +294,13 @@ Requerimientos
 
 #. La inserción de información estará distribuida entre las herramientas web y las disponibles en la institución; igualmente debe ser utilizada de forma eficiente.
 
-#. Se sugiere que el sistema adapte la solicitud de requisitos de acuerdo al sector, a los montos y a los rubros.
+#. El sistema adaptar la solicitud de requisitos de acuerdo al sector, a los montos y a los rubros.
 
+#. El sistema debe distribuir a los analistas económicos de crédito por municipios y parroquias para realizar las inspecciones con el fin de optimizar los tiempos por los traslados.
 
+#. Deben existir las siguientes categorías para los morosos:
+
+	* A para los solventes
+	* B, C, D de acuerdo al número de cuotas vencidas.
 
 
