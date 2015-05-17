@@ -1,0 +1,134 @@
+digraph  {
+	graph [fontname="Liberation Sans Narrow Condensed",
+		forcelabels=true,
+		labelloc=b,
+		rankdir=TB,
+		ranksep=0.25,
+		size="8, 7.5",
+		splines=ortho
+	];
+	node [fontname="Liberation Sans Narrow Condensed",
+		label="\N"
+	];
+	edge [fontname="Liberation Sans Narrow Condensed",
+		fontsize=10
+	];
+	subgraph cluster_r {
+		graph [label=<<B>Recuperaciones</B>>,
+			labeljust=l
+		];
+		r0		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Concertar entrevista con<br/>el abogado</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+	}
+	subgraph cluster_cj {
+		graph [label=<<B>Consultoría Jurídica</B>>,
+			labeljust=l
+		];
+		cj1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Liberar hipoteca o fianza</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+	}
+	subgraph cluster_c {
+		graph [label=<<B>Caja</B>>,
+			labeljust=l
+		];
+		c8		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6];
+		c3		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Recibir el pago</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		c4		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
+                <TR><TD>Generar recibo</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		c3 -> c4;
+		c2		 [fillcolor="white:grey",
+			fixedsize=true,
+			fontsize=10,
+			height=1,
+			label=<<TABLE border="0" cellborder="0" cellpadding="0">
+                <TR><TD><IMG SRC="static/cross.png"/></TD></TR>
+                </TABLE>>,
+			shape=diamond,
+			style=filled,
+			width=1,
+			xlabel="¿El estado de la cuenta es \"caja\"?"];
+		c2 -> c3		 [xlabel=Si];
+		c5		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
+                <TR><TD>Referir al beneficiario a<br/>Recuperaciones</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		c2 -> c5		 [xlabel=No];
+		c1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Consultar el estado de<br/>cuenta</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		c1 -> c2;
+		c0		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Beneficiario desea
+cancelar cuota"];
+		c0 -> c1;
+		c7		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
+                <TR><TD>Solicitar Liberación a<br/>Consultoría Jurídica</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		c7 -> c8;
+		c6		 [fillcolor="white:grey",
+			fixedsize=true,
+			fontsize=10,
+			height=1,
+			label=<<TABLE border="0" cellborder="0" cellpadding="0">
+                <TR><TD><IMG SRC="static/cross.png"/></TD></TR>
+                </TABLE>>,
+			shape=diamond,
+			style=filled,
+			width=1,
+			xlabel="¿Es cancelación total?"];
+		c6 -> c8		 [xlabel=No];
+		c6 -> c7		 [xlabel=Si];
+		c4 -> c6;
+	}
+	SISAC	 [image="static/database.png",
+		label="",
+		shape=plaintext,
+		xlabel=SISAC];
+	c3 -> SISAC	 [style=dashed];
+	c7 -> cj1	 [style=dashed];
+	c5 -> r0	 [style=dashed];
+	SISAC -> c1	 [style=dashed];
+	Beneficiario -> c0	 [style=dashed];
+}
