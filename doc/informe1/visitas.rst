@@ -460,11 +460,19 @@ Análisis Jurídico
 Análisis Económico 
 ~~~~~~~~~~~~~~~~~~ 
  
-#. En la estación de Análisis Económico de la Gerencia de Crédito se encargan de hacer dos estudios: un aval de garantías (en el caso de hipotecas y en el caso de garantías prendatarias sin desplazamiento) y un informe de actividad económica que tiene que ver con un estudio básico sobre la actividad propuesta para financiamiento y las condiciones expresadas en el proyecto para ello. Se realiza una inspección para conocer si la garantía cubre o no el crédito (la misma debe ser 2 veces mayor al crédito). En la inspección se utilizan dos instrumentos: un informe técnico (evaluación) y minuta (datos del crédito), para créditos mayores a 200 mil. Para las visitas de inspección del aval de garantías se dispone de 4 formatos distintos: para pyme, pimi y artesanía, agrícola vegetal, agrícola anual y turismo. 
-#. Los análisis del departamento de  Análisis Económico tienen como resultado la solicitud de un nuevo aval, por ejemplo porque el que se presentó no tenga valor estimado para responder al crédito, o porque haya algún tema de sobreestimación de la actividad o de las capacidades de atención del mercado, por ejemplo. El sistema debería poder cargar fotografías de inspección con cada expediente de modo que en cualquier instancia de decisión pueda ser visualizada esta información. 
-#. El sistema informático utilizado en esta estación es SIGEFOMDES. Los analistas registran las minutas que levantan en campo, en el sistema. Piden que tanto el registro fotográfico como las minutas y el informe puedan registrarse en un único espacio en el sistema y generar un único reporte para facilitar seguimiento puesto que en cada reporte de los que se preparan en este momento y se anexan al expediente en físico, reflejan información repetida. 
+#. En la estación de Análisis Económico de la Gerencia de Crédito se encargan de hacer dos estudios: un aval de garantías (en el caso de hipotecas y en el caso de garantías prendatarias sin desplazamiento) y un informe de actividad económica que tiene que ver con un estudio básico sobre la actividad propuesta para financiamiento y las condiciones expresadas en el proyecto para ello.
+
+#. Se realiza una inspección para conocer si la garantía cubre o no el crédito (la misma debe ser 2 veces mayor al crédito). En la inspección se utilizan dos instrumentos: un informe técnico (evaluación) y minuta (datos del crédito), para créditos mayores a 200 mil. Para las visitas de inspección del aval de garantías se dispone de 4 formatos distintos: para pyme, pimi y artesanía, agrícola vegetal, agrícola animal y turismo. 
+
+#. Los análisis de este departamento tienen como resultado la solicitud de un nuevo aval, por ejemplo, porque el que se presentó no tenga el valor estimado para responder al crédito, o porque haya algún tema de sobreestimación de la actividad o de las capacidades de atención del mercado. 
+
+#. El sistema debería poder cargar fotografías de inspección con cada expediente de modo que en cualquier instancia de decisión pueda ser visualizada esta información. 
+
+#. El sistema informático utilizado en esta estación es SIGEFOMDES. Los analistas registran las minutas que levantan en campo, en el sistema. Piden que tanto el registro fotográfico como las minutas y el informe puedan registrarse en un único espacio en el sistema y generar un único reporte para facilitar seguimiento, puesto que en cada reporte de los que se preparan en este momento y se anexan al expediente en físico, reflejan información repetida. 
+
 #. El informe técnico y la minuta de la inspección se realizan actualmente en el software de ofimática Microsoft Word para llevar los datos del crédito y la memoria fotográfica y en el software de ofimática Microsoft Excel para los cálculos de la evaluación con un formulario estándar. 
-#. Tanto en el informe técnico como en la minuta se repite información por lo que sugieren se unifiquen en un solo formato. Tienes problemas para imprimir. En general un analista económico revisa los estados financieros de la empresa, es decir si esta produciendo o no con informe y fotos. 
+
+#. Tanto en el informe técnico como en la minuta se repite información por lo que sugieren se unifiquen en un solo formato. Tiene problemas para imprimir. En general un analista económico revisa los estados financieros de la empresa, es decir, si esta produciendo o no. 
 
 Secretaria Ejecutiva 
 ~~~~~~~~~~~~~~~~~~~~

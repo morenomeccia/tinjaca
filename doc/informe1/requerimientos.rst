@@ -120,7 +120,7 @@ Historias de usario
          - Quiero
          - Para
        * - Analista Juridico
-         - Generar un informe de control previo
+         - Generar el informe de control previo
          - Su uso en las siguientes fases del proceso de evaluacion de propuestas
        * - Analista Juridico
          - Asignar el valor de "CUMPLE" o "NO CUMPLE" para las garantias
@@ -137,11 +137,12 @@ Historias de usario
        * - Como
          - Quiero
          - Para
-       * - Analista de credito
-         - Realizar un informe de inspeccion con registro fotografico
+       * - Analista economico
+         - Generar el informe de inspeccion (informe tecnico) con registro fotografico
          - Su uso en las siguientes fases del proceso de evaluacion de propuestas
-       * - Analista de credito
-		 - 
+       * - Analista economico
+		 - Registrar las minutas que se levantan en campo
+		 - Ser incluido en el informe tecnico
 
 **Gerencia de Crédito**
 -----------------------
@@ -317,3 +318,8 @@ Requerimientos
 #. El informe de control previo debe reflejar datos básicos del expediente, la condición de cumple o no cumple, la observación del analista juridico y el texto de la hipoteca o detalle de la garantía.
 
 #. Debe existir una opción intermedia para aquellos expedientes a los cuales les faltan requisitos del analisis jurídico, como "Cumple condicionado".
+
+#. Para las visitas de inspección se dispone de distintos formatos segun el sector del credito.
+
+#. El sistema debería poder cargar fotografías de inspección con cada expediente de modo que en cualquier instancia de decisión pueda ser visualizada esta información. 
+
