@@ -15,7 +15,7 @@ Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales
    procesos
    nudos
    requerimientos
-   anexos
+   entrevistas
 
 
 Índices y tablas
