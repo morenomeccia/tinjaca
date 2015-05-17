@@ -2,11 +2,30 @@
 Nudos Críticos de los procesos
 ******************************
 
-De las visitas realizadas Definición básica del entorno de trabajo y del proceso de solicitud de
-créditos
+Sobre los actuales cinco sistemas utilizados en FOMDES, se evidencian problemas
+estructurados relativos a acceso de información, vinculación entre éstos,
+portabilidad  de los datos e interoperabilidad entre otros. Estos problemas estructurados
+parecen ser consecuencia de la necesidad de atender a solicitudes puntuales por parte de los
+usuarios funcionales de éstos y a la falta de planificación en su desarrollo.
 
-Estadística
-===========
+Aunque esta metodología de desarrollo ha incidido de modo determinante en el modo en que se
+manifiestan las relaciones interfuncionales dentro de FOMDES, generando duplicación de tareas,
+hitos con transcripción de datos y doble verificación manual, es responsable declarar que la
+posibilidad de diseño y programación de estos sistemas con recursos internos del FOMDES supone,
+en  si mismos, un valor añadido que no se presenta con frecuecia en otros entes y otras instancias de la Administración Pública Nacional en sus distintos niveles.
+
+En planificación estratégica, los *Nudos Críticos* son los elementos más claramente identificables
+como causantes de un problema conocido. Constituyen factores álgidos cuya atención y resolución
+garantizan un impacto efectivo y eficaz sobre la descripción del problema porque son no sólo
+neurálgicos para el sistema sino que también, en términos factibles, pueden ser resueltos.
+
+Sobre el sistema integral que nos ocupa construir, a continuación se identifican los
+distintos nudos críticos cuya resolución generará alto impacto en términos de coadyuvar a la
+generación de nuevas prácticas de uso y adecuación del sistema a la gestión del FOMDES.
+
+
+Hitos con transcripción manual de datos
+=======================================
 
 # La oficina de Estadística (Crédito), recibe una a una las carpetas en físico con las
 propuestas de financiamiento que han sido categorizadas como “viables”.
