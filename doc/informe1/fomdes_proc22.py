@@ -48,12 +48,12 @@ AE = add_cluster(F, "ae", "Análisis Económico", ae_cluster, ae_edges)
 gc_cluster = {"gc0": ("Recibir Expediente", "start"),
               "gc1": ("Revisión del Expediente", "human"),
               "gc2": ("Dictamen del Informe Técnico", "complex"),
-              "gc3": ("Enviar Expediente a Secretaría Ejecutiva", "message"),
+              "gc3": ("Enviar lista de expedientes a Secretaría Ejecutiva", "message"),
               "gc4": ("", "end")}
 
 gc_edges = {"gc0": {"gc1": {}},
             "gc1": {"gc2": {}},
-            "gc2": {"gc3": {"xlabel": "Aprobado"}},
+            "gc2": {"gc3": {"xlabel": "para consideración"}},
             "gc3": {"gc4": {}}}
 
 GC = add_cluster(F, "gc", "Gerencia de Crédito", gc_cluster, gc_edges)

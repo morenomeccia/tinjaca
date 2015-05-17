@@ -29,7 +29,7 @@ insumo para el levantamiento de procesos y tareas qe actualmente desempeña el F
 necesidades que, desde la perspectiva del usuario es necesario incluir.
 
 Pero adicionalmente, se incluyen también requerimientos funcionales del sistema TINJACA que, a buen
-seguro, seran interroantes planteadas durante su desarrollo.
+seguro, seran interrogantes planteadas durante su desarrollo.
 
 FOMDES
 ======
