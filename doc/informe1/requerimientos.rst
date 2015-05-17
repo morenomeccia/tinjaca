@@ -411,6 +411,11 @@ Requerimientos
 
 #. Se desea que el sistema genere "sábanas" de los créditos morosos por municipio que se encuentran en categorías B, C y D para planificar los cobros.
 
+#. El sistema debe contemplar el cambio de las políticas y las tasas de interés para el calculo de las cuotas a corbrar para la recuperacion del credito.
 
+#. Se deben poder efectuar consultas con diferentes filtros en las diferentes oficinas.
 
+#. Los gerentes deben poseer permisos para modificar/corregir datos en el sistema.
+
+#. El nuevo sistema informático debe ser flexible y tener portabilidad para que se ajuste a las nuevas políticas y a las exigencias de cada presidente. Otra característica deseable del nuevo sistema es que sea de fácil mantenimiento.
 

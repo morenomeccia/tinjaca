@@ -579,19 +579,32 @@ Gerencia de recuperaciones
 Gerencia de sistemas
 ~~~~~~~~~~~~~~~~~~~~
 
-#. Una de las labores de gerencia de sistemas es corregir las deficiencias para generar los estados de cuentas y cobranzas por parte de recuperaciones; si un beneficiario paga las cuotas del crédito por adelantado se exonera mas de lo permitido, el saldo negativo es mayor o se generan mas cuotas de las que se deben pagar. Esto lo resuelve la gerencia de sistemas de manera manual, ya que si este error persiste cuando va a la gerencia de administración es rechazado. El recibo de cancelación total del crédito en algunos casos es distinto al de la gerencia de administración, porque sistemas es quien coloca el estatus de "cancelación total del crédito".  
-#. Los sistemas informáticos de las gerencias de Crédito, la gerencia de Administración y Recuperaciones están separados y tienen bases de datos distintas en servidores independientes. Sin embargo, las gerencias de administración y recuperaciones tienen bases de datos distintas pero comparten el mismo servidor. Cuando la gerencia de administración realiza el balance general de comprobación este puede llegar a durar 6 horas, ya que hace un barrido desde el año 2001 en los que hay créditos activos a la fecha. Debido al tiempo que toman estos balances son realizados de noche para no obstaculizar el proceso en el día. Los resultados de los balances no se guardan en la bases de datos porque son acumulativos, sino en físico (impresos). 
-#. El entrevistado en la gerencia de sistemas propone que los cálculos de la gerencia de recuperaciones se pueden optimizar, cuando se haga esto hay que tomar en cuenta el cambio de las políticas y las tasas de interés. 
+#. Una de las labores de gerencia de sistemas es corregir las deficiencias para generar los estados de cuentas y cobranzas por parte de recuperaciones; si un beneficiario paga las cuotas del crédito por adelantado se exonera mas de lo permitido, el saldo negativo es mayor o se generan mas cuotas de las que se deben pagar. Esto lo resuelve la gerencia de sistemas de manera manual, ya que si este error persiste cuando va a la gerencia de administración es rechazado. El recibo de cancelación total del crédito en algunos casos es distinto al de la gerencia de administración, porque sistemas es quien coloca el estatus de "cancelación total del crédito".
+
+#. Los sistemas informáticos de las gerencias de Crédito, la gerencia de Administración y Recuperaciones están separados y tienen bases de datos distintas en servidores independientes. Sin embargo, las gerencias de administración y recuperaciones tienen bases de datos distintas pero comparten el mismo servidor. Cuando la gerencia de administración realiza el balance general de comprobación este puede llegar a durar 6 horas, ya que hace un barrido desde el año 2001 en los que hay créditos activos a la fecha. Debido al tiempo que toman, estos balances son realizados de noche para no obstaculizar el proceso en el día. Los resultados de los balances no se guardan en la bases de datos porque son acumulativos, sino en físico (impresos). 
+
+#. El entrevistado en la gerencia de sistemas propone que los cálculos de la gerencia de recuperaciones se pueden optimizar, cuando se haga esto hay que tomar en cuenta el cambio de las políticas y las tasas de interés.
+ 
 #. La gerencia de Sistemas tiene 4 servidores activos: Uno para la ruta del crédito, otro para el respaldo de la bases de datos, SISAC, SIGEFOMDES, capta huella, otro para la impresión de documentos y uno para la vigilancia de la institución.
-#. También existen otros sistemas informáticos en la institución de los que se encarga la gerencia de crédito; Webchat (chat interno entre los trabajadores), WebAdmin (información de crédito) y Foncismac (monitoreo de los equipos con la dirección IP). 
+
+#. También existen otros sistemas informáticos en la institución de los que se encarga la gerencia de sistemas: Webchat (chat interno entre los trabajadores), WebAdmin (información de crédito) y Foncismac (monitoreo de los equipos con la dirección IP). 
+
 #. La información de crédito se debe hacer a través de reportes con conteos sencillos. 
-#. Los reportes se deben poder generar utilizando filtros. Actualmente se extraer de la base de datos de manera manual.
-#. Los gerentes tienen permiso para modificar/corregir datos en el sistema. Esto para aliviar carga de sistemas. Sin embargo, la gerencia de crédito no puede editar la información básica y cuando se presentan errores lo corrige la gerencia de sistemas. 
+
+#. Los reportes se deben poder generar utilizando filtros. Actualmente se extraen de la base de datos de manera manual.
+
+#. Los gerentes tienen permiso para modificar/corregir datos en el sistema. Esto para aliviar carga de la Gerencia de Sistemas. Sin embargo, la gerencia de crédito no puede editar la información básica y cuando se presentan errores lo corrige la gerencia de sistemas. 
+
 #. La gerencia de administración tiene un ingreso no reportado por pago de los beneficiarios, del cual no puede disponer hasta que no se contraste con los bauches originales. 
+
 #. Los reportes de las carteras de cobranza (personas al día y morosos) se hacen una vez por mes pero deberían actualizarse constantemente. 
+
 #. Los reportes de las gerencias de seguimiento y de recuperaciones son diferentes, los reportes de la gerencia de recuperaciones poseen mayor detalle ya que reflejan las cobranzas. 
+
 #. El nuevo sistema informático que utilicen las gerencias de crédito y recuperaciones debe ser flexible y tener portabilidad para que se ajuste a las nuevas políticas y a las exigencias de cada presidente. Otra característica deseable del nuevo sistema es que sea de fácil mantenimiento.
+
 #. El sistema informático que utiliza Caja tiene problemas con el manejo de los céntimos. 
+
 #. La gerencia de sistemas recomienda integrar los expedientes desde cero (creación) hasta la liberación del crédito en recuperación. 
 
 Fecha de la visita: 17 de Abril del 2015
