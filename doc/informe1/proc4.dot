@@ -1,0 +1,114 @@
+digraph  {
+	graph [fontname="Liberation Sans Narrow Condensed",
+		forcelabels=true,
+		labelloc=b,
+		rankdir=TB,
+		ranksep=0.25,
+		size="8, 7.5",
+		splines=ortho
+	];
+	node [fontname="Liberation Sans Narrow Condensed",
+		label="\N"
+	];
+	edge [fontname="Liberation Sans Narrow Condensed",
+		fontsize=10
+	];
+	subgraph cluster_pr {
+		graph [label=<<B>Presupuesto/Administración</B>>,
+			labeljust=l
+		];
+		pr5		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Imprimir y firmar orden<br/>de liquidación y cheque</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		pr4		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Generar tablas de<br/>amortización</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		pr4 -> pr5;
+		pr3		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Crear las cuentas por<br/>cobrar</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		pr3 -> pr4;
+		pr2		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Verificar documentación<br/>legal y elaborar<br/>certificación de<br/>disponibilidad</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		pr2 -> pr3;
+	}
+	subgraph cluster_p {
+		graph [label=<<B>Presidencia</B>>,
+			labeljust=l
+		];
+		p2		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Entregar cheque a<br/>beneficiario</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		p1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Firma del cheque</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		p1 -> p2;
+	}
+	subgraph cluster_se {
+		graph [label=<<B>Secretaría Ejecutiva</B>>,
+			labeljust=l
+		];
+		se7		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Recibir el documento
+protocolizado"];
+		se8		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Revisar el documento<br/>protocolizado</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		se7 -> se8;
+		se9		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6];
+		se8 -> se9		 [style=invis];
+	}
+	se8 -> pr2	 [style=dashed];
+	p2 -> se9	 [style=dashed];
+	pr5 -> p1	 [style=dashed];
+	SISAC	 [image="static/database.png",
+		label="",
+		shape=plaintext,
+		xlabel=SISAC];
+	pr4 -> SISAC	 [style=dashed];
+	"SIGEFOMDES Administración"	 [image="static/database.png",
+		label="",
+		shape=plaintext,
+		xlabel="SIGEFOMDES Administración"];
+	pr3 -> "SIGEFOMDES Administración"	 [style=dashed];
+	Beneficiario -> se7	 [style=dashed];
+}

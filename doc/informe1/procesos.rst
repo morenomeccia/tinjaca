@@ -142,7 +142,7 @@ créditos.
 
     * **Dependencia responsable**: Administración y Finanzas
 
-    * **Unidad(es) Ejecutora(s)**: Secretaria Ejecutiva,Presupuesto, Administración, Presidencia, Secretaría Ejecutiva
+    * **Unidad(es) Ejecutora(s)**: Secretaria Ejecutiva, Presupuesto, Administración, Presidencia, Secretaría Ejecutiva
 
     * **Tabla de Actividades**:
 
@@ -174,7 +174,7 @@ créditos.
 
     * **Flujograma**:
 
-    .. graphviz::
+    .. graphviz:: proc4.dot
 
 **Inspección de Inversiones**
 =============================
