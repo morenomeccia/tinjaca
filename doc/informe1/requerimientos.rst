@@ -122,6 +122,10 @@ Historias de usario
        * - Analista Juridico
          - Generar un informe de control previo
          - Su uso en las siguientes fases del proceso de evaluacion de propuestas
+       * - Analista Juridico
+         - Asignar el valor de "CUMPLE" o "NO CUMPLE" para las garantias
+         - Su uso en las siguientes fases del proceso de evaluacion de propuestas
+
 
 **Analisis Economico**
 ----------------------
@@ -303,4 +307,13 @@ Requerimientos
 	* A para los solventes
 	* B, C, D de acuerdo al número de cuotas vencidas.
 
+#. Deben existir las siguientes categorías para las garantías de los créditos de FOMDES:
 
+	* Aval con letra de cambio (Fiador)
+	* Hipoteca
+	* Fianza financiera (sociedad de garantías reciprocas)
+	* Prenda sin Desplazamiento
+
+#. El informe de control previo debe reflejar datos básicos del expediente, la condición de cumple o no cumple, la observación del analista juridico y el texto de la hipoteca o detalle de la garantía.
+
+#. Debe existir una opción intermedia para aquellos expedientes a los cuales les faltan requisitos del analisis jurídico, como "Cumple condicionado".
