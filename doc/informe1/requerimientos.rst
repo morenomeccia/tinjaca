@@ -192,9 +192,30 @@ Historias de usario
        * - Como
          - Quiero
          - Para
-       * - a
-         - b
-         - c
+       * - Jefe del departamento de estadística y auditoría de cobranza
+         - Realizar una factura con los datos del usuario, monto aprobado, tasas de interés y cuotas
+         - Su posterior uso por Caja
+       * - Jefe del departamento de estadística y auditoría de cobranza
+		 - Generar un reporte desglosado por niveles de morosidad		
+		 - recordar el vencimiento de las cuotas.
+       * - Ejecutivo de cobranza
+		 - Generar una lista con los beneficiarios que deben visitar por fecha, municipio y sectores cuando existen cuotas vencidas. 
+		 - Efectuar el cobro de las cuotas.		
+       * - Ejecutivo de cobranza
+		 - Filtrar los estados de cuentas por cédula y expediente.
+		 - facilitar la busqueda de beneficiarios morosos
+       * - Jefe del departamento de estadística y auditoría de cobranza
+		 - hacer una exoneracion en el cobro del credito
+		 - situaciones especiales de los beneficiarios
+       * - Ejecutivo de cobranza
+		 - registrar la información de mi labor diaria  
+		 - para llevar estadisticas del numero de beneficiarios procesados
+       * - Ejecutivo de cobranza
+		 - registrar la información sobre los beneficiarios atendidos  
+		 - para llevar estadisticas del numero de beneficiarios procesados
+
+
+
 
 **Secretaria Ejecutiva**
 ------------------------
@@ -209,6 +230,31 @@ Historias de usario
        * - Secretaria(o) ejecutiva(o)
          - Asignar el estatus de la solicitud de crédito en base a lo discutido en el consejo directivo
          - Dar continuidad al proceso de aprobacion de credito
+       * - Secretaria(o) ejecutiva(o)
+		 - Realizar la agenda con los casos previamente filtrados 
+		 - discutirlos en el consejo directivo. 
+       * - Secretaria(o) ejecutiva(o)
+		 - Imprimir la lista de asistentes del consejo directivo
+		 - que se lleve a cabo el consejo directivo 
+       * - Secretaria(o) ejecutiva(o)
+		 - realizar el acta del consejo directivo
+		 - que se lleve a cabo el consejo directivo 
+       * - Secretaria(o) ejecutiva(o)
+		 - crear el documento del crédito 
+		 - su posterior autenticacion por el beneficiario
+       * - Secretaria(o) ejecutiva(o)
+		 - aprobar el documento del crédito 
+		 - para su posterior autenticacion por el beneficiario 
+       * - Secretaria(o) ejecutiva(o)
+		 - revocar un credito en los casos en que los cheques no se retiren o los créditos se rechacen por los beneficiarios
+		 - 
+       * - Secretaria(o) ejecutiva(o)
+
+
+#. Existe un listado de estaciones para hacer un seguimiento interno de los procesos por los cuales va pasando el expediente y una condición: 
+
+Las letras de cambio de aval con garantía se llevan en el software de ofimática Libre Office Calc. Secretaria ejecutiva y la gerencia de administración no se conectan entre si, por lo que se debe permitir modificar los datos del expediente, ya que por ejemplo los datos del conyugue no son vaciados por información de crédito pero para secretaria ejecutiva son importantes.
+
 
 **Gerencia de Administracion**
 ------------------------------
@@ -247,9 +293,9 @@ Historias de usario
        * - Como
          - Quiero
          - Para
-       * - a
-         - b
-         - c
+       * - ?????????????????
+         - generar un reporte del ingreso diario de caja
+         - poder ser visto por el presidente
 
 **Gerencia de Presupuesto**
 ---------------------------
@@ -278,6 +324,26 @@ Historias de usario
        * - a
          - b
          - c
+
+
+**Presidencia**
+---------------
+
+    .. list-table::
+       :widths: 40 40 40
+       :header-rows: 1
+
+       * - Como
+         - Quiero
+         - Para
+       * - Presidente
+         - conocer cuánto fue el ingreso diario de caja 
+         - evaluar la recuperacion de fondos por la institucion
+
+
+
+
+Establecieron metas diarias de recuperación, montos mayores a 120 mil se considera que van bien en caso contrario van mal. Este reporte se hace de manera manual y quieren que se vea el monto total en la interfaz del sistema.
 
 
 Requerimientos
@@ -322,4 +388,29 @@ Requerimientos
 #. Para las visitas de inspección se dispone de distintos formatos segun el sector del credito.
 
 #. El sistema debería poder cargar fotografías de inspección con cada expediente de modo que en cualquier instancia de decisión pueda ser visualizada esta información. 
+
+#. El sistema debe aportar el formato de documento de crédito para su protocolización y asi evitar que ese proceso se haga de forma manual.
+
+#. El sistema debe mostrar en cual de las siguientes condiciones se encuentra el expediente: exonerado (en caso de muerte del beneficiario con hijos menores de edad, vaguadas, etc), negado, aprobado, aprobado condicionado, aprobado especial, diferido y revocado. Ademas debe mostrar que documentos le faltan al expediente.
+
+#. Se quiere que cada ejecutivo tenga asignado automáticamente una cierta cantidad de expedientes y filtrarlos por criterios para los reportes en el que se muestren las cuotas que están más próximas a vencerse (de mayor a menor, diferenciadas por colores).
+
+#. Actualizar los pagos de las cuotas de la caja exprés en la base de datos cada 3 meses. 
+
+#. El sistema debe ser capaz de diferenciar entre "deuda vigente" y "deuda vencida".
+ 
+#. Los estados de cuenta deben tener dos campos: un campo denominado "recibo", que guarda la lista de los recibos del expediente que los beneficiarios entregan en físico, por fax o correo y un campo denominado "Seguimiento", el cual guarda un resumen histórico de FOMDES con el beneficiario, es decir si se contactó a través de una visita o una llamada y a qué acuerdo de fecha y pago se llegó.
+
+#. Deben generarse alertas en las fechas próximas en que el beneficiario se compromete a pagar las cuotas vencidas para acompanamiento. 
+
+#. Debe existir un módulo para consultar los depósitos de las cuotas para acompanamiento. 
+
+#. Se desea que el sistema envié mensajes SMS o correos electrónicos a los beneficiarios que caigan en alguna categoría de morosos.
+
+#. Se desea que el sistema genere reportes mensuales del número de seguimientos realizados para utilizarlos como comprobante del trabajo realizado por los analistas.
+
+#. Se desea que el sistema genere "sábanas" de los créditos morosos por municipio que se encuentran en categorías B, C y D para planificar los cobros.
+
+
+
 

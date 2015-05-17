@@ -478,19 +478,15 @@ Secretaria Ejecutiva
 ~~~~~~~~~~~~~~~~~~~~
 
 #. Secretaría ejecutiva organiza los expedientes que le envía la gerencia de créditos en una hoja impresa, para ser presentados a Consejo Directivo para su aprobación. Realiza la agenda con los casos previamente filtrados que van a discutir en el consejo directivo (4 miembros + presidente). Imprime la asistencia del consejo directivo y hace el acta del consejo (con datos de la agenda).
+
 #. Secretaría ejecutiva también crea y aprueba el documento del crédito (vacía los datos de la hipoteca, registro, etc). Una vez entregado el documento al beneficiario este tiene un máximo de 30 días para autenticar el documento, en caso contrario se puede revocar la solicitud por no cumplir con la condición del consejo directivo o por no llevar el documento al FOMDES.
+
 #. En secretaría ejecutiva se trabaja con el sistema informático SIGEFOMDES, se utiliza este sistema para: registrar asistentes al consejo directivo, montar la agenda, generar el acta del consejo directivo, generar recibos para beneficiarios al momento de recibir los documentos que deben protocolizar para acceder al crédito una vez aprobado. Del mismo modo, en casos en que los cheques no se retiren o los créditos se rechacen por los beneficiarios, secretaría ejecutiva asigna el carácter de "revocado" en el sistema. Puede acceder a información parcial de los expedientes. Quisiera que el sistema pudiera aportarle el formato de documento de crédito para su protocolización para evitar que ese proceso se haga de forma manual.
+
 #. Existe un listado de estaciones para hacer un seguimiento interno de los procesos por los cuales va pasando el expediente y una condición: exonerado (en caso de muerte del beneficiario con hijos menores de edad, vaguadas, etc), negado, aprobado, aprobado condicionado, aprobado especial, diferido y revocado. Ellos sugieren que el sistema debe reflejar que le falta al expediente y en que condición se encuentra. Las letras de cambio de aval con garantía se llevan en el software de ofimática Libre Office Calc. Secretaria ejecutiva y la gerencia de administración no se conectan entre si, por lo que se debe permitir modificar los datos del expediente, ya que por ejemplo los datos del conyugue no son vaciados por información de crédito pero para secretaria ejecutiva son importantes.
 
 Fecha de la visita: 14 de Abril del 2015
 ========================================
-
-Visitantes
-----------
-
-* Francisco Palm
-* Héctor Ospino
-* María Alejandra Rujano
 
 Departamentos Visitados
 -----------------------
@@ -518,33 +514,65 @@ Gerencia de recuperaciones
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. La gerencia de administración utiliza los datos del cheque del crédito para generar las tablas de amortización y los estados de cuenta. Luego la gerencia de recuperaciones realiza una factura para Caja con los datos del usuario, monto aprobado, tasas de interés y cuotas entre otras. Las cuotas vencidas o pagadas no se reflejan en los reportes. 
+
 #. La gerencia de recuperaciones cuenta con una lista de expedientes por fecha, municipio, programa (sector), rutas (sectores para las visitas supervisadas), institutos (incluye FOMDES y son carteras heredadas externas), tipo de garantía, categoría del cliente (depende de las cuotas vencidas) entre otras.
+
 #. No existe un reporte desglosado por niveles de morosidad que sería de utilidad para enviar mensajes de texto para recordar el vencimiento de las cuotas.
+
 #. Las listas de los expedientes se filtran y se crea un archivo en HTML y cada 3 meses (por la densidad de información) los ejecutivos de cobranza hacen una lista manual (ya que no se genera automáticamente por el sistema) en la herramienta ofimática LibreOffice Calc con las personas que deben visitar por fecha, municipio y sectores cuando existen cuotas vencidas. 
+
 #. Las carteras (menos detalle) y las sabanas (mas detalle) son los listados de expedientes en la gerencia de recuperaciones, con información del crédito (cuotas = capital + interés). 
+
 #. Manejan dos fechas límites para el pago de las cuotas, los días 3 y 17 de cada mes. 
-#. Los estados de cuentas se ubican por cédula y expediente. #. Se quiere que cada ejecutivo tenga asignado automáticamente una cierta cantidad de expedientes y filtrarlos por criterios para los reportes en el que se muestren las cuotas que están más próximas a vencerse (de mayor a menor, diferenciadas por colores).
+
+#. Los estados de cuentas se ubican por cédula y expediente. 
+
+#. Se quiere que cada ejecutivo tenga asignado automáticamente una cierta cantidad de expedientes y filtrarlos por criterios para los reportes en el que se muestren las cuotas que están más próximas a vencerse (de mayor a menor, diferenciadas por colores).
+
 #. Los pagos de las cuotas de la caja exprés van a la bases de datos, pero se actualiza cada 3 meses. 
+
 #. No existe una diferenciación en el sistema entre "deuda vigente" y "deuda vencida", todo se llama deuda vencida. 
+
 #. En FOMDES existen alrededor de 18 a 20 mil expedientes. 
+
 #. Los intereses de los meses de gracia (que son como mínimo 3 meses de intereses que dependen del sector) son sumados al total del crédito (capital+intereses) de manera manual y si se cancela por adelantado son descontados.
+
 #. Los 15 ejecutivos activos hacen contacto con aproximadamente 25 beneficiarios al día (en promedio 500 al mes) pero este proceso no se refleja en el sistema sino en las listas manuales realizadas con la herramienta ofimática LibreOffice Calc en la que filtran por fecha y otros lo llevan en un cuaderno personal. 
-#. Solo 1 abogado es el encargado de realizar en casos extremos de morosidad la misma función de los ejecutivos con los pagos de las carteras. Existen 3 estatus de morosidad: extrajudicial es cuando el abogado actúa y se bloquean los pagos en caja hasta tanto el beneficiario no se entrevista con el mismo para ser desbloqueado; liberado, es cuando paga todo y consultoría jurídica libera la hipoteca o fianza y la ultima es demanda.    
+
+#. Solo 1 abogado es el encargado de realizar en casos extremos de morosidad la misma función de los ejecutivos con los pagos de las carteras. Existen 3 estatus de morosidad: extrajudicial es cuando el abogado actúa y se bloquean los pagos en caja hasta tanto el beneficiario no se entrevista con el mismo para ser desbloqueado; liberado, es cuando paga todo y consultoría jurídica libera la hipoteca o fianza y la ultima es demanda. 
+   
 #. Las cuotas para el pago son fijas (capital + intereses) y se pueden pagar en abonos previo acuerdo con el FOMDES. Se recargara el 3% diario de mora sobre la tasa de interés. 
+
 #. La gerencia de Recuperaciones no mete nada en físico al expediente. 
+
 #. En la gerencia de recuperaciones se trabaja con el sistema informático SISAC.   
+
 #. Se hace una conciliación de datos entre el sistema informático utilizado en la gerencia de administración (SIGEFOMDES) y el sistema informático utilizado en la gerencia de recuperaciones (SISAC) ya que si en el primero se hace un pago en el segundo este pago se debe actualizar de manera manual. 
+
 #. Sugieren que debe existir una nota de débito del cheque para ajustar las fracciones de pago, ya que cuando se hace un pago con cheque y se genera el recibo, es luego de 15 días que el banco reporta que el cheque fue rechazado y se genera un error porque se debe anular el recibo y la cuota pagada. Se le notifica al usuario y en el nuevo recibo se le hace el ajuste y se explica el porqué de la situación. 
-#. Para la presidencia del FOMDES es importante conocer cuánto fue el ingreso diario de caja (reporte), es decir cuánto se cobró y cuanto falta por cobrar. Establecieron metas diarias de recuperación, montos mayores a 120 mil se considera que van bien en caso contrario van mal. Este reporte se hace de manera manual y quieren que se vea el monto total en la interfaz del sistema.
+
+#. Para la presidencia del FOMDES es importante conocer cuánto fue el ingreso diario de caja (reporte), es decir cuánto se cobró y cuanto falta por cobrar. Establecer metas diarias de recuperación, montos mayores a 120 mil se considera que van bien en caso contrario van mal. Este reporte se hace de manera manual y quieren que se vea el monto total en la interfaz del sistema.
+
 #. La gerencia de recuperaciones es la encargada de hacer las exoneraciones (en caso de muerte del beneficiario, vaguadas, etc.). Las exoneraciones no tienen filtros por año en el sistema. 
+
 #. No tienen actualizado en el sistema el sector de ciencia y tecnología.
+
 #. Cuentan con un módulo denominado "Gestión del trabajo" en donde cada ejecutivo de cobranza debe vaciar la información de su labor diaria y otro modulo denominado "Seguimiento registrados" para vaciar la información que obtienen del beneficiario. 
+
 #. El capital que se recupera vuelve a la gerencia de crédito y los intereses a la gerencia de administración para gastos internos de la institución.  
+
 #. Aparte de los ejecutivos de cobranza existen los ejecutivos de calle, que son los encargados de llevar los estados de cuenta a los beneficiarios y actualizar los datos (teléfonos).
-#. Los estados de cuenta tienen dos campos: Un campo denominado "recibo", que guarda la lista de los recibos del expediente que los beneficiarios entregan en físico, por fax o correo y un campo denominado "Seguimiento", el cual guarda un resumen del histórico de FOMDES con el beneficiario, es decir si se contactó a través de una visita o una llamada y a qué acuerdo de fecha y pago se llegó. En seguimiento no hay alertas en las fechas próximas en que el beneficiario se compromete a pagar las cuotas vencidas. Tienen un módulo para consultar los depósitos de las cuotas. 
-#. Departamento de Recuperaciones: En este departamento se generan "sábanas" de los créditos que se encuentran en categorías B, C y D. Esto es, el estado de los créditos morosos por municipio para planificar los cobros.
+
+#. Los estados de cuenta tienen dos campos: Un campo denominado "recibo", que guarda la lista de los recibos del expediente que los beneficiarios entregan en físico, por fax o correo y un campo denominado "Seguimiento", el cual guarda un resumen histórico de FOMDES con el beneficiario, es decir si se contactó a través de una visita o una llamada y a qué acuerdo de fecha y pago se llegó. En seguimiento no hay alertas en las fechas próximas en que el beneficiario se compromete a pagar las cuotas vencidas. Tienen un módulo para consultar los depósitos de las cuotas. 
+
+#. En este departamento se generan "sábanas" de los créditos que se encuentran en categorías B, C y D. Esto es, el estado de los créditos morosos por municipio para planificar los cobros.
+
 #. En recuperaciones se realizan consultas del sistema.
+
+#. En este departamento se generan "sábanas" de los créditos que se encuentran en categorías B, C y D. Esto es, el estado de los créditos morosos por municipio para planificar los cobros.
+
 #. Se desea un sistema que envié mensajes SMS o correos electrónicos a los beneficiarios que caigan en alguna categoría de morosos.
+
 #. Se generan reportes, mes a mes, del número de seguimientos realizados que se utilizan como comprobante del trabajo realizado por los analistas.
 
 
