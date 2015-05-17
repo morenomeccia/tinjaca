@@ -75,9 +75,12 @@ Historias de usario
        * - Como
          - Quiero
          - Para
-       * - a
-         - b
-         - c
+       * - Analista de proyecto
+         - realizar estadísticas por sectores y municipios 
+         - llevar estadisticas de los proyectos de ciencia y tecnologia
+       * - Analista de proyecto
+         - llevar registro del lugar de procedencia de la materia prima y proveedores de los solicitantes
+         - llevar estadisticas de los proyectos de ciencia y tecnologia
 
 **Informacion de Crédito**
 ---------------------------
@@ -92,10 +95,9 @@ Historias de usario
        * - Analista de credito
          - Ingresar los datos de la planilla de financiamiento al sistema
          - disponer de esta informacion en el sistema para su futuro uso
-       * - Analista de credito
 		 
 
-**Estadiatica y analisis de riesgo**
+**Estadistica y analisis de riesgo**
 ------------------------------------
 
     .. list-table::
@@ -105,9 +107,29 @@ Historias de usario
        * - Como
          - Quiero
          - Para
-       * - a
-         - b
-         - c
+       * - Analista de credito
+         - consultar el listado de propuestas de financiamiento que son viables
+         - su posterior inclusion en el taller de induccion 
+       * - Analista de credito
+         - generar una lista de solicitantes con propuestas de financiamiento viables para los talleres de induccion según el número de propuestas y el límite de cupos
+		 - planificar los talleres
+       * - Analista de credito
+	     - enviar por correo a los solicitantes la invitación para la asistencia al taller, con la fecha que le corresponderá 
+	     - realizar el taller
+       * - Analista de credito
+	     - enviar por correo a los solicitantes la lista de requisitos correspondientes a sus propuestas 
+		 - ser consignadas por los solicitantes el dia del taller
+       * - Analista de credito
+		 - Colocar en lista de espera los solicitantes que falten al taller 
+		 - reasignarlos para un futuro taller
+       * - Analista de credito
+		 - Generar trimestralmente un reporte estadístico de todas las solicitudes ingresadas. 
+		 - entregar a presidencia
+       * - Analista de credito
+		 - generar informes POA
+		 - entregar a presidencia 
+
+
 
 **Analisis Juridico**
 ---------------------
@@ -143,6 +165,9 @@ Historias de usario
        * - Analista economico
 		 - Registrar las minutas que se levantan en campo
 		 - Ser incluido en el informe tecnico
+       * - Analista economico
+		 - definir los lapsos de pago del credito por el beneficiario
+		 - 
 
 **Gerencia de Crédito**
 -----------------------
@@ -177,9 +202,9 @@ Historias de usario
        * - Como
          - Quiero
          - Para
-       * - a
-         - b
-         - c
+       * - Jefe de acompanamiento.
+         - llevar un registro de la cantidad de empleos generados directos e indirectos por cada crédito
+         - 
 
 
 **Gerencia de Recuperaciones**
@@ -212,9 +237,13 @@ Historias de usario
 		 - para llevar estadisticas del numero de beneficiarios procesados
        * - Ejecutivo de cobranza
 		 - registrar la información sobre los beneficiarios atendidos  
-		 - para llevar estadisticas del numero de beneficiarios procesados
-
-
+		 - llevar estadisticas del numero de beneficiarios procesados
+       * - Gerente de recuperaciones
+	     - cambiar el estado del beneficiario segun su estado de cuenta
+		 - 
+       * - Ejecutivo de cobranza
+		 - crear carteras de cobranza
+		 - revisar los estados de cuenta
 
 
 **Secretaria Ejecutiva**
@@ -240,15 +269,27 @@ Historias de usario
 		 - realizar el acta del consejo directivo
 		 - que se lleve a cabo el consejo directivo 
        * - Secretaria(o) ejecutiva(o)
-		 - crear el documento del crédito 
-		 - su posterior autenticacion por el beneficiario
+		 - Redacta y entregar el documento de crédito al beneficiario para ser notariado 
+		 - dar continuidad al proceso de liquidacion del credito
        * - Secretaria(o) ejecutiva(o)
 		 - aprobar el documento del crédito 
-		 - para su posterior autenticacion por el beneficiario 
+		 - su posterior autenticacion por el beneficiario 
        * - Secretaria(o) ejecutiva(o)
 		 - revocar un credito en los casos en que los cheques no se retiren o los créditos se rechacen por los beneficiarios
 		 - 
        * - Secretaria(o) ejecutiva(o)
+		 - realizar la minuta del consejo 
+		 - 
+       * - Secretaria(o) ejecutiva(o)
+		 - enviar al gerente de credito los expedientes rechazados
+		 - su reconsideracion
+       * - Secretaria(o) ejecutiva(o)
+		 - recibir los documentos notariados y enviar a la gerencia de administracion
+		 - 
+       * - Secretaria(o) ejecutiva(o)
+		 - enviar expedientes liquidados a acompanamiento
+		 - 
+
 
 
 #. Existe un listado de estaciones para hacer un seguimiento interno de los procesos por los cuales va pasando el expediente y una condición: 
@@ -267,35 +308,39 @@ Las letras de cambio de aval con garantía se llevan en el software de ofimátic
          - Quiero
          - Para
        * - Asesor Administrativo
-         - Abrir las cuentas de los usuarios cuyos créditos fueron aprobados
+         - Elaborar las cuentas por cobrar de los usuarios cuyos créditos fueron aprobados
          - Dar continuidad al proceso de aprobacion de credito 
-       * - ??????????????????
+       * - Gerente de administracion
          - Elaborar los cheques de los usuarios cuyos créditos fueron aprobados
          - Dar continuidad al proceso de aprobacion de credito 
-       * - ??????????????????
+       * - Gerente de administracion
+		 - enviar los cheques a presidencia
+		 - su firma
+       * - Gerente de administracion
          - Generar la tabla de amortización de los usuarios cuyos cheques fueron procesados
-         - Dar continuidad al proceso de aprobacion de credito 
+         - Dar continuidad al proceso de aprobacion de credito
+       * - Gerente de administracion
+		 - revisar los pagos recibidos
+ 		 - 
+       * - Gerente de administracion
+		 - anular recibos por cheques devueltos
+ 		 - revertir el pago de las cuotas en el estado de cuenta
 	   * - Cajero
 		 - registrar los pagos de los beneficiarios para la cancelacion de cuotas de los credito
          - para actualizar el estado de cuenta del credito del beneficiario 
-		
-
- se generan los recibos
-
-
-**Gerencia de Caja**
---------------------
-
-    .. list-table::
-       :widths: 40 40 40
-       :header-rows: 1
-
-       * - Como
-         - Quiero
-         - Para
-       * - ?????????????????
+       * - Cajero
          - generar un reporte del ingreso diario de caja
          - poder ser visto por el presidente
+       * - Cajero
+         - registrar los datos de pago del recibo
+         - actualizar los estados de cuenta y generar los asientos contables. 
+       * - Cajero
+         - simular el recibo (mostrar una vista previa del recibo)
+         - verificar los datos antes de guardar el recibo en el sistema e imprimirlo.
+       * - Cajero
+         - Imprimir el recibo
+         - entregar al beneficiario
+
 
 **Gerencia de Presupuesto**
 ---------------------------
@@ -339,8 +384,26 @@ Las letras de cambio de aval con garantía se llevan en el software de ofimátic
        * - Presidente
          - conocer cuánto fue el ingreso diario de caja 
          - evaluar la recuperacion de fondos por la institucion
+       * - Presidente
+		 - revisar y firmar los cheques
+		 - dar seguimiento al proceso de liquidacion
+       * - Presidente
+		 - enviar los cheques firmados a secretaria ejecutiva
+		 - dar seguimiento al proceso de liquidacion 
 
+**Archivo**
+-----------
 
+    .. list-table::
+       :widths: 40 40 40
+       :header-rows: 1
+
+       * - Como
+         - Quiero
+         - Para
+       * - 
+         - llevar una lista de los expedientes prestados 
+         - llevar un seguimiento de los expedientes
 
 
 Establecieron metas diarias de recuperación, montos mayores a 120 mil se considera que van bien en caso contrario van mal. Este reporte se hace de manera manual y quieren que se vea el monto total en la interfaz del sistema.
@@ -418,4 +481,22 @@ Requerimientos
 #. Los gerentes deben poseer permisos para modificar/corregir datos en el sistema.
 
 #. El nuevo sistema informático debe ser flexible y tener portabilidad para que se ajuste a las nuevas políticas y a las exigencias de cada presidente. Otra característica deseable del nuevo sistema es que sea de fácil mantenimiento.
+
+#. Los reportes estadísticos de la gerencia de credito deben poder agrupar las solicitudes por sector dentro de cada municipio, con el conteo y suma de los montos solicitados, y las totalizaciones.
+
+#. Debe existir un historial de inserción de documentos en el expediente. 
+
+#. El sistema debe contemplar diferentes roles para el personal de la institucion. La asignacion de roles debe hacerse a traves de recursos humanos.
+
+#. Se deben utilizar los siguientes códigos para identificar los 7 sectores empresariales:
+
+	* MEP > microempresas
+	* PYME > pequeña y mediana empresa
+	* PYMI > pequeña y mediana industria
+	* COOP > cooperativas
+	* A > artesanías
+	* AGR > agrícola
+	* T > turismo
+
+#. Recalcular los intereses de las cuotas por cheques devueltos.
 

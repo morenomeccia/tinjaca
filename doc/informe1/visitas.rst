@@ -644,24 +644,40 @@ Estadística y Analisis de Riesgos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. La oficina de Estadística (parte de gerencia de crédito), recibe una a una las carpetas en físico con las propuestas de financiamiento que han sido categorizadas como “viables”.
+
 #. Se genera una lista en hoja de cálculo introduciendo una a una las propuestas. Puede consultar la información del sistema SICA-WebAdmin para ingresarla a mano en las columnas de la hoja de cálculo. En esta plantilla se tiene un control del estatus de cada solicitante durante este proceso.
+
 #. Se estudia cada caso para enviar por correo los requisitos correspondientes a las propuestas, según el sector de financiamiento.
-#. También se envía por correo la invitación para la asistencia al taller, con la fecha que le corresponderá según el número de propuestas una vez alcanzado el límite de cupos para cada lista. Esta lista es firmada el día del taller por cada persona como control de asistencia. En caso que algún solicitante falta al taller, se coloca en lista de espera hasta que la persona se reporte de nuevo, y se incluye en la próxima lista de taller.
+
+#. También se envía por correo la invitación para la asistencia al taller, con la fecha que le corresponderá según el número de propuestas una vez alcanzado el límite de cupos para cada lista. Esta lista es firmada el día del taller por cada persona como control de asistencia. 
+
+#. En caso que algún solicitante falta al taller, se coloca en lista de espera hasta que la persona se reporte de nuevo, y se incluye en la próxima lista de taller.
+
 #. Luego de la asistencia al taller se le asigna una cita programada para presentarse ante la oficina de Información de Crédito para consignar los requisitos. Nota: en dicha oficina se aclaró que no trabajan con esa cita, sino que depende del tiempo que demore cada solicitante en recaudar los requisitos.
+
 #. Trimestralmente se genera un reporte estadístico de todas las solicitudes ingresadas. Se hace un conteo por sector dentro de cada municipio, con las sumas de los montos solicitados, y las totalizaciones. Este procedimiento se hace a mano utilizando una hoja de cálculo.
+
 #. También se tiene un formato para informes POA, que son solicitados por presidencia.
 
 Ciencia y Tecnología
 ~~~~~~~~~~~~~~~~~~~~
 
 #. Existe en primer lugar una oficina de asesoramiento técnico, a la cual pueden acudir las personas sin propuestas concretas para recibir instrucciones y recomendaciones al momento de elaborar sus propuestas. Las personas son enviadas a esta oficina desde la taquilla de entrada.
+
 #. Para el caso particular de las propuestas asociadas al área científico-tecnológica, esta asesoría es brindada por la oficina de Ciencia y Tecnología, dado a la complejidad de dicho ámbito. Normalmente se atienden proyectos ya encaminados, o con algún producto inicial o prototipo.
+
 #. Se realiza una entrevista con la persona para discutir a detalle todos los aspectos, tanto técnicos como económicos, para afinar propuesta de modo de hacerla viable.
+
 #. Una vez culminada la sesión, si tiene el visto bueno se le indica a la persona que presente la planilla de propuesta ante la oficina de Información de Crédito. Esta información queda almacenada internamente, es decir, no se ingresa a ningún sistema y no forma parte de ningún otro proceso. No hay ninguna relación directa con ninguna oficina de la gerencia de crédito y por lo tanto no hay seguimiento formal de dichas propuestas.
+
 #. Puede consultar información de SIGEFOMDES-crédito, para los casos que ya tengan proyectos ingresados (no quedó claro este punto).
+
 #. Se utiliza una hoja de cálculo para guardar información de las propuestas y llevar un control de las personas atendidas. Esta información se pasa a presidencia de modo informativo.
+
 #. Se realizan estadísticas por sectores y municipios manualmente.
-#. Se desea llevar estadísticas de ciertas características, como lugar de procedencia de materia prima y proveedores.
+
+#. Se desea llevar registro de ciertas características, como lugar de procedencia de materia prima y proveedores.
+
 #. Esta oficina es relativamente nueva en FOMDES, iniciándose la modalidad de ingreso en el año 2015, por lo que su integración con el resto de los procesos no está del todo bien definida.
 
 Fecha de la visita: 21 de Abril del 2015
@@ -692,12 +708,19 @@ Minuta de la visita
 -------------------
 
 #. FOMDES tiene dos entradas de recursos, los que provienen de la caja de recuperaciones y los que provienen del situado constitucional (Tesorería de la Gobernación). Estos recursos son manejados por presupuesto/contabilidad para la planificación anual. Sin embargo, si a mitad de año se quedan sin dinero solicitan a la gobernación una inyección de capital.
+
 #. No existe un formato para hacer una orden de compra en la gerencia de administración.
+
 #. En la ruta del expediente, no existe un historial de inserción de documentos en el expediente. 
+
 #. En archivo, se lleva una lista interna de a quien se le presta el expediente en la herramienta ofimática LibreOffice Calc. 
+
 #. No están definidos los roles de usuarios en el sistema.
+
 #. Acompañamiento, usa indicadores para saber la cantidad de empleos generados directos e indirectos por cada crédito. 
+
 #. Estadística y evaluación de riesgo utilizan el sistema informático WebAdmin que se utiliza en las gerencias de crédito y recuperaciones. 
+
 #. Los códigos utilizados por FOMDES para identificar los 7 sectores empresariales son:
 
 	* MEP > microempresas
@@ -709,20 +732,30 @@ Minuta de la visita
 	* T > turismo
 
 #. El sector de ciencia y tecnología entra como MEP, PYME y PYMI 
+
 #. Los sectores de mayor demanda en FOMDES son PYMI y AGR.
+
 #. No existe una consulta general del expediente. 
+
 #. Cuando un beneficiario presenta deudas recibe una llamada de advertencia.
+
 #. Un beneficiario moroso en FOMDES tiene dos alternativas para cancelar sus deudas:
  
 	* Pagar en la caja del FOMDES (al día) o pagar en las taquillas exprés (distintos puntos de Mérida). El recibo de caja se diferencia con la letra "C" y de taquilla con la letra "X".
 	* Efectuar el pago a través de un operativo de cobranza. Los operativos de cobranza se efectúan por municipio (alcaldía) y visitan a los beneficiarios morosos para que se dirijan al punto de la taquilla exprés para cancelar cuota. 
 
 #. Si un beneficiario moroso no cancela sus deudas a tiempo, es citado, si no cumple con el acuerdo de pago, es demandado para la ejecución de garantía (bloqueo en caja).
-#. Las taquillas de pago de caja-administración y taquilla exprés-recuperaciones no están unificadas. En el nuevo sistema informático la operación de pago debe ser manejada por la gerencia de administración. 
-#. En las taquillas de pago se revisan las cuentas por cobrar utilizando el sistema informático SISAC. El sistema SISAC también registra los datos de pago del recibo, simula el pago (vista previa del recibo), registra el pago (genera el recibo) e imprime el recibo, 
+
+#. En las taquillas de pago se revisan las cuentas por cobrar utilizando el sistema informático SISAC. El sistema SISAC también registra los datos de pago del recibo, simula el pago (vista previa del recibo), registra el pago (genera el recibo) e imprime el recibo. 
+
 #. Si hay un dato erróneo en el sistema de pago es necesario llamar a sistemas para que lo corrija de manera manual en la base de datos (casos de cancelación total del crédito).
+
 #. Se entrega un recibo original al beneficiario y se archiva una copia del recibo en el expediente.
-#. En la gerencia de Administración y Finanzas, el departamento de contabilidad realiza la revisión de los pagos recibidos. Los cheques devueltos por el beneficiario conllevan a la anulación del recibo (SISAC) lo que altera en la base de datos el record de pago del beneficiario. 
+
+#. En la gerencia de Administración y Finanzas, el departamento de contabilidad realiza la revisión de los pagos recibidos. 
+
+#. Los cheques devueltos por el beneficiario conllevan a la anulación del recibo (SISAC) lo que altera en la base de datos el record de pago del beneficiario. 
+
 #. Estaciones y procesos del expediente en FOMDES:
 	
 	- CRÉDITO:
