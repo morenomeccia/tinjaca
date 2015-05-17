@@ -18,8 +18,8 @@ Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales
    anexos
 
 
-Indices and tables
-==================
+Índices y tablas
+================
 
 * :ref:`genindex`
 * :ref:`modindex`
