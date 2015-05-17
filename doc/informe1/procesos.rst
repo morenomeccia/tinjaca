@@ -84,6 +84,9 @@ créditos.
        * - Expediente
          - Realizar el informe técnico
          - Expediente con informe técnico (con memoria fotográfica)
+       * - Expediente
+         - Elaborar lista de expedientes para consideración del Consejo Directivo
+         - Lista de expedientes
 
     * **Flujograma**: Ver Figuras 3.2 y 3.3
 
@@ -95,77 +98,51 @@ créditos.
 **Aprobación de Créditos**
 ==========================
 
-    * **Descripción**: Abarca desde la recepción del listado de expedientes sugeridos para
+    * **Descripción**: Abarca desde la recepción del lista de expedientes sugeridos para
       aprobación de créditos hasta la elaboración del Documento de Crédito y constitución de la
-      empresa (de requerirse) para cada uno de los beneficiarios/-as.
+      empresa (de requerirse) para cada uno de los beneficiarios(as).
 
     * **Dependencia responsable**: Presidencia
 
-    * **Unidad(es) Ejecutora(s)**: Analistas de Crédito, Presupuesto, Secretaría Ejecutiva, Consejo Directivo, Presupuesto, Secretaría Ejecutiva
+    * **Unidad(es) Ejecutora(s)**: Secretaría Ejecutiva, Presupuesto, Consejo Directivo
 
     * **Tabla de Actividades**:
 
+    .. tabularcolumns:: |p{4cm}|p{7cm}|p{4cm}|
+
     .. list-table::
-       :widths: 40 40 40
+       :widths: 40 70 40
        :header-rows: 1
 
        * - Entrada
          - Actividades
          - Salida
+       * - Lista de expedientes
+         - Revisar lista de expedientes junto con presidencia
+         - Lista de expedientes priorizada
        * - Expediente
-         - Revisión de la propuesta para aprobar/rechazar
-         - Informe sobre perfil de la actividad, inversión y proyección económica
-       * - Expediente
-         - Revisión del expediente
+         - Elaborar certificación presupuestaria por sector
          - Certificación presupuestaria por sector
-       * - Propuesta sugerida para aprobar/rechazar
-         - Convoca al consejo directivo
-         - Lista de propuestas para aprobar/rechazar
-       * - Propuesta para aprobar/rechazar
-         - Revisión de expediente
-         - Acta de propuesta aprobada
-       * - Expediente
-         - Realiza control previo de los requisitos
-         - Certificación de disponibilidad de dinero para liquidación de crédito
-       * - Expediente aprobado
-         - Redacta documentos
-         - Entrega documento de crédito y documento de constitución de empresa al beneficiario
+       * - Lista de expediente para consejo directivo
+         - Convocar al consejo directivo
+         - Acta de créditos aprobados
+       * - Acta de créditos aprobados
+         - Elaborar el documento de crédito y de ser necesario el documento de la empresa
+         - Documento de crédito y documento de constitución de empresa
 
     * **Flujograma**:
 
-    .. graphviz::
-
-       digraph G05 { rankdir=LR; node [shape=box, style=rounded];
-
-        subgraph clusterA { labeljust=l; label="any-section@company.com";
-         AS [label="", shape=circle, width="0.3"];
-         AE [label="", shape=circle, width="0.3", style=bold];
-         A1 [label="A1: Daily\nReport"];
-         A2 [label="A2: Memo"];
-
-         AS -> A1;
-         A2 -> AE;
-         A1 -> A2 [style=invis];
-        }
-
-        subgraph clusterB { labeljust=l; label="section-leader@company.com";
-         B1 [label="B1: Review"];
-        }
-
-       A1 -> B1 [tailport=sw,headport=nw]; // *Specify positions of tail port and head port*
-       B1 -> A1 [arrowtail=odiamond, label="NG"];
-       B1 -> A2 [arrowtail=rcrowlvee];
-       }
+    .. graphviz:: proc3.dot
 
 **Liquidación de Créditos**
 ===========================
 
     * **Descripción**: Abarca desde la consignación de los documentos notariados por parte de los
-      beneficiarios/-as hasta la entrega del cheque respectivo.
+      beneficiarios(as) hasta la entrega del cheque respectivo.
 
     * **Dependencia responsable**: Administración y Finanzas
 
-    * **Unidad(es) Ejecutora(s)**: Secretaria Ejecutiva, Administración, Presidencia, Secretaría Ejecutiva
+    * **Unidad(es) Ejecutora(s)**: Secretaria Ejecutiva,Presupuesto, Administración, Presidencia, Secretaría Ejecutiva
 
     * **Tabla de Actividades**:
 
@@ -177,42 +154,27 @@ créditos.
          - Actividades
          - Salida
        * - Documento protocolizado del cŕedito
-         - Revisión del documento protocolizado
-         - Envia expediente a Administración
+         - Revisar el documento protocolizado
+         - Expediente con Documento de Crédito Protocolizado
        * - Expediente
-         - Ingreso de datos al sistema SIGEFOMDES-Administración-SISAC
-         - Cuentas por cobrar/tabla de amortización/orden de liquidación/cheque firmado
+         - Verificar documentación legal y elaborar certificación de disponibilidad para liquidación del crédito
+         - Expediente en regla
+       * - Expediente
+         - Ingreso de datos y creación de cuentas en el sistema SIGEFOMDES-Administración y SISAC
+         - Expediente con cuentas por cobrar y tabla de amortización
+       * - Expediente
+         - Imprimir y firmar orden de liquidación y cheque
+         - Cheque
        * - Cheque firmado por Administración
          - Firma del cheque
-         - Cheque firmado
-       * - Cheque firmado
-         - Convoca acto público con el Gobernador
-         - Entrega de cheque a beneficiario
+         - Cheque firmado por Presidencia
+       * - Cheque
+         - Entregar cheque a beneficiario
+         - Expediente con copia de orden de liquidación
 
     * **Flujograma**:
 
     .. graphviz::
-
-       digraph G05 { rankdir=LR; node [shape=box, style=rounded];
-
-        subgraph clusterA { labeljust=l; label="any-section@company.com";
-         AS [label="", shape=circle, width="0.3"];
-         AE [label="", shape=circle, width="0.3", style=bold];
-         A1 [label="A1: Daily\nReport"];
-         A2 [label="A2: Memo"];
-         AS -> A1;
-         A2 -> AE;
-         A1 -> A2 [style=invis];
-        }
-
-        subgraph clusterB { labeljust=l; label="section-leader@company.com";
-         B1 [label="B1: Review"];
-        }
-
-       A1 -> B1 [tailport=sw,headport=nw]; // *Specify positions of tail port and head port*
-       B1 -> A1 [arrowtail=odiamond, label="NG"];
-       B1 -> A2 [arrowtail=rcrowlvee];
-       }
 
 **Inspección de Inversiones**
 =============================
@@ -273,7 +235,7 @@ créditos.
 =========
 
     * **Descripción**: Incluye actividades de recepción de pagos y actualización de estados de
-      cuenta de beneficiarios/-as
+      cuenta de beneficiarios(as)
 
     * **Dependencia responsable**: Administración
 
@@ -322,7 +284,7 @@ créditos.
 ========================
 
     * **Descripción**: Comprende actividades relativas al trámite y gestión de recuperación de
-      pagos caídos por parte de beneficiarios/-as.
+      pagos caídos por parte de beneficiarios(as).
 
     * **Dependencia responsable**: Gerencia de Recuperaciones
 

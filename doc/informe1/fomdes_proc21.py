@@ -64,7 +64,8 @@ global_edges = {"u6":  {"ic4": {"style": "dashed"}},
                 "ic6": {"aj0": {"style": "dashed"}},
                 "ic5": {"SIGEFOMDES Crédito": {"style": "dashed"}},
                 "aj1": {"SIGEFOMDES Crédito": {"style": "dashed"}},
-                "aj3": {"ic7": {"style": "dashed"}, "Análisis Económico": {"style": "dashed"}}}
+                "aj3": {"ic7": {"style": "dashed"}, "Análisis Económico": {"style": "dashed"}},
+                fill("Estadística y Evaluación de Riesgos", TEXT_WIDTH): {"u4": {"style": "dashed"}}}
 
 add_edges(F, global_edges)
 

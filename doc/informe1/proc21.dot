@@ -134,4 +134,6 @@ digraph  {
 	aj1 -> "SIGEFOMDES Crédito"	 [style=dashed];
 	aj3 -> ic7	 [style=dashed];
 	aj3 -> "Análisis Económico"	 [style=dashed];
+	"Estadística y Evaluación
+de Riesgos" -> u4	 [style=dashed];
 }
