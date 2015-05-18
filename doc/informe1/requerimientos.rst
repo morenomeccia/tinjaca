@@ -14,9 +14,9 @@ Historias de usuario
 		:widths: 40 40 40
 		:header-rows: 1
 
-		* - Como
-		  - Quiero
-		  - Para
+		* - Como | (Rol)
+		  - Quiero | (Labor)
+		  - Para | (Objetivo)
 		* - Solicitante / Beneficiario o Beneficiaria
 		  - Crear en línea mi cuenta de usuario o usuaria
 		  - Registrarme en el sistema
@@ -41,9 +41,9 @@ Historias de usuario
 		:widths: 40 40 40
 		:header-rows: 1
 
-		* - Como
-		  - Quiero
-		  - Para
+		* - Como | (Rol)
+		  - Quiero | (Labor)
+		  - Para | (Objetivo)
 		* - Recepcionista
 		  - Registrar los datos del visitante junto con la fecha, hora y destino
 		  - Utilizar la información en el futuro y en otras dependencias
@@ -71,9 +71,9 @@ Historias de usuario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Analista de proyecto
          - Realizar estadísticas por sectores y municipios 
          - Llevar estadísticas de los proyectos de ciencia y tecnología
@@ -89,9 +89,9 @@ Historias de usuario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Analista de crédito
          - Ingresar los datos de la planilla de financiamiento al sistema
          - Disponer de esta información en el sistema para su futuro uso
@@ -107,9 +107,9 @@ Historias de usuario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Analista de crédito
          - Consultar el listado de propuestas de financiamiento que son viables
          - Posterior inclusión del solicitante en el taller de inducción 
@@ -140,9 +140,9 @@ Historias de usuario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Analista Jurídico
          - Generar el informe de control previo
          - Uso del informe en las siguientes fases del proceso de evaluación de propuestas
@@ -161,9 +161,9 @@ Historias de usuario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Analista Económico
          - Generar el informe de inspección (informe técnico) con registro fotográfico
          - Uso del informe en las siguientes fases del proceso de evaluación de propuestas
@@ -185,9 +185,9 @@ Historias de usuario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Gerente de crédito
          - Modificar las tasas de interés y los montos asignados por sector, rubro o garantía
          - Atender los cambios en las políticas de financiamiento
@@ -212,9 +212,9 @@ Historias de usuario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Jefe de acompañamiento
          - Llevar un registro de la cantidad de empleos generados directos e indirectos por cada crédito
 		 - Generar información estadística
@@ -269,9 +269,9 @@ Historias de usuario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Jefe del departamento de estadística y auditoria de cobranza
          - Realizar una factura con los datos del usuario o usuaria, monto aprobado, tasas de interés y cuotas
          - Posterior uso de la factura por Caja
@@ -311,9 +311,9 @@ Historias de usuario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Secretaria(o) ejecutiva(o)
          - Asignar el estatus de la solicitud de crédito en base a lo discutido en el consejo directivo
          - Dar continuidad al proceso de aprobación de crédito
@@ -356,9 +356,9 @@ Historias de usuario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Asesor Administrativo
          - Elaborar las cuentas por cobrar de los usuarios o usuarias cuyos créditos fueron aprobados
          - Dar continuidad al proceso de aprobación de crédito 
@@ -379,7 +379,7 @@ Historias de usuario
  		 - Revertir el pago de las cuotas en el estado de cuenta
 	   * - Cajero
 		 - Registrar los pagos de los beneficiarios o beneficiarias para la cancelación de cuotas de los crédito
-         - Para actualizar el estado de cuenta del crédito del beneficiario o beneficiaria 
+         - Actualizar el estado de cuenta del crédito del beneficiario o beneficiaria 
        * - Cajero
          - Generar un reporte del ingreso diario de caja
          - Poder ser visto por el presidente
@@ -425,9 +425,9 @@ Historias de usuario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Jefe de departamento de presupuesto
          - Verificar la disponibilidad presupuestaria para el pago del crédito al beneficiario o beneficiaria
          - Dar continuidad al proceso de aprobación de crédito 
@@ -440,9 +440,9 @@ Historias de usuario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - a
          - b
          - c
@@ -454,9 +454,9 @@ Historias de usuario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Presidente
          - Conocer cuánto fue el ingreso diario de caja 
          - Evaluar la recuperación de fondos por la institución
@@ -475,9 +475,9 @@ Historias de usuario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Analista de crédito
          - Enviar los expedientes a diferentes dependencias
          - Atender solicitudes de préstamo de expedientes
