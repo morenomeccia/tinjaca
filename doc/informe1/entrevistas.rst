@@ -411,7 +411,7 @@ Seguimiento y Acompañamiento
 
 #. El informe de acompañamiento de la visita se realiza de forma manual en documento de texto. Se requiere que el informe pueda ser incorporado al sistema similar al de los analistas, y con acceso restringido a: la unidad de Seguimiento, los gerentes y presidencia. El informe de acompañamiento se envía a Archivo si el beneficiario o beneficiaria cumplió con los pagos, a Recuperaciones si está moroso y a Consultoría Jurídica cuando por alguna razón se exija el reintegro del dinero.
 
-#. Se propone un formato para generar las minutas a imprimir, que incluya un encabezado con la información del crédito y beneficiario o beneficiaria, campos de chequeo que reduzcan la información de evaluación escrita (requisitos), y un campo de texto para incorporar observaciones adicionales.
+#. Se propone un formato para generar las minutas a imprimir, que incluya un encabezado con la información del crédito y beneficiario o beneficiaria, campos de chequeo que reduzcan la información escrita de la evaluación y un campo de texto para incorporar observaciones adicionales.
 
 #. SISAC posee un sistema de notas que utiliza el departamento de Seguimiento y de Recuperaciones, tanto para creación y consulta. Este sistema posee algunas limitaciones técnicas: número de caracteres corto, implica llenar varias notas sucesivas para un mismo reporte; límite de tiempo que cierra el sistema y pierde la información no guardada.
 
