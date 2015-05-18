@@ -13,44 +13,6 @@ digraph  {
 	edge [fontname="Liberation Sans Narrow Condensed",
 		fontsize=10
 	];
-	subgraph cluster_u {
-		graph [label=<<B>Usuario / Beneficiario</B>>,
-			labeljust=l
-		];
-		u1		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Descargar Propuesta de<br/>Financiamiento</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		u2		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
-                <TR><TD>Introducir Propuesta de<br/>Financiamiento</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		u1 -> u2;
-		u0		 [fillcolor="white:grey",
-			fontsize=10,
-			label="",
-			shape=circle,
-			style=filled,
-			width=0.6,
-			xlabel="Propuesta de
-Financiamiento"];
-		u0 -> u1;
-		u3		 [fillcolor="white:grey",
-			fontsize=10,
-			label="",
-			shape=circle,
-			style="filled, bold",
-			width=0.6,
-			xlabel="Fin Propuesta de
-Financiamiento"];
-		u2 -> u3;
-	}
 	subgraph cluster_ic {
 		graph [label=<<B>Información de Crédito</B>>,
 			labeljust=l
@@ -90,6 +52,44 @@ Financiamiento"];
 			xlabel="Recibir Propuesta de
 Financiamiento"];
 		ic0 -> ic1;
+	}
+	subgraph cluster_u {
+		graph [label=<<B>Usuario</B>>,
+			labeljust=l
+		];
+		u1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Descargar Propuesta de<br/>Financiamiento</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		u2		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
+                <TR><TD>Introducir Propuesta de<br/>Financiamiento</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		u1 -> u2;
+		u0		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Propuesta de
+Financiamiento"];
+		u0 -> u1;
+		u3		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6,
+			xlabel="Fin Propuesta de
+Financiamiento"];
+		u2 -> u3;
 	}
 	subgraph cluster_er {
 		graph [label=<<B>Estadística y Evaluación de Riesgos</B>>,

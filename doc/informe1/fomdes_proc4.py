@@ -15,7 +15,7 @@ import pygraphviz as pgv
 
 __author__ = 'mapologo'
 
-PROCESS_LABEL = "Aprobación de Créditos"
+PROCESS_LABEL = "Liquidación de Créditos"
 # A graph for FOMDES processes
 F = pgv.AGraph(strict=False, directed=True)
 
@@ -29,12 +29,12 @@ se_cluster = {"se7": ("Recibir el documento protocolizado", "start"),
               "se9": ("", "end")}
 
 se_edges = {"se7": {"se8": {}},
-            "se8": {"se9": {"style":"invis"}}}
+            "se8": {"se9": {"style": "invis"}}}
 
 SE = add_cluster(F, "se", "Secretaría Ejecutiva", se_cluster, se_edges)
 
 p_cluster = {"p1": ("Firma del cheque", "human"),
-             "p2": ("Entregar cheque a beneficiario", "human")}
+             "p2": ("Entregar cheque a beneficiario", "message")}
 
 p_edges = {"p1":{"p2": {}}}
 
@@ -56,10 +56,10 @@ F.add_node("SISAC", image="static/database.png", shape="plaintext", label="", xl
 
 global_edges = {"Beneficiario":  {"se7": {"style": "dashed"}},
                 "se8": {"pr2": {"style": "dashed"}},
-                "pr3":{"SIGEFOMDES Administración": {"style": "dashed"}},
-                "pr4":{"SISAC": {"style": "dashed"}},
+                "pr3": {"SIGEFOMDES Administración": {"style": "dashed"}},
+                "pr4": {"SISAC": {"style": "dashed"}},
                 "pr5": {"p1": {"style": "dashed"}},
-                "p2": {"se9": {"style": "dashed"}}}
+                "p2": {"se9": {"style": "dashed"}, "Beneficiario": {"style": "dashed"}}}
 
 add_edges(F, global_edges)
 

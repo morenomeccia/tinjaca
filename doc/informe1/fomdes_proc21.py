@@ -34,7 +34,7 @@ u_edges = {"u4": {"u5": {}},
            "u6": {"u7": {}},
            "u7": {}}
 
-U = add_cluster(F, "u", "Usuario / Beneficiario", u_cluster, u_edges)
+U = add_cluster(F, "u", "Usuario", u_cluster, u_edges)
 
 ic_cluster = {"ic4": ("Recibir Requisitos", "start"),
               "ic5": ("Crear Expediente", "human"),
@@ -43,7 +43,7 @@ ic_cluster = {"ic4": ("Recibir Requisitos", "start"),
 
 ic_edges = {"ic4": {"ic5": {}},
             "ic5": {"ic6": {}},
-            "ic6": {"ic7": {"style":"invis"}}}
+            "ic6": {"ic7": {"style": "invis"}}}
 
 IC = add_cluster(F, "ic", "Información de Crédito", ic_cluster, ic_edges)
 

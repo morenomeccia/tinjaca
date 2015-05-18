@@ -49,7 +49,7 @@ digraph  {
 		ic4 -> ic5;
 	}
 	subgraph cluster_u {
-		graph [label=<<B>Usuario / Beneficiario</B>>,
+		graph [label=<<B>Usuario</B>>,
 			labeljust=l
 		];
 		u5		 [fillcolor="white:grey",
