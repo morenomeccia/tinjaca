@@ -27,7 +27,7 @@ créditos.
          - Actividades
          - Salida
        * - Necesidad de solicitar un crédito
-         - Descargar e introducir planilla de "Propuesta de Financiamiento"
+         - Descargar e introducir planilla "Propuesta de Financiamiento"
          - Propuesta de financiamiento
        * - Propuesta de financiamiento
          - Revisar propuesta e ingresar los datos al sistema WebAdmin para generar código de la propuesta
@@ -36,7 +36,7 @@ créditos.
          - Evaluar la viabilidad de la propuesta y si cumple con las normativas del FOMDES
          - Propuesta viable/no viable
        * - Propuesta viable
-         - Añadir al usuario en la lista del "Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario" y
+         - Añadir usuario a la lista del "Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario" y
            enviar lista de requisitos
          - Usuario convocado para realizar taller
 
@@ -70,10 +70,10 @@ créditos.
          - Reunir y consignar los requisitos
          - Requisitos por sector
        * - Requisitos por sector
-         - Ingresar datos al sistema SIGEFOMDES-Crédito, y crear expediente.
+         - Ingresar datos al sistema SIGEFOMDES-Crédito y crear expediente.
          - Expediente con código por sector
        * - Expediente
-         - Revisar validez legal de la garantía
+         - Revisar validez legal de la garantía para conocer si cumple con las políticas de financiamiento de FOMDES
          - Expediente con control previo
        * - Expediente
          - Verificar la viabilidad económica de la unidad de producción
@@ -83,7 +83,7 @@ créditos.
          - Expediente con informe de avalúo
        * - Expediente
          - Realizar el informe técnico
-         - Expediente con informe técnico (con memoria fotográfica)
+         - Expediente con informe técnico (memoria fotográfica)
        * - Expediente
          - Elaborar lista de expedientes para consideración del Consejo Directivo
          - Lista de expedientes
@@ -123,8 +123,8 @@ créditos.
        * - Expediente
          - Elaborar certificación presupuestaria por sector
          - Certificación presupuestaria por sector
-       * - Lista de expediente para consejo directivo
-         - Convocar al consejo directivo
+       * - Lista de expediente para Consejo Directivo
+         - Realizar agenda con expedientes priorizados y convocar al consejo directivo
          - Acta de créditos aprobados
        * - Acta de créditos aprobados
          - Elaborar el documento de crédito y de ser necesario el documento de la empresa
@@ -162,16 +162,16 @@ créditos.
          - Verificar documentación legal y elaborar certificación de disponibilidad para liquidación del crédito
          - Expediente en regla
        * - Expediente
-         - Ingreso de datos y creación de cuentas en el sistema SIGEFOMDES-Administración y SISAC
+         - Ingresar datos y crear cuentas en el sistema SIGEFOMDES-Administración y SISAC
          - Expediente con cuentas por cobrar y tabla de amortización
        * - Expediente
          - Imprimir y firmar orden de liquidación y cheque
          - Cheque
        * - Cheque firmado por Administración
-         - Firma del cheque
+         - Firmar cheque
          - Cheque firmado por Presidencia
        * - Cheque
-         - Entregar cheque a beneficiario
+         - Entregar cheque a beneficiario en acto público
          - Expediente con copia de orden de liquidación
 
     * **Flujograma**:
@@ -204,9 +204,9 @@ créditos.
          - Informe de verificación de la inversión/Recomendación del beneficiario para liquidaciones sucesivas
        * - Expediente que no cumple con el plan de inversión
          - Solicitar reintegro del crédito
-         - Devolución del crédito
+         - Devolución total del crédito
        * - Expediente
-         - Enviar a Archivo
+         - Ingresar código de expediente a la lista de Archivo
          - Expediente con informe de verificación del plan de inversión
 
     * **Flujograma**:
@@ -221,12 +221,12 @@ créditos.
 
     * **Dependencia responsable**: Administración
 
-    * **Unidad(es) Ejecutora(s)**: Caja
+    * **Unidad(es) Ejecutora(s)**: Caja, Consultoría Juridica
 
     * **Tabla de Actividades**:
 
     .. list-table::
-       :widths: 40 40 40
+       :widths: 40 70 40
        :header-rows: 1
 
        * - Entrada
@@ -234,16 +234,16 @@ créditos.
          - Salida
        * - Beneficiario que desea pagar
          - Consultar estado de cuenta en SISAC
-         - Estado de Cuenta
+         - Estado de cuenta
        * - Cuenta en estado "caja"
          - Recibir pago de cuotas de crédito
-         - Recibo, Original al beneficiario y copia al expediente en Archivo
+         - Recibo original al beneficiario y copia al expediente en Archivo
        * - Último pago
          - Realizar la cancelación total del crédito
          - Solicitud de liberación a Consultoría Jurídica
        * - Cuenta en estado "extrajudicial"
-         - Referir al beneficiario a Recuperaciones
-         - Solicitud de entrevista con abogado de Recuperaciones
+         - Referir beneficiario a Recuperaciones
+         - Solicitud de entrevista con Abogado de Recuperaciones
 
     * **Flujograma**:
 
@@ -263,20 +263,20 @@ créditos.
     * **Tabla de Actividades**:
 
     .. list-table::
-       :widths: 40 40 40
+       :widths: 40 70 40
        :header-rows: 1
 
        * - Entrada
          - Actividades
          - Salida
        * - Expediente que cumple con el plan de inversión
-         - Revisión periódica de carteras y sábanas
+         - Revisar listas de carteras y sábanas
          - Lista de cuotas pagadas/vencidas
        * - Lista de cuotas pagadas/vencidas
-         - Planifica seguimiento y rutas de cobranza
+         - Planificar seguimiento y rutas de cobranza
          - Informe de seguimiento al beneficiario
        * - Cuenta estado "A"
-         - Realizar llamada o mensaje SMS de advertencia
+         - Realizar llamada o enviar mensaje SMS de advertencia
          - Llamada o mensaje SMS de advertencia
        * - Cuenta estado "B","C" o "D"
          - Solicitar entrevista y formular plan de pago
@@ -309,7 +309,7 @@ créditos.
     * **Tabla de Actividades**:
 
     .. list-table::
-       :widths: 40 40 40
+       :widths: 40 70 40
        :header-rows: 1
 
        * - Entrada
