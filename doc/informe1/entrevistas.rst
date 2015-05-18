@@ -7,7 +7,7 @@ A continuación se presentan los resúmenes de las entrevistas realizadas en las
 Gerente de sistemas
 ===================
 
-31 de Marzo de 2015 
+31 de Marzo de 2015
 -------------------
 
 #. Primera aproximación sobre necesidades de actualización de las formas de trabajo institucional:
@@ -84,15 +84,15 @@ Gerente de sistemas
 
 #. No existe un formato para hacer una orden de compra en la gerencia de administración.
 
-#. En la ruta del expediente, no existe un historial de inserción de documentos en el expediente. 
+#. En la ruta del expediente, no existe un historial de inserción de documentos en el expediente.
 
-#. En archivo, se lleva una lista interna de a quien se le presta el expediente en la herramienta ofimática LibreOffice Calc. 
+#. En archivo, se lleva una lista interna de a quien se le presta el expediente en la herramienta ofimática LibreOffice Calc.
 
 #. No están definidos los roles de usuarios en el sistema.
 
-#. Acompañamiento, usa indicadores para saber la cantidad de empleos generados directos e indirectos por cada crédito. 
+#. Acompañamiento, usa indicadores para saber la cantidad de empleos generados directos e indirectos por cada crédito.
 
-#. Estadística y evaluación de riesgo utilizan el sistema informático WebAdmin que se utiliza en las gerencias de crédito y recuperaciones. 
+#. Estadística y evaluación de riesgo utilizan el sistema informático WebAdmin que se utiliza en las gerencias de crédito y recuperaciones.
 
 #. Los códigos utilizados por FOMDES para identificar los 7 sectores empresariales son:
 
@@ -104,51 +104,51 @@ Gerente de sistemas
 	* AGR  -> agrícola
 	* T    -> turismo
 
-#. El sector de ciencia y tecnología entra como MEP, PYME y PYMI 
+#. El sector de ciencia y tecnología entra como MEP, PYME y PYMI
 
 #. Los sectores de mayor demanda en FOMDES son PYMI y AGR.
 
-#. No existe una consulta general del expediente. 
+#. No existe una consulta general del expediente.
 
 #. Cuando un beneficiario o beneficiaria presenta deudas recibe una llamada de advertencia.
 
 #. Un beneficiario moroso o beneficiaria morosa en FOMDES tiene dos alternativas para cancelar sus deudas:
- 
+
 	* Pagar en la caja del FOMDES (al día) o pagar en las taquillas exprés (distintos puntos de Mérida). El recibo de caja se diferencia con la letra "C" y de taquilla con la letra "X".
 	* Efectuar el pago a través de un operativo de cobranza. Los operativos de cobranza se efectúan por municipio (alcaldía) y visitan a los beneficiarios morosos o beneficiarias morosas para que se dirijan al punto de la taquilla exprés para cancelar cuota.
 
 #. Si un beneficiario moroso o beneficiaria morosa no cancela sus deudas a tiempo, es citado o citada, si no cumple con el acuerdo de pago, es demandado para la ejecución de garantía (bloqueo en caja).
 
-#. En las taquillas de pago se revisan las cuentas por cobrar utilizando el sistema informático SISAC. El sistema SISAC también registra los datos de pago del recibo, simula el pago (vista previa del recibo), registra el pago (genera el recibo) e imprime el recibo. 
+#. En las taquillas de pago se revisan las cuentas por cobrar utilizando el sistema informático SISAC. El sistema SISAC también registra los datos de pago del recibo, simula el pago (vista previa del recibo), registra el pago (genera el recibo) e imprime el recibo.
 
 #. Si hay un dato erróneo en el sistema de pago es necesario llamar a sistemas para que lo corrija de manera manual en la base de datos (casos de cancelación total del crédito).
 
 #. Se entrega un recibo original al beneficiario o beneficiaria y se archiva una copia del recibo en el expediente.
 
-#. En la gerencia de Administración y Finanzas, el departamento de contabilidad realiza la revisión de los pagos recibidos. 
+#. En la gerencia de Administración y Finanzas, el departamento de contabilidad realiza la revisión de los pagos recibidos.
 
 #. Los cheques devueltos por el beneficiario o beneficiaria conllevan a la anulación del recibo (SISAC) lo que altera en la base de datos el record de pago del beneficiario o beneficiaria.
 
 #. Estaciones y procesos del expediente en FOMDES:
-	
+
 	#) Crédito:
 
-		* Información de crédito: recepción, revisión e inserción del expediente. 
+		* Información de crédito: recepción, revisión e inserción del expediente.
 		* Estadística y evaluación de riesgo: elabora lista de beneficiarios y beneficiarias para el taller.
 		* Análisis jurídico: revisión de los documentos legales, para conocer si las garantías cumplen o no con las políticas de financiamiento
 		* Análisis económico: realiza una inspección y avalúo, los cuales son plasmados en el informe técnico (ya la minuta fue eliminada). Los y las analistas económicos de crédito son los que definen los lapsos de pago. Plazo máximo de 48 cuotas (4 años) con un máximo de 10% de interés anual. Las cuotas son mensuales, bimensuales, trimestrales, cuatrimestral, pentamestral, semestral, anual y bianual.
 		* Gerente de crédito: revisa la propuesta para aprobar/rechazar.
 		* Secretaría ejecutiva: revisión del expediente; convoca consejo directivo para aprobar/negar crédito (los negados vuelven a crédito para ser reconsiderados); levanta acta de asistencia del consejo; realiza minuta del consejo; redacta y entrega el documento de crédito al beneficiario o beneficiaria para ser notariado, además del documento de constitución de empresas (requisitos) para ser llevado al registro mercantil. Una vez recibido el documento del crédito protocolizado es envíado a la gerencia de administración.
-	
+
 	#) Administración:
-	
+
 		* Gerencia de Administración y finanzas: inserta los datos al sistema y elabora cuentas por cobrar (SIGEFOMDES); elabora las tablas de amortización (SISAC); elabora el cheque con la firma del o la gerente de administración y lo pasa a presidencia para ser firmado.
 		* Presidencia: revisa y firma el cheque; lo envía de nuevo a secretaría ejecutiva para planificar la entrega del crédito en acto político con el Gobernador. El expediente es envíado a acompañamiento (es parte de crédito) y a la gerencia de recuperaciones. Estos procesos van de la mano.
 		* Acompañamiento: verifican si cumple con el plan de inversión, de ser así, se pasa a la gerencia de recuperaciones, si no cumple con el plan de inversión se pasa a consultoría jurídica para el reintegro del crédito.
-	
+
 	#) Recuperaciones:
 
-		* Recuperaciones: revisa cuentas por cobrar/exoneraciones (casos extremos); actualiza el seguimiento/direcciones (ejecutivos de calle); administra las carteras de cobranza y define las rutas de cobranza por municipio. 
+		* Recuperaciones: revisa cuentas por cobrar/exoneraciones (casos extremos); actualiza el seguimiento/direcciones (ejecutivos de calle); administra las carteras de cobranza y define las rutas de cobranza por municipio.
 		* Cartera de cobranza (quienes deben): es una lista de beneficiarios y beneficiarias a cobrar por cada ejecutivo o ejecutiva de cobranza.
 		* Sábanas (cuanto debe cada uno): es una consulta de todos los detalles asociados a la deuda de cada uno de los beneficiarios y las beneficiarias asignados a cada ejecutivo y ejecutiva de cobranza.
 
@@ -334,8 +334,8 @@ Administración
 #. El sistema arroja una lista de créditos cancelados en su totalidad. Por errores de cálculo, el sistema no indica la "Cancelación Total", lo que requiere una llamada de Caja a Sistemas para cambiar el estado. Se busca el expediente y se consolida la información de los sistemas informáticos SISAC y SIGEFOMDES. Se verifica recibo por recibo y se realiza el ajuste de céntimos. Entonces, se pasa al departamento de Consultoría Jurídica para elaborar el Documento de Liberación.
 
 
-Análisis Jurídico 
-================= 
+Análisis Jurídico
+=================
 
 9 de Abril de 2015
 ------------------
@@ -359,8 +359,8 @@ Análisis Económico
 ==================
 
 9 de Abril de 2015
------------------- 
- 
+------------------
+
 #. En la estación de Análisis Económico de la Gerencia de Crédito se encargan de hacer dos estudios: un aval de garantías (en el caso de hipotecas y en el caso de garantías prendatarias sin desplazamiento) y un informe de actividad económica, que tiene que ver con un estudio básico sobre la actividad propuesta para financiamiento y las condiciones expresadas en el proyecto para ello.
 
 #. Se realiza una inspección para conocer si la garantía cubre o no el crédito (la misma debe ser 2 veces mayor al crédito). En la inspección se utilizan dos instrumentos: un informe técnico (evaluación) y minuta (datos del crédito), para créditos mayores a 200.000 BsF. Para las visitas de inspección del aval de garantías, se dispone de 4 formatos distintos: para pyme, pymi y artesanía, agrícola vegetal, agrícola animal y turismo.
@@ -376,7 +376,7 @@ Análisis Económico
 #. Tanto en el informe técnico como en la minuta, se repite información por lo que sugieren se unifiquen en un sólo formato. En general un analista económico revisa los estados financieros de la empresa, es decir, si esta produciendo o no.
 
 
-Secretaría Ejecutiva 
+Secretaría Ejecutiva
 ====================
 
 9 de Abril de 2015
@@ -452,29 +452,29 @@ Gerencia de Recuperaciones
 
 #. Las carteras (menos detalle) y las sábanas (más detalle), son los listados de expedientes en la gerencia de recuperaciones, con información del crédito (cuotas = capital + interés).
 
-#. Manejan dos fechas límites para el pago de las cuotas, los días 3 y 17 de cada mes. 
+#. Manejan dos fechas límites para el pago de las cuotas, los días 3 y 17 de cada mes.
 
-#. Los estados de cuentas se ubican por cédula y expediente. 
+#. Los estados de cuentas se ubican por cédula y expediente.
 
 #. Se quiere que cada ejecutivo o ejecutiva, tenga asignado automáticamente una cierta cantidad de expedientes y filtrarlos por criterios para los reportes en el que se muestren las cuotas que están más próximas a vencerse (de mayor a menor, diferenciadas por colores).
 
-#. Los pagos de las cuotas de la caja exprés van a la bases de datos, pero se actualiza cada 3 meses. 
+#. Los pagos de las cuotas de la caja exprés van a la bases de datos, pero se actualiza cada 3 meses.
 
-#. No existe una diferenciación en el sistema entre "deuda vigente" y "deuda vencida", todo se llama deuda vencida. 
+#. No existe una diferenciación en el sistema entre "deuda vigente" y "deuda vencida", todo se llama deuda vencida.
 
-#. En FOMDES existen alrededor de 18 a 20 mil expedientes. 
+#. En FOMDES existen alrededor de 18 a 20 mil expedientes.
 
 #. Los intereses de los meses de gracia (que son como mínimo 3 meses de intereses que dependen del sector) son sumados al total del crédito (capital + intereses) de manera manual y si se cancela por adelantado, son descontados.
 
 #. Los 15 ejecutivos y ejecutivas activos hacen contacto con aproximadamente 25 beneficiarios o beneficiarias al día (en promedio 500 al mes), pero este proceso no se refleja en el sistema, sino en las listas manuales realizadas con la herramienta ofimática LibreOffice Calc en la que filtran por fecha y otros lo llevan en un cuaderno personal.
 
 #. Solo 1 abogado o abogada, es el encargado de realizar, en casos extremos de morosidad, la misma función de los ejecutivos o ejecutivas con los pagos de las carteras. Existen 3 estatus de morosidad: extrajudicial, cuando el abogado o la abogada actúa, y se bloquean los pagos en caja hasta tanto el beneficiario o beneficiaria no se entreviste con el mismo para ser desbloqueado; liberado, cuando el beneficiario y beneficiaria paga la totalidad y consultoría jurídica libera la hipoteca o fianza; y la última es demanda.
-   
-#. Las cuotas para el pago son fijas (capital + intereses) y se pueden pagar en abonos previo acuerdo con el FOMDES. Se recargara el 3% diario de mora sobre la tasa de interés. 
+
+#. Las cuotas para el pago son fijas (capital + intereses) y se pueden pagar en abonos previo acuerdo con el FOMDES. Se recargara el 3% diario de mora sobre la tasa de interés.
 
 #. La gerencia de Recuperaciones no ingresa nada en físico al expediente.
 
-#. En la gerencia de recuperaciones se trabaja con el sistema informático SISAC.   
+#. En la gerencia de recuperaciones se trabaja con el sistema informático SISAC.
 
 #. Se hace una conciliación de datos entre el sistema informático utilizado en la gerencia de administración (SIGEFOMDES) y el sistema informático utilizado en la gerencia de recuperaciones (SISAC), ya que si en el primero se hace un pago, en el segundo, este pago se debe actualizar de manera manual.
 
@@ -514,12 +514,12 @@ Gerencia de sistemas
 #. Los sistemas informáticos de las gerencias de Crédito, la gerencia de Administración y Recuperaciones están separados y tienen bases de datos distintas en servidores independientes. Sin embargo, las gerencias de administración y recuperaciones tienen bases de datos distintas, pero comparten el mismo servidor. Cuando la gerencia de administración realiza el balance general de comprobación, este puede llegar a durar 6 horas, ya que hace un barrido desde el año 2001 en los créditos activos que hay a la fecha. Debido al tiempo que toman, estos balances son realizados de noche para no obstaculizar el proceso en el día. Los resultados de los balances no se guardan en la bases de datos porque son acumulativos, sino en físico (impresos).
 
 #. El entrevistado en la gerencia de sistemas propone que los cálculos de la gerencia de recuperaciones se pueden optimizar, cuando se haga esto, debe tomarse en cuenta el cambio de las políticas y las tasas de interés.
- 
+
 #. La gerencia de Sistemas tiene 4 servidores activos: Uno para la ruta del crédito; otro para el respaldo de la bases de datos, SISAC, SIGEFOMDES, capta huella; otro para la impresión de documentos y el último para la vigilancia de la institución.
 
-#. También existen otros sistemas informáticos en la institución de los que se encarga la gerencia de sistemas: Webchat (chat interno entre los trabajadores), WebAdmin (información de crédito) y Foncismac (monitoreo de los equipos con la dirección IP). 
+#. También existen otros sistemas informáticos en la institución de los que se encarga la gerencia de sistemas: Webchat (chat interno entre los trabajadores), WebAdmin (información de crédito) y Foncismac (monitoreo de los equipos con la dirección IP).
 
-#. La información de crédito se debe hacer a través de reportes con conteos sencillos. 
+#. La información de crédito se debe hacer a través de reportes con conteos sencillos.
 
 #. Los reportes se deben poder generar utilizando filtros. Actualmente se extraen de la base de datos de manera manual.
 
@@ -527,15 +527,15 @@ Gerencia de sistemas
 
 #. La gerencia de administración tiene un ingreso no reportado por pago de los beneficiarios o beneficiarias, del cual no puede disponer hasta que no se contraste con los vaucher originales.
 
-#. Los reportes de las carteras de cobranza (personas al día y morosos) se hacen una vez por mes pero deberían actualizarse constantemente. 
+#. Los reportes de las carteras de cobranza (personas al día y morosos) se hacen una vez por mes pero deberían actualizarse constantemente.
 
-#. Los reportes de las gerencias de seguimiento y de recuperaciones son diferentes, los reportes de la gerencia de recuperaciones poseen mayor detalle ya que reflejan las cobranzas. 
+#. Los reportes de las gerencias de seguimiento y de recuperaciones son diferentes, los reportes de la gerencia de recuperaciones poseen mayor detalle ya que reflejan las cobranzas.
 
 #. Se sugiere que el nuevo sistema informático que utilicen las gerencias de crédito y recuperaciones debe ser flexible; y tener portabilidad para que se ajuste a las nuevas políticas y a las exigencias de cada presidente. Otra característica deseable del nuevo sistema es, que sea de fácil mantenimiento.
 
-#. El sistema informático que utiliza Caja tiene problemas con el manejo de los céntimos. 
+#. El sistema informático que utiliza Caja tiene problemas con el manejo de los céntimos.
 
-#. La gerencia de sistemas recomienda integrar los expedientes desde cero (creación) hasta la liberación del crédito en recuperación. 
+#. La gerencia de sistemas recomienda integrar los expedientes desde cero (creación) hasta la liberación del crédito en recuperación.
 
 
 Estadística y Análisis de Riesgos
@@ -596,7 +596,7 @@ Presupuesto
 
 #. El departamento de presupuesto hace un control interno y procesa todas las certificaciones presupuestarias que se inician cuando el crédito está próximo a ser aprobado. Este proceso se hace manualmente en una hoja de la herramienta ofimática LibreOffice Calc. El jefe del departamento de presupuesto debe consultar los sistemas informáticos SIGEFOMDES Administración, SIGEFOMDES Crédito y SISAC para actualizar de manera manual su hoja de trabajo.
 
-#. Cada sector tiene una partida presupuestaria por separado. 
+#. Cada sector tiene una partida presupuestaria por separado.
 
 #. La gerencia de administración se divide en dos procesos: presupuesto que compromete los gastos, y contabilidad que causa y paga lo estipulado. Estos dos procesos no se comunican a través de ningún sistema. Para llevar la contabilidad, se utiliza el sistema informático SISAC.
 
@@ -610,7 +610,7 @@ Presupuesto
 
 #. Existen dos entradas de capital para los créditos: del situado mensual de la gobernación (equivalente al 3.5 del presupuesto de estado) y los ingresos propios que provienen de recuperaciones.
 
-#. El capital total del FOMDES está formado por capital otorgado (y obtenido de las recuperaciones) y los intereses (mora + capital). 
+#. El capital total del FOMDES está formado por capital otorgado (y obtenido de las recuperaciones) y los intereses (mora + capital).
 
 #. El consejo directivo puede revocar un crédito por 3 causas; la primera es que no llegue el documento de Crédito a Secretaría Ejecutiva; la segunda es que el beneficiario o beneficiaria rechace el crédito por ser insuficiente; y la tercera es que el beneficiario o beneficiaria no cumpla con el plan de inversión.
 
