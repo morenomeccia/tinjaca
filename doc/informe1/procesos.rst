@@ -2,7 +2,7 @@
 Procesos y Flujogramas
 **********************
 
-A continuación se presentan los procesos identificados para la estructura funcional actual del
+Los procesos fueron modelados usando la notación gráfica Business Process Modeling Notation (BPMN) para describir la secuencia de los procesos y mensajes que fluyen entre las gerencias que realizan las diferentes actividades del FOMDES. A continuación se presentan los procesos identificados para la estructura funcional actual del
 FOMDES en lo relativo a la asignación, acompañamiento en la ejecución y recuperación de los
 créditos.
 
@@ -121,8 +121,8 @@ créditos.
          - Revisar lista de expedientes junto con presidencia
          - Lista de expedientes priorizada
        * - Expediente
-         - Elaborar certificación presupuestaria por sector
-         - Certificación presupuestaria por sector
+         - Elaborar certificación presupuestaria y financiera por sector
+         - Certificación presupuestaria y financiera por sector
        * - Lista de expediente para Consejo Directivo
          - Realizar agenda con expedientes priorizados y convocar al consejo directivo
          - Acta de créditos aprobados
