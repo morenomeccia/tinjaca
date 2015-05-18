@@ -391,6 +391,51 @@ Secretaría Ejecutiva
 #. Existe un listado de estaciones para hacer un seguimiento interno de los procesos por los cuales va pasando el expediente y una condición: exonerado (en caso de muerte del beneficiario o beneficiaria con hijos o hijas menores de edad, vaguadas, etc), negado, aprobado, aprobado condicionado, aprobado especial, diferido y revocado. Se sugiere que el sistema deba reflejar qué le falta al expediente y en qué condición se encuentra. Las letras de cambio de aval con garantía se llevan en el software de ofimática Libre Office Calc. Secretaría ejecutiva y la gerencia de administración no se conectan entre sí, por lo que se debe permitir modificar los datos del expediente, ya que, por ejemplo, los datos del conyugue no son vaciados por información de crédito, pero para secretaría ejecutiva son importantes.
 
 
+Seguimiento y Acompañamiento
+============================
+
+10 de Abril de 2015
+-----------------
+
+#. El departamento pertence a la gerencia de crédito, se encarga de verificar el plan de la inversión que se encuentra en el expediente presentado por administración y de hacer las inspecciones.
+
+#. Administración pasa listas de créditos liquidados a Seguimiento. Estas listas son elaboradas en forma manual.
+
+#. Seguimiento tiene acceso a los sistemas SIGEFOMDES-crédito y SISAC, para información de crédito y estados de cuenta respectivamente.
+
+#. El personal lleva control de los expedientes asignados en hojas de cálculo, con información de ambos sistemas y otros datos adicionales.
+
+#. También se lleva control de los usuarios y usuarias atendidos por la oficina con registro de fecha y hora, utilizando hoja de cálculo.
+
+#. También se tienen los expedientes en físico de los créditos asignados a esta estación, para contar con toda la información. Estos son llevados a campo en las visitas lo que representa un peligro al resguardo de la información.
+
+#. Se puede tener acceso a todos los expedientes del sistema. Advierten que sólo deberían tener acceso a aquellos que se encuentren asignados a esta estación.
+
+#. El informe de acompañamiento de la visita se realiza de forma manual en documento de texto. Se requiere que el informe pueda ser incorporado al sistema similar al de los analistas, y con acceso restringido a: la unidad de Seguimiento, los gerentes y presidencia. El informe de acompañamiento se envía a Archivo si el beneficiario cumplio con los pagos, a Recuperaciones si esta moroso y a Consultoria Juridica cuando por alguna razon se exiga el reintegro del dinero.
+
+#. Se propone un formato para generar las minutas a imprimir, que incluya un encabezado con la información del crédito y beneficiario o beneficiaria, campos de chequeo que reduzcan la información de evaluación escrita (requisitos), y un campo de texto para incorporar observaciones adicionales.
+
+#. SISAC posee un sistema de notas que utiliza el departamento de Seguimiento y de Recuperaciones, tanto para creación y consulta. Este sistema posee algunas limitaciones técnicas: número de caracteres corto, implica llenar varias notas sucesivas para un mismo reporte; límite de tiempo que cierra el sistema y pierde la información no guardada.
+
+#. Al momento de realizar la ruta de visitas, conviene seleccionar por cercanía, utilizando zonas o sectores de la ciudad y no por parroquias, como ofrece el sistema.
+
+#. Una vez que secretaría ejecutiva aprueba el crédito, los únicos que pueden modificar los datos del expediente son: acompañamiento, el o la gerente de credito, recuperaciones y consultoría jurídica.
+
+#. Los cambios de dirección de los beneficiarios representa un asunto complicado. Por un lado, la edición de información de crédito como la dirección, no son percibidos en Recuperaciones, por lo que se trabaja con las notas que no siempre son consideradas. Por otro lado, el sistema no contempla la edición de los campos de municipio y parroquia.
+
+#. Se desea poder incluir datos de georeferencia para facilitar la localización y creación de rutas a visitar.
+
+#. Otro formato utilizado es la notificación de acompañamiento, que se deja en el sitio de visita cuando no son atendidos por el beneficiario o la beneficiaria.
+
+#. Se desea incorporar un formato de minuta para atención en oficina, para ser firmada por los beneficiarios o las beneficiarias, donde se incluyan las declaraciones hechas por los mismos como soporte.
+
+#. Cada crédito requiere una visita por cada desembolso liquidado. En caso de no ser atendido, se debería realizar un máximo de dos visitas. Debe llevarse registro de esto.
+
+#. Existe también el formato de charla, que también debe ser firmado en físico.
+
+#. El sistema permite enviar el expedientes a otra estación. Esta funcionalidad presenta deficiencias en funcionalidades requeridas, por ejemplo, agregar una nota de un punto a resaltar para que sea considerado en la estación destino. Cada expediente lleva un historial de todos los cambios de estación que puede ser consultado.
+
+
 Gerencia de Recuperaciones
 ==========================
 
@@ -576,4 +621,5 @@ Presupuesto
 #. El jefe del departamento de presupuesto hace la certificación presupuestaria por cada sector (situado de la gobernación + ingresos propios) ante el consejo directivo para aprobar el crédito. El consejo directivo emite un acta con los aprobados para que el jefe de departamento de presupuesto realice un control previo (visual) a cada expediente para verificar si tiene todos los requisitos, y anexa a cada uno la certificación de disponibilidad del dinero para la liquidación del crédito.
 
 #. La ONAPRE es un catálogo de cuentas del Estado y FOMDES se debe regir por este clasificador para la parte presupuestaria y contable.
+
 
