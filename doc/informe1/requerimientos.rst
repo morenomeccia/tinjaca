@@ -499,4 +499,3 @@ Requerimientos
 	* T > turismo
 
 #. Recalcular los intereses de las cuotas por cheques devueltos.
-
