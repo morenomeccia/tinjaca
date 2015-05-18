@@ -109,7 +109,7 @@ Hitos con elaboración de reportes de manera manual
 
 
 
-
+**TEXTO A REVISAR**
 
 
 # La oficina de Estadística (Crédito), recibe una a una las carpetas en físico con las
