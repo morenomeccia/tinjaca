@@ -447,7 +447,7 @@ Acompañamiento
 ==============
 
 10 de Abril de 2015
------------------
+-------------------
 
 #. El departamento pertenece a la gerencia de crédito, se encarga de verificar el plan de la inversión que se encuentra en el expediente presentado por administración y de hacer las inspecciones.
 
