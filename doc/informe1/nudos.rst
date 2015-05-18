@@ -2,17 +2,17 @@
 Nudos Críticos de los procesos
 ******************************
 
-Sobre los actuales cinco sistemas utilizados en FOMDES, se evidencian problemas
+Sobre los actuales cinco sistemas informáticos utilizados en FOMDES, se evidencian problemas
 estructurados relativos a acceso de información, vinculación entre éstos,
 portabilidad  de los datos e interoperabilidad entre otros. Estos problemas estructurados
 parecen ser consecuencia de la necesidad de atender a solicitudes puntuales por parte de los
-usuarios funcionales de éstos y a la falta de planificación en su desarrollo.
+usuarios funcionales de los mismos y a la falta de planificación en su desarrollo.
 
-Aunque esta metodología de desarrollo ha incidido de modo determinante en el modo en que se
+Aunque esta metodología de desarrollo ha incidido de modo determinante en la forma en que se
 manifiestan las relaciones interfuncionales dentro de FOMDES, generando duplicación de tareas,
-hitos con transcripción de datos y doble verificación manual, es responsable declarar que la
-posibilidad de diseño y programación de estos sistemas con recursos internos del FOMDES supone,
-en  si mismos, un valor añadido que no se presenta con frecuecia en otros entes y otras instancias de la Administración Pública Nacional en sus distintos niveles.
+hitos con transcripción de datos y doble verificación manual entre otros, es responsable declarar
+que la posibilidad de diseño y programación de estos sistemas con recursos internos del FOMDES supone,
+en  si mismo, un valor añadido que no se presenta con frecuecia en otros entes y otras instancias de la Administración Pública Nacional en sus distintos niveles.
 
 En planificación estratégica, los *Nudos Críticos* son los elementos más claramente identificables
 como causantes de un problema conocido. Constituyen factores álgidos cuya atención y resolución
@@ -21,11 +21,26 @@ neurálgicos para el sistema sino que también, en términos factibles, pueden s
 
 Sobre el sistema integral que nos ocupa construir, a continuación se identifican los
 distintos nudos críticos cuya resolución generará alto impacto en términos de coadyuvar a la
-generación de nuevas prácticas de uso y adecuación del sistema a la gestión del FOMDES.
+construcción de nuevas prácticas de uso y adecuación del sistema a la gestión del FOMDES.
 
 
 Hitos con transcripción manual de datos
 =======================================
+
+En un sistema informático complejo, aunque casi completamente lineal, como el del FOMDES, la
+transcripción de datos debería hacerse sólo en el punto inicial.
+
+Actualmente, el uso de varios sistemas, en ocasiones de modo simultáneo, aunado a la falta de
+comunicación entre ellos y la reducida estandarización de las tareas realizadas, supone en ocasiones
+ la transcripción y retranscripción de algunos datos de los expedientes.
+
+Por sólo nombrar algunos, diremos que se destaca la transcripción de datos al sistema
+SIGEFOMDES-Crédito cuando la persona solicitante entrega los recaudos enviados tras su participación en el taller, pese a que ya algunos de esos datos han sido introducidos en el sistema WebAdmin durante la solicitud de
+información sobre opciones de crédito.
+
+Igualmente, en Análisis Jurídico debe transcribirse el contenido de los documentos legales de
+garantía, y en Gerencia de Administración deben cotejarse pagos con sus respectivos asientos
+contables de forma manual.
 
 
 Hitos con utilización de software de apoyo distinto a los sistemas en uso
@@ -40,7 +55,12 @@ Hitos con verificación manual de información del sistema
 ========================================================
 
 
+Hitos sin información en línea a solicitante o persona beneficiaria
+===================================================================
 
+
+Hitos con elaboración de reportes de manera manual
+==================================================
 
 
 
