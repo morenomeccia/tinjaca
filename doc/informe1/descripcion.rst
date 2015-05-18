@@ -5,8 +5,9 @@ Descripción General
 Objetivo del informe
 ====================
 
-El presente informe corresponde a la Etapa 1 del proyecto **Sistema Integrado para el Control
-Administrativo de FOMDES (TINJACÁ)**, relativo al Diagnóstico de requerimientos y nudos críticos con duplicaciones de procesos en los sistemas actuales del FOMDES.
+El presente informe corresponde a la Etapa 1 del proyecto **Sistema Integrado para el Control Administrativo de FOMDES
+(TINJACÁ)**, relativo al Diagnóstico de requerimientos y nudos críticos con duplicaciones de procesos en los sistemas
+actuales del FOMDES.
 
 En el documento se encuentra una descripción de los procesos que actualmente se desarrollan en el
 FOMDES, conocidos a partir de las visitas realizadas a la institución y la consulta a los documentos
@@ -14,11 +15,11 @@ facilitados en la realización de labores de consultoría.
 
 Dichos procesos se complementan con la descripción de los flujos de información y tareas realizadas
 en la actualidad por la institución, a partir de los cuales se identificaron los nudos críticos
-observados tanto en procesos como en flujos de información y tares, como los requerimientos
-presentados por las unidades consultadas y también los dereivaos de la observación de los procesos
+observados tanto en procesos como en flujos de información y tareas, como los requerimientos
+presentados por las unidades consultadas y también los derivados de la observación de los procesos
 de FOMDES.
 
-En el desarrollo de esta actvidad, se ha utilizado las herramientas ofrecidas por las metodologías
+En el desarrollo de esta actvidad, se han utilizado las herramientas ofrecidas por las metodologías
 ágiles. En este sentido, la sección **Requerimientos** presenta dos sub-secciones. De una parte las
 llamadas *historias de usuarios*, entendidas como relatos por parte de los usuarios de los sistemas
 sobre deseos con respecto a éste. Y por la otra, en términos de la funcionalidad del sistema, cuáles
