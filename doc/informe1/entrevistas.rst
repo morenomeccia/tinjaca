@@ -401,9 +401,7 @@ Seguimiento y Acompañamiento
 
 #. Administración pasa listas de créditos liquidados a Seguimiento. Estas listas son elaboradas en forma manual.
 
-#. Seguimiento tiene acceso a los sistemas informáticos SIGEFOMDES-crédito y SISAC, para información de crédito y estados de cuenta, respectivamente.
-
-#. El personal lleva control de los expedientes asignados en hojas de cálculo, con información de ambos sistemas y otros datos adicionales.
+#. Seguimiento tiene acceso a los sistemas informáticos SIGEFOMDES-crédito y SISAC, para información de crédito y estados de cuenta, respectivamente. El personal lleva control de los expedientes asignados en hojas de cálculo, con información de ambos sistemas y otros datos adicionales.
 
 #. También se lleva control de los usuarios y usuarias atendidos por la oficina con registro de fecha y hora, utilizando hoja de cálculo.
 
@@ -411,7 +409,7 @@ Seguimiento y Acompañamiento
 
 #. Se puede tener acceso a todos los expedientes del sistema. Advierten que sólo deberían tener acceso a aquellos que se encuentren asignados a esta estación.
 
-#. El informe de acompañamiento de la visita se realiza de forma manual en documento de texto. Se requiere que el informe pueda ser incorporado al sistema similar al de los analistas, y con acceso restringido a: la unidad de Seguimiento, los gerentes y presidencia. El informe de acompañamiento se envía a Archivo si el beneficiario cumplio con los pagos, a Recuperaciones si esta moroso y a Consultoria Juridica cuando por alguna razon se exiga el reintegro del dinero.
+#. El informe de acompañamiento de la visita se realiza de forma manual en documento de texto. Se requiere que el informe pueda ser incorporado al sistema similar al de los analistas, y con acceso restringido a: la unidad de Seguimiento, los gerentes y presidencia. El informe de acompañamiento se envía a Archivo si el beneficiario o beneficiaria cumplió con los pagos, a Recuperaciones si está moroso y a Consultoría Jurídica cuando por alguna razón se exija el reintegro del dinero.
 
 #. Se propone un formato para generar las minutas a imprimir, que incluya un encabezado con la información del crédito y beneficiario o beneficiaria, campos de chequeo que reduzcan la información de evaluación escrita (requisitos), y un campo de texto para incorporar observaciones adicionales.
 
