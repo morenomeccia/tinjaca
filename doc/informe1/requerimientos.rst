@@ -38,6 +38,12 @@ Historias de usuario
 		* - Solicitante / Beneficiario o Beneficiaria
 		  - Efectuar pagos en línea (con TDC) 
 		  - Cancelar más fácilmente mis deudas con la institución  
+		* - Solicitante / Beneficiario o Beneficiaria
+		  - Registrar en línea los pagos efectuados mediante transferencia o depósito 
+		  - Cancelar más fácilmente mis deudas con la institución
+		* - Solicitante / Beneficiario o Beneficiaria
+		  - Tener uno o más expedientes asociados con fecha de vencimiento que coincida con la fecha de liberación del crédito 
+		  - Poder realizar pagos de cuotas en Caja
 
 
 **Atención al Ciudadano**
@@ -121,7 +127,11 @@ Historias de usuario
 		  - Disponer de esta información en el sistema para su futuro uso
 		* - Analista de crédito
 		  - Enviar el expediente a la estación de Análisis Jurídico
-		  - Dar continuidad al proceso de evaluación de propuestas		 
+		  - Dar continuidad al proceso de evaluación de propuestas
+		* - Analista de crédito
+		  - Adaptar la solicitud de requisitos de acuerdo al sector, a los montos, a los rubros y tipo de empresa.
+		  - Facilitar el proceso de recepción de propuestas
+		 
 
 		 
 **Estadística y Análisis de Riesgo**
@@ -251,8 +261,11 @@ Historias de usuario
 		* - Gerente de crédito
 		  - Realizar reportes por municipio, por rubro, por estatus y por rango de fechas 
 		  - Generar información estadística
+		* - Gerente de crédito
+		  - Distribuir a los analistas económicos por municipios y parroquias para realizar las inspecciones 
+		  - Optimizar los tiempos por los traslados
 
-		 
+
 **Gerencia de Acompañamiento**
 ------------------------------
 
@@ -282,8 +295,11 @@ Historias de usuario
 		  - Consultar la información del crédito
 		  - Verificar el plan de inversión		 
 		* - Jefe de acompañamiento
+		  - Consultar del expediente el apodo del beneficiario o beneficiaria
+		  - Facilitar su localización durante las visitas a los pueblos
+		* - Jefe de acompañamiento
 		  - Llevar un registro de los usuarios atendidos por fecha y hora
-		  - llevar control interno
+		  - Llevar control interno
 		* - Jefe de acompañamiento
 		  - Generar y almacenar un informe de acompañamiento de cada visita realizada
 		  - Dar continuidad al proceso de crédito
@@ -530,27 +546,7 @@ Historias de usuario
 		* - Jefe de departamento de presupuesto
 		  - Verificar la disponibilidad presupuestaria para el pago del crédito al beneficiario o beneficiaria
 		  - Dar continuidad al proceso de aprobación de crédito 
-
 		 
-**Gerencia de Sistemas**
-------------------------
-
-	.. list-table::
-		:widths: 40 40 40
-		:header-rows: 1
-
-		* - 
-			| Como  
-			| (Rol)
-		  - 
-			| Quiero 
-			| (Labor)
-		  - 
-			| Para 
-			| (Objetivo)
-		* - a
-		  - b
-		  - c
 
 **Presidencia**
 ---------------
@@ -601,29 +597,38 @@ Historias de usuario
 		* - Encargado o encargada de archivo
 		  - Llevar una lista de los expedientes prestados 
 		  - Llevar un seguimiento de los expedientes
+		* - Encargado o encargada de archivo
+		  - Llevar un historial con detalle para el movimiento de los expedientes 
+		  - Llevar un seguimiento de los expedientes
 		 
+
+**Gerencia de Sistemas**
+------------------------
+
+    .. list-table::
+       :widths: 40 40 40
+       :header-rows: 1
+
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
+       * - Gerente de Sistemas
+         - El sistema sea de fácil mantenimiento
+         - Garantizar el funcionamiento del sistema
+       * - Gerente de Sistemas
+         - Crear cuentas tipo súper-usuario para los funcionarios o funcionarias administradores según sus jerarquías
+         - Atribuir funciones especiales
+       * - Gerente de Sistemas
+         - Crear cuentas tipo usuario para los funcionarios o funcionarias operadores según sus cargos y ubicación administrativa
+         - Atribuir funciones específicas
+       * - Gerente de Sistemas
+         - Crear cuentas tipo invitado para el público en general
+         - Atribuir funciones limitadas
+
 		 
 Requerimientos Generales
 ========================
 
-#. TINJACÁ debe contemplar tres tipos de usuarios o usuarias:
-
-	* Los funcionarios o funcionarias administradores según sus jerarquías (tipo súper usuario).
-	* Los funcionarios o funcionarias operadores según sus cargos y ubicación administrativa (tipo usuario).
-	* El público en general (tipo invitado).
-
-#. Los beneficiarios o beneficiarias deben poder utilizar la interfaz web del sistema para:
-
-	* Efectuar pagos en línea (con TDC)
-	* Registrar los pagos efectuados mediante transferencia o depósito
-
-#. Las cuentas de usuario o usuaria pueden tener uno o más expedientes asociados y una fecha de vencimiento inicial de dos meses que en última instancia coincida con la fecha de liberación del crédito, pudiendo reactivarse en caso de nuevas solicitudes.
-
-#. La inserción de información estará distribuida entre las herramientas web y las disponibles en la institución; igualmente debe ser utilizada de forma eficiente.
-
-#. El sistema debe adaptar la solicitud de requisitos de acuerdo al sector, a los montos y a los rubros.
-
-#. El sistema debe distribuir a los analistas económicos de crédito por municipios y parroquias para realizar las inspecciones con el fin de optimizar los tiempos por los traslados.
 
 #. Deben existir las siguientes categorías para los beneficiarios o beneficiarias morosos:
 
@@ -675,8 +680,6 @@ Requerimientos Generales
 
 #. El nuevo sistema informático debe ser flexible y tener portabilidad para que se ajuste a las nuevas políticas y a las exigencias de cada presidente. 
 
-#. El sistema debe ser de fácil mantenimiento.
-
 #. Los reportes estadísticos de la gerencia de crédito deben poder agrupar las solicitudes por sector dentro de cada municipio, con el conteo y suma de los montos solicitados, y las totalizaciones.
 
 #. Debe existir un historial de inserción de documentos en el expediente. 
@@ -692,6 +695,8 @@ Requerimientos Generales
 	* A > artesanías
 	* AGR > agrícola
 	* T > turismo
+
+#. El monto máximo, número de cuotas, tiempo de pago, meses de gracia, y porcentaje de interés, se determinan según el sector de financiamiento y del tipo de empresa solicitante.
 
 #. Recalcular los intereses de las cuotas por cheques devueltos.
 
