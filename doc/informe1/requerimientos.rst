@@ -2,12 +2,12 @@
 Requerimientos
 **************
 
-A continuación se presentan las historias de usuarios o usuarias identificadas para los procesos del FOMDES en lo relativo a la asignación, acompañamiento y recuperación de los créditos, basadas en la información recolectada en las entrevistas con los trabajadores. 
+A continuación se presentan las historias de usuario identificadas para los procesos del FOMDES en lo relativo a la asignación, acompañamiento y recuperación de los créditos, basadas en la información recolectada en las entrevistas con los trabajadores. 
 
 Historias de usuario
 ====================
 
-**usuario o usuaria**
+**Solicitante / Beneficiario o Beneficiaria**
 ---------------------
 
 	.. list-table::
@@ -17,23 +17,21 @@ Historias de usuario
 		* - Como
 		  - Quiero
 		  - Para
-		* - Usuario o usuaria
-		  - Crear mi cuenta de usuario o usuaria en línea
+		* - Solicitante / Beneficiario o Beneficiaria
+		  - Crear en línea mi cuenta de usuario o usuaria
 		  - Registrarme en el sistema
-		* - Usuario o usuaria
-		  - Editar mis datos personales, direcciones y teléfonos en línea
+		* - Solicitante / Beneficiario o Beneficiaria
+		  - Editar en línea mis datos personales, direcciones y teléfonos
 		  - Actualizar mi información en el sistema
-		* - Usuario o usuaria
-		  - Consultar el estado de mis solicitudes en línea
+		* - Solicitante / Beneficiario o Beneficiaria
+		  - Consultar en línea el estado de mis solicitudes
 		  - Conocer el progreso de mis solicitudes
-		* - Usuario o usuaria
-		  - Consultar el estado de cuenta de mis créditos en línea
+		* - Solicitante / Beneficiario o Beneficiaria
+		  - Consultar en línea el estado de cuenta de mis créditos
 		  - Conocer mi solvencia en la institución
-		* - Usuario o usuaria
+		* - Solicitante / Beneficiario o Beneficiaria
 		  - Efectuar pagos en línea (con TDC) 
 		  - Cancelar más fácilmente mis deudas con la institución  
-
-* Las cuentas de usuario o usuaria invitados pueden tener uno o más expedientes asociados y una fecha de vencimiento inicial de dos meses que en última instancia coincida con la fecha de liberación del crédito, pudiendo reactivarse en caso de nuevas solicitudes.
 
 
 **Atención al Ciudadano**
@@ -47,10 +45,10 @@ Historias de usuario
 		  - Quiero
 		  - Para
 		* - Recepcionista
-		  - Registrar los datos del visitante y la fecha, hora y destino
+		  - Registrar los datos del visitante junto con la fecha, hora y destino
 		  - Utilizar la información en el futuro y en otras dependencias
 		* - Recepcionista
-		  - Consultar la información del estatus de la solicitud del usuario o usuaria
+		  - Consultar la información del estatus de las solicitudes activas
 		  - Suministrarla al solicitante
 		* - Recepcionista
 		  - Consultar la información del estado de cuenta del beneficiario o beneficiaria
@@ -64,7 +62,8 @@ Historias de usuario
 		* - Recepcionista
 		  - Generar colas por orden de atención y por dependencia
 		  - Controlar el orden de atención de los visitantes dentro de la institución		
-	   
+
+		  
 **Ciencia y Tecnología**
 ------------------------
 
@@ -82,7 +81,8 @@ Historias de usuario
          - Llevar registro del lugar de procedencia de la materia prima y proveedores de los solicitantes
          - Llevar estadísticas de los proyectos de ciencia y tecnología
 
-**información de Crédito**
+		 
+**Información de Crédito**
 ---------------------------
 
     .. list-table::
@@ -95,8 +95,12 @@ Historias de usuario
        * - Analista de crédito
          - Ingresar los datos de la planilla de financiamiento al sistema
          - Disponer de esta información en el sistema para su futuro uso
+       * - Analista de crédito
+         - Enviar el expediente a la estación de Análisis Jurídico
+         - Dar continuidad al proceso de evaluación de propuestas		 
+
 		 
-**Estadística y análisis de riesgo**
+**Estadística y Análisis de Riesgo**
 ------------------------------------
 
     .. list-table::
@@ -108,7 +112,7 @@ Historias de usuario
          - Para
        * - Analista de crédito
          - Consultar el listado de propuestas de financiamiento que son viables
-         - Su posterior inclusión en el taller de inducción 
+         - Posterior inclusión del solicitante en el taller de inducción 
        * - Analista de crédito
          - Generar una lista de solicitantes con propuestas de financiamiento viables para los talleres de inducción según el número de propuestas y el límite de cupos
 		 - Planificar los talleres
@@ -128,6 +132,7 @@ Historias de usuario
 		 - Generar informes POA
 		 - Entregar a presidencia 
 
+		 
 **Análisis Jurídico**
 ---------------------
 
@@ -140,10 +145,13 @@ Historias de usuario
          - Para
        * - Analista Jurídico
          - Generar el informe de control previo
-         - Su uso en las siguientes fases del proceso de evaluación de propuestas
+         - Uso del informe en las siguientes fases del proceso de evaluación de propuestas
        * - Analista Jurídico
-         - Asignar el valor de "CUMPLE" o "NO CUMPLE" para las garantías
-         - Su uso en las siguientes fases del proceso de evaluación de propuestas
+         - Asignar el estatus de "CUMPLE" o "NO CUMPLE" para las garantías
+         - Uso del estatus en las siguientes fases del proceso de evaluación de propuestas
+       * - Analista Jurídico
+         - Enviar el expediente a la estación de Análisis Económico
+         - Dar continuidad al proceso de evaluación de propuestas
 
 
 **Análisis Económico**
@@ -156,16 +164,20 @@ Historias de usuario
        * - Como
          - Quiero
          - Para
-       * - Analista económico
+       * - Analista Económico
          - Generar el informe de inspección (informe técnico) con registro fotográfico
-         - Su uso en las siguientes fases del proceso de evaluación de propuestas
-       * - Analista económico
+         - Uso del informe en las siguientes fases del proceso de evaluación de propuestas
+       * - Analista Económico
 		 - Registrar las minutas que se levantan en campo
 		 - Ser incluido en el informe técnico
-       * - Analista económico
+       * - Analista Económico
 		 - Definir los lapsos de pago del crédito por el beneficiario o beneficiaria
 		 - Que se efectué el pago del crédito
+       * - Analista Económico
+         - Enviar el expediente al Gerente de Crédito
+         - Dar continuidad al proceso de evaluación de propuestas
 
+		 
 **Gerencia de Crédito**
 -----------------------
 
@@ -181,7 +193,10 @@ Historias de usuario
          - Atender los cambios en las políticas de financiamiento
 	   * - Gerente de crédito
 		 - Seleccionar los proyectos que van al consejo directivo 
-		 - Su posterior aprobación o negación
+		 - Posterior aprobación o negación de los proyectos
+       * - Gerente de Crédito
+         - Enviar el expediente a Secretaría Ejecutiva
+         - Dar continuidad al proceso de aprovación de propuestas
 	   * - Gerente de crédito
 		 - Generar una cola de rezagados en caso de que se termine el presupuesto pautado 
 		 - Que estos rezagados pasen a ser los primeros en la cola del año siguiente
@@ -189,6 +204,7 @@ Historias de usuario
 		 - Realizar reportes por municipio, por rubro, por estatus y por rango de fechas 
 		 - Generar información estadística
 
+		 
 **Gerencia de Acompañamiento**
 ------------------------------
 
@@ -202,8 +218,50 @@ Historias de usuario
        * - Jefe de acompañamiento
          - Llevar un registro de la cantidad de empleos generados directos e indirectos por cada crédito
 		 - Generar información estadística
+       * - Jefe de acompañamiento
+		 - Recibir la lista de créditos liquidados desde administración	
+		 - Poder realizar la inspección
+       * - Jefe de acompañamiento
+		 - Consultar la información del beneficiario o beneficiaria
+		 - Obtener datos de localización
+       * - Jefe de acompañamiento
+		 - Consultar la información del crédito
+		 - Verificar el plan de inversión		 
+       * - Jefe de acompañamiento
+		 - Llevar un registro de los usuarios atendidos por fecha y hora
+		 - llevar control interno
+       * - Jefe de acompañamiento
+		 - Generar y almacenar un informe de acompañamiento de cada visita realizada
+		 - Dar continuidad al proceso de crédito
+       * - Jefe de acompañamiento
+		 - Generar reportes con formato para las minutas con campos de chequeo
+		 - Reducir la información escrita de la evaluación	
+       * - Jefe de acompañamiento
+		 - Generar y consultar notas de visitas de inspección, atención en oficina o llamadas telefónicas
+		 - Guardar información relevante obtenida con el beneficiario		 
+       * - Jefe de acompañamiento
+		 - Organizar rutas de visitas por localidad basándose en cercanía
+		 - Optimizar los tiempos y recursos de transporte		 
+       * - Jefe de acompañamiento
+		 - Modificar los datos del beneficiario
+		 - Atender cambios de dirección, teléfono, municipio, parroquia		 
+       * - Jefe de acompañamiento
+		 - Generar de notificación de acompañamiento
+		 - Dejar en el sitio de visita
+       * - Jefe de acompañamiento
+		 - Generar minuta de atención en oficina donde se incluyan las declaraciones de los beneficiarios o beneficiarias
+		 - Ser firmada por los beneficiarios o beneficiarias como soporte	
+       * - Jefe de acompañamiento
+		 - Registrar los casos donde las visitas no son atendidas
+		 - Llevar el número de visitas fallidas		 
+       * - Jefe de acompañamiento
+		 - Generar formato de charla
+		 - Ser firmada en físico		 
+       * - Jefe de acompañamiento
+		 - Enviar el expediente a otras estaciones junto con nota explicativa
+		 - Continuar el proceso resaltando punto a considerar por la siguiente estación
 
-
+		 
 **Gerencia de Recuperaciones**
 ------------------------------
 
@@ -216,7 +274,7 @@ Historias de usuario
          - Para
        * - Jefe del departamento de estadística y auditoria de cobranza
          - Realizar una factura con los datos del usuario o usuaria, monto aprobado, tasas de interés y cuotas
-         - Su posterior uso por Caja
+         - Posterior uso de la factura por Caja
        * - Jefe del departamento de estadística y auditoría de cobranza
 		 - Generar un reporte desglosado por niveles de morosidad		
 		 - Recordar el vencimiento de las cuotas
@@ -226,6 +284,9 @@ Historias de usuario
        * - Ejecutivo de cobranza
 		 - Filtrar los estados de cuentas por cédula y expediente
 		 - Facilitar la búsqueda de beneficiarios o beneficiarias morosos
+       * - Ejecutivo de cobranza
+		 - Consultar el estado de cuenta del beneficiario o beneficiaria
+		 - Verificar la morosidad del beneficiario o beneficiaria 		 
        * - Jefe del departamento de estadística y auditoría de cobranza
 		 - hacer una exoneración en el cobro del crédito
 		 - situaciones especiales de los beneficiarios o beneficiarias
@@ -240,7 +301,7 @@ Historias de usuario
 		 - Seguir los procedimientos establecidos
        * - Ejecutivo de cobranza
 		 - Crear carteras de cobranza
-		 - Revisar los estados de cuenta
+		 - Revisar los estados de cuenta de la cartera asignada
 
 
 **Secretaria Ejecutiva**
@@ -270,7 +331,7 @@ Historias de usuario
 		 - Dar continuidad al proceso de liquidación del crédito
        * - Secretaria(o) ejecutiva(o)
 		 - Aprobar el documento del crédito 
-		 - Su posterior autenticación por el beneficiario o beneficiaria 
+		 - Posterior autenticación por el beneficiario o beneficiaria 
        * - Secretaria(o) ejecutiva(o)
 		 - Revocar un crédito en los casos en que los cheques no se retiren o los créditos se rechacen por los beneficiarios o beneficiarias
 		 - Seguir los procedimientos establecidos
@@ -279,12 +340,12 @@ Historias de usuario
 		 - Llevar un registro de lo ocurrido en el consejo
        * - Secretaria(o) ejecutiva(o)
 		 - Enviar al gerente de crédito los expedientes rechazados
-		 - Su reconsideración
+		 - Posible reconsideración de la propuesta
        * - Secretaria(o) ejecutiva(o)
 		 - Recibir los documentos notariados y enviar a la gerencia de administración
 		 - Continuar con la aprobación del crédito
        * - Secretaria(o) ejecutiva(o)
-		 - Enviar expedientes liquidados a acompañamiento
+		 - Enviar expedientes liquidados a Acompañamiento
 		 - verificar la inversión del capital por parte del beneficiario o beneficiaria
 
 
@@ -306,7 +367,7 @@ Historias de usuario
          - Dar continuidad al proceso de aprobación de crédito 
        * - Gerente de administración
 		 - Enviar los cheques a presidencia
-		 - Su firma
+		 - Posterior firma del cheque por presidencia
        * - Gerente de administración
          - Generar la tabla de amortización de los usuarios o usuarias cuyos cheques fueron procesados
          - Dar continuidad al proceso de aprobación de crédito
@@ -331,8 +392,32 @@ Historias de usuario
        * - Cajero
          - Imprimir el recibo
          - Entregar al beneficiario o beneficiaria
+       * - Cajero
+         - Imprimir el recibo de pagos realizados en cualquier fecha
+         - Satisfacer la solicitud del beneficiario o beneficiaria
+       * - Cajero
+		 - Verificar los expedientes asociados al beneficiario o beneficiara
+		 - Conocer las cuotas vencidas en cada uno de ellos
+       * - Cajero
+		 - Seleccionar el expediente correspondiente al crédito al cual se desea pagar
+		 - que el beneficiario o beneficiara pueda cancelar el crédito
+       * - Cajero
+		 - Consultar todos los expedientes
+		 - Informar al beneficiario o beneficiara el numero de cuotas vencidas, el total en bolivares en cada cuota y cuotas que estan proximas por vencerse
+       * - Cajero
+		 - Registrar el pago a conveniencia del beneficiaro o beneficiara
+		 - la cancelacion parcial o completa del crédito
+       * - Cajero
+	     - Calcular los intereses de mora correspondientes a la cuota a pagar
+		 - Cobrar lo debido 
+       * - Cajero
+	     - Realizar el cierre de caja diariamente
+		 - Desglosar el ingreso total en billetes, monedas, cheques, punto de debito y depósitos
+       * - Cajero
+		 - Generar un reporte con el total de personas atendidas diariamente
+		 - Llevar una estadística
 
-
+		 
 **Gerencia de Presupuesto**
 ---------------------------
 
@@ -347,6 +432,7 @@ Historias de usuario
          - Verificar la disponibilidad presupuestaria para el pago del crédito al beneficiario o beneficiaria
          - Dar continuidad al proceso de aprobación de crédito 
 
+		 
 **Gerencia de Sistemas**
 ------------------------
 
@@ -381,6 +467,7 @@ Historias de usuario
 		 - Enviar los cheques firmados a secretaria ejecutiva
 		 - Dar seguimiento al proceso de liquidación 
 
+		 
 **Archivo**
 -----------
 
@@ -391,11 +478,15 @@ Historias de usuario
        * - Como
          - Quiero
          - Para
-       * - Encargado o encargada de archivo
+       * - Analista de crédito
+         - Enviar los expedientes a diferentes dependencias
+         - Atender solicitudes de préstamo de expedientes
+	   * - Encargado o encargada de archivo
          - Llevar una lista de los expedientes prestados 
          - Llevar un seguimiento de los expedientes
-
-Requerimientos generales
+		 
+		 
+Requerimientos Generales
 ========================
 
 #. TINJACÁ debe contemplar tres tipos de usuarios o usuarias:
@@ -407,7 +498,7 @@ Requerimientos generales
 #. Los beneficiarios o beneficiarias deben poder utilizar la interfaz web del sistema para:
 
 	* Efectuar pagos en línea (con TDC)
-	* Registrar los pagos efectuados mediante transferencia o depósito y recibir físicamente del comprobante.
+	* Registrar los pagos efectuados mediante transferencia o depósito
 
 #. Las cuentas de usuario o usuaria pueden tener uno o más expedientes asociados y una fecha de vencimiento inicial de dos meses que en última instancia coincida con la fecha de liberación del crédito, pudiendo reactivarse en caso de nuevas solicitudes.
 
@@ -486,3 +577,5 @@ Requerimientos generales
 	* T > turismo
 
 #. Recalcular los intereses de las cuotas por cheques devueltos.
+
+#. Incluir datos de georeferencia para facilitar la localización de los centros de producción y la creación de rutas óptimas.
