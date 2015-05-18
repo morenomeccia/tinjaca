@@ -51,7 +51,7 @@ CJ = add_cluster(F, "cj", "Consultoría Jurídica", cj_cluster, cj_edges)
 global_edges = {"Secretaría Ejecutiva":  {"a0": {"style": "dashed"}},
                 "a3": {"cj0": {"style": "dashed", "xlabel": "No"}},
                 "a4": {"Recuperaciones": {"style": "dashed"}},
-                "cj0":{"a5": {"style": "dashed"}}}
+                "cj0": {"a5": {"style": "dashed"}}}
 
 add_edges(F, global_edges)
 
