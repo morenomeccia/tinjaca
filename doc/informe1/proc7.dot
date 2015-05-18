@@ -1,0 +1,118 @@
+digraph  {
+	graph [fontname="Liberation Sans Narrow Condensed",
+		forcelabels=true,
+		labelloc=b,
+		rankdir=TB,
+		ranksep=0.25,
+		size="8, 7.5",
+		splines=ortho
+	];
+	node [fontname="Liberation Sans Narrow Condensed",
+		label="\N"
+	];
+	edge [fontname="Liberation Sans Narrow Condensed",
+		fontsize=10
+	];
+	subgraph cluster_r {
+		graph [label=<<B>Recuperaciones</B>>,
+			labeljust=l
+		];
+		r4		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
+                <TR><TD>Realizar llamada o enviar<br/>SMS de advertencia</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		r9		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6];
+		r4 -> r9;
+		r5		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
+                <TR><TD>Concertar entrevista y<br/>formular plan de pago</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		r6		 [fillcolor="white:grey",
+			fixedsize=true,
+			fontsize=10,
+			height=1,
+			label=<<TABLE border="0" cellborder="0" cellpadding="0">
+                <TR><TD><IMG SRC="static/cross.png"/></TD></TR>
+                </TABLE>>,
+			shape=diamond,
+			style=filled,
+			width=1,
+			xlabel="¿Cumple plan de pago?"];
+		r5 -> r6;
+		r7		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Cambiar estatus a caja</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		r6 -> r7		 [xlabel=Si];
+		r8		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>cambiar estatus a demanda</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		r6 -> r8		 [xlabel=No];
+		r7 -> r9;
+		r0		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Revisión periódica"];
+		r1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Generar lista de cuentas<br/>pagadas y vencidas</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		r0 -> r1;
+		r2		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Planificar seguimiento y<br/>rutas de cobranza</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		r1 -> r2;
+		r3		 [fillcolor="white:grey",
+			fixedsize=true,
+			fontsize=10,
+			height=1,
+			label=<<TABLE border="0" cellborder="0" cellpadding="0">
+                <TR><TD><IMG SRC="static/cross.png"/></TD></TR>
+                </TABLE>>,
+			shape=diamond,
+			style=filled,
+			width=1,
+			xlabel="¿Estado de las cuentas?"];
+		r2 -> r3;
+		r3 -> r4		 [xlabel=A];
+		r3 -> r5		 [xlabel="B, C o D"];
+		r8 -> r9;
+	}
+	SISAC	 [image="static/database.png",
+		label="",
+		shape=plaintext,
+		xlabel=SISAC];
+	r7 -> SISAC	 [style=dashed];
+	r8 -> SISAC	 [style=dashed];
+	r8 -> "Consultoría Jurídica"	 [style=dashed];
+	Acompañamiento -> r0	 [xlabel="Expedientes que cumplen
+plan de inversión"];
+}
