@@ -27,6 +27,26 @@ generación de nuevas prácticas de uso y adecuación del sistema a la gestión 
 Hitos con transcripción manual de datos
 =======================================
 
+
+Hitos con utilización de software de apoyo distinto a los sistemas en uso
+=========================================================================
+
+
+Hitos sin acceso a los expedientes completos para funciones del cargo
+=====================================================================
+
+
+Hitos con verificación manual de información del sistema
+========================================================
+
+
+
+
+
+
+
+
+
 # La oficina de Estadística (Crédito), recibe una a una las carpetas en físico con las
 propuestas de financiamiento que han sido categorizadas como “viables”.
 # Se genera una lista en hoja de calculo introduciendo una a una las propuestas. Puede consultar
