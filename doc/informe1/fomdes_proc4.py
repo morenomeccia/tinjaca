@@ -29,7 +29,7 @@ se_cluster = {"se7": ("Recibir el documento protocolizado", "start"),
               "se9": ("", "end")}
 
 se_edges = {"se7": {"se8": {}},
-            "se8": {"se9": {"style":"invis"}}}
+            "se8": {"se9": {"style": "invis"}}}
 
 SE = add_cluster(F, "se", "Secretaría Ejecutiva", se_cluster, se_edges)
 
@@ -56,8 +56,8 @@ F.add_node("SISAC", image="static/database.png", shape="plaintext", label="", xl
 
 global_edges = {"Beneficiario":  {"se7": {"style": "dashed"}},
                 "se8": {"pr2": {"style": "dashed"}},
-                "pr3":{"SIGEFOMDES Administración": {"style": "dashed"}},
-                "pr4":{"SISAC": {"style": "dashed"}},
+                "pr3": {"SIGEFOMDES Administración": {"style": "dashed"}},
+                "pr4": {"SISAC": {"style": "dashed"}},
                 "pr5": {"p1": {"style": "dashed"}},
                 "p2": {"se9": {"style": "dashed"}, "Beneficiario": {"style": "dashed"}}}
 

@@ -34,8 +34,8 @@ se_cluster = {"se0": ("Recibir Lista de Expedientes", "start"),
 
 se_edges = {"se0": {"se1": {}},
             "se1": {"se2": {}},
-            "se2": {"se3": {"style":"invis"}},
-            "se3": {"se4": {"style":"invis"}},
+            "se2": {"se3": {"style": "invis"}},
+            "se3": {"se4": {"style": "invis"}},
             "se4": {"se5": {}},
             "se5": {"se6": {}}}
 
