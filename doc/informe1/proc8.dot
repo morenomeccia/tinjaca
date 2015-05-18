@@ -1,0 +1,92 @@
+digraph  {
+	graph [fontname="Liberation Sans Narrow Condensed",
+		forcelabels=true,
+		labelloc=b,
+		rankdir=TB,
+		ranksep=0.25,
+		size="8, 7.5",
+		splines=ortho
+	];
+	node [fontname="Liberation Sans Narrow Condensed",
+		label="\N"
+	];
+	edge [fontname="Liberation Sans Narrow Condensed",
+		fontsize=10
+	];
+	subgraph cluster_cj {
+		graph [label=<<B>Consultoría Jurídica</B>>,
+			labeljust=l
+		];
+		cj2		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Redactar documento de<br/>liberación</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+	}
+	subgraph cluster_p {
+		graph [label=<<B>Presidencia</B>>,
+			labeljust=l
+		];
+		p3		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Firmar documento de<br/>liberación</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+	}
+	subgraph cluster_ad {
+		graph [label=<<B>Administración</B>>,
+			labeljust=l
+		];
+		ad4		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6];
+		ad2		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Solicitar liberación de<br/>crédito</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ad3		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
+                <TR><TD>Entregar documento al<br/>beneficiario</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ad2 -> ad3		 [style=invis];
+		ad3 -> ad4;
+		ad0		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Recibir cancelación total"];
+		ad1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD>Verificar estatus de<br/>cuenta</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		ad0 -> ad1;
+		ad1 -> ad2;
+	}
+	ad2 -> cj2	 [style=dashed];
+	cj2 -> p3	 [style=dashed];
+	p3 -> ad3	 [style=dashed];
+	SISAC	 [image="static/database.png",
+		label="",
+		shape=plaintext,
+		xlabel=SISAC];
+	SISAC -> ad1	 [style=dashed];
+	Caja -> ad0	 [style=dashed];
+}
