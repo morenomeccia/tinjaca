@@ -419,7 +419,7 @@ Seguimiento y Acompañamiento
 
 #. Al momento de realizar la ruta de visitas, conviene seleccionar por cercanía, utilizando zonas o sectores de la ciudad y no por parroquias, como ofrece el sistema.
 
-#. Una vez que secretaría ejecutiva aprueba el crédito, los únicos que pueden modificar los datos del expediente son: acompañamiento, el o la gerente de credito, recuperaciones y consultoría jurídica.
+#. Una vez que secretaría ejecutiva aprueba el crédito, los únicos que pueden modificar los datos del expediente son: acompañamiento, el o la gerente de crédito, recuperaciones y consultoría jurídica.
 
 #. Los cambios de dirección de los beneficiarios representa un asunto complicado. Por un lado, la edición de información de crédito como la dirección, no son percibidos en Recuperaciones, por lo que se trabaja con las notas que no siempre son consideradas. Por otro lado, el sistema no contempla la edición de los campos de municipio y parroquia.
 
@@ -584,6 +584,37 @@ Ciencia y Tecnología
 #. Se desea llevar registro de ciertas características, como lugar de procedencia de materia prima y proveedores.
 
 #. Esta oficina es relativamente nueva en FOMDES, iniciándose la modalidad de ingreso en el año 2015, por lo que su integración con el resto de los procesos no está del todo bien definida.
+
+
+Caja
+====
+
+17 de Abril de 2015
+-------------------
+
+#. Caja utiliza el sistema SISAC. El beneficiario o beneficiaria también puede pagar desde Recuperaciones, la cual cubre a Caja en los momentos de ausencia.
+
+#. Se ingresa el número de cédula del beneficiario o beneficiaria y se verifica cuántos expedientes tiene.
+
+#. Se selecciona el expediente correspondiente al crédito al cual se desea pagar.
+
+#. Se informa al beneficiario o beneficiaria el número de cuotas vencidas y el total en Bolivares de estas cuotas. También se indica si tiene otras cuoas próximas a vencer.
+
+#. Se permite pagar cualquier número de cuotas, así como también, realizar pagos fraccionados.
+
+#. El sistema muestra las cuotas según la tabla de amortización del crédito. Sin embargo, hay que calcular el pago para cada cuota sumándole el interés de mora correspondiente. Para ello, el encargado o encargada de caja debe ingresar adicionalmente el número de meses que tiene vencida la cuota para el cálculo de estos intereses.
+
+#. El sistema es engorroso y muestra mucha información innecesaria. Se requiere que sea más claro para evitar errores.
+
+#. A pesar que Caja pertenece a administración, no trabaja con SIGEFOMDES-admin. Por esta razón, se deben transcribir todos los pagos registrados a este otro sistema, que es que utiliza Administración.
+
+#. Todos los días se realiza cierre de caja, donde se desglosa el ingreso total en billetes, monedas, punto de débito, cheques y depósitos.
+
+#. También, se genera un reporte donde se indica el total de personas atendidas en el día.
+
+#. El sistema permite simular el recibo de pago, de modo que, se verifiquen los montos antes de ser registrados.
+
+#. Por cada pago se imprimen tres copias idénticas: uno para el beneficiario o beneficiaria, uno para contabilidad y otro para archivo. Se pueden reimprimir recibos de pagos realizados en cualquier fecha, cuando sea necesario o solicitado.
 
 
 Presupuesto
