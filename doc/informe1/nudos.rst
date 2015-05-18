@@ -91,6 +91,18 @@ físico del mismo.
 Hitos sin información en línea a solicitante o persona beneficiaria
 ===================================================================
 
+Los procesos organizacionales que trabajan con gestón de información para el público, ganan mucha
+credibilidad y respeto por parte de las personas usuarias finales del mismo. En este sentido,
+siempre será mucho mejor publicar toda la inforaón que no publicarla. Por otro lado, la
+diversificaión de canales abiertos con el público solicitante o beneficiario de los servicios del
+FOMDES redunda en la vinculación directa entre la institución y s sector social receptor.
+
+Es por ello que el análisis realizado muestra como nudo crítico la generación de una zona de
+silencio en torno al estatus de la solicitud hecha al FOMDES, el punto dentro del proceso en el
+que se encuentra la misma o, inclusive, las observaciones recogidas por parte de los analistas
+responsables de su validación, o del mismo Consejo Directivo de la institución.
+
+
 
 Hitos con elaboración de reportes de manera manual
 ==================================================
