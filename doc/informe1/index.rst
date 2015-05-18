@@ -7,7 +7,6 @@
 Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales
 ===================================================================
 
-
 .. toctree::
    :maxdepth: 2
 
@@ -23,6 +22,3 @@ Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales
 ================
 
 * :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-

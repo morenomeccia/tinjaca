@@ -2,14 +2,18 @@
 Procesos y Flujogramas
 **********************
 
-Los procesos fueron modelados usando la notación gráfica Business Process Modeling Notation (BPMN) para describir la secuencia de los procesos y mensajes que fluyen entre las unidades que realizan las diferentes actividades del
-FOMDES. Entre las características resaltantes del BPMN como metodología de representación gráfica
-de procesos, destaca la posibilidad de identificar de modo claro y simplificado las líneas que
-agrupan varias unidades ejecutoras en el cumplimiento de tareas y subprocesos. Pero además, el
-BPMN es muy útil en la identificación de líneas de comunicación y flujos de entrada y salida
-entre cada uno de los procesos y subprocesos que se determinen para la institución.
+Los procesos fueron modelados usando la notación gráfica Business Process Modeling Notation (BPMN) para describir la
+secuencia de los procesos y mensajes que fluyen entre las unidades que realizan las diferentes actividades del FOMDES.
 
-A continuación se presentan los procesos identificados para la estructura funcional actual de la institución en lo relativo a la asignación de créditos, acompañamiento en su ejecución y recuperación de la inversión.
+Entre las características resaltantes del BPMN como metodología de representación gráfica de procesos, destaca la
+posibilidad de identificar de modo claro y simplificado las líneas que agrupan varias unidades ejecutoras en el
+cumplimiento de tareas y subprocesos. Pero además, el BPMN es muy útil en la identificación de líneas de comunicación y
+flujos de entrada y salida entre cada uno de los procesos y subprocesos que se determinen para la institución.
+
+A continuación se presentan los procesos identificados para la estructura funcional actual de la institución en lo
+relativo a la asignación de créditos, acompañamiento en su ejecución y recuperación de la inversión.
+
+.. index:: !Gerencia de Crédito, Usuario, Información de Crédito, Estadística y Evaluación de Riesgos
 
 **Recepción de Propuestas**
 ===========================
@@ -49,6 +53,8 @@ A continuación se presentan los procesos identificados para la estructura funci
 
     .. graphviz:: proc1.dot
 
+
+.. index:: !Gerencia de Crédito, Usuario, Información de Crédito, Análisis Jurídico, Análisis Económico
 
 **Recepción y Evaluación de Solicitudes**
 =========================================
@@ -99,6 +105,7 @@ A continuación se presentan los procesos identificados para la estructura funci
 
     .. graphviz:: proc22.dot
 
+.. index:: !Presidencia, Secretaría Ejecutiva, Presupuesto, Consejo Directivo
 
 **Aprobación de Créditos**
 ==========================
@@ -138,6 +145,8 @@ A continuación se presentan los procesos identificados para la estructura funci
     * **Flujograma**:
 
     .. graphviz:: proc3.dot
+
+.. index:: !Administración y Finanzas, Secretaría Ejecutiva, Presupuesto, Administración, Presidencia
 
 **Liquidación de Créditos**
 ===========================
@@ -183,6 +192,8 @@ A continuación se presentan los procesos identificados para la estructura funci
 
     .. graphviz:: proc4.dot
 
+.. index:: !Gerencia de Crédito, !Gerencia de Recuperaciones, Acompañamiento y Asistencia Técnica, Consultoría Jurídica, Archivo
+
 **Inspección de Inversiones**
 =============================
 
@@ -218,17 +229,21 @@ A continuación se presentan los procesos identificados para la estructura funci
 
     .. graphviz:: proc5.dot
 
+.. index:: !Administración y Finanzas, Caja, Consultoría Juridica
+
 **Pagos**
 =========
 
     * **Descripción**: Incluye actividades de recepción de pagos y actualización de estados de
       cuenta de beneficiarios(as)
 
-    * **Dependencia responsable**: Administración
+    * **Dependencia responsable**: Administración y Finanzas
 
     * **Unidad(es) Ejecutora(s)**: Caja, Consultoría Juridica
 
     * **Tabla de Actividades**:
+
+    .. tabularcolumns:: |p{4cm}|p{7cm}|p{4cm}|
 
     .. list-table::
        :widths: 40 70 40
@@ -254,6 +269,7 @@ A continuación se presentan los procesos identificados para la estructura funci
 
     .. graphviz:: proc6.dot
 
+.. index:: !Gerencia de Recuperaciones, Ejecutivos de Cobranza, Consultoría Juridica
 
 **Gestión de Cobranzas**
 ========================
@@ -266,6 +282,8 @@ A continuación se presentan los procesos identificados para la estructura funci
     * **Unidad(es) Ejecutora(s)**: Recuperaciones, Ejecutivos de Cobranza, Consultoría Jurídica
 
     * **Tabla de Actividades**:
+
+    .. tabularcolumns:: |p{4cm}|p{7cm}|p{4cm}|
 
     .. list-table::
        :widths: 40 70 40
@@ -303,17 +321,20 @@ A continuación se presentan los procesos identificados para la estructura funci
 
     .. graphviz:: proc7b.dot
 
+.. index:: !Administración y Finanzas, Consultoría Juridica, Presidencia
 
 **Liberación de Créditos**
 ==========================
 
     * **Descripción**: Contempla actividades relativas a la liberación de los créditos.
 
-    * **Dependencia responsable**: Administración
+    * **Dependencia responsable**: Administración y Finanzas
 
-    * **Unidad(es) Ejecutora(s)**: Administración, Consultoría Jurídica, Presidencia
+    * **Unidad(es) Ejecutora(s)**: Administración y Finanzas, Consultoría Jurídica, Presidencia
 
     * **Tabla de Actividades**:
+
+    .. tabularcolumns:: |p{4cm}|p{7cm}|p{4cm}|
 
     .. list-table::
        :widths: 40 70 40
