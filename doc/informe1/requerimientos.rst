@@ -338,31 +338,52 @@ Historias de usuario
 		* - Jefe del departamento de estadística y auditoría de cobranza
 		  - Generar un reporte desglosado por niveles de morosidad		
 		  - Recordar el vencimiento de las cuotas
+		* - Jefe del departamento de estadística y auditoría de cobranza
+		  - Hacer exoneraciones en el cobro de los créditos
+		  - Atender solicitudes especiales de los beneficiarios o beneficiarias
 		* - Ejecutivo de cobranza
 		  - Generar una lista con los beneficiarios o beneficiarias que deben visitar por fecha, municipio y sectores cuando existen cuotas vencidas 
 		  - Efectuar el cobro de las cuotas		
 		* - Ejecutivo de cobranza
 		  - Filtrar los estados de cuentas por cédula y expediente
-		  - Facilitar la búsqueda de beneficiarios o beneficiarias morosos
+		  - Facilitar la búsqueda de beneficiarios o beneficiarias específicos
+		* - Ejecutivo de cobranza
+		  - Acceder a los estados de cuentas directamente desde la cartera
+		  - Facilitar la búsqueda de beneficiarios o beneficiarias asignados
 		* - Ejecutivo de cobranza
 		  - Consultar el estado de cuenta del beneficiario o beneficiaria
-		  - Verificar la morosidad del beneficiario o beneficiaria 		 
-		* - Jefe del departamento de estadística y auditoría de cobranza
-		  - hacer una exoneración en el cobro del crédito
-		  - situaciones especiales de los beneficiarios o beneficiarias
+		  - Verificar la morosidad del beneficiario o beneficiaria 
 		* - Ejecutivo de cobranza
-		  - Registrar la información de mi labor diaria  
+		  - Consultar los depósitos realizados por el beneficiario o beneficiaria
+		  - Verificar información suministrada por el beneficiario o beneficiaria 		 
+		* - Ejecutivo de cobranza
+		  - Generar reporte del ingreso diario de caja (taquilla express) 
 		  - Llevar estadísticas del numero de beneficiarios o beneficiarias procesados
 		* - Ejecutivo de cobranza
-		  - Registrar la información sobre los beneficiarios o beneficiarias atendidos  
+		  - Registrar la información sobre los beneficiarios o beneficiarias atendidos diariamente  
 		  - Llevar estadísticas del numero de beneficiarios o beneficiarias procesados
 		* - Gerente de recuperaciones
 		  - Cambiar el estado del beneficiario o beneficiaria según su morosidad
 		  - Seguir los procedimientos establecidos
 		* - Ejecutivo de cobranza
 		  - Crear carteras de cobranza
-		  - Revisar los estados de cuenta de la cartera asignada
-
+		  - Asignarme expedientes a revisar para el cobro
+		* - Ejecutivo de cobranza
+		  - Establecer metas diarias de recuperación
+		  - Control interno del personal
+		* - Ejecutivo de cobranza
+		  - Crear y consultar notas con los acuerdos e información suministrada por el beneficiario o beneficiaria
+		  - Poseer resumen histórico de Recuperaciones con el beneficiario o beneficiaria
+		* - Ejecutivo de cobranza
+		  - Crear recordatorios con las fechas de compromiso de pago del beneficiario o beneficiaria
+		  - Tomar acciones pertinentes en tiempos oportunos
+		* - Ejecutivo de cobranza
+		  - Ordenar los expedientes por niveles de morosidad en las carteras
+		  - Priorisar las visitas o llamadas a los mayores deudores	
+		* - Ejecutivo de cobranza
+		  - Verificar la validez de los depósitos bancarios para los pagos
+		  - Rechazar depósitos utilizados previamente en otro pago 
+	
 
 **Secretaria Ejecutiva**
 ------------------------
