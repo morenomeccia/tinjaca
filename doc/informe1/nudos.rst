@@ -27,15 +27,15 @@ través de las historias de usuario. Varios de los ejemplos bien pueden ser iden
 varios hitos de modo simultáneo.
 
 
-Hitos con transcripción manual de datos
-=======================================
+Hitos con transcripción y verificación manual de datos del sistema
+==================================================================
 
 En un sistema informático complejo, aunque casi completamente lineal, como el del FOMDES, la
 transcripción de datos debería hacerse sólo en el punto inicial.
 
 Actualmente, el uso de varios sistemas, en ocasiones de modo simultáneo, aunado a la falta de
 comunicación entre ellos y la reducida estandarización de las tareas realizadas, supone en ocasiones
- la transcripción y retranscripción de algunos datos de los expedientes.
+la transcripción y retranscripción de algunos datos de los expedientes.
 
 Por sólo nombrar algunos, diremos que se destaca la transcripción de datos al sistema
 SIGEFOMDES-Crédito cuando la persona solicitante entrega los recaudos enviados tras su participación en el taller, pese a que ya algunos de esos datos han sido introducidos en el sistema WebAdmin durante la solicitud de
@@ -57,7 +57,7 @@ organización.
 
 En este contexto, los sistemas informáticos, en tanto que instrumentos de apoyo a la gestión
 organizacional deben ser flexibles y adaptables a esos nuevos parámetros. Cuando la adaptación
-requerida no ocurre, se generan zonas de silencio de información que, casi de modo natural,
+requerida no ocurre, se generan *zonas de silencio* de información que, casi de modo natural,
 buscan ser resueltas con soluciones temporales cuyo uso se prolonga en el tiempo, o con
 soluciones alternativas fuera del sistema.
 
@@ -70,9 +70,22 @@ segundo.
 Hitos sin acceso a los expedientes completos para funciones del cargo
 =====================================================================
 
+Por lo general, los sistemas informáticos manejan varios niveles de personas usuarias las cuales se
+establecen en función de los distintos roles y funciones que desempeña dentro del mismo.
 
-Hitos con verificación manual de información del sistema
-========================================================
+En ocasiones, dentro de cada categoría de usuario y para distintos usuarios, alguna información se
+llega a mostrar y otra no. Esto puede resultar de evidente necesiad en usuarios con distintas
+interacciones con las personas usuarios externos del sistema. Sin embargo, cuando esto afecta el
+desempeño de los flujos de trabajo y genera retrasos, resulta de necesaria atención.
+
+Para el correcto funcionamiento del flujo de proceso de aprobación de créditos en FOMDES, sería
+bueno que la información sobre el curso, estatus y características de cada expediente de crédito,
+estuviera a disposición de todos los usuarios internos del mismo.
+
+Destaca el caso de Secretaría Ejecutiva, que tiene un acceso parcial a la información almacenada
+en los expedientes dentro de SIGEFOMDES-Crédito. Por ello, al momento de ofrecer información útil
+para la toma de decisión por parte de presidencia, debe hacerse la solicitud del expediente en
+físico del mismo.
 
 
 Hitos sin información en línea a solicitante o persona beneficiaria
