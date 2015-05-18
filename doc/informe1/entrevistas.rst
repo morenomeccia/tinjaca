@@ -598,7 +598,7 @@ Caja
 
 #. Se selecciona el expediente correspondiente al crédito al cual se desea pagar.
 
-#. Se informa al beneficiario o beneficiaria el número de cuotas vencidas y el total en Bolivares de estas cuotas. También se indica si tiene otras cuoas próximas a vencer.
+#. Se informa al beneficiario o beneficiaria el número de cuotas vencidas y el total en Bolívares de estas cuotas. También, se indica si tiene otras cuotas próximas a vencer.
 
 #. Se permite pagar cualquier número de cuotas, así como también, realizar pagos fraccionados.
 
