@@ -2,9 +2,14 @@
 Procesos y Flujogramas
 **********************
 
-A continuación se presentan los procesos identificados para la estructura funcional actual del
-FOMDES en lo relativo a la asignación, acompañamiento en la ejecución y recuperación de los
-créditos.
+Los procesos fueron modelados usando la notación gráfica Business Process Modeling Notation (BPMN) para describir la secuencia de los procesos y mensajes que fluyen entre las unidades que realizan las diferentes actividades del
+FOMDES. Entre las características resaltantes del BPMN como metodología de representación gráfica
+de procesos, destaca la posibilidad de identificar de modo claro y simplificado las líneas que
+agrupan varias unidades ejecutoras en el cumplimiento de tareas y subprocesos. Pero además, el
+BPMN es muy útil en la identificación de líneas de comunicación y flujos de entrada y salida
+entre cada uno de los procesos y subprocesos que se determinen para la institución.
+
+A continuación se presentan los procesos identificados para la estructura funcional actual de la institución en lo relativo a la asignación de créditos, acompañamiento en su ejecución y recuperación de la inversión.
 
 **Recepción de Propuestas**
 ===========================
@@ -121,8 +126,8 @@ créditos.
          - Revisar lista de expedientes junto con presidencia
          - Lista de expedientes priorizada
        * - Expediente
-         - Elaborar certificación presupuestaria por sector
-         - Certificación presupuestaria por sector
+         - Elaborar certificación presupuestaria y financiera por sector
+         - Certificación presupuestaria y financiera por sector
        * - Lista de expediente para Consejo Directivo
          - Realizar agenda con expedientes priorizados y convocar al consejo directivo
          - Acta de créditos aprobados
