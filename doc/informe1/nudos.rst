@@ -4,19 +4,19 @@ Nudos Críticos de los procesos
 
 Sobre los actuales cinco sistemas informáticos utilizados en FOMDES, se evidencian problemas
 estructurados relativos a acceso de información, vinculación entre éstos,
-portabilidad  de los datos e interoperabilidad entre otros. Estos problemas estructurados
+portabilidad  de los datos e interoperabilidad, entre otros. Estos problemas estructurados
 parecen ser consecuencia de la necesidad de atender a solicitudes puntuales por parte de los
 usuarios funcionales de los mismos y a la falta de planificación en su desarrollo.
 
-Aunque esta metodología de desarrollo ha incidido de modo determinante en la forma en que se
-manifiestan las relaciones interfuncionales dentro de FOMDES, generando duplicación de tareas,
-hitos con transcripción de datos y doble verificación manual entre otros, es responsable declarar
-que la posibilidad de diseño y programación de estos sistemas con recursos internos del FOMDES supone,
-en  si mismo, un valor añadido que no se presenta con frecuecia en otros entes y otras instancias de la Administración Pública Nacional en sus distintos niveles.
+Aunque esta metodología de desarrollo ha incidido de modo determinante en la forma en que se manifiestan las relaciones
+interfuncionales dentro de FOMDES, generando duplicación de tareas, hitos con transcripción de datos y doble
+verificación manual entre otros, es responsable declarar que la posibilidad de diseño y programación de estos sistemas
+con recursos internos del FOMDES supone, en  si mismo, un valor añadido que no se presenta con frecuencia en otros entes
+y otras instancias de la Administración Pública Nacional en sus distintos niveles.
 
 En planificación estratégica, los *Nudos Críticos* son los elementos más claramente identificables
 como causantes de un problema conocido. Constituyen factores álgidos cuya atención y resolución
-garantizan un impacto efectivo y eficaz sobre la descripción del problema porque son no sólo
+garantizan un impacto efectivo y eficaz sobre la descripción del problema, porque son no sólo
 neurálgicos para el sistema sino que también, en términos factibles, pueden ser resueltos.
 
 Sobre el sistema integral que nos ocupa construir, a continuación se identifican los
@@ -37,9 +37,11 @@ Actualmente, el uso de varios sistemas, en ocasiones de modo simultáneo, aunado
 comunicación entre ellos y la reducida estandarización de las tareas realizadas, supone en ocasiones
 la transcripción y retranscripción de algunos datos de los expedientes.
 
-Por sólo nombrar algunos, diremos que se destaca la transcripción de datos al sistema
-SIGEFOMDES-Crédito cuando la persona solicitante entrega los recaudos enviados tras su participación en el taller, pese a que ya algunos de esos datos han sido introducidos en el sistema WebAdmin durante la solicitud de
-información sobre opciones de crédito.
+Por sólo nombrar algunos, diremos que se destaca la transcripción de datos al sistema SIGEFOMDES-Crédito cuando la
+persona solicitante entrega los recaudos enviados tras su participación en el taller, pese a que ya algunos de esos
+datos han sido introducidos en el sistema WebAdmin durante la solicitud de información sobre opciones de crédito.
+También es necesario retranscribir los datos de las cuentas del sistema SISAC a SIGEFOMDES-Administración en diversas
+ocasiones, en particular cuando se requiere registrar cada uno de los pagos de las cuotas.
 
 Igualmente, en Análisis Jurídico debe transcribirse el contenido de los documentos legales de
 garantía, y en Gerencia de Administración deben cotejarse pagos con sus respectivos asientos
@@ -49,11 +51,9 @@ contables de forma manual.
 Hitos con utilización de software de apoyo distinto a los sistemas en uso
 =========================================================================
 
-En ocasiones las dinámicas organizacionales, en especial en organizaciones públicas aunque no de
-modo exclusivo, suponen el cambio en formato de reportes, tipo o sus contenidos. En ocasiones
-también, estos cambios ocurre porque En este cambio ocurre porque se generan procesos,
-subprocesos o tareas al margen de aquellos que se encuentran normados y reconocidos por la
-organización.
+En ocasiones las dinámicas organizacionales, en especial en organizaciones públicas aunque no de modo exclusivo, suponen
+el cambio en tipo y formato de reportes,o sus contenidos. En ocasiones, este cambio ocurre porque se generan procesos,
+subprocesos o tareas al margen de aquellos que se encuentran normados y reconocidos por la organización.
 
 En este contexto, los sistemas informáticos, en tanto que instrumentos de apoyo a la gestión
 organizacional deben ser flexibles y adaptables a esos nuevos parámetros. Cuando la adaptación
@@ -69,14 +69,14 @@ segundo.
 Hitos con elaboración de reportes de manera manual
 ==================================================
 
-Así como el apoyo en software adicional a los sistemas en uso supone un nudo crítico para el
+Así como el apoyo en software adicional, a los sistemas en uso supone un nudo crítico para el
 desempeño de las funciones de la organización, la generación de informes, reportes y otros
 documentos de forma manual al margen de éstos supone una situación que pone en riesgo la
 integridad de la información manejada.
 
 Para el caso de FOMDES, el riesgo a la integridad de la información manejada para cada expediente
 digitalizado resulta también evidente al introducir la participación humana no sólo en la
-introducción de la información al sistema si no, además de esta que es una función natural de cada
+introducción de la información al sistema si no, además de esta que es una función asociada a cada
 cargo, en la realización de informes y otros documentos en soportes digitales o físicos no
 incluidos en el sistema.
 
@@ -86,7 +86,7 @@ estandarización entre los distintos tipos de créditos manejados por FOMDES y e
 sistema recoge la información de inspecciónn económica y de avales. Por otro lado, los reportes
 fotográficos relativos a las minutas de inspección no son recogidos por el sistema. La
 conjugación de estas situaciones induce estrés sobre el sistema informático, pues se traducen en
-demandas de inmediata atención por el equipo responsable de su mantenimiento y puesta a todo,
+demandas de inmediata atención por el equipo responsable de su mantenimiento y puesta en funcionamientoo,
 pero por el otro, ralentiza notablemente las labores de los analistas, al tiempo que afecta
 negativamente la integridad de la información disponible por parte de Presidencia y el Consejo
 Directivo al momento de evaluar la aprobación de cualquier solicitud de crédito.
@@ -99,12 +99,12 @@ Consejo Directivo.
 Hitos sin acceso a los expedientes completos para funciones del cargo
 =====================================================================
 
-Por lo general, los sistemas informáticos manejan varios niveles de personas usuarias las cuales se
-establecen en función de los distintos roles y funciones que desempeña dentro de éstos.
+Por lo general, los sistemas informáticos manejan distintos niveles de acceso para las personas usuarias los cuales se
+establecen en función de los distintos roles y funciones que desempeña dentro de la organización.
 
 En ocasiones, dentro de cada categoría de usuario y para distintos usuarios, alguna información se
-llega a mostrar y otra no. Esto puede resultar de evidente necesiad en usuarios con distintas
-interacciones con las personas usuarios externos del sistema. Sin embargo, cuando esto afecta el
+llega a mostrar y otra no. Esto puede resultar de evidente necesidad en usuarios con distintas
+interacciones con las personas usuarias externas del sistema. Sin embargo, cuando esto afecta el
 desempeño de los flujos de trabajo y genera retrasos, resulta de necesaria atención.
 
 Para el correcto funcionamiento del flujo de proceso de aprobación de créditos en FOMDES, sería
@@ -120,11 +120,11 @@ físico del mismo.
 Hitos sin información en línea a solicitante o persona beneficiaria
 ===================================================================
 
-Los procesos organizacionales que trabajan con gestón de información para el público, ganan mucha
-credibilidad y respeto por parte de las personas usuarias finales del mismo. En este sentido,
-siempre será mucho mejor publicar toda la inforaón que no publicarla. Por otro lado, la
-diversificaión de canales abiertos con el público solicitante o beneficiario de los servicios del
-FOMDES redunda en la vinculación directa entre la institución y s sector social receptor.
+Los procesos organizacionales que trabajan con gestión de información para el público, ganan mucha credibilidad y
+respeto por parte de las personas usuarias finales del mismo cuando los servicios de atención al usuario ofrecen con
+rapidez información pertinente y oportuna. En este sentido, siempre será mucho mejor publicar toda la información que no
+publicarla. Por otro lado, la diversificaión de canales abiertos con el público solicitante o beneficiario de los
+servicios del FOMDES redunda en la vinculación directa entre la institución y s sector social receptor.
 
 Es por ello que el análisis realizado muestra como nudo crítico la generación de una zona de
 silencio en torno al estatus de la solicitud hecha al FOMDES, el punto dentro del proceso en el
