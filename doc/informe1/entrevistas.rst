@@ -401,7 +401,7 @@ Seguimiento y Acompañamiento
 
 #. Administración pasa listas de créditos liquidados a Seguimiento. Estas listas son elaboradas en forma manual.
 
-#. Seguimiento tiene acceso a los sistemas SIGEFOMDES-crédito y SISAC, para información de crédito y estados de cuenta respectivamente.
+#. Seguimiento tiene acceso a los sistemas informáticos SIGEFOMDES-crédito y SISAC, para información de crédito y estados de cuenta, respectivamente.
 
 #. El personal lleva control de los expedientes asignados en hojas de cálculo, con información de ambos sistemas y otros datos adicionales.
 
@@ -606,7 +606,7 @@ Caja
 
 #. El sistema es engorroso y muestra mucha información innecesaria. Se requiere que sea más claro para evitar errores.
 
-#. A pesar que Caja pertenece a administración, no trabaja con SIGEFOMDES-admin. Por esta razón, se deben transcribir todos los pagos registrados a este otro sistema, que es que utiliza Administración.
+#. A pesar de que Caja pertenece a administración, no trabaja con SIGEFOMDES-admin. Por esta razón, se deben transcribir todos los pagos registrados a este otro sistema, que es el utilizado en Administración.
 
 #. Todos los días se realiza cierre de caja, donde se desglosa el ingreso total en billetes, monedas, punto de débito, cheques y depósitos.
 
