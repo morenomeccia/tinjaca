@@ -296,6 +296,8 @@ créditos.
 
     .. graphviz:: proc7.dot
 
+    .. graphviz:: proc7b.dot
+
 
 **Liberación de Créditos**
 ==========================
