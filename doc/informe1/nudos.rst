@@ -21,7 +21,10 @@ neurálgicos para el sistema sino que también, en términos factibles, pueden s
 
 Sobre el sistema integral que nos ocupa construir, a continuación se identifican los
 distintos nudos críticos cuya resolución generará alto impacto en términos de coadyuvar a la
-construcción de nuevas prácticas de uso y adecuación del sistema a la gestión del FOMDES.
+construcción de nuevas prácticas de uso y adecuación del sistema a la gestión del FOMDES. Varios
+de los ejemplos mostrados a través de los hitos señalados constituyen factores identificados a
+través de las historias de usuario. Varios de los ejemplos bien pueden ser identificados con
+varios hitos de modo simultáneo.
 
 
 Hitos con transcripción manual de datos
@@ -45,6 +48,23 @@ contables de forma manual.
 
 Hitos con utilización de software de apoyo distinto a los sistemas en uso
 =========================================================================
+
+En ocasiones las dinámicas organizacionales, en especial en organizaciones públicas aunque no de
+modo exclusivo, suponen el cambio en formato de reportes, tipo o sus contenidos. En ocasiones
+también, estos cambios ocurre porque En este cambio ocurre porque se generan procesos,
+subprocesos o tareas al margen de aquellos que se encuentran normados y reconocidos por la
+organización.
+
+En este contexto, los sistemas informáticos, en tanto que instrumentos de apoyo a la gestión
+organizacional deben ser flexibles y adaptables a esos nuevos parámetros. Cuando la adaptación
+requerida no ocurre, se generan zonas de silencio de información que, casi de modo natural,
+buscan ser resueltas con soluciones temporales cuyo uso se prolonga en el tiempo, o con
+soluciones alternativas fuera del sistema.
+
+Tal es el caso de la Gerencia de Administración, en donde una hoja de cálculo tipo sirve como
+instrumento *puente* entre el sistema SISAC y SIGEFOMDES-Administración, requiriendo, además, la
+transcripción manual de datos desde el primero hasta la hoja de cálculo (sábana) y desde allí al
+segundo.
 
 
 Hitos sin acceso a los expedientes completos para funciones del cargo
