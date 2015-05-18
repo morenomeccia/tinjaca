@@ -35,7 +35,7 @@ transcripción de datos debería hacerse sólo en el punto inicial.
 
 Actualmente, el uso de varios sistemas, en ocasiones de modo simultáneo, aunado a la falta de
 comunicación entre ellos y la reducida estandarización de las tareas realizadas, supone en ocasiones
- la transcripción y retranscripción de algunos datos de los expedientes.
+la transcripción y retranscripción de algunos datos de los expedientes.
 
 Por sólo nombrar algunos, diremos que se destaca la transcripción de datos al sistema
 SIGEFOMDES-Crédito cuando la persona solicitante entrega los recaudos enviados tras su participación en el taller, pese a que ya algunos de esos datos han sido introducidos en el sistema WebAdmin durante la solicitud de
@@ -80,12 +80,12 @@ desempeño de los flujos de trabajo y genera retrasos, resulta de necesaria aten
 
 Para el correcto funcionamiento del flujo de proceso de aprobación de créditos en FOMDES, sería
 bueno que la información sobre el curso, estatus y características de cada expediente de crédito,
- estuviera a disposición de todos los usuarios internos del mismo.
+estuviera a disposición de todos los usuarios internos del mismo.
 
 Destaca el caso de Secretaría Ejecutiva, que tiene un acceso parcial a la información almacenada
 en los expedientes dentro de SIGEFOMDES-Crédito. Por ello, al momento de ofrecer información útil
- para la toma de decisión por parte de presidencia, debe hacerse la solicitud del expediente en
- físico del mismo.
+para la toma de decisión por parte de presidencia, debe hacerse la solicitud del expediente en
+físico del mismo.
 
 
 Hitos sin información en línea a solicitante o persona beneficiaria
