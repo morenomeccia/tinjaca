@@ -1,174 +1,183 @@
-**************
+﻿**************
 Requerimientos
 **************
 
-A continuación se presentan las historias de ususarios identificadas para los procesos del FOMDES en lo relativo a la asignación, acompañamiento y recuperación de los créditos, basadas en la información recolectada en las entrevistas con los trabajadores.
+A continuación se presentan las historias de usuario identificadas para los procesos del FOMDES en lo relativo a la asignación, acompañamiento y recuperación de los créditos, basadas en la información recolectada en las entrevistas con los trabajadores. 
 
-Historias de usario
-===================
+Historias de usuario
+====================
 
-**Usuario**
------------
+**Solicitante / Beneficiario o Beneficiaria**
+---------------------
 
 	.. list-table::
 		:widths: 40 40 40
 		:header-rows: 1
 
-		* - Como
-		  - Quiero
-		  - Para
-		* - Usuario
-		  - Crear mi cuenta de usuario en linea
+		* - Como | (Rol)
+		  - Quiero | (Labor)
+		  - Para | (Objetivo)
+		* - Solicitante / Beneficiario o Beneficiaria
+		  - Crear en línea mi cuenta de usuario o usuaria
 		  - Registrarme en el sistema
-		* - Usuario
-		  - Editar mis datos personales, direcciones y teléfonos en linea
-		  - Actualizar mi informacion en el sistema
-		* - Usuario
-		  - Consultar el estado de mis solicitudes en linea
+		* - Solicitante / Beneficiario o Beneficiaria
+		  - Editar en línea mis datos personales, direcciones y teléfonos
+		  - Actualizar mi información en el sistema
+		* - Solicitante / Beneficiario o Beneficiaria
+		  - Consultar en línea el estado de mis solicitudes
 		  - Conocer el progreso de mis solicitudes
-		* - Usuario
-		  - Consultar el estados de cuenta de mis creditos en linea
-		  - Conocer mi solvencia en la institucion
-		* - Usuario
-		  - Efectuar pagos en línea (con TDC) en linea
-		  - Cancelar mas facilmente mis deudas con la institucion  
-
-* Las cuentas de usuario invitado pueden tener uno o mas expedientes asociados y una fecha de vencimiento inicial de dos meses que en ultima instancia coincida con la fecha de liberación del crédito, pudiendo reactivarse en caso de nuevas solicitudes.
+		* - Solicitante / Beneficiario o Beneficiaria
+		  - Consultar en línea el estado de cuenta de mis créditos
+		  - Conocer mi solvencia en la institución
+		* - Solicitante / Beneficiario o Beneficiaria
+		  - Efectuar pagos en línea (con TDC) 
+		  - Cancelar más fácilmente mis deudas con la institución  
 
 
-**Atencion al Ciudadano**
+**Atención al Ciudadano**
 -------------------------
 
 	.. list-table::
 		:widths: 40 40 40
 		:header-rows: 1
 
-		* - Como
-		  - Quiero
-		  - Para
+		* - Como | (Rol)
+		  - Quiero | (Labor)
+		  - Para | (Objetivo)
 		* - Recepcionista
-		  - Registrar los datos del vistante, fecha, hora y destino
-		  - Utilizar la informacion en el futuro y en otras dependencias
+		  - Registrar los datos del visitante junto con la fecha, hora y destino
+		  - Utilizar la información en el futuro y en otras dependencias
 		* - Recepcionista
-		  - Consultar la informacion del estatus de la solcitud del usuario
+		  - Consultar la información del estatus de las solicitudes activas
 		  - Suministrarla al solicitante
 		* - Recepcionista
-		  - Consultar la informacion del estado de cuenta del beneficiario
+		  - Consultar la información del estado de cuenta del beneficiario o beneficiaria
 		  - Suministrarla al solicitante
 		* - Recepcionista
 		  - Generar reportes de los visitantes por rango de fecha
-		  - Conocer el numero de visiantes en ese rango o los datos de los visitantes
+		  - Conocer el número de visitantes en ese rango o los datos de los visitantes
 		* - Recepcionista
 		  - Generar reportes de los visitantes por su cedula
 		  - Conocer su historial de visitas
 		* - Recepcionista
 		  - Generar colas por orden de atención y por dependencia
-		  - Controlar el orden de atencion de los visitantes dentro de la institucion		
-	   
-**Ciencia y Tecnologia**
+		  - Controlar el orden de atención de los visitantes dentro de la institución		
+
+		  
+**Ciencia y Tecnología**
 ------------------------
 
     .. list-table::
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Analista de proyecto
-         - realizar estadísticas por sectores y municipios 
-         - llevar estadisticas de los proyectos de ciencia y tecnologia
+         - Realizar estadísticas por sectores y municipios 
+         - Llevar estadísticas de los proyectos de ciencia y tecnología
        * - Analista de proyecto
-         - llevar registro del lugar de procedencia de la materia prima y proveedores de los solicitantes
-         - llevar estadisticas de los proyectos de ciencia y tecnologia
+         - Llevar registro del lugar de procedencia de la materia prima y proveedores de los solicitantes
+         - Llevar estadísticas de los proyectos de ciencia y tecnología
 
-**Informacion de Crédito**
+		 
+**Información de Crédito**
 ---------------------------
 
     .. list-table::
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
-       * - Analista de credito
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
+       * - Analista de crédito
          - Ingresar los datos de la planilla de financiamiento al sistema
-         - disponer de esta informacion en el sistema para su futuro uso
-		 
+         - Disponer de esta información en el sistema para su futuro uso
+       * - Analista de crédito
+         - Enviar el expediente a la estación de Análisis Jurídico
+         - Dar continuidad al proceso de evaluación de propuestas		 
 
-**Estadistica y analisis de riesgo**
+		 
+**Estadística y Análisis de Riesgo**
 ------------------------------------
 
     .. list-table::
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
-       * - Analista de credito
-         - consultar el listado de propuestas de financiamiento que son viables
-         - su posterior inclusion en el taller de induccion 
-       * - Analista de credito
-         - generar una lista de solicitantes con propuestas de financiamiento viables para los talleres de induccion según el número de propuestas y el límite de cupos
-		 - planificar los talleres
-       * - Analista de credito
-	     - enviar por correo a los solicitantes la invitación para la asistencia al taller, con la fecha que le corresponderá 
-	     - realizar el taller
-       * - Analista de credito
-	     - enviar por correo a los solicitantes la lista de requisitos correspondientes a sus propuestas 
-		 - ser consignadas por los solicitantes el dia del taller
-       * - Analista de credito
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
+       * - Analista de crédito
+         - Consultar el listado de propuestas de financiamiento que son viables
+         - Posterior inclusión del solicitante en el taller de inducción 
+       * - Analista de crédito
+         - Generar una lista de solicitantes con propuestas de financiamiento viables para los talleres de inducción según el número de propuestas y el límite de cupos
+		 - Planificar los talleres
+       * - Analista de crédito
+		 - Enviar por correo a los solicitantes la invitación para la asistencia al taller, con la fecha que le corresponderá 
+		 - Realizar el taller
+       * - Analista de crédito
+		 - Enviar por correo a los solicitantes la lista de requisitos correspondientes a sus propuestas 
+		 - Ser consignadas por los solicitantes el día del taller
+       * - Analista de crédito
 		 - Colocar en lista de espera los solicitantes que falten al taller 
-		 - reasignarlos para un futuro taller
-       * - Analista de credito
+		 - Reasignarlos para un futuro taller
+       * - Analista de crédito
 		 - Generar trimestralmente un reporte estadístico de todas las solicitudes ingresadas. 
-		 - entregar a presidencia
-       * - Analista de credito
-		 - generar informes POA
-		 - entregar a presidencia 
+		 - Entregar a presidencia
+       * - Analista de crédito
+		 - Generar informes POA
+		 - Entregar a presidencia 
 
-
-
-**Analisis Juridico**
+		 
+**Análisis Jurídico**
 ---------------------
 
     .. list-table::
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
-       * - Analista Juridico
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
+       * - Analista Jurídico
          - Generar el informe de control previo
-         - Su uso en las siguientes fases del proceso de evaluacion de propuestas
-       * - Analista Juridico
-         - Asignar el valor de "CUMPLE" o "NO CUMPLE" para las garantias
-         - Su uso en las siguientes fases del proceso de evaluacion de propuestas
+         - Uso del informe en las siguientes fases del proceso de evaluación de propuestas
+       * - Analista Jurídico
+         - Asignar el estatus de "CUMPLE" o "NO CUMPLE" para las garantías
+         - Uso del estatus en las siguientes fases del proceso de evaluación de propuestas
+       * - Analista Jurídico
+         - Enviar el expediente a la estación de Análisis Económico
+         - Dar continuidad al proceso de evaluación de propuestas
 
 
-**Analisis Economico**
+**Análisis Económico**
 ----------------------
 
     .. list-table::
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
-       * - Analista economico
-         - Generar el informe de inspeccion (informe tecnico) con registro fotografico
-         - Su uso en las siguientes fases del proceso de evaluacion de propuestas
-       * - Analista economico
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
+       * - Analista Económico
+         - Generar el informe de inspección (informe técnico) con registro fotográfico
+         - Uso del informe en las siguientes fases del proceso de evaluación de propuestas
+       * - Analista Económico
 		 - Registrar las minutas que se levantan en campo
-		 - Ser incluido en el informe tecnico
-       * - Analista economico
-		 - definir los lapsos de pago del credito por el beneficiario
-		 - 
+		 - Ser incluido en el informe técnico
+       * - Analista Económico
+		 - Definir los lapsos de pago del crédito por el beneficiario o beneficiaria
+		 - Que se efectué el pago del crédito
+       * - Analista Económico
+         - Enviar el expediente al Gerente de Crédito
+         - Dar continuidad al proceso de evaluación de propuestas
 
+		 
 **Gerencia de Crédito**
 -----------------------
 
@@ -176,37 +185,83 @@ Historias de usario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
-       * - gerente de credito
-         - modificar las tasas de interés y los montos asignados por sector, rubro o garantía
-         - atender los cambios en las politicas de financiamiento
-	   * - Gerente de credito
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
+       * - Gerente de crédito
+         - Modificar las tasas de interés y los montos asignados por sector, rubro o garantía
+         - Atender los cambios en las políticas de financiamiento
+	   * - Gerente de crédito
 		 - Seleccionar los proyectos que van al consejo directivo 
-		 - Su posterior aprobación o negación.
-	   * - Gerente de credito
+		 - Posterior aprobación o negación de los proyectos
+       * - Gerente de Crédito
+         - Enviar el expediente a Secretaría Ejecutiva
+         - Dar continuidad al proceso de aprovación de propuestas
+	   * - Gerente de crédito
 		 - Generar una cola de rezagados en caso de que se termine el presupuesto pautado 
-		 - Que estos rezagados pasan a ser los primeros en la cola del año siguiente
-	   * - Gerente de credito
+		 - Que estos rezagados pasen a ser los primeros en la cola del año siguiente
+	   * - Gerente de crédito
 		 - Realizar reportes por municipio, por rubro, por estatus y por rango de fechas 
 		 - Generar información estadística
 
-**Gerencia de Acompanamiento**
+		 
+**Gerencia de Acompañamiento**
 ------------------------------
 
     .. list-table::
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
-       * - Jefe de acompanamiento.
-         - llevar un registro de la cantidad de empleos generados directos e indirectos por cada crédito
-         - 
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
+       * - Jefe de acompañamiento
+         - Llevar un registro de la cantidad de empleos generados directos e indirectos por cada crédito
+		 - Generar información estadística
+       * - Jefe de acompañamiento
+		 - Recibir la lista de créditos liquidados desde administración	
+		 - Poder realizar la inspección
+       * - Jefe de acompañamiento
+		 - Consultar la información del beneficiario o beneficiaria
+		 - Obtener datos de localización
+       * - Jefe de acompañamiento
+		 - Consultar la información del crédito
+		 - Verificar el plan de inversión		 
+       * - Jefe de acompañamiento
+		 - Llevar un registro de los usuarios atendidos por fecha y hora
+		 - llevar control interno
+       * - Jefe de acompañamiento
+		 - Generar y almacenar un informe de acompañamiento de cada visita realizada
+		 - Dar continuidad al proceso de crédito
+       * - Jefe de acompañamiento
+		 - Generar reportes con formato para las minutas con campos de chequeo
+		 - Reducir la información escrita de la evaluación	
+       * - Jefe de acompañamiento
+		 - Generar y consultar notas de visitas de inspección, atención en oficina o llamadas telefónicas
+		 - Guardar información relevante obtenida con el beneficiario		 
+       * - Jefe de acompañamiento
+		 - Organizar rutas de visitas por localidad basándose en cercanía
+		 - Optimizar los tiempos y recursos de transporte		 
+       * - Jefe de acompañamiento
+		 - Modificar los datos del beneficiario
+		 - Atender cambios de dirección, teléfono, municipio, parroquia		 
+       * - Jefe de acompañamiento
+		 - Generar de notificación de acompañamiento
+		 - Dejar en el sitio de visita
+       * - Jefe de acompañamiento
+		 - Generar minuta de atención en oficina donde se incluyan las declaraciones de los beneficiarios o beneficiarias
+		 - Ser firmada por los beneficiarios o beneficiarias como soporte	
+       * - Jefe de acompañamiento
+		 - Registrar los casos donde las visitas no son atendidas
+		 - Llevar el número de visitas fallidas		 
+       * - Jefe de acompañamiento
+		 - Generar formato de charla
+		 - Ser firmada en físico		 
+       * - Jefe de acompañamiento
+		 - Enviar el expediente a otras estaciones junto con nota explicativa
+		 - Continuar el proceso resaltando punto a considerar por la siguiente estación
 
-
+		 
 **Gerencia de Recuperaciones**
 ------------------------------
 
@@ -214,36 +269,39 @@ Historias de usario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
-       * - Jefe del departamento de estadística y auditoría de cobranza
-         - Realizar una factura con los datos del usuario, monto aprobado, tasas de interés y cuotas
-         - Su posterior uso por Caja
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
+       * - Jefe del departamento de estadística y auditoria de cobranza
+         - Realizar una factura con los datos del usuario o usuaria, monto aprobado, tasas de interés y cuotas
+         - Posterior uso de la factura por Caja
        * - Jefe del departamento de estadística y auditoría de cobranza
 		 - Generar un reporte desglosado por niveles de morosidad		
-		 - recordar el vencimiento de las cuotas.
+		 - Recordar el vencimiento de las cuotas
        * - Ejecutivo de cobranza
-		 - Generar una lista con los beneficiarios que deben visitar por fecha, municipio y sectores cuando existen cuotas vencidas. 
-		 - Efectuar el cobro de las cuotas.		
+		 - Generar una lista con los beneficiarios o beneficiarias que deben visitar por fecha, municipio y sectores cuando existen cuotas vencidas 
+		 - Efectuar el cobro de las cuotas		
        * - Ejecutivo de cobranza
-		 - Filtrar los estados de cuentas por cédula y expediente.
-		 - facilitar la busqueda de beneficiarios morosos
+		 - Filtrar los estados de cuentas por cédula y expediente
+		 - Facilitar la búsqueda de beneficiarios o beneficiarias morosos
+       * - Ejecutivo de cobranza
+		 - Consultar el estado de cuenta del beneficiario o beneficiaria
+		 - Verificar la morosidad del beneficiario o beneficiaria 		 
        * - Jefe del departamento de estadística y auditoría de cobranza
-		 - hacer una exoneracion en el cobro del credito
-		 - situaciones especiales de los beneficiarios
+		 - hacer una exoneración en el cobro del crédito
+		 - situaciones especiales de los beneficiarios o beneficiarias
        * - Ejecutivo de cobranza
-		 - registrar la información de mi labor diaria  
-		 - para llevar estadisticas del numero de beneficiarios procesados
+		 - Registrar la información de mi labor diaria  
+		 - Llevar estadísticas del numero de beneficiarios o beneficiarias procesados
        * - Ejecutivo de cobranza
-		 - registrar la información sobre los beneficiarios atendidos  
-		 - llevar estadisticas del numero de beneficiarios procesados
+		 - Registrar la información sobre los beneficiarios o beneficiarias atendidos  
+		 - Llevar estadísticas del numero de beneficiarios o beneficiarias procesados
        * - Gerente de recuperaciones
-	     - cambiar el estado del beneficiario segun su estado de cuenta
-		 - 
+	     - Cambiar el estado del beneficiario o beneficiaria según su morosidad
+		 - Seguir los procedimientos establecidos
        * - Ejecutivo de cobranza
-		 - crear carteras de cobranza
-		 - revisar los estados de cuenta
+		 - Crear carteras de cobranza
+		 - Revisar los estados de cuenta de la cartera asignada
 
 
 **Secretaria Ejecutiva**
@@ -253,95 +311,113 @@ Historias de usario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Secretaria(o) ejecutiva(o)
          - Asignar el estatus de la solicitud de crédito en base a lo discutido en el consejo directivo
-         - Dar continuidad al proceso de aprobacion de credito
+         - Dar continuidad al proceso de aprobación de crédito
        * - Secretaria(o) ejecutiva(o)
 		 - Realizar la agenda con los casos previamente filtrados 
 		 - discutirlos en el consejo directivo. 
        * - Secretaria(o) ejecutiva(o)
 		 - Imprimir la lista de asistentes del consejo directivo
-		 - que se lleve a cabo el consejo directivo 
+		 - Llevar a cabo el consejo directivo 
        * - Secretaria(o) ejecutiva(o)
-		 - realizar el acta del consejo directivo
-		 - que se lleve a cabo el consejo directivo 
+		 - Realizar el acta del consejo directivo
+		 - Llevar a cabo el consejo directivo 
        * - Secretaria(o) ejecutiva(o)
-		 - Redacta y entregar el documento de crédito al beneficiario para ser notariado 
-		 - dar continuidad al proceso de liquidacion del credito
+		 - Redacta y entregar el documento de crédito al beneficiario o beneficiaria para ser notariado 
+		 - Dar continuidad al proceso de liquidación del crédito
        * - Secretaria(o) ejecutiva(o)
-		 - aprobar el documento del crédito 
-		 - su posterior autenticacion por el beneficiario 
+		 - Aprobar el documento del crédito 
+		 - Posterior autenticación por el beneficiario o beneficiaria 
        * - Secretaria(o) ejecutiva(o)
-		 - revocar un credito en los casos en que los cheques no se retiren o los créditos se rechacen por los beneficiarios
-		 - 
+		 - Revocar un crédito en los casos en que los cheques no se retiren o los créditos se rechacen por los beneficiarios o beneficiarias
+		 - Seguir los procedimientos establecidos
        * - Secretaria(o) ejecutiva(o)
-		 - realizar la minuta del consejo 
-		 - 
+		 - Realizar la minuta del consejo 
+		 - Llevar un registro de lo ocurrido en el consejo
        * - Secretaria(o) ejecutiva(o)
-		 - enviar al gerente de credito los expedientes rechazados
-		 - su reconsideracion
+		 - Enviar al gerente de crédito los expedientes rechazados
+		 - Posible reconsideración de la propuesta
        * - Secretaria(o) ejecutiva(o)
-		 - recibir los documentos notariados y enviar a la gerencia de administracion
-		 - 
+		 - Recibir los documentos notariados y enviar a la gerencia de administración
+		 - Continuar con la aprobación del crédito
        * - Secretaria(o) ejecutiva(o)
-		 - enviar expedientes liquidados a acompanamiento
-		 - 
+		 - Enviar expedientes liquidados a Acompañamiento
+		 - verificar la inversión del capital por parte del beneficiario o beneficiaria
 
 
-
-#. Existe un listado de estaciones para hacer un seguimiento interno de los procesos por los cuales va pasando el expediente y una condición: 
-
-Las letras de cambio de aval con garantía se llevan en el software de ofimática Libre Office Calc. Secretaria ejecutiva y la gerencia de administración no se conectan entre si, por lo que se debe permitir modificar los datos del expediente, ya que por ejemplo los datos del conyugue no son vaciados por información de crédito pero para secretaria ejecutiva son importantes.
-
-
-**Gerencia de Administracion**
+**Gerencia de Administración**
 ------------------------------
 
     .. list-table::
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Asesor Administrativo
-         - Elaborar las cuentas por cobrar de los usuarios cuyos créditos fueron aprobados
-         - Dar continuidad al proceso de aprobacion de credito 
-       * - Gerente de administracion
-         - Elaborar los cheques de los usuarios cuyos créditos fueron aprobados
-         - Dar continuidad al proceso de aprobacion de credito 
-       * - Gerente de administracion
-		 - enviar los cheques a presidencia
-		 - su firma
-       * - Gerente de administracion
-         - Generar la tabla de amortización de los usuarios cuyos cheques fueron procesados
-         - Dar continuidad al proceso de aprobacion de credito
-       * - Gerente de administracion
-		 - revisar los pagos recibidos
- 		 - 
-       * - Gerente de administracion
-		 - anular recibos por cheques devueltos
- 		 - revertir el pago de las cuotas en el estado de cuenta
+         - Elaborar las cuentas por cobrar de los usuarios o usuarias cuyos créditos fueron aprobados
+         - Dar continuidad al proceso de aprobación de crédito 
+       * - Gerente de administración
+         - Elaborar los cheques de los usuarios o usuarias cuyos créditos fueron aprobados
+         - Dar continuidad al proceso de aprobación de crédito 
+       * - Gerente de administración
+		 - Enviar los cheques a presidencia
+		 - Posterior firma del cheque por presidencia
+       * - Gerente de administración
+         - Generar la tabla de amortización de los usuarios o usuarias cuyos cheques fueron procesados
+         - Dar continuidad al proceso de aprobación de crédito
+       * - Gerente de administración
+		 - Revisar los pagos recibidos
+ 		 - Garantizar que no haya errores
+       * - Gerente de administración
+		 - Anular recibos por cheques devueltos
+ 		 - Revertir el pago de las cuotas en el estado de cuenta
 	   * - Cajero
-		 - registrar los pagos de los beneficiarios para la cancelacion de cuotas de los credito
-         - para actualizar el estado de cuenta del credito del beneficiario 
+		 - Registrar los pagos de los beneficiarios o beneficiarias para la cancelación de cuotas de los crédito
+         - Actualizar el estado de cuenta del crédito del beneficiario o beneficiaria 
        * - Cajero
-         - generar un reporte del ingreso diario de caja
-         - poder ser visto por el presidente
+         - Generar un reporte del ingreso diario de caja
+         - Poder ser visto por el presidente
        * - Cajero
-         - registrar los datos de pago del recibo
-         - actualizar los estados de cuenta y generar los asientos contables. 
+         - Registrar los datos de pago del recibo
+         - Actualizar los estados de cuenta y generar los asientos contables. 
        * - Cajero
-         - simular el recibo (mostrar una vista previa del recibo)
-         - verificar los datos antes de guardar el recibo en el sistema e imprimirlo.
+         - Simular el recibo (mostrar una vista previa del recibo)
+         - Verificar los datos antes de guardar el recibo en el sistema e imprimirlo.
        * - Cajero
          - Imprimir el recibo
-         - entregar al beneficiario
+         - Entregar al beneficiario o beneficiaria
+       * - Cajero
+         - Imprimir el recibo de pagos realizados en cualquier fecha
+         - Satisfacer la solicitud del beneficiario o beneficiaria
+       * - Cajero
+		 - Verificar los expedientes asociados al beneficiario o beneficiara
+		 - Conocer las cuotas vencidas en cada uno de ellos
+       * - Cajero
+		 - Seleccionar el expediente correspondiente al crédito al cual se desea pagar
+		 - que el beneficiario o beneficiara pueda cancelar el crédito
+       * - Cajero
+		 - Consultar todos los expedientes
+		 - Informar al beneficiario o beneficiara el numero de cuotas vencidas, el total en bolivares en cada cuota y cuotas que estan proximas por vencerse
+       * - Cajero
+		 - Registrar el pago a conveniencia del beneficiaro o beneficiara
+		 - la cancelacion parcial o completa del crédito
+       * - Cajero
+	     - Calcular los intereses de mora correspondientes a la cuota a pagar
+		 - Cobrar lo debido 
+       * - Cajero
+	     - Realizar el cierre de caja diariamente
+		 - Desglosar el ingreso total en billetes, monedas, cheques, punto de debito y depósitos
+       * - Cajero
+		 - Generar un reporte con el total de personas atendidas diariamente
+		 - Llevar una estadística
 
-
+		 
 **Gerencia de Presupuesto**
 ---------------------------
 
@@ -349,13 +425,14 @@ Las letras de cambio de aval con garantía se llevan en el software de ofimátic
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Jefe de departamento de presupuesto
-         - Verificar la disponibilidad presupuestaria para el pago del credito al beneficiario
-         - Dar continuidad al proceso de aprobacion de credito 
+         - Verificar la disponibilidad presupuestaria para el pago del crédito al beneficiario o beneficiaria
+         - Dar continuidad al proceso de aprobación de crédito 
 
+		 
 **Gerencia de Sistemas**
 ------------------------
 
@@ -363,13 +440,12 @@ Las letras de cambio de aval con garantía se llevan en el software de ofimátic
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - a
          - b
          - c
-
 
 **Presidencia**
 ---------------
@@ -378,19 +454,20 @@ Las letras de cambio de aval con garantía se llevan en el software de ofimátic
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
        * - Presidente
-         - conocer cuánto fue el ingreso diario de caja 
-         - evaluar la recuperacion de fondos por la institucion
+         - Conocer cuánto fue el ingreso diario de caja 
+         - Evaluar la recuperación de fondos por la institución
        * - Presidente
-		 - revisar y firmar los cheques
-		 - dar seguimiento al proceso de liquidacion
+		 - Revisar y firmar los cheques
+		 - Dar seguimiento al proceso de liquidación
        * - Presidente
-		 - enviar los cheques firmados a secretaria ejecutiva
-		 - dar seguimiento al proceso de liquidacion 
+		 - Enviar los cheques firmados a secretaria ejecutiva
+		 - Dar seguimiento al proceso de liquidación 
 
+		 
 **Archivo**
 -----------
 
@@ -398,41 +475,40 @@ Las letras de cambio de aval con garantía se llevan en el software de ofimátic
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como
-         - Quiero
-         - Para
-       * - 
-         - llevar una lista de los expedientes prestados 
-         - llevar un seguimiento de los expedientes
+       * - Como | (Rol)
+         - Quiero | (Labor)
+         - Para | (Objetivo)
+       * - Analista de crédito
+         - Enviar los expedientes a diferentes dependencias
+         - Atender solicitudes de préstamo de expedientes
+	   * - Encargado o encargada de archivo
+         - Llevar una lista de los expedientes prestados 
+         - Llevar un seguimiento de los expedientes
+		 
+		 
+Requerimientos Generales
+========================
 
+#. TINJACÁ debe contemplar tres tipos de usuarios o usuarias:
 
-Establecieron metas diarias de recuperación, montos mayores a 120 mil se considera que van bien en caso contrario van mal. Este reporte se hace de manera manual y quieren que se vea el monto total en la interfaz del sistema.
-
-
-Requerimientos
-==============
-
-#. TINJACÁ debe contemplar tres tipos de usuarios:
-
-	* Los funcionarios administradores según sus jerarquías (tipo súper usuario).
-    * Los funcionarios operadores según sus cargos y ubicación administrativa (tipo usuario).
+	* Los funcionarios o funcionarias administradores según sus jerarquías (tipo súper usuario).
+    * Los funcionarios o funcionarias operadores según sus cargos y ubicación administrativa (tipo usuario).
     * El público en general (tipo invitado).
 
-
-#. Los beneficiarios deben poder utilizar la interfaz web del sistema para:
+#. Los beneficiarios o beneficiarias deben poder utilizar la interfaz web del sistema para:
 
 	* Efectuar pagos en línea (con TDC)
-	* Registrar los pagos efectuados mediante transferencia o depósito y recibir físicamente del comprobante.
+	* Registrar los pagos efectuados mediante transferencia o depósito
 
-#. Las cuentas de usuario pueden tener uno o mas expedientes asociados y una fecha de vencimiento inicial de dos meses que en ultima instancia coincida con la fecha de liberación del crédito, pudiendo reactivarse en caso de nuevas solicitudes.
+#. Las cuentas de usuario o usuaria pueden tener uno o más expedientes asociados y una fecha de vencimiento inicial de dos meses que en última instancia coincida con la fecha de liberación del crédito, pudiendo reactivarse en caso de nuevas solicitudes.
 
 #. La inserción de información estará distribuida entre las herramientas web y las disponibles en la institución; igualmente debe ser utilizada de forma eficiente.
 
-#. El sistema adaptar la solicitud de requisitos de acuerdo al sector, a los montos y a los rubros.
+#. El sistema debe adaptar la solicitud de requisitos de acuerdo al sector, a los montos y a los rubros.
 
 #. El sistema debe distribuir a los analistas económicos de crédito por municipios y parroquias para realizar las inspecciones con el fin de optimizar los tiempos por los traslados.
 
-#. Deben existir las siguientes categorías para los morosos:
+#. Deben existir las siguientes categorías para los beneficiarios o beneficiarias morosos:
 
 	* A para los solventes
 	* B, C, D de acuerdo al número de cuotas vencidas.
@@ -444,49 +520,51 @@ Requerimientos
 	* Fianza financiera (sociedad de garantías reciprocas)
 	* Prenda sin Desplazamiento
 
-#. El informe de control previo debe reflejar datos básicos del expediente, la condición de cumple o no cumple, la observación del analista juridico y el texto de la hipoteca o detalle de la garantía.
+#. El informe de control previo debe reflejar datos básicos del expediente, la condición de cumple o no cumple, la observación del analista jurídico y el texto de la hipoteca o detalle de la garantía.
 
-#. Debe existir una opción intermedia para aquellos expedientes a los cuales les faltan requisitos del analisis jurídico, como "Cumple condicionado".
+#. Debe existir una opción intermedia para aquellos expedientes a los cuales les faltan requisitos del análisis jurídico, como "Cumple condicionado".
 
-#. Para las visitas de inspección se dispone de distintos formatos segun el sector del credito.
+#. Para las visitas de inspección se dispone de distintos formatos según el sector del crédito.
 
 #. El sistema debería poder cargar fotografías de inspección con cada expediente de modo que en cualquier instancia de decisión pueda ser visualizada esta información. 
 
-#. El sistema debe aportar el formato de documento de crédito para su protocolización y asi evitar que ese proceso se haga de forma manual.
+#. El sistema debe aportar el formato de documento de crédito para su protocolización y así evitar que este proceso se haga de forma manual.
 
-#. El sistema debe mostrar en cual de las siguientes condiciones se encuentra el expediente: exonerado (en caso de muerte del beneficiario con hijos menores de edad, vaguadas, etc), negado, aprobado, aprobado condicionado, aprobado especial, diferido y revocado. Ademas debe mostrar que documentos le faltan al expediente.
+#. El sistema debe mostrar en cual de las siguientes condiciones se encuentra el expediente: exonerado (en caso de muerte del beneficiario o beneficiaria con hijos menores de edad, vaguadas, etc.), negado, aprobado, aprobado condicionado, aprobado especial, diferido y revocado. Además debe mostrar que documentos le faltan al expediente.
 
 #. Se quiere que cada ejecutivo tenga asignado automáticamente una cierta cantidad de expedientes y filtrarlos por criterios para los reportes en el que se muestren las cuotas que están más próximas a vencerse (de mayor a menor, diferenciadas por colores).
 
-#. Actualizar los pagos de las cuotas de la caja exprés en la base de datos cada 3 meses. 
+#. El sistema debe actualizar los pagos de las cuotas de la caja Express en la base de datos cada 3 meses. 
 
 #. El sistema debe ser capaz de diferenciar entre "deuda vigente" y "deuda vencida".
  
-#. Los estados de cuenta deben tener dos campos: un campo denominado "recibo", que guarda la lista de los recibos del expediente que los beneficiarios entregan en físico, por fax o correo y un campo denominado "Seguimiento", el cual guarda un resumen histórico de FOMDES con el beneficiario, es decir si se contactó a través de una visita o una llamada y a qué acuerdo de fecha y pago se llegó.
+#. Los estados de cuenta deben tener dos campos: un campo denominado "recibo", que guarda la lista de los recibos del expediente que los beneficiarios o beneficiarias entregan en físico, por fax o correo y un campo denominado "Seguimiento", el cual guarda un resumen histórico de FOMDES con el beneficiario o beneficiaria, es decir si se contactó a través de una visita o una llamada y a qué acuerdo de fecha y pago se llegó.
 
-#. Deben generarse alertas en las fechas próximas en que el beneficiario se compromete a pagar las cuotas vencidas para acompanamiento. 
+#. Deben generarse alertas en las fechas próximas en que el beneficiario o beneficiaria se compromete a pagar las cuotas vencidas para acompañamiento. 
 
-#. Debe existir un módulo para consultar los depósitos de las cuotas para acompanamiento. 
+#. Debe existir un módulo para consultar los depósitos de las cuotas para acompañamiento. 
 
-#. Se desea que el sistema envié mensajes SMS o correos electrónicos a los beneficiarios que caigan en alguna categoría de morosos.
+#. Se desea que el sistema envié mensajes SMS o correos electrónicos a los beneficiarios o beneficiarias que caigan en alguna categoría de morosos.
 
 #. Se desea que el sistema genere reportes mensuales del número de seguimientos realizados para utilizarlos como comprobante del trabajo realizado por los analistas.
 
 #. Se desea que el sistema genere "sábanas" de los créditos morosos por municipio que se encuentran en categorías B, C y D para planificar los cobros.
 
-#. El sistema debe contemplar el cambio de las políticas y las tasas de interés para el calculo de las cuotas a corbrar para la recuperacion del credito.
+#. El sistema debe contemplar el cambio de las políticas y las tasas de interés para el cálculo de las cuotas a cobrar para la recuperación del crédito.
 
 #. Se deben poder efectuar consultas con diferentes filtros en las diferentes oficinas.
 
 #. Los gerentes deben poseer permisos para modificar/corregir datos en el sistema.
 
-#. El nuevo sistema informático debe ser flexible y tener portabilidad para que se ajuste a las nuevas políticas y a las exigencias de cada presidente. Otra característica deseable del nuevo sistema es que sea de fácil mantenimiento.
+#. El nuevo sistema informático debe ser flexible y tener portabilidad para que se ajuste a las nuevas políticas y a las exigencias de cada presidente. 
 
-#. Los reportes estadísticos de la gerencia de credito deben poder agrupar las solicitudes por sector dentro de cada municipio, con el conteo y suma de los montos solicitados, y las totalizaciones.
+#. El sistema debe ser de fácil mantenimiento.
+
+#. Los reportes estadísticos de la gerencia de crédito deben poder agrupar las solicitudes por sector dentro de cada municipio, con el conteo y suma de los montos solicitados, y las totalizaciones.
 
 #. Debe existir un historial de inserción de documentos en el expediente. 
 
-#. El sistema debe contemplar diferentes roles para el personal de la institucion. La asignacion de roles debe hacerse a traves de recursos humanos.
+#. El sistema debe contemplar diferentes roles para el personal de la institución. La asignación de roles debe hacerse a través de recursos humanos.
 
 #. Se deben utilizar los siguientes códigos para identificar los 7 sectores empresariales:
 
@@ -499,3 +577,5 @@ Requerimientos
 	* T > turismo
 
 #. Recalcular los intereses de las cuotas por cheques devueltos.
+
+#. Incluir datos de georeferencia para facilitar la localización de los centros de producción y la creación de rutas óptimas.
