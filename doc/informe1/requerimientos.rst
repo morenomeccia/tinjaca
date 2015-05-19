@@ -205,8 +205,11 @@ Historias de usuario
           - Generar el informe de control previo
           - Uso del informe en las siguientes fases del proceso de evaluación de propuestas
         * - Analista Jurídico
-          - Asignar el estatus de "CUMPLE" o "NO CUMPLE" para las garantías
+          - Asignar el estatus de "CUMPLE", "NO CUMPLE" o "CUMPLE CONDICIONADO" para las garantías
           - Uso del estatus en las siguientes fases del proceso de evaluación de propuestas
+        * - Analista Jurídico
+          - Agregar una nota para los casos de "CUMPLE CONDICIONADO"
+          - Explicar la causa del estatus e indicar documentos faltantes
         * - Analista Jurídico
           - Enviar el expediente a la estación de Análisis Económico
           - Dar continuidad al proceso de evaluación de propuestas
@@ -233,6 +236,9 @@ Historias de usuario
         * - Analista Económico
           - Generar el informe de inspección (informe técnico) con registro fotográfico
           - Uso del informe en las siguientes fases del proceso de evaluación de propuestas
+        * - Analista Económico
+          - Cargar fotografías de inspecciones en cada expediente
+          - Posterior visualización por cualquier instancia de decisión
         * - Analista Económico
           - Registrar las minutas que se levantan en campo
           - Ser incluido en el informe técnico
@@ -321,6 +327,9 @@ Historias de usuario
           - Generar y almacenar un informe de acompañamiento de cada visita realizada
           - Dar continuidad al proceso de crédito
         * - Jefe de acompañamiento
+          - Cargar fotografías de inspecciones en cada expediente
+          - Posterior visualización por cualquier instancia de decisión
+        * - Jefe de acompañamiento
           - Generar reportes con formato para las minutas con campos de chequeo
           - Reducir la información escrita de la evaluación
         * - Jefe de acompañamiento
@@ -347,6 +356,7 @@ Historias de usuario
         * - Jefe de acompañamiento
           - Enviar el expediente a otras estaciones junto con nota explicativa
           - Continuar el proceso resaltando punto a considerar por la siguiente estación
+
 
 .. index:: Jefe del departamento de estadística y auditoría de cobranza, Ejecutivo de cobranza, Gerente de recuperaciones
 
@@ -417,6 +427,7 @@ Historias de usuario
         * - Ejecutivo de cobranza
           - Verificar la validez de los depósitos bancarios para los pagos
           - Rechazar depósitos utilizados previamente en otro pago
+
 
 .. index:: Secretario(a) Ejecutiva
 
@@ -504,8 +515,8 @@ Historias de usuario
           - Revisar los pagos recibidos
           - Garantizar que no haya errores
         * - Gerente de administración
-          - Anular recibos por cheques devueltos
-          - Revertir el pago de las cuotas en el estado de cuenta
+          - Anular recibos por cheques devueltos y actualizar el estado de cuenta automáticamente
+          - Revertir el pago de las cuotas en el estado de cuenta y recalcular los intereses de las cuotas subsiguientes
         * - Cajero
           - Registrar los pagos de los beneficiarios o beneficiarias para la cancelación de cuotas de los crédito
           - Actualizar el estado de cuenta del crédito del beneficiario o beneficiaria
@@ -636,9 +647,15 @@ Historias de usuario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como | (Rol)
-         - Quiero | (Labor)
-         - Para | (Objetivo)
+       * -
+           | Como
+           | (Rol)
+         -
+           | Quiero
+           | (Labor)
+         -
+           | Para
+           | (Objetivo)
        * - Gerente de Sistemas
          - El sistema sea de fácil mantenimiento
          - Garantizar el funcionamiento del sistema
@@ -654,9 +671,20 @@ Historias de usuario
          - Atribuir funciones limitadas
 
 
-Requerimientos Generales
-========================
+Requerimientos Adicionales
+==========================
 
+#. Se deben utilizar los siguientes códigos para identificar los 7 sectores empresariales:
+
+    * MEP > microempresas
+    * PYME > pequeña y mediana empresa
+    * PYMI > pequeña y mediana industria
+    * COOP > cooperativas
+    * A > artesanías
+    * AGR > agrícola
+    * T > turismo
+
+#. El monto máximo, número de cuotas, tiempo de pago, meses de gracia, y porcentaje de interés, se determinan según el sector de financiamiento y del tipo de empresa Usuario o Usuaria.
 
 #. Deben existir las siguientes categorías para los beneficiarios o beneficiarias morosos:
 
@@ -672,11 +700,7 @@ Requerimientos Generales
 
 #. El informe de control previo debe reflejar datos básicos del expediente, la condición de cumple o no cumple, la observación del analista jurídico y el texto de la hipoteca o detalle de la garantía.
 
-#. Debe existir una opción intermedia para aquellos expedientes a los cuales les faltan requisitos del análisis jurídico, como "Cumple condicionado".
-
 #. Para las visitas de inspección se dispone de distintos formatos según el sector del crédito.
-
-#. El sistema debería poder cargar fotografías de inspección con cada expediente de modo que en cualquier instancia de decisión pueda ser visualizada esta información. 
 
 #. El sistema debe aportar el formato de documento de crédito para su protocolización y así evitar que este proceso se haga de forma manual.
 
@@ -684,13 +708,9 @@ Requerimientos Generales
 
 #. Se quiere que cada ejecutivo tenga asignado automáticamente una cierta cantidad de expedientes y filtrarlos por criterios para los reportes en el que se muestren las cuotas que están más próximas a vencerse (de mayor a menor, diferenciadas por colores).
 
-#. El sistema debe actualizar los pagos de las cuotas de la caja Express en la base de datos cada 3 meses. 
-
 #. El sistema debe ser capaz de diferenciar entre "deuda vigente" y "deuda vencida".
  
 #. Los estados de cuenta deben tener dos campos: un campo denominado "recibo", que guarda la lista de los recibos del expediente que los beneficiarios o beneficiarias entregan en físico, por fax o correo y un campo denominado "Seguimiento", el cual guarda un resumen histórico de FOMDES con el beneficiario o beneficiaria, es decir si se contactó a través de una visita o una llamada y a qué acuerdo de fecha y pago se llegó.
-
-#. Deben generarse alertas en las fechas próximas en que el beneficiario o beneficiaria se compromete a pagar las cuotas vencidas para acompañamiento. 
 
 #. Debe existir un módulo para consultar los depósitos de las cuotas para acompañamiento. 
 
@@ -714,18 +734,4 @@ Requerimientos Generales
 
 #. El sistema debe contemplar diferentes roles para el personal de la institución. La asignación de roles debe hacerse a través de recursos humanos.
 
-#. Se deben utilizar los siguientes códigos para identificar los 7 sectores empresariales:
-
-    * MEP > microempresas
-    * PYME > pequeña y mediana empresa
-    * PYMI > pequeña y mediana industria
-    * COOP > cooperativas
-    * A > artesanías
-    * AGR > agrícola
-    * T > turismo
-
-#. El monto máximo, número de cuotas, tiempo de pago, meses de gracia, y porcentaje de interés, se determinan según el sector de financiamiento y del tipo de empresa Usuario o Usuaria.
-
-#. Recalcular los intereses de las cuotas por cheques devueltos.
-
-#. Incluir datos de georeferencia para facilitar la localización de los centros de producción y la creación de rutas óptimas.
+#. Incluir datos de georeferencia para facilitar la localización de los centros de producción y la creación de rutas óptimas para las campañas de visitas.
