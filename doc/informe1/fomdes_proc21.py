@@ -58,7 +58,7 @@ aj_edges = {"aj0": {"aj1": {}},
 
 AJ = add_cluster(F, "aj", "Análisis Jurídico", aj_cluster, aj_edges)
 
-F.add_node("SIGEFOMDES Crédito", image="static/database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Crédito")
+F.add_node("SIGEFOMDES Crédito", image="_static/database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Crédito")
 
 global_edges = {"u6":  {"ic4": {"style": "dashed"}},
                 "ic6": {"aj0": {"style": "dashed"}},

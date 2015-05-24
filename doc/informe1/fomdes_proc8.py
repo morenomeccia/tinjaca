@@ -49,8 +49,8 @@ p_edges = {}
 
 P = add_cluster(F, "p", "Presidencia", p_cluster, p_edges)
 
-#F.add_node("SIGEFOMDES Administración", image="static/database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Administración")
-F.add_node("SISAC", image="static/database.png", shape="plaintext", label="", xlabel="SISAC")
+#F.add_node("SIGEFOMDES Administración", image="_static/database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Administración")
+F.add_node("SISAC", image="_static/database.png", shape="plaintext", label="", xlabel="SISAC")
 
 global_edges = {"Caja": {"ad0": {"style": "dashed"}},
                 "SISAC": {"ad1": {"style": "dashed"}},

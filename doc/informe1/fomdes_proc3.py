@@ -61,7 +61,7 @@ cd_edges = {"cd0": {"cd1": {}}}
 
 CD = add_cluster(F, "cd", "Consejo Directivo", cd_cluster, cd_edges)
 
-# F.add_node("SIGEFOMDES Crédito", image="static/database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Crédito")
+# F.add_node("SIGEFOMDES Crédito", image="_static/database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Crédito")
 
 global_edges = {"Gerencia de Crédito":  {"se0": {"style": "dashed"}},
                 "p0": {"se1": {"style": "dashed"}},

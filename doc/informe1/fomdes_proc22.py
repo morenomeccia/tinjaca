@@ -58,7 +58,7 @@ gc_edges = {"gc0": {"gc1": {}},
 
 GC = add_cluster(F, "gc", "Gerencia de Crédito", gc_cluster, gc_edges)
 
-F.add_node("SIGEFOMDES Crédito", image="static/database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Crédito")
+F.add_node("SIGEFOMDES Crédito", image="_static/database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Crédito")
 
 global_edges = {"Ánálisis Jurídico": {"ae0": {"style": "dashed"}},
                 "ae7": {"gc0": {"style": "dashed"}},

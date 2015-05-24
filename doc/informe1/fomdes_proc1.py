@@ -54,7 +54,7 @@ er_edges = {"er0": {"er1": {}}}
 
 ER = add_cluster(F, "er", "Estadística y Evaluación de Riesgos", er_cluster, er_edges)
 
-F.add_node("Webadmin", image="static/database.png", shape="plaintext", label="", xlabel="Webadmin")
+F.add_node("Webadmin", image="_static/database.png", shape="plaintext", label="", xlabel="Webadmin")
 
 global_edges = {"u2":  {"ic0": {"style": "dashed"}},
                 "ic2": {"er0": {"xlabel": "Si", "style": "dashed"}},

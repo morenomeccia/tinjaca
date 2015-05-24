@@ -56,8 +56,8 @@ r_edges = {}
 
 R = add_cluster(F, "r", "Recuperaciones", r_cluster, r_edges)
 
-# F.add_node("SIGEFOMDES Administración", image="static/database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Administración")
-F.add_node("SISAC", image="static/database.png", shape="plaintext", label="", xlabel="SISAC")
+# F.add_node("SIGEFOMDES Administración", image="_static/database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Administración")
+F.add_node("SISAC", image="_static/database.png", shape="plaintext", label="", xlabel="SISAC")
 
 global_edges = {"Beneficiario":  {"c0": {"style": "dashed"}},
                 "SISAC": {"c1": {"style": "dashed"}},
