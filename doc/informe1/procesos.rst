@@ -51,7 +51,7 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
 
     * **Flujograma**: Ver Figura 3.1
 
-    .. graphviz:: proc1.dot
+    .. graphviz:: _graphviz/proc1.dot
        :caption: Recepción de Propuestas
 
 .. index:: !Gerencia de Crédito, Usuario, Información de Crédito, Análisis Jurídico, Análisis Económico
@@ -101,10 +101,10 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
 
     * **Flujograma**: Ver Figuras 3.2 y 3.3
 
-    .. graphviz:: proc21.dot
+    .. graphviz:: _graphviz/proc21.dot
        :caption: Recepción y Evaluación de Solicitudes 1
 
-    .. graphviz:: proc22.dot
+    .. graphviz:: _graphviz/proc22.dot
        :caption: Recepción y Evaluación de Solicitudes 2
 
 .. index:: !Presidencia, Secretaría Ejecutiva, Presupuesto, Consejo Directivo
@@ -146,7 +146,7 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
 
     * **Flujograma**: Ver Figura 3.4
 
-    .. graphviz:: proc3.dot
+    .. graphviz:: _graphviz/proc3.dot
        :caption: Aprobación de Créditos
 
 .. index:: !Administración y Finanzas, Secretaría Ejecutiva, Presupuesto, Administración, Presidencia
@@ -193,7 +193,7 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
 
     * **Flujograma**: Ver Figura 3.5
 
-    .. graphviz:: proc4.dot
+    .. graphviz:: _graphviz/proc4.dot
        :caption: Liquidación de Créditos
 
 .. index:: !Gerencia de Crédito, !Gerencia de Recuperaciones, Acompañamiento y Asistencia Técnica, Consultoría Jurídica, Archivo
@@ -231,7 +231,7 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
 
     * **Flujograma**: Ver Figura 3.6
 
-    .. graphviz:: proc5.dot
+    .. graphviz:: _graphviz/proc5.dot
        :caption: Inspección de Inversiones
 
 .. index:: !Administración y Finanzas, Caja, Consultoría Juridica
@@ -272,7 +272,7 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
 
     * **Flujograma**: Ver Figura 3.7
 
-    .. graphviz:: proc6.dot
+    .. graphviz:: _graphviz/proc6.dot
        :caption: Pagos
 
 .. index:: !Gerencia de Recuperaciones, Ejecutivos de Cobranza, Consultoría Juridica
@@ -323,10 +323,10 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
 
     * **Flujograma**: Ver Figuras 3.8 y 3.9
 
-    .. graphviz:: proc7.dot
+    .. graphviz:: _graphviz/proc7.dot
        :caption: Gestión de Cobranzas 1
 
-    .. graphviz:: proc7b.dot
+    .. graphviz:: _graphviz/proc7b.dot
        :caption: Gestión de Cobranzas 2
 
 .. index:: !Administración y Finanzas, Consultoría Juridica, Presidencia
@@ -366,5 +366,5 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
 
     * **Flujograma**: Ver Figura 3.10
 
-    .. graphviz:: proc8.dot
+    .. graphviz:: _graphviz/proc8.dot
        :caption: Liberación de Créditos
