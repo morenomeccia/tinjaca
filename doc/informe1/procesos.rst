@@ -32,9 +32,9 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
        :widths: 40 70 40
        :header-rows: 1
 
-       * - Entrada
-         - Actividades
-         - Salida
+       * - | Entrada
+         - | Actividades
+         - | Salida
        * - Necesidad de solicitar un crédito
          - Descargar e introducir planilla "Propuesta de Financiamiento"
          - Propuesta de financiamiento
@@ -52,7 +52,7 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
     * **Flujograma**: Ver Figura 3.1
 
     .. graphviz:: proc1.dot
-
+       :caption: Recepción de Propuestas
 
 .. index:: !Gerencia de Crédito, Usuario, Información de Crédito, Análisis Jurídico, Análisis Económico
 
@@ -74,9 +74,9 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
        :widths: 40 70 40
        :header-rows: 1
 
-       * - Entrada
-         - Actividades
-         - Salida
+       * - | Entrada
+         - | Actividades
+         - | Salida
        * - Planilla de requisitos
          - Reunir y consignar los requisitos
          - Requisitos por sector
@@ -102,8 +102,10 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
     * **Flujograma**: Ver Figuras 3.2 y 3.3
 
     .. graphviz:: proc21.dot
+       :caption: Recepción y Evaluación de Solicitudes 1
 
     .. graphviz:: proc22.dot
+       :caption: Recepción y Evaluación de Solicitudes 2
 
 .. index:: !Presidencia, Secretaría Ejecutiva, Presupuesto, Consejo Directivo
 
@@ -126,9 +128,9 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
        :widths: 40 70 40
        :header-rows: 1
 
-       * - Entrada
-         - Actividades
-         - Salida
+       * - | Entrada
+         - | Actividades
+         - | Salida
        * - Lista de expedientes
          - Revisar lista de expedientes junto con presidencia
          - Lista de expedientes priorizada
@@ -142,9 +144,10 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
          - Elaborar el documento de crédito y de ser necesario el documento de la empresa
          - Documento de crédito y documento de constitución de empresa
 
-    * **Flujograma**:
+    * **Flujograma**: Ver Figura 3.4
 
     .. graphviz:: proc3.dot
+       :caption: Aprobación de Créditos
 
 .. index:: !Administración y Finanzas, Secretaría Ejecutiva, Presupuesto, Administración, Presidencia
 
@@ -166,9 +169,9 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
        :widths: 40 70 40
        :header-rows: 1
 
-       * - Entrada
-         - Actividades
-         - Salida
+       * - | Entrada
+         - | Actividades
+         - | Salida
        * - Documento protocolizado del cŕedito
          - Revisar el documento protocolizado
          - Expediente con Documento de Crédito Protocolizado
@@ -188,9 +191,10 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
          - Entregar cheque a beneficiario en acto público
          - Expediente con copia de orden de liquidación
 
-    * **Flujograma**:
+    * **Flujograma**: Ver Figura 3.5
 
     .. graphviz:: proc4.dot
+       :caption: Liquidación de Créditos
 
 .. index:: !Gerencia de Crédito, !Gerencia de Recuperaciones, Acompañamiento y Asistencia Técnica, Consultoría Jurídica, Archivo
 
@@ -212,9 +216,9 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
        :widths: 40 70 40
        :header-rows: 1
 
-       * - Entrada
-         - Actividades
-         - Salida
+       * - | Entrada
+         - | Actividades
+         - | Salida
        * - Expediente
          - Visitar la unidad de producción para verificar si cumple con el plan de inversión
          - Informe de verificación de la inversión/Recomendación del beneficiario para liquidaciones sucesivas
@@ -225,9 +229,10 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
          - Ingresar código de expediente a la lista de Archivo
          - Expediente con informe de verificación del plan de inversión
 
-    * **Flujograma**:
+    * **Flujograma**: Ver Figura 3.6
 
     .. graphviz:: proc5.dot
+       :caption: Inspección de Inversiones
 
 .. index:: !Administración y Finanzas, Caja, Consultoría Juridica
 
@@ -249,9 +254,9 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
        :widths: 40 70 40
        :header-rows: 1
 
-       * - Entrada
-         - Actividades
-         - Salida
+       * - | Entrada
+         - | Actividades
+         - | Salida
        * - Beneficiario que desea pagar
          - Consultar estado de cuenta en SISAC
          - Estado de cuenta
@@ -265,9 +270,10 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
          - Referir beneficiario a Recuperaciones
          - Solicitud de entrevista con Abogado de Recuperaciones
 
-    * **Flujograma**:
+    * **Flujograma**: Ver Figura 3.7
 
     .. graphviz:: proc6.dot
+       :caption: Pagos
 
 .. index:: !Gerencia de Recuperaciones, Ejecutivos de Cobranza, Consultoría Juridica
 
@@ -289,9 +295,9 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
        :widths: 40 70 40
        :header-rows: 1
 
-       * - Entrada
-         - Actividades
-         - Salida
+       * - | Entrada
+         - | Actividades
+         - | Salida
        * - Expediente que cumple con el plan de inversión
          - Revisar listas de carteras y sábanas
          - Lista de cuotas pagadas/vencidas
@@ -315,11 +321,13 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
          - Ejecución de garantía
 
 
-    * **Flujograma**:
+    * **Flujograma**: Ver Figuras 3.8 y 3.9
 
     .. graphviz:: proc7.dot
+       :caption: Gestión de Cobranzas 1
 
     .. graphviz:: proc7b.dot
+       :caption: Gestión de Cobranzas 2
 
 .. index:: !Administración y Finanzas, Consultoría Juridica, Presidencia
 
@@ -340,9 +348,9 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
        :widths: 40 70 40
        :header-rows: 1
 
-       * - Entrada
-         - Actividades
-         - Salida
+       * - | Entrada
+         - | Actividades
+         - | Salida
        * - Expediente con cancelación total
          - Verificar el estatus de la cuenta
          - Solicitud de liberación de crédito
@@ -356,6 +364,7 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
          - Entregar documento al beneficiario
          - Expediente con documento de liberación
 
-    * **Flujograma**:
+    * **Flujograma**: Ver Figura 3.10
 
     .. graphviz:: proc8.dot
+       :caption: Liberación de Créditos

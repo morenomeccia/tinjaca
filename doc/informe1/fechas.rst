@@ -129,7 +129,7 @@ Resumen de entrevistas
           | Oscar Barillas
           | Kelly Contreras
           | Cicerón Paz
-          | Jorge
+          | Jorge Vizcaya
       * - 17 de Abril de 2015
         -
           | Francisco Palm
