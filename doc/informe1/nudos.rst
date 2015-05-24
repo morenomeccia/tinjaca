@@ -6,7 +6,7 @@ Sobre los actuales cinco sistemas informáticos utilizados en FOMDES, se evidenc
 estructurados relativos a acceso de información, vinculación entre éstos,
 portabilidad  de los datos e interoperabilidad, entre otros. Estos problemas estructurados
 parecen ser consecuencia de la necesidad de atender a solicitudes puntuales por parte de los
-usuarios funcionales de los mismos y a la falta de planificación en su desarrollo.
+usuarios funcionales de dichos sistemas y a la falta de planificación en su desarrollo.
 
 Aunque esta metodología de desarrollo ha incidido de modo determinante en la forma en que se manifiestan las relaciones
 interfuncionales dentro de FOMDES, generando duplicación de tareas, hitos con transcripción de datos y doble
@@ -121,9 +121,9 @@ Hitos sin información en línea a solicitante o persona beneficiaria
 ===================================================================
 
 Los procesos organizacionales que trabajan con gestión de información para el público, ganan mucha credibilidad y
-respeto por parte de las personas usuarias finales del mismo cuando los servicios de atención al usuario ofrecen con
+respeto por parte de las personas usuarias finales del mismo cuando los servicios de atención a los beneficiarios ofrecen con
 rapidez información pertinente y oportuna. En este sentido, siempre será mucho mejor publicar toda la información que no
-publicarla. Por otro lado, la diversificaión de canales abiertos con el público solicitante o beneficiario de los
+publicarla. Por otro lado, la diversificación de canales abiertos con el público solicitante o beneficiario de los
 servicios del FOMDES redunda en la vinculación directa entre la institución y s sector social receptor.
 
 Es por ello que el análisis realizado muestra como nudo crítico la generación de una zona de
