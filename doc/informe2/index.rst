@@ -4,18 +4,15 @@
    contain the root `toctree` directive.
 
 
-Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales
-===================================================================
+Informe de diseño, propuesta de fases de desarrollo, configuración y pruebas de TINJACÁ
+=======================================================================================
 
 .. toctree::
    :maxdepth: 2
 
    descripcion
-   fechas
-   procesos
-   nudos
-   requerimientos
-   entrevistas
+   mocups
+   cronograma
 
 
 Índices y tablas
