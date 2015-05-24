@@ -6,7 +6,7 @@ Sobre los actuales cinco sistemas informáticos utilizados en FOMDES, se evidenc
 estructurados relativos a acceso de información, vinculación entre éstos,
 portabilidad  de los datos e interoperabilidad, entre otros. Estos problemas estructurados
 parecen ser consecuencia de la necesidad de atender a solicitudes puntuales por parte de los
-usuarios funcionales de los mismos y a la falta de planificación en su desarrollo.
+usuarios funcionales de los sistemas y a la falta de planificación en su desarrollo.
 
 Aunque esta metodología de desarrollo ha incidido de modo determinante en la forma en que se manifiestan las relaciones
 interfuncionales dentro de FOMDES, generando duplicación de tareas, hitos con transcripción de datos y doble
