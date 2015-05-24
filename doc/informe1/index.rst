@@ -16,9 +16,3 @@ Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales
    nudos
    requerimientos
    entrevistas
-
-
-Índices y tablas
-================
-
-* :ref:`genindex`
