@@ -83,10 +83,10 @@ incluidos en el sistema.
 El caso de los reportes de las visitas de inspección realizadas por la estación de Análisis
 Económico dentro de la Gerencia de Crédito que, por un lado, evidencia una falta de
 estandarización entre los distintos tipos de créditos manejados por FOMDES y el modo en que el
-sistema recoge la información de inspecciónn económica y de avales. Por otro lado, los reportes
+sistema recoge la información de inspección económica y de avales. Por otro lado, los reportes
 fotográficos relativos a las minutas de inspección no son recogidos por el sistema. La
 conjugación de estas situaciones induce estrés sobre el sistema informático, pues se traducen en
-demandas de inmediata atención por el equipo responsable de su mantenimiento y puesta en funcionamientoo,
+demandas de inmediata atención por el equipo responsable de su mantenimiento y puesta en funcionamiento,
 pero por el otro, ralentiza notablemente las labores de los analistas, al tiempo que afecta
 negativamente la integridad de la información disponible por parte de Presidencia y el Consejo
 Directivo al momento de evaluar la aprobación de cualquier solicitud de crédito.
@@ -123,8 +123,8 @@ Hitos sin información en línea a solicitante o persona beneficiaria
 Los procesos organizacionales que trabajan con gestión de información para el público, ganan mucha credibilidad y
 respeto por parte de las personas usuarias finales del mismo cuando los servicios de atención al usuario ofrecen con
 rapidez información pertinente y oportuna. En este sentido, siempre será mucho mejor publicar toda la información que no
-publicarla. Por otro lado, la diversificaión de canales abiertos con el público solicitante o beneficiario de los
-servicios del FOMDES redunda en la vinculación directa entre la institución y s sector social receptor.
+publicarla. Por otro lado, la diversificación de canales abiertos con el público solicitante o beneficiario de los
+servicios del FOMDES redunda en la vinculación directa entre la institución y el sector social receptor.
 
 Es por ello que el análisis realizado muestra como nudo crítico la generación de una zona de
 silencio en torno al estatus de la solicitud hecha al FOMDES, el punto dentro del proceso en el
