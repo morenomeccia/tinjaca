@@ -26,7 +26,7 @@ sobre deseos con respecto a éste. Y por la otra, en términos de la funcionalid
 elementos se idenifican como de ayuda para TINJACA.
 
 Las entrevistas, disponibles desde la sección de Anexos del presente informe, han sido el principal
-insumo para el levantamiento de procesos y tareas qe actualmente desempeña el FOMDES y las
+insumo para el levantamiento de procesos y tareas que actualmente desempeña el FOMDES y las
 necesidades que, desde la perspectiva del usuario es necesario incluir.
 
 Pero adicionalmente, se incluyen también requerimientos funcionales del sistema TINJACA que, a buen
