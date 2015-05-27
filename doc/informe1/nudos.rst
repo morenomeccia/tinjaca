@@ -121,7 +121,7 @@ Hitos sin información en línea a solicitante o persona beneficiaria
 ===================================================================
 
 Los procesos organizacionales que trabajan con gestión de información para el público, ganan mucha credibilidad y
-respeto por parte de las personas usuarias finales del mismo cuando los servicios de atención al usuario ofrecen con
+respeto por parte de las personas usuarias finales del mismo cuando los servicios de atención a los beneficiarios ofrecen con
 rapidez información pertinente y oportuna. En este sentido, siempre será mucho mejor publicar toda la información que no
 publicarla. Por otro lado, la diversificación de canales abiertos con el público solicitante o beneficiario de los
 servicios del FOMDES redunda en la vinculación directa entre la institución y el sector social receptor.

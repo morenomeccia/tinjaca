@@ -382,8 +382,8 @@ Historias de usuario
           - Generar un reporte desglosado por niveles de morosidad
           - Recordar el vencimiento de las cuotas
         * - Jefe del departamento de estadística y auditoría de cobranza
-          - Hacer exoneraciones en el cobro de los créditos
-          - Atender solicitudes especiales de los beneficiarios o beneficiarias
+          - Proponer exoneraciones en el cobro de los créditos
+          - Posterior discusión por el consejo directivo
         * - Ejecutivo de cobranza
           - Generar una lista con los beneficiarios o beneficiarias que deben visitar por fecha, municipio y sectores cuando existen cuotas vencidas
           - Efectuar el cobro de las cuotas
