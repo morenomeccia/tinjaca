@@ -51,8 +51,8 @@ pr_edges = {"pr2": {"pr3": {}},
 
 PR = add_cluster(F, "pr", "Presupuesto/Administración", pr_cluster, pr_edges)
 
-F.add_node("SIGEFOMDES Administración", image="_static/database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Administración")
-F.add_node("SISAC", image="_static/database.png", shape="plaintext", label="", xlabel="SISAC")
+F.add_node("SIGEFOMDES Administración", image=IMAGE_PATH + "database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Administración")
+F.add_node("SISAC", image=IMAGE_PATH + "database.png", shape="plaintext", label="", xlabel="SISAC")
 
 global_edges = {"Beneficiario":  {"se7": {"style": "dashed"}},
                 "se8": {"pr2": {"style": "dashed"}},

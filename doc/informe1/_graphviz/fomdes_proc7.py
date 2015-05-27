@@ -47,8 +47,8 @@ r_edges = {"r0": {"r1": {}},
 
 R = add_cluster(F, "r", "Recuperaciones", r_cluster, r_edges)
 
-#F.add_node("SIGEFOMDES Administración", image="_static/database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Administración")
-F.add_node("SISAC", image="_static/database.png", shape="plaintext", label="", xlabel="SISAC")
+#F.add_node("SIGEFOMDES Administración", image=IMAGE_PATH + "database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Administración")
+F.add_node("SISAC", image=IMAGE_PATH + "database.png", shape="plaintext", label="", xlabel="SISAC")
 
 global_edges = {"Acompañamiento":  {"r0": {"xlabel": fill("Expedientes que cumplen plan de inversión", TEXT_WIDTH)}},
                 "r7": {"SISAC": {"style": "dashed"}},

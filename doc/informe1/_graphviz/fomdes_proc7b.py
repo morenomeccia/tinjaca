@@ -48,17 +48,24 @@ CD = add_cluster(F, "cd", "Consejo Directivo", cd_cluster, cd_edges)
 
 r_cluster = {"r10": ("Recibir orden de exoneración", "start"),
              "r11": ("Ejecutar exoneración de crédito", "human"),
-             "r12": ("", "end")}
+             "r12": ("", "end"),
+             "r13": ("Requiere solicitar exoneración", "start"),
+             "r14": ("Solicitar exoneración", "message"),
+             "r15": ("", "end")}
 
 r_edges = {"r10": {"r11": {}},
-           "r11": {"r12": {}}}
+           "r11": {"r12": {}},
+           "r13": {"r14": {}},
+           "r14": {"r15": {}},
+           "r15": {"r10": {"style": "invis"}}}
 
 R = add_cluster(F, "r", "Recuperaciones", r_cluster, r_edges)
 
-#F.add_node("SIGEFOMDES Administración", image="_static/database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Administración")
-F.add_node("SISAC", image="_static/database.png", shape="plaintext", label="", xlabel="SISAC")
+#F.add_node("SIGEFOMDES Administración", image=IMAGE_PATH + "database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Administración")
+F.add_node("SISAC", image=IMAGE_PATH + "database.png", shape="plaintext", label="", xlabel="SISAC")
 
 global_edges = {"b1": {"cd2": {"style": "dashed"}},
+                "r14": {"cd2": {"style": "dashed"}},
                 "cd5": {"r10": {"style": "dashed"}},
                 "r11": {"SISAC":{}}}
 

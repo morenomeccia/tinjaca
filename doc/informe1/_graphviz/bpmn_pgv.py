@@ -16,7 +16,7 @@ __author__ = 'mapologo'
 import pygraphviz as pgv
 from textwrap import fill
 
-IMAGE_PATH = "_static/"
+IMAGE_PATH = "../_static/"
 
 LABEL_TEMPLATE = """<<TABLE border="0" cellborder="0">
                 <TR><TD align="left"><IMG SRC="{}"/></TD></TR>
