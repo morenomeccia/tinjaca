@@ -130,7 +130,7 @@ las distintas oficinas, de modo de atender las áreas que más lo requieran. Los
 
 #. FOMDES tiene dos entradas de recursos, los que provienen de la caja de recuperaciones y los que provienen del situado constitucional (Tesorería de la Gobernación). Estos recursos son manejados por presupuesto/contabilidad para la planificación anual. Sin embargo, si a mitad de año se quedan sin dinero solicitan a la gobernación una inyección de capital.
 
-#. No existe un formato para hacer una orden de compra en la gerencia de administración.
+#. Existe un formato para hacer una orden de compra en la gerencia de administración.
 
 #. En la ruta del expediente, no existe un historial de inserción de documentos en el expediente.
 
@@ -140,7 +140,7 @@ las distintas oficinas, de modo de atender las áreas que más lo requieran. Los
 
 #. Acompañamiento, usa indicadores para saber la cantidad de empleos generados directos e indirectos por cada crédito.
 
-#. Estadística y evaluación de riesgo utilizan el sistema informático WebAdmin que se utiliza en las gerencias de crédito y recuperaciones.
+#. Estadística y Evaluación de riesgo utilizan el sistema informático WebAdmin que se utiliza en la gerencia de crédito.
 
 #. Los códigos utilizados por FOMDES para identificar los 7 sectores empresariales son:
 
