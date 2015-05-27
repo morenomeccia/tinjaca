@@ -269,6 +269,9 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
        * - Cuenta en estado "extrajudicial"
          - Referir beneficiario a Recuperaciones
          - Solicitud de entrevista con Abogado de Recuperaciones
+       * - Cuenta en estado "extrajudicial"
+         - Referir beneficiario a Recuperaciones
+         - Solicitud de entrevista con Abogado de Recuperaciones
 
     * **Flujograma**: Ver Figura 3.7
 
@@ -285,7 +288,7 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
 
     * **Dependencia responsable**: Gerencia de Recuperaciones
 
-    * **Unidad(es) Ejecutora(s)**: Recuperaciones, Ejecutivos de Cobranza, Consultoría Jurídica
+    * **Unidad(es) Ejecutora(s)**: Recuperaciones, Ejecutivos de Cobranza, Consejo Directivo, Consultoría Jurídica
 
     * **Tabla de Actividades**:
 
@@ -310,8 +313,8 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
        * - Cuenta estado "B","C" o "D"
          - Solicitar entrevista y formular plan de pago
          - Acuerdo de plan de pago
-       * - Solicitud de exoneración del Consejo Directivo
-         - Ejecutar la exoneración del crédito
+       * - Solicitud de exoneración del crédito ante Consejo Directivo
+         - Aprobar la exoneración del crédito
          - Solicitud de liberación del crédito
        * - Seguimiento de plan de pago
          - Cambiar estatus a caja si cumple el plan de pago
