@@ -9,10 +9,10 @@ A continuación se presentan las historias de usuario identificadas para los pro
 Historias de usuario
 ====================
 
-.. index:: Usuario, Beneficiario
+.. index:: Potencial beneficiario o beneficiaria, Beneficiario
 
-**Usuario o Usuaria / Beneficiario o Beneficiaria**
----------------------------------------------------
+**Potencial beneficiario o beneficiaria / Beneficiario o Beneficiaria**
+-----------------------------------------------------------------------
 
     .. list-table::
         :widths: 40 40 40
@@ -27,25 +27,25 @@ Historias de usuario
           -
             | Para
             | (Objetivo)
-        * - Usuario o Usuaria / Beneficiario o Beneficiaria
-          - Crear en línea mi cuenta de usuario o usuaria
+        * - Potencial beneficiario o beneficiaria / Beneficiario o Beneficiaria
+          - Crear mi cuenta de usuario
           - Registrarme en el sistema
-        * - Usuario o Usuaria / Beneficiario o Beneficiaria
+        * - Potencial beneficiario o beneficiaria / Beneficiario o Beneficiaria
           - Editar en línea mis datos personales, direcciones y teléfonos
           - Actualizar mi información en el sistema
-        * - Usuario o Usuaria / Beneficiario o Beneficiaria
+        * - Potencial beneficiario o beneficiaria / Beneficiario o Beneficiaria
           - Consultar en línea el estado de mis solicitudes
           - Conocer el progreso de mis solicitudes
-        * - Usuario o Usuaria / Beneficiario o Beneficiaria
+        * - Potencial beneficiario o beneficiaria / Beneficiario o Beneficiaria
           - Consultar en línea el estado de cuenta de mis créditos
           - Conocer mi solvencia en la institución
-        * - Usuario o Usuaria / Beneficiario o Beneficiaria
+        * - Potencial beneficiario o beneficiaria / Beneficiario o Beneficiaria
           - Efectuar pagos en línea (con TDC)
           - Cancelar más fácilmente mis deudas con la institución
-        * - Usuario o Usuaria / Beneficiario o Beneficiaria
+        * - Potencial beneficiario o beneficiaria / Beneficiario o Beneficiaria
           - Registrar en línea los pagos efectuados mediante transferencia o depósito
           - Cancelar más fácilmente mis deudas con la institución
-        * - Usuario o Usuaria / Beneficiario o Beneficiaria
+        * - Potencial beneficiario o beneficiaria / Beneficiario o Beneficiaria
           - Tener uno o más expedientes asociados con fecha de vencimiento que coincida con la fecha de liberación del crédito
           - Poder realizar pagos de cuotas en Caja
 
@@ -73,10 +73,10 @@ Historias de usuario
           - Utilizar la información en el futuro y en otras dependencias
         * - Recepcionista
           - Consultar la información del estatus de las solicitudes activas
-          - Suministrarla al Usuario o Usuaria
+          - Suministrarla al solicitante
         * - Recepcionista
           - Consultar la información del estado de cuenta del beneficiario o beneficiaria
-          - Suministrarla al Usuario o Usuaria
+          - Suministrarla al solicitante
         * - Recepcionista
           - Generar reportes de los visitantes por rango de fecha
           - Conocer el número de visitantes en ese rango o los datos de los visitantes
@@ -109,7 +109,7 @@ Historias de usuario
           - Realizar estadísticas por sectores y municipios
           - Llevar estadísticas de los proyectos de ciencia y tecnología
         * - Analista de proyecto
-          - Llevar registro del lugar de procedencia de la materia prima y proveedores de los Usuarios o Usuarias
+          - Llevar registro del lugar de procedencia de la materia prima y proveedores de los potenciales beneficiarios o beneficiarias
           - Llevar estadísticas de los proyectos de ciencia y tecnología
 
 
@@ -162,18 +162,18 @@ Historias de usuario
             | (Objetivo)
         * - Analista de crédito
           - Consultar el listado de propuestas de financiamiento que son viables
-          - Posterior inclusión del Usuario o Usuaria en el taller de inducción
+          - Posterior inclusión del potencial beneficiario o beneficiaria en el taller de inducción
         * - Analista de crédito
-          - Generar una lista de Usuario o Usuarias con propuestas de financiamiento viables para los talleres de inducción según el número de propuestas y el límite de cupos
+          - Generar una lista de potenciales beneficiarios o beneficiarias con propuestas de financiamiento viables para los talleres de inducción según el número de propuestas y el límite de cupos
           - Planificar los talleres
         * - Analista de crédito
-          - Enviar por correo a los Usuario o Usuarias la invitación para la asistencia al taller, con la fecha que le corresponderá
+          - Enviar por correo a los potenciales beneficiarios o beneficiarias la invitación para la asistencia al taller, con la fecha que le corresponderá
           - Realizar el taller
         * - Analista de crédito
-          - Enviar por correo a los Usuario o Usuarias la lista de requisitos correspondientes a sus propuestas
-          - Ser consignadas por los Usuario o Usuarias el día del taller
+          - Enviar por correo a los potenciales beneficiarios o beneficiarias la lista de requisitos correspondientes a sus propuestas
+          - Ser consignada por los potenciales beneficiarios o beneficiarias el día del taller
         * - Analista de crédito
-          - Colocar en lista de espera los Usuario o Usuarias que falten al taller
+          - Colocar en lista de espera los potenciales beneficiarios o beneficiarias que falten al taller
           - Reasignarlos para un futuro taller
         * - Analista de crédito
           - Generar trimestralmente un reporte estadístico de todas las solicitudes ingresadas.
@@ -205,8 +205,11 @@ Historias de usuario
           - Generar el informe de control previo
           - Uso del informe en las siguientes fases del proceso de evaluación de propuestas
         * - Analista Jurídico
-          - Asignar el estatus de "CUMPLE" o "NO CUMPLE" para las garantías
+          - Asignar el estatus de "CUMPLE", "NO CUMPLE" o "CUMPLE CONDICIONADO" para las garantías
           - Uso del estatus en las siguientes fases del proceso de evaluación de propuestas
+        * - Analista Jurídico
+          - Agregar una nota para los casos de "CUMPLE CONDICIONADO"
+          - Explicar la causa del estatus e indicar documentos faltantes
         * - Analista Jurídico
           - Enviar el expediente a la estación de Análisis Económico
           - Dar continuidad al proceso de evaluación de propuestas
@@ -233,6 +236,9 @@ Historias de usuario
         * - Analista Económico
           - Generar el informe de inspección (informe técnico) con registro fotográfico
           - Uso del informe en las siguientes fases del proceso de evaluación de propuestas
+        * - Analista Económico
+          - Cargar fotografías de inspecciones en cada expediente
+          - Posterior visualización por cualquier instancia de decisión
         * - Analista Económico
           - Registrar las minutas que se levantan en campo
           - Ser incluido en el informe técnico
@@ -315,11 +321,14 @@ Historias de usuario
           - Consultar del expediente el apodo del beneficiario o beneficiaria
           - Facilitar su localización durante las visitas a los pueblos
         * - Jefe de acompañamiento
-          - Llevar un registro de los usuarios atendidos por fecha y hora
+          - Llevar un registro de los beneficiarios y beneficiarias atendidos por fecha y hora
           - Llevar control interno
         * - Jefe de acompañamiento
           - Generar y almacenar un informe de acompañamiento de cada visita realizada
           - Dar continuidad al proceso de crédito
+        * - Jefe de acompañamiento
+          - Cargar fotografías de inspecciones en cada expediente
+          - Posterior visualización por cualquier instancia de decisión
         * - Jefe de acompañamiento
           - Generar reportes con formato para las minutas con campos de chequeo
           - Reducir la información escrita de la evaluación
@@ -367,7 +376,7 @@ Historias de usuario
             | Para
             | (Objetivo)
         * - Jefe del departamento de estadística y auditoria de cobranza
-          - Realizar una factura con los datos del usuario o usuaria, monto aprobado, tasas de interés y cuotas
+          - Realizar una factura con los datos del beneficiario o beneficiaria, monto aprobado, tasas de interés y cuotas
           - Posterior uso de la factura por Caja
         * - Jefe del departamento de estadística y auditoría de cobranza
           - Generar un reporte desglosado por niveles de morosidad
@@ -489,23 +498,23 @@ Historias de usuario
             | Para
             | (Objetivo)
         * - Asesor de Administrativo
-          - Elaborar las cuentas por cobrar de los usuarios o usuarias cuyos créditos fueron aprobados
+          - Elaborar las cuentas por cobrar de los beneficiarios y beneficiarias cuyos créditos fueron aprobados
           - Dar continuidad al proceso de aprobación de crédito
         * - Gerente de administración
-          - Elaborar los cheques de los usuarios o usuarias cuyos créditos fueron aprobados
+          - Elaborar los cheques de los beneficiarios y beneficiarias cuyos créditos fueron aprobados
           - Dar continuidad al proceso de aprobación de crédito
         * - Gerente de administración
           - Enviar los cheques a presidencia
           - Posterior firma del cheque por presidencia
         * - Gerente de administración
-          - Generar la tabla de amortización de los usuarios o usuarias cuyos cheques fueron procesados
+          - Generar la tabla de amortización de los beneficiarios y beneficiarias cuyos cheques fueron procesados
           - Dar continuidad al proceso de aprobación de crédito
         * - Gerente de administración
           - Revisar los pagos recibidos
           - Garantizar que no haya errores
         * - Gerente de administración
-          - Anular recibos por cheques devueltos
-          - Revertir el pago de las cuotas en el estado de cuenta
+          - Anular recibos por cheques devueltos y actualizar el estado de cuenta automáticamente
+          - Revertir el pago de las cuotas en el estado de cuenta y recalcular los intereses de las cuotas subsiguientes
         * - Cajero
           - Registrar los pagos de los beneficiarios o beneficiarias para la cancelación de cuotas de los crédito
           - Actualizar el estado de cuenta del crédito del beneficiario o beneficiaria
@@ -636,9 +645,15 @@ Historias de usuario
        :widths: 40 40 40
        :header-rows: 1
 
-       * - Como | (Rol)
-         - Quiero | (Labor)
-         - Para | (Objetivo)
+       * -
+           | Como
+           | (Rol)
+         -
+           | Quiero
+           | (Labor)
+         -
+           | Para
+           | (Objetivo)
        * - Gerente de Sistemas
          - El sistema sea de fácil mantenimiento
          - Garantizar el funcionamiento del sistema
@@ -657,6 +672,17 @@ Historias de usuario
 Requerimientos Generales
 ========================
 
+#. Se deben utilizar los siguientes códigos para identificar los 7 sectores empresariales:
+
+    * MEP > microempresas
+    * PYME > pequeña y mediana empresa
+    * PYMI > pequeña y mediana industria
+    * COOP > cooperativas
+    * A > artesanías
+    * AGR > agrícola
+    * T > turismo
+
+#. El monto máximo, número de cuotas, tiempo de pago, meses de gracia, y porcentaje de interés, se determinan según el sector de financiamiento y del tipo de empresa del solicitante.
 
 #. Deben existir las siguientes categorías para los beneficiarios o beneficiarias morosos:
 
@@ -714,18 +740,4 @@ Requerimientos Generales
 
 #. El sistema debe contemplar diferentes roles para el personal de la institución. La asignación de roles debe hacerse a través de recursos humanos.
 
-#. Se deben utilizar los siguientes códigos para identificar los 7 sectores empresariales:
-
-    * MEP > microempresas
-    * PYME > pequeña y mediana empresa
-    * PYMI > pequeña y mediana industria
-    * COOP > cooperativas
-    * A > artesanías
-    * AGR > agrícola
-    * T > turismo
-
-#. El monto máximo, número de cuotas, tiempo de pago, meses de gracia, y porcentaje de interés, se determinan según el sector de financiamiento y del tipo de empresa Usuario o Usuaria.
-
-#. Recalcular los intereses de las cuotas por cheques devueltos.
-
-#. Incluir datos de georeferencia para facilitar la localización de los centros de producción y la creación de rutas óptimas.
+#. Incluir datos de georeferencia para facilitar la localización de los centros de producción y la creación de rutas óptimas para las campañas de visitas.

@@ -13,16 +13,16 @@ flujos de entrada y salida entre cada uno de los procesos y subprocesos que se d
 A continuación se presentan los procesos identificados para la estructura funcional actual de la institución en lo
 relativo a la asignación de créditos, acompañamiento en su ejecución y recuperación de la inversión.
 
-.. index:: !Gerencia de Crédito, Usuario, Información de Crédito, Estadística y Evaluación de Riesgos
+.. index:: !Gerencia de Crédito, Potencial beneficiario o beneficiaria, Información de Crédito, Estadística y Evaluación de Riesgos
 
 **Recepción de Propuestas**
 ===========================
 
-    * **Descripción**: Abarca desde la solicitud de información por parte del beneficiario(a) hasta la asistencia al taller
+    * **Descripción**: Abarca desde la solicitud de información por parte del potencial beneficiario o beneficiaria hasta la asistencia al taller
 
     * **Dependencia responsable**: Gerencia de Crédito
 
-    * **Unidad(es) Ejecutora(s)**: Usuario, Información de Crédito, Estadística y Evaluación de Riesgos
+    * **Unidad(es) Ejecutora(s)**: Potencial beneficiario o beneficiaria, Información de Crédito, Estadística y Evaluación de Riesgos
 
     * **Tabla de Actividades**:
 
@@ -45,16 +45,16 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
          - Evaluar la viabilidad de la propuesta y si cumple con las normativas del FOMDES
          - Propuesta viable/no viable
        * - Propuesta viable
-         - Añadir usuario a la lista del "Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario" y
+         - Añadir potencial beneficiario o beneficiaria a la lista del "Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario" y
            enviar lista de requisitos
-         - Usuario convocado para realizar taller
+         - Potencial beneficiario o beneficiaria convocado para realizar taller
 
     * **Flujograma**: Ver Figura 3.1
 
     .. graphviz:: _graphviz/proc1.dot
        :caption: Recepción de Propuestas
 
-.. index:: !Gerencia de Crédito, Usuario, Información de Crédito, Análisis Jurídico, Análisis Económico
+.. index:: !Gerencia de Crédito, Potencial beneficiario o beneficiaria, Información de Crédito, Análisis Jurídico, Análisis Económico
 
 **Recepción y Evaluación de Solicitudes**
 =========================================
@@ -64,7 +64,7 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
 
     * **Dependencia responsable**: Gerencia de Crédito
 
-    * **Unidad(es) Ejecutora(s)**: Usuario, Información de Crédito, Análisis Jurídico, Análisis Económico
+    * **Unidad(es) Ejecutora(s)**: Potencial beneficiario o beneficiaria, Información de Crédito, Análisis Jurídico, Análisis Económico
 
     * **Tabla de Actividades**:
 

@@ -82,13 +82,13 @@ Gerente de sistemas
 
 #. Ruta del beneficiario o beneficiaria en la institución:
 
-	#) El usuario o la usuaria descarga la "planilla de propuesta de negocio" del portal web, debe ser llenada con los datos solicitados e identificada con una foto tipo carnet en la planilla. Luego es llevada dentro de una carpeta marrón tamaño oficio al FOMDES. Este es el primer ingreso de datos del usuario o la usuaria al sistema SICA (Sistema Integrado de Control Administrativo) y al sistema informático WebAdmin para generar el número de la propuesta (código).
+	#) El potencial beneficiario o beneficiaria descarga la "planilla de propuesta de negocio" del portal web, debe ser llenada con los datos solicitados e identificada con una foto tipo carnet en la planilla. Luego es llevada dentro de una carpeta marrón tamaño oficio al FOMDES. Este es el primer ingreso de datos de la persona al sistema SICA (Sistema Integrado de Control Administrativo) y al sistema informático WebAdmin para generar el número de la propuesta (código).
 
-	#) Comienza la ruta del crédito. Los analistas de crédito verifican si la propuesta es viable y si cumplen con las normativas del FOMDES. De ser viable, seleccionan al beneficiario o la beneficiaria para el "Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario" y envían por correo las planillas con los requisitos que el usuario o usuaria debe imprimir y llevar el mismo día del taller. Esta etapa se considera como un primer filtro.
+	#) Comienza la ruta del crédito. Los analistas de crédito verifican si la propuesta es viable y si cumplen con las normativas del FOMDES. De ser viable, seleccionan al beneficiario o la beneficiaria para el "Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario" y envían por correo las planillas con los requisitos que el potencial beneficiario o beneficiaria debe imprimir y llevar el mismo día del taller. Esta etapa se considera como un primer filtro.
 
 	#) El día del taller, se le indica cuáles son los requisitos dependiendo del sector y monto solicitado que debe consignar posteriormente en una cita, en una fecha que se establece en la misma planilla, con la estación de Información de Crédito. Se dan las instrucciones para el llenado y el funcionario le asigna el número de propuesta (código) a la planilla Propuesta de Financiamiento. 
 
-	#) El usuario o la usuaria entrega los requisitos a los funcionarios o las funcionarias de la estación de Información de Crédito en la fecha propuesta, se hace una breve entrevista con el beneficiario o beneficiaria y se asigna el código alfanumérico del expediente. Luego, los requisitos y la planilla de financiamiento pasan a la estación de Análisis Jurídico, el cual verifica la validez legal de los requisitos. Segundo ingreso de datos del usuario o usuaria (Datos del Representante Legal) al SIGEFOMDES (Sistema Integrado de Gestión del FOMDES). No existe transferencia de datos entre los sistemas informáticos SICA y SIGEFOMDES.
+	#) El potencial beneficiario o beneficiaria o la usuaria entrega los requisitos en Información de Crédito en la fecha propuesta, se hace una breve entrevista con la persona y se asigna el código alfanumérico del expediente. Luego, los requisitos y la planilla de financiamiento pasan a la estación de Análisis Jurídico, el cual verifica la validez legal de los requisitos. Segundo ingreso de datos de la persona y del Representante Legal al SIGEFOMDES (Sistema Integrado de Gestión del FOMDES). No existe transferencia de datos entre los sistemas informáticos SICA y SIGEFOMDES.
 
 	#) Posteriormente, el expediente es asignado a la estación de Analistas Económicos, quienes, de previo acuerdo con el beneficiario o la beneficiaria, visitan las unidades de producción para inspeccionar las actividades objeto de la propuesta (se toman de 6 a 8 fotos para sustentar la inspección). En la inspección de factibilidad se evalúan tres elementos:
 
@@ -140,7 +140,7 @@ las distintas oficinas, de modo de atender las áreas que más lo requieran. Los
 
 #. Acompañamiento, usa indicadores para saber la cantidad de empleos generados directos e indirectos por cada crédito.
 
-#. Estadística y Evaluación de riesgo utilizan el sistema informático WebAdmin que se utiliza en la gerencia de crédito.
+#. Estadística y evaluación de riesgo utilizan el sistema informático WebAdmin que se utiliza en la gerencia de crédito.
 
 #. Los códigos utilizados por FOMDES para identificar los 7 sectores empresariales son:
 
@@ -209,9 +209,9 @@ Atención al Ciudadano
 
 Se dió a conocer que el sistema utilizado en recepción es SICA (Sistema Integrado de Información Administrativa), descrito en términos generales de la siguiente forma:
 
-#. Si el usuario o la usuaria llega a FOMDES por vez primera, se registra en SICA, solicitando: Nombre, Apellido, Cédula, Ubicación, Dependencia, y Observaciones.
+#. Si el visitante llega a FOMDES por vez primera, se registra en SICA, solicitando: Nombre, Apellido, Cédula, Ubicación, Dependencia, y Observaciones.
 
-#. Al llegar un usuario o una usuaria ya registrado, se solicita cédula y dependencia destino, registrándose en el sistema automáticamente la fecha y hora.
+#. Al llegar un visitante ya registrado, se solicita cédula y dependencia destino, registrándose en el sistema automáticamente la fecha y hora.
 
 #. Si el solicitante o la solicitante llama para pedir información sobre el estatus de su crédito, se levanta la pestaña de los sistemas  WebAdmin y SIGEFOMDES para dar la información correspondiente.
 
@@ -235,7 +235,7 @@ Se dió a conocer que el sistema utilizado en recepción es SICA (Sistema Integr
 
 #. Se recalcó que el ofrecimiento de la planilla de solicitud por Internet alivió el trabajo de este departamento.
 
-#. El departamento de Atención al ciudadano ofrece atención integral a los usuarios de FOMDES.
+#. El departamento de Atención al ciudadano ofrece atención integral a los visitantes y beneficiarios o beneficiarias de FOMDES.
 
 
 Unidad de Apoyo a Presidencia
@@ -316,14 +316,11 @@ Taller de Inducción
 
 #. Los requisitos para las propuestas de financiamiento dependen del sector de financiamiento y del tipo de empresa solicitante.
 
-#. Existen varios sectores de financiamiento: Agrícola y pecuario, Artesanía, Turístico, Microempresas, PyME, PyMI, Industrial, Cooperativas, Ciencia y Tecnología. Cada sector tiene una partida presupuestaria diferente. El sector Ciencia y Tecnología no tiene
-partida propia, por lo que se asocia a otro sector relacionado al proyecto.
+#. Existen varios sectores de financiamiento: Agrícola y pecuario, Artesanía, Turístico, Microempresas, PyME, PyMI, Industrial, Cooperativas, Ciencia y Tecnología. Cada sector tiene una partida presupuestaria diferente. El sector Ciencia y Tecnología no tiene partida propia, por lo que se asocia a otro sector relacionado al proyecto.
 
 #. El monto máximo, número de cuotas, tiempo de pago, meses de gracia, y porcentaje de interés, dependen del sector de financiamiento y del tipo de empresa solicitante.
 
-#. Para las visitas a los pueblos se considera la opción de utilizar los apodos de los usuarios para localizarlos, ya que en algunas
-oportunidades no son conocidos por sus nombres con los demás habitantes de la zona.
-
+#. Para las visitas a los pueblos se considera la opción de utilizar los apodos de los potenciales beneficiarios o beneficiarias para localizarlos, ya que en algunas oportunidades no son conocidos por sus nombres con los demás habitantes de la zona.
 
 
 Información de Crédito
@@ -332,13 +329,11 @@ Información de Crédito
 7 de Abril del 2015
 -------------------
 
-#. El proceso inicia con la planilla de propuesta de financiamiento, la cual puede ser descargada vía WEB o solicitada directamente en
-FOMDES. Cada propuesta de financiamiento presentará un número de propuesta único, asignado por FOMDES al momento de la consignación en
-esta oficina.
+#. El proceso inicia con la planilla de propuesta de financiamiento, la cual puede ser descargada vía WEB o solicitada directamente en FOMDES. Cada propuesta de financiamiento presentará un número de propuesta único, asignado por FOMDES al momento de la consignación en esta oficina.
 
 #. En esta misma oficina se realiza el estudio de viabilidad. En este proceso también se contemplan entrevistas con los solicitantes para ajustar el plan de inversión u otros aspectos de la propuesta a modo de hacerla viable.
 
-#. Luego, los usuarios con propuestas viables, posterior al taller, consignan los requisitos ante esta oficina nuevamente.
+#. Luego, los solicitantes con propuestas viables, posterior al taller, consignan los requisitos ante esta oficina nuevamente.
 
 #. Una vez consignados todos los requisitos, se ingresa al siguiente sistema. Es en este momento cuando nace el expediente de crédito, el cual posee un código alfanumérico único que incorpora iniciales del sector, año, e índice con contador de propuesta para el año.
 
@@ -402,7 +397,7 @@ Análisis Jurídico
 
 #. Esta instancia también se encarga de ajustar expedientes que no fueron aprobados en el período inmediatamente anterior por falta de recursos. Dichos expedientes son asignados en el sistema como "rechazados" e ingresados nuevamente con un código diferente que refleja su pertenencia presupuestaria en el año en curso. Los expedientes que cumplen con los requisitos son pasados a la siguiente estación.
 
-#. El analista jurídico sugiere que debe existir una opción intermedia para aquellos expedientes a los cuales les faltan requisitos, como "Cumple condicionado". El requisito que más tarda en ser entregado por los usuarios es la solvencia laboral (proveniente del INCES, Seguro Social y banavih). Se solicita que se anexe un estatus adicional para asignar a aquellos casos en los cuales se cumpla con los recaudos de garantía pero, por ejemplo, falte algún documento menor, como copia de RIF o cédula.
+#. El analista jurídico sugiere que debe existir una opción intermedia para aquellos expedientes a los cuales les faltan requisitos, como "Cumple condicionado". El requisito que más tarda en ser entregado por los potenciales beneficiarios o beneficiarias es la solvencia laboral (proveniente del INCES, Seguro Social y banavih). Se solicita que se anexe un estatus adicional para asignar a aquellos casos en los cuales se cumpla con los recaudos de garantía pero, por ejemplo, falte algún documento menor, como copia de RIF o cédula.
 
 #. Como las gerencias de crédito y administración no están conectadas entre sí, para saber cuánto dinero queda, los expedientes que son rechazados por falta de crédito de un año, son los primeros en la lista del año siguiente, para esto se vuelve a hacer una etiqueta en la carpeta del expediente con el nuevo año. Los expedientes que cumplen, se pasan a sistema de inspecciones (Economistas) y los que no cumplen, a gerencia general.
 
@@ -455,7 +450,7 @@ Acompañamiento
 
 #. Acompañamiento tiene acceso a los sistemas informáticos SIGEFOMDES-crédito y SISAC, para información de crédito y estados de cuenta, respectivamente. El personal lleva control de los expedientes asignados en hojas de cálculo, con información de ambos sistemas y otros datos adicionales.
 
-#. También se lleva control de los usuarios y usuarias atendidos por la oficina con registro de fecha y hora, utilizando hoja de cálculo.
+#. También se lleva control de los beneficiarios o beneficiarias atendidos por la oficina con registro de fecha y hora, utilizando hoja de cálculo.
 
 #. También se tienen los expedientes en físico de los créditos asignados a esta estación, para contar con toda la información. Estos son llevados a campo en las visitas lo que representa un peligro al resguardo de la información.
 
@@ -494,7 +489,7 @@ Gerencia de Recuperaciones
 
 #. En la gerencia de recuperaciones se trabaja con el sistema informático SISAC.
 
-#. La gerencia de administración utiliza los datos del cheque del crédito para generar las tablas de amortización y los estados de cuenta en SISAC. Luego, la gerencia de recuperaciones realiza una factura para Caja con los datos del usuario o la usuaria, monto aprobado, tasas de interés y cuotas entre otras. Las cuotas vencidas o pagadas no se reflejan en los reportes.
+#. La gerencia de administración utiliza los datos del cheque del crédito para generar las tablas de amortización y los estados de cuenta en SISAC. Luego, la gerencia de recuperaciones realiza una factura para Caja con los datos del beneficiario o beneficiaria, monto aprobado, tasas de interés y cuotas entre otras. Las cuotas vencidas o pagadas no se reflejan en los reportes.
 
 #. La gerencia de recuperaciones cuenta con una lista de expedientes por fecha, municipio, programa (sector), rutas (sectores para las visitas supervisadas), institutos (incluye FOMDES y son carteras heredadas externas), tipo de garantía, categoría del cliente (depende de las cuotas vencidas) entre otras.
 
@@ -530,7 +525,7 @@ Gerencia de Recuperaciones
 
 #. Se hace una conciliación de datos entre el sistema informático utilizado en la gerencia de administración (SIGEFOMDES) y el sistema informático utilizado en la gerencia de recuperaciones (SISAC), ya que si en el primero se hace un pago, en el segundo, este pago se debe actualizar de manera manual.
 
-#. Sugieren que debe existir una nota de débito del cheque devuelto para ajustar las fracciones de pago, ya que al realizar un pago con cheque y se genera el recibo, es luego de 15 días que el banco reporta que el cheque fue rechazado y se genera un error porque se debe anular el recibo y la cuota pagada. Se notifica al usuario o usuaria y en el nuevo recibo se le hace el ajuste y se explica el porqué de la situación.
+#. Sugieren que debe existir una nota de débito del cheque devuelto para ajustar las fracciones de pago, ya que al realizar un pago con cheque y se genera el recibo, es luego de 15 días que el banco reporta que el cheque fue rechazado y se genera un error porque se debe anular el recibo y la cuota pagada. Se notifica al beneficiario o beneficiaria y en el nuevo recibo se le hace el ajuste y se explica el porqué de la situación.
 
 #. Existe un módulo para verificación de depósito. Se ingresa el número de depósito para corroborar que el depósito no se utilizó en otro pago previamente.
 
