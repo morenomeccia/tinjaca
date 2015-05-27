@@ -112,6 +112,39 @@ Historias de usuario
           - Llevar registro del lugar de procedencia de la materia prima y proveedores de los potenciales beneficiarios o beneficiarias
           - Llevar estadísticas de los proyectos de ciencia y tecnología
 
+.. index:: Analista de Proyecto
+
+**Consultoría jurídica**
+------------------------
+
+    .. list-table::
+        :widths: 40 40 40
+        :header-rows: 1
+
+        * -
+            | Como
+            | (Rol)
+          -
+            | Quiero
+            | (Labor)
+          -
+            | Para
+            | (Objetivo)
+        * - Consultor Jurídico
+          - Acceder a los expedientes con estatus "demanda"
+          - Obtener información necesaria para realizar la demanda
+        * - Consultor Jurídico
+          - Acceder a los expedientes con estatus "liberado"
+          - Obtener información necesaria para realizar la liberación
+        * - Consultor Jurídico
+          - Generar documento de demanda
+          - Introducir demanda
+        * - Consultor Jurídico
+          - Generar documento de liberación
+          - Dar continuidad al cierre del expediente
+        * - Consultor Jurídico
+          - Enviar los expedientes con procesos culminados a Archivo
+          - Mantener expedientes en Archivo
 
 .. index:: Analista de Crédito
 
