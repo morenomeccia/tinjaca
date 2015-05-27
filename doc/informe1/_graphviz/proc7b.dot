@@ -13,62 +13,6 @@ digraph  {
 	edge [fontname="Liberation Sans Narrow Condensed",
 		fontsize=10
 	];
-	subgraph cluster_r {
-		graph [label=<<B>Recuperaciones</B>>,
-			labeljust=l
-		];
-		r12		 [fillcolor="white:grey",
-			fontsize=10,
-			label="",
-			shape=circle,
-			style="filled, bold",
-			width=0.6];
-		r10		 [fillcolor="white:grey",
-			fontsize=10,
-			label="",
-			shape=circle,
-			style=filled,
-			width=0.6,
-			xlabel="Recibir orden de
-exoneración"];
-		r11		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Ejecutar exoneración de<br/>crédito</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		r10 -> r11;
-		r11 -> r12;
-	}
-	subgraph cluster_b {
-		graph [label=<<B>Beneficiario</B>>,
-			labeljust=l
-		];
-		b0		 [fillcolor="white:grey",
-			fontsize=10,
-			label="",
-			shape=circle,
-			style=filled,
-			width=0.6,
-			xlabel="Requiere solicitar
-exoneración"];
-		b1		 [fillcolor="white:grey",
-			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
-                <TR><TD>Solicitar exoneración</TD></TR>
-                </TABLE>>,
-			shape=box,
-			style="rounded,filled"];
-		b0 -> b1;
-		b2		 [fillcolor="white:grey",
-			fontsize=10,
-			label="",
-			shape=circle,
-			style="filled, bold",
-			width=0.6];
-		b1 -> b2;
-	}
 	subgraph cluster_cd {
 		graph [label=<<B>Consejo Directivo</B>>,
 			labeljust=l
@@ -78,7 +22,7 @@ exoneración"];
 			fontsize=10,
 			height=1,
 			label=<<TABLE border="0" cellborder="0" cellpadding="0">
-                <TR><TD><IMG SRC="static/cross.png"/></TD></TR>
+                <TR><TD><IMG SRC="../_static/cross.png"/></TD></TR>
                 </TABLE>>,
 			shape=diamond,
 			style=filled,
@@ -86,7 +30,7 @@ exoneración"];
 			xlabel="¿Aprobar exoneración?"];
 		cd5		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
+                <TR><TD align="left"><IMG SRC="../_static/envelope.png"/></TD></TR>
                 <TR><TD>Ordenar ejecución de la<br/>exoneración</TD></TR>
                 </TABLE>>,
 			shape=box,
@@ -110,7 +54,7 @@ exoneración"];
 exoneración"];
 		cd3		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD align="left"><IMG SRC="../_static/person.png"/></TD></TR>
                 <TR><TD>¿Revisar exoneración?</TD></TR>
                 </TABLE>>,
 			shape=box,
@@ -118,9 +62,90 @@ exoneración"];
 		cd2 -> cd3;
 		cd3 -> cd4;
 	}
+	subgraph cluster_r {
+		graph [label=<<B>Recuperaciones</B>>,
+			labeljust=l
+		];
+		r14		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="../_static/envelope.png"/></TD></TR>
+                <TR><TD>Solicitar exoneración</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		r15		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6];
+		r14 -> r15;
+		r10		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Recibir orden de
+exoneración"];
+		r15 -> r10		 [style=invis];
+		r12		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6];
+		r13		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Requiere solicitar
+exoneración"];
+		r13 -> r14;
+		r11		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="../_static/person.png"/></TD></TR>
+                <TR><TD>Ejecutar exoneración de<br/>crédito</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		r10 -> r11;
+		r11 -> r12;
+	}
+	subgraph cluster_b {
+		graph [label=<<B>Beneficiario</B>>,
+			labeljust=l
+		];
+		b0		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style=filled,
+			width=0.6,
+			xlabel="Requiere solicitar
+exoneración"];
+		b1		 [fillcolor="white:grey",
+			label=<<TABLE border="0" cellborder="0">
+                <TR><TD align="left"><IMG SRC="../_static/envelope.png"/></TD></TR>
+                <TR><TD>Solicitar exoneración</TD></TR>
+                </TABLE>>,
+			shape=box,
+			style="rounded,filled"];
+		b0 -> b1;
+		b2		 [fillcolor="white:grey",
+			fontsize=10,
+			label="",
+			shape=circle,
+			style="filled, bold",
+			width=0.6];
+		b1 -> b2;
+	}
 	b1 -> cd2	 [style=dashed];
 	cd5 -> r10	 [style=dashed];
-	SISAC	 [image="static/database.png",
+	r14 -> cd2	 [style=dashed];
+	SISAC	 [image="../_static/database.png",
 		label="",
 		shape=plaintext,
 		xlabel=SISAC];
