@@ -684,7 +684,7 @@ Requerimientos Generales
 
 #. Se quiere que cada ejecutivo tenga asignado automáticamente una cierta cantidad de expedientes y filtrarlos por criterios para los reportes en el que se muestren las cuotas que están más próximas a vencerse (de mayor a menor, diferenciadas por colores).
 
-#. El sistema debe actualizar los pagos de las cuotas de la caja Express en la base de datos cada 3 meses. 
+#. Los pagos efectuados por los beneficiarios mediante la "Caja principal" o cualquiera de las taquillas operativas, como la EXPRESS se deben actualizar en la base de datos en tiempo real.
 
 #. El sistema debe ser capaz de diferenciar entre "deuda vigente" y "deuda vencida".
  
