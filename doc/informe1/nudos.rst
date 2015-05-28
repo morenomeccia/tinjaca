@@ -87,7 +87,7 @@ sistema recoge la información de inspección económica y de avales. Por otro l
 fotográficos relativos a las minutas de inspección no son recogidos por el sistema. La
 conjugación de estas situaciones induce estrés sobre el sistema informático, pues se traducen en
 demandas de inmediata atención por el equipo responsable de su mantenimiento y puesta en funcionamiento,
-pero por el otro, ralentiza notablemente las labores de los analistas, al tiempo que afecta
+al igual que, ralentiza notablemente las labores de los analistas, al tiempo que afecta
 negativamente la integridad de la información disponible por parte de Presidencia y el Consejo
 Directivo al momento de evaluar la aprobación de cualquier solicitud de crédito.
 
