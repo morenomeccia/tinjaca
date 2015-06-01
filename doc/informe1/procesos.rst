@@ -96,7 +96,7 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
          - Realizar el informe técnico
          - Expediente con informe técnico (memoria fotográfica)
        * - Expediente
-         - Elaborar lista de expedientes para consideración del Consejo Directivo
+         - Elaborar lista de expedientes para consideración de Presidencia
          - Lista de expedientes
 
     * **Flujograma**: Ver Figuras 3.2 y 3.3
@@ -118,7 +118,7 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
 
     * **Dependencia responsable**: Presidencia
 
-    * **Unidad(es) Ejecutora(s)**: Secretaría Ejecutiva, Presupuesto, Consejo Directivo
+    * **Unidad(es) Ejecutora(s)**: Presidencia, Secretaría Ejecutiva, Presupuesto, Consejo Directivo
 
     * **Tabla de Actividades**:
 
@@ -132,13 +132,16 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
          - | Actividades
          - | Salida
        * - Lista de expedientes
-         - Revisar lista de expedientes junto con presidencia
+         - Aprobar expedientes que van a Consejo Directivo
+         - Lista de expedientes
+       * - Lista de expedientes
+         - Revisar lista de expedientes
          - Lista de expedientes priorizada
        * - Expediente
          - Elaborar certificación presupuestaria y financiera por sector
          - Certificación presupuestaria y financiera por sector
        * - Lista de expediente para Consejo Directivo
-         - Realizar agenda con expedientes priorizados y convocar al consejo directivo
+         - Realizar agenda con expedientes priorizados y convocar al Consejo Directivo
          - Acta de créditos aprobados
        * - Acta de créditos aprobados
          - Elaborar el documento de crédito y de ser necesario el documento de la empresa
@@ -288,7 +291,7 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
 
     * **Dependencia responsable**: Gerencia de Recuperaciones
 
-    * **Unidad(es) Ejecutora(s)**: Recuperaciones, Ejecutivos de Cobranza, Consejo Directivo, Consultoría Jurídica
+    * **Unidad(es) Ejecutora(s)**: Recuperaciones, Ejecutivos de Cobranza, Presidencia, Consejo Directivo, Consultoría Jurídica
 
     * **Tabla de Actividades**:
 
@@ -313,6 +316,9 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
        * - Cuenta estado "B","C" o "D"
          - Solicitar entrevista y formular plan de pago
          - Acuerdo de plan de pago
+       * - Solicitud de exoneración del crédito ante Presidencia
+         - Revisar la exoneración del crédito
+         - Solicitud de exoneración del crédito
        * - Solicitud de exoneración del crédito ante Consejo Directivo
          - Aprobar la exoneración del crédito
          - Solicitud de liberación del crédito
