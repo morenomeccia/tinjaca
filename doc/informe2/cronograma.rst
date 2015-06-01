@@ -1,2 +1,2 @@
-+Cronograma Fases de desarrollo, configuración y pruebas
-+=======================================================
+Cronograma Fases de desarrollo, configuración y pruebas
+=======================================================
