@@ -55,8 +55,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Informe Requerimientos y Nudos Críticos Sistema Actual'
-copyright = u'2015, Cooperativa Saní Tecnologías Comunes'
-author = u'Cooperativa Saní Tecnologías Comunes'
+copyright = u'2015, Héctor José Ospino Velásquez'
+author = u'Héctor José Ospino Velásquez'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -231,7 +231,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   (master_doc, 'informe01.tex', u'Informe de Requerimientos y Nudos\nCríticos del Sistema Actual',
-   u'Cooperativa Saní Tecnologías Comunes', 'manual'),
+   u'MSc Ing. Héctor José Ospino Velásquez', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
