@@ -11,7 +11,10 @@ Informe de diseño, propuesta de fases de desarrollo, configuración y pruebas d
    :maxdepth: 2
 
    descripcion
-   mockups
+   sistema
+   datos
+   componentes
+   interfaz
    cronograma
 
 
