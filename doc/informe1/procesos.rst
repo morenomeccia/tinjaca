@@ -132,7 +132,7 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
          - | Actividades
          - | Salida
        * - Lista de expedientes
-         - Aprobar expedientes que van a Consejo Directivo
+         - Revisar montos, intereses y plazos del crédito y aprobar los expedientes que van a Consejo Directivo
          - Lista de expedientes
        * - Lista de expedientes
          - Revisar lista de expedientes
@@ -367,7 +367,7 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
          - Redactar documento de liberación del crédito
          - Documento de liberación del crédito
        * - Documento de liberación del crédito
-         - Firmar documento de liberación del crédito
+         - Revisar y aprobar documento de liberación del crédito
          - Documento de liberación firmado por Presidencia
        * - Documento de liberación
          - Entregar documento al beneficiario
