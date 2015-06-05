@@ -132,17 +132,17 @@ relativo a la asignación de créditos, acompañamiento en su ejecución y recup
          - | Actividades
          - | Salida
        * - Lista de expedientes
-         - Revisar montos, intereses y plazos del crédito y aprobar los expedientes que van a Consejo Directivo
+         - Revisar montos, intereses y plazos del crédito y priorizar los expedientes que van a Consejo Directivo
          - Lista de expedientes
-       * - Lista de expedientes
-         - Revisar lista de expedientes
-         - Lista de expedientes priorizada
-       * - Expediente
+       * - Plan de inversión, decisiones previas del Consejo Directivo y Estados financieros
          - Elaborar certificación presupuestaria y financiera por sector
          - Certificación presupuestaria y financiera por sector
-       * - Lista de expediente para Consejo Directivo
+       * - Lista de expedientes para Consejo Directivo
          - Realizar agenda con expedientes priorizados y convocar al Consejo Directivo
-         - Acta de créditos aprobados
+         - Convocatoria del Consejo Directivo
+       * - Certificación presupuestaria y financiera, lista de expedientes priorizada
+         - Deliberar sobre aprobación de los créditos
+         - Acta de decisión del Consejo Directivo
        * - Acta de créditos aprobados
          - Elaborar el documento de crédito y de ser necesario el documento de la empresa
          - Documento de crédito y documento de constitución de empresa

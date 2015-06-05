@@ -19,8 +19,8 @@ digraph  {
 		];
 		cd0		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Revisar los expedientes</TD></TR>
+                <TR><TD align="left"><IMG SRC="_static/person.png"/></TD></TR>
+                <TR><TD>Deliberación para la<br/>aprobación de los<br/>créditos</TD></TR>
                 </TABLE>>,
 			shape=box,
 			style="rounded,filled"];
@@ -29,7 +29,7 @@ digraph  {
 			fontsize=10,
 			height=1,
 			label=<<TABLE border="0" cellborder="0" cellpadding="0">
-                <TR><TD><IMG SRC="static/asterisk.png"/></TD></TR>
+                <TR><TD><IMG SRC="_static/asterisk.png"/></TD></TR>
                 </TABLE>>,
 			shape=diamond,
 			style=filled,
@@ -43,8 +43,8 @@ digraph  {
 		];
 		p0		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
-                <TR><TD>Verificar Lista de<br/>Expedientes</TD></TR>
+                <TR><TD align="left"><IMG SRC="_static/person.png"/></TD></TR>
+                <TR><TD>Revisar montos, intereses<br/>y plazos del crédito y<br/>priorizar los expedientes<br/>que van a Consejo<br/>Directivo</TD></TR>
                 </TABLE>>,
 			shape=box,
 			style="rounded,filled"];
@@ -61,7 +61,7 @@ digraph  {
 			width=0.6];
 		se5		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD align="left"><IMG SRC="_static/person.png"/></TD></TR>
                 <TR><TD>Elaborar el Documento de<br/>Credito (Documento de<br/>Empresa)</TD></TR>
                 </TABLE>>,
 			shape=box,
@@ -69,7 +69,7 @@ digraph  {
 		se5 -> se6;
 		se4		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD align="left"><IMG SRC="_static/person.png"/></TD></TR>
                 <TR><TD>Elaborar el Acta de<br/>Créditos Aprobados</TD></TR>
                 </TABLE>>,
 			shape=box,
@@ -77,7 +77,7 @@ digraph  {
 		se4 -> se5;
 		se3		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
+                <TR><TD align="left"><IMG SRC="_static/envelope.png"/></TD></TR>
                 <TR><TD>Convocar el Consejo<br/>Directivo</TD></TR>
                 </TABLE>>,
 			shape=box,
@@ -85,7 +85,7 @@ digraph  {
 		se3 -> se4		 [style=invis];
 		se2		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
+                <TR><TD align="left"><IMG SRC="_static/envelope.png"/></TD></TR>
                 <TR><TD>Solicitar Certificación<br/>Presupuestaria y<br/>Financiera</TD></TR>
                 </TABLE>>,
 			shape=box,
@@ -93,7 +93,7 @@ digraph  {
 		se2 -> se3		 [style=invis];
 		se1		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD align="left"><IMG SRC="_static/person.png"/></TD></TR>
                 <TR><TD>Verificar Lista de<br/>Expedientes</TD></TR>
                 </TABLE>>,
 			shape=box,
@@ -115,14 +115,14 @@ Expedientes"];
 		];
 		pr1		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/envelope.png"/></TD></TR>
+                <TR><TD align="left"><IMG SRC="_static/envelope.png"/></TD></TR>
                 <TR><TD>Enviar Certificación a<br/>Secretaría Ejecutiva</TD></TR>
                 </TABLE>>,
 			shape=box,
 			style="rounded,filled"];
 		pr0		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="static/person.png"/></TD></TR>
+                <TR><TD align="left"><IMG SRC="_static/person.png"/></TD></TR>
                 <TR><TD>Elaborar Certificación<br/>Presupuestaria y<br/>Financiera</TD></TR>
                 </TABLE>>,
 			shape=box,
@@ -132,6 +132,7 @@ Expedientes"];
 	se5 -> Usuario	 [style=dashed];
 	se3 -> cd0	 [style=dashed];
 	se2 -> pr0	 [style=dashed];
+	se0 -> p0	 [style=dashed];
 	p0 -> se1	 [style=dashed];
 	pr1 -> se3	 [style=dashed];
 	cd1 -> se4	 [style=dashed];

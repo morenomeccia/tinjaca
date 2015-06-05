@@ -630,7 +630,7 @@ Historias de usuario
             | Para
             | (Objetivo)
         * - Presidente
-          - Conocer cuánto fue el ingreso diario de caja
+          - Monitorizar el ingreso diario de caja y cumplimiento de metas
           - Evaluar la recuperación de fondos por la institución
         * - Presidente
           - Revisar y firmar los cheques
@@ -638,6 +638,12 @@ Historias de usuario
         * - Presidente
           - Enviar los cheques firmados a secretaria ejecutiva
           - Dar seguimiento al proceso de liquidación
+        * - Presidente
+          - Revisar montos, intereses y plazos de las solicitudes de crédito
+          - Priorizar expedientes que se dirigen al Consejo Directivo
+        * - Presidente
+          - Evaluar y valorar indicadores clave de rendimiento y variables políticas
+          - Toma de decisiones estratégica de la Institución
 
 
 .. index:: Analista de crédito
