@@ -8,7 +8,7 @@ Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales
 ===================================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    descripcion
    fechas
