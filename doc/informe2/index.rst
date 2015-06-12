@@ -13,7 +13,7 @@ Informe de diseño, propuesta de fases de desarrollo, configuración y pruebas d
    descripcion
    sistema
    datos
-   componentes
+   modulos
    interfaz
    cronograma
 
