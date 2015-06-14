@@ -240,6 +240,11 @@ Descripción
 
 Este módulo abarca los procesos asistidos por los consultores jurídicos en: "Liquidación de créditos", "Liberación de créditos" y "Gestión de cobranza". Incluye procedimientos asociados a la redacción de documentos jurídicos y cambio de estatus del expediente.
 
+Usuarios
+--------
+
+Consultoría Jurídica.
+
 Procedimientos
 --------------
 
@@ -256,5 +261,66 @@ Campos modificados de cada entidad
 	* Estatus
 	* Documentos legales asociados
 
+Módulo Archivo
+==============
+
+Descripción
+-----------
+
+Este módulo abarca "Recepción y Evaluación de solicitudes", "Inspección de inversiones", "Liberación de créditos", "Gestión de cobranza". Incluye procedimientos asociados al control de la ubicación de los expedientes dentro de los distintos departamentos del FOMDES.
+
+Usuarios
+--------
+
+Archivólogo.
+
+Procedimientos
+--------------
+
+- Ingreso de nuevos expedientes. Usuario responsable: Archivólogo.
+- Registro de responsables por expediente solicitado. Usuario responsable: Archivólogo.
+- Consulta por código de expediente. Usuario responsable: Archivólogo.
+- Consulta lista de expedientes por departamento. Usuario responsable: Archivólogo.
+
+Campos modificados de cada entidad
+----------------------------------
 
 
+Módulo Estadística
+==================
+
+Descripción
+-----------
+
+Este módulo abarca los procesos que demandan análisis y cálculos estadísticos. Incluye procedimientos de generacion de estadísticas para el apoyo en la toma de decisiones por parte de las gerencias y directiva de FOMDES.
+
+Usuarios
+--------
+
+Estadística y Análisis de Riesgo.
+
+Procedimientos
+--------------
+
+Campos modificados de cada entidad
+----------------------------------
+
+Módulo Presidencia
+==================
+
+Descripción
+-----------
+
+Este módulo abarca los procesos en los que interviene la gestión directa del presidente del FOMDES. Incluye procedimientos de evaluación y coordinación con las gerencias para las tomas de decisiones.
+
+Usuarios
+--------
+
+Presidente.
+
+Procedimientos
+--------------
+
+
+Campos modificados de cada entidad
+----------------------------------
