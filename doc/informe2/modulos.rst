@@ -1,30 +1,36 @@
 ﻿Diseño de modulos
 =================
 
-Modulo "Recepción y Evaluación de Solicitudes" 
-==============================================
+Módulo Crédito
+==============
 
-Descripción: Procedimientos asociados con la recepcion y validacion de la propuesta de financiamiento, validacion de recaudos para solicitud de crédito y generación del listado de expedientes sugeridos para aprobación de créditos.
-Dependencia responsable: Gerencia de Crédito
-Unidad(es) Ejecutora(s): Usuario, Información de Crédito, Estadística y Evaluación de Riesgos, Análisis Jurídico, Análisis Económico.
+Descripción
+-----------
+
+Este módulo abarca los procesos de "Recepción de propuestas" y "Recepción y Evaluación de Solicitudes". Incluye procedimientos asociados con la recepción y validación de la propuesta de financiamiento, validación de recaudos para solicitud de crédito y generación del listado de expedientes sugeridos para aprobación de créditos.
+
+Usuarios
+--------
+
+Información de Crédito, Análisis Jurídico, Análisis Económico, Gerente de Crédito.
 
 Procedimientos
 --------------
 
-- Ingreso de datos del solicitante.
-- Ingreso de datos de la propuesta de financiamiento y generacion del código de la misma (usuario responsable: Analista de credito).
-- Asignacion de la viabilidad de la propuesta segun las normativas del FOMDES (usuario responsable: Analista de credito).
-- Incluir al solicitante en la lista del “Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario” (usuario responsable: Analista de credito). 
-- Asignacion de la validez de los requisitos (usuario responsable: Analista de credito).
-- Creacion de expediente con codigo por sector (usuario responsable: Analista de credito).
-- Asignacion de la validez legal de la garantía (usuario responsable: Analista Jurídico).
-- Generacion de rutas para visitar la unidad de produccion (usuario responsable: Analista Económico).
-- Asignacion de la viabilidad económica de la unidad de producción (usuario responsable: Analista Económico).
-- Ingreso de los resultados de la inspección (usuario responsable: Analista Económico).
-- Ingreso de los resultados del avalúo (usuario responsable: Analista Económico).
-- Ingreso del informe técnico de la garantia (usuario responsable: Analista Económico).
-- Incluir el expediente en la lista para consideración del Consejo Directivo 
-- Enviar expediente a la Secretaria ejecutiva (usuario responsable: Gerente de credito).
+- Ingreso de datos del solicitante. Usuario responsable: Analista de crédito.
+- Ingreso de datos de la propuesta de financiamiento desde la planilla consignada y la generacion del código de la misma.  Usuario responsable: Analista de crèdito.
+- Registro de la viabilidad de la propuesta según las normativas del FOMDES. Usuario responsable: Analista de credito.
+- Incluir al solicitante en la lista del “Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario”. Uusuario responsable: Analista de credito. 
+- Registro de la validez de los requisitos. Usuario responsable: Analista de credito.
+- Creación de expediente con código por sector. Usuario responsable: Analista de credito.
+- Registro de la validez legal de la garantía. Usuario responsable: Analista Jurídico.
+- Generación de rutas para visitar la unidad de producción. Usuario responsable: Analista Económico.
+- Registro de la viabilidad económica de la unidad de producción. Usuario responsable: Analista Económico.
+- Ingreso de los resultados de la inspección. Usuario responsable: Analista Económico.
+- Ingreso de los resultados del avalúo. Usuario responsable: Analista Económico.
+- Ingreso del informe técnico de la garantia. Usuario responsable: Analista Económico.
+- Inclusión del expediente en la lista para consideración del Consejo Directivo. Usuario responsable: Gerente de crédito.
+- Envío de expediente a la Secretaría ejecutiva. Usuario responsable: Gerente de crédito.
 
 Campos modificados de cada entidad
 ----------------------------------
@@ -37,7 +43,7 @@ Campos modificados de cada entidad
 
 	* Todos los campos del Potencial beneficiario
 	
-- beneficiario:
+- Beneficiario:
 
 	* Todos los campos del Beneficiario
 	
@@ -59,20 +65,27 @@ Campos modificados de cada entidad
 
 - Lista de expedientes para consideración del Consejo Directivo.
 
-Modulo "Aprobación de Créditos" 
-===============================
+Módulo Secretaría
+=================
 
-Descripción: Procedimientos asociados con la recepción de la lista de expedientes sugeridos para aprobación de crédito, la elaboración del Documento de Crédito y constitución de la empresa (de requerirse) para cada uno de los beneficiarios(as).
-Dependencia responsable: Presidencia
-Unidad(es) Ejecutora(s): Secretaría Ejecutiva, Presupuesto, Consejo Directivo
+Descripción
+-----------
+
+Este módulo abarca los procesos de "Aprobación de Créditos". Incluye los procedimientos asociados con la recepción de la lista de expedientes sugeridos para aprobación de crédito, la elaboración del Documento de Crédito y constitución de la empresa (de requerirse) para cada uno de los beneficiarios(as).
+
+Usuarios
+--------
+
+Secretaría Ejecutiva, Presupuesto, Consejo Directivo, Presidente.
 
 Procedimientos
 --------------
 
-- Ordenado de la lista de expedientes (usuario responsable: Secretaría Ejecutiva): este procedimiento consiste en la modificacion de un campo que representa la prioridad del expediente. 
-- Certificado de la disponibilidad presupuestaria y financiera del credito (usuario responsable: Secretaría Ejecutiva): este procedimiento consiste en la modificacion de un campo que representa la disponibilidad presupuestaria y financiera del credito.
-- Creacion de la convocatoria al consejo directivo con agenda de expedientes priorizados (usuario responsable: Secretaría Ejecutiva).
-- Ingreso del documento de crédito (o documento de la empresa) al expediente (usuario responsable: Secretaría Ejecutiva): este procedimiento consiste en el llenado de uno o mas campos o de un archivo que este asociado al expediente y que represente o identifique el documento de credito. 
+- Ordenamiento de la lista de expedientes según sus prioridades. Usuario responsable: Secretaría Ejecutiva.
+- Registro de la certificación de disponibilidad presupuestaria y financiera del crédito. Usuario responsable: Secretaría Ejecutiva.
+- Creación de la convocatoria al consejo directivo con agenda de expedientes priorizados. Usuario responsable: Secretaría Ejecutiva.
+- Ingreso del documento de crédito al expediente. Usuario responsable: Secretaría Ejecutiva.
+- Ingreso del documento de documento de la empresa. Usuario responsable: Secretaría Ejecutiva.
 
 Campos modificados de cada entidad
 ----------------------------------
@@ -88,22 +101,32 @@ Campos modificados de cada entidad
 
 - Agenda con la lista de expedientes priorizados para consideración del Consejo Directivo.
 
-Modulo "Liquidación y liberacion de Créditos" 
-=============================================
+Modulo Administración 
+=====================
 
-Descripción: Procedimientos relacionados con la consignación de los documentos notariados por parte de los beneficiarios hasta la entrega del cheque respectivo y con la liberación de los créditos.
-Dependencia responsable: Administración y Finanzas
-Unidad(es) Ejecutora(s): Secretaria Ejecutiva, Presupuesto, Administración, Presidencia, Consultoría Jurídica.
+Descripción
+-----------
+
+Este módulo abarca los procesos de "Liquidación de créditos" y "Liberación de Créditos".
+Incluye procedimientos relacionados con la consignación de los documentos notariados por parte de los beneficiarios hasta la entrega del cheque respectivo y con la liberación de los créditos. Procedimientos asociados con las actividades relativas a la liberación de los créditos.
+
+Usuarios
+--------
+
+Secretaria Ejecutiva, Presupuesto, Administración, Presidencia.
 
 Procedimientos
 --------------
 
-- Certificado de la disponibilidad para liquidación del crédito (usuario responsable: Administracion): este procedimiento consiste en la modificacion de un campo que representa la disponibilidad para liquidación del crédito.
-- Creacion de tabla de cuentas por cobrar y tabla de amortización del credito (usuario responsable: Administracion).  
-- Creacion del estado de cuenta del credito.
-- Generacion de la orden de liquidación y del cheque.
-- Enviar expediente a la unidad de Acompañamiento y Asistencia Técnica.
-- Generar documento de liquidación del crédito.
+- Certificación de la disponibilidad para liquidación del crédito. Usuario responsable: Administracion. 
+- Creación de tabla de cuentas por cobrar y tabla de amortización del crédito. Usuario responsable: Presupuesto y Administración.  
+- Creación del estado de cuenta del credito. Usuario responsable: Administracion. 
+- Generacion de la orden de liquidación y del cheque. Usuario responsable: Presupuesto y Administracion.
+- Enviar expediente a la unidad de Acompañamiento y Asistencia Técnica. Usuario responsable: Administracion.
+- Generación de documento de liquidación del crédito. Usuario responsable: Administración.
+- Cambio del estatus del expediente liberado. Usuario responsable: Administración.
+- Registro de la entrega del documento de liberación del crédito. Usuario responsable: Administración. 
+- Envío del expediente a archivo una vez liberado. Usuario responsable: Administración. 
 
 Campos modificados de cada entidad
 ----------------------------------
@@ -112,82 +135,95 @@ Campos modificados de cada entidad
 
 	* Disponibilidad para liquidación del crédito.
 	* Orden de liquidacion y cheque.
+	* Estatus
 
 - Estado de cuentas:
 
 	* Todos los campos 
 	
-Modulo "Inspección de Inversiones" 
-==================================
 
-Descripción: Procedimientos asociados a la verificación de la ejecución del plan de inversión por parte del beneficiario.
-Dependencia responsable: Gerencia de Crédito y Gerencia de Recuperaciones.
-Unidad(es) Ejecutora(s): Acompañamiento y Asistencia Técnica, Consultoría Jurídica, Archivo.
+Módulo Acompañamiento 
+=====================
+
+Descripción
+-----------
+
+Este módulo abarca los procesos de "Inspección de Inversiones". Incluye procedimientos asociados a la verificación de la ejecución del plan de inversión por parte del beneficiario.
+
+Usuarios
+--------
+
+Acompañamiento y Asistencia Técnica, Archivo, Gerente de Recuperaciones.
 
 Procedimientos
 --------------
 
-- Ingreso de los datos asociados a la verificación de la inversión.
-- Recomendación del beneficiario para liquidaciones sucesivas en caso de que pase la inspeccion: Asignacion de un campo que representa la recomendacion del beneficiario para liquidaciones sucesivas.  
-- Generacion de solicitud de reintegro del crédito en caso de que el beneficiario no cumpla con el plan de inversión.
-- Ingreso del código del expediente a la lista de Archivo.
-- Enviar expediente a la unidad de Recuperaciones.
-
-Entidades modificadas
----------------------
-
-- Expediente
+- Ingreso de los datos asociados a la verificación de la inversión. Usuarios responsables: Acompañamiento.
+- Recomendación del beneficiario para liquidaciones sucesivas en caso de que pase la inspeccion. Usuarios responsables: Acompañamiento. 
+- Ingreso del código del expediente a la lista de Archivo. Usuarios responsables: Acompañamiento.
+- Enviar expediente a la unidad de Recuperaciones. Usuarios responsables: Acompañamiento.
 
 Campos modificados de cada entidad
 ----------------------------------
 
 - Expediente:
 
-	* Recomendación del beneficiario para liquidaciones sucesivas (un campo que dice si el beneficiario se recomienda o no para futuras liquidaciones).
-	* Numero de archivo.
+	* Recomendación del beneficiario para liquidaciones sucesivas.
+	* Número de archivo.
 
 - Informe de verificación de la inversión:
 
 	* Todos los campos.
 	
-Modulo "Caja" 
-============
 
-Descripción: Procedimientos asociados con las actividades de recepción de pagos y actualización de estados de cuenta de
-beneficiarios(as)
-Dependencia responsable: Administración y Finanzas
-Unidad(es) Ejecutora(s): Caja, Consultoría Juridica
+Módulo Caja 
+===========
+
+Descripción
+-----------
+
+Este módulo abarca los procesos de "Pagos". Incluye procedimientos asociados con las actividades de recepción de pagos y actualización de estados de cuenta de beneficiarios o beneficiarias.
+
+Usuarios
+--------
+
+Caja, Ejecutivo de cobranza.
 
 Procedimientos
 --------------	
 
-- Registrar pago y actualizar estado de cuenta. 
-- Generar recibo de pago y guardar copia en expediente.
-- En caso de ultimo pago (cancelación total del crédito): generar solicitud de liberación a la unidad de Consultoría Jurídica.
+- Registro de pago y actualización de estado de cuenta. Usuario responsable: Caja, Ejecutivo de cobranza.
+- Generación de recibo de pago y copia para expediente. Usuario responsable: Caja, Ejecutivo de cobranza.
+- Generación de solicitud de liberación a la unidad de Consultoría Jurídica en caso de último pago (cancelación total del crédito). Usuario responsable: Caja, Ejecutivo de cobranza.
 
 Campos modificados de cada entidad
 ----------------------------------
 
 - Pagos:
 	
-	* Todos los campos (nuevos registros)
+	* Todos los campos (nuevos registros).
 
 
-Modulo "Recuperaciones" 
-=======================
+Módulo Recuperaciones 
+=====================
 
-Descripción: Procedimientos asociados con las actividades de recepción de pagos, actualización de estados de cuenta de
-beneficiarios y trámite y gestión de recuperación de pagos caídos por parte de beneficiarios.
-Dependencia responsable: Administración y Finanzas, gerencia de Recuperaciones.
-Unidad(es) Ejecutora(s): Caja, Consultoría Juridica, Recuperaciones.
+Descripción
+-----------
+
+Este módulo abarca los procesos de "Gestión de cobranzas". Incluye procedimientos asociados con las actividades de recepción de pagos, actualización de estados de cuenta de beneficiarios y trámites y gestión de recuperación de pagos caídos por parte de los beneficiarios.
+
+Usuarios
+--------
+
+Gerente de Recuperaciones, Ejecutivo de cobranza, Administración.
 
 Procedimientos
 --------------
 
-- En caso de estado extrajudicial por mora: generar solicitud de entrevista con un abogado de la unidad de Recuperaciones.
-- Generar informe de seguimiento al beneficiario.
-- Consultar estado de cuenta. Este procedimiento muestra una letra que identifica el estado de cuenta actual de modo que el usuario  de la unidad de Recuperaciones pueda tomar las acciones respectivas.
-- Cambiar estatus a demanda en el caso que lo amerite.
+- Generación de solicitud de entrevista con un abogado de la unidad de Recuperaciones en caso de estado extrajudicial por mora . Usuario responsable: Gerente de Recuperaciones.
+- Generar informe de seguimiento al beneficiario. Usuario responsable: Ejecutivo de cobranza.
+- Consultar estado de cuenta filtrando por estado de morosidad. Usuario responsable: Ejecutivo de cobranza.
+- Cambiar estatus a demanda en el caso que lo amerite. Usuario responsable: Gerente de Recuperaciones.
 
 Campos modificados de cada entidad
 ----------------------------------
@@ -196,18 +232,21 @@ Campos modificados de cada entidad
 
 	* Estatus
 	
-Modulo "Liberacion del credito" 
-===============================
+Módulo Jurídico
+===============
 
-Descripción: Procedimientos asociados con las actividades relativas a la liberación de los créditos.
+Descripción
+-----------
+
+Este módulo abarca los procesos asistidos por los consultores jurídicos en: "Liquidación de créditos", "Liberación de créditos" y "Gestión de cobranza". Incluye procedimientos asociados a la redacción de documentos jurídicos y cambio de estatus del expediente.
 
 Procedimientos
 --------------
 
-- Generacion del documento de liberación del crédito.
-- Cambio del estatus del expediente.
-- Registro de la entrega del documento de liberación del crédito.
-- Envio del expediente a archivo.
+- Generación del documento de liberación del crédito. Usuario responsable: Consultoría Jurídica.
+- Generacion de solicitud de reintegro del crédito en caso de que el beneficiario no cumpla con el plan de inversión. Usuario responsable: Consultoría Jurídica.
+- Liberación de hipotecas o fianzas para expedientes cancelados en su totalidad. Usuario responsable: Consultoría Jurídica.
+- Cambio de estatus de expediente liberado. Usuario responsable: Consultoría Jurídica.
 
 Campos modificados de cada entidad
 ----------------------------------
@@ -215,4 +254,7 @@ Campos modificados de cada entidad
 - Expediente
 
 	* Estatus
-	
+	* Documentos legales asociados
+
+
+
