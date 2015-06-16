@@ -17,20 +17,109 @@ Información de Crédito, Análisis Jurídico, Análisis Económico, Gerente de 
 Procedimientos
 --------------
 
-- Ingreso de datos del solicitante. Usuario responsable: Analista de crédito.
-- Ingreso de datos de la propuesta de financiamiento desde la planilla consignada y la generacion del código de la misma.  Usuario responsable: Analista de crèdito.
-- Registro de la viabilidad de la propuesta según las normativas del FOMDES. Usuario responsable: Analista de credito.
-- Incluir al solicitante en la lista del “Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario”. Uusuario responsable: Analista de credito. 
-- Registro de la validez de los requisitos. Usuario responsable: Analista de credito.
-- Creación de expediente con código por sector. Usuario responsable: Analista de credito.
-- Registro de la validez legal de la garantía. Usuario responsable: Analista Jurídico.
-- Generación de rutas para visitar la unidad de producción. Usuario responsable: Analista Económico.
-- Registro de la viabilidad económica de la unidad de producción. Usuario responsable: Analista Económico.
-- Ingreso de los resultados de la inspección. Usuario responsable: Analista Económico.
-- Ingreso de los resultados del avalúo. Usuario responsable: Analista Económico.
-- Ingreso del informe técnico de la garantia. Usuario responsable: Analista Económico.
-- Inclusión del expediente en la lista para consideración del Consejo Directivo. Usuario responsable: Gerente de crédito.
-- Envío de expediente a la Secretaría ejecutiva. Usuario responsable: Gerente de crédito.
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+       * - | Procedimiento
+         - | Responsable
+         - | Datos accedidos o modificados
+       * - Ingreso de datos del solicitante
+         - Analista de crédito
+         - Todos los datos del solicitante
+       * - Ingreso de datos de la propuesta de financiamiento desde la planilla consignada y la generacion del código de la misma
+         - Analista de crèdito
+         - Datos de la propuesta de financiamiento y codigo
+       * - Registro de la viabilidad de la propuesta según las normativas del FOMDES
+         - Analista de credito
+         - Viabilidad de propuesta
+       * - Consultar el listado de propuestas de financiamiento que son viables
+         - Analista de credito
+         - Lista de propuestas de financiamiento
+       * - Envio por correo eletronico a los potenciales beneficiarios la invitación para la asistencia al taller
+         - Analista de credito
+         - Registro del envio de requisitos
+       * - Incluir al solicitante en la lista del “Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario”
+         - Analista de credito
+         - Lista del taller
+       * - Registro en lista de espera de los potenciales beneficiarios que no asistan al taller
+         - Analista de credito
+         - Lista de espera
+       * - Registro de la validez de los requisitos
+         - Analista de credito
+         - Validez de los requisitos
+       * - Creación de expediente con código por sector
+         - Analista de credito
+         - ???
+       * - Generar informes POA
+         - Analista de credito
+         - ???
+       * - Registro de la validez legal de la garantía
+         - Analista Jurídico
+         - Validez legal de garantia
+       * - Generacion del informe de control previo
+         - Analista Jurídico
+         - ???
+       * - Asignacion el estatus de “CUMPLE”, “NO CUMPLE” o “CUMPLE CONDICIONADO” para las garantías
+         - Analista Juridico
+         - Estatus de la garantia
+       * - Envio del expediente a la estación de Análisis Económico
+         - Analisis Juridico
+         - ???
+       * - Generación de rutas para visitar la unidad de producción
+         - Analista Económico
+         - ???
+       * - Registro de la viabilidad económica de la unidad de producción
+         - Analista Económico
+         - Viabilidad económica de la unidad de producción
+       * - Generacion el informe de inspección (informe técnico) con registro fotográfico
+         - Analista Economico
+         - Resultados de la inspeccion
+       * - Ingreso de fotografías de inspecciones en cada expediente
+         - Analista Economico
+         - Fotografias de inspeccion
+       * - Registro de las minutas que se levantan en campo e inclusion en el informe tecnico
+         - Analista Economico
+         - Informe tecnico
+       * - Ingreso de los resultados del avalúo
+         - Analista Económico
+         - Resultados del avaluo
+       * - Ingreso del informe técnico de la garantia
+         - Analista Económico
+         - Informe tecnico de la garantia
+       * - Especificacion de los lapsos de pago del crédito por el beneficiario
+         - Analista Economico
+         - Lapsos de pago del credito
+       * - Enviar el expediente al Gerente de Crédito
+         - Analista Economico
+         - Expediente
+       * - Inclusión del expediente en la lista para consideración del Consejo Directivo
+         - Gerente de crédito
+         - Lista para consideración del Consejo Directivo
+       * - Modificar las tasas de interés y los montos asignados por sector, rubro o garantía
+         - Gerente de credito
+         - Tasas de interés
+       * - Seleccionar los proyectos que van al consejo directivo
+         - Gerente de credito
+         - ???
+       * - Envío de expediente a la Secretaría ejecutiva
+         - Gerente de crédito
+         - ???
+       * - Generacion de una lista de rezagados en caso de que se termine el presupuesto pautado
+         - Gerente de credito
+         - ???
+       * - Realizar reportes por municipio, por rubro, por estatus y por rango de fechas
+         - Gerente de credito
+         - ???
+       * - Distribucion de los analistas económicos por municipios y parroquias para realizar las inspecciones
+         - Gerente de credito
+         - Tabla de distribucion de los analistas economicos.
+       * - Envio del expediente a la estación de Análisis Jurídico
+         - Analista de credito
+         - ???
+       * - Modificacion de la solicitud de requisitos de acuerdo al sector, a los montos, a los rubros y tipo de empresa.
+         - Analista de credito
+         - Solicitud del dato
 
 Campos modificados de cada entidad
 ----------------------------------
@@ -81,11 +170,29 @@ Secretaría Ejecutiva, Presupuesto, Consejo Directivo, Presidente.
 Procedimientos
 --------------
 
-- Ordenamiento de la lista de expedientes según sus prioridades. Usuario responsable: Secretaría Ejecutiva.
-- Registro de la certificación de disponibilidad presupuestaria y financiera del crédito. Usuario responsable: Secretaría Ejecutiva.
-- Creación de la convocatoria al consejo directivo con agenda de expedientes priorizados. Usuario responsable: Secretaría Ejecutiva.
-- Ingreso del documento de crédito al expediente. Usuario responsable: Secretaría Ejecutiva.
-- Ingreso del documento de documento de la empresa. Usuario responsable: Secretaría Ejecutiva.
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+       * - | Procedimiento
+         - | Responsable
+         - | Datos accedidos o modificados
+       * - Ordenamiento de la lista de expedientes según sus prioridades
+         - Secretaría Ejecutiva
+         - Lista de expedientes
+       * - Registro de la certificación de disponibilidad presupuestaria y financiera del crédito
+         - Secretaría Ejecutiva
+         - Certificación de disponibilidad presupuestaria y financiera del crédito
+       * - Creación de la convocatoria al consejo directivo con agenda de expedientes priorizados
+         - Secretaría Ejecutiva
+         - Convocatoria al consejo directivo
+       * - Ingreso del documento de crédito al expediente
+         - Secretaría Ejecutiva
+         - ???
+       * - Ingreso del documento de documento de la empresa
+         - Secretaría Ejecutiva
+         - ???
+
 
 Campos modificados de cada entidad
 ----------------------------------
@@ -118,15 +225,46 @@ Secretaria Ejecutiva, Presupuesto, Administración, Presidencia.
 Procedimientos
 --------------
 
-- Certificación de la disponibilidad para liquidación del crédito. Usuario responsable: Administracion. 
-- Creación de tabla de cuentas por cobrar y tabla de amortización del crédito. Usuario responsable: Presupuesto y Administración.  
-- Creación del estado de cuenta del credito. Usuario responsable: Administracion. 
-- Generacion de la orden de liquidación y del cheque. Usuario responsable: Presupuesto y Administracion.
-- Enviar expediente a la unidad de Acompañamiento y Asistencia Técnica. Usuario responsable: Administracion.
-- Generación de documento de liquidación del crédito. Usuario responsable: Administración.
-- Cambio del estatus del expediente liberado. Usuario responsable: Administración.
-- Registro de la entrega del documento de liberación del crédito. Usuario responsable: Administración. 
-- Envío del expediente a archivo una vez liberado. Usuario responsable: Administración. 
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+       * - | Procedimiento
+         - | Responsable
+         - | Datos accedidos o modificados
+       * - Certificación de la disponibilidad para liquidación del crédito
+         - Administracion
+         - Disponibilidad para liquidación del crédito
+       * - Creación de tabla de cuentas por cobrar
+         - Presupuesto y Administración
+         - Tabla de cuentas por cobrar
+       * - Creacion de tabla de amortización del crédito
+         - Presupuesto y Administración
+         - Tabla de amortización del crédito
+       * - Creación del estado de cuenta del credito
+         - Administracion
+         - Estado de cuenta del credito
+       * - Generacion de la orden de liquidación
+         - Presupuesto y Administracion
+         - Orden de liquidación
+       * - Generacion de la orden del cheque
+         - Presupuesto y Administracion
+         - Orden del cheque
+       * - Enviar expediente a la unidad de Acompañamiento y Asistencia Técnica
+         - Administracion
+         - ???
+       * - Generación de documento de liquidación del crédito
+         - Administración
+         - Documento de liquidación del crédito
+       * - Cambio del estatus del expediente liberado
+         - Administración
+         - Estatus del expediente
+       * - Registro de la entrega del documento de liberación del crédito
+         - Administración
+         - ???
+       * - Envío del expediente a archivo una vez liberado
+         - Administración
+         - Registro de envio
 
 Campos modificados de cada entidad
 ----------------------------------
@@ -158,10 +296,25 @@ Acompañamiento y Asistencia Técnica, Archivo, Gerente de Recuperaciones.
 Procedimientos
 --------------
 
-- Ingreso de los datos asociados a la verificación de la inversión. Usuarios responsables: Acompañamiento.
-- Recomendación del beneficiario para liquidaciones sucesivas en caso de que pase la inspeccion. Usuarios responsables: Acompañamiento. 
-- Ingreso del código del expediente a la lista de Archivo. Usuarios responsables: Acompañamiento.
-- Enviar expediente a la unidad de Recuperaciones. Usuarios responsables: Acompañamiento.
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+       * - | Procedimiento
+         - | Responsable
+         - | Datos accedidos o modificados
+       * - Ingreso de los datos asociados a la verificación de la inversión.
+         - Acompañamiento
+         - Datos asociados a la verificación de la inversión
+       * - Recomendación del beneficiario para liquidaciones sucesivas en caso de que pase la inspeccion.
+         - Acompañamiento
+         - Recomendación del beneficiario para liquidaciones sucesivas.
+       * - Ingreso del código del expediente a la lista de Archivo.
+         - Acompañamiento
+         - Lista de Archivo.
+       * - Envio del expediente a la unidad de Recuperaciones.
+         - Acompañamiento.
+         - Registro de envio.
 
 Campos modificados de cada entidad
 ----------------------------------
@@ -192,10 +345,24 @@ Caja, Ejecutivo de cobranza.
 Procedimientos
 --------------	
 
-- Registro de pago y actualización de estado de cuenta. Usuario responsable: Caja, Ejecutivo de cobranza.
-- Generación de recibo de pago y copia para expediente. Usuario responsable: Caja, Ejecutivo de cobranza.
-- Generación de solicitud de liberación a la unidad de Consultoría Jurídica en caso de último pago (cancelación total del crédito). Usuario responsable: Caja, Ejecutivo de cobranza.
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
 
+       * - | Procedimiento
+         - | Responsable
+         - | Datos accedidos o modificados
+       * - Registro de pago y actualización de estado de cuenta.
+         - Ejecutivo de cobranza (caja).
+         - Registro de pago.
+       * - Generación de recibo de pago y copia para expediente.
+         - Ejecutivo de cobranza (caja).
+         - Registro de pago.
+         - Recibo de pago.
+       * - Generación de solicitud de liberación a la unidad de Consultoría Jurídica en caso de último pago (cancelación total del crédito). 
+         - Ejecutivo de cobranza (caja).
+         - Registro de solicitud de liberacion.
+         
 Campos modificados de cada entidad
 ----------------------------------
 
@@ -220,10 +387,25 @@ Gerente de Recuperaciones, Ejecutivo de cobranza, Administración.
 Procedimientos
 --------------
 
-- Generación de solicitud de entrevista con un abogado de la unidad de Recuperaciones en caso de estado extrajudicial por mora . Usuario responsable: Gerente de Recuperaciones.
-- Generar informe de seguimiento al beneficiario. Usuario responsable: Ejecutivo de cobranza.
-- Consultar estado de cuenta filtrando por estado de morosidad. Usuario responsable: Ejecutivo de cobranza.
-- Cambiar estatus a demanda en el caso que lo amerite. Usuario responsable: Gerente de Recuperaciones.
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+       * - | Procedimiento
+         - | Responsable
+         - | Datos accedidos o modificados
+       * - Generación de solicitud de entrevista con un abogado de la unidad de Recuperaciones en caso de estado extrajudicial por mora.
+         - Gerente de Recuperaciones..
+         - Registro de solicitud de entrevista.
+       * - Generar informe de seguimiento al beneficiario. 
+         - Ejecutivo de cobranza.
+         - Informe de seguimiento.
+       * - Consultar estado de cuenta filtrando por estado de morosidad. 
+         - Ejecutivo de cobranza.
+         - Estado de cuenta
+       * - Cambiar estatus del credito a demanda en el caso que lo amerite.
+         - Gerente de Recuperaciones.
+         - Estatus del credito
 
 Campos modificados de cada entidad
 ----------------------------------
@@ -232,8 +414,8 @@ Campos modificados de cada entidad
 
 	* Estatus
 	
-Módulo Jurídico
-===============
+Módulo Consultoria Jurídica
+===========================
 
 Descripción
 -----------
@@ -248,10 +430,35 @@ Consultoría Jurídica.
 Procedimientos
 --------------
 
-- Generación del documento de liberación del crédito. Usuario responsable: Consultoría Jurídica.
-- Generacion de solicitud de reintegro del crédito en caso de que el beneficiario no cumpla con el plan de inversión. Usuario responsable: Consultoría Jurídica.
-- Liberación de hipotecas o fianzas para expedientes cancelados en su totalidad. Usuario responsable: Consultoría Jurídica.
-- Cambio de estatus de expediente liberado. Usuario responsable: Consultoría Jurídica.
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+       * - | Procedimiento
+         - | Responsable
+         - | Datos accedidos o modificados
+       * - Generación del documento de liberación del crédito.
+         - Consultoría Jurídica.
+         - Documento de liberación del crédito.
+       * - Generacion de solicitud de reintegro del crédito en caso de que el beneficiario no cumpla con el plan de inversión.
+         - Consultoría Jurídica.
+         - Registro de solicitud de reintegro del credito.
+       * - Liberación de hipotecas o fianzas para expedientes cancelados en su totalidad.
+         - Consultoría Jurídica
+         - Registro de liberacion de hipotecas.
+       * - Cambio de estatus de expediente a liberado.
+         - Consultoría Jurídica.
+         - Estatus del expediente
+       * - Consulta de los expedientes con estatus “demanda” o "liberado"
+         - Consultoría Jurídica
+         - Todos los datos del expediente seleccionados
+       * - Generacion de documento de demanda y documento de liberacion
+         - Consultoria Juridica
+         - ???
+       * - Envio de los expedientes con procesos culminados a Archivo
+         - Consultoria Juridica
+         - ???
+
 
 Campos modificados de cada entidad
 ----------------------------------
@@ -272,15 +479,30 @@ Este módulo abarca "Recepción y Evaluación de solicitudes", "Inspección de i
 Usuarios
 --------
 
-Archivólogo.
+Potencial beneficiario, Beneficiario, Solicitante.
 
 Procedimientos
 --------------
 
-- Ingreso de nuevos expedientes. Usuario responsable: Archivólogo.
-- Registro de responsables por expediente solicitado. Usuario responsable: Archivólogo.
-- Consulta por código de expediente. Usuario responsable: Archivólogo.
-- Consulta lista de expedientes por departamento. Usuario responsable: Archivólogo.
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+       * - | Procedimiento
+         - | Responsable
+         - | Datos accedidos o modificados
+       * - Ingreso de nuevos expedientes.
+         - Archivólogo.
+         - ???
+       * - Registro de responsables por expediente solicitado.
+         - Archivólogo.
+         - Registro de responsables por expediente solicitado.
+       * - Consulta por código de expediente.
+         - Archivólogo.
+         - ???
+       * - Consulta lista de expedientes por departamento.
+         - Archivólogo.
+         - ???
 
 Campos modificados de cada entidad
 ----------------------------------
@@ -302,6 +524,15 @@ Estadística y Análisis de Riesgo.
 Procedimientos
 --------------
 
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+       * - Generar trimestralmente un reporte estadístico de todas las solicitudes ingresadas
+         - Analista de credito
+         - Solicitudes ingresadas
+       * -
+
 Campos modificados de cada entidad
 ----------------------------------
 
@@ -321,6 +552,97 @@ Presidente.
 Procedimientos
 --------------
 
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+       * - | Procedimiento
+         - | Responsable
+         - | Datos accedidos o modificados
+
 
 Campos modificados de cada entidad
 ----------------------------------
+
+Módulo Beneficiario
+===================
+
+Descripción
+-----------
+
+Este módulo abarca "Recepción y Evaluación de solicitudes" y "Recepción de propuestas",  Incluye procedimientos asociados al control de la ubicación de los expedientes dentro de los distintos departamentos del FOMDES.
+
+Usuarios
+--------
+
+Archivólogo.
+
+Procedimientos
+--------------
+
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+       * - | Procedimiento
+         - | Responsable
+         - | Datos accedidos o modificados
+       * - Creacion de cuenta de beneficiario
+         - Potencial beneficiario, Beneficiario, Solicitante.
+         - Datos personales del beneficiario
+       * - Edicion de datos personales del beneficiario
+         - Potencial beneficiario, Beneficiario, Solicitante.
+         - Datos personales del beneficiario
+       * - Consulta del estado de mis solicitudes.
+         - Potencial beneficiario, Beneficiario, Solicitante.
+         - ???
+       * - Consulta del estado de mis créditos
+         - Beneficiario
+         -
+       * - Ejecucion de pagos en línea
+         - Beneficiario
+         - Estado de cuenta
+       * - Registro en línea de pagos efectuados mediante transferencia o depósito
+         - Beneficiario
+         - Estado de cuenta
+
+
+Módulo Atencion
+===============
+
+Descripción
+-----------
+
+Este módulo abarca "Recepción y Evaluación de solicitudes",  Incluye procedimientos asociados al control de la ubicación de los expedientes dentro de los distintos departamentos del FOMDES.
+
+
+Usuarios
+--------
+
+Recepcionista.
+
+Procedimientos
+--------------
+
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+       * - | Procedimiento
+         - | Responsable
+         - | Datos accedidos o modificados
+       * - Registro de los datos del solicitante junto con la fecha, hora y destino
+         - Recepcionista
+         - Datos del beneficiario.
+       * - Consulta de la información del estatus de las solicitudes activas
+         - Recepcionista
+         - Estatus de las solicitudes activas
+       * - Consulta de la información del estado de cuenta del beneficiario
+         - Recepcionista
+         - Estado de cuenta del beneficiario
+       * - Generacion de reportes de los visitantes por rango de fecha y cedula
+         - Recepcionista
+         - Visitantes por rango de fecha y cedula
+       * - Generacion de colas por orden de atención y por dependencia
+         - Recepcionista
+         - ???
