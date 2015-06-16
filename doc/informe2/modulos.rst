@@ -303,18 +303,68 @@ Procedimientos
        * - | Procedimiento
          - | Responsable
          - | Datos accedidos o modificados
-       * - Ingreso de los datos asociados a la verificación de la inversión.
-         - Acompañamiento
+       * - Ingreso de los datos asociados a la verificación de la inversión
+         - Jefe de acompañamiento
          - Datos asociados a la verificación de la inversión
-       * - Recomendación del beneficiario para liquidaciones sucesivas en caso de que pase la inspeccion.
-         - Acompañamiento
+       * - Recomendación del beneficiario para liquidaciones sucesivas en caso de que pase la inspeccion
+         - Jefe de acompañamiento
          - Recomendación del beneficiario para liquidaciones sucesivas.
        * - Ingreso del código del expediente a la lista de Archivo.
-         - Acompañamiento
-         - Lista de Archivo.
-       * - Envio del expediente a la unidad de Recuperaciones.
-         - Acompañamiento.
-         - Registro de envio.
+         - Jefe de acompañamiento
+         - Lista de Archivo
+       * - Envio del expediente a la unidad de Recuperaciones
+         - Jefe de acompañamiento
+         - Registro de envio
+       * - Registro de la cantidad de empleos generados directos e indirectos por cada crédito
+         - Jefe de acompañamiento
+         - Registro de la cantidad de empleos
+       * - Notificacion con la lista de créditos liquidados desde administración
+         - Jefe de acompañamiento
+       * - Consulta de la información del beneficiario
+         - Jefe de acompañamiento
+		 - Datos del beneficiario
+       * - Consulta de la información del crédito
+         - Jefe de acompañamiento
+		 - Datos del crédito
+       * - Consultar el apodo del beneficiario
+         - Jefe de acompañamiento
+		 - Apodo del beneficiario
+       * - Llevar un registro de los beneficiarios y beneficiarias atendidos por fecha y hora
+         - Jefe de acompañamiento
+		 - Registro de beneficiarios atendidos.
+       * - Generacion de informe de acompañamiento          
+		 - Jefe de acompañamiento
+		 - Datos del informe de acompañamiento.
+       * - Generacion de reportes con formato para las minuta
+		 - Jefe de acompañamiento
+		 - plantilla de la minuta
+       * - Guardado de fotografías de las inspecciones          
+		 - Jefe de acompañamiento
+		 - Fotografias de las inspecciones
+       * - Generacion de notas de visitas de inspección, atención en oficina o llamadas telefónicas          
+		 - Jefe de acompañamiento
+		 - Plantilla de las notas
+       * - Consulta de notas de visitas de inspección, atención en oficina o llamadas telefónicas
+		 - Jefe de acompañamiento
+		 - Plantilla de las notas
+       * - Edicion de los datos del beneficiario.         
+		 - Jefe de acompañamiento
+		 - Datos del beneficiario
+       * - Generacion de notificación de acompañamiento          
+		 - Jefe de acompañamiento
+		 - Plantilla de notificación de acompañamiento 
+       * - Generacion de minuta de atención en oficina para las declaraciones de los beneficiarios          
+		 - Jefe de acompañamiento
+		 - Plantilla de la minuta de atencion
+       * - Registro de los casos donde las visitas no son atendidas
+		 - Jefe de acompañamiento
+		 - Registro de los casos donde las visitas no son atendidas
+       * - Generar formato de charla          
+		 - Jefe de acompañamiento
+		 - Plantilla de la charla
+       * - Envio del expediente a otras estaciones junto con nota explicativa         
+		 - Jefe de acompañamiento
+		 - Registro de envio.
 
 Campos modificados de cada entidad
 ----------------------------------
