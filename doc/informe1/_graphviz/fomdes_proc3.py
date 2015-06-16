@@ -41,7 +41,7 @@ se_edges = {"se0": {"se1": {}},
 
 SE = add_cluster(F, "se", "Secretaría Ejecutiva", se_cluster, se_edges)
 
-p_cluster = {"p0": ("Verificar Lista de Expedientes", "human")}
+p_cluster = {"p0": ("Revisar montos, intereses y plazos del crédito y priorizar los expedientes que van a Consejo Directivo", "human")}
 
 p_edges = {}
 
@@ -54,7 +54,7 @@ pr_edges = {"pr0": {"pr1": {}}}
 
 PR = add_cluster(F, "pr", "Presupuesto/Administración", pr_cluster, pr_edges)
 
-cd_cluster = {"cd0": ("Revisar los expedientes", "human"),
+cd_cluster = {"cd0": ("Deliberación para la aprobación de los créditos", "human"),
               "cd1": ("¿Se aprueba el crédito?", "complex")}
 
 cd_edges = {"cd0": {"cd1": {}}}
@@ -64,6 +64,7 @@ CD = add_cluster(F, "cd", "Consejo Directivo", cd_cluster, cd_edges)
 # F.add_node("SIGEFOMDES Crédito", image=IMAGE_PATH + "database.png", shape="plaintext", label="", xlabel="SIGEFOMDES Crédito")
 
 global_edges = {"Gerencia de Crédito":  {"se0": {"style": "dashed"}},
+                "se0": {"p0": {"style": "dashed"}},
                 "p0": {"se1": {"style": "dashed"}},
                 "se2": {"pr0": {"style": "dashed"}},
                 "pr1": {"se3": {"style": "dashed"}},

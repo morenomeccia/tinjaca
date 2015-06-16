@@ -22,7 +22,7 @@ digraph  {
 			fontsize=10,
 			height=1,
 			label=<<TABLE border="0" cellborder="0" cellpadding="0">
-                <TR><TD><IMG SRC="../_static/cross.png"/></TD></TR>
+                <TR><TD><IMG SRC="_static/cross.png"/></TD></TR>
                 </TABLE>>,
 			shape=diamond,
 			style=filled,
@@ -30,7 +30,7 @@ digraph  {
 			xlabel="¿Aprobar exoneración?"];
 		cd5		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="../_static/envelope.png"/></TD></TR>
+                <TR><TD align="left"><IMG SRC="_static/envelope.png"/></TD></TR>
                 <TR><TD>Ordenar ejecución de la<br/>exoneración</TD></TR>
                 </TABLE>>,
 			shape=box,
@@ -54,7 +54,7 @@ digraph  {
 exoneración"];
 		cd3		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="../_static/person.png"/></TD></TR>
+                <TR><TD align="left"><IMG SRC="_static/person.png"/></TD></TR>
                 <TR><TD>¿Revisar exoneración?</TD></TR>
                 </TABLE>>,
 			shape=box,
@@ -68,7 +68,7 @@ exoneración"];
 		];
 		r14		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="../_static/envelope.png"/></TD></TR>
+                <TR><TD align="left"><IMG SRC="_static/envelope.png"/></TD></TR>
                 <TR><TD>Solicitar exoneración</TD></TR>
                 </TABLE>>,
 			shape=box,
@@ -106,7 +106,7 @@ exoneración"];
 		r13 -> r14;
 		r11		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="../_static/person.png"/></TD></TR>
+                <TR><TD align="left"><IMG SRC="_static/person.png"/></TD></TR>
                 <TR><TD>Ejecutar exoneración de<br/>crédito</TD></TR>
                 </TABLE>>,
 			shape=box,
@@ -128,7 +128,7 @@ exoneración"];
 exoneración"];
 		b1		 [fillcolor="white:grey",
 			label=<<TABLE border="0" cellborder="0">
-                <TR><TD align="left"><IMG SRC="../_static/envelope.png"/></TD></TR>
+                <TR><TD align="left"><IMG SRC="_static/envelope.png"/></TD></TR>
                 <TR><TD>Solicitar exoneración</TD></TR>
                 </TABLE>>,
 			shape=box,
@@ -145,7 +145,7 @@ exoneración"];
 	b1 -> cd2	 [style=dashed];
 	cd5 -> r10	 [style=dashed];
 	r14 -> cd2	 [style=dashed];
-	SISAC	 [image="../_static/database.png",
+	SISAC	 [image="_static/database.png",
 		label="",
 		shape=plaintext,
 		xlabel=SISAC];
