@@ -185,85 +185,85 @@ Descripción de Datos
 
 **5.2 PARA EMPRESAS ESTABLECIDAS**:
 
-* 1. Estados Financieros de los dos últimos años (debidamente estructurados) y corte a la fecha.
-* 2. Balance de Comprobación (Empresas con menos de dos años de establecidas).
-* 3. Original (para su verificación) y copia fotostática de la Solvencia Laboral a nombre de la Gobernación del estado Bolivariano de Mérida, o Solvencia del Seguro Social, Solvencia del Instituto Nacional de Capacitación y Educación Socialista (INCES) y Solvencia del Banco Nacional de Vivienda y Hábitat (BANAVIH-FAOV).
+* Estados Financieros de los dos últimos años (debidamente estructurados) y corte a la fecha.
+* Balance de Comprobación (Empresas con menos de dos años de establecidas).
+* Original (para su verificación) y copia fotostática de la Solvencia Laboral a nombre de la Gobernación del estado Bolivariano de Mérida, o Solvencia del Seguro Social, Solvencia del Instituto Nacional de Capacitación y Educación Socialista (INCES) y Solvencia del Banco Nacional de Vivienda y Hábitat (BANAVIH-FAOV).
 
 **5.3 REQUISITOS SEGUN EL RUBRO  A FINANCIAR**:
 
 	**Agrícola y pecuario**:
 
-* 1. Original (para su verificación) y copia fotostática del permiso del ambiente vigente para los rubros de aves, porcino, caprino, y cualquier otro que lo requiera. El mismo debe ser emitido por las direcciones de los entes u oficinas correspondientes.
-* 2. Original (para su verificación) y copia fotostática del certificado de vacunación vigente para los rubros de ganadería de leche y ceba, aves, porcino y caprino tanto del comprador como del vendedor, emitido por las direcciones de los entes u oficinas correspondientes.
-* 3. Original (para su verificación) y copia fotostática de la constancia de no poseer animales emitidos por el INSAI (cuando sea el caso de los/las solicitantes de la propuesta de crédito).
-* 4. Original (para su verificación) y copia fotostática del registro de hierro o constancia de tramitación tanto del solicitante como del vendedor emitido por las direcciones de los entes u oficinas correspondientes.
-* 5. Original (para su verificación) y copia fotostática de la constancia de productor emitida por las direcciones de los entes u oficinas, o aval emitido por el Consejo Comunal correspondiente.
-* 6. Proforma de los materiales, insumos, maquinarias, equipos, animales a adquirir, o contrato de opción a compra o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
-* 7. Para los casos de construcción, ampliación, remodelación y/o mejoramiento de la unidad de producción: presupuesto de obra, cronograma de ejecución de la obra. El presupuesto de obra no podrá exceder el cuarenta por ciento (40%) del monto solicitado.
+* Original (para su verificación) y copia fotostática del permiso del ambiente vigente para los rubros de aves, porcino, caprino, y cualquier otro que lo requiera. El mismo debe ser emitido por las direcciones de los entes u oficinas correspondientes.
+* Original (para su verificación) y copia fotostática del certificado de vacunación vigente para los rubros de ganadería de leche y ceba, aves, porcino y caprino tanto del comprador como del vendedor, emitido por las direcciones de los entes u oficinas correspondientes.
+* Original (para su verificación) y copia fotostática de la constancia de no poseer animales emitidos por el INSAI (cuando sea el caso de los/las solicitantes de la propuesta de crédito).
+* Original (para su verificación) y copia fotostática del registro de hierro o constancia de tramitación tanto del solicitante como del vendedor emitido por las direcciones de los entes u oficinas correspondientes.
+* Original (para su verificación) y copia fotostática de la constancia de productor emitida por las direcciones de los entes u oficinas, o aval emitido por el Consejo Comunal correspondiente.
+* Proforma de los materiales, insumos, maquinarias, equipos, animales a adquirir, o contrato de opción a compra o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
+* Para los casos de construcción, ampliación, remodelación y/o mejoramiento de la unidad de producción: presupuesto de obra, cronograma de ejecución de la obra. El presupuesto de obra no podrá exceder el cuarenta por ciento (40%) del monto solicitado.
 
 	**Turismo**:
 
-* 1. Infraestructura (ampliación y remodelación): presupuesto y análisis de precios unitarios de la obra claramente detallados por partida de construcción, proyecto objeto del financiamiento por la autoridad competente (planos, memoria descriptiva), cronograma de ejecución física de la obra, copia fotostática ampliada de la cédula de identidad de la persona que realizará la obra.
-* 2. Equipamiento: presentar facturas pro-forma o documento de opción a compra o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
-* 3. Mobiliario, equipo, utensilios y otros activos de operación: presentar facturas pro-forma o documento de opción a compra o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
-* 4. Maquinarias y Equipos: presentar facturas pro-forma o documento de opción a compra o una exposición de motivos suficientemente fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
-* 5. Insumos: presentar facturas pro-forma o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como productor del estado Bolivariano de Mérida.
-* 6. Unidad de Transporte (Tour Operativo): presentar facturas pro-forma, presupuesto de la repotenciación, copia del certificado del vehículo y copia del documento de propiedad.
-* 7. Para los casos de turismo de aventura soportes de la actividad y documentación pertinente según sea el caso.
+* Infraestructura (ampliación y remodelación): presupuesto y análisis de precios unitarios de la obra claramente detallados por partida de construcción, proyecto objeto del financiamiento por la autoridad competente (planos, memoria descriptiva), cronograma de ejecución física de la obra, copia fotostática ampliada de la cédula de identidad de la persona que realizará la obra.
+* Equipamiento: presentar facturas pro-forma o documento de opción a compra o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
+* Mobiliario, equipo, utensilios y otros activos de operación: presentar facturas pro-forma o documento de opción a compra o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
+* Maquinarias y Equipos: presentar facturas pro-forma o documento de opción a compra o una exposición de motivos suficientemente fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
+* Insumos: presentar facturas pro-forma o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como productor del estado Bolivariano de Mérida.
+* Unidad de Transporte (Tour Operativo): presentar facturas pro-forma, presupuesto de la repotenciación, copia del certificado del vehículo y copia del documento de propiedad.
+* Para los casos de turismo de aventura soportes de la actividad y documentación pertinente según sea el caso.
 
 	**Artesanal**:
 
-* 1. Proformas de la materia, insumo, maquinarias, equipos; adquisición y repotenciación de las mismas e instalación; o una exposición de motivo fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios.
-* 2. Infraestructura: ampliación y remodelación no podrá exceder del 40% del monto solicitado, presentar presupuesto breve descripción y el plano de la misma.
+* Proformas de la materia, insumo, maquinarias, equipos; adquisición y repotenciación de las mismas e instalación; o una exposición de motivo fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios.
+* Infraestructura: ampliación y remodelación no podrá exceder del 40% del monto solicitado, presentar presupuesto breve descripción y el plano de la misma.
 
 	**Ciencia y Tecnología**:
 
-* 1. Materia prima e Insumos y Herramientas y Equipos Menores: presentar facturas pro-forma o cotización o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como productor del estado Bolivariano de Mérida.
-* 2. Adquisición y repotenciación de maquinaria, equipos, e instalación: presentar facturas pro-forma, documento de opción a compra o presupuesto de repotenciación o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
-* 3. Infraestructura: ampliación y reparación de la infraestructura física: presentar presupuesto, cédula de identidad de quien realizará la obra, breve descripción y el plano de la misma. El monto a destinar para este rubro no podrá exceder del cuarenta por ciento (40%) del monto total solicitado.
-* 4. Se apoyarán los gastos e inversiones indispensables para la ejecución exitosa del proyecto, los cuales deberán estar justificados para todos aquellos innovadores, académicos y tecnólogos.
-* 5. Mano de Obra.
+* Materia prima e Insumos y Herramientas y Equipos Menores: presentar facturas pro-forma o cotización o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como productor del estado Bolivariano de Mérida.
+* Adquisición y repotenciación de maquinaria, equipos, e instalación: presentar facturas pro-forma, documento de opción a compra o presupuesto de repotenciación o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
+* Infraestructura: ampliación y reparación de la infraestructura física: presentar presupuesto, cédula de identidad de quien realizará la obra, breve descripción y el plano de la misma. El monto a destinar para este rubro no podrá exceder del cuarenta por ciento (40%) del monto total solicitado.
+* Se apoyarán los gastos e inversiones indispensables para la ejecución exitosa del proyecto, los cuales deberán estar justificados para todos aquellos innovadores, académicos y tecnólogos.
+* Mano de Obra.
 
 	**Pequeña y Mediana Empresa y Pequeña y Mediana Industria**:
 
-* 1. Proformas materia prima, insumo, maquinarias, equipos, adquisición y repotenciación de los mismos, o una exposición de motivo fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios.
-* 2. Infraestructura: ampliación y reparación de la infraestructura física: presentar presupuesto, cédula de identidad de quien realizará la obra, breve descripción y el plano de la misma. El monto a destinar para este rubro no podrá exceder del cuarenta por ciento (40%) del monto total solicitado.
-* 3. Comercialización, almacenamiento y flete por transporte que esté directamente relacionado con la unidad de producción: Certificado de Vehículo, Avalúo y R.C.V
-* 4. Adquisición o repotenciación de vehículos de transporte que esté directamente relacionado con la unidad de producción: Certificado de Vehículo, Avalúo y R.C.V.
+* Proformas materia prima, insumo, maquinarias, equipos, adquisición y repotenciación de los mismos, o una exposición de motivo fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios.
+* Infraestructura: ampliación y reparación de la infraestructura física: presentar presupuesto, cédula de identidad de quien realizará la obra, breve descripción y el plano de la misma. El monto a destinar para este rubro no podrá exceder del cuarenta por ciento (40%) del monto total solicitado.
+* Comercialización, almacenamiento y flete por transporte que esté directamente relacionado con la unidad de producción: Certificado de Vehículo, Avalúo y R.C.V
+* Adquisición o repotenciación de vehículos de transporte que esté directamente relacionado con la unidad de producción: Certificado de Vehículo, Avalúo y R.C.V.
 
 	**Microempresas**:
 
-* 1. Proformas de la materia, insumo, maquinarias, equipos; adquisición y repotenciación de las mismas e instalación; o una exposición de motivo fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios.
-* 2. Infraestructura: ampliación y remodelación no podrá exceder del 40% del monto solicitado, presentar presupuesto breve descripción y el plano de la misma.
+* Proformas de la materia, insumo, maquinarias, equipos; adquisición y repotenciación de las mismas e instalación; o una exposición de motivo fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios.
+* Infraestructura: ampliación y remodelación no podrá exceder del 40% del monto solicitado, presentar presupuesto breve descripción y el plano de la misma.
 
 **5.4 REQUISITOS DE ACUERDO A LA GARANTIA OFRECIDA**:
 
 **Letra de cambio con aval (Desde Bs. 20.000,00 hasta Bs. 200.000,00)**:
 
-* 1. Presentación de Cédula de Identidad Laminada del Avalista. 1.1 De ser Extranjero: Carta de Residencia. 1.2 De estado civil Casado: Cédula de identidad del cónyuge.
-* 2. Copia del Registro de Información Fiscal (RIF) vigente; o, Carta de residencia emitida por la Prefectura o el Consejo Comunal, donde indique de manera detallada la dirección de habitación y los números telefónicos de contacto; o en su defecto un Recibo de Servicio Público, que tenga la dirección del sitio donde reside.
-* 3. Certificación de Ingresos (avalada por un contador público) o Constancia de Trabajo (no mayor a tres (03) meses de emitida). El sueldo debe ser igual o mayor al salario mínimo vigente.
-* 4. Copia del Registro de Información Fiscal (RIF) vigente; o, Carta de residencia emitida por la Prefectura o el Consejo Comunal, donde indique de manera detallada la dirección de habitación y los números telefónicos de contacto; o en su defecto un Recibo de Servicio Público, que tenga la dirección del sitio donde reside.
-* 5. Certificación de Ingresos (avalada por un contador público) o Constancia de Trabajo (no mayor a tres (03) meses de emitida). El sueldo debe ser igual o mayor al salario mínimo vigente.
+* Presentación de Cédula de Identidad Laminada del Avalista. 1.1 De ser Extranjero: Carta de Residencia. 1.2 De estado civil Casado: Cédula de identidad del cónyuge.
+* Copia del Registro de Información Fiscal (RIF) vigente; o, Carta de residencia emitida por la Prefectura o el Consejo Comunal, donde indique de manera detallada la dirección de habitación y los números telefónicos de contacto; o en su defecto un Recibo de Servicio Público, que tenga la dirección del sitio donde reside.
+* Certificación de Ingresos (avalada por un contador público) o Constancia de Trabajo (no mayor a tres (03) meses de emitida). El sueldo debe ser igual o mayor al salario mínimo vigente.
+* Copia del Registro de Información Fiscal (RIF) vigente; o, Carta de residencia emitida por la Prefectura o el Consejo Comunal, donde indique de manera detallada la dirección de habitación y los números telefónicos de contacto; o en su defecto un Recibo de Servicio Público, que tenga la dirección del sitio donde reside.
+* Certificación de Ingresos (avalada por un contador público) o Constancia de Trabajo (no mayor a tres (03) meses de emitida). El sueldo debe ser igual o mayor al salario mínimo vigente.
 
 **Garantía prendaria sin desplazamiento de posesión (Hasta Bs. 1.200.000,00)**:
 
-* 1. Avalúo del bien mueble dado en prenda.
-* 2. El bien mueble dado en prenda debe estar asegurado contra todo riesgo. Presentar fianzas, respaldadas por compañía de seguros.
-* 3. Para el caso de las Cooperativas, aplicará solo para las cooperativas de transporte. La prenda debe estar asegurada contra todo riesgo.
+* Avalúo del bien mueble dado en prenda.
+* El bien mueble dado en prenda debe estar asegurado contra todo riesgo. Presentar fianzas, respaldadas por compañía de seguros.
+* Para el caso de las Cooperativas, aplicará solo para las cooperativas de transporte. La prenda debe estar asegurada contra todo riesgo.
 
 **Garantía hipotecaria (Hasta Bs. 3.600.000,00)**:
 
-* 1. Original (para su verificación) y copia fotostática del documento de propiedad del inmueble a hipotecar (debidamente registrado, ubicado en la jurisdicción del Estado Bolivariano de Mérida y libre de gravámenes).
-* 2. Croquis de la ubicación del inmueble.
-* 3. Levantamiento topográfico para lotes de terreno mayores de Una (1) Hectárea (1Ha).
-* 4. NOTA: Si el bien inmueble a hipotecar es propiedad del cónyuge o un tercero, se deberá presentar Cédula de identidad del propietario. Si el propietario es de estado civil casado, deberá presentar Cédula de Identidad del Cónyuge.
+* Original (para su verificación) y copia fotostática del documento de propiedad del inmueble a hipotecar (debidamente registrado, ubicado en la jurisdicción del Estado Bolivariano de Mérida y libre de gravámenes).
+* Croquis de la ubicación del inmueble.
+* Levantamiento topográfico para lotes de terreno mayores de Una (1) Hectárea (1Ha).
+* NOTA: Si el bien inmueble a hipotecar es propiedad del cónyuge o un tercero, se deberá presentar Cédula de identidad del propietario. Si el propietario es de estado civil casado, deberá presentar Cédula de Identidad del Cónyuge.
 
 **Fianza financiera (Hasta Bs. 3.600.000,00)**:
 
-* 1. Original (para su verificación) y copia fotostática de la constancia de inscripción en la Sociedad de Garantías Recíprocas o en la empresa de Seguros de su preferencia.
-* 2. Una vez aprobada la solicitud de crédito, el beneficiario(a) deberá consignar Carta Fianza, otorgada por la Sociedad de Garantías Reciprocas o el documento de fianza de la empresa de seguros de su preferencia.
-* 3. Previa Liquidación de los créditos garantizados con Fianza Financiera respaldada por la Sociedad Garantía Reciprocas, el beneficiario(a) debe consignar: a) Documento de Crédito de FOMDES y b) Fianza Financiera que garantice la obligación que asume. Ambos documentos debidamente autenticados por ante la Notaria Pública correspondiente.
+* Original (para su verificación) y copia fotostática de la constancia de inscripción en la Sociedad de Garantías Recíprocas o en la empresa de Seguros de su preferencia.
+* Una vez aprobada la solicitud de crédito, el beneficiario(a) deberá consignar Carta Fianza, otorgada por la Sociedad de Garantías Reciprocas o el documento de fianza de la empresa de seguros de su preferencia.
+* Previa Liquidación de los créditos garantizados con Fianza Financiera respaldada por la Sociedad Garantía Reciprocas, el beneficiario(a) debe consignar: a) Documento de Crédito de FOMDES y b) Fianza Financiera que garantice la obligación que asume. Ambos documentos debidamente autenticados por ante la Notaria Pública correspondiente.
 **Firma**: Indica el campo para la firma del funcionario y representante legal.
 
 Diccionario de Datos
