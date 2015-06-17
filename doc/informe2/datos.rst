@@ -147,41 +147,41 @@ Descripción de Datos
 
 **5. REQUISITOS**: Es la documentación necesaria presentada por el solicitante que condiciona el otorgamiento del crédito solicitado.
 
-**Sector**: Indica la actividad relacionada con el sector Agrícola y Pecuario, Turismo, Artesanal, Ciencia y Tecnología, Pequeña y Mediana Empresa, Pequeña y Mediana Industria y Microempresas.
-**Fecha**: Indica el día, mes y año de entrega de la planilla de requisitos al solicitante.
-**Nº de propuesta**: Indica el número de propuesta de financiamiento especificado por el servidor público receptor.
-**Solicitante**:  Indica el nombre y apellido del solicitante.
-**Cédula de identidad**: Indica el número de identificación del solicitante.
-**Actividad**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
-**Monto**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
-**Municipio**: Indica el municipio en el que reside el solicitante.
-**Parroquia**: Indica la parroquia en la que reside dentro del municipio.
-**Fecha del taller**: Indica el día, mes y año en que se realizó el taller por parte del solicitante.
+* **Sector**: Indica la actividad relacionada con el sector Agrícola y Pecuario, Turismo, Artesanal, Ciencia y Tecnología, Pequeña y Mediana Empresa, Pequeña y Mediana Industria y Microempresas.
+* **Fecha**: Indica el día, mes y año de entrega de la planilla de requisitos al solicitante.
+* **Nº de propuesta**: Indica el número de propuesta de financiamiento especificado por el servidor público receptor.
+* **Solicitante**:  Indica el nombre y apellido del solicitante.
+* **Cédula de identidad**: Indica el número de identificación del solicitante.
+* **Actividad**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
+* **Monto**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+* **Municipio**: Indica el municipio en el que reside el solicitante.
+* **Parroquia**: Indica la parroquia en la que reside dentro del municipio.
+* **Fecha del taller**: Indica el día, mes y año en que se realizó el taller por parte del solicitante.
 
 **5.1 REQUISITOS EXIGIDOS AL SOLICITANTE**:
 
-* 1. Llenar y entregar la planilla de “Propuesta de Financiamiento”.
-* 2. Presentación de cédula de identidad laminada. De ser Extranjero: Carta de residencia. De estado civil Casado: Cédula de identidad del cónyuge.
-* 3. Copia del Registro de Información Fiscal (RIF) vigente o carta de residencia emitida por la Prefectura o el Consejo Comunal, donde indique de manera detallada la dirección de habitación y los números telefónicos de contacto o en su defecto un Recibo de Servicio Público, que tenga la dirección del sitio donde reside.
-* 4. Original (para su verificación) y copia fotostática del documento de propiedad, alquiler u otra modalidad debidamente notariado o registrado según sea el caso, o documento privado (entre las partes) de Arrendamiento o recibo o factura del canon de arrendamiento, del espacio donde funcionará (promocionales) o funciona (establecidas) la unidad de producción.
-* 5. Croquis de ubicación de la Unidad de Producción que facilite las visitas e inspección de acompañamiento, seguimiento, y evaluación de la solicitud de la propuesta de financiamiento y la propia unidad de producción.
-* 6. Exposición de Motivos (formato FOMDES) o Perfil Económico (formato FOMDES) o Proyecto Económico; según sea el caso. Exposición de Motivos hasta Bs. 200.000,00 (Llenar Formato según modelo FOMDES). Perfil económico: a partir de Bs. 200.001,00 hasta Bs. 700.000,00 (Llenar Formato según modelo FOMDES). Proyecto Económico para solicitudes a partir de Bs. 700.001,00 en adelante.
-* 7. Copia fotostática del registro de comercio completo y actualizado con sus modificaciones si las hubiere y del Registro de Información Fiscal (RIF) (para las unidades de producción establecidas). En caso de no poseer este documento (para las unidades de producción promocionales) el FOMDES podrá, a través de sus abogados(as), elaborar el mismo a los fines que el solicitante proceda a registrarlo, cumplir con este requisito y agilizar la pronta liquidación del segundo desembolso.
-* 8. Original (para su verificación) y copia de los permisos de funcionamiento, en el caso de empresas que manejan alimentos o productos químicos (Sanidad, Ambiente, Alcaldía, Bomberos, etc), según sea el caso.
+* Llenar y entregar la planilla de “Propuesta de Financiamiento”.
+* Presentación de cédula de identidad laminada. De ser Extranjero: Carta de residencia. De estado civil Casado: Cédula de identidad del cónyuge.
+* Copia del Registro de Información Fiscal (RIF) vigente o carta de residencia emitida por la Prefectura o el Consejo Comunal, donde indique de manera detallada la dirección de habitación y los números telefónicos de contacto o en su defecto un Recibo de Servicio Público, que tenga la dirección del sitio donde reside.
+* Original (para su verificación) y copia fotostática del documento de propiedad, alquiler u otra modalidad debidamente notariado o registrado según sea el caso, o documento privado (entre las partes) de Arrendamiento o recibo o factura del canon de arrendamiento, del espacio donde funcionará (promocionales) o funciona (establecidas) la unidad de producción.
+* Croquis de ubicación de la Unidad de Producción que facilite las visitas e inspección de acompañamiento, seguimiento, y evaluación de la solicitud de la propuesta de financiamiento y la propia unidad de producción.
+* Exposición de Motivos (formato FOMDES) o Perfil Económico (formato FOMDES) o Proyecto Económico; según sea el caso. Exposición de Motivos hasta Bs. 200.000,00 (Llenar Formato según modelo FOMDES). Perfil económico: a partir de Bs. 200.001,00 hasta Bs. 700.000,00 (Llenar Formato según modelo FOMDES). Proyecto Económico para solicitudes a partir de Bs. 700.001,00 en adelante.
+* Copia fotostática del registro de comercio completo y actualizado con sus modificaciones si las hubiere y del Registro de Información Fiscal (RIF) (para las unidades de producción establecidas). En caso de no poseer este documento (para las unidades de producción promocionales) el FOMDES podrá, a través de sus abogados(as), elaborar el mismo a los fines que el solicitante proceda a registrarlo, cumplir con este requisito y agilizar la pronta liquidación del segundo desembolso.
+* Original (para su verificación) y copia de los permisos de funcionamiento, en el caso de empresas que manejan alimentos o productos químicos (Sanidad, Ambiente, Alcaldía, Bomberos, etc), según sea el caso.
 **Agrícola y pecuario**:
-* 1. Plan de Producción para el desarrollo agrícola o pecuario según el formato del FOMDES. Cronograma de cultivo.
-* 2. Original (para su verificación) y copia fotostática del título de adjudicación definitivo con registro agrario, declaratoria de permanencia con registro agrario, carta agraria con registro agrario según sea el caso o su tramitación.
-* 3. Carta Aval emitida por IMDERURAL (Tramitada internamente entre IMDERURAL-FOMDES).
+* Plan de Producción para el desarrollo agrícola o pecuario según el formato del FOMDES. Cronograma de cultivo.
+* Original (para su verificación) y copia fotostática del título de adjudicación definitivo con registro agrario, declaratoria de permanencia con registro agrario, carta agraria con registro agrario según sea el caso o su tramitación.
+* Carta Aval emitida por IMDERURAL (Tramitada internamente entre IMDERURAL-FOMDES).
 **Turismo**:
-* 1. Aval Técnico de Viabilidad Turística emitido la Corporación Merideña de Turismo (CORMETUR). (Tramitada internamente entre CORMETUR y FOMDES).
+* Aval Técnico de Viabilidad Turística emitido la Corporación Merideña de Turismo (CORMETUR). (Tramitada internamente entre CORMETUR y FOMDES).
 **Artesanal**:
-* 1. Copia fotostática de los permisos de Sanidad, Ambiente y Bomberos. Para solicitudes menores de Bs. 100.000,00 NO se solicitará el Registro de Fondo de Comercio.
+* Copia fotostática de los permisos de Sanidad, Ambiente y Bomberos. Para solicitudes menores de Bs. 100.000,00 NO se solicitará el Registro de Fondo de Comercio.
 **Ciencia y Tecnología**:
-* 1. Copia fotostática de los permisos de Sanidad, Ambiente, Alcaldía y Bomberos.
+* Copia fotostática de los permisos de Sanidad, Ambiente, Alcaldía y Bomberos.
 **Pequeña y Mediana Empresa y Pequeña y Mediana Industria**:
-* 1. Copia fotostática de los permisos de Sanidad, Ambiente, Alcaldía y Bomberos.
+* Copia fotostática de los permisos de Sanidad, Ambiente, Alcaldía y Bomberos.
 **Microempresas**:
-* 1. Copia fotostática de los permisos de Sanidad, Ambiente y Bomberos. Para solicitudes menores de Bs. 100.000,00 NO se solicitará el Registro de Fondo de Comercio.
+* Copia fotostática de los permisos de Sanidad, Ambiente y Bomberos. Para solicitudes menores de Bs. 100.000,00 NO se solicitará el Registro de Fondo de Comercio.
 
 **5.2 PARA EMPRESAS ESTABLECIDAS**:
 
