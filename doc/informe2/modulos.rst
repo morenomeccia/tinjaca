@@ -174,24 +174,57 @@ Procedimientos
        :widths: 40 70 40
        :header-rows: 1
 
-       * - | Procedimiento
-         - | Responsable
-         - | Datos accedidos o modificados
-       * - Ordenamiento de la lista de expedientes según sus prioridades
-         - Secretaría Ejecutiva
-         - Lista de expedientes
-       * - Registro de la certificación de disponibilidad presupuestaria y financiera del crédito
-         - Secretaría Ejecutiva
-         - Certificación de disponibilidad presupuestaria y financiera del crédito
-       * - Creación de la convocatoria al consejo directivo con agenda de expedientes priorizados
-         - Secretaría Ejecutiva
-         - Convocatoria al consejo directivo
-       * - Ingreso del documento de crédito al expediente
-         - Secretaría Ejecutiva
-         - ???
-       * - Ingreso del documento de documento de la empresa
-         - Secretaría Ejecutiva
-         - ???
+		* - | Procedimiento
+          - | Responsable
+          - | Datos accedidos o modificados
+		* - Ingreso del documento de crédito al expediente
+          - Secretaría Ejecutiva
+          - Documento de crédito
+		* - Ingreso del documento de la empresa al expediente
+          - Secretaría Ejecutiva
+          - Documento de la empresa
+		* - Ordenamiento de la lista de expedientes según sus prioridades
+          - Secretaría Ejecutiva
+          - Lista de expedientes
+		* - Registro de la certificación de disponibilidad presupuestaria y financiera del crédito
+          - Secretaría Ejecutiva
+          - Certificación de disponibilidad presupuestaria y financiera del crédito
+		* - Creación de la convocatoria al consejo directivo con agenda de expedientes priorizados
+          - Secretaría Ejecutiva
+          - Convocatoria al consejo directivo
+        * - Creacion de agenda con los casos a ser discutidos en el consejo directivo
+          - Secretaria ejecutiva
+		  - Agenda de creditos a discutir por el consejo directivo
+        * - Impresion la lista de asistentes del consejo directivo
+          - Secretaria ejecutiva
+		  - Lista de asistentes al consejo directivo
+        * - Creacion del acta del consejo directivo
+          - Secretaria ejecutiva
+		  - Acta del consejo directivo
+        * - Aprobacion del documento del crédito
+          - Secretaria ejecutiva
+		  - Registro de aprobacion del consejo directivo
+		* - Asignacion del estatus de la solicitud de crédito en base a lo discutido en el consejo directivo
+          - Secretaria ejecutiva
+		  - Estatus de la solicitud de credito
+        * - Rechazo del crédito en los casos en que los cheques no se retiren o los créditos se rechacen por los beneficiarios o beneficiarias
+          - Secretaria ejecutiva
+		  - Estatus del credito
+        * - Cracion la minuta del consejo
+          - Secretaria ejecutiva
+		  - Minuta del consejo
+        * - Envio al gerente de crédito los expedientes rechazados
+          - Secretaria ejecutiva
+		  - Lista de expedientes rechazados
+        * - Creacion del documento de crédito para ser notariado por el beneficiario
+          - Secretaria ejecutiva
+		  - Registro de entrega del documento a al beneficiario
+        * - Envio de los documentos notariados a la gerencia de administración
+          - Secretaria ejecutiva
+		  - Registro de recepcion del documento por notaria 
+        * - Envio de expedientes liquidados a Acompañamiento
+          - Secretaria ejecutiva
+		  - Lista de expedientes liquidados.
 
 
 Campos modificados de cada entidad
