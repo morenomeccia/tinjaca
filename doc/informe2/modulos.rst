@@ -262,42 +262,97 @@ Procedimientos
        :widths: 40 70 40
        :header-rows: 1
 
-       * - | Procedimiento
-         - | Responsable
-         - | Datos accedidos o modificados
-       * - Certificación de la disponibilidad para liquidación del crédito
-         - Administracion
-         - Disponibilidad para liquidación del crédito
-       * - Creación de tabla de cuentas por cobrar
-         - Presupuesto y Administración
-         - Tabla de cuentas por cobrar
-       * - Creacion de tabla de amortización del crédito
-         - Presupuesto y Administración
-         - Tabla de amortización del crédito
-       * - Creación del estado de cuenta del credito
-         - Administracion
-         - Estado de cuenta del credito
-       * - Generacion de la orden de liquidación
-         - Presupuesto y Administracion
-         - Orden de liquidación
-       * - Generacion de la orden del cheque
-         - Presupuesto y Administracion
-         - Orden del cheque
-       * - Enviar expediente a la unidad de Acompañamiento y Asistencia Técnica
-         - Administracion
-         - ???
-       * - Generación de documento de liquidación del crédito
-         - Administración
-         - Documento de liquidación del crédito
-       * - Cambio del estatus del expediente liberado
-         - Administración
-         - Estatus del expediente
-       * - Registro de la entrega del documento de liberación del crédito
-         - Administración
-         - ???
-       * - Envío del expediente a archivo una vez liberado
-         - Administración
-         - Registro de envio
+		* - | Procedimiento
+		  - | Responsable
+		  - | Datos accedidos o modificados
+		* - Certificación de la disponibilidad para liquidación del crédito
+		  - Administracion
+		  - Disponibilidad para liquidación del crédito
+		* - Creación de tabla de cuentas por cobrar
+		  - Presupuesto y Administración
+		  - Tabla de cuentas por cobrar
+		* - Creacion de tabla de amortización del crédito
+		  - Presupuesto y Administración
+		  - Tabla de amortización del crédito
+		* - Creación del estado de cuenta del credito
+		  - Administracion
+		  - Estado de cuenta del credito
+		* - Generacion de la orden de liquidación
+		  - Presupuesto y Administracion
+		  - Orden de liquidación
+		* - Generacion de la orden del cheque
+		  - Presupuesto y Administracion
+		  - Orden del cheque
+		* - Enviar expediente a la unidad de Acompañamiento y Asistencia Técnica
+		  - Administracion
+		  - ???
+		* - Generación de documento de liquidación del crédito
+		  - Administración
+		  - Documento de liquidación del crédito
+		* - Cambio del estatus del expediente liberado
+		  - Administración
+		  - Estatus del expediente
+		* - Registro de la entrega del documento de liberación del crédito
+		  - Administración
+		  - ???
+		* - Envío del expediente a archivo una vez liberado
+		  - Administración
+		  - Registro de envio
+        * - Elaboracion de las cuentas por cobrar de los beneficiarios cuyos créditos fueron aprobados
+		  - Asesor de Administrativo
+  		  - Cuentas por cobrar
+        * - Elaboracion de los cheques de los beneficiarios cuyos créditos fueron aprobados
+		  - Gerente de administración
+  		  - Cheque del credito
+        * - Envio de los cheques a presidencia
+		  - Gerente de administración
+  		  - Registro de envio del cheque 
+        * - Creacion la tabla de amortización de los beneficiarios cuyos cheques fueron procesados
+		  - Gerente de administración
+  		  - Tabla de amortizacion del credito
+        * - Consulta de los pagos recibidos
+		  - Gerente de administración
+  		  - Pagos recibidos
+        * - Anulacion de recibos por cheques devueltos y actualizacion del estado de cuenta revirtiendo el pago de las cuotas en el estado de cuenta y recalculando los intereses de las cuotas subsiguientes
+		  - Gerente de administración
+  		  - Estado de cuenta
+		* - Registro de los pagos de los beneficiarios o beneficiarias para la cancelación de cuotas de los crédito
+		  - Cajero
+  		  - Estado de cuenta
+        * - Generacion de reporte del ingreso diario de caja
+		  - Cajero
+  		  - Ingreso diario de caja
+        * - Simulacion del recibo
+		  - Cajero
+  		  - Recibo de pago
+        * - Registro de los datos de pago del recibo
+		  - Cajero
+  		  - Recibo de pago, estado de cuenta
+        * - Impresion del recibo de pago
+		  - Cajero
+  		  - Recibo de pago, estado de cuenta
+        * - Verificacion de cuotas vencidas
+		  - Cajero
+  		  - Cuotas vencidas
+        * - Seleccion del expediente correspondiente al crédito al cual se desea pagar
+		  - Cajero
+  		  - Expediente
+        * - Consulta del numero de cuotas vencidas, el total en bolivares en cada cuota y cuotas que estan proximas por vencerse
+		  - Cajero
+  		  - Cuotas vencidas
+        * - Registro de pago a conveniencia del beneficiaro
+		  - Cajero
+  		  - Registro de pago
+        * - Calculo de los intereses de mora correspondientes a la cuota a pagar
+		  - Cajero
+  		  - Intereses de mora
+        * - Cierre de caja y desglose del ingreso total en billetes, monedas, cheques, punto de debito y depósitos
+		  - Cajero
+  		  - Ingreso total
+        * - Creacion de un reporte con el total de personas atendidas diariamente
+		  - Cajero
+  		  - ???
+
 
 Campos modificados de cada entidad
 ----------------------------------
