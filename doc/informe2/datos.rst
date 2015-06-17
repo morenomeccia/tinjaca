@@ -58,7 +58,7 @@ Descripción de Datos
 **1.6. PLAN DE INVERSION**:
 
 * **Monto solicitado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
-* **Descripción**: Indica la cantidad en bolívares fuertes del aporte propio del solicitante y el aporte del FOMDES en cuanto al capital de trabajo, materia prima, mano de obra, gastos de constitución, inversiones fijas, ampliación o remodelación, maquinaria, equipos, utensilios y herramientas menores u otros.
+* Indica la descripción, aporte propio y aporte del FOMDES en bolívares fuertes del capital de trabajo, materia prima, mano de obra, gastos de constitución, inversiones fijas, ampliación o remodelación, maquinaria, equipos, utensilios y herramientas menores u otros.
 * **Inversión total**: Indica la suma total por separado del aporte propio y el aporte del FOMDES.
 * **Garantía a ofrecer**: Indica el compromiso del solicitante a través de hipoteca, prendaria, fianza personal o fianza financiera para el otorgamiento del crédito.
 * **Datos del avalista**: Indica el nombre, apellido, cédula y teléfonos de contacto de la persona que garantizará el pago del crédito.
@@ -96,7 +96,7 @@ Descripción de Datos
 * **Firma**: Indica el campo para la firma y cédula del solicitante.
 
 
-**4. REFERENCIAS PARA LA SOLICITD DE CREDITOS**: Es la manifestación escrita de familiares y amigos que expresan los conocimientos positivos que tienen sobre el solicitante.
+**4. REFERENCIAS PARA LA SOLICITD DE CREDITOS**: Es la manifestación escrita de familiares y amigos que expresan el conocimiento positivo que tienen sobre el solicitante.
 
 **4.1 DATOS DEL SOLICITANTE**:
 
@@ -204,11 +204,11 @@ Descripción de Datos
 **Turismo**:
 
 * Infraestructura (ampliación y remodelación): presupuesto y análisis de precios unitarios de la obra claramente detallados por partida de construcción, proyecto objeto del financiamiento por la autoridad competente (planos, memoria descriptiva), cronograma de ejecución física de la obra, copia fotostática ampliada de la cédula de identidad de la persona que realizará la obra.
-* Equipamiento: presentar facturas pro-forma o documento de opción a compra o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
-* Mobiliario, equipo, utensilios y otros activos de operación: presentar facturas pro-forma o documento de opción a compra o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
-* Maquinarias y Equipos: presentar facturas pro-forma o documento de opción a compra o una exposición de motivos suficientemente fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
-* Insumos: presentar facturas pro-forma o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como productor del estado Bolivariano de Mérida.
-* Unidad de Transporte (Tour Operativo): presentar facturas pro-forma, presupuesto de la repotenciación, copia del certificado del vehículo y copia del documento de propiedad.
+* Equipamiento: presentar facturas proforma o documento de opción a compra o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
+* Mobiliario, equipo, utensilios y otros activos de operación: presentar facturas proforma o documento de opción a compra o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
+* Maquinarias y Equipos: presentar facturas proforma o documento de opción a compra o una exposición de motivos suficientemente fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
+* Insumos: presentar facturas proforma o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como productor del estado Bolivariano de Mérida.
+* Unidad de Transporte (Tour Operativo): presentar facturas proforma, presupuesto de la repotenciación, copia del certificado del vehículo y copia del documento de propiedad.
 * Para los casos de turismo de aventura soportes de la actividad y documentación pertinente según sea el caso.
 
 **Artesanal**:
@@ -218,8 +218,8 @@ Descripción de Datos
 
 **Ciencia y Tecnología**:
 
-* Materia prima e Insumos y Herramientas y Equipos Menores: presentar facturas pro-forma o cotización o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como productor del estado Bolivariano de Mérida.
-* Adquisición y repotenciación de maquinaria, equipos, e instalación: presentar facturas pro-forma, documento de opción a compra o presupuesto de repotenciación o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
+* Materia prima e Insumos y Herramientas y Equipos Menores: presentar facturas proforma o cotización o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como productor del estado Bolivariano de Mérida.
+* Adquisición y repotenciación de maquinaria, equipos, e instalación: presentar facturas proforma, documento de opción a compra o presupuesto de repotenciación o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
 * Infraestructura: ampliación y reparación de la infraestructura física: presentar presupuesto, cédula de identidad de quien realizará la obra, breve descripción y el plano de la misma. El monto a destinar para este rubro no podrá exceder del cuarenta por ciento (40%) del monto total solicitado.
 * Se apoyarán los gastos e inversiones indispensables para la ejecución exitosa del proyecto, los cuales deberán estar justificados para todos aquellos innovadores, académicos y tecnólogos.
 * Mano de Obra.
@@ -266,6 +266,74 @@ Descripción de Datos
 * Previa Liquidación de los créditos garantizados con Fianza Financiera respaldada por la Sociedad Garantía Reciprocas, el beneficiario(a) debe consignar: a) Documento de Crédito de FOMDES y b) Fianza Financiera que garantice la obligación que asume. Ambos documentos debidamente autenticados por ante la Notaria Pública correspondiente.
 * **Firma**: Indica el campo para la firma del funcionario y representante legal.
 
+
+**6. EXPOSICION DE MOTIVOS**: Es la manifestación escrita del plan de inversión que presenta el solicitante ante el FOMDES para la solicitud de crédito.
+
+* **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
+* **Cédula de identidad**: Indica el número de identificación del solicitante.
+* **Monto solicitado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+* **Destino del crédito**: Indica el destino de los fondos que otorga el FOMDES.
+* **Actividad por realizar o que realiza**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
+* **Experiencia en el área**: Indica el tiempo en meses o años en que viene realizando la actividad propuesta.
+* **Dirección de la unidad productiva**:  Indica el domicilio de la unidad de producción.
+* **Lugar de funcionamiento**: Indica si la unidad productiva es propia, alquilada u otro y especifique los m2 del área.
+* **Firma**: Indica el campo para la firma y cédula del solicitante.
+
+**6.1. DATOS DEL SOLICITANTE**:
+
+* **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
+* **Edad**: Indica la edad del solicitante, que debe ser mayor de 18 años.
+* **Estado civil**: Indica la condición de parentesco del solicitante vinculada con otras personas, como soltero(a), casado(a), divorciado(a), viudo(a) u otro.
+* **Profesión u oficio**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el solicitante en la actualidad.
+* **Dirección de habitación**: Indica el domicilio fiscal del solicitante.
+* **Teléfono(s) de oficina(s)**: Indica el(los) teléfono(s) del lugar donde labora el solicitante.
+* **Teléfono(s) fijo(s)**: Indica el(los) teléfono(s) de habitación del solicitante.
+* **Teléfono celular**: Indica el(los) teléfono(s) móvil del solicitante.
+* **Pin**: Indica el numero de identificación personal del solicitante.
+* **Correo electrónico**: Indica la dirección electrónica principal del solicitante.
+
+**6.2. INFORMACION DE LA ACTIVIDAD**:
+
+* **Productos derivados de la actividad**: Indica la denominación genérica del(los) producto(s) derivado(s) de la actividad productiva.
+* **Materia prima a adquirir**: Indica las especificaciones de cantidad, casa proveedora, precio unitario (Bs) y total (Bs) de la materia inicial necesaria para impulsar la actividad productiva.
+* **Maquinaria, equipos y herramientas a adquirir**: Indica las especificaciones de cantidad, casa proveedora, precio unitario (Bs) y total (Bs) de los instrumentos necesarios para impulsar la actividad productiva.
+* **Principales competidores**: Indica los competidores que se desarrollan en el sector productivo.
+
+**6.3. PLAN DE INVERSION**:
+
+* Indica la descripción, cantidad de unidades, el aporte propio y aporte del FOMDES en bolívares fuertes de maquinaria y equipos, mano de obra, materia prima e insumos, gastos operacionales, ampliación y remodelación, costos de organización y constitución, comisión FLAT, total de inversión y % de financiamiento.
+
+**6.4. DATOS ECONOMICOS ACTUALES**:
+
+* Indica los datos de la actividad económica y montos (Bs) por concepto de ingresos mensuales actuales, otros ingresos mensuales (si los tiene), total ingresos mensuales (1), costos operativos, costos de ventas (compara de materia prima, mercancía, etc), gastos financieros mensuales por créditos actuales (tarjetas de crédito, créditos hipotecarios, otros créditos), gastos fijos (luz, agua, teléfono, mantenimiento, nomina), otros gastos mensuales, total egresos mensuales (2) e ingresos netos disponibles (1-2).
+
+**6.5. DETALLES DE GASTOS FIJOS ACTUALES DE LA ACTIVIDAD**:
+
+* Indica la descripción y el monto en bolívares fuertes del sueldo del personal, alquiler del local, patente e impuesto, gastos de servicios (luz, agua, teléfono, etc), gastos de transporte y combustible, otros gastos mensuales y total gastos fijos.
+
+**6.6. INGRESOS MENSUALES POR VENTAS PROYECTADOS**:
+
+* Indica los productos o servicios ofrecidos, ventas mensuales estimadas (cantidad), precio unitario (Bs) y el total de ingresos mensuales estimados.
+
+**6.7. DATOS ECONOMICOS PROYECTADOS**:
+
+* Indica los datos de la actividad económica y montos (Bs) por concepto de ingresos mensuales estimados propios del negocio a desarrollar, otros ingresos mensuales adicionales (si los tiene), total ingresos mensuales proyectados (1), costos operativos, costos de ventas (compara de materia prima, mercancía, etc), gastos financieros mensuales por créditos actuales (tarjetas de crédito, créditos hipotecarios, otros créditos), gastos fijos (luz, agua, teléfono, mantenimiento, nomina), otros gastos mensuales, total egresos mensuales proyectados (2) e ingresos netos disponibles proyectados (1-2).
+
+**6.8. CAPACIDAD DE PRODUCCION**:
+
+* Indica la producción actual diaria,  producción actual mensual y % de incremento de la capacidad de producción mensual con el otorgamiento del crédito de FOMDES.
+
+**6.9. GARANTIA OFRECIDA**:
+
+* Indica la fianza personal, fianza financiera, hipoteca, letras de cambio, prendaria y una breve descripción de la garantía.
+
+**6.10. OTROS ASPECTOS DE LA ACTIVIDAD**:
+
+* Indica las fortalezas, debilidades, oportunidades y amenazas de las actividad productiva.
+
+**6.11. BREVE DESCIPCION DEL IMPACTO O BENEFICIO SOCIAL QUE SE GENERARA CON EL OTORGAMIENTO DEL CREDITO**:
+
+* Indica una breve descripción de los beneficios para la comunidad o sector donde se desarrolla la actividad.
 
 
 Diccionario de Datos
