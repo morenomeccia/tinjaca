@@ -174,24 +174,66 @@ Procedimientos
        :widths: 40 70 40
        :header-rows: 1
 
-       * - | Procedimiento
-         - | Responsable
-         - | Datos accedidos o modificados
-       * - Ordenamiento de la lista de expedientes según sus prioridades
-         - Secretaría Ejecutiva
-         - Lista de expedientes
-       * - Registro de la certificación de disponibilidad presupuestaria y financiera del crédito
-         - Secretaría Ejecutiva
-         - Certificación de disponibilidad presupuestaria y financiera del crédito
-       * - Creación de la convocatoria al consejo directivo con agenda de expedientes priorizados
-         - Secretaría Ejecutiva
-         - Convocatoria al consejo directivo
-       * - Ingreso del documento de crédito al expediente
-         - Secretaría Ejecutiva
-         - ???
-       * - Ingreso del documento de documento de la empresa
-         - Secretaría Ejecutiva
-         - ???
+		* - | Procedimiento
+          - | Responsable
+          - | Datos accedidos o modificados
+		* - Ingreso del documento de crédito al expediente
+          - Secretaría Ejecutiva
+          - Documento de crédito
+		* - Ingreso del documento de la empresa al expediente
+          - Secretaría Ejecutiva
+          - Documento de la empresa
+		* - Ordenamiento de la lista de expedientes según sus prioridades
+          - Secretaría Ejecutiva
+          - Lista de expedientes
+		* - Registro de la certificación de disponibilidad presupuestaria y financiera del crédito
+          - Secretaría Ejecutiva
+          - Certificación de disponibilidad presupuestaria y financiera del crédito
+		* - Creación de la convocatoria al consejo directivo con agenda de expedientes priorizados
+          - Secretaría Ejecutiva
+          - Convocatoria al consejo directivo
+        * - Creacion de agenda con los casos a ser discutidos en el consejo directivo
+          - Secretaria ejecutiva
+		  - Agenda de creditos a discutir por el consejo directivo
+        * - Impresion la lista de asistentes del consejo directivo
+          - Secretaria ejecutiva
+		  - Lista de asistentes al consejo directivo
+        * - Creacion del acta del consejo directivo
+          - Secretaria ejecutiva
+		  - Acta del consejo directivo
+        * - Aprobacion del documento del crédito
+          - Secretaria ejecutiva
+		  - Registro de aprobacion del consejo directivo
+		* - Asignacion del estatus de la solicitud de crédito en base a lo discutido en el consejo directivo
+          - Secretaria ejecutiva
+		  - Estatus de la solicitud de credito
+        * - Rechazo del crédito en los casos en que los cheques no se retiren o los créditos se rechacen por los beneficiarios o beneficiarias
+          - Secretaria ejecutiva
+		  - Estatus del credito
+        * - Cracion la minuta del consejo
+          - Secretaria ejecutiva
+		  - Minuta del consejo
+        * - Envio al gerente de crédito los expedientes rechazados
+          - Secretaria ejecutiva
+		  - Lista de expedientes rechazados
+        * - Creacion del documento de crédito para ser notariado por el beneficiario
+          - Secretaria ejecutiva
+		  - Registro de entrega del documento a al beneficiario
+        * - Envio de los documentos notariados a la gerencia de administración
+          - Secretaria ejecutiva
+		  - Registro de recepcion del documento por notaria 
+        * - Envio de expedientes liquidados a Acompañamiento
+          - Secretaria ejecutiva
+		  - Lista de expedientes liquidados
+        * - Consulta del ingreso diario de caja y metas diarias
+		  - Presidente
+		  - Ingreso diario de caja
+        * - Consulta de montos, intereses y plazos de las solicitudes de crédito
+		  - Presidente
+          - Montos, intereses y plazos de las solicitudes de crédito
+        * - Generacion y consulta de indicadores clave de rendimiento y variables políticas
+          - Presidente
+		  - Indicadores clave de rendimiento
 
 
 Campos modificados de cada entidad
@@ -229,42 +271,97 @@ Procedimientos
        :widths: 40 70 40
        :header-rows: 1
 
-       * - | Procedimiento
-         - | Responsable
-         - | Datos accedidos o modificados
-       * - Certificación de la disponibilidad para liquidación del crédito
-         - Administracion
-         - Disponibilidad para liquidación del crédito
-       * - Creación de tabla de cuentas por cobrar
-         - Presupuesto y Administración
-         - Tabla de cuentas por cobrar
-       * - Creacion de tabla de amortización del crédito
-         - Presupuesto y Administración
-         - Tabla de amortización del crédito
-       * - Creación del estado de cuenta del credito
-         - Administracion
-         - Estado de cuenta del credito
-       * - Generacion de la orden de liquidación
-         - Presupuesto y Administracion
-         - Orden de liquidación
-       * - Generacion de la orden del cheque
-         - Presupuesto y Administracion
-         - Orden del cheque
-       * - Enviar expediente a la unidad de Acompañamiento y Asistencia Técnica
-         - Administracion
-         - ???
-       * - Generación de documento de liquidación del crédito
-         - Administración
-         - Documento de liquidación del crédito
-       * - Cambio del estatus del expediente liberado
-         - Administración
-         - Estatus del expediente
-       * - Registro de la entrega del documento de liberación del crédito
-         - Administración
-         - ???
-       * - Envío del expediente a archivo una vez liberado
-         - Administración
-         - Registro de envio
+		* - | Procedimiento
+		  - | Responsable
+		  - | Datos accedidos o modificados
+		* - Certificación de la disponibilidad para liquidación del crédito
+		  - Administracion
+		  - Disponibilidad para liquidación del crédito
+		* - Creación de tabla de cuentas por cobrar
+		  - Presupuesto y Administración
+		  - Tabla de cuentas por cobrar
+		* - Creacion de tabla de amortización del crédito
+		  - Presupuesto y Administración
+		  - Tabla de amortización del crédito
+		* - Creación del estado de cuenta del credito
+		  - Administracion
+		  - Estado de cuenta del credito
+		* - Generacion de la orden de liquidación
+		  - Presupuesto y Administracion
+		  - Orden de liquidación
+		* - Generacion de la orden del cheque
+		  - Presupuesto y Administracion
+		  - Orden del cheque
+		* - Enviar expediente a la unidad de Acompañamiento y Asistencia Técnica
+		  - Administracion
+		  - ???
+		* - Generación de documento de liquidación del crédito
+		  - Administración
+		  - Documento de liquidación del crédito
+		* - Cambio del estatus del expediente liberado
+		  - Administración
+		  - Estatus del expediente
+		* - Registro de la entrega del documento de liberación del crédito
+		  - Administración
+		  - ???
+		* - Envío del expediente a archivo una vez liberado
+		  - Administración
+		  - Registro de envio
+        * - Elaboracion de las cuentas por cobrar de los beneficiarios cuyos créditos fueron aprobados
+		  - Asesor de Administrativo
+  		  - Cuentas por cobrar
+        * - Elaboracion de los cheques de los beneficiarios cuyos créditos fueron aprobados
+		  - Gerente de administración
+  		  - Cheque del credito
+        * - Envio de los cheques a presidencia
+		  - Gerente de administración
+  		  - Registro de envio del cheque 
+        * - Creacion la tabla de amortización de los beneficiarios cuyos cheques fueron procesados
+		  - Gerente de administración
+  		  - Tabla de amortizacion del credito
+        * - Consulta de los pagos recibidos
+		  - Gerente de administración
+  		  - Pagos recibidos
+        * - Anulacion de recibos por cheques devueltos y actualizacion del estado de cuenta revirtiendo el pago de las cuotas en el estado de cuenta y recalculando los intereses de las cuotas subsiguientes
+		  - Gerente de administración
+  		  - Estado de cuenta
+		* - Registro de los pagos de los beneficiarios o beneficiarias para la cancelación de cuotas de los crédito
+		  - Cajero
+  		  - Estado de cuenta
+        * - Generacion de reporte del ingreso diario de caja
+		  - Cajero
+  		  - Ingreso diario de caja
+        * - Simulacion del recibo
+		  - Cajero
+  		  - Recibo de pago
+        * - Registro de los datos de pago del recibo
+		  - Cajero
+  		  - Recibo de pago, estado de cuenta
+        * - Impresion del recibo de pago
+		  - Cajero
+  		  - Recibo de pago, estado de cuenta
+        * - Verificacion de cuotas vencidas
+		  - Cajero
+  		  - Cuotas vencidas
+        * - Seleccion del expediente correspondiente al crédito al cual se desea pagar
+		  - Cajero
+  		  - Expediente
+        * - Consulta del numero de cuotas vencidas, el total en bolivares en cada cuota y cuotas que estan proximas por vencerse
+		  - Cajero
+  		  - Cuotas vencidas
+        * - Registro de pago a conveniencia del beneficiaro
+		  - Cajero
+  		  - Registro de pago
+        * - Calculo de los intereses de mora correspondientes a la cuota a pagar
+		  - Cajero
+  		  - Intereses de mora
+        * - Cierre de caja y desglose del ingreso total en billetes, monedas, cheques, punto de debito y depósitos
+		  - Cajero
+  		  - Ingreso total
+        * - Creacion de un reporte con el total de personas atendidas diariamente
+		  - Cajero
+  		  - ???
+
 
 Campos modificados de cada entidad
 ----------------------------------
