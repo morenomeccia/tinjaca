@@ -73,6 +73,7 @@ Descripción de Datos
 * **Fecha**: Indica el día, mes y año en que se lleno la propuesta de financiamiento por parte del solicitante.
 * **Firma**: Indica el campo para la firma del solicitante y del servidor público receptor.
 
+
 **2. CERTIFICADO DE ASISTENCIA AL TALLER**: Es la constancia de asistencia al “Taller Integral de Acompañamiento al Solicitante” otorgado al solicitante por parte de la Gerencia de Crédito.
 
 * **Nombre y apellido del Gerente de Crédito**: Indica el nombre y apellido del Gerente de Crédito.
@@ -81,6 +82,7 @@ Descripción de Datos
 * **Cédula**: Indica el número de identificación del solicitante.
 * **Fecha**: Indica el día, mes y año en que se realizó el taller y se otorgó el certificado de asistencia al solicitante.
 * **Firma**: Indica el nombre del Gerente de Crédito y solicitante.
+
 
 **3. DECLARACION PERSONA NATURAL**: Es la manifestación escrita que presenta el solicitante ante el FOMDES para dar fe de la veracidad de la documentación consignada.
 
@@ -93,6 +95,54 @@ Descripción de Datos
 * **Fecha**: Indica el día, mes y año en que se lleno la declaración de persona natural por parte del solicitante.
 * **Firma**: Indica el campo para la firma y cédula del solicitante.
 
+
+**4. REFERENCIAS PARA LA SOLICITD DE CREDITOS**: Es la manifestación escrita de familiares y amigos que expresan los conocimientos positivos que tienen sobre el solicitante.
+
+**4.1 DATOS DEL SOLICITANTE**:
+
+* **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
+* **Cédula de identidad**: Indica el número de identificación del solicitante.
+* **Nacionalidad**: Indica la pertenencia del solicitante a una nación.
+* **Estado civil**: Indica la condición de parentesco del solicitante vinculada con otras personas, como soltero(a), casado(a), divorciado(a), viudo(a) u otro.
+* **Grado de instrucción**: Indica el nivel de instrucción del solicitante.
+* **Condición de la vivienda**: Indica estatus de la vivienda donde reside el solicitante, que puede ser propia, alquilada u otra.
+* **Dirección de habitación**: Indica el domicilio fiscal del solicitante.
+* **Municipio**: Indica el municipio en el que reside el solicitante.
+* **Teléfono de habitación**: Indica el(los) teléfono(s) de habitación del solicitante.
+* **Teléfono celular**: Indica el(los) teléfono(s) móvil del solicitante.
+* **FAX**: Indica el(los) teléfono(s) de fax del solicitante.
+* **Correo electrónico**: Indica la dirección electrónica principal del solicitante.
+* **Observaciones**: Indica el campo para obtener información adicional del solicitante.
+
+**4.2 DATOS DEL CONYUGE**:
+
+* **Nombres y apellidos**: Indica el nombre y apellido del cónyuge.
+* **Cédula de identidad**: Indica el número de identificación del cónyuge.
+* **Nacionalidad**: Indica la pertenencia del cónyuge a una nación.
+* **Estado civil**: Indica la condición de parentesco del cónyuge vinculada con otras personas, como soltero(a), casado(a), divorciado(a), viudo(a) u otro.
+* **Grado de instrucción**: Indica el nivel de instrucción del cónyuge.
+* **Condición de la vivienda**: Indica estatus de la vivienda donde reside el cónyuge, que puede ser propia, alquilada u otra.
+* **Dirección de habitación**: Indica el domicilio fiscal del cónyuge.
+* **Municipio**: Indica el municipio en el que reside el cónyuge.
+* **Teléfono de habitación**: Indica el(los) teléfono(a) de habitación del cónyuge.
+* **Teléfono celular**: Indica el(los) teléfono(s) móvil del cónyuge.
+* **FAX**: Indica el(los) teléfono(s) de fax del cónyuge.
+* **Correo electrónico**: Indica la dirección electrónica principal del cónyuge.
+* **Observaciones**: Indica el campo para obtener información adicional del cónyuge.
+
+**4.3 REFERENCIAS PERSONALES**:
+
+* **Personal**: Indica el nombre y apellido, cédula, dirección y teléfonos de contacto de amistades que refieren de la buena fe del solicitante.
+* **Familiar**: Indica el nombre y apellido, cédula, dirección y teléfonos de contacto de familiares que refieren de la buena fe del solicitante.
+
+**4.4 INFORMACION DEL NUCLEO FAMILIAR**:
+
+* Indica el nombre, apellido y cédula de cada uno de los integrantes del grupo familiar (padre, madre, hermanos, hijos) del solicitante.
+
+**4.5 DECLARACION JURADA DEL SOLICITANTE**:
+
+* Indica la manifestación escrita que presenta el solicitante ante el FOMDES para dar fe de la veracidad de la documentación consignada.
+* **Firma**: Indica el campo para la firma y cédula del solicitante y cónyuge.
 
 
 Diccionario de Datos
