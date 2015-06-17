@@ -76,12 +76,22 @@ Descripción de Datos
 **2. CERTIFICADO DE ASISTENCIA AL TALLER**: Es la constancia de asistencia al “Taller Integral de Acompañamiento al Solicitante” otorgado al solicitante por parte de la Gerencia de Crédito.
 
 * **Nombre y apellido del Gerente de Crédito**: Indica el nombre y apellido del Gerente de Crédito.
-* **Cédula del Gerente de Crédito***: Indica el número de identificación del Gerente de Crédito.
+* **Cédula del Gerente de Crédito**: Indica el número de identificación del Gerente de Crédito.
 * **Nombre y apellido**: Indica el nombre y apellido del solicitante.
 * **Cédula**: Indica el número de identificación del solicitante.
 * **Fecha**: Indica el día, mes y año en que se realizó el taller y se otorgó el certificado de asistencia al solicitante.
 * **Firma**: Indica el nombre del Gerente de Crédito y solicitante.
 
+**3. DECLARACION PERSONA NATURAL**: Es la manifestación escrita que presenta el solicitante ante el FOMDES para dar fe de la veracidad de la documentación consignada.
+
+* **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
+* **Cédula de identidad**: Indica el número de identificación del solicitante.
+* **Nacionalidad**: Indica la pertenencia del solicitante a una nación.
+* **Ciudad**: Indica la ciudad en la que reside el solicitante.
+* **Estado**: Indica el estado en el que reside el solicitante.
+* **Municipio**: Indica el municipio en el que reside el solicitante.
+* **Fecha**: Indica el día, mes y año en que se lleno la declaración de persona natural por parte del solicitante.
+* **Firma**: Indica el campo para la firma y cédula del solicitante.
 
 
 
