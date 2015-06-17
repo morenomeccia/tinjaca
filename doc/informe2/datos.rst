@@ -168,19 +168,19 @@ Descripción de Datos
 * Exposición de Motivos (formato FOMDES) o Perfil Económico (formato FOMDES) o Proyecto Económico; según sea el caso. Exposición de Motivos hasta Bs. 200.000,00 (Llenar Formato según modelo FOMDES). Perfil económico: a partir de Bs. 200.001,00 hasta Bs. 700.000,00 (Llenar Formato según modelo FOMDES). Proyecto Económico para solicitudes a partir de Bs. 700.001,00 en adelante.
 * Copia fotostática del registro de comercio completo y actualizado con sus modificaciones si las hubiere y del Registro de Información Fiscal (RIF) (para las unidades de producción establecidas). En caso de no poseer este documento (para las unidades de producción promocionales) el FOMDES podrá, a través de sus abogados(as), elaborar el mismo a los fines que el solicitante proceda a registrarlo, cumplir con este requisito y agilizar la pronta liquidación del segundo desembolso.
 * Original (para su verificación) y copia de los permisos de funcionamiento, en el caso de empresas que manejan alimentos o productos químicos (Sanidad, Ambiente, Alcaldía, Bomberos, etc), según sea el caso.
-**Agrícola y pecuario**:
+* **Agrícola y pecuario**:
 * Plan de Producción para el desarrollo agrícola o pecuario según el formato del FOMDES. Cronograma de cultivo.
 * Original (para su verificación) y copia fotostática del título de adjudicación definitivo con registro agrario, declaratoria de permanencia con registro agrario, carta agraria con registro agrario según sea el caso o su tramitación.
 * Carta Aval emitida por IMDERURAL (Tramitada internamente entre IMDERURAL-FOMDES).
-**Turismo**:
+* **Turismo**:
 * Aval Técnico de Viabilidad Turística emitido la Corporación Merideña de Turismo (CORMETUR). (Tramitada internamente entre CORMETUR y FOMDES).
-**Artesanal**:
+* **Artesanal**:
 * Copia fotostática de los permisos de Sanidad, Ambiente y Bomberos. Para solicitudes menores de Bs. 100.000,00 NO se solicitará el Registro de Fondo de Comercio.
-**Ciencia y Tecnología**:
+* **Ciencia y Tecnología**:
 * Copia fotostática de los permisos de Sanidad, Ambiente, Alcaldía y Bomberos.
-**Pequeña y Mediana Empresa y Pequeña y Mediana Industria**:
+* **Pequeña y Mediana Empresa y Pequeña y Mediana Industria**:
 * Copia fotostática de los permisos de Sanidad, Ambiente, Alcaldía y Bomberos.
-**Microempresas**:
+* **Microempresas**:
 * Copia fotostática de los permisos de Sanidad, Ambiente y Bomberos. Para solicitudes menores de Bs. 100.000,00 NO se solicitará el Registro de Fondo de Comercio.
 
 **5.2 PARA EMPRESAS ESTABLECIDAS**:
@@ -264,7 +264,9 @@ Descripción de Datos
 * Original (para su verificación) y copia fotostática de la constancia de inscripción en la Sociedad de Garantías Recíprocas o en la empresa de Seguros de su preferencia.
 * Una vez aprobada la solicitud de crédito, el beneficiario(a) deberá consignar Carta Fianza, otorgada por la Sociedad de Garantías Reciprocas o el documento de fianza de la empresa de seguros de su preferencia.
 * Previa Liquidación de los créditos garantizados con Fianza Financiera respaldada por la Sociedad Garantía Reciprocas, el beneficiario(a) debe consignar: a) Documento de Crédito de FOMDES y b) Fianza Financiera que garantice la obligación que asume. Ambos documentos debidamente autenticados por ante la Notaria Pública correspondiente.
-**Firma**: Indica el campo para la firma del funcionario y representante legal.
+* **Firma**: Indica el campo para la firma del funcionario y representante legal.
+
+
 
 Diccionario de Datos
 --------------------
