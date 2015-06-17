@@ -224,7 +224,16 @@ Procedimientos
 		  - Registro de recepcion del documento por notaria 
         * - Envio de expedientes liquidados a Acompañamiento
           - Secretaria ejecutiva
-		  - Lista de expedientes liquidados.
+		  - Lista de expedientes liquidados
+        * - Consulta del ingreso diario de caja y metas diarias
+		  - Presidente
+		  - Ingreso diario de caja
+        * - Consulta de montos, intereses y plazos de las solicitudes de crédito
+		  - Presidente
+          - Montos, intereses y plazos de las solicitudes de crédito
+        * - Generacion y consulta de indicadores clave de rendimiento y variables políticas
+          - Presidente
+		  - Indicadores clave de rendimiento
 
 
 Campos modificados de cada entidad
