@@ -336,6 +336,38 @@ Descripción de Datos
 * Indica una breve descripción de los beneficios para la comunidad o sector donde se desarrolla la actividad.
 
 
+**7.  PERFIL ECONOMICO**: Es un estudio de la viabilidad financiera, económica y social del proyecto propuesto.
+
+**7.1. NOMBRE DEL PROYECTO**:
+
+* **Nombre del proyecto**: Indica el nombre de la razón social para el cual solicita el crédito.
+* **Nombres y apellidos**: Indica el nombre y apellido del promotor del proyecto.
+* **Cédula de identidad**: Indica el número de identificación del promotor del proyecto.
+* **Dirección de la unidad productiva**:  Indica el domicilio de la unidad de producción.
+* **Experiencia en el área**: Indica el tiempo en meses o años en que viene realizando la actividad propuesta.
+* **Necesidades**: Indica las necesidad(es) que el solicitante desea resolver con el proyecto.
+
+**7.2. NATURALEZA DEL PROYECTO**:
+
+* **Objetivos del proyecto**: Indica el objetivo general y específicos del proyecto.
+
+**7.3. MERCADO DEL PROYECTO**:
+
+* **Productos/servicios del proyecto**: Indica los productos o servicios del proyecto y el área de influencia del mismo.
+* **Estudio de la demanda**: Indica la descripción de la demanda, estimación de la demanda futura y los posibles clientes del proyecto.
+* **Estudio de la oferta**: Indica la descripción de la oferta , estimación de la oferta futura y la capacidad de producción máxima.
+* **Precio de los productos/servicios**: Indica el valor monetario de los productos o servicios.
+* **Aspectos relativos a la comercialización y abastecimiento de materia prima e insumos**: Indica la descripción de los aspectos resaltantes de los canales de comercialización, distribución y suministro de maquinaria, equipos, materia prima e insumos.
+
+**7.4 ASPECTOS FINANCIEROS DEL PROYECTO**:
+
+* **Plan de inversión y financiamiento**: Indica la descripción, aporte propio (Bs), aporte FOMDES (Bs) y total (Bs) del activo fijo (maquinaria y equipo usado,  maquinaria y equipo a adquirir, edificio/infraestructura, construcción y remodelaciones), otros activos (estudio económico y gastos legales), capital de trabajo (insumos de trabajo y mano de obra), tasa FLAT 2.5% (comisión tasa FLAT 2.5%), total de inversión y % de financiamiento.
+* **Ingresos mensuales del proyecto**: Indica los ingresos (Bs) del producto/servicio, cantidad mensual, precio unitario, total de ingresos mensuales.
+* **Costos y gastos del proyecto mensual**: Indica los costos de producción (materia prima, mano de obra directa y otros materiales directos), gastos de fabricación (electricidad, mantenimiento, depreciación de maquinaria y equipos, impuestos indirectos, patentes, combustible, alquiler y otros gastos de fabricación), gastos de administración y ventas (mano de obra indirecta, teléfono, Internet, correo, depreciación de edificio y equipos, gastos de oficina, comisión sobre venta, publicidad, seguro, viáticos y gastos generales),  gastos financieros (intereses por préstamo) y el costo total mensual (Bs).
+* **Costos de producción**: Indica la materia prima e insumos utilizados, cantidades de medidas, precio unitario (Bs), costo unitario (Bs), producción mensual y costo mensual por producto elaborado.
+
+
+
 Diccionario de Datos
 --------------------
 
