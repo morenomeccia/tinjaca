@@ -191,7 +191,7 @@ Descripción de Datos
 
 **5.3 REQUISITOS SEGUN EL RUBRO  A FINANCIAR**:
 
-	**Agrícola y pecuario**:
+**Agrícola y pecuario**:
 
 * Original (para su verificación) y copia fotostática del permiso del ambiente vigente para los rubros de aves, porcino, caprino, y cualquier otro que lo requiera. El mismo debe ser emitido por las direcciones de los entes u oficinas correspondientes.
 * Original (para su verificación) y copia fotostática del certificado de vacunación vigente para los rubros de ganadería de leche y ceba, aves, porcino y caprino tanto del comprador como del vendedor, emitido por las direcciones de los entes u oficinas correspondientes.
@@ -201,7 +201,7 @@ Descripción de Datos
 * Proforma de los materiales, insumos, maquinarias, equipos, animales a adquirir, o contrato de opción a compra o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
 * Para los casos de construcción, ampliación, remodelación y/o mejoramiento de la unidad de producción: presupuesto de obra, cronograma de ejecución de la obra. El presupuesto de obra no podrá exceder el cuarenta por ciento (40%) del monto solicitado.
 
-	**Turismo**:
+**Turismo**:
 
 * Infraestructura (ampliación y remodelación): presupuesto y análisis de precios unitarios de la obra claramente detallados por partida de construcción, proyecto objeto del financiamiento por la autoridad competente (planos, memoria descriptiva), cronograma de ejecución física de la obra, copia fotostática ampliada de la cédula de identidad de la persona que realizará la obra.
 * Equipamiento: presentar facturas pro-forma o documento de opción a compra o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
@@ -211,12 +211,12 @@ Descripción de Datos
 * Unidad de Transporte (Tour Operativo): presentar facturas pro-forma, presupuesto de la repotenciación, copia del certificado del vehículo y copia del documento de propiedad.
 * Para los casos de turismo de aventura soportes de la actividad y documentación pertinente según sea el caso.
 
-	**Artesanal**:
+**Artesanal**:
 
 * Proformas de la materia, insumo, maquinarias, equipos; adquisición y repotenciación de las mismas e instalación; o una exposición de motivo fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios.
 * Infraestructura: ampliación y remodelación no podrá exceder del 40% del monto solicitado, presentar presupuesto breve descripción y el plano de la misma.
 
-	**Ciencia y Tecnología**:
+**Ciencia y Tecnología**:
 
 * Materia prima e Insumos y Herramientas y Equipos Menores: presentar facturas pro-forma o cotización o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como productor del estado Bolivariano de Mérida.
 * Adquisición y repotenciación de maquinaria, equipos, e instalación: presentar facturas pro-forma, documento de opción a compra o presupuesto de repotenciación o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
@@ -224,14 +224,14 @@ Descripción de Datos
 * Se apoyarán los gastos e inversiones indispensables para la ejecución exitosa del proyecto, los cuales deberán estar justificados para todos aquellos innovadores, académicos y tecnólogos.
 * Mano de Obra.
 
-	**Pequeña y Mediana Empresa y Pequeña y Mediana Industria**:
+**Pequeña y Mediana Empresa y Pequeña y Mediana Industria**:
 
 * Proformas materia prima, insumo, maquinarias, equipos, adquisición y repotenciación de los mismos, o una exposición de motivo fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios.
 * Infraestructura: ampliación y reparación de la infraestructura física: presentar presupuesto, cédula de identidad de quien realizará la obra, breve descripción y el plano de la misma. El monto a destinar para este rubro no podrá exceder del cuarenta por ciento (40%) del monto total solicitado.
 * Comercialización, almacenamiento y flete por transporte que esté directamente relacionado con la unidad de producción: Certificado de Vehículo, Avalúo y R.C.V
 * Adquisición o repotenciación de vehículos de transporte que esté directamente relacionado con la unidad de producción: Certificado de Vehículo, Avalúo y R.C.V.
 
-	**Microempresas**:
+**Microempresas**:
 
 * Proformas de la materia, insumo, maquinarias, equipos; adquisición y repotenciación de las mismas e instalación; o una exposición de motivo fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios.
 * Infraestructura: ampliación y remodelación no podrá exceder del 40% del monto solicitado, presentar presupuesto breve descripción y el plano de la misma.
