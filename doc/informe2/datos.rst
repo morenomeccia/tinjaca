@@ -562,11 +562,20 @@ Descripción de Datos
 * **Firma**: Indica el nombre, apellido y firma de la secretaria ejecutiva.
 
 
+**14. RECIBO DEL DOCUMENTO DE CREDITO**: Es la constancia de entrega del documento de crédito al beneficiario para ser autenticado o protocolizado.
+
+* **Fecha de entrega**: Indica el día de la semana, día, mes y año de entrega del documento de crédito al beneficiario.
+* **Nombres y apellidos**: Indica el nombre y apellido del beneficiario.
+* **Cédula de identidad**: Indica el número de identificación del beneficiario.
+* **Sector**: Indica la actividad relacionada con el sector Agrícola y Pecuario, Turismo, Artesanal, Ciencia y Tecnología, Pequeña y Mediana Empresa, Pequeña y Mediana Industria y Microempresas.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Lapso para ser devuelto**: Indica el tiempo en días continuos para devolver el documento protocolizado a la secretaria ejecutiva.
+* **Firma**: Indica el nombre, apellido, cedula y firma del beneficiario y de la secretaria ejecutiva.
 
 Diccionario de Datos
 --------------------
 
-**Etapa 1: Solicitud del crédito:**
+**Etapa 1: Solicitud del crédito**
 
     * **Nombre de planilla**: Propuesta de financiamiento
     * **Descripción**:
