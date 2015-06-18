@@ -566,4 +566,20 @@ Descripción de Datos
 Diccionario de Datos
 --------------------
 
-Detalles de campos, tipo, numero de caracteres, etc.
+**Etapa 1: Solicitud del crédito:**
+
+    * **Nombre de planilla**: Propuesta de financiamiento
+    * **Descripción**:
+
+.. tabularcolumns:: |p{4cm}|p{7cm}|p{4cm}|
+
+    .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+         - | Descripción
+       * - Nº de propuesta
+         - Numérico
+         - Indica el número de propuesta de financiamiento especificado por el servidor público receptor
