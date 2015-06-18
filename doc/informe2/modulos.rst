@@ -110,6 +110,9 @@ Procedimientos
        * - Distribucion de los analistas económicos por municipios y parroquias para realizar las inspecciones
          - Gerente de credito
          - Tabla de distribucion de los analistas economicos.
+       * - Posesion de permisos para modificar o corregir datos en el sistema.
+         - Gerente de credito
+         - Datos en el sistema
        * - Envio del expediente a la estación de Análisis Jurídico
          - Analista de credito
          - Registro de envio
@@ -268,6 +271,9 @@ Procedimientos
         * - Anulacion de recibos por cheques devueltos y actualizacion del estado de cuenta revirtiendo el pago de las cuotas en el estado de cuenta y recalculando los intereses de las cuotas subsiguientes
 		  - Gerente de administración
   		  - Estado de cuenta
+        * - Posesion de permisos para modificar o corregir datos en el sistema.
+          - Gerente de administracion
+          - Datos en el sistema
 		* - Registro de los pagos de los beneficiarios o beneficiarias para la cancelación de cuotas de los crédito
 		  - Cajero
   		  - Estado de cuenta
@@ -384,7 +390,10 @@ Procedimientos
        * - Generar formato de charla          
 		 - Jefe de acompañamiento
 		 - Plantilla de la charla
-       * - Envio del expediente a otras estaciones junto con nota explicativa         
+       * - Consulta de los depósitos de las cuotas
+         - Jefe d  acompañamiento
+         - Depositos de cuotas
+       * - Envio del expediente a otras estaciones junto con nota explicativa
 		 - Jefe de acompañamiento
 		 - Registro de envio.
 
@@ -498,6 +507,10 @@ Procedimientos
        * - Cambiar estatus del credito a demanda en el caso que lo amerite.
          - Gerente de Recuperaciones.
          - Estatus del credito
+       * - Posesion de permisos para modificar o corregir datos en el sistema.
+         - Gerente de Recuperaciones
+         - Datos en el sistema
+
 
 
 Módulo Consultoria Jurídica
@@ -618,6 +631,9 @@ Procedimientos
        * - Registro de exoneracion en el cobro del crédito
          - Jefe del departamento de estadística y auditoría de cobranza
 		 - Registro de exoneracion en el cobro del crédito
+       * - Agrupa en los reportes estadísticos de las solicitudes por sector dentro de cada unicipio, con el conteo y suma de los montos solicitados, y las totalizaciones.
+         - Gerente de credito
+         - Reportes estadísticos de las solicitudes
 
 Módulo Presidencia
 ==================
