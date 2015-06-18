@@ -445,7 +445,7 @@ Descripción de Datos
 * **Plazo deseado**: Indica el tiempo máximo estimado para la cancelación total del crédito.
 * **Tipo de garantía ofrecida**: Indica el compromiso del solicitante a través de hipoteca, prendaria, fianza personal o fianza financiera para el otorgamiento del crédito.
 * **Descripción de la garantía ofrecida**: Indica el tipo de garantía, nombre y cédula del avalista.
-* **Tipo de crédito**: Indica si el crédito es para una empresa promocional o establecida.
+* **Tipo de crédito**: Indica si el crédito es nuevo o una ampliación del mismo.
 * **Destino que dará al crédito FOMDES**: Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y la comisión FLAT.
 * **Firma**: Indica el campo para la firma del solicitante y del funcionario del FOMDES.
 
@@ -510,6 +510,41 @@ Descripción de Datos
 * **Firma**: Indica el campo para nombre y cédula del solicitante y analista de crédito.
 
 
+**12. INFORME TECNICO**: Es el reporte de la evaluación económica realizada a la unidad de producción, presentado al Consejo Directivo.
+
+* **Consejo directivo Nº**: Indica el numero de consejo directivo al cual va dirigido el informe técnico.
+* **Fecha del consejo directivo**: Indica el día, mes y año en que se realizará el consejo directivo.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Tipo de crédito**: Indica si el crédito es nuevo o una ampliación del mismo.
+* **Sector**: Indica la actividad relacionada con el sector Agrícola y Pecuario, Turismo, Artesanal, Ciencia y Tecnología, Pequeña y Mediana Empresa, Pequeña y Mediana Industria y Microempresas.
+* **Fecha de elaboración**: Indica el día, mes y año de realización del informe.
+* **Tipo de empresa**: Indica si el crédito es para una empresa promocional o establecida.
+
+**12.1. DATOS DEL REPRESENTANTE LEGAL**:
+
+* **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
+* **Cédula de identidad**: Indica el número de identificación del solicitante.
+* **Edad**: Indica la edad del solicitante, que debe ser mayor de 18 años.
+* **Ocupación**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el solicitante en la actualidad.
+* **Dirección de habitación**: Indica el domicilio fiscal del solicitante.
+* **Saldo del balance personal**: Indica el valor estimado de los activos que posee el solicitante.
+
+**12.2. DATOS DE LA EMPRESA**:
+
+* **Razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Ubicación**: Indica el domicilio de la unidad de producción.
+* **Actividad**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
+* **Organización jurídica**: Indica si ya tiene el registro de la empresa o se encuentra en tramite.
+
+**12.3. DESTINO DEL CREDITO**:
+
+* **Plan de inversión**: Indica los montos totales por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y la comisión FLAT.
+* **Evaluación económica y financiera**: Indica la viabilidad económica y financiera de la actividad propuesta.
+* **Garantía**: Indica el tipo de garantía, nombre y cédula del avalista.
+* **Observaciones**: Indica la apreciación subjetiva final del analista económico sobre la visita a la unidad de producción.
+* **Recomendaciones**: Indica la recomendación ante el consejo directivo para la aprobación del crédito solicitado.
+* **Firma**: Indica el nombre y firma del analista responsable y gerente de crédito.
+* **Informe fotográfico de la inspección**: Indica el expediente, la fecha de la visita y un máximo de 8 fotos tomadas a la unidad de producción.
 
 Diccionario de Datos
 --------------------
