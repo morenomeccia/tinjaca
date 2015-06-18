@@ -449,6 +449,39 @@ Descripción de Datos
 * **Destino que dará al crédito FOMDES**: Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y la comisión FLAT.
 * **Firma**: Indica el campo para la firma del solicitante y del funcionario del FOMDES.
 
+
+**10. Control previo**: Es el reporte de revisión realizado por el analista jurídico de las garantías ofrecidas por el solicitante.
+
+* **Código de análisis jurídico**: Indica el número y año de revisión.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+
+**10.1. DATOS DEL SOLICITANTE**:
+
+* **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
+* **Cédula de identidad**: Indica el número de identificación del solicitante.
+* **Profesión u oficio**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el solicitante en la actualidad.
+* **Dirección de habitación**: Indica el domicilio fiscal del solicitante.
+* **Teléfono(s)**: Indica el(los) teléfono(s) de contacto del solicitante.
+
+**10.2. DATOS DE LA EMPRESA**:
+
+* **Razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Dirección**: Indica el domicilio de la unidad de producción.
+* **Capital social**: Indica la cantidad en Bsf del capital social de la empresa.
+* **Datos del Registro Mercantil**: Indica el numero del expediente constitutivo de la empresa en el Registro Mercantil.
+* **Destino del crédito**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
+* **Plan de inversión**: Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y la comisión FLAT.
+* **Monto solicitado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+
+**10.3. DATOS DE LA GARANTIA**:
+
+* **Descripción de la garantía ofrecida**: Indica el tipo de garantía, nombre y cédula del avalista.
+* **Estatus de análisis jurídico**: Indica si la garantía cumple o no cumple con las políticas de financiamiento del FOMDES de acuerdo al sector.
+* **Fecha**: Indica el día, mes y año de revisión de las garantías.
+* **Firma**:  Indica el nombre, apellido y numero de Inpreabogado del funcionario del FOMDES.
+
+
+
 Diccionario de Datos
 --------------------
 
