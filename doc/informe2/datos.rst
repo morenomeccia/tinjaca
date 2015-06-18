@@ -367,6 +367,45 @@ Descripción de Datos
 * **Costos de producción**: Indica la materia prima e insumos utilizados, cantidades de medidas, precio unitario (Bs), costo unitario (Bs), producción mensual y costo mensual por producto elaborado.
 
 
+**8. GARANTIA DEL CREDITO - CARTA AVAL**:  Es un compromiso que adquiere el avalista para garantizar el retorno del crédito otorgado.
+
+* **Nombres y apellidos**: Indica el nombre y apellido del avalista.
+* **Cédula de identidad**: Indica el número de identificación del avalista.
+* **Profesión**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el avalista en la actualidad.
+* **Estado civil**: Indica la condición de parentesco del avalista.
+* **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
+* **Cédula de identidad**: Indica el número de identificación del solicitante.
+* **Profesión**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el solicitante en la actualidad.
+* **Estado civil**: Indica la condición de parentesco del solicitante.
+* **Estado**: Indica el estado en el que reside el solicitante.
+* **Nombres y apellidos**: Indica el nombre y apellido del cónyuge.
+* **Cédula de identidad**: Indica el número de identificación del cónyuge.
+* **Profesión**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el cónyuge en la actualidad.
+* **Fecha**: Indica el campo para la firma del solicitante, avalista y cónyuge.
+
+**8.1. DATOS DEL AVALISTA**:
+
+* **Dirección de habitación**: Indica el domicilio fiscal del avalista.
+* **Teléfono(s) fijo(s) y celular**: Indica el(los) teléfono(s) de habitación y móvil(es) del avalista.
+* **Nombre y dirección del trabajo**: Indica el lugar donde labora el avalista.
+* **Teléfono(s) del trabajo**: Indica el(los) teléfono(s) del lugar donde labora el avalista.
+* **Cargo**: Indica la condición laboral del avalista.
+* **Ingresos mensuales**: Indica la suma de dinero que percibe mensualmente el avalista.
+* **Otros ingresos**:  Indica la suma de dinero que percibe mensualmente el avalista derivados de otras actividades.
+* **Total de ingresos**:  Indica la suma de ingresos mensuales y otros ingresos que percibe mensualmente el avalista.
+
+**8.2. ACTIVOS FIJOS**:
+
+* Indica el tipo de bienes muebles e inmuebles junto con el valor en Bs que posee el avalista.
+
+**8.3. CUENTAS BANCARIAS**:
+
+* Indica el banco, cuenta y monto disponible de las cuentas bancarias del avalista.
+
+**8.4. REFERENCIAS PERSONALES**:
+
+* **Personal**: Indica el nombre y apellido, dirección y teléfonos de contacto de amistades que refieren de la buena fe del avalista.
+* **Familiar**: Indica el nombre y apellido, dirección y teléfonos de contacto de familiares que refieren de la buena fe del avalista.
 
 Diccionario de Datos
 --------------------
