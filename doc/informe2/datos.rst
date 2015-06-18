@@ -572,6 +572,16 @@ Descripción de Datos
 * **Lapso para ser devuelto**: Indica el tiempo en días continuos para devolver el documento protocolizado a la secretaria ejecutiva.
 * **Firma**: Indica el nombre, apellido, cedula y firma del beneficiario y de la secretaria ejecutiva.
 
+
+**15. ASESORIA PARA EL DESTINO DEL CREDITO**: Es una guía de las normativas que debe cumplir el beneficiario con el otorgamiento del crédito.
+
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Representante legal**: Indica el nombre y apellido del beneficiario.
+* **Monto aprobado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+* **Fecha**: Indica el nombre del estado, día, mes y año de entrega del documento de asesoría.
+* **Firma**: Indica el nombre, cedula y firma del beneficiario y funcionario del FOMDES.
+
+
 Diccionario de Datos
 --------------------
 
