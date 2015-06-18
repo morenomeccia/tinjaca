@@ -571,7 +571,7 @@ Diccionario de Datos
     * **Nombre de planilla**: Propuesta de financiamiento
     * **Descripción**:
 
-.. tabularcolumns:: |p{4cm}|p{7cm}|p{4cm}|
+    .. tabularcolumns:: |p{4cm}|p{7cm}|p{4cm}|
 
     .. list-table::
        :widths: 40 70 40
