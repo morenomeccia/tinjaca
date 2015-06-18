@@ -478,7 +478,36 @@ Descripción de Datos
 * **Descripción de la garantía ofrecida**: Indica el tipo de garantía, nombre y cédula del avalista.
 * **Estatus de análisis jurídico**: Indica si la garantía cumple o no cumple con las políticas de financiamiento del FOMDES de acuerdo al sector.
 * **Fecha**: Indica el día, mes y año de revisión de las garantías.
-* **Firma**:  Indica el nombre, apellido y numero de Inpreabogado del funcionario del FOMDES.
+* **Firma**:  Indica el nombre, apellido y numero de Inpreabogado del abogado revisor.
+
+
+**11. PLANILLA DE INSPECCION**: Es el reporte de visita realizado por el analista económico a la unidad de producción.
+
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Representante legal**: Indica el nombre y apellido del solicitante.
+* **Cédula de identidad**: Indica el número de identificación del solicitante.
+* **Profesión u oficio**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el solicitante en la actualidad.
+* **Años de experiencia en la actividad**: Indica el tiempo en meses o años en que viene realizando la actividad propuesta.
+* **Teléfono celular**: Indica el(los) teléfono(s) móvil del solicitante.
+* **Razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Dirección**: Indica el domicilio de la unidad de producción.
+* **Municipio**: Indica el municipio en la que se ubica la unidad de producción.
+* **Parroquia**: Indica la parroquia en la que se ubica dentro del municipio.
+* **Tiempo de funcionamiento**: Indica los meses/años operativos de la unidad de producción. Especificar si es empresa promocional o establecida.
+* **Descripción de la actividad**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
+* **Cantidades de productos o servicios**: Indica la cantidad (unidad) y precio de venta (Bs por unidad) a nivel diario, semanal y mensual de los productos o servicios.
+* **Costos/gastos de la actividad**: Indica los montos mensuales de los costos de producción de materia prima e insumo y mano de obra directa, así como los gastos operativos de mano de obra indirecta, electricidad, agua, aseo, teléfono, alquiler, patente municipal, gastos de oficina y otros gastos.
+* **Sistema de producción empleado**: Indica si el proceso de fabricación del producto es manual o industrial.
+* **Cadena de comercialización empleada**: Indica la descripción de los aspectos resaltantes de los canales de comercialización y distribución de los productos.
+* **Sistema de ventas**: Indica los canales de venta del producto, especificando si es a crédito o de contado.
+* **Clientes**: Indica el número de clientes actuales y potenciales.
+* **Lugar de funcionamiento**: Indica la tenencia propia, alquilada o con autorización de la unidad de producción.
+* **Distribución del espacio físico**: Indica la dinámica de distribución del espacio físico de la unidad de producción.
+* **Condiciones físicas y sanitarias**: Indica la apreciación buena, regular o mala de las condiciones físicas y sanitarias de la unidad de producción.
+* **Maquinaria**: Indica la maquinaria observada en la visita.
+* **Materia prima en insumos**: Indica la materia prima e insumos observados en la visita.
+* **Observaciones**: Indica la apreciación subjetiva final del analista económico sobre la visita.
+* **Firma**: Indica el campo para nombre y cédula del solicitante y analista de crédito.
 
 
 
