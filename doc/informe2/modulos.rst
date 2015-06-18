@@ -441,73 +441,63 @@ Procedimientos
        * - | Procedimiento
          - | Responsable
          - | Datos accedidos o modificados
-		* - Generacion de factura con los datos del beneficiario, monto aprobado, tasas de interés y cuotas
-		  - Jefe del departamento de estadística y auditoria de cobranza
-		  - Factura de cobranza.
-		* - Generacion de reporte desglosado por niveles de morosidad
-          - Jefe del departamento de estadística y auditoría de cobranza
-		  - Generacion de reporte
-        * - Registro de exoneracion en el cobro del crédito
-          - Jefe del departamento de estadística y auditoría de cobranza
-		  - Registro de exoneracion en el cobro del crédito
-        * - Generacion de lista con los beneficiarios que se deben visitar por fecha, municipio y sectores en el caso que existan cuotas vencidas
-          - Ejecutivo de cobranza
-		  - Cuotas vencidas, lista de beneficiarios
-        * - Filtrado de estados de cuentas por cédula y expediente
-          - Ejecutivo de cobranza
-		  - Estado de cuentas
-        * - Acceso a los estados de cuenta desde la cartera de cobranza
-          - Ejecutivo de cobranza
-		  - Estado de cuenta
-        * - Consulta del estado de cuenta del beneficiario o beneficiaria
-          - Ejecutivo de cobranza
-		  - Estado de cuenta
-        * - Consulta de los depósitos realizados por el beneficiario o beneficiaria
-          - Ejecutivo de cobranza
-		  - Depositos
-        * - Generacion del reporte del ingreso diario de caja
-          - Ejecutivo de cobranza
-		  - Reporte del ingreso diario de caja
-        * - Registro de los beneficiarios atendidos diariamente
-          - Ejecutivo de cobranza
-		  - Registro de los beneficiarios atendidos diariamente
-        * - Cambio del estado del beneficiario según su morosidad
-          - Gerente de recuperaciones
-		  - Estado de morosidad
-        * - Creacion de carteras de cobranza
-          - Ejecutivo de cobranza
-		  - Carteras de cobranza
-        * - Establecimiento de metas diarias de recuperación
-          - Ejecutivo de cobranza
-		  - Metas diarias de recuperación
-        * - Creacion de notas con los acuerdos e información suministrada por el beneficiario
-          - Ejecutivo de cobranza
-		  - Notas con acuerdos
-        * - Consulta de notas con los acuerdos e información suministrada por el beneficiario
-          - Ejecutivo de cobranza
-		  - Notas con acuerdos
-        * - Creacion de recordatorios con las fechas de compromiso de pago del beneficiario
-          - Ejecutivo de cobranza
-		  - Recordatorios con las fechas de compromiso de pago
-        * - Ordenamiento de los expedientes por niveles de morosidad en las carteras
-          - Ejecutivo de cobranza
-		  - Nivel de morosidad del expediente
-        * - Verificacion de la validez de los depósitos bancarios para los pagos
-          - Ejecutivo de cobranza
-		  - Validez de los depósitos bancarios
-		* - Generación de solicitud de entrevista con un abogado de la unidad de Recuperaciones en caso de estado extrajudicial por mora.
-          - Gerente de Recuperaciones.
-          - Registro de solicitud de entrevista.
-		* - Generar informe de seguimiento al beneficiario. 
-          - Ejecutivo de cobranza.
-          - Informe de seguimiento.
-		* - Consultar estado de cuenta filtrando por estado de morosidad. 
-          - Ejecutivo de cobranza.
-          - Estado de cuenta
-		* - Cambiar estatus del credito a demanda en el caso que lo amerite.
-          - Gerente de Recuperaciones.
-          - Estatus del credito
-
+       * - Generacion de lista con los beneficiarios que se deben visitar por fecha, municipio y sectores en el caso que existan cuotas vencidas
+         - Ejecutivo de cobranza
+         - Cuotas vencidas, lista de beneficiarios
+       * - Filtrado de estados de cuentas por cédula y expediente
+         - Ejecutivo de cobranza
+         - Estado de cuentas
+       * - Acceso a los estados de cuenta desde la cartera de cobranza
+         - Ejecutivo de cobranza
+         - Estado de cuenta
+       * - Consulta del estado de cuenta del beneficiario o beneficiaria
+         - Ejecutivo de cobranza
+         - Estado de cuenta
+       * - Consulta de los depósitos realizados por el beneficiario o beneficiaria
+         - Ejecutivo de cobranza
+         - Depositos
+       * - Generacion del reporte del ingreso diario de caja
+         - Ejecutivo de cobranza
+         - Reporte del ingreso diario de caja
+       * - Registro de los beneficiarios atendidos diariamente
+         - Ejecutivo de cobranza
+         - Registro de los beneficiarios atendidos diariamente
+       * - Cambio del estado del beneficiario según su morosidad
+         - Gerente de recuperaciones
+         - Estado de morosidad
+       * - Creacion de carteras de cobranza
+         - Ejecutivo de cobranza
+         - Carteras de cobranza
+       * - Establecimiento de metas diarias de recuperación
+         - Ejecutivo de cobranza
+         - Metas diarias de recuperación
+       * - Creacion de notas con los acuerdos e información suministrada por el beneficiario
+         - Ejecutivo de cobranza
+         - Notas con acuerdos
+       * - Consulta de notas con los acuerdos e información suministrada por el beneficiario
+         - Ejecutivo de cobranza
+         - Notas con acuerdos
+       * - Creacion de recordatorios con las fechas de compromiso de pago del beneficiario
+         - Ejecutivo de cobranza
+         - Recordatorios con las fechas de compromiso de pago
+       * - Ordenamiento de los expedientes por niveles de morosidad en las carteras
+         - Ejecutivo de cobranza
+         - Nivel de morosidad del expediente
+       * - Verificacion de la validez de los depósitos bancarios para los pagos
+         - Ejecutivo de cobranza
+         - Validez de los depósitos bancarios
+       * - Generación de solicitud de entrevista con un abogado de la unidad de Recuperaciones en caso de estado extrajudicial por mora.
+         - Gerente de Recuperaciones.
+         - Registro de solicitud de entrevista.
+       * - Generar informe de seguimiento al beneficiario.
+         - Ejecutivo de cobranza.
+         - Informe de seguimiento.
+       * - Consultar estado de cuenta filtrando por estado de morosidad.
+         - Ejecutivo de cobranza.
+         - Estado de cuenta
+       * - Cambiar estatus del credito a demanda en el caso que lo amerite.
+         - Gerente de Recuperaciones.
+         - Estatus del credito
 
 
 Módulo Consultoria Jurídica
@@ -609,7 +599,18 @@ Procedimientos
        * - Generar trimestralmente un reporte estadístico de todas las solicitudes ingresadas
          - Analista de credito
          - Solicitudes ingresadas
-
+       * - | Procedimiento
+         - | Responsable
+         - | Datos accedidos o modificados
+       * - Generacion de factura con los datos del beneficiario, monto aprobado, tasas de interés y cuotas
+    	 - Jefe del departamento de estadística y auditoria de cobranza
+		 - Factura de cobranza.
+	   * - Generacion de reporte desglosado por niveles de morosidad
+         - Jefe del departamento de estadística y auditoría de cobranza
+    	 - Generacion de reporte
+       * - Registro de exoneracion en el cobro del crédito
+         - Jefe del departamento de estadística y auditoría de cobranza
+		 - Registro de exoneracion en el cobro del crédito
 
 Módulo Presidencia
 ==================
@@ -712,3 +713,9 @@ Procedimientos
        * - Generacion de colas por orden de atención y por dependencia
          - Recepcionista
          - Lista de beneficiarios
+
+
+
+
+
+         Estadística Archivo Consultoria Jurídica
