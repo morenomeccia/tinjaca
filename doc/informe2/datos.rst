@@ -209,7 +209,7 @@ Descripción de Datos
 * Maquinarias y Equipos: presentar facturas proforma o documento de opción a compra o una exposición de motivos suficientemente fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
 * Insumos: presentar facturas proforma o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como productor del estado Bolivariano de Mérida.
 * Unidad de Transporte (Tour Operativo): presentar facturas proforma, presupuesto de la repotenciación, copia del certificado del vehículo y copia del documento de propiedad.
-* Para los casos de turismo de aventura soportes de la actividad y documentación pertinente según sea el caso.
+* Para los casos de turismo de aventura presentar soportes de la actividad y documentación pertinente según sea el caso.
 
 **Artesanal**:
 
@@ -406,6 +406,48 @@ Descripción de Datos
 
 * **Personal**: Indica el nombre y apellido, dirección y teléfonos de contacto de amistades que refieren de la buena fe del avalista.
 * **Familiar**: Indica el nombre y apellido, dirección y teléfonos de contacto de familiares que refieren de la buena fe del avalista.
+
+
+**9. PLANILLA DE SOLICITUD DEL CREDITO**: Es el resumen de los requisitos consignados por el solicitante para la aprobación del crédito.
+
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Funcionario FOMDES**: Indica el nombre y apellido del funcionario del FOMDES que procesa la solicitud.
+* **Fecha de recepción**: Indica el día, mes y año
+* **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
+* **Cédula de identidad**: Indica el número de identificación del solicitante.
+* **Dirección de habitación**: Indica el domicilio fiscal del solicitante.
+* **Sexo**: Indica el genero del solicitante, especificando masculino o femenino.
+* **Teléfono(s)**: Indica el(los) teléfono(s) de contacto del solicitante.
+* **Nacionalidad**: Indica la pertenencia del solicitante a una nación.
+* **Estado civil**: Indica la condición de parentesco del solicitante vinculada con otras personas, como soltero(a), casado(a), divorciado(a), viudo(a) u otro.
+* **Edad**: Indica la edad del solicitante, que debe ser mayor de 18 años.
+* **Profesión u oficio**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el solicitante en la actualidad.
+* **Cargo en la empresa**: Indica la labor que realiza dentro de la empresa.
+* **Posee cuenta en el banco**: Indica el nombre del banco asociado a la cuenta bancaria del solicitante.
+* **Nombre o razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Clase de firma**: Indica si posee una compañía, sociedad o firma personal.
+* **Dirección de la unidad productiva**: Indica el domicilio de la unidad de producción.
+* **Teléfonos**: Indica el(los) teléfono(s) de la unidad de producción.
+* **Localidad**: Indica el nombre de la localidad donde se ubica la unidad de producción.
+* **Municipio**: Indica el municipio donde se ubica la unidad de producción.
+* **Capital contable**: Indica la cantidad en Bsf del capital social de la empresa.
+* **Registro Mercantil**: Indica el numero del expediente constitutivo de la empresa en el Registro Mercantil.
+* **Fecha fundada**: Indica el día, mes y año de creación de la empresa.
+* **Local de la empresa**: Indica si el local donde funciona la empresa es propio o alquilado.
+* **Área m² arrendado mensual**: Indica los m² del área del local y si es alquilado el monto por concepto de alquiler.
+* **Sector**: Indica el sector o zona donde se ubica la empresa.
+* **Actividad**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
+* **Personal de la empresa**: Indica la cantidad de directivos, empleados y obreros en la actualidad, aumentados por el crédito y el total de personas.
+* **Clasificación CIIU**: Indica la clasificación internacional uniforme de las actividades económicas.
+* **Producto que elabora**: Indica la denominación genérica del(los) producto(s) derivado(s) de la actividad productiva.
+* **Materia prima utilizada**: Indica si la materia prima utilizada proviene a nivel nacional o internacional.
+* **Monto solicitado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+* **Plazo deseado**: Indica el tiempo máximo estimado para la cancelación total del crédito.
+* **Tipo de garantía ofrecida**: Indica el compromiso del solicitante a través de hipoteca, prendaria, fianza personal o fianza financiera para el otorgamiento del crédito.
+* **Descripción de la garantía ofrecida**: Indica el tipo de garantía, nombre y cédula del avalista.
+* **Tipo de crédito**: Indica si el crédito es para una empresa promocional o establecida.
+* **Destino que dará al crédito FOMDES**: Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y la comisión FLAT.
+* **Firma**: Indica el campo para la firma del solicitante y del funcionario del FOMDES.
 
 Diccionario de Datos
 --------------------
