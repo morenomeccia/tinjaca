@@ -570,13 +570,19 @@ Procedimientos
          - Codigo de expediente
        * - Registro de responsables por expediente solicitado.
          - Archivólogo.
-         - Registro de responsables por expediente solicitado.
+         - Lista de responsables por expediente solicitado.
+       * - Registro de historial con detalle de movimientos de los expedientes
+         - Archivologo
+         - Historial de movimiento del expediente
        * - Consulta por código de expediente.
          - Archivólogo.
          - Codigo de expediente
        * - Consulta lista de expedientes por departamento.
          - Archivólogo.
          - Lista de codigos de expediente
+       * - Envio de los expedientes a diferentes dependencias
+         - Archivologo
+         - Registro de envio
 
 
 
@@ -596,12 +602,13 @@ Procedimientos
        :widths: 40 70 40
        :header-rows: 1
 
-       * - Generar trimestralmente un reporte estadístico de todas las solicitudes ingresadas
-         - Analista de credito
-         - Solicitudes ingresadas
+
        * - | Procedimiento
          - | Responsable
          - | Datos accedidos o modificados
+       * - Generacion trimestral un reporte estadístico de todas las solicitudes ingresadas
+         - Analista de credito
+         - Solicitudes ingresadas
        * - Generacion de factura con los datos del beneficiario, monto aprobado, tasas de interés y cuotas
     	 - Jefe del departamento de estadística y auditoria de cobranza
 		 - Factura de cobranza.
@@ -620,10 +627,6 @@ Descripción
 
 Este módulo abarca los procesos en los que interviene la gestión directa del presidente del FOMDES. Incluye procedimientos de evaluación y coordinación con las gerencias para las tomas de decisiones.
 
-Usuarios
---------
-
-Presidente.
 
 Procedimientos
 --------------
@@ -635,10 +638,22 @@ Procedimientos
        * - | Procedimiento
          - | Responsable
          - | Datos accedidos o modificados
+       * - Monitoreo del ingreso diario de caja y cumplimiento de metas
+         - Presidente
+         - Ingreso diario de caja
+       * - Revision y firma de los cheques
+         - Presidente
+         - Cheques
+       * - Envio de los cheques firmados a secretaria ejecutiva
+         - Presidente
+         - Registro de envio
+       * - Revision de montos, intereses y plazos de las solicitudes de crédito
+         - Presidente
+         - Solicitudes de potenciales beneficiarios
+       * - Evaluacion y valoracion de indicadores clave de rendimiento y variables políticas
+         - Presidente
+         - Indicadores clave de rendimiento
 
-
-Campos modificados de cada entidad
-----------------------------------
 
 Módulo Beneficiario
 ===================
@@ -718,4 +733,3 @@ Procedimientos
 
 
 
-         Estadística Archivo Consultoria Jurídica
