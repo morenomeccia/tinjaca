@@ -504,9 +504,9 @@ Descripción de Datos
 * **Lugar de funcionamiento**: Indica la tenencia propia, alquilada o con autorización de la unidad de producción.
 * **Distribución del espacio físico**: Indica la dinámica de distribución del espacio físico de la unidad de producción.
 * **Condiciones físicas y sanitarias**: Indica la apreciación buena, regular o mala de las condiciones físicas y sanitarias de la unidad de producción.
-* **Maquinaria**: Indica la maquinaria observada en la visita.
-* **Materia prima en insumos**: Indica la materia prima e insumos observados en la visita.
-* **Observaciones**: Indica la apreciación subjetiva final del analista económico sobre la visita.
+* **Maquinaria**: Indica la maquinaria observada en la visita a la unidad de producción.
+* **Materia prima en insumos**: Indica la materia prima e insumos observados en la visita a la unidad de producción.
+* **Observaciones**: Indica la apreciación subjetiva final del analista económico sobre la visita a la unidad de producción.
 * **Firma**: Indica el campo para nombre y cédula del solicitante y analista de crédito.
 
 
