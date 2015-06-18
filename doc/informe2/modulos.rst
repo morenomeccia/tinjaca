@@ -127,10 +127,6 @@ Descripción
 
 Este módulo abarca los procesos de "Aprobación de Créditos". Incluye los procedimientos asociados con la recepción de la lista de expedientes sugeridos para aprobación de crédito, la elaboración del Documento de Crédito y constitución de la empresa (de requerirse) para cada uno de los beneficiarios(as).
 
-Usuarios
---------
-
-Secretaría Ejecutiva, Presupuesto, Consejo Directivo, Presidente.
 
 Procedimientos
 --------------
@@ -201,21 +197,8 @@ Procedimientos
 		  - Indicadores clave de rendimiento
 
 
-Campos modificados de cada entidad
-----------------------------------
 
-- Expediente:
-
-	* Prioridad
-	* Estatus
-
-- Documento de credito:
-
-	* Todos los campos
-
-- Agenda con la lista de expedientes priorizados para consideración del Consejo Directivo.
-
-Modulo Administración 
+Modulo Administración
 =====================
 
 Descripción
@@ -223,11 +206,6 @@ Descripción
 
 Este módulo abarca los procesos de "Liquidación de créditos" y "Liberación de Créditos".
 Incluye procedimientos relacionados con la consignación de los documentos notariados por parte de los beneficiarios hasta la entrega del cheque respectivo y con la liberación de los créditos. Procedimientos asociados con las actividades relativas a la liberación de los créditos.
-
-Usuarios
---------
-
-Secretaria Ejecutiva, Presupuesto, Administración, Presidencia.
 
 Procedimientos
 --------------
@@ -259,7 +237,7 @@ Procedimientos
 		  - Orden del cheque
 		* - Enviar expediente a la unidad de Acompañamiento y Asistencia Técnica
 		  - Administracion
-		  - ???
+		  - Registro de envio
 		* - Generación de documento de liquidación del crédito
 		  - Administración
 		  - Documento de liquidación del crédito
@@ -268,7 +246,7 @@ Procedimientos
 		  - Estatus del expediente
 		* - Registro de la entrega del documento de liberación del crédito
 		  - Administración
-		  - ???
+		  - Registro de entrega
 		* - Envío del expediente a archivo una vez liberado
 		  - Administración
 		  - Registro de envio
@@ -325,24 +303,10 @@ Procedimientos
   		  - Ingreso total
         * - Creacion de un reporte con el total de personas atendidas diariamente
 		  - Cajero
-  		  - ???
+  		  - Reporte de beneficiarios
 
 
-Campos modificados de cada entidad
-----------------------------------
-
-- Expediente
-
-	* Disponibilidad para liquidación del crédito.
-	* Orden de liquidacion y cheque.
-	* Estatus
-
-- Estado de cuentas:
-
-	* Todos los campos 
-	
-
-Módulo Acompañamiento 
+Módulo Acompañamiento
 =====================
 
 Descripción
@@ -350,10 +314,6 @@ Descripción
 
 Este módulo abarca los procesos de "Inspección de Inversiones". Incluye procedimientos asociados a la verificación de la ejecución del plan de inversión por parte del beneficiario.
 
-Usuarios
---------
-
-Acompañamiento y Asistencia Técnica, Archivo, Gerente de Recuperaciones.
 
 Procedimientos
 --------------
@@ -428,20 +388,9 @@ Procedimientos
 		 - Jefe de acompañamiento
 		 - Registro de envio.
 
-Campos modificados de cada entidad
-----------------------------------
-
-- Expediente:
-
-	* Recomendación del beneficiario para liquidaciones sucesivas.
-	* Número de archivo.
-
-- Informe de verificación de la inversión:
-
-	* Todos los campos.
 	
 
-Módulo Caja 
+Módulo Caja
 ===========
 
 Descripción
@@ -449,13 +398,9 @@ Descripción
 
 Este módulo abarca los procesos de "Pagos". Incluye procedimientos asociados con las actividades de recepción de pagos y actualización de estados de cuenta de beneficiarios o beneficiarias.
 
-Usuarios
---------
-
-Caja, Ejecutivo de cobranza.
 
 Procedimientos
---------------	
+--------------
 
   .. list-table::
        :widths: 40 70 40
@@ -474,13 +419,7 @@ Procedimientos
        * - Generación de solicitud de liberación a la unidad de Consultoría Jurídica en caso de último pago (cancelación total del crédito). 
          - Ejecutivo de cobranza (caja).
          - Registro de solicitud de liberacion.
-         
-Campos modificados de cada entidad
-----------------------------------
 
-- Pagos:
-	
-	* Todos los campos (nuevos registros).
 
 
 Módulo Recuperaciones 
@@ -491,10 +430,6 @@ Descripción
 
 Este módulo abarca los procesos de "Gestión de cobranzas". Incluye procedimientos asociados con las actividades de recepción de pagos, actualización de estados de cuenta de beneficiarios y trámites y gestión de recuperación de pagos caídos por parte de los beneficiarios.
 
-Usuarios
---------
-
-Gerente de Recuperaciones, Ejecutivo de cobranza, Administración.
 
 Procedimientos
 --------------
@@ -574,13 +509,7 @@ Procedimientos
           - Estatus del credito
 
 
-Campos modificados de cada entidad
-----------------------------------
 
-- Expediente
-
-	* Estatus
-	
 Módulo Consultoria Jurídica
 ===========================
 
@@ -589,10 +518,6 @@ Descripción
 
 Este módulo abarca los procesos asistidos por los consultores jurídicos en: "Liquidación de créditos", "Liberación de créditos" y "Gestión de cobranza". Incluye procedimientos asociados a la redacción de documentos jurídicos y cambio de estatus del expediente.
 
-Usuarios
---------
-
-Consultoría Jurídica.
 
 Procedimientos
 --------------
@@ -619,21 +544,17 @@ Procedimientos
        * - Consulta de los expedientes con estatus “demanda” o "liberado"
          - Consultoría Jurídica
          - Todos los datos del expediente seleccionados
-       * - Generacion de documento de demanda y documento de liberacion
+       * - Generacion de documento de demanda
          - Consultoria Juridica
-         - ???
+         - Documento de demanda
+       * - Generacion de documento de liberacion
+         - Consultoria Juridica
+         - Documento de demanda
        * - Envio de los expedientes con procesos culminados a Archivo
          - Consultoria Juridica
-         - ???
+         - Registro de envio
 
 
-Campos modificados de cada entidad
-----------------------------------
-
-- Expediente
-
-	* Estatus
-	* Documentos legales asociados
 
 Módulo Archivo
 ==============
@@ -643,10 +564,6 @@ Descripción
 
 Este módulo abarca "Recepción y Evaluación de solicitudes", "Inspección de inversiones", "Liberación de créditos", "Gestión de cobranza". Incluye procedimientos asociados al control de la ubicación de los expedientes dentro de los distintos departamentos del FOMDES.
 
-Usuarios
---------
-
-Potencial beneficiario, Beneficiario, Solicitante.
 
 Procedimientos
 --------------
@@ -660,19 +577,17 @@ Procedimientos
          - | Datos accedidos o modificados
        * - Ingreso de nuevos expedientes.
          - Archivólogo.
-         - ???
+         - Codigo de expediente
        * - Registro de responsables por expediente solicitado.
          - Archivólogo.
          - Registro de responsables por expediente solicitado.
        * - Consulta por código de expediente.
          - Archivólogo.
-         - ???
+         - Codigo de expediente
        * - Consulta lista de expedientes por departamento.
          - Archivólogo.
-         - ???
+         - Lista de codigos de expediente
 
-Campos modificados de cada entidad
-----------------------------------
 
 
 Módulo Estadística
@@ -683,10 +598,6 @@ Descripción
 
 Este módulo abarca los procesos que demandan análisis y cálculos estadísticos. Incluye procedimientos de generacion de estadísticas para el apoyo en la toma de decisiones por parte de las gerencias y directiva de FOMDES.
 
-Usuarios
---------
-
-Estadística y Análisis de Riesgo.
 
 Procedimientos
 --------------
@@ -698,10 +609,7 @@ Procedimientos
        * - Generar trimestralmente un reporte estadístico de todas las solicitudes ingresadas
          - Analista de credito
          - Solicitudes ingresadas
-       * -
 
-Campos modificados de cada entidad
-----------------------------------
 
 Módulo Presidencia
 ==================
@@ -739,10 +647,6 @@ Descripción
 
 Este módulo abarca "Recepción y Evaluación de solicitudes" y "Recepción de propuestas",  Incluye procedimientos asociados al control de la ubicación de los expedientes dentro de los distintos departamentos del FOMDES.
 
-Usuarios
---------
-
-Archivólogo.
 
 Procedimientos
 --------------
@@ -762,10 +666,10 @@ Procedimientos
          - Datos personales del beneficiario
        * - Consulta del estado de mis solicitudes.
          - Potencial beneficiario, Beneficiario, Solicitante.
-         - ???
+         - Estatus de solicitud
        * - Consulta del estado de mis créditos
          - Beneficiario
-         -
+         - Estatus de expediente
        * - Ejecucion de pagos en línea
          - Beneficiario
          - Estado de cuenta
@@ -782,11 +686,6 @@ Descripción
 
 Este módulo abarca "Recepción y Evaluación de solicitudes",  Incluye procedimientos asociados al control de la ubicación de los expedientes dentro de los distintos departamentos del FOMDES.
 
-
-Usuarios
---------
-
-Recepcionista.
 
 Procedimientos
 --------------
@@ -812,4 +711,4 @@ Procedimientos
          - Visitantes por rango de fecha y cedula
        * - Generacion de colas por orden de atención y por dependencia
          - Recepcionista
-         - ???
+         - Lista de beneficiarios
