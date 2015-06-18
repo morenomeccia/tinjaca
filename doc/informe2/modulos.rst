@@ -9,10 +9,6 @@ Descripción
 
 Este módulo abarca los procesos de "Recepción de propuestas" y "Recepción y Evaluación de Solicitudes". Incluye procedimientos asociados con la recepción y validación de la propuesta de financiamiento, validación de recaudos para solicitud de crédito y generación del listado de expedientes sugeridos para aprobación de créditos.
 
-Usuarios
---------
-
-Información de Crédito, Análisis Jurídico, Análisis Económico, Gerente de Crédito.
 
 Procedimientos
 --------------
@@ -41,34 +37,34 @@ Procedimientos
          - Registro del envio de requisitos
        * - Incluir al solicitante en la lista del “Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario”
          - Analista de credito
-         - Lista del taller
+         - Lista del taller de potenciales beneficiarios
        * - Registro en lista de espera de los potenciales beneficiarios que no asistan al taller
          - Analista de credito
-         - Lista de espera
+         - Lista de espera de potenciales beneficiarios
        * - Registro de la validez de los requisitos
          - Analista de credito
          - Validez de los requisitos
        * - Creación de expediente con código por sector
          - Analista de credito
-         - ???
+         - Codigo de expediente
        * - Generar informes POA
          - Analista de credito
-         - ???
+         - Informe POA
        * - Registro de la validez legal de la garantía
          - Analista Jurídico
          - Validez legal de garantia
        * - Generacion del informe de control previo
          - Analista Jurídico
-         - ???
+         - Informe control previo
        * - Asignacion el estatus de “CUMPLE”, “NO CUMPLE” o “CUMPLE CONDICIONADO” para las garantías
          - Analista Juridico
          - Estatus de la garantia
        * - Envio del expediente a la estación de Análisis Económico
          - Analisis Juridico
-         - ???
+         - Registro de envio
        * - Generación de rutas para visitar la unidad de producción
          - Analista Económico
-         - ???
+         - Lista de ruta
        * - Registro de la viabilidad económica de la unidad de producción
          - Analista Económico
          - Viabilidad económica de la unidad de producción
@@ -101,58 +97,27 @@ Procedimientos
          - Tasas de interés
        * - Seleccionar los proyectos que van al consejo directivo
          - Gerente de credito
-         - ???
+         - Lista de beneficiarios
        * - Envío de expediente a la Secretaría ejecutiva
          - Gerente de crédito
-         - ???
+         - Registro de envio
        * - Generacion de una lista de rezagados en caso de que se termine el presupuesto pautado
          - Gerente de credito
-         - ???
+         - Lista de potenciales beneficiarios
        * - Realizar reportes por municipio, por rubro, por estatus y por rango de fechas
          - Gerente de credito
-         - ???
+         - Reporte de expedientes
        * - Distribucion de los analistas económicos por municipios y parroquias para realizar las inspecciones
          - Gerente de credito
          - Tabla de distribucion de los analistas economicos.
        * - Envio del expediente a la estación de Análisis Jurídico
          - Analista de credito
-         - ???
+         - Registro de envio
        * - Modificacion de la solicitud de requisitos de acuerdo al sector, a los montos, a los rubros y tipo de empresa.
          - Analista de credito
          - Solicitud del dato
 
-Campos modificados de cada entidad
-----------------------------------
 
-- Solicitante: 
-
-	* Todos los campos del Solicitante
-
-- Potencial beneficiario:
-
-	* Todos los campos del Potencial beneficiario
-	
-- Beneficiario:
-
-	* Todos los campos del Beneficiario
-	
-- Propuesta de financiamiento:
-
-	* Todos los campos de la Propuesta de financiamiento.
-	* Viabilidad de la propuesta
-
-- Expediente:
-
-	* Viabilidad de los requisitos.
-	* Validez legal de la garantia.
-	* Viabilidad económica de la unidad de producción.
-	* Informe de inspección de la unidad de producción.
-	* Informe de avalúo de la garantia.
-	* Informe técnico de la garantia.
-
-- Lista de convocados al “Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario”
-
-- Lista de expedientes para consideración del Consejo Directivo.
 
 Módulo Secretaría
 =================
