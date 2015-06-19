@@ -513,8 +513,11 @@ Procedimientos
          - Gerente de Recuperaciones
          - Registro de solicitud de entrevista
        * - Cambiar estatus del credito a demanda en el caso que lo amerite.
-         - Gerente de Recuperaciones.
+         - Gerente de Recuperaciones
          - Estatus del credito
+       * - Registro de exoneracion en el cobro del crédito
+         - Gerente de recuperaciones
+		 - Exoneracion en el cobro del crédito
 
 Procedimiento de generacion de reportes
 ---------------------------------------
@@ -555,8 +558,6 @@ Procedimiento de generacion de reportes
          - Informe de seguimiento.
 
 
-
-
 Módulo Consultoria Jurídica
 ===========================
 
@@ -576,30 +577,18 @@ Procedimientos de ingreso de datos
        * - | Procedimiento
          - | Responsable
          - | Datos accedidos o modificados
-       * - Generación del documento de liberación del crédito.
+       * - Ingreso de datos del documento de liberación del crédito.
          - Consultoría Jurídica.
-         - Documento de liberación del crédito.
+         - Datos de liberación del crédito.
        * - Generacion de solicitud de reintegro del crédito en caso de que el beneficiario no cumpla con el plan de inversión.
          - Consultoría Jurídica.
          - Registro de solicitud de reintegro del credito.
-       * - Liberación de hipotecas o fianzas para expedientes cancelados en su totalidad.
+       * - Cambio del estatus del expediente a liberado.
          - Consultoría Jurídica
-         - Registro de liberacion de hipotecas.
-       * - Cambio de estatus de expediente a liberado.
-         - Consultoría Jurídica.
          - Estatus del expediente
-       * - Consulta de los expedientes con estatus “demanda” o "liberado"
-         - Consultoría Jurídica
-         - Todos los datos del expediente seleccionados
-       * - Generacion de documento de demanda
-         - Consultoria Juridica
-         - Documento de demanda
-       * - Generacion de documento de liberacion
-         - Consultoria Juridica
-         - Documento de demanda
        * - Envio de los expedientes con procesos culminados a Archivo
          - Consultoria Juridica
-         - Registro de envio
+         - Estacion del expediente
 
 Procedimiento de generacion de reportes
 ---------------------------------------
@@ -611,6 +600,23 @@ Procedimiento de generacion de reportes
 	   * - | Procedimiento
 		 - | Responsable
 		 - | Reporte de salida
+       * - Generación del documento de liberación del crédito
+         - Consultoría Jurídica
+         - Documento de liberación del crédito
+       * - Generacion del documento de solicitud de reintegro del crédito
+         - Consultoría Jurídica
+         - Documento de reintegro del credito
+       * - Generacion de documento de liberación de hipotecas o fianzas para expedientes cancelados en su totalidad.
+         - Consultoría Jurídica
+         - Documento de liberacion de hipotecas.
+       * - Consulta de los expedientes con estatus “demanda” o "liberado"
+         - Consultoría Jurídica
+         - Lista de expedientes por estatus
+       * - Generacion de documento de demanda
+         - Consultoria Juridica
+         - Documento de demanda
+
+
 
 Módulo Archivo
 ==============
@@ -636,19 +642,10 @@ Procedimientos de ingreso de datos
          - Codigo de expediente
        * - Registro de responsables por expediente solicitado.
          - Archivólogo.
-         - Lista de responsables por expediente solicitado.
-       * - Registro de historial con detalle de movimientos de los expedientes
-         - Archivologo
-         - Historial de movimiento del expediente
-       * - Consulta por código de expediente.
-         - Archivólogo.
-         - Codigo de expediente
-       * - Consulta lista de expedientes por departamento.
-         - Archivólogo.
-         - Lista de codigos de expediente
+         - Responsable del expediente
        * - Envio de los expedientes a diferentes dependencias
          - Archivologo
-         - Registro de envio
+         - Estacion del expediente
 
 Procedimiento de generacion de reportes
 ---------------------------------------
@@ -660,6 +657,12 @@ Procedimiento de generacion de reportes
 	   * - | Procedimiento
 		 - | Responsable
 		 - | Reporte de salida
+       * - Registro de historial con detalle de movimientos de los expedientes
+         - Archivologo
+         - Historial de movimiento del expediente
+       * - Consulta lista de expedientes por departamento.
+         - Archivólogo.
+         - Lista de codigos de expediente
 
 Módulo Estadística
 ==================
@@ -669,34 +672,6 @@ Descripción
 
 Este módulo abarca los procesos que demandan análisis y cálculos estadísticos. Incluye procedimientos de generacion de estadísticas para el apoyo en la toma de decisiones por parte de las gerencias y directiva de FOMDES.
 
-
-Procedimientos de ingreso de datos
-----------------------------------
-
-  .. list-table::
-       :widths: 40 70 40
-       :header-rows: 1
-
-
-       * - | Procedimiento
-         - | Responsable
-         - | Datos accedidos o modificados
-       * - Generacion trimestral un reporte estadístico de todas las solicitudes ingresadas
-         - Analista de credito
-         - Solicitudes ingresadas
-       * - Generacion de factura con los datos del beneficiario, monto aprobado, tasas de interés y cuotas
-    	 - Jefe del departamento de estadística y auditoria de cobranza
-		 - Factura de cobranza.
-	   * - Generacion de reporte desglosado por niveles de morosidad
-         - Jefe del departamento de estadística y auditoría de cobranza
-    	 - Generacion de reporte
-       * - Registro de exoneracion en el cobro del crédito
-         - Jefe del departamento de estadística y auditoría de cobranza
-		 - Registro de exoneracion en el cobro del crédito
-       * - Agrupa en los reportes estadísticos de las solicitudes por sector dentro de cada unicipio, con el conteo y suma de los montos solicitados, y las totalizaciones.
-         - Gerente de credito
-         - Reportes estadísticos de las solicitudes
-
 Procedimiento de generacion de reportes
 ---------------------------------------
 
@@ -707,6 +682,9 @@ Procedimiento de generacion de reportes
 	   * - | Procedimiento
 		 - | Responsable
 		 - | Reporte de salida
+       * - Generacion de un reporte estadístico de todas las solicitudes ingresadas
+         - Analista de credito
+         - Solicitudes ingresadas
 
 Módulo Presidencia
 ==================
