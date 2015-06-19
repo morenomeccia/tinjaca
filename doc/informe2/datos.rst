@@ -585,6 +585,7 @@ Descripción de Datos
 **16. Documento de crédito**: Es un documento otorgado al beneficiario para justificar el crédito y garantizar sus derechos ante este compromiso u obligación.
 
 
+* **Secretaria ejecutiva**: Indica el nombre, apellido y número del Inpreabogado de la secretaria ejecutiva.
 * **Nombres y apellidos**: Indica el nombre y apellido del beneficiario.
 * **Estado civil**: Indica la condición de parentesco del beneficiario vinculada con otras personas, como soltero(a), casado(a), divorciado(a), viudo(a) u otro.
 * **Cédula de identidad**: Indica el número de identificación del beneficiario.
