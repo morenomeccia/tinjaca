@@ -768,5 +768,3 @@ Diccionario de Datos
          - Cadena
        * - Twitter
          - Cadena
-       * - Twitter
-         - Cadena
