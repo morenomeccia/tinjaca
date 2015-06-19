@@ -15,38 +15,44 @@ desarrollo de TINJACÁ se prevén varios hitos que facilitaran el cumplimiento d
 
 **Tabla de Cronograma**:
 
-    .. tabularcolumns:: |p{4cm}|p{7cm}|p{4cm}|p{4cm}|p{4cm}|
+    .. tabularcolumns:: |p{7cm}|p{4cm}p{4cm}|p{4cm}|p{4cm}|p{4cm}|
 
     .. list-table::
-       :widths: 40 70 40 40 40
+       :widths: 70 40 40 40 40 40
        :header-rows: 1
 
        * - | Fase
+         - | Junio
          - | Julio
          - | Agosto
          - | Septiembre
          - | Octubre
        * - Desarrollo
          - X
+         - X
          -
          -
          -
        * - Configuración y diseño de pruebas
+         -
          - X
          - X
          -
          -
        * - Pruebas
          -
+         -
          - X (20 de agosto)
          - X
          -
        * - Revisión Final
          -
+         -
          - X
          - X
          - X
        * - Presentación e inicio de adiestramiento
+         -
          -
          -
          -
