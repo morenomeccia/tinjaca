@@ -659,6 +659,46 @@ Descripción de Datos
 * **Firma**: Indica el nombre y apellido del gerente de administración y finanzas.
 
 
+**19. COMPROMISO APORTE SOCIAL VOLUNTARIO**: Es la constancia del aporte económico que da el beneficiario a causas sociales del FOMDES.
+
+* **Nombres y apellidos**: Indica el nombre y apellido del beneficiario.
+* **Cédula de identidad**: Indica el número de identificación del beneficiario.
+* **Municipio**: Indica el municipio en el que reside el beneficiario.
+* **Sector**: Indica la actividad relacionada con el sector Agrícola y Pecuario, Turismo, Artesanal, Ciencia y Tecnología, Pequeña y Mediana Empresa, Pequeña y Mediana Industria y Microempresas.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Consejo directivo Nº**: Indica el numero de consejo directivo.
+* **Fecha del consejo directivo**: Indica el día de la semana, día, mes y año en que se realizó el consejo directivo.
+* **Monto aprobado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+* **Porcentaje de aporte social**: Indica el % de aporte social sobre el valor del crédito aprobado.
+* **Cantidad del aporte social**: Indica el monto total en Bs de aporte social.
+* **Fecha**: Indica el día, mes y año en que se realizó el acta de compromiso de aporte social.
+* **Firma**:  Indica el nombre, apellido y cédula del beneficiario.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Diccionario de Datos
 --------------------
 
