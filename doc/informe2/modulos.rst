@@ -1,17 +1,16 @@
 ﻿Diseño de modulos
 =================
 
-Módulo Crédito
-==============
+Módulo Solicitudes
+==================
 
 Descripción
 -----------
 
 Este módulo abarca los procesos de "Recepción de propuestas" y "Recepción y Evaluación de Solicitudes". Incluye procedimientos asociados con la recepción y validación de la propuesta de financiamiento, validación de recaudos para solicitud de crédito y generación del listado de expedientes sugeridos para aprobación de créditos.
 
-
-Procedimientos
---------------
+Procedimientos de ingreso de datos
+----------------------------------
 
   .. list-table::
        :widths: 40 70 40
@@ -19,88 +18,120 @@ Procedimientos
 
        * - | Procedimiento
          - | Responsable
-         - | Datos accedidos o modificados
+         - | Campos accedidos o modificados
        * - Ingreso de datos del solicitante
          - Analista de crédito
          - Todos los datos del solicitante
-       * - Ingreso de datos de la propuesta de financiamiento desde la planilla consignada y la generacion del código de la misma
+       * - Ingreso de datos de la propuesta de financiamiento a partir de la planilla consignada y la generacion del código de la misma
          - Analista de crèdito
-         - Datos de la propuesta de financiamiento y codigo
+         - Datos de la propuesta de financiamiento y su codigo
        * - Registro de la viabilidad de la propuesta según las normativas del FOMDES
          - Analista de credito
-         - Viabilidad de propuesta
-       * - Consultar el listado de propuestas de financiamiento que son viables
+         - viabilidad de propuesta
+       * - Registro del envio de requisitos
          - Analista de credito
-         - Lista de propuestas de financiamiento
-       * - Envio por correo eletronico a los potenciales beneficiarios la invitación para la asistencia al taller
-         - Analista de credito
-         - Registro del envio de requisitos
+         - Chequeo del envio de requisitos
        * - Incluir al solicitante en la lista del “Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario”
          - Analista de credito
-         - Lista del taller de potenciales beneficiarios
-       * - Registro en lista de espera de los potenciales beneficiarios que no asistan al taller
-         - Analista de credito
-         - Lista de espera de potenciales beneficiarios
+         - Codigo de asignacion de taller
        * - Registro de la validez de los requisitos
          - Analista de credito
          - Validez de los requisitos
        * - Creación de expediente con código por sector
          - Analista de credito
          - Codigo de expediente
-       * - Generar informes POA
+       * - Envio del expediente a la estación de Análisis Jurídico
          - Analista de credito
-         - Informe POA
+         - Estacion del expediente
        * - Registro de la validez legal de la garantía
          - Analista Jurídico
          - Validez legal de garantia
-       * - Generacion del informe de control previo
-         - Analista Jurídico
-         - Informe control previo
-       * - Asignacion el estatus de “CUMPLE”, “NO CUMPLE” o “CUMPLE CONDICIONADO” para las garantías
+       * - Asignacion del estatus de “CUMPLE”, “NO CUMPLE” o “CUMPLE CONDICIONADO” para las garantías
          - Analista Juridico
          - Estatus de la garantia
        * - Envio del expediente a la estación de Análisis Económico
          - Analisis Juridico
-         - Registro de envio
-       * - Generación de rutas para visitar la unidad de producción
-         - Analista Económico
-         - Lista de ruta
+         - Estacion actual del expediente
        * - Registro de la viabilidad económica de la unidad de producción
          - Analista Económico
          - Viabilidad económica de la unidad de producción
-       * - Generacion el informe de inspección (informe técnico) con registro fotográfico
-         - Analista Economico
-         - Resultados de la inspeccion
        * - Ingreso de fotografías de inspecciones en cada expediente
          - Analista Economico
-         - Fotografias de inspeccion
-       * - Registro de las minutas que se levantan en campo e inclusion en el informe tecnico
+         - Codigo de las fotografias
+       * - Ingreso de los resultados de la inspeccion
          - Analista Economico
-         - Informe tecnico
+         - Datos de la inspeccion
        * - Ingreso de los resultados del avalúo
          - Analista Económico
-         - Resultados del avaluo
-       * - Ingreso del informe técnico de la garantia
-         - Analista Económico
-         - Informe tecnico de la garantia
+         - Datos del avaluo
        * - Especificacion de los lapsos de pago del crédito por el beneficiario
          - Analista Economico
          - Lapsos de pago del credito
        * - Enviar el expediente al Gerente de Crédito
          - Analista Economico
-         - Expediente
+         - Estacion del expediente
        * - Inclusión del expediente en la lista para consideración del Consejo Directivo
          - Gerente de crédito
-         - Lista para consideración del Consejo Directivo
-       * - Modificar las tasas de interés y los montos asignados por sector, rubro o garantía
+         - Codigo de lista para aprobacion
+       * - Asignacion de las tasas de interés por sector, rubro o garantía
          - Gerente de credito
          - Tasas de interés
-       * - Seleccionar los proyectos que van al consejo directivo
+       * - Asignacion de los montos por sector, rubro o garantía
          - Gerente de credito
-         - Lista de beneficiarios
-       * - Envío de expediente a la Secretaría ejecutiva
+         - Monto
+       * - Asignacion de los meses de gracia por sector, rubro o garantía
+         - Gerente de credito
+         - Meses de gracia
+       * - Envío de expediente a Secretaría ejecutiva
          - Gerente de crédito
-         - Registro de envio
+         - Estacion del expediente
+	   * - Consulta de expedientes rechazados
+         - Gerente de crédito
+		 - lista de expedientes rechazados
+
+Procedimiento de generacion de reportes
+---------------------------------------
+
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+	   * - | Procedimiento
+		 - | Responsable
+		 - | Reporte de salida
+	   * - Consultar el listado de propuestas de financiamiento que son viables
+		 - Analista de credito
+		 - Lista de propuestas de financiamiento
+	   * - Generacion de la planilla de requisitos e invitación para la asistencia al taller
+		 - Analista de credito
+		 - Planilla de requisitos, invitacion de asistencia al taller
+	   * - Incluir al solicitante en la lista del “Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario”
+		 - Analista de credito
+		 - Lista de potenciales beneficiarios asignados al taller
+	   * - Registro en lista de espera de los potenciales beneficiarios que no asistan al taller
+		 - Analista de credito
+		 - Lista de espera de potenciales beneficiarios
+	   * - Generar informes POA
+		 - Analista de credito
+		 - Informe POA
+       * - Generacion del informe de control previo
+         - Analista Jurídico
+         - Informe control previo
+       * - Generación de rutas para visitar la unidad de producción
+         - Analista Económico
+         - Lista de rutas
+       * - Generacion del informe de inspección con registro fotográfico
+         - Analista Economico
+         - Informe de inspeccion	 
+       * - Ingreso del informe técnico de la garantia
+         - Analista Económico
+         - Informe tecnico de la garantia
+       * - Generacion del informe tecnico
+         - Analista Economico
+         - Informe tecnico
+       * - Generacion de la lista para consideración del Consejo Directivo
+         - Gerente de crédito
+         - Lista para consideración del Consejo Directivo
        * - Generacion de una lista de rezagados en caso de que se termine el presupuesto pautado
          - Gerente de credito
          - Lista de potenciales beneficiarios
@@ -109,20 +140,11 @@ Procedimientos
          - Reporte de expedientes
        * - Distribucion de los analistas económicos por municipios y parroquias para realizar las inspecciones
          - Gerente de credito
-         - Tabla de distribucion de los analistas economicos.
-       * - Posesion de permisos para modificar o corregir datos en el sistema.
-         - Gerente de credito
-         - Datos en el sistema
-       * - Envio del expediente a la estación de Análisis Jurídico
-         - Analista de credito
-         - Registro de envio
-       * - Modificacion de la solicitud de requisitos de acuerdo al sector, a los montos, a los rubros y tipo de empresa.
-         - Analista de credito
-         - Solicitud del dato
+         - Lista de distribucion de los analistas economicos.
 
 
 
-Módulo Secretaría
+Módulo Aprobacion
 =================
 
 Descripción
@@ -130,9 +152,8 @@ Descripción
 
 Este módulo abarca los procesos de "Aprobación de Créditos". Incluye los procedimientos asociados con la recepción de la lista de expedientes sugeridos para aprobación de crédito, la elaboración del Documento de Crédito y constitución de la empresa (de requerirse) para cada uno de los beneficiarios(as).
 
-
-Procedimientos
---------------
+Procedimientos de ingreso de datos
+----------------------------------
 
   .. list-table::
        :widths: 40 70 40
@@ -141,64 +162,74 @@ Procedimientos
 		* - | Procedimiento
           - | Responsable
           - | Datos accedidos o modificados
-		* - Ingreso del documento de crédito al expediente
+		* - Ingreso de datos del documento de crédito
           - Secretaría Ejecutiva
-          - Documento de crédito
-		* - Ingreso del documento de la empresa al expediente
+          - Datos del documento de crédito			
+		* - Ingreso de datos del documento de la empresa
+          - Secretaría Ejecutiva
+          - Datos del documento de la empresa
+		* - Asignacion de la prioridad de los expedientes
+          - Secretaría Ejecutiva
+          - Prioridad
+		* - Certificación de disponibilidad presupuestaria y financiera del crédito
+          - Jefe de presupuesto
+          - Certificación de disponibilidad presupuestaria y financiera del crédito
+        * - Registro de aprobacion del documento del crédito
+          - Secretaria ejecutiva
+		  - Aprobacion del consejo directivo
+		* - Asignacion del estatus de la solicitud de crédito en base a lo discutido en el consejo directivo
+          - Secretaria ejecutiva
+		  - Estatus de la solicitud de credito
+        * - Rechazo del crédito en los casos en que los cheques no se retiren o los créditos se rechacen por los beneficiarios
+          - Secretaria ejecutiva
+		  - Estatus del credito
+        * - Envio al gerente de crédito de los expedientes rechazados
+          - Secretaria ejecutiva
+		  - Estacion del expediente
+        * - Envio de los documentos notariados a la gerencia de administración
+          - Secretaria ejecutiva
+		  - Estacion del expediente
+        * - Envio de expedientes liquidados a Acompañamiento
+          - Secretaria ejecutiva
+		  - Estacion del expediente
+
+Procedimientos de generacion de reportes
+----------------------------------------
+
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+	   * - | Procedimiento
+		 - | Responsable
+		 - | Reporte de salida
+		* - Generacion del documento de crédito
+          - Secretaría Ejecutiva
+          - Documento de crédito			
+		* - Generacion del documento de la empresa
           - Secretaría Ejecutiva
           - Documento de la empresa
-		* - Ordenamiento de la lista de expedientes según sus prioridades
+		* - Generacion de la lista de expedientes priorizados
           - Secretaría Ejecutiva
-          - Lista de expedientes
-		* - Registro de la certificación de disponibilidad presupuestaria y financiera del crédito
-          - Secretaría Ejecutiva
-          - Certificación de disponibilidad presupuestaria y financiera del crédito
-		* - Creación de la convocatoria al consejo directivo con agenda de expedientes priorizados
+          - Lista de expedientes priorizados
+		* - Creación de la convocatoria al consejo directivo
           - Secretaría Ejecutiva
           - Convocatoria al consejo directivo
         * - Creacion de agenda con los casos a ser discutidos en el consejo directivo
           - Secretaria ejecutiva
 		  - Agenda de creditos a discutir por el consejo directivo
-        * - Impresion la lista de asistentes del consejo directivo
+        * - Impresion de la lista de asistentes al consejo directivo
           - Secretaria ejecutiva
 		  - Lista de asistentes al consejo directivo
         * - Creacion del acta del consejo directivo
           - Secretaria ejecutiva
 		  - Acta del consejo directivo
-        * - Aprobacion del documento del crédito
-          - Secretaria ejecutiva
-		  - Registro de aprobacion del consejo directivo
-		* - Asignacion del estatus de la solicitud de crédito en base a lo discutido en el consejo directivo
-          - Secretaria ejecutiva
-		  - Estatus de la solicitud de credito
-        * - Rechazo del crédito en los casos en que los cheques no se retiren o los créditos se rechacen por los beneficiarios o beneficiarias
-          - Secretaria ejecutiva
-		  - Estatus del credito
-        * - Cracion la minuta del consejo
+        * - Cracion de la minuta del consejo
           - Secretaria ejecutiva
 		  - Minuta del consejo
-        * - Envio al gerente de crédito los expedientes rechazados
-          - Secretaria ejecutiva
-		  - Lista de expedientes rechazados
         * - Creacion del documento de crédito para ser notariado por el beneficiario
           - Secretaria ejecutiva
 		  - Registro de entrega del documento a al beneficiario
-        * - Envio de los documentos notariados a la gerencia de administración
-          - Secretaria ejecutiva
-		  - Registro de recepcion del documento por notaria 
-        * - Envio de expedientes liquidados a Acompañamiento
-          - Secretaria ejecutiva
-		  - Lista de expedientes liquidados
-        * - Consulta del ingreso diario de caja y metas diarias
-		  - Presidente
-		  - Ingreso diario de caja
-        * - Consulta de montos, intereses y plazos de las solicitudes de crédito
-		  - Presidente
-          - Montos, intereses y plazos de las solicitudes de crédito
-        * - Generacion y consulta de indicadores clave de rendimiento y variables políticas
-          - Presidente
-		  - Indicadores clave de rendimiento
-
 
 
 Modulo Administración
@@ -210,8 +241,8 @@ Descripción
 Este módulo abarca los procesos de "Liquidación de créditos" y "Liberación de Créditos".
 Incluye procedimientos relacionados con la consignación de los documentos notariados por parte de los beneficiarios hasta la entrega del cheque respectivo y con la liberación de los créditos. Procedimientos asociados con las actividades relativas a la liberación de los créditos.
 
-Procedimientos
---------------
+Procedimientos de ingreso de datos
+----------------------------------
 
   .. list-table::
        :widths: 40 70 40
@@ -311,6 +342,16 @@ Procedimientos
 		  - Cajero
   		  - Reporte de beneficiarios
 
+Procedimiento de generacion de reportes
+---------------------------------------
+
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+	   * - | Procedimiento
+		 - | Responsable
+		 - | Reporte de salida
 
 Módulo Acompañamiento
 =====================
@@ -321,8 +362,8 @@ Descripción
 Este módulo abarca los procesos de "Inspección de Inversiones". Incluye procedimientos asociados a la verificación de la ejecución del plan de inversión por parte del beneficiario.
 
 
-Procedimientos
---------------
+Procedimientos de ingreso de datos
+----------------------------------
 
   .. list-table::
        :widths: 40 70 40
@@ -397,7 +438,16 @@ Procedimientos
 		 - Jefe de acompañamiento
 		 - Registro de envio.
 
-	
+Procedimiento de generacion de reportes
+---------------------------------------
+
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+	   * - | Procedimiento
+		 - | Responsable
+		 - | Reporte de salida	
 
 Módulo Caja
 ===========
@@ -407,9 +457,8 @@ Descripción
 
 Este módulo abarca los procesos de "Pagos". Incluye procedimientos asociados con las actividades de recepción de pagos y actualización de estados de cuenta de beneficiarios o beneficiarias.
 
-
-Procedimientos
---------------
+Procedimientos de ingreso de datos
+----------------------------------
 
   .. list-table::
        :widths: 40 70 40
@@ -429,7 +478,16 @@ Procedimientos
          - Ejecutivo de cobranza (caja).
          - Registro de solicitud de liberacion.
 
+Procedimiento de generacion de reportes
+---------------------------------------
 
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+	   * - | Procedimiento
+		 - | Responsable
+		 - | Reporte de salida
 
 Módulo Recuperaciones 
 =====================
@@ -511,7 +569,16 @@ Procedimientos
          - Gerente de Recuperaciones
          - Datos en el sistema
 
+Procedimiento de generacion de reportes
+---------------------------------------
 
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+	   * - | Procedimiento
+		 - | Responsable
+		 - | Reporte de salida
 
 Módulo Consultoria Jurídica
 ===========================
@@ -522,8 +589,8 @@ Descripción
 Este módulo abarca los procesos asistidos por los consultores jurídicos en: "Liquidación de créditos", "Liberación de créditos" y "Gestión de cobranza". Incluye procedimientos asociados a la redacción de documentos jurídicos y cambio de estatus del expediente.
 
 
-Procedimientos
---------------
+Procedimientos de ingreso de datos
+----------------------------------
 
   .. list-table::
        :widths: 40 70 40
@@ -557,7 +624,16 @@ Procedimientos
          - Consultoria Juridica
          - Registro de envio
 
+Procedimiento de generacion de reportes
+---------------------------------------
 
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+	   * - | Procedimiento
+		 - | Responsable
+		 - | Reporte de salida
 
 Módulo Archivo
 ==============
@@ -568,8 +644,8 @@ Descripción
 Este módulo abarca "Recepción y Evaluación de solicitudes", "Inspección de inversiones", "Liberación de créditos", "Gestión de cobranza". Incluye procedimientos asociados al control de la ubicación de los expedientes dentro de los distintos departamentos del FOMDES.
 
 
-Procedimientos
---------------
+Procedimientos de ingreso de datos
+----------------------------------
 
   .. list-table::
        :widths: 40 70 40
@@ -597,7 +673,16 @@ Procedimientos
          - Archivologo
          - Registro de envio
 
+Procedimiento de generacion de reportes
+---------------------------------------
 
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+	   * - | Procedimiento
+		 - | Responsable
+		 - | Reporte de salida
 
 Módulo Estadística
 ==================
@@ -608,8 +693,8 @@ Descripción
 Este módulo abarca los procesos que demandan análisis y cálculos estadísticos. Incluye procedimientos de generacion de estadísticas para el apoyo en la toma de decisiones por parte de las gerencias y directiva de FOMDES.
 
 
-Procedimientos
---------------
+Procedimientos de ingreso de datos
+----------------------------------
 
   .. list-table::
        :widths: 40 70 40
@@ -635,6 +720,17 @@ Procedimientos
          - Gerente de credito
          - Reportes estadísticos de las solicitudes
 
+Procedimiento de generacion de reportes
+---------------------------------------
+
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+	   * - | Procedimiento
+		 - | Responsable
+		 - | Reporte de salida
+
 Módulo Presidencia
 ==================
 
@@ -644,8 +740,8 @@ Descripción
 Este módulo abarca los procesos en los que interviene la gestión directa del presidente del FOMDES. Incluye procedimientos de evaluación y coordinación con las gerencias para las tomas de decisiones.
 
 
-Procedimientos
---------------
+Procedimientos de ingreso de datos
+----------------------------------
 
   .. list-table::
        :widths: 40 70 40
@@ -669,7 +765,28 @@ Procedimientos
        * - Evaluacion y valoracion de indicadores clave de rendimiento y variables políticas
          - Presidente
          - Indicadores clave de rendimiento
+        * - Consulta del ingreso diario de caja y metas diarias
+		  - Presidente
+		  - Ingreso diario de caja
+        * - Consulta de montos, intereses y plazos de las solicitudes de crédito
+		  - Presidente
+          - Montos, intereses y plazos de las solicitudes de crédito
+        * - Generacion y consulta de indicadores clave de rendimiento y variables políticas
+          - Presidente
+		  - Indicadores clave de rendimiento
 
+
+
+Procedimiento de generacion de reportes
+---------------------------------------
+
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+	   * - | Procedimiento
+		 - | Responsable
+		 - | Reporte de salida
 
 Módulo Beneficiario
 ===================
@@ -680,8 +797,8 @@ Descripción
 Este módulo abarca "Recepción y Evaluación de solicitudes" y "Recepción de propuestas",  Incluye procedimientos asociados al control de la ubicación de los expedientes dentro de los distintos departamentos del FOMDES.
 
 
-Procedimientos
---------------
+Procedimientos de ingreso de datos
+----------------------------------
 
   .. list-table::
        :widths: 40 70 40
@@ -709,6 +826,16 @@ Procedimientos
          - Beneficiario
          - Estado de cuenta
 
+Procedimiento de generacion de reportes
+---------------------------------------
+
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+	   * - | Procedimiento
+		 - | Responsable
+		 - | Reporte de salida
 
 Módulo Atencion
 ===============
@@ -719,8 +846,8 @@ Descripción
 Este módulo abarca "Recepción y Evaluación de solicitudes",  Incluye procedimientos asociados al control de la ubicación de los expedientes dentro de los distintos departamentos del FOMDES.
 
 
-Procedimientos
---------------
+Procedimientos de ingreso de datos
+----------------------------------
 
   .. list-table::
        :widths: 40 70 40
@@ -746,6 +873,15 @@ Procedimientos
          - Lista de beneficiarios
 
 
+Procedimiento de generacion de reportes
+---------------------------------------
 
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+	   * - | Procedimiento
+		 - | Responsable
+		 - | Reporte de salida
 
 
