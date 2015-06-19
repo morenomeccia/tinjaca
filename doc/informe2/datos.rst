@@ -744,6 +744,30 @@ Para definir la organización y registro de los datos en el sistema TINJACA se t
 * **Informe fotográfico de la inspección**: Indica el expediente, la fecha de la visita y un máximo de 8 fotos tomadas a la unidad de producción.
 
 
+**23. INFORME DE RECOMENDACION**: Es el resumen de acompañamiento al plan de inversión del crédito.
+
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Fecha del informe**: Indica el día, mes y año de realización del informe de recomendación.
+* **Nombre o razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Representante legal**: Indica el nombre y apellido del beneficiario.
+* **Municipio**: Indica el municipio donde se ubica la unidad de producción.
+* **Actividad por realizar o que realiza**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
+* **Monto aprobado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+* **Forma de liquidación**: Indica la liquidación es un pago único o con desembolsos.
+* **Fecha de aprobación en Consejo directivo**: Indica el día, mes y año de aprobación del crédito.
+* **Fecha de liquidación**: Indica el día, mes y año de realización de la orden de liquidación.
+* **Destino del crédito**:  Indica el total aprobado y la forma de liquidación de la materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y herramientas menores.
+* **Monto aprobado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+* **Monto real en cifras de la orden de liquidación**: Indica el monto total del crédito aprobado menos la comisión FLAT en cifras.
+* **Comisión FLAT**: Indica el monto de la comisión FLAT (2.5%) del monto aprobado.
+* **Monto justificado en facturas**: Indica el monto total de las facturas de compra presentadas por el beneficiario.
+* **Porcentaje justificado**: Indica el % justificado a través de las facturas presentadas.
+* **Observaciones del funcionario**: Indica la apreciación del funcionario sobre la visita realizada a la unidad de producción.
+* **Recomendaciones**: Indica si el beneficiario cumplió con el plan de inversión y recomienda enviar el expediente a archivo.
+* **Firma**:  Indica el nombre y apellido del jefe de acompañamiento y asistencia técnica.
+
+
+
 
 
 
