@@ -26,21 +26,21 @@ Adicionalmente se incluye el cronograma propuesto para las fases de desarrollo y
 sistema TINJACÁ.
 
 Metodología General
---------------
+-------------------
 
 Partiendo de las historias de usuario presentadas en el informe diagnóstico, el presente
-documento busca construir propuestas para el modelado de datos y del modelo lógico del
-sistema, para atender a la resolución de los nudos críticos identificadosa través de un sistema
-informático inteegrado.
+documento presenta propuestas para el modelado de datos y el modelo lógico del sistema, todo ello a
+fin de atender la necesaria resolución de los nudos críticos identificados con anterioridad.
 
-Estos nudos críticos tienen que ver con problemas de interacción entre las unidades
-dentro de FOMDES en el ejercicio de sus funciones; mejorar las interfaces de usuario y dinamizar
-su experiencia e interacción con el sistema, incluir reportes de gestion de informacion que se
-llevaban en hoja de calculo, mejorar la usabilidad del sistema y precindir de hojas de calculo para
-tener control. minimizar los errores e incidencias, y optimizar el rendimiento de consultas de
-actualización, disponer de informacion oportuna.Evitar duplicacion de informacion. Generar
-reportes de forma automática que permitan generar información oportuna y adecuada para las
-necesidades de toma de decisnes por parte de la presidencia de la institución.
+Estos nudos críticos, como se ha señalado en un informe anterior, tienen que ver con problemas de
+interacción entre las unidades dentro de FOMDES en el ejercicio de sus funciones; mejorar las
+interfaces de usuario y dinamizar la experiencia e interacción de éstos con el sistema, incluir
+al sistema reportes de gestion de informacion que se llevan en hoja de calculo, mejorar la
+usabilidad del sistema y prescindir de hojas de calculo para tener control. minimizar los errores e
+incidencias, y optimizar el rendimiento de consultas de actualización, disponer de informacion
+oportuna. Evitar duplicacion de informacion. Generar reportes de forma automática que permitan
+generar información oportuna y adecuada para las necesidades de toma de decisnes por parte de la
+presidencia de la institución.
 
 Referencias
 -----------
