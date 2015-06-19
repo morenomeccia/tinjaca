@@ -733,7 +733,7 @@ Diccionario de Datos
     .. tabularcolumns:: |p{4cm}|p{7cm}|p{4cm}|
 
     .. list-table::
-       :widths: 40 70 40
+       :widths: 40 70
        :header-rows: 1
 
        * - | Campo
