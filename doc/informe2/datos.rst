@@ -98,7 +98,7 @@ Descripción de Datos
 
 **4. REFERENCIAS PARA LA SOLICITD DE CREDITOS**: Es la manifestación escrita de familiares y amigos que expresan el conocimiento positivo que tienen sobre el solicitante.
 
-**4.1 DATOS DEL SOLICITANTE**:
+**4.1. DATOS DEL SOLICITANTE**:
 
 * **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
 * **Cédula de identidad**: Indica el número de identificación del solicitante.
@@ -114,7 +114,7 @@ Descripción de Datos
 * **Correo electrónico**: Indica la dirección electrónica principal del solicitante.
 * **Observaciones**: Indica el campo para obtener información adicional del solicitante.
 
-**4.2 DATOS DEL CONYUGE**:
+**4.2. DATOS DEL CONYUGE**:
 
 * **Nombres y apellidos**: Indica el nombre y apellido del cónyuge.
 * **Cédula de identidad**: Indica el número de identificación del cónyuge.
@@ -130,16 +130,16 @@ Descripción de Datos
 * **Correo electrónico**: Indica la dirección electrónica principal del cónyuge.
 * **Observaciones**: Indica el campo para obtener información adicional del cónyuge.
 
-**4.3 REFERENCIAS PERSONALES**:
+**4.3. REFERENCIAS PERSONALES**:
 
 * **Personal**: Indica el nombre y apellido, cédula, dirección y teléfonos de contacto de amistades que refieren de la buena fe del solicitante.
 * **Familiar**: Indica el nombre y apellido, cédula, dirección y teléfonos de contacto de familiares que refieren de la buena fe del solicitante.
 
-**4.4 INFORMACION DEL NUCLEO FAMILIAR**:
+**4.4. INFORMACION DEL NUCLEO FAMILIAR**:
 
 * Indica el nombre, apellido y cédula de cada uno de los integrantes del grupo familiar (padre, madre, hermanos, hijos) del solicitante.
 
-**4.5 DECLARACION JURADA DEL SOLICITANTE**:
+**4.5. DECLARACION JURADA DEL SOLICITANTE**:
 
 * Indica la manifestación escrita que presenta el solicitante ante el FOMDES para dar fe de la veracidad de la documentación consignada.
 * **Firma**: Indica el campo para la firma y cédula del solicitante y cónyuge.
@@ -158,7 +158,7 @@ Descripción de Datos
 * **Parroquia**: Indica la parroquia en la que reside dentro del municipio.
 * **Fecha del taller**: Indica el día, mes y año en que se realizó el taller por parte del solicitante.
 
-**5.1 REQUISITOS EXIGIDOS AL SOLICITANTE**:
+**5.1. REQUISITOS EXIGIDOS AL SOLICITANTE**:
 
 * Llenar y entregar la planilla de “Propuesta de Financiamiento”.
 * Presentación de cédula de identidad laminada. De ser Extranjero: Carta de residencia. De estado civil Casado: Cédula de identidad del cónyuge.
@@ -183,13 +183,13 @@ Descripción de Datos
 * **Microempresas**:
 * Copia fotostática de los permisos de Sanidad, Ambiente y Bomberos. Para solicitudes menores de Bs. 100.000,00 NO se solicitará el Registro de Fondo de Comercio.
 
-**5.2 PARA EMPRESAS ESTABLECIDAS**:
+**5.2. PARA EMPRESAS ESTABLECIDAS**:
 
 * Estados Financieros de los dos últimos años (debidamente estructurados) y corte a la fecha.
 * Balance de Comprobación (Empresas con menos de dos años de establecidas).
 * Original (para su verificación) y copia fotostática de la Solvencia Laboral a nombre de la Gobernación del estado Bolivariano de Mérida, o Solvencia del Seguro Social, Solvencia del Instituto Nacional de Capacitación y Educación Socialista (INCES) y Solvencia del Banco Nacional de Vivienda y Hábitat (BANAVIH-FAOV).
 
-**5.3 REQUISITOS SEGUN EL RUBRO  A FINANCIAR**:
+**5.3. REQUISITOS SEGUN EL RUBRO  A FINANCIAR**:
 
 **Agrícola y pecuario**:
 
@@ -209,7 +209,7 @@ Descripción de Datos
 * Maquinarias y Equipos: presentar facturas proforma o documento de opción a compra o una exposición de motivos suficientemente fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como exitoso productor del estado Bolivariano de Mérida.
 * Insumos: presentar facturas proforma o una exposición de motivos fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios, para soportar el Plan de Inversión, y el monto estimado que requiere para lograr el buen desempeño como productor del estado Bolivariano de Mérida.
 * Unidad de Transporte (Tour Operativo): presentar facturas proforma, presupuesto de la repotenciación, copia del certificado del vehículo y copia del documento de propiedad.
-* Para los casos de turismo de aventura soportes de la actividad y documentación pertinente según sea el caso.
+* Para los casos de turismo de aventura presentar soportes de la actividad y documentación pertinente según sea el caso.
 
 **Artesanal**:
 
@@ -236,7 +236,7 @@ Descripción de Datos
 * Proformas de la materia, insumo, maquinarias, equipos; adquisición y repotenciación de las mismas e instalación; o una exposición de motivo fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios.
 * Infraestructura: ampliación y remodelación no podrá exceder del 40% del monto solicitado, presentar presupuesto breve descripción y el plano de la misma.
 
-**5.4 REQUISITOS DE ACUERDO A LA GARANTIA OFRECIDA**:
+**5.4. REQUISITOS DE ACUERDO A LA GARANTIA OFRECIDA**:
 
 **Letra de cambio con aval (Desde Bs. 20.000,00 hasta Bs. 200.000,00)**:
 
@@ -359,7 +359,7 @@ Descripción de Datos
 * **Precio de los productos/servicios**: Indica el valor monetario de los productos o servicios.
 * **Aspectos relativos a la comercialización y abastecimiento de materia prima e insumos**: Indica la descripción de los aspectos resaltantes de los canales de comercialización, distribución y suministro de maquinaria, equipos, materia prima e insumos.
 
-**7.4 ASPECTOS FINANCIEROS DEL PROYECTO**:
+**7.4. ASPECTOS FINANCIEROS DEL PROYECTO**:
 
 * **Plan de inversión y financiamiento**: Indica la descripción, aporte propio (Bs), aporte FOMDES (Bs) y total (Bs) del activo fijo (maquinaria y equipo usado,  maquinaria y equipo a adquirir, edificio/infraestructura, construcción y remodelaciones), otros activos (estudio económico y gastos legales), capital de trabajo (insumos de trabajo y mano de obra), tasa FLAT 2.5% (comisión tasa FLAT 2.5%), total de inversión y % de financiamiento.
 * **Ingresos mensuales del proyecto**: Indica los ingresos (Bs) del producto/servicio, cantidad mensual, precio unitario, total de ingresos mensuales.
@@ -367,8 +367,238 @@ Descripción de Datos
 * **Costos de producción**: Indica la materia prima e insumos utilizados, cantidades de medidas, precio unitario (Bs), costo unitario (Bs), producción mensual y costo mensual por producto elaborado.
 
 
+**8. GARANTIA DEL CREDITO - CARTA AVAL**:  Es un compromiso que adquiere el avalista para garantizar el retorno del crédito otorgado.
+
+* **Nombres y apellidos**: Indica el nombre y apellido del avalista.
+* **Cédula de identidad**: Indica el número de identificación del avalista.
+* **Profesión**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el avalista en la actualidad.
+* **Estado civil**: Indica la condición de parentesco del avalista.
+* **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
+* **Cédula de identidad**: Indica el número de identificación del solicitante.
+* **Profesión**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el solicitante en la actualidad.
+* **Estado civil**: Indica la condición de parentesco del solicitante.
+* **Estado**: Indica el estado en el que reside el solicitante.
+* **Nombres y apellidos**: Indica el nombre y apellido del cónyuge.
+* **Cédula de identidad**: Indica el número de identificación del cónyuge.
+* **Profesión**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el cónyuge en la actualidad.
+* **Fecha**: Indica el campo para la firma del solicitante, avalista y cónyuge.
+
+**8.1. DATOS DEL AVALISTA**:
+
+* **Dirección de habitación**: Indica el domicilio fiscal del avalista.
+* **Teléfono(s) fijo(s) y celular**: Indica el(los) teléfono(s) de habitación y móvil(es) del avalista.
+* **Nombre y dirección del trabajo**: Indica el lugar donde labora el avalista.
+* **Teléfono(s) del trabajo**: Indica el(los) teléfono(s) del lugar donde labora el avalista.
+* **Cargo**: Indica la condición laboral del avalista.
+* **Ingresos mensuales**: Indica la suma de dinero que percibe mensualmente el avalista.
+* **Otros ingresos**:  Indica la suma de dinero que percibe mensualmente el avalista derivados de otras actividades.
+* **Total de ingresos**:  Indica la suma de ingresos mensuales y otros ingresos que percibe mensualmente el avalista.
+
+**8.2. ACTIVOS FIJOS**:
+
+* Indica el tipo de bienes muebles e inmuebles junto con el valor en Bs que posee el avalista.
+
+**8.3. CUENTAS BANCARIAS**:
+
+* Indica el banco, cuenta y monto disponible de las cuentas bancarias del avalista.
+
+**8.4. REFERENCIAS PERSONALES**:
+
+* **Personal**: Indica el nombre y apellido, dirección y teléfonos de contacto de amistades que refieren de la buena fe del avalista.
+* **Familiar**: Indica el nombre y apellido, dirección y teléfonos de contacto de familiares que refieren de la buena fe del avalista.
+
+
+**9. PLANILLA DE SOLICITUD DEL CREDITO**: Es el resumen de los requisitos consignados por el solicitante para la aprobación del crédito.
+
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Funcionario FOMDES**: Indica el nombre y apellido del funcionario del FOMDES que procesa la solicitud.
+* **Fecha de recepción**: Indica el día, mes y año
+* **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
+* **Cédula de identidad**: Indica el número de identificación del solicitante.
+* **Dirección de habitación**: Indica el domicilio fiscal del solicitante.
+* **Sexo**: Indica el genero del solicitante, especificando masculino o femenino.
+* **Teléfono(s)**: Indica el(los) teléfono(s) de contacto del solicitante.
+* **Nacionalidad**: Indica la pertenencia del solicitante a una nación.
+* **Estado civil**: Indica la condición de parentesco del solicitante vinculada con otras personas, como soltero(a), casado(a), divorciado(a), viudo(a) u otro.
+* **Edad**: Indica la edad del solicitante, que debe ser mayor de 18 años.
+* **Profesión u oficio**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el solicitante en la actualidad.
+* **Cargo en la empresa**: Indica la labor que realiza dentro de la empresa.
+* **Posee cuenta en el banco**: Indica el nombre del banco asociado a la cuenta bancaria del solicitante.
+* **Nombre o razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Clase de firma**: Indica si posee una compañía, sociedad o firma personal.
+* **Dirección de la unidad productiva**: Indica el domicilio de la unidad de producción.
+* **Teléfonos**: Indica el(los) teléfono(s) de la unidad de producción.
+* **Localidad**: Indica el nombre de la localidad donde se ubica la unidad de producción.
+* **Municipio**: Indica el municipio donde se ubica la unidad de producción.
+* **Capital contable**: Indica la cantidad en Bsf del capital social de la empresa.
+* **Registro Mercantil**: Indica el numero del expediente constitutivo de la empresa en el Registro Mercantil.
+* **Fecha fundada**: Indica el día, mes y año de creación de la empresa.
+* **Local de la empresa**: Indica si el local donde funciona la empresa es propio o alquilado.
+* **Área m² arrendado mensual**: Indica los m² del área del local y si es alquilado el monto por concepto de alquiler.
+* **Sector**: Indica el sector o zona donde se ubica la empresa.
+* **Actividad**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
+* **Personal de la empresa**: Indica la cantidad de directivos, empleados y obreros en la actualidad, aumentados por el crédito y el total de personas.
+* **Clasificación CIIU**: Indica la clasificación internacional uniforme de las actividades económicas.
+* **Producto que elabora**: Indica la denominación genérica del(los) producto(s) derivado(s) de la actividad productiva.
+* **Materia prima utilizada**: Indica si la materia prima utilizada proviene a nivel nacional o internacional.
+* **Monto solicitado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+* **Plazo deseado**: Indica el tiempo máximo estimado para la cancelación total del crédito.
+* **Tipo de garantía ofrecida**: Indica el compromiso del solicitante a través de hipoteca, prendaria, fianza personal o fianza financiera para el otorgamiento del crédito.
+* **Descripción de la garantía ofrecida**: Indica el tipo de garantía, nombre y cédula del avalista.
+* **Tipo de crédito**: Indica si el crédito es nuevo o una ampliación del mismo.
+* **Destino que dará al crédito FOMDES**: Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y la comisión FLAT.
+* **Firma**: Indica el campo para la firma del solicitante y del funcionario del FOMDES.
+
+
+**10. Control previo**: Es el reporte de revisión realizado por el analista jurídico de las garantías ofrecidas por el solicitante.
+
+* **Código de análisis jurídico**: Indica el número y año de revisión.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+
+**10.1. DATOS DEL SOLICITANTE**:
+
+* **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
+* **Cédula de identidad**: Indica el número de identificación del solicitante.
+* **Profesión u oficio**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el solicitante en la actualidad.
+* **Dirección de habitación**: Indica el domicilio fiscal del solicitante.
+* **Teléfono(s)**: Indica el(los) teléfono(s) de contacto del solicitante.
+
+**10.2. DATOS DE LA EMPRESA**:
+
+* **Razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Dirección**: Indica el domicilio de la unidad de producción.
+* **Capital social**: Indica la cantidad en Bsf del capital social de la empresa.
+* **Datos del Registro Mercantil**: Indica el numero del expediente constitutivo de la empresa en el Registro Mercantil.
+* **Destino del crédito**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
+* **Plan de inversión**: Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y la comisión FLAT.
+* **Monto solicitado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+
+**10.3. DATOS DE LA GARANTIA**:
+
+* **Descripción de la garantía ofrecida**: Indica el tipo de garantía, nombre y cédula del avalista.
+* **Estatus de análisis jurídico**: Indica si la garantía cumple o no cumple con las políticas de financiamiento del FOMDES de acuerdo al sector.
+* **Fecha**: Indica el día, mes y año de revisión de las garantías.
+* **Firma**:  Indica el nombre, apellido y numero de Inpreabogado del abogado revisor.
+
+
+**11. PLANILLA DE INSPECCION**: Es el reporte de visita realizado por el analista económico a la unidad de producción.
+
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Representante legal**: Indica el nombre y apellido del solicitante.
+* **Cédula de identidad**: Indica el número de identificación del solicitante.
+* **Profesión u oficio**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el solicitante en la actualidad.
+* **Años de experiencia en la actividad**: Indica el tiempo en meses o años en que viene realizando la actividad propuesta.
+* **Teléfono celular**: Indica el(los) teléfono(s) móvil del solicitante.
+* **Razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Dirección**: Indica el domicilio de la unidad de producción.
+* **Municipio**: Indica el municipio en la que se ubica la unidad de producción.
+* **Parroquia**: Indica la parroquia en la que se ubica dentro del municipio.
+* **Tiempo de funcionamiento**: Indica los meses/años operativos de la unidad de producción. Especificar si es empresa promocional o establecida.
+* **Descripción de la actividad**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
+* **Cantidades de productos o servicios**: Indica la cantidad (unidad) y precio de venta (Bs por unidad) a nivel diario, semanal y mensual de los productos o servicios.
+* **Costos/gastos de la actividad**: Indica los montos mensuales de los costos de producción de materia prima e insumo y mano de obra directa, así como los gastos operativos de mano de obra indirecta, electricidad, agua, aseo, teléfono, alquiler, patente municipal, gastos de oficina y otros gastos.
+* **Sistema de producción empleado**: Indica si el proceso de fabricación del producto es manual o industrial.
+* **Cadena de comercialización empleada**: Indica la descripción de los aspectos resaltantes de los canales de comercialización y distribución de los productos.
+* **Sistema de ventas**: Indica los canales de venta del producto, especificando si es a crédito o de contado.
+* **Clientes**: Indica el número de clientes actuales y potenciales.
+* **Lugar de funcionamiento**: Indica la tenencia propia, alquilada o con autorización de la unidad de producción.
+* **Distribución del espacio físico**: Indica la dinámica de distribución del espacio físico de la unidad de producción.
+* **Condiciones físicas y sanitarias**: Indica la apreciación buena, regular o mala de las condiciones físicas y sanitarias de la unidad de producción.
+* **Maquinaria**: Indica la maquinaria observada en la visita a la unidad de producción.
+* **Materia prima en insumos**: Indica la materia prima e insumos observados en la visita a la unidad de producción.
+* **Observaciones**: Indica la apreciación subjetiva final del analista económico sobre la visita a la unidad de producción.
+* **Firma**: Indica el campo para nombre y cédula del solicitante y analista de crédito.
+
+
+**12. INFORME TECNICO**: Es el reporte de la evaluación económica realizada a la unidad de producción, presentado al Consejo Directivo.
+
+* **Consejo directivo Nº**: Indica el numero de consejo directivo al cual va dirigido el informe técnico.
+* **Fecha del consejo directivo**: Indica el día, mes y año en que se realizará el consejo directivo.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Tipo de crédito**: Indica si el crédito es nuevo o una ampliación del mismo.
+* **Sector**: Indica la actividad relacionada con el sector Agrícola y Pecuario, Turismo, Artesanal, Ciencia y Tecnología, Pequeña y Mediana Empresa, Pequeña y Mediana Industria y Microempresas.
+* **Fecha de elaboración**: Indica el día, mes y año de realización del informe.
+* **Tipo de empresa**: Indica si el crédito es para una empresa promocional o establecida.
+
+**12.1. DATOS DEL REPRESENTANTE LEGAL**:
+
+* **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
+* **Cédula de identidad**: Indica el número de identificación del solicitante.
+* **Edad**: Indica la edad del solicitante, que debe ser mayor de 18 años.
+* **Ocupación**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el solicitante en la actualidad.
+* **Dirección de habitación**: Indica el domicilio fiscal del solicitante.
+* **Saldo del balance personal**: Indica el valor estimado de los activos que posee el solicitante.
+
+**12.2. DATOS DE LA EMPRESA**:
+
+* **Razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Ubicación**: Indica el domicilio de la unidad de producción.
+* **Actividad**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
+* **Organización jurídica**: Indica si ya tiene el registro de la empresa o se encuentra en tramite.
+
+**12.3. DESTINO DEL CREDITO**:
+
+* **Plan de inversión**: Indica los montos totales por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y la comisión FLAT.
+* **Evaluación económica y financiera**: Indica la viabilidad económica y financiera de la actividad propuesta.
+* **Garantía**: Indica el tipo de garantía, nombre y cédula del avalista.
+* **Observaciones**: Indica la apreciación subjetiva final del analista económico sobre la visita a la unidad de producción.
+* **Recomendaciones**: Indica la recomendación ante el consejo directivo para la aprobación del crédito, el periodo de gracia y el número de cuotas para la cancelación total del crédito.
+* **Firma**: Indica el nombre y firma del analista responsable y gerente de crédito.
+* **Informe fotográfico de la inspección**: Indica el expediente, la fecha de la visita y un máximo de 8 fotos tomadas a la unidad de producción.
+
+
+**13. DECISION CONSEJO DIRECTIVO**: Es la notificación de la decisión del consejo directivo referente a la aprobación o negación del crédito.
+
+* **Consejo directivo Nº**: Indica el numero de consejo directivo al cual va dirigido el informe técnico.
+* **Fecha del consejo directivo**: Indica el día de la semana, día, mes y año en que se realizó el consejo directivo.
+* **Hora del consejo directivo**: Indica la hora en que comenzó el consejo directivo.
+* **Miembros del consejo directivo**: Indica el nombre, apellidos y cargo de cada uno de los miembros presentes en el consejo directivo.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y número del expediente.
+* **Razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Representante legal**: Indica el nombre y apellido del solicitante.
+* **Garantía**: Indica el tipo de garantía, nombre y cédula del avalista.
+* **Estatus de decisión**: Indica si se aprobó o rechazó el crédito propuesto.
+* **Plan de inversión**: Indica los periodos de pago, tipo de periodo de pago, periodo de gracia, tipo de periodo de gracia y montos totales por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y la comisión FLAT.
+* **Firma**: Indica el nombre, apellido y firma de la secretaria ejecutiva.
+
+
+**14. RECIBO DEL DOCUMENTO DE CREDITO**: Es la constancia de entrega del documento de crédito al beneficiario para ser autenticado o protocolizado.
+
+* **Fecha de entrega**: Indica el día de la semana, día, mes y año de entrega del documento de crédito al beneficiario.
+* **Nombres y apellidos**: Indica el nombre y apellido del beneficiario.
+* **Cédula de identidad**: Indica el número de identificación del beneficiario.
+* **Sector**: Indica la actividad relacionada con el sector Agrícola y Pecuario, Turismo, Artesanal, Ciencia y Tecnología, Pequeña y Mediana Empresa, Pequeña y Mediana Industria y Microempresas.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Lapso para ser devuelto**: Indica el tiempo en días continuos para devolver el documento protocolizado a la secretaria ejecutiva.
+* **Firma**: Indica el nombre, apellido, cedula y firma del beneficiario y de la secretaria ejecutiva.
+
+
+**15. ASESORIA PARA EL DESTINO DEL CREDITO**: Es una guía de las normativas que debe cumplir el beneficiario con el otorgamiento del crédito.
+
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Representante legal**: Indica el nombre y apellido del beneficiario.
+* **Monto aprobado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+* **Fecha**: Indica el nombre del estado, día, mes y año de entrega del documento de asesoría.
+* **Firma**: Indica el nombre, cedula y firma del beneficiario y funcionario del FOMDES.
+
 
 Diccionario de Datos
 --------------------
 
-Detalles de campos, tipo, numero de caracteres, etc.
+**Etapa 1: Solicitud del crédito**
+
+    * **Nombre de planilla**: Propuesta de financiamiento
+    * **Descripción**:
+
+    .. tabularcolumns:: |p{4cm}|p{7cm}|p{4cm}|
+
+    .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+         - | Descripción
+       * - Nº de propuesta
+         - Numérico
+         - Indica el número de propuesta de financiamiento especificado por el servidor público receptor

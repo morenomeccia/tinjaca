@@ -9,10 +9,6 @@ Descripción
 
 Este módulo abarca los procesos de "Recepción de propuestas" y "Recepción y Evaluación de Solicitudes". Incluye procedimientos asociados con la recepción y validación de la propuesta de financiamiento, validación de recaudos para solicitud de crédito y generación del listado de expedientes sugeridos para aprobación de créditos.
 
-Usuarios
---------
-
-Información de Crédito, Análisis Jurídico, Análisis Económico, Gerente de Crédito.
 
 Procedimientos
 --------------
@@ -41,34 +37,34 @@ Procedimientos
          - Registro del envio de requisitos
        * - Incluir al solicitante en la lista del “Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario”
          - Analista de credito
-         - Lista del taller
+         - Lista del taller de potenciales beneficiarios
        * - Registro en lista de espera de los potenciales beneficiarios que no asistan al taller
          - Analista de credito
-         - Lista de espera
+         - Lista de espera de potenciales beneficiarios
        * - Registro de la validez de los requisitos
          - Analista de credito
          - Validez de los requisitos
        * - Creación de expediente con código por sector
          - Analista de credito
-         - ???
+         - Codigo de expediente
        * - Generar informes POA
          - Analista de credito
-         - ???
+         - Informe POA
        * - Registro de la validez legal de la garantía
          - Analista Jurídico
          - Validez legal de garantia
        * - Generacion del informe de control previo
          - Analista Jurídico
-         - ???
+         - Informe control previo
        * - Asignacion el estatus de “CUMPLE”, “NO CUMPLE” o “CUMPLE CONDICIONADO” para las garantías
          - Analista Juridico
          - Estatus de la garantia
        * - Envio del expediente a la estación de Análisis Económico
          - Analisis Juridico
-         - ???
+         - Registro de envio
        * - Generación de rutas para visitar la unidad de producción
          - Analista Económico
-         - ???
+         - Lista de ruta
        * - Registro de la viabilidad económica de la unidad de producción
          - Analista Económico
          - Viabilidad económica de la unidad de producción
@@ -101,58 +97,30 @@ Procedimientos
          - Tasas de interés
        * - Seleccionar los proyectos que van al consejo directivo
          - Gerente de credito
-         - ???
+         - Lista de beneficiarios
        * - Envío de expediente a la Secretaría ejecutiva
          - Gerente de crédito
-         - ???
+         - Registro de envio
        * - Generacion de una lista de rezagados en caso de que se termine el presupuesto pautado
          - Gerente de credito
-         - ???
+         - Lista de potenciales beneficiarios
        * - Realizar reportes por municipio, por rubro, por estatus y por rango de fechas
          - Gerente de credito
-         - ???
+         - Reporte de expedientes
        * - Distribucion de los analistas económicos por municipios y parroquias para realizar las inspecciones
          - Gerente de credito
          - Tabla de distribucion de los analistas economicos.
+       * - Posesion de permisos para modificar o corregir datos en el sistema.
+         - Gerente de credito
+         - Datos en el sistema
        * - Envio del expediente a la estación de Análisis Jurídico
          - Analista de credito
-         - ???
+         - Registro de envio
        * - Modificacion de la solicitud de requisitos de acuerdo al sector, a los montos, a los rubros y tipo de empresa.
          - Analista de credito
          - Solicitud del dato
 
-Campos modificados de cada entidad
-----------------------------------
 
-- Solicitante: 
-
-	* Todos los campos del Solicitante
-
-- Potencial beneficiario:
-
-	* Todos los campos del Potencial beneficiario
-	
-- Beneficiario:
-
-	* Todos los campos del Beneficiario
-	
-- Propuesta de financiamiento:
-
-	* Todos los campos de la Propuesta de financiamiento.
-	* Viabilidad de la propuesta
-
-- Expediente:
-
-	* Viabilidad de los requisitos.
-	* Validez legal de la garantia.
-	* Viabilidad económica de la unidad de producción.
-	* Informe de inspección de la unidad de producción.
-	* Informe de avalúo de la garantia.
-	* Informe técnico de la garantia.
-
-- Lista de convocados al “Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario”
-
-- Lista de expedientes para consideración del Consejo Directivo.
 
 Módulo Secretaría
 =================
@@ -162,10 +130,6 @@ Descripción
 
 Este módulo abarca los procesos de "Aprobación de Créditos". Incluye los procedimientos asociados con la recepción de la lista de expedientes sugeridos para aprobación de crédito, la elaboración del Documento de Crédito y constitución de la empresa (de requerirse) para cada uno de los beneficiarios(as).
 
-Usuarios
---------
-
-Secretaría Ejecutiva, Presupuesto, Consejo Directivo, Presidente.
 
 Procedimientos
 --------------
@@ -236,21 +200,8 @@ Procedimientos
 		  - Indicadores clave de rendimiento
 
 
-Campos modificados de cada entidad
-----------------------------------
 
-- Expediente:
-
-	* Prioridad
-	* Estatus
-
-- Documento de credito:
-
-	* Todos los campos
-
-- Agenda con la lista de expedientes priorizados para consideración del Consejo Directivo.
-
-Modulo Administración 
+Modulo Administración
 =====================
 
 Descripción
@@ -258,11 +209,6 @@ Descripción
 
 Este módulo abarca los procesos de "Liquidación de créditos" y "Liberación de Créditos".
 Incluye procedimientos relacionados con la consignación de los documentos notariados por parte de los beneficiarios hasta la entrega del cheque respectivo y con la liberación de los créditos. Procedimientos asociados con las actividades relativas a la liberación de los créditos.
-
-Usuarios
---------
-
-Secretaria Ejecutiva, Presupuesto, Administración, Presidencia.
 
 Procedimientos
 --------------
@@ -294,7 +240,7 @@ Procedimientos
 		  - Orden del cheque
 		* - Enviar expediente a la unidad de Acompañamiento y Asistencia Técnica
 		  - Administracion
-		  - ???
+		  - Registro de envio
 		* - Generación de documento de liquidación del crédito
 		  - Administración
 		  - Documento de liquidación del crédito
@@ -303,7 +249,7 @@ Procedimientos
 		  - Estatus del expediente
 		* - Registro de la entrega del documento de liberación del crédito
 		  - Administración
-		  - ???
+		  - Registro de entrega
 		* - Envío del expediente a archivo una vez liberado
 		  - Administración
 		  - Registro de envio
@@ -325,6 +271,9 @@ Procedimientos
         * - Anulacion de recibos por cheques devueltos y actualizacion del estado de cuenta revirtiendo el pago de las cuotas en el estado de cuenta y recalculando los intereses de las cuotas subsiguientes
 		  - Gerente de administración
   		  - Estado de cuenta
+        * - Posesion de permisos para modificar o corregir datos en el sistema.
+          - Gerente de administracion
+          - Datos en el sistema
 		* - Registro de los pagos de los beneficiarios o beneficiarias para la cancelación de cuotas de los crédito
 		  - Cajero
   		  - Estado de cuenta
@@ -360,24 +309,10 @@ Procedimientos
   		  - Ingreso total
         * - Creacion de un reporte con el total de personas atendidas diariamente
 		  - Cajero
-  		  - ???
+  		  - Reporte de beneficiarios
 
 
-Campos modificados de cada entidad
-----------------------------------
-
-- Expediente
-
-	* Disponibilidad para liquidación del crédito.
-	* Orden de liquidacion y cheque.
-	* Estatus
-
-- Estado de cuentas:
-
-	* Todos los campos 
-	
-
-Módulo Acompañamiento 
+Módulo Acompañamiento
 =====================
 
 Descripción
@@ -385,10 +320,6 @@ Descripción
 
 Este módulo abarca los procesos de "Inspección de Inversiones". Incluye procedimientos asociados a la verificación de la ejecución del plan de inversión por parte del beneficiario.
 
-Usuarios
---------
-
-Acompañamiento y Asistencia Técnica, Archivo, Gerente de Recuperaciones.
 
 Procedimientos
 --------------
@@ -459,24 +390,16 @@ Procedimientos
        * - Generar formato de charla          
 		 - Jefe de acompañamiento
 		 - Plantilla de la charla
-       * - Envio del expediente a otras estaciones junto con nota explicativa         
+       * - Consulta de los depósitos de las cuotas
+         - Jefe d  acompañamiento
+         - Depositos de cuotas
+       * - Envio del expediente a otras estaciones junto con nota explicativa
 		 - Jefe de acompañamiento
 		 - Registro de envio.
 
-Campos modificados de cada entidad
-----------------------------------
-
-- Expediente:
-
-	* Recomendación del beneficiario para liquidaciones sucesivas.
-	* Número de archivo.
-
-- Informe de verificación de la inversión:
-
-	* Todos los campos.
 	
 
-Módulo Caja 
+Módulo Caja
 ===========
 
 Descripción
@@ -484,13 +407,9 @@ Descripción
 
 Este módulo abarca los procesos de "Pagos". Incluye procedimientos asociados con las actividades de recepción de pagos y actualización de estados de cuenta de beneficiarios o beneficiarias.
 
-Usuarios
---------
-
-Caja, Ejecutivo de cobranza.
 
 Procedimientos
---------------	
+--------------
 
   .. list-table::
        :widths: 40 70 40
@@ -509,13 +428,7 @@ Procedimientos
        * - Generación de solicitud de liberación a la unidad de Consultoría Jurídica en caso de último pago (cancelación total del crédito). 
          - Ejecutivo de cobranza (caja).
          - Registro de solicitud de liberacion.
-         
-Campos modificados de cada entidad
-----------------------------------
 
-- Pagos:
-	
-	* Todos los campos (nuevos registros).
 
 
 Módulo Recuperaciones 
@@ -526,10 +439,6 @@ Descripción
 
 Este módulo abarca los procesos de "Gestión de cobranzas". Incluye procedimientos asociados con las actividades de recepción de pagos, actualización de estados de cuenta de beneficiarios y trámites y gestión de recuperación de pagos caídos por parte de los beneficiarios.
 
-Usuarios
---------
-
-Gerente de Recuperaciones, Ejecutivo de cobranza, Administración.
 
 Procedimientos
 --------------
@@ -541,81 +450,69 @@ Procedimientos
        * - | Procedimiento
          - | Responsable
          - | Datos accedidos o modificados
-		* - Generacion de factura con los datos del beneficiario, monto aprobado, tasas de interés y cuotas
-		  - Jefe del departamento de estadística y auditoria de cobranza
-		  - Factura de cobranza.
-		* - Generacion de reporte desglosado por niveles de morosidad
-          - Jefe del departamento de estadística y auditoría de cobranza
-		  - Generacion de reporte
-        * - Registro de exoneracion en el cobro del crédito
-          - Jefe del departamento de estadística y auditoría de cobranza
-		  - Registro de exoneracion en el cobro del crédito
-        * - Generacion de lista con los beneficiarios que se deben visitar por fecha, municipio y sectores en el caso que existan cuotas vencidas
-          - Ejecutivo de cobranza
-		  - Cuotas vencidas, lista de beneficiarios
-        * - Filtrado de estados de cuentas por cédula y expediente
-          - Ejecutivo de cobranza
-		  - Estado de cuentas
-        * - Acceso a los estados de cuenta desde la cartera de cobranza
-          - Ejecutivo de cobranza
-		  - Estado de cuenta
-        * - Consulta del estado de cuenta del beneficiario o beneficiaria
-          - Ejecutivo de cobranza
-		  - Estado de cuenta
-        * - Consulta de los depósitos realizados por el beneficiario o beneficiaria
-          - Ejecutivo de cobranza
-		  - Depositos
-        * - Generacion del reporte del ingreso diario de caja
-          - Ejecutivo de cobranza
-		  - Reporte del ingreso diario de caja
-        * - Registro de los beneficiarios atendidos diariamente
-          - Ejecutivo de cobranza
-		  - Registro de los beneficiarios atendidos diariamente
-        * - Cambio del estado del beneficiario según su morosidad
-          - Gerente de recuperaciones
-		  - Estado de morosidad
-        * - Creacion de carteras de cobranza
-          - Ejecutivo de cobranza
-		  - Carteras de cobranza
-        * - Establecimiento de metas diarias de recuperación
-          - Ejecutivo de cobranza
-		  - Metas diarias de recuperación
-        * - Creacion de notas con los acuerdos e información suministrada por el beneficiario
-          - Ejecutivo de cobranza
-		  - Notas con acuerdos
-        * - Consulta de notas con los acuerdos e información suministrada por el beneficiario
-          - Ejecutivo de cobranza
-		  - Notas con acuerdos
-        * - Creacion de recordatorios con las fechas de compromiso de pago del beneficiario
-          - Ejecutivo de cobranza
-		  - Recordatorios con las fechas de compromiso de pago
-        * - Ordenamiento de los expedientes por niveles de morosidad en las carteras
-          - Ejecutivo de cobranza
-		  - Nivel de morosidad del expediente
-        * - Verificacion de la validez de los depósitos bancarios para los pagos
-          - Ejecutivo de cobranza
-		  - Validez de los depósitos bancarios
-		* - Generación de solicitud de entrevista con un abogado de la unidad de Recuperaciones en caso de estado extrajudicial por mora.
-          - Gerente de Recuperaciones.
-          - Registro de solicitud de entrevista.
-		* - Generar informe de seguimiento al beneficiario. 
-          - Ejecutivo de cobranza.
-          - Informe de seguimiento.
-		* - Consultar estado de cuenta filtrando por estado de morosidad. 
-          - Ejecutivo de cobranza.
-          - Estado de cuenta
-		* - Cambiar estatus del credito a demanda en el caso que lo amerite.
-          - Gerente de Recuperaciones.
-          - Estatus del credito
+       * - Generacion de lista con los beneficiarios que se deben visitar por fecha, municipio y sectores en el caso que existan cuotas vencidas
+         - Ejecutivo de cobranza
+         - Cuotas vencidas, lista de beneficiarios
+       * - Filtrado de estados de cuentas por cédula y expediente
+         - Ejecutivo de cobranza
+         - Estado de cuentas
+       * - Acceso a los estados de cuenta desde la cartera de cobranza
+         - Ejecutivo de cobranza
+         - Estado de cuenta
+       * - Consulta del estado de cuenta del beneficiario o beneficiaria
+         - Ejecutivo de cobranza
+         - Estado de cuenta
+       * - Consulta de los depósitos realizados por el beneficiario o beneficiaria
+         - Ejecutivo de cobranza
+         - Depositos
+       * - Generacion del reporte del ingreso diario de caja
+         - Ejecutivo de cobranza
+         - Reporte del ingreso diario de caja
+       * - Registro de los beneficiarios atendidos diariamente
+         - Ejecutivo de cobranza
+         - Registro de los beneficiarios atendidos diariamente
+       * - Cambio del estado del beneficiario según su morosidad
+         - Gerente de recuperaciones
+         - Estado de morosidad
+       * - Creacion de carteras de cobranza
+         - Ejecutivo de cobranza
+         - Carteras de cobranza
+       * - Establecimiento de metas diarias de recuperación
+         - Ejecutivo de cobranza
+         - Metas diarias de recuperación
+       * - Creacion de notas con los acuerdos e información suministrada por el beneficiario
+         - Ejecutivo de cobranza
+         - Notas con acuerdos
+       * - Consulta de notas con los acuerdos e información suministrada por el beneficiario
+         - Ejecutivo de cobranza
+         - Notas con acuerdos
+       * - Creacion de recordatorios con las fechas de compromiso de pago del beneficiario
+         - Ejecutivo de cobranza
+         - Recordatorios con las fechas de compromiso de pago
+       * - Ordenamiento de los expedientes por niveles de morosidad en las carteras
+         - Ejecutivo de cobranza
+         - Nivel de morosidad del expediente
+       * - Verificacion de la validez de los depósitos bancarios para los pagos
+         - Ejecutivo de cobranza
+         - Validez de los depósitos bancarios
+       * - Generación de solicitud de entrevista con un abogado de la unidad de Recuperaciones en caso de estado extrajudicial por mora.
+         - Gerente de Recuperaciones.
+         - Registro de solicitud de entrevista.
+       * - Generar informe de seguimiento al beneficiario.
+         - Ejecutivo de cobranza.
+         - Informe de seguimiento.
+       * - Consultar estado de cuenta filtrando por estado de morosidad.
+         - Ejecutivo de cobranza.
+         - Estado de cuenta
+       * - Cambiar estatus del credito a demanda en el caso que lo amerite.
+         - Gerente de Recuperaciones.
+         - Estatus del credito
+       * - Posesion de permisos para modificar o corregir datos en el sistema.
+         - Gerente de Recuperaciones
+         - Datos en el sistema
 
 
-Campos modificados de cada entidad
-----------------------------------
 
-- Expediente
-
-	* Estatus
-	
 Módulo Consultoria Jurídica
 ===========================
 
@@ -624,10 +521,6 @@ Descripción
 
 Este módulo abarca los procesos asistidos por los consultores jurídicos en: "Liquidación de créditos", "Liberación de créditos" y "Gestión de cobranza". Incluye procedimientos asociados a la redacción de documentos jurídicos y cambio de estatus del expediente.
 
-Usuarios
---------
-
-Consultoría Jurídica.
 
 Procedimientos
 --------------
@@ -654,21 +547,17 @@ Procedimientos
        * - Consulta de los expedientes con estatus “demanda” o "liberado"
          - Consultoría Jurídica
          - Todos los datos del expediente seleccionados
-       * - Generacion de documento de demanda y documento de liberacion
+       * - Generacion de documento de demanda
          - Consultoria Juridica
-         - ???
+         - Documento de demanda
+       * - Generacion de documento de liberacion
+         - Consultoria Juridica
+         - Documento de demanda
        * - Envio de los expedientes con procesos culminados a Archivo
          - Consultoria Juridica
-         - ???
+         - Registro de envio
 
 
-Campos modificados de cada entidad
-----------------------------------
-
-- Expediente
-
-	* Estatus
-	* Documentos legales asociados
 
 Módulo Archivo
 ==============
@@ -678,10 +567,6 @@ Descripción
 
 Este módulo abarca "Recepción y Evaluación de solicitudes", "Inspección de inversiones", "Liberación de créditos", "Gestión de cobranza". Incluye procedimientos asociados al control de la ubicación de los expedientes dentro de los distintos departamentos del FOMDES.
 
-Usuarios
---------
-
-Potencial beneficiario, Beneficiario, Solicitante.
 
 Procedimientos
 --------------
@@ -695,19 +580,23 @@ Procedimientos
          - | Datos accedidos o modificados
        * - Ingreso de nuevos expedientes.
          - Archivólogo.
-         - ???
+         - Codigo de expediente
        * - Registro de responsables por expediente solicitado.
          - Archivólogo.
-         - Registro de responsables por expediente solicitado.
+         - Lista de responsables por expediente solicitado.
+       * - Registro de historial con detalle de movimientos de los expedientes
+         - Archivologo
+         - Historial de movimiento del expediente
        * - Consulta por código de expediente.
          - Archivólogo.
-         - ???
+         - Codigo de expediente
        * - Consulta lista de expedientes por departamento.
          - Archivólogo.
-         - ???
+         - Lista de codigos de expediente
+       * - Envio de los expedientes a diferentes dependencias
+         - Archivologo
+         - Registro de envio
 
-Campos modificados de cada entidad
-----------------------------------
 
 
 Módulo Estadística
@@ -718,10 +607,6 @@ Descripción
 
 Este módulo abarca los procesos que demandan análisis y cálculos estadísticos. Incluye procedimientos de generacion de estadísticas para el apoyo en la toma de decisiones por parte de las gerencias y directiva de FOMDES.
 
-Usuarios
---------
-
-Estadística y Análisis de Riesgo.
 
 Procedimientos
 --------------
@@ -730,13 +615,25 @@ Procedimientos
        :widths: 40 70 40
        :header-rows: 1
 
-       * - Generar trimestralmente un reporte estadístico de todas las solicitudes ingresadas
+
+       * - | Procedimiento
+         - | Responsable
+         - | Datos accedidos o modificados
+       * - Generacion trimestral un reporte estadístico de todas las solicitudes ingresadas
          - Analista de credito
          - Solicitudes ingresadas
-       * -
-
-Campos modificados de cada entidad
-----------------------------------
+       * - Generacion de factura con los datos del beneficiario, monto aprobado, tasas de interés y cuotas
+    	 - Jefe del departamento de estadística y auditoria de cobranza
+		 - Factura de cobranza.
+	   * - Generacion de reporte desglosado por niveles de morosidad
+         - Jefe del departamento de estadística y auditoría de cobranza
+    	 - Generacion de reporte
+       * - Registro de exoneracion en el cobro del crédito
+         - Jefe del departamento de estadística y auditoría de cobranza
+		 - Registro de exoneracion en el cobro del crédito
+       * - Agrupa en los reportes estadísticos de las solicitudes por sector dentro de cada unicipio, con el conteo y suma de los montos solicitados, y las totalizaciones.
+         - Gerente de credito
+         - Reportes estadísticos de las solicitudes
 
 Módulo Presidencia
 ==================
@@ -746,10 +643,6 @@ Descripción
 
 Este módulo abarca los procesos en los que interviene la gestión directa del presidente del FOMDES. Incluye procedimientos de evaluación y coordinación con las gerencias para las tomas de decisiones.
 
-Usuarios
---------
-
-Presidente.
 
 Procedimientos
 --------------
@@ -761,10 +654,22 @@ Procedimientos
        * - | Procedimiento
          - | Responsable
          - | Datos accedidos o modificados
+       * - Monitoreo del ingreso diario de caja y cumplimiento de metas
+         - Presidente
+         - Ingreso diario de caja
+       * - Revision y firma de los cheques
+         - Presidente
+         - Cheques
+       * - Envio de los cheques firmados a secretaria ejecutiva
+         - Presidente
+         - Registro de envio
+       * - Revision de montos, intereses y plazos de las solicitudes de crédito
+         - Presidente
+         - Solicitudes de potenciales beneficiarios
+       * - Evaluacion y valoracion de indicadores clave de rendimiento y variables políticas
+         - Presidente
+         - Indicadores clave de rendimiento
 
-
-Campos modificados de cada entidad
-----------------------------------
 
 Módulo Beneficiario
 ===================
@@ -774,10 +679,6 @@ Descripción
 
 Este módulo abarca "Recepción y Evaluación de solicitudes" y "Recepción de propuestas",  Incluye procedimientos asociados al control de la ubicación de los expedientes dentro de los distintos departamentos del FOMDES.
 
-Usuarios
---------
-
-Archivólogo.
 
 Procedimientos
 --------------
@@ -797,10 +698,10 @@ Procedimientos
          - Datos personales del beneficiario
        * - Consulta del estado de mis solicitudes.
          - Potencial beneficiario, Beneficiario, Solicitante.
-         - ???
+         - Estatus de solicitud
        * - Consulta del estado de mis créditos
          - Beneficiario
-         -
+         - Estatus de expediente
        * - Ejecucion de pagos en línea
          - Beneficiario
          - Estado de cuenta
@@ -817,11 +718,6 @@ Descripción
 
 Este módulo abarca "Recepción y Evaluación de solicitudes",  Incluye procedimientos asociados al control de la ubicación de los expedientes dentro de los distintos departamentos del FOMDES.
 
-
-Usuarios
---------
-
-Recepcionista.
 
 Procedimientos
 --------------
@@ -847,4 +743,9 @@ Procedimientos
          - Visitantes por rango de fecha y cedula
        * - Generacion de colas por orden de atención y por dependencia
          - Recepcionista
-         - ???
+         - Lista de beneficiarios
+
+
+
+
+
