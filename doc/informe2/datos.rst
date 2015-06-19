@@ -613,6 +613,18 @@ Descripción de Datos
 * **Dirección de habitación**: Indica el domicilio fiscal del avalista.
 
 
+**17. DOCUMENTO DE LA EMPRESA**: Es un documento constitutivo que sirve como la base legal para la  inauguración de la empresa con un fin específico o variado.
+
+* **Nombres y apellidos**: Indica el nombre y apellido del beneficiario.
+* **Cédula de identidad**: Indica el número de identificación del beneficiario.
+* **Estado civil**: Indica la condición de parentesco del beneficiario vinculada con otras personas, como soltero(a), casado(a), divorciado(a), viudo(a) u otro.
+* **Profesión u oficio**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el beneficiario en la actualidad.
+* **Municipio**: Indica el municipio en el que reside el beneficiario.
+* **Nombre de la unidad productiva o razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Actividad por realizar o que realiza**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
+* **Dirección de la unidad productiva**: Indica el domicilio de la unidad de producción.
+* **Capital contable**: Indica la cantidad en Bsf del capital social de la empresa.
+* **Firma**: Indica el campo para la firma y cédula del beneficiario.
 
 
 
