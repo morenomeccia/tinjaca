@@ -6,6 +6,8 @@
 Descripción de Datos
 --------------------
 
+Para definir la organización y registro de los datos en el sistema TINJACA se tomaron los formatos y planillas de las diferentes gerencias y dependencias del FOMDES presentes en el expediente, para crear el diseño de la estructura de la base de datos.
+
 **1. PROPUESTA DE FINANCIAMIENTO**: Es el resumen de la oferta de negocio para la solicitud del crédito.
 
 * **Nº de propuesta**:  Indica el número de propuesta de financiamiento especificado por el servidor público receptor.
@@ -627,7 +629,7 @@ Descripción de Datos
 * **Firma**: Indica el campo para la firma y cédula del beneficiario.
 
 
-**18. ORDEN DE LIQUIDACION**: Es el comprobante de egreso del crédito otorgado al beneficiario.
+**18. ORDEN DE LIQUIDACION**: Es el constancia de egreso del crédito otorgado al beneficiario.
 
 **18.1. DATOS DEL EXPEDIENTE**:
 
