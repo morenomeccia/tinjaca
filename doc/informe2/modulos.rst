@@ -331,68 +331,37 @@ Procedimientos de ingreso de datos
        * - Ingreso de los datos asociados a la verificación de la inversión
          - Jefe de acompañamiento
          - Datos asociados a la verificación de la inversión
-       * - Recomendación del beneficiario para liquidaciones sucesivas en caso de que pase la inspeccion
+       * - Registro de la recomendación del beneficiario para liquidaciones sucesivas en caso de que pase la inspeccion
          - Jefe de acompañamiento
          - Recomendación del beneficiario para liquidaciones sucesivas.
-       * - Ingreso del código del expediente a la lista de Archivo.
+       * - Envio del expediente a Archivo.
          - Jefe de acompañamiento
-         - Lista de Archivo
+         - Estacion del expediente
        * - Envio del expediente a la unidad de Recuperaciones
          - Jefe de acompañamiento
-         - Registro de envio
-       * - Registro de la cantidad de empleos generados directos e indirectos por cada crédito
-         - Jefe de acompañamiento
-         - Registro de la cantidad de empleos
-       * - Notificacion con la lista de créditos liquidados desde administración
-         - Jefe de acompañamiento
-       * - Consulta de la información del beneficiario
-         - Jefe de acompañamiento
-		 - Datos del beneficiario
-       * - Consulta de la información del crédito
-         - Jefe de acompañamiento
-		 - Datos del crédito
-       * - Consultar el apodo del beneficiario
-         - Jefe de acompañamiento
-		 - Apodo del beneficiario
-       * - Llevar un registro de los beneficiarios y beneficiarias atendidos por fecha y hora
+         - Estacion del expediente
+       * - Envio del expediente a consultoria 
+		 - Jefe de acompañamiento
+         - Estacion del expediente
+       * - Ingreso de nota explicativa para la siguiente estacion
+		 - Jefe de acompañamiento
+         - Nota explicativa
+       * - Registrar los beneficiarios atendidos con fecha y hora
          - Jefe de acompañamiento
 		 - Registro de beneficiarios atendidos.
-       * - Generacion de informe de acompañamiento          
+       * - Ingreso de fotografías de las inspecciones          
 		 - Jefe de acompañamiento
-		 - Datos del informe de acompañamiento.
-       * - Generacion de reportes con formato para las minuta
-		 - Jefe de acompañamiento
-		 - plantilla de la minuta
-       * - Guardado de fotografías de las inspecciones          
-		 - Jefe de acompañamiento
-		 - Fotografias de las inspecciones
+		 - Codigo de fotografias de las inspecciones
        * - Generacion de notas de visitas de inspección, atención en oficina o llamadas telefónicas          
 		 - Jefe de acompañamiento
-		 - Plantilla de las notas
-       * - Consulta de notas de visitas de inspección, atención en oficina o llamadas telefónicas
-		 - Jefe de acompañamiento
-		 - Plantilla de las notas
+		 - Datos de las notas
        * - Edicion de los datos del beneficiario.         
 		 - Jefe de acompañamiento
 		 - Datos del beneficiario
-       * - Generacion de notificación de acompañamiento          
-		 - Jefe de acompañamiento
-		 - Plantilla de notificación de acompañamiento 
-       * - Generacion de minuta de atención en oficina para las declaraciones de los beneficiarios          
-		 - Jefe de acompañamiento
-		 - Plantilla de la minuta de atencion
        * - Registro de los casos donde las visitas no son atendidas
 		 - Jefe de acompañamiento
-		 - Registro de los casos donde las visitas no son atendidas
-       * - Generar formato de charla          
-		 - Jefe de acompañamiento
-		 - Plantilla de la charla
-       * - Consulta de los depósitos de las cuotas
-         - Jefe d  acompañamiento
-         - Depositos de cuotas
-       * - Envio del expediente a otras estaciones junto con nota explicativa
-		 - Jefe de acompañamiento
-		 - Registro de envio.
+		 - Datos de los casos donde las visitas no son atendidas
+
 
 Procedimiento de generacion de reportes
 ---------------------------------------
@@ -404,6 +373,43 @@ Procedimiento de generacion de reportes
 	   * - | Procedimiento
 		 - | Responsable
 		 - | Reporte de salida	
+       * - Registro de la cantidad de empleos generados directos e indirectos por cada crédito
+         - Jefe de acompañamiento
+         - Cantidad de empleos
+       * - Consulta de la lista de créditos liquidados por administración
+         - Jefe de acompañamiento
+		 - Lista de créditos liquidados
+       * - Consulta de la información del beneficiario
+         - Jefe de acompañamiento
+		 - Datos del beneficiario
+       * - Consulta de la información del crédito
+         - Jefe de acompañamiento
+		 - Datos del crédito
+       * - Consulta de los beneficiarios atendidos por fecha y hora
+         - Jefe de acompañamiento
+		 - Registro de beneficiarios atendidos.
+       * - Generacion de informe de acompañamiento          
+		 - Jefe de acompañamiento
+		 - Informe de acompañamiento.
+       * - Generacion de reportes con formato para las minutas
+		 - Jefe de acompañamiento
+		 - plantilla de la minuta
+       * - Consulta de notas de visitas de inspección, atención en oficina o llamadas telefónicas
+		 - Jefe de acompañamiento
+		 - Plantilla de las notas
+      * - Generacion de notificación de acompañamiento          
+		 - Jefe de acompañamiento
+		 - Plantilla de notificación de acompañamiento 
+       * - Generacion de minuta de atención en oficina para las declaraciones de los beneficiarios          
+		 - Jefe de acompañamiento
+		 - Plantilla de la minuta de atencion
+       * - Generar formato de charla          
+		 - Jefe de acompañamiento
+		 - Plantilla de la charla
+       * - Consulta de los depósitos de las cuotas
+         - Jefe de acompañamiento
+         - Depositos de cuotas
+
 
 Módulo Caja
 ===========
@@ -485,24 +491,6 @@ Procedimientos
        * - | Procedimiento
          - | Responsable
          - | Datos accedidos o modificados
-       * - Generacion de lista con los beneficiarios que se deben visitar por fecha, municipio y sectores en el caso que existan cuotas vencidas
-         - Ejecutivo de cobranza
-         - Cuotas vencidas, lista de beneficiarios
-       * - Filtrado de estados de cuentas por cédula y expediente
-         - Ejecutivo de cobranza
-         - Estado de cuentas
-       * - Acceso a los estados de cuenta desde la cartera de cobranza
-         - Ejecutivo de cobranza
-         - Estado de cuenta
-       * - Consulta del estado de cuenta del beneficiario o beneficiaria
-         - Ejecutivo de cobranza
-         - Estado de cuenta
-       * - Consulta de los depósitos realizados por el beneficiario o beneficiaria
-         - Ejecutivo de cobranza
-         - Depositos
-       * - Generacion del reporte del ingreso diario de caja
-         - Ejecutivo de cobranza
-         - Reporte del ingreso diario de caja
        * - Registro de los beneficiarios atendidos diariamente
          - Ejecutivo de cobranza
          - Registro de los beneficiarios atendidos diariamente
@@ -513,38 +501,20 @@ Procedimientos
          - Ejecutivo de cobranza
          - Carteras de cobranza
        * - Establecimiento de metas diarias de recuperación
-         - Ejecutivo de cobranza
+         - Gerente de recuperaciones
          - Metas diarias de recuperación
-       * - Creacion de notas con los acuerdos e información suministrada por el beneficiario
-         - Ejecutivo de cobranza
-         - Notas con acuerdos
-       * - Consulta de notas con los acuerdos e información suministrada por el beneficiario
+       * - Ingreso de notas con los acuerdos e información suministrada por el beneficiario
          - Ejecutivo de cobranza
          - Notas con acuerdos
        * - Creacion de recordatorios con las fechas de compromiso de pago del beneficiario
          - Ejecutivo de cobranza
          - Recordatorios con las fechas de compromiso de pago
-       * - Ordenamiento de los expedientes por niveles de morosidad en las carteras
-         - Ejecutivo de cobranza
-         - Nivel de morosidad del expediente
-       * - Verificacion de la validez de los depósitos bancarios para los pagos
-         - Ejecutivo de cobranza
-         - Validez de los depósitos bancarios
-       * - Generación de solicitud de entrevista con un abogado de la unidad de Recuperaciones en caso de estado extrajudicial por mora.
-         - Gerente de Recuperaciones.
-         - Registro de solicitud de entrevista.
-       * - Generar informe de seguimiento al beneficiario.
-         - Ejecutivo de cobranza.
-         - Informe de seguimiento.
-       * - Consultar estado de cuenta filtrando por estado de morosidad.
-         - Ejecutivo de cobranza.
-         - Estado de cuenta
+       * - Generación de solicitud de entrevista con un abogado en caso de estado extrajudicial por mora
+         - Gerente de Recuperaciones
+         - Registro de solicitud de entrevista
        * - Cambiar estatus del credito a demanda en el caso que lo amerite.
          - Gerente de Recuperaciones.
          - Estatus del credito
-       * - Posesion de permisos para modificar o corregir datos en el sistema.
-         - Gerente de Recuperaciones
-         - Datos en el sistema
 
 Procedimiento de generacion de reportes
 ---------------------------------------
@@ -556,6 +526,36 @@ Procedimiento de generacion de reportes
 	   * - | Procedimiento
 		 - | Responsable
 		 - | Reporte de salida
+       * - Generacion de lista con los beneficiarios que se deben visitar por fecha, municipio y sectores en el caso que existan cuotas vencidas
+         - Ejecutivo de cobranza
+         - Lista de beneficiarios
+       * - Consulta de estados de cuentas por cédula y expediente
+         - Ejecutivo de cobranza
+         - Estado de cuentas
+       * - Acceso a los estados de cuenta desde la cartera de cobranza
+         - Ejecutivo de cobranza
+         - Estado de cuenta
+       * - Consulta de los depósitos realizados por el beneficiario
+         - Ejecutivo de cobranza
+         - Depositos
+       * - Generacion del reporte del ingreso diario de caja
+         - Ejecutivo de cobranza
+         - Reporte del ingreso diario de caja
+       * - Consulta de notas con los acuerdos e información suministrada por el beneficiario
+         - Ejecutivo de cobranza
+         - Notas con acuerdos
+       * - Ordenamiento de los expedientes por niveles de morosidad en las carteras
+         - Ejecutivo de cobranza
+         - Lista ordenada por morosidad
+       * - Verificacion de la validez de los depósitos bancarios para los pagos
+         - Ejecutivo de cobranza
+         - Validez de los depósitos bancarios
+       * - Generar informe de seguimiento al beneficiario.
+         - Ejecutivo de cobranza.
+         - Informe de seguimiento.
+
+
+
 
 Módulo Consultoria Jurídica
 ===========================
