@@ -582,7 +582,7 @@ Descripción de Datos
 * **Firma**: Indica el nombre, cedula y firma del beneficiario y funcionario del FOMDES.
 
 
-**16. Documento de crédito**: Es un documento otorgado al beneficiario para justificar el crédito y garantizar sus derechos ante este compromiso u obligación.
+**16. DOCUMENTO DE CREDITO**: Es un documento otorgado al beneficiario para justificar el crédito y garantizar sus derechos ante este compromiso u obligación.
 
 
 * **Secretaria ejecutiva**: Indica el nombre, apellido y número del Inpreabogado de la secretaria ejecutiva.
@@ -627,6 +627,36 @@ Descripción de Datos
 * **Firma**: Indica el campo para la firma y cédula del beneficiario.
 
 
+**18. ORDEN DE LIQUIDACION**: Es el comprobante de egreso del crédito otorgado al beneficiario.
+
+**18.1. DATOS DEL EXPEDIENTE**:
+
+* **Banco**: Indica el banco y numero de cuenta del FOMDES.
+* **Fecha**: Indica el día, mes y año de realización de la orden de liquidación.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Nombres y apellidos**: Indica el nombre y apellido del beneficiario.
+* **Consejo directivo Nº**: Indica el numero de consejo directivo.
+* **Razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Fecha de aprobación en Consejo directivo**: Indica el día, mes y año de aprobación del crédito.
+
+**18.2. MONTO DEL PRESTAMO**:
+
+Indica la cantidad total del crédito en cifras y letras.
+
+**18.3. DATOS DEL DOCUMENTO DE CREDITO**:
+
+* **Autenticado**: Indica la acción si el documento de crédito fue notariado.
+* **Registro público/Notaria pública**: Indica el nombre y fecha en que fue notariado el documento de crédito.
+* **N.º, Tomo y Protocolo**: Indica los datos notariales del documento protocolizado.
+
+**18.4. MONTO CANCELADO ACUMULADO**:
+
+Indica Nº de orden, fecha de liquidación, %, rubro, monto total del crédito, codificación contable, codificación presupuestaria y el monto en cifras y letras de la orden de liquidación.
+
+**18.5. RUBROS**:
+
+Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación, comisión FLAT y el monto real de la orden de liquidación.
+**Firma**: Indica el nombre y apellido del gerente de administración y finanzas.
 
 
 Diccionario de Datos
