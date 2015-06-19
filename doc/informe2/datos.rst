@@ -1,4 +1,4 @@
-﻿Diseño de Datos
+﻿﻿Diseño de Datos
 ===============
 
 
@@ -650,7 +650,7 @@ Para definir la organización y registro de los datos en el sistema TINJACA se t
 
 * **Autenticado**: Indica la acción si el documento de crédito fue notariado.
 * **Registro público/Notaria pública**: Indica el nombre y fecha en que fue notariado el documento de crédito.
-* **N.º, Tomo y Protocolo**: Indica los datos notariales del documento protocolizado.
+* **Nº, Tomo y Protocolo**: Indica los datos notariales del documento protocolizado.
 
 **18.4. MONTO CANCELADO ACUMULADO**:
 
@@ -690,7 +690,7 @@ Para definir la organización y registro de los datos en el sistema TINJACA se t
 * **Consejo directivo Nº**: Indica el numero de consejo directivo.
 * **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
 * **Registro público/Notaria pública**: Indica el nombre y fecha en que fue notariado el documento de crédito.
-* **N.º, Tomo y Protocolo**: Indica los datos notariales del documento protocolizado.
+* **Nº, Tomo y Protocolo**: Indica los datos notariales del documento protocolizado.
 * **Código de orden de liquidación**: Indica el código interno de la orden de liquidación.
 * Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y comisión FLAT.
 * **Elaborado por**: Indica el nombre, apellido y firma del funcionario del FOMDES.
@@ -698,8 +698,73 @@ Para definir la organización y registro de los datos en el sistema TINJACA se t
 * **Recibí conforme**: Indica el nombre, apellido, firma, cedula y fecha en que fue entregado el cheque del crédito al beneficiario.
 
 
+**21. ESTADOS DE CUENTA**: Es el resumen contable oficial para la recuperación del crédito otorgado.
 
 
+* **Estatus de recuperaciones**: Indica si el beneficiario se encuentra en en el estatus caja, extrajudicial, demanda o liberado.
+* **Cédula de identidad**: Indica el número de identificación del beneficiario.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Representante legal**: Indica el nombre y apellido del beneficiario.
+* **Dirección de habitación**: Indica el domicilio fiscal del solicitante.
+* **Teléfono(s)**: Indica el(los) teléfono(s) de contacto del beneficiario.
+* **Nombres y apellidos**: Indica el nombre y apellido del avalista.
+* **Cédula de identidad**: Indica el número de identificación del avalista.
+* **Nombre o razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Dirección de la unidad productiva**: Indica el domicilio de la unidad de producción.
+* **Teléfonos**: Indica el(los) teléfono(s) de la unidad de producción.
+* **Municipio**: Indica el municipio donde se ubica la unidad de producción.
+* **Tipo de garantía**: Indica la fianza personal, fianza financiera, hipoteca, letras de cambio o prendaria.
+* **Monto solicitado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+* **Monto cuota**: Indica el monto de la cuota mensual que bebe cancelar el beneficiario.
+* **Periodo de gracia**: Indica los meses estipulados para aplazar el pago de la primera cuota del crédito.
+* **Periodos de pago**: Indica el numero de cuotas para la cancelación total del crédito.
+* **Tasa de interés**: Indica el % fijo anual para la cancelación del crédito.
+* **Interés de mora**: Indica el % de mora calculado sobre el interés de pago.
+* **Fecha de liquidación**: Indica el día, mes y año de realización de la orden de liquidación.
+* **Fecha de la ultima cuota**: Indica el día, mes y año de la ultima cuota cancelada.
+* **Fecha del estado de cuenta**: Indica el día, mes y año de realización del estado de cuenta.
+* **Insertado por**: Indica el nombre y apellido del funcionario del FOMDES.
+* Indica el periodo de pago, saldo inicial, interés de capital, amortización a capital, cuota financiera, saldo final, fecha de vencimiento, fecha de cancelación, interés de mora y el estado del pago (gracia, vigente, cancelado, exonerado, pendiente, vencido).
+* **Resumen de estado de cuenta**: Indica el resumen de las cuotas, capital, interés de capital, interés de mora y total dependiendo del estatus del estado de pago.
+
+
+**22. SEGUIMIENTO Y VERIFICACION DE LA INVERSION**: Es el resumen de la visita realizada a la unidad de producción para verificar el plan de inversión.
+
+* **Fecha de la visita**: Indica el día, mes y año de realización de la visita de acompañamiento.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Representante legal**: Indica el nombre y apellido del beneficiario.
+* **Nombre o razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Dirección de la unidad productiva**: Indica el domicilio de la unidad de producción.
+* **Municipio**: Indica el municipio donde se ubica la unidad de producción.
+* **Actividad por realizar o que realiza**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
+* **Empleos generados**: Indica el numero de empleados nuevos.
+* **Consigno facturas**: Indica si el beneficiario consigno o no las facturas de compras.
+* **Observaciones del funcionario**: Indica la apreciación del funcionario sobre la visita realizada a la unidad de producción.
+* **Firma**:  Indica el campo para la firma del funcionario FOMDES y el representante legal.
+* **Informe fotográfico de la inspección**: Indica el expediente, la fecha de la visita y un máximo de 8 fotos tomadas a la unidad de producción.
+
+
+**23. INFORME DE RECOMENDACION**: Es el resumen de acompañamiento al plan de inversión del crédito.
+
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Fecha del informe**: Indica el día, mes y año de realización del informe de recomendación.
+* **Nombre o razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Representante legal**: Indica el nombre y apellido del beneficiario.
+* **Municipio**: Indica el municipio donde se ubica la unidad de producción.
+* **Actividad por realizar o que realiza**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
+* **Monto aprobado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+* **Forma de liquidación**: Indica la liquidación es un pago único o con desembolsos.
+* **Fecha de aprobación en Consejo directivo**: Indica el día, mes y año de aprobación del crédito.
+* **Fecha de liquidación**: Indica el día, mes y año de realización de la orden de liquidación.
+* **Destino del crédito**:  Indica el total aprobado y la forma de liquidación de la materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y herramientas menores.
+* **Monto aprobado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+* **Monto real en cifras de la orden de liquidación**: Indica el monto total del crédito aprobado menos la comisión FLAT en cifras.
+* **Comisión FLAT**: Indica el monto de la comisión FLAT (2.5%) del monto aprobado.
+* **Monto justificado en facturas**: Indica el monto total de las facturas de compra presentadas por el beneficiario.
+* **Porcentaje justificado**: Indica el % justificado a través de las facturas presentadas.
+* **Observaciones del funcionario**: Indica la apreciación del funcionario sobre la visita realizada a la unidad de producción.
+* **Recomendaciones**: Indica si el beneficiario cumplió con el plan de inversión y recomienda enviar el expediente a archivo.
+* **Firma**:  Indica el nombre y apellido del jefe de acompañamiento y asistencia técnica.
 
 
 
@@ -748,6 +813,8 @@ Diccionario de Datos
          - Fecha
        * - Edad
          - Numerico
+       * - Edad
+         - Cadena
        * - Sexo
          - Caracter
        * - Direccion_Habitacion
@@ -763,6 +830,8 @@ Diccionario de Datos
        * - Teléfono_Celular
          - Cadena
        * - Correo_Electronico
+         - Cadena
+       * - Twitter
          - Cadena
        * - Twitter
          - Cadena
