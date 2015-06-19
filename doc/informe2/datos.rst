@@ -784,6 +784,13 @@ Para definir la organización y registro de los datos en el sistema TINJACA se t
 * **Firma**:  Indica el nombre y apellido del funcionario y del beneficiario.
 
 
+**25. CITACION DE PRESIDENCIA**: Es el aviso para tratar morosidad en los pagos del crédito con el  beneficiario.
+
+* **Fecha de emisión**: Indica el día, mes y año de emisión de la citación.
+* **Representante legal**: Indica el nombre y apellido del beneficiario.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Fecha de citación**: Indica el día, mes, año y hora de la citación.
+* **Presidente**: Indica el nombre y apellido completo del presidente del FOMDES.
 
 
 
