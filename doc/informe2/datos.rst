@@ -767,6 +767,21 @@ Para definir la organización y registro de los datos en el sistema TINJACA se t
 * **Firma**:  Indica el nombre y apellido del jefe de acompañamiento y asistencia técnica.
 
 
+**24. RECIBO DE PAGO**: Es el comprobante de cancelación de las cuotas del crédito.
+
+
+* **RIF del FOMDES**: Indica el numero de RIF del FOMDES.
+* **Código del recibo**: Indica el código alfanumérico del recibo de pago.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Municipio**: Indica el municipio donde se ubica la unidad de producción.
+* **Fecha de emisión**: Indica el día, mes y año de emisión del recibo de pago.
+* **Representante legal**: Indica el nombre y apellido del beneficiario.
+* **Cédula de identidad**: Indica el número de identificación del beneficiario.
+* **Nombre o razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Cantidad en bolívares**: Indica el monto cancelado en el recibo de pago.
+* **Por concepto de**: Indica el numero de cuota a cancelar.
+* Indica el numero de la cuota, capital, interés de capital, interés de mora y total cancelado.
+* **Firma**:  Indica el nombre y apellido del funcionario y del beneficiario.
 
 
 
