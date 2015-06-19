@@ -856,3 +856,4 @@ Diccionario de Datos
          - Cadena
        * - Área_Geográfica
          - Cadena
+    
