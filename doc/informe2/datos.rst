@@ -98,7 +98,7 @@ Descripción de Datos
 
 **4. REFERENCIAS PARA LA SOLICITD DE CREDITOS**: Es la manifestación escrita de familiares y amigos que expresan el conocimiento positivo que tienen sobre el solicitante.
 
-**4.1 DATOS DEL SOLICITANTE**:
+**4.1. DATOS DEL SOLICITANTE**:
 
 * **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
 * **Cédula de identidad**: Indica el número de identificación del solicitante.
@@ -114,7 +114,7 @@ Descripción de Datos
 * **Correo electrónico**: Indica la dirección electrónica principal del solicitante.
 * **Observaciones**: Indica el campo para obtener información adicional del solicitante.
 
-**4.2 DATOS DEL CONYUGE**:
+**4.2. DATOS DEL CONYUGE**:
 
 * **Nombres y apellidos**: Indica el nombre y apellido del cónyuge.
 * **Cédula de identidad**: Indica el número de identificación del cónyuge.
@@ -130,16 +130,16 @@ Descripción de Datos
 * **Correo electrónico**: Indica la dirección electrónica principal del cónyuge.
 * **Observaciones**: Indica el campo para obtener información adicional del cónyuge.
 
-**4.3 REFERENCIAS PERSONALES**:
+**4.3. REFERENCIAS PERSONALES**:
 
 * **Personal**: Indica el nombre y apellido, cédula, dirección y teléfonos de contacto de amistades que refieren de la buena fe del solicitante.
 * **Familiar**: Indica el nombre y apellido, cédula, dirección y teléfonos de contacto de familiares que refieren de la buena fe del solicitante.
 
-**4.4 INFORMACION DEL NUCLEO FAMILIAR**:
+**4.4. INFORMACION DEL NUCLEO FAMILIAR**:
 
 * Indica el nombre, apellido y cédula de cada uno de los integrantes del grupo familiar (padre, madre, hermanos, hijos) del solicitante.
 
-**4.5 DECLARACION JURADA DEL SOLICITANTE**:
+**4.5. DECLARACION JURADA DEL SOLICITANTE**:
 
 * Indica la manifestación escrita que presenta el solicitante ante el FOMDES para dar fe de la veracidad de la documentación consignada.
 * **Firma**: Indica el campo para la firma y cédula del solicitante y cónyuge.
@@ -158,7 +158,7 @@ Descripción de Datos
 * **Parroquia**: Indica la parroquia en la que reside dentro del municipio.
 * **Fecha del taller**: Indica el día, mes y año en que se realizó el taller por parte del solicitante.
 
-**5.1 REQUISITOS EXIGIDOS AL SOLICITANTE**:
+**5.1. REQUISITOS EXIGIDOS AL SOLICITANTE**:
 
 * Llenar y entregar la planilla de “Propuesta de Financiamiento”.
 * Presentación de cédula de identidad laminada. De ser Extranjero: Carta de residencia. De estado civil Casado: Cédula de identidad del cónyuge.
@@ -183,13 +183,13 @@ Descripción de Datos
 * **Microempresas**:
 * Copia fotostática de los permisos de Sanidad, Ambiente y Bomberos. Para solicitudes menores de Bs. 100.000,00 NO se solicitará el Registro de Fondo de Comercio.
 
-**5.2 PARA EMPRESAS ESTABLECIDAS**:
+**5.2. PARA EMPRESAS ESTABLECIDAS**:
 
 * Estados Financieros de los dos últimos años (debidamente estructurados) y corte a la fecha.
 * Balance de Comprobación (Empresas con menos de dos años de establecidas).
 * Original (para su verificación) y copia fotostática de la Solvencia Laboral a nombre de la Gobernación del estado Bolivariano de Mérida, o Solvencia del Seguro Social, Solvencia del Instituto Nacional de Capacitación y Educación Socialista (INCES) y Solvencia del Banco Nacional de Vivienda y Hábitat (BANAVIH-FAOV).
 
-**5.3 REQUISITOS SEGUN EL RUBRO  A FINANCIAR**:
+**5.3. REQUISITOS SEGUN EL RUBRO  A FINANCIAR**:
 
 **Agrícola y pecuario**:
 
@@ -236,7 +236,7 @@ Descripción de Datos
 * Proformas de la materia, insumo, maquinarias, equipos; adquisición y repotenciación de las mismas e instalación; o una exposición de motivo fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios.
 * Infraestructura: ampliación y remodelación no podrá exceder del 40% del monto solicitado, presentar presupuesto breve descripción y el plano de la misma.
 
-**5.4 REQUISITOS DE ACUERDO A LA GARANTIA OFRECIDA**:
+**5.4. REQUISITOS DE ACUERDO A LA GARANTIA OFRECIDA**:
 
 **Letra de cambio con aval (Desde Bs. 20.000,00 hasta Bs. 200.000,00)**:
 
@@ -359,7 +359,7 @@ Descripción de Datos
 * **Precio de los productos/servicios**: Indica el valor monetario de los productos o servicios.
 * **Aspectos relativos a la comercialización y abastecimiento de materia prima e insumos**: Indica la descripción de los aspectos resaltantes de los canales de comercialización, distribución y suministro de maquinaria, equipos, materia prima e insumos.
 
-**7.4 ASPECTOS FINANCIEROS DEL PROYECTO**:
+**7.4. ASPECTOS FINANCIEROS DEL PROYECTO**:
 
 * **Plan de inversión y financiamiento**: Indica la descripción, aporte propio (Bs), aporte FOMDES (Bs) y total (Bs) del activo fijo (maquinaria y equipo usado,  maquinaria y equipo a adquirir, edificio/infraestructura, construcción y remodelaciones), otros activos (estudio económico y gastos legales), capital de trabajo (insumos de trabajo y mano de obra), tasa FLAT 2.5% (comisión tasa FLAT 2.5%), total de inversión y % de financiamiento.
 * **Ingresos mensuales del proyecto**: Indica los ingresos (Bs) del producto/servicio, cantidad mensual, precio unitario, total de ingresos mensuales.
@@ -542,11 +542,98 @@ Descripción de Datos
 * **Evaluación económica y financiera**: Indica la viabilidad económica y financiera de la actividad propuesta.
 * **Garantía**: Indica el tipo de garantía, nombre y cédula del avalista.
 * **Observaciones**: Indica la apreciación subjetiva final del analista económico sobre la visita a la unidad de producción.
-* **Recomendaciones**: Indica la recomendación ante el consejo directivo para la aprobación del crédito solicitado.
+* **Recomendaciones**: Indica la recomendación ante el consejo directivo para la aprobación del crédito, el periodo de gracia y el número de cuotas para la cancelación total del crédito.
 * **Firma**: Indica el nombre y firma del analista responsable y gerente de crédito.
 * **Informe fotográfico de la inspección**: Indica el expediente, la fecha de la visita y un máximo de 8 fotos tomadas a la unidad de producción.
+
+
+**13. DECISION CONSEJO DIRECTIVO**: Es la notificación de la decisión del consejo directivo referente a la aprobación o negación del crédito.
+
+* **Consejo directivo Nº**: Indica el numero de consejo directivo al cual va dirigido el informe técnico.
+* **Fecha del consejo directivo**: Indica el día de la semana, día, mes y año en que se realizó el consejo directivo.
+* **Hora del consejo directivo**: Indica la hora en que comenzó el consejo directivo.
+* **Miembros del consejo directivo**: Indica el nombre, apellidos y cargo de cada uno de los miembros presentes en el consejo directivo.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y número del expediente.
+* **Razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Representante legal**: Indica el nombre y apellido del solicitante.
+* **Garantía**: Indica el tipo de garantía, nombre y cédula del avalista.
+* **Estatus de decisión**: Indica si se aprobó o rechazó el crédito propuesto.
+* **Plan de inversión**: Indica los periodos de pago, tipo de periodo de pago, periodo de gracia, tipo de periodo de gracia y montos totales por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y la comisión FLAT.
+* **Firma**: Indica el nombre, apellido y firma de la secretaria ejecutiva.
+
+
+**14. RECIBO DEL DOCUMENTO DE CREDITO**: Es la constancia de entrega del documento de crédito al beneficiario para ser autenticado o protocolizado.
+
+* **Fecha de entrega**: Indica el día de la semana, día, mes y año de entrega del documento de crédito al beneficiario.
+* **Nombres y apellidos**: Indica el nombre y apellido del beneficiario.
+* **Cédula de identidad**: Indica el número de identificación del beneficiario.
+* **Sector**: Indica la actividad relacionada con el sector Agrícola y Pecuario, Turismo, Artesanal, Ciencia y Tecnología, Pequeña y Mediana Empresa, Pequeña y Mediana Industria y Microempresas.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Lapso para ser devuelto**: Indica el tiempo en días continuos para devolver el documento protocolizado a la secretaria ejecutiva.
+* **Firma**: Indica el nombre, apellido, cedula y firma del beneficiario y de la secretaria ejecutiva.
+
+
+**15. ASESORIA PARA EL DESTINO DEL CREDITO**: Es una guía de las normativas que debe cumplir el beneficiario con el otorgamiento del crédito.
+
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Representante legal**: Indica el nombre y apellido del beneficiario.
+* **Monto aprobado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+* **Fecha**: Indica el nombre del estado, día, mes y año de entrega del documento de asesoría.
+* **Firma**: Indica el nombre, cedula y firma del beneficiario y funcionario del FOMDES.
+
+
+**16. Documento de crédito**: Es un documento otorgado al beneficiario para justificar el crédito y garantizar sus derechos ante este compromiso u obligación.
+
+
+* **Secretaria ejecutiva**: Indica el nombre, apellido y número del Inpreabogado de la secretaria ejecutiva.
+* **Nombres y apellidos**: Indica el nombre y apellido del beneficiario.
+* **Estado civil**: Indica la condición de parentesco del beneficiario vinculada con otras personas, como soltero(a), casado(a), divorciado(a), viudo(a) u otro.
+* **Cédula de identidad**: Indica el número de identificación del beneficiario.
+* **Dirección de habitación**: Indica el domicilio fiscal del beneficiario.
+* **Parroquia**: Indica la parroquia en la que reside dentro del municipio.
+* **Municipio**: Indica el municipio en el que reside el beneficiario.
+* **Presidente**: Indica el nombre y apellido completo del presidente del FOMDES.
+* **Estado civil del presidente**: Indica la condición de parentesco del presidente vinculada con otras personas, como soltero(a), casado(a), divorciado(a), viudo(a) u otro.
+* **Cedula de identidad del presidente**: Indica el número de identificación del presidente.
+* **Decreto de presidente**: Indica el número y fecha de emanación del nombramiento de presidente por parte de la Gobernación del Estado.
+* **Tipo de garantía ofrecida**: Indica el compromiso del solicitante a través de hipoteca, prendaria, fianza personal o fianza financiera para el otorgamiento del crédito.
+* **Sector**: Indica la actividad relacionada con el sector Agrícola y Pecuario, Turismo, Artesanal, Ciencia y Tecnología, Pequeña y Mediana Empresa, Pequeña y Mediana Industria y Microempresas.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Consejo directivo Nº**: Indica el numero de consejo directivo al cual va dirigido el informe técnico.
+* **Fecha del consejo directivo**: Indica el día de la semana, día, mes y año en que se realizó el consejo directivo.
+* **Monto aprobado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+* **Plan de inversión**: Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y la comisión FLAT.
+* **Lapso de cancelación del crédito**: Indica los meses estipulados para la cancelación total del crédito.
+* **Periodo de gracia**: Indica los meses estipulados para aplazar el pago de la primera cuota del crédito.
+* **Cuotas**: Indica el numero de cuotas para la cancelación total del crédito.
+* **Tasa de interés**: Indica el % fijo anual para la cancelación del crédito.
+* **Nombres y apellidos**: Indica el nombre y apellido del avalista.
+* **Estado civil**: Indica la condición de parentesco del avalista.
+* **Cédula de identidad**: Indica el número de identificación del avalista.
+* **Dirección de habitación**: Indica el domicilio fiscal del avalista.
+
+
+
+
+
 
 Diccionario de Datos
 --------------------
 
-Detalles de campos, tipo, numero de caracteres, etc.
+**Etapa 1: Solicitud del crédito**
+
+    * **Nombre de planilla**: Propuesta de financiamiento
+    * **Descripción**:
+
+    .. tabularcolumns:: |p{4cm}|p{7cm}|p{4cm}|
+
+    .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+         - | Descripción
+       * - Nº de propuesta
+         - Numérico
+         - Indica el número de propuesta de financiamiento especificado por el servidor público receptor
