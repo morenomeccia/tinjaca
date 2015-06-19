@@ -748,8 +748,6 @@ Diccionario de Datos
          - Fecha
        * - Edad
          - Numerico
-       * - Edad
-         - Cadena
        * - Sexo
          - Caracter
        * - Direccion_Habitacion
