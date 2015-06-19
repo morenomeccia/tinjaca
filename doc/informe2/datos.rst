@@ -641,7 +641,7 @@ Descripción de Datos
 
 **18.2. MONTO DEL PRESTAMO**:
 
-Indica la cantidad total del crédito en cifras y letras.
+* Indica la cantidad total del crédito en cifras y letras.
 
 **18.3. DATOS DEL DOCUMENTO DE CREDITO**:
 
@@ -651,12 +651,12 @@ Indica la cantidad total del crédito en cifras y letras.
 
 **18.4. MONTO CANCELADO ACUMULADO**:
 
-Indica Nº de orden, fecha de liquidación, %, rubro, monto total del crédito, codificación contable, codificación presupuestaria y el monto en cifras y letras de la orden de liquidación.
+* Indica Nº de orden, fecha de liquidación, %, rubro, monto total del crédito, codificación contable, codificación presupuestaria y el monto en cifras y letras de la orden de liquidación.
 
 **18.5. RUBROS**:
 
-Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación, comisión FLAT y el monto real de la orden de liquidación.
-**Firma**: Indica el nombre y apellido del gerente de administración y finanzas.
+* Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación, comisión FLAT y el monto real de la orden de liquidación.
+* **Firma**: Indica el nombre y apellido del gerente de administración y finanzas.
 
 
 Diccionario de Datos
