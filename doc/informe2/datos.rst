@@ -728,6 +728,20 @@ Para definir la organización y registro de los datos en el sistema TINJACA se t
 * **Resumen de estado de cuenta**: Indica el resumen de las cuotas, capital, interés de capital, interés de mora y total dependiendo del estatus del estado de pago.
 
 
+**22. SEGUIMIENTO Y VERIFICACION DE LA INVERSION**: Es el resumen de la visita realizada a la unidad de producción para verificar el plan de inversión.
+
+* **Fecha de la visita**: Indica el día, mes y año de realización de la visita de acompañamiento.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Representante legal**: Indica el nombre y apellido del beneficiario.
+* **Nombre o razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
+* **Dirección de la unidad productiva**: Indica el domicilio de la unidad de producción.
+* **Municipio**: Indica el municipio donde se ubica la unidad de producción.
+* **Actividad por realizar o que realiza**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
+* **Empleos generados**: Indica el numero de empleados nuevos.
+* **Consigno facturas**: Indica si el beneficiario consigno o no las facturas de compras.
+* **Observaciones del funcionario**: Indica la apreciación del funcionario sobre la visita realizada a la unidad de producción.
+* **Firma**:  Indica el campo para la firma del funcionario FOMDES y el representante legal.
+* **Informe fotográfico de la inspección**: Indica el expediente, la fecha de la visita y un máximo de 8 fotos tomadas a la unidad de producción.
 
 
 
