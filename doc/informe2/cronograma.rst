@@ -31,20 +31,25 @@ desarrollo de TINJACÁ se prevén varios hitos que facilitaran el cumplimiento d
          -
          -
          -
-       * - Configuración
+       * - Configuración y diseño de pruebas
          - X
          - X
          -
          -
        * - Pruebas
          -
-         - X
+         - X (20 de agosto)
          - X
          -
        * - Revisión Final
          -
          - X
          - X
+         - X
+       * - Presentación e inicio de adiestramiento
+         -
+         -
+         -
          - X
 
 
