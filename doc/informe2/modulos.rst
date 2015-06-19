@@ -238,8 +238,7 @@ Modulo Administración
 Descripción
 -----------
 
-Este módulo abarca los procesos de "Liquidación de créditos" y "Liberación de Créditos".
-Incluye procedimientos relacionados con la consignación de los documentos notariados por parte de los beneficiarios hasta la entrega del cheque respectivo y con la liberación de los créditos. Procedimientos asociados con las actividades relativas a la liberación de los créditos.
+Este módulo abarca los procesos de "Liquidación de créditos" y "Liberación de Créditos". Incluye procedimientos relacionados con la consignación de los documentos notariados por parte de los beneficiarios hasta la entrega del cheque respectivo y con la liberación de los créditos.
 
 Procedimientos de ingreso de datos
 ----------------------------------
@@ -252,95 +251,30 @@ Procedimientos de ingreso de datos
 		  - | Responsable
 		  - | Datos accedidos o modificados
 		* - Certificación de la disponibilidad para liquidación del crédito
-		  - Administracion
+		  - Analista Financiera
 		  - Disponibilidad para liquidación del crédito
-		* - Creación de tabla de cuentas por cobrar
-		  - Presupuesto y Administración
+		* - Consulta de tabla de cuentas por cobrar
+		  - Analista Financiera
 		  - Tabla de cuentas por cobrar
-		* - Creacion de tabla de amortización del crédito
-		  - Presupuesto y Administración
-		  - Tabla de amortización del crédito
-		* - Creación del estado de cuenta del credito
-		  - Administracion
-		  - Estado de cuenta del credito
-		* - Generacion de la orden de liquidación
-		  - Presupuesto y Administracion
-		  - Orden de liquidación
-		* - Generacion de la orden del cheque
-		  - Presupuesto y Administracion
-		  - Orden del cheque
 		* - Enviar expediente a la unidad de Acompañamiento y Asistencia Técnica
-		  - Administracion
-		  - Registro de envio
-		* - Generación de documento de liquidación del crédito
-		  - Administración
-		  - Documento de liquidación del crédito
-		* - Cambio del estatus del expediente liberado
-		  - Administración
+		  - Analista Financiera
+		  - Estacion del expediente
+		* - Enviar documento a consultoria juridica para liberacion del documento
+		  - Analista Financiera
 		  - Estatus del expediente
 		* - Registro de la entrega del documento de liberación del crédito
-		  - Administración
+		  - Secretaria ejecutiva
 		  - Registro de entrega
 		* - Envío del expediente a archivo una vez liberado
-		  - Administración
-		  - Registro de envio
-        * - Elaboracion de las cuentas por cobrar de los beneficiarios cuyos créditos fueron aprobados
-		  - Asesor de Administrativo
-  		  - Cuentas por cobrar
-        * - Elaboracion de los cheques de los beneficiarios cuyos créditos fueron aprobados
-		  - Gerente de administración
-  		  - Cheque del credito
+		  - Analista Financiera
+		  - Estacion del expediente
         * - Envio de los cheques a presidencia
 		  - Gerente de administración
   		  - Registro de envio del cheque 
-        * - Creacion la tabla de amortización de los beneficiarios cuyos cheques fueron procesados
-		  - Gerente de administración
-  		  - Tabla de amortizacion del credito
-        * - Consulta de los pagos recibidos
-		  - Gerente de administración
-  		  - Pagos recibidos
-        * - Anulacion de recibos por cheques devueltos y actualizacion del estado de cuenta revirtiendo el pago de las cuotas en el estado de cuenta y recalculando los intereses de las cuotas subsiguientes
-		  - Gerente de administración
+        * - Anulacion de recibos por cheques devueltos y recalculando los intereses de las cuotas subsiguientes
+		  - Analista Financiera
   		  - Estado de cuenta
-        * - Posesion de permisos para modificar o corregir datos en el sistema.
-          - Gerente de administracion
-          - Datos en el sistema
-		* - Registro de los pagos de los beneficiarios o beneficiarias para la cancelación de cuotas de los crédito
-		  - Cajero
-  		  - Estado de cuenta
-        * - Generacion de reporte del ingreso diario de caja
-		  - Cajero
-  		  - Ingreso diario de caja
-        * - Simulacion del recibo
-		  - Cajero
-  		  - Recibo de pago
-        * - Registro de los datos de pago del recibo
-		  - Cajero
-  		  - Recibo de pago, estado de cuenta
-        * - Impresion del recibo de pago
-		  - Cajero
-  		  - Recibo de pago, estado de cuenta
-        * - Verificacion de cuotas vencidas
-		  - Cajero
-  		  - Cuotas vencidas
-        * - Seleccion del expediente correspondiente al crédito al cual se desea pagar
-		  - Cajero
-  		  - Expediente
-        * - Consulta del numero de cuotas vencidas, el total en bolivares en cada cuota y cuotas que estan proximas por vencerse
-		  - Cajero
-  		  - Cuotas vencidas
-        * - Registro de pago a conveniencia del beneficiaro
-		  - Cajero
-  		  - Registro de pago
-        * - Calculo de los intereses de mora correspondientes a la cuota a pagar
-		  - Cajero
-  		  - Intereses de mora
-        * - Cierre de caja y desglose del ingreso total en billetes, monedas, cheques, punto de debito y depósitos
-		  - Cajero
-  		  - Ingreso total
-        * - Creacion de un reporte con el total de personas atendidas diariamente
-		  - Cajero
-  		  - Reporte de beneficiarios
+
 
 Procedimiento de generacion de reportes
 ---------------------------------------
@@ -352,6 +286,28 @@ Procedimiento de generacion de reportes
 	   * - | Procedimiento
 		 - | Responsable
 		 - | Reporte de salida
+		* - Creacion de tabla de amortización del crédito
+		  - Analista Financiera
+		  - Tabla de amortización del crédito
+		* - Creación del estado de cuenta del credito
+		  - Asesor Administrativo
+		  - Estado de cuenta del credito
+		* - Generacion de la orden de liquidación
+		  - Asesor Administrativo
+		  - Orden de liquidación
+		* - Generacion de la orden del cheque
+		  - Asesor Administrativo
+		  - Orden del cheque
+		* - Generación del documento de liquidación del crédito
+		  - Jefe de presupuesto
+		  - Documento de liquidación del crédito
+        * - Elaboracion de los cheques de los beneficiarios cuyos créditos fueron aprobados
+		  - Gerente de administración
+  		  - Cheque del credito
+        * - Consulta de los pagos recibidos
+		  - Analista Financiera
+  		  - Pagos recibidos
+
 
 Módulo Acompañamiento
 =====================
@@ -467,15 +423,21 @@ Procedimientos de ingreso de datos
        * - | Procedimiento
          - | Responsable
          - | Datos accedidos o modificados
-       * - Registro de pago y actualización de estado de cuenta.
-         - Ejecutivo de cobranza (caja).
-         - Registro de pago.
-       * - Generación de recibo de pago y copia para expediente.
-         - Ejecutivo de cobranza (caja).
-         - Registro de pago.
-         - Recibo de pago.
+
+		* - Registro de los pagos de los beneficiarios para la cancelación de cuotas de los créditos
+		  - Cajero, ejecutivo de cobranza (caja)
+  		  - Estado de cuenta
+        * - Seleccion del expediente correspondiente al crédito al cual se desea pagar
+		  - Cajero
+  		  - Expediente
+        * - Calculo de los intereses de mora correspondientes a la cuota a pagar
+		  - Cajero
+  		  - Intereses de mora
+        * - Cierre de caja y desglose del ingreso total en billetes, monedas, cheques, punto de debito y depósitos
+		  - Cajero
+  		  - Ingreso total
        * - Generación de solicitud de liberación a la unidad de Consultoría Jurídica en caso de último pago (cancelación total del crédito). 
-         - Ejecutivo de cobranza (caja).
+         - Cajero, ejecutivo de cobranza (caja).
          - Registro de solicitud de liberacion.
 
 Procedimiento de generacion de reportes
@@ -488,6 +450,21 @@ Procedimiento de generacion de reportes
 	   * - | Procedimiento
 		 - | Responsable
 		 - | Reporte de salida
+        * - Generacion de reporte del ingreso diario de caja
+		  - Cajero
+  		  - Ingreso diario de caja
+        * - Simulacion del recibo
+		  - Cajero
+  		  - Recibo de pago simulado
+        * - Impresion del recibo de pago
+		  - Cajero
+  		  - Recibo de pago
+        * - Consulta del numero de cuotas vencidas, el total en bolivares en cada cuota con sus intereses y cuotas que estan proximas por vencerse
+		  - Cajero
+  		  - Cuotas vencidas
+        * - Creacion de un reporte con el total de personas atendidas diariamente
+		  - Cajero
+  		  - Reporte de beneficiarios atendidos
 
 Módulo Recuperaciones 
 =====================
