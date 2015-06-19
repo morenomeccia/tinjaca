@@ -29,21 +29,20 @@ Adicionalmente se incluye el cronograma propuesto para las fases de desarrollo y
 Metodología General
 -------------------
 
-Partiendo de las historias de usuario presentadas en el informe diagnóstico, el presente documento busca construir
-propuestas para el modelado de datos y del modelo lógico del sistema, para atender a la resolución de los nudos críticos
-identificados a través de un sistema informático integrado.
+Partiendo de las historias de usuario presentadas en el informe diagnóstico, este documento presenta
+propuestas para el modelado de datos y del modelo lógico del sistema, todo ello a fin de atender la necesaria resolución de los nudos críticos
+identificados con anterioridad.
 
-Estos nudos críticos tienen que ver con:
+Estos nudos críticos, como se ha señalado en un informe anterior, tienen que ver con:
 
  * Problemas de interacción entre las unidades dentro de FOMDES en el ejercicio de sus funciones
  * Mejorar las interfaces de usuario y dinamizar su experiencia e interacción con el sistema
- * Incluir reportes de gestion de informacion que se llevaban en hoja de calculo
+ * Incluir al sistema reportes de gestion de informacion que se llevan en hoja de calculo
  * Mejorar la usabilidad del sistema y precindir de hojas de cálculo para tener control
- * Minimizar los errores e incidencias
- * Optimizar el rendimiento de consultas de actualización
+ * Minimizar los errores e incidencias y optimizar el rendimiento de consultas de actualización
  * Disponer de informacion oportuna
  * Evitar duplicacion de informacion
- * Generar reportes estratégicos automáticos que respondan a las necesidades de toma de decisiones por parte de la
+ * Generar reportes automáticos que respondan a las necesidades de toma de decisiones por parte de la
    presidencia de la institución.
 
 Referencias

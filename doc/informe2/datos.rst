@@ -6,6 +6,8 @@
 Descripción de Datos
 --------------------
 
+Para definir la organización y registro de los datos en el sistema TINJACA se tomaron los formatos y planillas de las diferentes gerencias y dependencias del FOMDES presentes en el expediente, para crear el diseño de la estructura de la base de datos.
+
 **1. PROPUESTA DE FINANCIAMIENTO**: Es el resumen de la oferta de negocio para la solicitud del crédito.
 
 * **Nº de propuesta**:  Indica el número de propuesta de financiamiento especificado por el servidor público receptor.
@@ -627,13 +629,14 @@ Descripción de Datos
 * **Firma**: Indica el campo para la firma y cédula del beneficiario.
 
 
-**18. ORDEN DE LIQUIDACION**: Es el comprobante de egreso del crédito otorgado al beneficiario.
+**18. ORDEN DE LIQUIDACION**: Es el constancia de egreso del crédito otorgado al beneficiario.
 
 **18.1. DATOS DEL EXPEDIENTE**:
 
 * **Banco**: Indica el banco y numero de cuenta del FOMDES.
 * **Fecha**: Indica el día, mes y año de realización de la orden de liquidación.
 * **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Código de orden de liquidación**: Indica el código interno de la orden de liquidación.
 * **Nombres y apellidos**: Indica el nombre y apellido del beneficiario.
 * **Consejo directivo Nº**: Indica el numero de consejo directivo.
 * **Razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
@@ -673,6 +676,26 @@ Descripción de Datos
 * **Cantidad del aporte social**: Indica el monto total en Bs de aporte social.
 * **Fecha**: Indica el día, mes y año en que se realizó el acta de compromiso de aporte social.
 * **Firma**:  Indica el nombre, apellido y cédula del beneficiario.
+
+
+**20. COMPROBANTE DE EGRESO DEL CREDITO**: Es el recibo de egreso y cheque del crédito otorgado al beneficiario.
+
+* **Monto real en cifras de la orden de liquidación**: Indica el monto total del crédito aprobado menos la comisión FLAT en cifras.
+* **Banco**: Indica el banco y numero de cuenta del FOMDES.
+* **Monto real en letras de la orden de liquidación**: Indica el monto total del crédito aprobado menos la comisión FLAT en letras.
+* **Fecha**: Indica el día, mes y año de realización del cheque.
+* **Nº de comprobante**: Indica el código numérico del comprobante de egreso del crédito.
+* **Nº de cheque**: Indica el código numérico del cheque.
+* **Banco**: Indica el banco y numero de cuenta del FOMDES.
+* **Consejo directivo Nº**: Indica el numero de consejo directivo.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Registro público/Notaria pública**: Indica el nombre y fecha en que fue notariado el documento de crédito.
+* **N.º, Tomo y Protocolo**: Indica los datos notariales del documento protocolizado.
+* **Código de orden de liquidación**: Indica el código interno de la orden de liquidación.
+* Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y comisión FLAT.
+* **Elaborado por**: Indica el nombre, apellido y firma del funcionario del FOMDES.
+* **Codificación contable**: Indica los códigos de la parte contable y de la asignación presupuestaria.
+* **Recibí conforme**: Indica el nombre, apellido, firma, cedula y fecha en que fue entregado el cheque del crédito al beneficiario.
 
 
 
@@ -715,7 +738,33 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
-         - | Descripción
-       * - Nº de propuesta
+       * - Numero
          - Numérico
-         - Indica el número de propuesta de financiamiento especificado por el servidor público receptor
+       * - Nombres_Y_Apellidos
+         - Cadena
+       * - CI_RIF
+         - AlfaNumerico
+       * - Fecha_Nacimiento
+         - Fecha
+       * - Edad
+         - Numerico
+       * - Edad
+         - Cadena
+       * - Sexo
+         - Caracter
+       * - Direccion_Habitacion
+         - Cadena
+       * - Municipio
+         - Cadena
+       * - Parroquia
+         - Cadena
+       * - Profesión_Oficio
+         - Cadena
+       * - Teléfono_Fijo
+         - Cadena
+       * - Teléfono_Celular
+         - Cadena
+       * - Correo_Electronico
+         - Cadena
+       * - Twitter
+         - Cadena
