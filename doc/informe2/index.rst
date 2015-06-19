@@ -14,7 +14,6 @@ Informe de diseño, propuesta de fases de desarrollo, configuración y pruebas d
    sistema
    datos
    modulos
-   interfaz
    cronograma
 
 

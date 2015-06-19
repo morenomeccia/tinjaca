@@ -1,6 +1,9 @@
 ﻿Diseño de modulos
 =================
 
+El sistema Tinjaca esta disenado por modulos que agrupan funcionalidades asociadas a los distintos procesos descritos en el Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales. En esta seccion se presenta una descripcion de cada uno de los modulos planteados, los procedimientos que se ejecutan, los datos accedidos o modificados, y los reportes generados.
+Asimismo, el sistema contempla diferentes perfiles de usuario que se relacionan directamente con el rol que desempeña la persona dentro del FOMDES. Los perfiles de usuario definen tanto los permisos como las restricciones para cada módulo. Cada cuenta de usuario tendra asociado un perfil de usuario, de modo que tanto el acceso a los datos del sistema como los menues e interfaz, dependa de cada perfil de usuario según la sesión inciada por los funcionarios de FOMDES como usuarios del sistema Tinjacá. De esta manera las funciones permitidas estará condicionadas y limitadas por el mismo sistema de forma predeterminada. Por otro lado, también existen perfiles especiales con tipos de usuario avanzados dentro del sistema, llamados super-usuarios, que tienen capacidades superiores en la administración del sistema, dentro de un ámbito específico.
+
 Módulo Solicitudes
 ==================
 
