@@ -582,6 +582,40 @@ Descripción de Datos
 * **Firma**: Indica el nombre, cedula y firma del beneficiario y funcionario del FOMDES.
 
 
+**16. Documento de crédito**: Es un documento otorgado al beneficiario para justificar el crédito y garantizar sus derechos ante este compromiso u obligación.
+
+
+* **Nombres y apellidos**: Indica el nombre y apellido del beneficiario.
+* **Estado civil**: Indica la condición de parentesco del beneficiario vinculada con otras personas, como soltero(a), casado(a), divorciado(a), viudo(a) u otro.
+* **Cédula de identidad**: Indica el número de identificación del beneficiario.
+* **Dirección de habitación**: Indica el domicilio fiscal del beneficiario.
+* **Parroquia**: Indica la parroquia en la que reside dentro del municipio.
+* **Municipio**: Indica el municipio en el que reside el beneficiario.
+* **Presidente**: Indica el nombre y apellido completo del presidente del FOMDES.
+* **Estado civil del presidente**: Indica la condición de parentesco del presidente vinculada con otras personas, como soltero(a), casado(a), divorciado(a), viudo(a) u otro.
+* **Cedula de identidad del presidente**: Indica el número de identificación del presidente.
+* **Decreto de presidente**: Indica el número y fecha de emanación del nombramiento de presidente por parte de la Gobernación del Estado.
+* **Tipo de garantía ofrecida**: Indica el compromiso del solicitante a través de hipoteca, prendaria, fianza personal o fianza financiera para el otorgamiento del crédito.
+* **Sector**: Indica la actividad relacionada con el sector Agrícola y Pecuario, Turismo, Artesanal, Ciencia y Tecnología, Pequeña y Mediana Empresa, Pequeña y Mediana Industria y Microempresas.
+* **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
+* **Consejo directivo Nº**: Indica el numero de consejo directivo al cual va dirigido el informe técnico.
+* **Fecha del consejo directivo**: Indica el día de la semana, día, mes y año en que se realizó el consejo directivo.
+* **Monto aprobado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
+* **Plan de inversión**: Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y la comisión FLAT.
+* **Lapso de cancelación del crédito**: Indica los meses estipulados para la cancelación total del crédito.
+* **Periodo de gracia**: Indica los meses estipulados para aplazar el pago de la primera cuota del crédito.
+* **Cuotas**: Indica el numero de cuotas para la cancelación total del crédito.
+* **Tasa de interés**: Indica el % fijo anual para la cancelación del crédito.
+* **Nombres y apellidos**: Indica el nombre y apellido del avalista.
+* **Estado civil**: Indica la condición de parentesco del avalista.
+* **Cédula de identidad**: Indica el número de identificación del avalista.
+* **Dirección de habitación**: Indica el domicilio fiscal del avalista.
+
+
+
+
+
+
 Diccionario de Datos
 --------------------
 
