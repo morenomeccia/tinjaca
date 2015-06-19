@@ -88,6 +88,9 @@ Procedimientos de ingreso de datos
 	   * - Consulta de expedientes rechazados
          - Gerente de crédito
 		 - lista de expedientes rechazados
+       * - Edicion de datos personales del beneficiario
+         - Analista Economico, analista de credito
+         - Datos personales del beneficiario
 
 Procedimiento de generacion de reportes
 ---------------------------------------
@@ -209,9 +212,6 @@ Procedimientos de generacion de reportes
 		* - Generacion del documento de la empresa
           - Secretaría Ejecutiva
           - Documento de la empresa
-		* - Generacion de la lista de expedientes priorizados
-          - Secretaría Ejecutiva
-          - Lista de expedientes priorizados
 		* - Creación de la convocatoria al consejo directivo
           - Secretaría Ejecutiva
           - Convocatoria al consejo directivo
@@ -361,6 +361,9 @@ Procedimientos de ingreso de datos
        * - Registro de los casos donde las visitas no son atendidas
 		 - Jefe de acompañamiento
 		 - Datos de los casos donde las visitas no son atendidas
+       * - Edicion de datos personales del beneficiario
+         - Jefe de acompañamiento
+         - Datos personales del beneficiario
 
 
 Procedimiento de generacion de reportes
@@ -518,6 +521,9 @@ Procedimientos
        * - Registro de exoneracion en el cobro del crédito
          - Gerente de recuperaciones
 		 - Exoneracion en el cobro del crédito
+       * - Edicion de datos personales del beneficiario
+         - Ejecutivo de cobranza
+         - Datos personales del beneficiario
 
 Procedimiento de generacion de reportes
 ---------------------------------------
@@ -694,7 +700,6 @@ Descripción
 
 Este módulo abarca los procesos en los que interviene la gestión directa del presidente del FOMDES. Incluye procedimientos de evaluación y coordinación con las gerencias para las tomas de decisiones.
 
-
 Procedimientos de ingreso de datos
 ----------------------------------
 
@@ -705,92 +710,30 @@ Procedimientos de ingreso de datos
        * - | Procedimiento
          - | Responsable
          - | Datos accedidos o modificados
-       * - Monitoreo del ingreso diario de caja y cumplimiento de metas
+	   * - Generacion de la lista de expedientes priorizados
+         - Secretaría Ejecutiva
+         - Lista de expedientes priorizados
+
+
+Procedimiento de generacion de reportes
+---------------------------------------
+
+  .. list-table::
+       :widths: 40 70 40
+       :header-rows: 1
+
+	   * - | Procedimiento
+		 - | Responsable
+		 - | Reporte de salida
+       * - Consulta del ingreso diario de caja y cumplimiento de metas
          - Presidente
          - Ingreso diario de caja
-       * - Revision y firma de los cheques
-         - Presidente
-         - Cheques
-       * - Envio de los cheques firmados a secretaria ejecutiva
-         - Presidente
-         - Registro de envio
        * - Revision de montos, intereses y plazos de las solicitudes de crédito
          - Presidente
-         - Solicitudes de potenciales beneficiarios
+         - Informacion de las solicitudes
        * - Evaluacion y valoracion de indicadores clave de rendimiento y variables políticas
          - Presidente
          - Indicadores clave de rendimiento
-        * - Consulta del ingreso diario de caja y metas diarias
-		  - Presidente
-		  - Ingreso diario de caja
-        * - Consulta de montos, intereses y plazos de las solicitudes de crédito
-		  - Presidente
-          - Montos, intereses y plazos de las solicitudes de crédito
-        * - Generacion y consulta de indicadores clave de rendimiento y variables políticas
-          - Presidente
-		  - Indicadores clave de rendimiento
-
-
-
-Procedimiento de generacion de reportes
----------------------------------------
-
-  .. list-table::
-       :widths: 40 70 40
-       :header-rows: 1
-
-	   * - | Procedimiento
-		 - | Responsable
-		 - | Reporte de salida
-
-Módulo Beneficiario
-===================
-
-Descripción
------------
-
-Este módulo abarca "Recepción y Evaluación de solicitudes" y "Recepción de propuestas",  Incluye procedimientos asociados al control de la ubicación de los expedientes dentro de los distintos departamentos del FOMDES.
-
-
-Procedimientos de ingreso de datos
-----------------------------------
-
-  .. list-table::
-       :widths: 40 70 40
-       :header-rows: 1
-
-       * - | Procedimiento
-         - | Responsable
-         - | Datos accedidos o modificados
-       * - Creacion de cuenta de beneficiario
-         - Potencial beneficiario, Beneficiario, Solicitante.
-         - Datos personales del beneficiario
-       * - Edicion de datos personales del beneficiario
-         - Potencial beneficiario, Beneficiario, Solicitante.
-         - Datos personales del beneficiario
-       * - Consulta del estado de mis solicitudes.
-         - Potencial beneficiario, Beneficiario, Solicitante.
-         - Estatus de solicitud
-       * - Consulta del estado de mis créditos
-         - Beneficiario
-         - Estatus de expediente
-       * - Ejecucion de pagos en línea
-         - Beneficiario
-         - Estado de cuenta
-       * - Registro en línea de pagos efectuados mediante transferencia o depósito
-         - Beneficiario
-         - Estado de cuenta
-
-Procedimiento de generacion de reportes
----------------------------------------
-
-  .. list-table::
-       :widths: 40 70 40
-       :header-rows: 1
-
-	   * - | Procedimiento
-		 - | Responsable
-		 - | Reporte de salida
 
 Módulo Atencion
 ===============
@@ -813,20 +756,10 @@ Procedimientos de ingreso de datos
          - | Datos accedidos o modificados
        * - Registro de los datos del solicitante junto con la fecha, hora y destino
          - Recepcionista
-         - Datos del beneficiario.
-       * - Consulta de la información del estatus de las solicitudes activas
+         - Datos del beneficiario
+      * - Generacion de colas por orden de atención y por dependencia
          - Recepcionista
-         - Estatus de las solicitudes activas
-       * - Consulta de la información del estado de cuenta del beneficiario
-         - Recepcionista
-         - Estado de cuenta del beneficiario
-       * - Generacion de reportes de los visitantes por rango de fecha y cedula
-         - Recepcionista
-         - Visitantes por rango de fecha y cedula
-       * - Generacion de colas por orden de atención y por dependencia
-         - Recepcionista
-         - Lista de beneficiarios
-
+         - Cola de cada dependencia
 
 Procedimiento de generacion de reportes
 ---------------------------------------
@@ -838,5 +771,13 @@ Procedimiento de generacion de reportes
 	   * - | Procedimiento
 		 - | Responsable
 		 - | Reporte de salida
-
-
+       * - Consulta de la información del estatus de las solicitudes activas
+         - Recepcionista
+         - Estatus de las solicitudes activas
+       * - Consulta de la información del estado de cuenta del beneficiario
+         - Recepcionista
+         - Estado de cuenta del beneficiario
+       * - Generacion de reportes de los visitantes por rango de fecha y cedula
+         - Recepcionista
+         - Visitantes por rango de fecha y cedula
+ 
