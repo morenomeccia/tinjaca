@@ -717,7 +717,33 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
-         - | Descripción
-       * - Nº de propuesta
+       * - Numero
          - Numérico
-         - Indica el número de propuesta de financiamiento especificado por el servidor público receptor
+       * - Nombres_Y_Apellidos
+         - Cadena
+       * - CI_RIF
+         - AlfaNumerico
+       * - Fecha_Nacimiento
+         - Fecha
+       * - Edad
+         - Numerico
+       * - Edad
+         - Cadena
+       * - Sexo
+         - Caracter
+       * - Direccion_Habitacion
+         - Cadena
+       * - Municipio
+         - Cadena
+       * - Parroquia
+         - Cadena
+       * - Profesión_Oficio
+         - Cadena
+       * - Teléfono_Fijo
+         - Cadena
+       * - Teléfono_Celular
+         - Cadena
+       * - Correo_Electronico
+         - Cadena
+       * - Twitter
+         - Cadena
