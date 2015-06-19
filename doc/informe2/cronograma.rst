@@ -48,7 +48,7 @@ desarrollo de TINJACÁ se prevén varios hitos que facilitaran el cumplimiento d
        * - Revisión Final
          -
          -
-         - X
+         -
          - X
          - X
        * - Presentación e inicio de adiestramiento
