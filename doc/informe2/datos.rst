@@ -793,6 +793,14 @@ Para definir la organización y registro de los datos en el sistema TINJACA se t
 * **Presidente**: Indica el nombre y apellido completo del presidente del FOMDES.
 
 
+**26. MAYOR ANALÍTICO**: Es el resumen del historial de pago del crédito hasta la cancelación total.
+
+* **Fecha del mayor analítico**: Indica el periodo de pago del crédito.
+* **Código**: Indica el código numérico del mayor analítico.
+* **Cuenta**: Indica el nombre, apellido, expediente y cedula del beneficiario.
+* Indica la fecha, asiento, referencia, descripción, saldo anterior, debe haber, saldo y total de la cuenta cancelada.
+
+
 
 
 
