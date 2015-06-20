@@ -5,7 +5,7 @@
 Diccionario de Datos
 --------------------
 
-**Etapa 1: Solicitud del crédito**
+# **Solicitante**
 
     * **Nombre de planilla**: Propuesta de financiamiento
     * **Descripción**:
@@ -52,8 +52,7 @@ Diccionario de Datos
          - Cadena
 
 
-    * **Nombre de planilla**: Propuesta de financiamiento
-    * **Descripción**:
+# **Unidad productiva**
 
 .. list-table::
        :widths: 40 70
