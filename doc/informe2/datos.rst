@@ -798,7 +798,15 @@ Para definir la organización y registro de los datos en el sistema TINJACA se t
 * **Fecha del mayor analítico**: Indica el periodo de pago del crédito.
 * **Código**: Indica el código numérico del mayor analítico.
 * **Cuenta**: Indica el nombre, apellido, expediente y cedula del beneficiario.
-* Indica la fecha, asiento, referencia, descripción, saldo anterior, debe haber, saldo y total de la cuenta cancelada.
+* Indica la fecha, asiento, referencia, descripción, saldo anterior, debe, haber, saldo y total de la cuenta cancelada.
+
+
+**27. ORDEN DE LIBERACION**: Es la orden emitida por consultoría jurídica para la liberación de la garantía del crédito.
+
+* **Fecha**: Indica el día de la semana, día, mes y año de emisión de la orden.
+* **Nombre del consultor jurídico**: Indica el nombre y apellido del consultor jurídico del FOMDES.
+* Indica el expediente, representante legal, cedula, razón social, fecha de liquidación y monto aprobado.
+* **Firma**: Indica el nombre y apellido del analista financiero y del gerente de recuperaciones.
 
 
 
