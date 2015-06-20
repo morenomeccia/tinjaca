@@ -380,7 +380,7 @@ Diccionario de Datos
        * - Certificacion_Ingresos_Constancia_trabajo
          - Cadena
        * - Avaluo_Bien_Mueble
-         - Cadena
+         - Numerico
        * - Seguro_Bien_Mueble
          - Cadena
        * - Documento_Propiedad_Bien_Mueble
@@ -390,7 +390,7 @@ Diccionario de Datos
        * - Levantamiento_Topográfico_>1Ha
          - Cadena
        * - Cedula_Identidad_Socio_Conyuge
-         - Cadena
+         - Numerico
        * - Inscripcion_Sogampi
          - Cadena
        * - Carta_Fianza
@@ -400,7 +400,7 @@ Diccionario de Datos
        * - Fianza_Financiera_Notariado
          - Cadena
        * - Firma
-         - Cadena
+         - Imagen
 
 
     # **Consejo directivo**
@@ -412,23 +412,23 @@ Diccionario de Datos
        * - | Campo
          - | Tipo de dato
        * - Consejo_Directivo_Nro
-         - Cadena
+         - Numerico
        * - Consejo_Directivo_Fecha
-         - Cadena
+         - Fecha
        * - Hora_Consejo_Directivo
-         - Cadena
+         - Hora
        * - Miembros_Consejo_Directivo
          - Cadena
        * - Nro_Expediente
-         - Cadena
+         - AlfaNumerico
        * - Razon_Social
          - Cadena
        * - Estatus_Desicion
          - Cadena
        * - Plan_Inversion
-         - Cadena
+         - Numerico
        * - Firma
-         - Cadena
+         - Imagen
 
 
 
@@ -441,7 +441,7 @@ Diccionario de Datos
        * - | Campo
          - | Tipo de dato
        * - Codigo_Analisis_Juridico
-         - Cadena
+         - AlfaNumerico
        * - Nro_Expediente
          - Cadena
        * - Descripcion_Garantia
@@ -459,13 +459,13 @@ Diccionario de Datos
        * - | Campo
          - | Tipo de dato
        * - Nro_Expediente
-         - Cadena
+         - AlfaNumerico
        * - Tiempo_Funcionamiento
-         - Cadena
+         - Numerico
        * - Cantidad_Productos
-         - Cadena
+         - Numerico
        * - Costos_Actividad
-         - Cadena
+         - Numerico
        * - Sistema_produccion
          - Cadena
        * - Clientes
@@ -481,7 +481,7 @@ Diccionario de Datos
        * - Observaciones
          - Cadena
        * - Firma
-         - Cadena
+         - Imagen
 
 
     # **Informe tecnico**
@@ -493,21 +493,21 @@ Diccionario de Datos
        * - | Campo
          - | Tipo de dato
        * - Nro_Expediente
-         - Cadena
+         - AlfaNumerico
        * - Fecha_Elaboracion
-         - Cadena
+         - Fecha
        * - Tipo_Empresa
          - Cadena
        * - Saldo_Balance_Personal
-         - Cadena
+         - Numerico
        * - Organizacion_Juridica
          - Cadena
        * - Recomendaciones
          - Cadena
        * - Firma
-         - Cadena
+         - Imagen
        * - Informe_Fotografico_Inspeccion
-         - Cadena
+         - Imagen
 
 
 
