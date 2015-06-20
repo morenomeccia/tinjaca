@@ -514,6 +514,6 @@ Diccionario de Datos
     # **Estado de cuentas**
 
 
-
+x
 
     # **Credito (numero de expediente)**
