@@ -7,8 +7,6 @@
 Informe de diseño, propuesta de fases de desarrollo, configuración y pruebas de TINJACÁ
 =======================================================================================
 
-Contenidos:
-
 .. toctree::
    :maxdepth: 2
 
@@ -17,6 +15,7 @@ Contenidos:
    datos
    modulos
    cronograma
+   apendice
 
 
 Indices y tablas

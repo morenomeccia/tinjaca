@@ -1,5 +1,6 @@
-﻿Diseño de módulos
-=================
+﻿*****************
+Diseño de Módulos
+*****************
 
 El sistema Tinjacá esta diseñado por módulos que agrupan funcionalidades asociadas a los distintos procesos descritos en
 el Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales. En esta sección se presenta una descripción de
