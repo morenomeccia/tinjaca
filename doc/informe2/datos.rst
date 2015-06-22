@@ -1,11 +1,17 @@
-﻿Diseño de Datos
-===============
+﻿***************
+Diseño de Datos
+***************
+
+Modelos de Datos
+================
+
 
 
 Diccionario de Datos
---------------------
+====================
 
-    # **Solicitante**
+Solicitante
+-----------
 
     * **Nombre de planilla**: Propuesta de financiamiento
     * **Descripción**:
@@ -54,7 +60,8 @@ Diccionario de Datos
          - Cadena
 
 
-    # **Unidad productiva**
+Unidad productiva
+-----------------
 
     .. list-table::
        :widths: 40 70
@@ -87,9 +94,8 @@ Diccionario de Datos
        * - Servicios
          - Cadena
 
-
-
-    # **Actividad productiva**
+Actividad productiva
+--------------------
 
     .. list-table::
        :widths: 40 70
@@ -112,9 +118,8 @@ Diccionario de Datos
        * - Puestos_Trabajo_Generar
          - Numerico
 
-
-
-    # **Plan de inversion**
+Plan de inversión
+-----------------
 
     .. list-table::
        :widths: 40 70
@@ -145,8 +150,8 @@ Diccionario de Datos
        * - Inversión_Total
          - Cadena
 
-
-    # **Conyuge**
+Cónyuges
+--------
 
     .. list-table::
        :widths: 40 70
@@ -181,9 +186,8 @@ Diccionario de Datos
        * - Observaciones
          - Cadena
 
-
-
-    # **Referencias personales y familiares**
+Referencias personales y familiares
+-----------------------------------
 
     .. list-table::
        :widths: 40 70
@@ -200,8 +204,8 @@ Diccionario de Datos
        * - Referencia_Familiar_2
          - Cadena
 
-
-    # **Avalista**
+Avalista
+--------
 
     .. list-table::
        :widths: 40 70
@@ -230,7 +234,8 @@ Diccionario de Datos
        * - Total_Ingresos
          - Numerico
 
-    # **Cuentas Bancarias Aval**
+Cuentas Bancarias Aval
+----------------------
 
     .. list-table::
        :widths: 40 70
@@ -248,8 +253,8 @@ Diccionario de Datos
          - Numerico
 
 
-
-    # **Activos fijos Aval**
+Activos fijos Aval
+------------------
 
     .. list-table::
        :widths: 40 70
@@ -264,9 +269,8 @@ Diccionario de Datos
        * - Avaluo
          - Numerico
 
-
-
-    # **Taller**
+Taller
+------
 
     .. list-table::
        :widths: 40 70
@@ -279,9 +283,8 @@ Diccionario de Datos
        * - Persona_Atendio
          - Cadena
 
-
-
-    # **Garantia**
+Garantía
+--------
 
     .. list-table::
        :widths: 40 70
@@ -298,9 +301,8 @@ Diccionario de Datos
        * - Avaluo
          - Numerico
 
-
-
-    # **Requisitos personales**
+Requisitos personales
+---------------------
 
     .. list-table::
        :widths: 40 70
@@ -321,9 +323,8 @@ Diccionario de Datos
        * - Permisos_Funcionamiento
          - Cadena
 
-
-
-    # **Requisitos empresa**
+Requisitos empresa
+------------------
 
     .. list-table::
        :widths: 40 70
@@ -344,9 +345,8 @@ Diccionario de Datos
        * - Solvencia_BANAVIH
          - Cadena
 
-
-
-    # **Requisitos sector**
+Requisitos sector
+-----------------
 
     .. list-table::
        :widths: 40 70
@@ -367,9 +367,8 @@ Diccionario de Datos
        * - Permiso_Sanidad
          - Cadena
 
-
-
-    # **Requisitos garantia**
+Requisitos garantía
+-------------------
 
     .. list-table::
        :widths: 40 70
@@ -402,8 +401,8 @@ Diccionario de Datos
        * - Firma
          - Imagen
 
-
-    # **Consejo directivo**
+Consejo directivo
+-----------------
 
     .. list-table::
        :widths: 40 70
@@ -430,9 +429,8 @@ Diccionario de Datos
        * - Firma
          - Imagen
 
-
-
-    # **Control previo**
+Control previo
+--------------
 
     .. list-table::
        :widths: 40 70
@@ -449,8 +447,8 @@ Diccionario de Datos
        * - Estatus_Analisis_Juridico
          - Cadena
 
-
-    # **Inspeccion**
+Inspección
+----------
 
     .. list-table::
        :widths: 40 70
@@ -484,7 +482,8 @@ Diccionario de Datos
          - Imagen
 
 
-    # **Informe tecnico**
+Informe técnico
+---------------
 
       .. list-table::
        :widths: 40 70
@@ -508,10 +507,6 @@ Diccionario de Datos
          - Imagen
        * - Informe_Fotografico_Inspeccion
          - Imagen
-
-
-
-    # **Estado de cuentas**
 
 
 
