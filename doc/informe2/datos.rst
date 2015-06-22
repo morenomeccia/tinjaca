@@ -24,9 +24,11 @@ Solicitante
 
        * - | Campo
          - | Tipo de dato
-       * - Numero
+       * - Código
          - Numérico
-       * - Nombres_Y_Apellidos
+       * - Nombres
+         - Cadena
+       * - Apellidos
          - Cadena
        * - CI
          - Numerico
@@ -69,6 +71,8 @@ Unidad productiva
 
        * - | Campo
          - | Tipo de dato
+       * - Código
+         - Numérico
        * - Nombre_Unidad_Productiva
          - Cadena
        * - Dirección_UP
@@ -93,6 +97,9 @@ Unidad productiva
          - Cadena
        * - Servicios
          - Cadena
+       * - Código_Solicitante
+         - Numérico
+
 
 Actividad productiva
 --------------------
@@ -103,6 +110,8 @@ Actividad productiva
 
        * - | Campo
          - | Tipo de dato
+       * - Código
+         - Numérico
        * - Producto_Derivado
          - Cadena
        * - Materia_Prima
@@ -117,6 +126,9 @@ Actividad productiva
          - Numerico
        * - Puestos_Trabajo_Generar
          - Numerico
+       * - Código_UnidadProductiva
+         - Numérico
+
 
 Plan de inversión
 -----------------
@@ -127,6 +139,8 @@ Plan de inversión
 
        * - | Campo
          - | Tipo de dato
+       * - Código
+         - Numérico
        * - Capital_de_trabajo
          - Cadena
        * - Materia_Prima
@@ -149,6 +163,9 @@ Plan de inversión
          - Cadena
        * - Inversión_Total
          - Cadena
+       * - Código_ActividadProductiva
+         - Numérico
+
 
 Cónyuges
 --------
@@ -159,9 +176,13 @@ Cónyuges
 
        * - | Campo
          - | Tipo de dato
+       * - Código
+         - Numérico
        * - Cedula_Identidad
          - Cadena
-       * - Nombres_Y_Apellidos
+       * - Nombres
+         - Cadena
+       * - Apellidos
          - Cadena
        * - Nacionalidad
          - Numerico
@@ -185,6 +206,9 @@ Cónyuges
          - Cadena
        * - Observaciones
          - Cadena
+       * - Código_Solicitante
+         - Numérico
+
 
 Referencias personales y familiares
 -----------------------------------
@@ -195,14 +219,25 @@ Referencias personales y familiares
 
        * - | Campo
          - | Tipo de dato
-       * - Referencia_Personal_1
+       * - Código
+         - Numérico
+       * - Cedula_Identidad
          - Cadena
-       * - Referencia_Personal_2
+       * - Nombres
          - Cadena
-       * - Referencia_Familiar_1
+       * - Apellidos
          - Cadena
-       * - Referencia_Familiar_2
+       * - Dirección_Habitación
          - Cadena
+       * - Municipio
+         - Numerico
+       * - Telefono_Habitación
+         - Cadena
+       * - Telefono_Celular
+         - Cadena
+       * - Código_Solicitante
+         - Numérico
+
 
 Avalista
 --------
@@ -213,9 +248,13 @@ Avalista
 
        * - | Campo
          - | Tipo de dato
+       * - Código
+         - Numérico
        * - Cedula_Identidad
          - Numerico
-       * - Nombres_Apellidos
+       * - Nombres
+         - Cadena
+       * - Apellidos
          - Cadena
        * - Direccion_Habitacion
          - Cadena
@@ -233,9 +272,12 @@ Avalista
          - Numerico
        * - Total_Ingresos
          - Numerico
+       * - Código_Solicitante
+         - Numérico
 
-Cuentas Bancarias Aval
-----------------------
+
+Cuentas Bancarias Avalista
+--------------------------
 
     .. list-table::
        :widths: 40 70
@@ -243,6 +285,8 @@ Cuentas Bancarias Aval
 
        * - | Campo
          - | Tipo de dato
+       * - Código
+         - Numérico
        * - Nro_Cuenta
          - Numerico
        * - Nombre_Banco
@@ -251,10 +295,12 @@ Cuentas Bancarias Aval
          - Cadena
        * - Monto
          - Numerico
+       * - Código_Avalista
+         - Numérico
 
 
-Activos fijos Aval
-------------------
+Activos fijos Avalista
+----------------------
 
     .. list-table::
        :widths: 40 70
@@ -262,12 +308,16 @@ Activos fijos Aval
 
        * - | Campo
          - | Tipo de dato
+       * - Código
+         - Numérico
        * - Activo
          - Cadena
        * - Titulo
          - Cadena
        * - Avaluo
          - Numerico
+       * - Código_Avalista
+         - Numérico
 
 Taller
 ------
@@ -278,6 +328,8 @@ Taller
 
        * - | Campo
          - | Tipo de dato
+       * - Código
+         - Numérico
        * - Fecha_Taller
          - Fecha
        * - Persona_Atendio
@@ -292,6 +344,8 @@ Garantía
 
        * - | Campo
          - | Tipo de dato
+       * - Código
+         - Numérico
        * - Nro_Expediente
          - AlfaNumerico
        * - Tipo_Garantia
@@ -300,6 +354,9 @@ Garantía
          - Cadena
        * - Avaluo
          - Numerico
+       * - Código_Credito
+         - Numérico
+
 
 Requisitos personales
 ---------------------
@@ -310,6 +367,8 @@ Requisitos personales
 
        * - | Campo
          - | Tipo de dato
+       * - Código
+         - Numérico
        * - Carta_Residencia
          - Cadena
        * - Documento_Propiedad_Alquiler
@@ -322,6 +381,9 @@ Requisitos personales
          - Cadena
        * - Permisos_Funcionamiento
          - Cadena
+       * - Código_Credito
+         - Numérico
+
 
 Requisitos empresa
 ------------------
@@ -332,6 +394,8 @@ Requisitos empresa
 
        * - | Campo
          - | Tipo de dato
+       * - Código
+         - Numérico
        * - Estado_Financiero_2_Ultimos_Años
          - Cadena
        * - Balance_Comprobacion
@@ -344,6 +408,9 @@ Requisitos empresa
          - Cadena
        * - Solvencia_BANAVIH
          - Cadena
+       * - Código_Credito
+         - Numérico
+
 
 Requisitos sector
 -----------------
@@ -354,6 +421,8 @@ Requisitos sector
 
        * - | Campo
          - | Tipo de dato
+       * - Código
+         - Numérico
        * - Permiso_Sanidad
          - Cadena
        * - Permiso_Ambiente
@@ -366,6 +435,9 @@ Requisitos sector
          - Cadena
        * - Permiso_Sanidad
          - Cadena
+       * - Código_Credito
+         - Numérico
+
 
 Requisitos garantía
 -------------------
@@ -376,6 +448,8 @@ Requisitos garantía
 
        * - | Campo
          - | Tipo de dato
+       * - Código
+         - Numérico
        * - Certificacion_Ingresos_Constancia_trabajo
          - Cadena
        * - Avaluo_Bien_Mueble
@@ -400,6 +474,9 @@ Requisitos garantía
          - Cadena
        * - Firma
          - Imagen
+       * - Código_Credito
+         - Numérico
+
 
 Consejo directivo
 -----------------
@@ -410,6 +487,8 @@ Consejo directivo
 
        * - | Campo
          - | Tipo de dato
+       * - Código
+         - Numérico
        * - Consejo_Directivo_Nro
          - Numerico
        * - Consejo_Directivo_Fecha
@@ -438,7 +517,9 @@ Control previo
 
        * - | Campo
          - | Tipo de dato
-       * - Codigo_Analisis_Juridico
+       * - Código
+         - Numérico
+       * - Código_Analisis_Juridico
          - AlfaNumerico
        * - Nro_Expediente
          - Cadena
@@ -446,6 +527,9 @@ Control previo
          - Cadena
        * - Estatus_Analisis_Juridico
          - Cadena
+       * - Código_Credito
+         - Numérico
+
 
 Inspección
 ----------
@@ -456,6 +540,8 @@ Inspección
 
        * - | Campo
          - | Tipo de dato
+       * - Código
+         - Numérico
        * - Nro_Expediente
          - AlfaNumerico
        * - Tiempo_Funcionamiento
@@ -480,6 +566,8 @@ Inspección
          - Cadena
        * - Firma
          - Imagen
+       * - Código_Credito
+         - Numérico
 
 
 Informe técnico
@@ -491,6 +579,8 @@ Informe técnico
 
        * - | Campo
          - | Tipo de dato
+       * - Código
+         - Numérico
        * - Nro_Expediente
          - AlfaNumerico
        * - Fecha_Elaboracion
@@ -507,7 +597,74 @@ Informe técnico
          - Imagen
        * - Informe_Fotografico_Inspeccion
          - Imagen
+       * - Código_Credito
+         - Numérico
 
 
+Inversion
+---------
 
-    # **Credito (numero de expediente)**
+      .. list-table::
+       :widths: 40 70
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+       * - Código
+         - Numérico
+       * - Código_Credito
+         - Numérico
+
+
+Estado de cuentas
+-----------------
+
+      .. list-table::
+       :widths: 40 70
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+       * - Código
+         - Numérico
+
+
+Pagos
+-----
+
+      .. list-table::
+       :widths: 40 70
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+       * - Código
+         - Numérico
+       * - Código_Credito
+         - Numérico
+
+
+Credito
+-------
+
+      .. list-table::
+       :widths: 40 70
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+       * - Código
+         - Numérico
+       * - Nro_Expediente
+         - AlfaNumerico
+       * - Código_Solicitante
+         - Numerico
+       * - Código_UnidadProductiva
+         - Numerico
+       * - Código_Taller
+         - Numerico
+       * - Código_Consejo
+         - Numerico
+       * - Código_EstadoDeCuentas
+         - Numérico
+
