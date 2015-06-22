@@ -1,4 +1,4 @@
-Cronograma Fases de desarrollo, configuración y pruebas
+﻿Cronograma Fases de desarrollo, configuración y pruebas
 =======================================================
 
 Fases de Desarrollo
@@ -30,7 +30,7 @@ desarrollo de TINJACÁ se prevén varios hitos que facilitaran el cumplimiento d
        * - Desarrollo
          - X
          - X
-         -
+         - X
          -
          -
        * - Configuración y diseño de pruebas
@@ -42,7 +42,7 @@ desarrollo de TINJACÁ se prevén varios hitos que facilitaran el cumplimiento d
        * - Pruebas
          -
          -
-         - X (20 de agosto)
+         - X
          - X
          -
        * - Revisión Final
@@ -63,10 +63,10 @@ desarrollo de TINJACÁ se prevén varios hitos que facilitaran el cumplimiento d
 Configuración
 -------------
 
-configuración y pruebas de modo iterativo
 
-20 agosto primera prueba
 
 Pruebas
 -------
+
+Las pruebas serán realizadas módulo a módulo a medida que sean desarrollados, de modo que puedan incluirse los cambios que surgen como nuevos requerimientos, producto de la interacción con los usuarios.
 

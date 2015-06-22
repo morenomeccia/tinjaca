@@ -19,7 +19,7 @@
 - Control previo (10)
 - Inspeccion (11)
 - Informe tecnico (12)
-- Acompañamiento (22)
+- Inversion (22)
 - Estado de cuentas (21)
 - Pagos (24)
 - Credito
