@@ -16,9 +16,6 @@ Diccionario de Datos
 Solicitante
 -----------
 
-    * **Nombre de planilla**: Propuesta de financiamiento
-    * **Descripción**:
-
     .. tabularcolumns:: |p{4cm}|p{7cm}|
 
     .. list-table::
@@ -41,8 +38,6 @@ Solicitante
          - Fecha
        * - Edad
          - Numerico
-       * - Edad
-         - Cadena
        * - Sexo
          - Caracter
        * - Direccion_Habitacion
@@ -58,8 +53,6 @@ Solicitante
        * - Teléfono_Celular
          - Cadena
        * - Correo_Electronico
-         - Cadena
-       * - Twitter
          - Cadena
        * - Twitter
          - Cadena
