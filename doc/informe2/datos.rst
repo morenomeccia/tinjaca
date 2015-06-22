@@ -2,6 +2,9 @@
 Diseño de Datos
 ***************
 
+La estructura y modelado de datos del sistema TINJACA se realizó a partir de los formatos y planillas que utilizan las diferentes gerencias y dependencias del FOMDES, así como las que son incorporadas en los expedientes en las diferentes fases del crédito. La información contenida en dichas planillas se incluyen en el Apéndice del presente informe.
+
+
 Modelos de Datos
 ================
 
@@ -601,7 +604,7 @@ Informe técnico
          - Numérico
 
 
-Inversion
+Inversión
 ---------
 
       .. list-table::
@@ -613,6 +616,10 @@ Inversion
        * - Código
          - Numérico
        * - Código_Credito
+         - Numérico
+       * - Consigno_facturas
+         - Numérico
+       * - Observaciones
          - Numérico
 
 
@@ -627,6 +634,22 @@ Estado de cuentas
          - | Tipo de dato
        * - Código
          - Numérico
+       * - Monto_total
+         - Numérico
+       * - Monto_cuota
+         - Numérico
+       * - Periodos_gracia
+         - Numérico
+       * - Periodo_pago
+         - Numérico
+       * - Tasas_interés
+         - Numérico
+       * - Interés_mora
+         - Numérico
+       * - Fecha_liquidación
+         - Fecha
+       * - Fecha_ultima
+         - Fecha
 
 
 Pagos
@@ -639,6 +662,14 @@ Pagos
        * - | Campo
          - | Tipo de dato
        * - Código
+         - Numérico
+       * - Concepto
+         - Numérico
+       * - Total
+         - Numérico
+       * - Interes_capital
+         - Numérico
+       * - Interes_mora
          - Numérico
        * - Código_Credito
          - Numérico

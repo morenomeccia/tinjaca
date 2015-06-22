@@ -60,13 +60,8 @@ desarrollo de TINJACÁ se prevén varios hitos que facilitaran el cumplimiento d
 
 
 
-Configuración
--------------
-
-
-
-Pruebas
--------
+Configuración y Pruebas
+-----------------------
 
 Las pruebas serán realizadas módulo a módulo a medida que sean desarrollados, de modo que puedan incluirse los cambios que surgen como nuevos requerimientos, producto de la interacción con los usuarios.
 
