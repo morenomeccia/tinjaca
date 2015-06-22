@@ -1,8 +1,9 @@
-﻿Descripción
-===========
+﻿***********
+Descripción
+***********
 
 Objetivo del Informe
---------------------
+====================
 
 Proveer una descripción del diseño del sistema suficientemente completo que permita iniciar el desarrollo de software
 con una comprensión de lo que se desea hacer y como se espera llevar a cabo. De igual manera, sirve para establecer un
@@ -13,7 +14,7 @@ TINJACÁ, a la luz de las historias de usuario presentadas en el Informe de Requ
 Sistemas Actuales.
 
 Alcance
--------
+=======
 
 El diseño de un sistema informático supone la consideración de distintos elementos que pueden determinar desde su
 configuración hasta su posterior instalación y prueba por parte de los usuarios finales y que, por tanto, afectarán de
@@ -27,7 +28,7 @@ datos y el diseño de módulos del sistema TINJACÁ.
 Adicionalmente se incluye el cronograma propuesto para las fases de desarrollo y de pruebas del sistema TINJACÁ.
 
 Metodología General
--------------------
+===================
 
 Partiendo de las historias de usuario presentadas en el informe diagnóstico, este documento presenta propuestas para el
 modelado de datos y del modelo lógico del sistema, todo ello a fin de atender la necesaria resolución de los nudos
@@ -46,7 +47,7 @@ Estos nudos críticos, como se ha señalado en un informe anterior, tienen que v
    presidencia de la institución.
 
 Referencias
------------
+===========
 
 El documento básico al que se hace referencia en este documento es el primer informe de este proyecto:
 
