@@ -226,7 +226,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'informe2.tex', u'informe2 Documentation',
+  (master_doc, 'informe2.tex', u'Informe de diseño, propuesta de fases de desarrollo, configuración y pruebas de TINJACÁ',
    u'Hector Jose Ospino Velasquez', 'manual'),
 ]
 
@@ -256,7 +256,7 @@ latex_logo = "_static/sani_logo_notxt_100px.png"
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'informe2', u'informe2 Documentation',
+    (master_doc, 'informe2', u'Informe de diseño, propuesta de fases de desarrollo, configuración y pruebas de TINJACÁ',
      [author], 1)
 ]
 
@@ -270,7 +270,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'informe2', u'informe2 Documentation',
+  (master_doc, 'informe2', u'Informe de diseño, propuesta de fases de desarrollo, configuración y pruebas de TINJACÁ',
    author, 'informe2', 'One line description of project.',
    'Miscellaneous'),
 ]
