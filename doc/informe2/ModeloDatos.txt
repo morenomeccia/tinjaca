@@ -26,5 +26,4 @@ Credito 1-1 Inversion
 Credito 1-1 Estado de cuentas
 
 * Notas:
-- La tabla Inversion se refiere a los datos asociados al informe de acompañamiento (falta planilla)
 - Quedan pendientes algunas tablas relacionadas a los precesos internos de FOMDES para algunas oficinas, que no involucran a los expedientes de credito.
