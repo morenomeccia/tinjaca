@@ -21,6 +21,7 @@
 - Informe tecnico (12)
 - Inspeccion (22)
 - Estado de cuentas (21)
+- Pagos (24)
 - Credito (numero de expediente)
 
 * Notas: 

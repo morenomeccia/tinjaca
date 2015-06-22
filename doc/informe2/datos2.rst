@@ -18,9 +18,11 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
-       * - Numero
+       * - Codigo
          - Numérico
-       * - Nombres_Y_Apellidos
+       * - Nombres
+         - Cadena
+       * - Apellidos
          - Cadena
        * - CI
          - Numerico
@@ -62,6 +64,8 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
+       * - Codigo
+         - Numérico
        * - Nombre_Unidad_Productiva
          - Cadena
        * - Dirección_UP
@@ -86,6 +90,8 @@ Diccionario de Datos
          - Cadena
        * - Servicios
          - Cadena
+       * - Codigo_Solicitante
+         - Numérico
 
 
 
@@ -97,6 +103,8 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
+       * - Codigo
+         - Numérico
        * - Producto_Derivado
          - Cadena
        * - Materia_Prima
@@ -111,6 +119,8 @@ Diccionario de Datos
          - Numerico
        * - Puestos_Trabajo_Generar
          - Numerico
+       * - Codigo_UnidadProductiva
+         - Numérico
 
 
 
@@ -122,6 +132,8 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
+       * - Codigo
+         - Numérico
        * - Capital_de_trabajo
          - Cadena
        * - Materia_Prima
@@ -144,6 +156,8 @@ Diccionario de Datos
          - Cadena
        * - Inversión_Total
          - Cadena
+       * - Codigo_ActividadProductiva
+         - Numérico
 
 
     # **Conyuge**
@@ -154,9 +168,13 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
+       * - Codigo
+         - Numérico
        * - Cedula_Identidad
          - Cadena
-       * - Nombres_Y_Apellidos
+       * - Nombres
+         - Cadena
+       * - Apellidos
          - Cadena
        * - Nacionalidad
          - Numerico
@@ -180,6 +198,8 @@ Diccionario de Datos
          - Cadena
        * - Observaciones
          - Cadena
+       * - Codigo_Solicitante
+         - Numérico
 
 
 
@@ -191,14 +211,24 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
-       * - Referencia_Personal_1
+       * - Codigo
+         - Numérico
+       * - Cedula_Identidad
          - Cadena
-       * - Referencia_Personal_2
+       * - Nombres
          - Cadena
-       * - Referencia_Familiar_1
+       * - Apellidos
          - Cadena
-       * - Referencia_Familiar_2
+       * - Dirección_Habitación
          - Cadena
+       * - Municipio
+         - Numerico
+       * - Telefono_Habitación
+         - Cadena
+       * - Telefono_Celular
+         - Cadena
+       * - Codigo_Solicitante
+         - Numérico
 
 
     # **Avalista**
@@ -229,8 +259,10 @@ Diccionario de Datos
          - Numerico
        * - Total_Ingresos
          - Numerico
+       * - Codigo_Solicitante
+         - Numérico
 
-    # **Cuentas Bancarias Aval**
+    # **Cuentas Bancarias Avalista**
 
     .. list-table::
        :widths: 40 70
@@ -238,6 +270,8 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
+       * - Codigo
+         - Numérico
        * - Nro_Cuenta
          - Numerico
        * - Nombre_Banco
@@ -246,10 +280,12 @@ Diccionario de Datos
          - Cadena
        * - Monto
          - Numerico
+       * - Codigo_Avalista
+         - Numérico
 
 
 
-    # **Activos fijos Aval**
+    # **Activos fijos Avalista**
 
     .. list-table::
        :widths: 40 70
@@ -257,12 +293,16 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
+       * - Codigo
+         - Numérico
        * - Activo
          - Cadena
        * - Titulo
          - Cadena
        * - Avaluo
          - Numerico
+       * - Codigo_Avalista
+         - Numérico
 
 
 
@@ -274,6 +314,8 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
+       * - Codigo
+         - Numérico
        * - Fecha_Taller
          - Fecha
        * - Persona_Atendio
@@ -289,6 +331,8 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
+       * - Codigo
+         - Numérico
        * - Nro_Expediente
          - AlfaNumerico
        * - Tipo_Garantia
@@ -297,6 +341,8 @@ Diccionario de Datos
          - Cadena
        * - Avaluo
          - Numerico
+       * - Codigo_Credito
+         - Numérico
 
 
 
@@ -308,6 +354,8 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
+       * - Codigo
+         - Numérico
        * - Carta_Residencia
          - Cadena
        * - Documento_Propiedad_Alquiler
@@ -320,6 +368,8 @@ Diccionario de Datos
          - Cadena
        * - Permisos_Funcionamiento
          - Cadena
+       * - Codigo_Credito
+         - Numérico
 
 
 
@@ -331,6 +381,8 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
+       * - Codigo
+         - Numérico
        * - Estado_Financiero_2_Ultimos_Años
          - Cadena
        * - Balance_Comprobacion
@@ -343,6 +395,8 @@ Diccionario de Datos
          - Cadena
        * - Solvencia_BANAVIH
          - Cadena
+       * - Codigo_Credito
+         - Numérico
 
 
 
@@ -354,6 +408,8 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
+       * - Codigo
+         - Numérico
        * - Permiso_Sanidad
          - Cadena
        * - Permiso_Ambiente
@@ -366,6 +422,8 @@ Diccionario de Datos
          - Cadena
        * - Permiso_Sanidad
          - Cadena
+       * - Codigo_Credito
+         - Numérico
 
 
 
@@ -377,6 +435,8 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
+       * - Codigo
+         - Numérico
        * - Certificacion_Ingresos_Constancia_trabajo
          - Cadena
        * - Avaluo_Bien_Mueble
@@ -401,6 +461,8 @@ Diccionario de Datos
          - Cadena
        * - Firma
          - Imagen
+       * - Codigo_Credito
+         - Numérico
 
 
     # **Consejo directivo**
@@ -411,6 +473,8 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
+       * - Codigo
+         - Numérico
        * - Consejo_Directivo_Nro
          - Numerico
        * - Consejo_Directivo_Fecha
@@ -440,6 +504,8 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
+       * - Codigo
+         - Numérico
        * - Codigo_Analisis_Juridico
          - AlfaNumerico
        * - Nro_Expediente
@@ -448,6 +514,8 @@ Diccionario de Datos
          - Cadena
        * - Estatus_Analisis_Juridico
          - Cadena
+       * - Codigo_Credito
+         - Numérico
 
 
     # **Inspeccion**
@@ -458,6 +526,8 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
+       * - Codigo
+         - Numérico
        * - Nro_Expediente
          - AlfaNumerico
        * - Tiempo_Funcionamiento
@@ -482,6 +552,8 @@ Diccionario de Datos
          - Cadena
        * - Firma
          - Imagen
+       * - Codigo_Credito
+         - Numérico
 
 
     # **Informe tecnico**
@@ -492,6 +564,8 @@ Diccionario de Datos
 
        * - | Campo
          - | Tipo de dato
+       * - Codigo
+         - Numérico
        * - Nro_Expediente
          - AlfaNumerico
        * - Fecha_Elaboracion
@@ -508,11 +582,70 @@ Diccionario de Datos
          - Imagen
        * - Informe_Fotografico_Inspeccion
          - Imagen
+       * - Codigo_Credito
+         - Numérico
 
+
+    # **Inspeccion**
+
+      .. list-table::
+       :widths: 40 70
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+       * - Codigo
+         - Numérico
+       * - Codigo_Credito
+         - Numérico
 
 
     # **Estado de cuentas**
 
+      .. list-table::
+       :widths: 40 70
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+       * - Codigo
+         - Numérico
 
 
-    # **Credito (numero de expediente)**
+    # **Pagos**
+
+      .. list-table::
+       :widths: 40 70
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+       * - Codigo
+         - Numérico
+       * - Codigo_Credito
+         - Numérico
+
+
+    # **Credito**
+
+      .. list-table::
+       :widths: 40 70
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+       * - Codigo
+         - Numérico
+       * - Nro_Expediente
+         - AlfaNumerico
+       * - Codigo_Solicitante
+         - Numerico
+       * - Codigo_UnidadProductiva
+         - Numerico
+       * - Codigo_Taller
+         - Numerico
+       * - Codigo_Consejo
+         - Numerico
+       * - Codigo_EstadoDeCuentas
+         - Numérico
+
