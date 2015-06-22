@@ -1,9 +1,9 @@
-﻿Arquitectura del Sistema
-========================
-
+﻿************************
+Arquitectura del Sistema
+************************
 
 Diseño de la Arquitectura
--------------------------
+=========================
 
 El sistema Tinjaca está basado en la plataforma de código abierto de aplicaciones para la gestión
  administrativa *Odoo*.
@@ -42,7 +42,7 @@ Tinjaca deber ser puesto en producción considerando:
    base de datos de producción.
 
 Descripción de la Descomposición
---------------------------------
+================================
 
 La descomposición en módulos del sistema Tinjacá responde a los distintos procesos descritos en el *Informe de
 Requerimientos y Nudos Críticos de los Sistemas Actuales*.
@@ -63,7 +63,7 @@ En este sentido, los módulos serían:
 En la sección *Diseño de Módulos* se encuentra una descripción detallada de cada uno.
 
 Justificación del Diseño
-------------------------
+========================
 
 Se plantea desarrollar un módulo para cada uno de los procesos planteados en el primer informe realizado en el marco de
 este proyecto ya que esto refleja la forma natural de como se llevan a cabo las actividades del FOMDES. Debe
