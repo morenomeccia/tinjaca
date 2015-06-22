@@ -1,8 +1,6 @@
 ﻿﻿Diseño de Datos
 ===============
 
-
-
 Descripción de Datos
 --------------------
 
@@ -728,7 +726,7 @@ Para definir la organización y registro de los datos en el sistema TINJACA se t
 * **Resumen de estado de cuenta**: Indica el resumen de las cuotas, capital, interés de capital, interés de mora y total dependiendo del estatus del estado de pago.
 
 
-**22. SEGUIMIENTO Y VERIFICACION DE LA INVERSION**: Es el resumen de la visita realizada a la unidad de producción para verificar el plan de inversión.
+**22. SEGUIMIENTO Y VERIFICACIÓN DE LA INVERSIÓN**: Es el resumen de la visita realizada a la unidad de producción para verificar el plan de inversión.
 
 * **Fecha de la visita**: Indica el día, mes y año de realización de la visita de acompañamiento.
 * **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
@@ -744,7 +742,7 @@ Para definir la organización y registro de los datos en el sistema TINJACA se t
 * **Informe fotográfico de la inspección**: Indica el expediente, la fecha de la visita y un máximo de 8 fotos tomadas a la unidad de producción.
 
 
-**23. INFORME DE RECOMENDACION**: Es el resumen de acompañamiento al plan de inversión del crédito.
+**23. INFORME DE RECOMENDACIÓN**: Es el resumen de acompañamiento al plan de inversión del crédito.
 
 * **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
 * **Fecha del informe**: Indica el día, mes y año de realización del informe de recomendación.
@@ -784,7 +782,7 @@ Para definir la organización y registro de los datos en el sistema TINJACA se t
 * **Firma**:  Indica el nombre y apellido del funcionario y del beneficiario.
 
 
-**25. CITACION DE PRESIDENCIA**: Es el aviso para tratar morosidad en los pagos del crédito con el  beneficiario.
+**25. CITACIÓN DE PRESIDENCIA**: Es el aviso para tratar morosidad en los pagos del crédito con el  beneficiario.
 
 * **Fecha de emisión**: Indica el día, mes y año de emisión de la citación.
 * **Representante legal**: Indica el nombre y apellido del beneficiario.
@@ -801,7 +799,7 @@ Para definir la organización y registro de los datos en el sistema TINJACA se t
 * Indica la fecha, asiento, referencia, descripción, saldo anterior, debe, haber, saldo y total de la cuenta cancelada.
 
 
-**27. ORDEN DE LIBERACION**: Es la orden emitida por consultoría jurídica para la liberación de la garantía del crédito.
+**27. ORDEN DE LIBERACIÓN**: Es la orden emitida por consultoría jurídica para la liberación de la garantía del crédito.
 
 * **Fecha**: Indica el día de la semana, día, mes y año de emisión de la orden.
 * **Nombre del consultor jurídico**: Indica el nombre y apellido del consultor jurídico del FOMDES.

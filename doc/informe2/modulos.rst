@@ -1,13 +1,21 @@
 ﻿Diseño de módulos
 =================
 
-El sistema Tinjacá esta diseñado por módulos que agrupan funcionalidades asociadas a los distintos procesos descritos en el Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales. En esta sección se presenta una descripción de cada uno de los módulos planteados, los procedimientos que se ejecutan, los datos accedidos o modificados, y los reportes generados.
+El sistema Tinjacá esta diseñado por módulos que agrupan funcionalidades asociadas a los distintos procesos descritos en
+el Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales. En esta sección se presenta una descripción de
+cada uno de los módulos planteados, los procedimientos que se ejecutan, los datos accedidos o modificados, y los
+reportes generados.
 
-Asimismo, el sistema contempla diferentes perfiles de usuario que se relacionan directamente con el rol que desempeña la persona dentro del FOMDES. Los perfiles de usuario definen tanto los permisos como las restricciones para cada módulo.
+Asimismo, el sistema contempla diferentes perfiles de usuario que se relacionan directamente con el rol que desempeña la
+persona dentro del FOMDES. Los perfiles de usuario definen tanto los permisos como las restricciones para cada módulo.
 
-Cada cuenta de usuario tendrá asociado un perfil de usuario, de modo que tanto el acceso a los datos del sistema como los menús e interfaz, dependa de cada perfil de usuario según la sesión iniciada por los funcionarios de FOMDES como usuarios del sistema Tinjacá. De esta manera las funciones permitidas estarán condicionadas y limitadas por el mismo sistema de forma predeterminada.
+Cada cuenta de usuario tendrá asociado un perfil de usuario, de modo que tanto el acceso a los datos del sistema como
+los menús e interfaz, dependa de cada perfil de usuario según la sesión iniciada por los funcionarios de FOMDES como
+usuarios del sistema Tinjacá. De esta manera las funciones permitidas estarán condicionadas y limitadas por el mismo
+sistema de forma predeterminada.
 
-Por otro lado, también existen perfiles especiales con tipos de usuario avanzados dentro del sistema, llamados super-usuarios, que tienen capacidades superiores en la administración del sistema, dentro de un ámbito específico.
+Por otro lado, también existen perfiles especiales con tipos de usuario avanzados dentro del sistema, llamados
+super-usuarios, que tienen capacidades superiores en la administración del sistema, dentro de un ámbito específico.
 
 Módulo Solicitudes
 ==================
@@ -15,7 +23,9 @@ Módulo Solicitudes
 Descripción
 -----------
 
-Este módulo abarca los procesos de "Recepción de propuestas" y "Recepción y Evaluación de Solicitudes". Incluye procedimientos asociados con la recepción y validación de la propuesta de financiamiento, validación de recaudos para solicitud de crédito y generación del listado de expedientes sugeridos para aprobación de créditos.
+Este módulo abarca los procesos de "Recepción de propuestas" y "Recepción y Evaluación de Solicitudes". Incluye
+procedimientos asociados con la recepción y validación de la propuesta de financiamiento, validación de recaudos para
+solicitud de crédito y generación del listado de expedientes sugeridos para aprobación de créditos.
 
 Procedimientos de ingreso de datos
 ----------------------------------
@@ -154,14 +164,15 @@ Procedimiento de generación de reportes
           - Lista de distribución de los analistas económicos.
 
 
-
 Módulo Aprobación
 =================
 
 Descripción
 -----------
 
-Este módulo abarca los procesos de "Aprobación de Créditos". Incluye los procedimientos asociados con la recepción de la lista de expedientes sugeridos para aprobación de crédito, la elaboración del Documento de Crédito y constitución de la empresa (de requerirse) para cada uno de los beneficiarios(as).
+Este módulo abarca los procesos de "Aprobación de Créditos". Incluye los procedimientos asociados con la recepción de la
+lista de expedientes sugeridos para aprobación de crédito, la elaboración del Documento de Crédito y constitución de la
+empresa (de requerirse) para cada uno de los beneficiarios(as).
 
 Procedimientos de ingreso de datos
 ----------------------------------
@@ -246,7 +257,9 @@ Modulo Administración
 Descripción
 -----------
 
-Este módulo abarca los procesos de "Liquidación de créditos" y "Liberación de Créditos". Incluye procedimientos relacionados con la consignación de los documentos notariados por parte de los beneficiarios hasta la entrega del cheque respectivo y con la liberación de los créditos.
+Este módulo abarca los procesos de "Liquidación de créditos" y "Liberación de Créditos". Incluye procedimientos
+relacionados con la consignación de los documentos notariados por parte de los beneficiarios hasta la entrega del cheque
+respectivo y con la liberación de los créditos.
 
 Procedimientos de ingreso de datos
 ----------------------------------
@@ -323,7 +336,8 @@ Módulo Acompañamiento
 Descripción
 -----------
 
-Este módulo abarca los procesos de "Inspección de Inversiones". Incluye procedimientos asociados a la verificación de la ejecución del plan de inversión por parte del beneficiario.
+Este módulo abarca los procesos de "Inspección de Inversiones". Incluye procedimientos asociados a la verificación de la
+ejecución del plan de inversión por parte del beneficiario.
 
 
 Procedimientos de ingreso de datos
@@ -428,7 +442,8 @@ Módulo Caja
 Descripción
 -----------
 
-Este módulo abarca los procesos de "Pagos". Incluye procedimientos asociados con las actividades de recepción de pagos y actualización de estados de cuenta de beneficiarios o beneficiarias.
+Este módulo abarca los procesos de "Pagos". Incluye procedimientos asociados con las actividades de recepción de pagos y
+actualización de estados de cuenta de beneficiarios o beneficiarias.
 
 Procedimientos de ingreso de datos
 ----------------------------------
@@ -491,7 +506,9 @@ Módulo Recuperaciones
 Descripción
 -----------
 
-Este módulo abarca los procesos de "Gestión de cobranzas". Incluye procedimientos asociados con las actividades de recepción de pagos, actualización de estados de cuenta de beneficiarios y trámites y gestión de recuperación de pagos caídos por parte de los beneficiarios.
+Este módulo abarca los procesos de "Gestión de cobranzas". Incluye procedimientos asociados con las actividades de
+recepción de pagos, actualización de estados de cuenta de beneficiarios y trámites y gestión de recuperación de pagos
+caídos por parte de los beneficiarios.
 
 
 Procedimientos
@@ -580,7 +597,9 @@ Módulo Consultaría Jurídica
 Descripción
 -----------
 
-Este módulo abarca los procesos asistidos por los consultores jurídicos en: "Liquidación de créditos", "Liberación de créditos" y "Gestión de cobranza". Incluye procedimientos asociados a la redacción de documentos jurídicos y cambio de estatus del expediente.
+Este módulo abarca los procesos asistidos por los consultores jurídicos en: "Liquidación de créditos", "Liberación de
+créditos" y "Gestión de cobranza". Incluye procedimientos asociados a la redacción de documentos jurídicos y cambio de
+estatus del expediente.
 
 
 Procedimientos de ingreso de datos
@@ -640,7 +659,9 @@ Módulo Archivo
 Descripción
 -----------
 
-Este módulo abarca "Recepción y Evaluación de solicitudes", "Inspección de inversiones", "Liberación de créditos", "Gestión de cobranza". Incluye procedimientos asociados al control de la ubicación de los expedientes dentro de los distintos departamentos del FOMDES.
+Este módulo abarca "Recepción y Evaluación de solicitudes", "Inspección de inversiones", "Liberación de créditos",
+"Gestión de cobranza". Incluye procedimientos asociados al control de la ubicación de los expedientes dentro de los
+distintos departamentos del FOMDES.
 
 
 Procedimientos de ingreso de datos
@@ -686,7 +707,8 @@ Módulo Estadística
 Descripción
 -----------
 
-Este módulo abarca los procesos que demandan análisis y cálculos estadísticos. Incluye procedimientos de generación de estadísticas para el apoyo en la toma de decisiones por parte de las gerencias y directiva de FOMDES.
+Este módulo abarca los procesos que demandan análisis y cálculos estadísticos. Incluye procedimientos de generación de
+estadísticas para el apoyo en la toma de decisiones por parte de las gerencias y directiva de FOMDES.
 
 Procedimiento de generación de reportes
 ---------------------------------------
@@ -708,7 +730,8 @@ Módulo Presidencia
 Descripción
 -----------
 
-Este módulo abarca los procesos en los que interviene la gestión directa del presidente del FOMDES. Incluye procedimientos de evaluación y coordinación con las gerencias para las tomas de decisiones.
+Este módulo abarca los procesos en los que interviene la gestión directa del presidente del FOMDES. Incluye
+procedimientos de evaluación y coordinación con las gerencias para las tomas de decisiones.
 
 Procedimientos de ingreso de datos
 ----------------------------------
@@ -751,7 +774,8 @@ Módulo Atención
 Descripción
 -----------
 
-Este módulo abarca "Recepción y Evaluación de solicitudes",  Incluye procedimientos asociados al control de la ubicación de los expedientes dentro de los distintos departamentos del FOMDES.
+Este módulo abarca "Recepción y Evaluación de solicitudes",  Incluye procedimientos asociados al control de la ubicación
+de los expedientes dentro de los distintos departamentos del FOMDES.
 
 
 Procedimientos de ingreso de datos

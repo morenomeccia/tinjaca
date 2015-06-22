@@ -11,13 +11,13 @@ El sistema Tinjaca está basado en la plataforma de código abierto de aplicacio
 Desde el punto de vista de su funcionamiento sigue el patrón de diseño de tres capas:
 
  * *Capa de presentación*: *Odoo* es una aplicación web, por lo tanto ofrece una interfaz web basada
-  en HTML5 y CSS3, y un cliente javascript que se comunica con las otras capas del sistema. Una
-  característica clave es el uso intensivo de XML para describir las interfaces: ventanas, menúes,
-  reportes, plantillas, etc.
+ en HTML5 y CSS3, y un cliente javascript que se comunica con las otras capas del sistema. Una
+ característica clave es el uso intensivo de XML para describir las interfaces: ventanas, menúes,
+ reportes, plantillas, etc.
 
  * *Capa de aplicación*: Mediante código Python se maneja el enrutamiento HTTP, la lógica del negocio y las
  notificaciones. Incluye controladores en Python y Javascript que recogen solicitudes de la
- interfaz, realiza consultas a la base de datos, procesa la información recibida y envía los
+ interfaz, realizan consultas a la base de datos, procesa la información recibida y envía los
  resultados a la interfaz de usuario.
 
  * *Capa de datos*: Permite la especificación de los modelos de datos como clases de Python que realizan una
@@ -44,7 +44,7 @@ Tinjaca deber ser puesto en producción considerando:
 Descripción de la Descomposición
 --------------------------------
 
-La descomposicion en módulos del sistema Tinjaca responde a los distintos procesos descritos en el *Informe de
+La descomposición en módulos del sistema Tinjaca responde a los distintos procesos descritos en el *Informe de
 Requerimientos y Nudos Críticos de los Sistemas Actuales*.
 
 En este sentido, los módulos serían:
@@ -66,5 +66,5 @@ Justificación del Diseño
 ------------------------
 
 Se plantea desarrollar un modulo para cada uno de los procesos planteados en el informe 1 ya que esto refleja la forma
-natural de como se llavanm a cabo las actividades del FOMDES.
+natural de como se llevan a cabo las actividades del FOMDES.
 

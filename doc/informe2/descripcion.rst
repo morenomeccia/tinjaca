@@ -29,9 +29,9 @@ Adicionalmente se incluye el cronograma propuesto para las fases de desarrollo y
 Metodología General
 -------------------
 
-Partiendo de las historias de usuario presentadas en el informe diagnóstico, este documento presenta
-propuestas para el modelado de datos y del modelo lógico del sistema, todo ello a fin de atender la necesaria resolución de los nudos críticos
-identificados con anterioridad.
+Partiendo de las historias de usuario presentadas en el informe diagnóstico, este documento presenta propuestas para el
+modelado de datos y del modelo lógico del sistema, todo ello a fin de atender la necesaria resolución de los nudos
+críticos identificados con anterioridad.
 
 Estos nudos críticos, como se ha señalado en un informe anterior, tienen que ver con:
 
