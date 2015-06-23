@@ -178,10 +178,16 @@ Actividad productiva
          - Numérico
        * - Código_UnidadProductiva
          - Numérico
+       * - Código_Crédito
+         - Numérico
+       * - Consigno_facturas
+         - Numérico
+       * - Observaciones
+         - Numérico
 
 
-Plan de inversión
------------------
+Planes Inversión
+----------------
 
     .. list-table::
        :widths: 40 70
@@ -650,24 +656,6 @@ Informes técnicos
        * - Código_Crédito
          - Numérico
 
-
-Planes Inversión
-----------------
-
-      .. list-table::
-       :widths: 40 70
-       :header-rows: 1
-
-       * - | Campo
-         - | Tipo de dato
-       * - Código
-         - Numérico
-       * - Código_Crédito
-         - Numérico
-       * - Consigno_facturas
-         - Numérico
-       * - Observaciones
-         - Numérico
 
 Pagos
 -----
