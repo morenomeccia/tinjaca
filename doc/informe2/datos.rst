@@ -2,22 +2,75 @@
 Diseño de Datos
 ***************
 
-La estructura y modelado de datos del sistema TINJACA se realizó a partir de los formatos y planillas que utilizan las diferentes gerencias y dependencias del FOMDES, así como las que son incorporadas en los expedientes en las diferentes fases del crédito. La información contenida en dichas planillas se incluyen en el Apéndice del presente informe.
+La estructura y modelado de datos del sistema TINJACA se realizó a partir de los formatos y planillas que utilizan las
+diferentes gerencias y dependencias del FOMDES, así como las que son incorporadas en los expedientes en las diferentes
+fases del crédito. La información contenida en dichas planillas se incluyen en el Apéndice del presente informe.
 
 
-Modelos de Datos
-================
+Modelo de Datos
+===============
 
+El modelo de datos del sistema Tinjacá está centrado en los **Créditos** ya que sus actividades se centran en la
+actualidad en el otorgamiento de los créditos y su recuperación.
 
+Los procesos se inician en por uno de los **Solicitantes** el cual está relacionado a una de las **Unidades
+Productivas** que realizan cada una, una de las **Actividades Productivas** en virtud de la cual solicita el crédito.
+
+Para efectos legales se requieren los datos de su **Cónyugue** si la tiene y de un **Avalista** si lo requiere.
+
+Tanto de cada uno de los **Solicitantes** como de su respectivo avalista se necesitan uno o mas requisitos como
+**Referencias Personales**, **Activos Fijos** y **Cuentas Bancarias** que permitan constatar su solvencia financiera y
+capacidad de pago.
+
+El **Solicitante** busca acceder al crédito a través de la **Unidad Productiva**, sujeto cada uno a uno de los **Planes
+Inversión**.
+
+Los solicitantes una vez superen un revisión de factibilidad son invitados una o mas veces a los **Talleres** que se
+planifican regularmente para una cierta cantidad de solicitudes de **Créditos**. La invitación a los **Talleres**
+incluye una lista de requisitos a consignar.
+
+Durante el proceso de aprobación del crédito el solicitante debe consignar una serie de **Requisitos Personales**,
+**Requisitos Empresa** relativos a la **Unidad Productiva**, **Requisitos Sector** propios de cada sector productivo y
+**Requisitos Garantía** relacionados con la Garantía utilizada en la solicitud.
+
+Una vez consignados los requisitos se verifica una o mas veces si cumple el **Controles Previos** que realizan los
+Analistas Jurídicos, y se realiza una o mas veces la **Inspecciones** e **Inspecciones de Avalúo** que realizan los
+Analistas Económicos.
+
+Las solicitudes de **Créditos** esperan las **Decisiones Consejo Directivo** para ser aprobados (o no), en cada Consejo
+Directivo se delibera sobre uno o mas **Créditos**, y una solicitud de crédito podría requerir una o mas **Decisiones
+Consejo Directivo** para ser aprobados.
+
+La aprobación de estos **Créditos** está sujeta a las disponibilidades financieras y presupuestarias en relación a los
+**Presupuestos** anuales, y la disponibilidad en las **Cuentas Bancarias**.
+
+Una vez aprobados, para cada uno de los **Créditos** se realizan las **Liquidaciones** en una o mas partes. Y esto
+activa las **Visitas de Acompañamiento** realizadas por personal de la Gerencia de Crédito para verificar el
+cumplimiento de su plan de inversión, y las **Visitas de Cobranza** realizadas por el personal de la Gerencia de
+Recuperaciones para recoger pagos, en particular de los **Solicitantes** morosos.
+
+Estas visitas requieren la elaboración de un calendario de **Rutas Acompañamiento** y **Rutas Cobranza** para las cuales
+se asignan funcionarios a distintos municipios del Estado Mérida.
+
+Para cada uno de los **Créditos** se reciben **Pagos** hasta su cancelación total.
+
+Si bien las transacciones que generan asientos contables como las **Liquidaciones** o los **Pagos** son relativamente
+simples, implementar la contabilidad requeriría la incluir todos los gatos operativos de FOMDES incluyendo la nómina.
+
+----
+
+.. image:: _static/tinjacaER.png
+   :alt: Modelo de Datos Tinjacá
+
+*Modelo de Datos del Sistema Tinjacá*
+
+----
 
 Diccionario de Datos
 ====================
 
-Solicitante
------------
-
-    * **Nombre de planilla**: Propuesta de financiamiento
-    * **Descripción**:
+Solicitantes
+------------
 
     .. tabularcolumns:: |p{4cm}|p{7cm}|
 
@@ -34,17 +87,15 @@ Solicitante
        * - Apellidos
          - Cadena
        * - CI
-         - Numerico
+         - Numérico
        * - RIF
-         - AlfaNumerico
+         - AlfaNumérico
        * - Fecha_Nacimiento
          - Fecha
        * - Edad
-         - Numerico
-       * - Edad
-         - Cadena
+         - Numérico
        * - Sexo
-         - Caracter
+         - Carácter
        * - Direccion_Habitacion
          - Cadena
        * - Municipio
@@ -57,16 +108,14 @@ Solicitante
          - Cadena
        * - Teléfono_Celular
          - Cadena
-       * - Correo_Electronico
-         - Cadena
-       * - Twitter
+       * - Correo_Electrónico
          - Cadena
        * - Twitter
          - Cadena
 
 
-Unidad productiva
------------------
+Unidades Productivas
+--------------------
 
     .. list-table::
        :widths: 40 70
@@ -81,9 +130,9 @@ Unidad productiva
        * - Dirección_UP
          - Cadena
        * - Teléfono_Fijo
-         - Numerico
+         - Numérico
        * - Teléfono_Celular
-         - Numerico
+         - Numérico
        * - Actividad
          - Cadena
        * - Experiencia
@@ -91,11 +140,11 @@ Unidad productiva
        * - Área_Geográfica
          - Cadena
        * - Area_Funcionamiento
-         - Numerico
+         - Numérico
        * - Tenencia
          - Cadena
        * - Area_M2
-         - Numerico
+         - Numérico
        * - Zona_Geografica
          - Cadena
        * - Servicios
@@ -122,13 +171,13 @@ Actividad productiva
        * - Donde_Y_Como_obtiene_PM
          - Cadena
        * - Precio_Venta_Producto
-         - Numerico
+         - Numérico
        * - Distribución_Sistema _Ventas
          - Cadena
        * - Numero_de _Trabajadores
-         - Numerico
+         - Numérico
        * - Puestos_Trabajo_Generar
-         - Numerico
+         - Numérico
        * - Código_UnidadProductiva
          - Numérico
 
@@ -149,9 +198,9 @@ Plan de inversión
        * - Materia_Prima
          - Cadena
        * - Mano_de_Obra
-         - Numerico
+         - Numérico
        * - Gastos_de_Constitución
-         - Numerico
+         - Numérico
        * - Inversiones_Fijas
          - Cadena
        * - Ampliación_o_Remodelación
@@ -159,7 +208,7 @@ Plan de inversión
        * - Maquinaria
          - Cadena
        * - Equipo
-         - Numerico
+         - Numérico
        * - Utensilios_herramientas_menores
          - Cadena
        * - Otros
@@ -188,9 +237,9 @@ Cónyuges
        * - Apellidos
          - Cadena
        * - Nacionalidad
-         - Numerico
+         - Numérico
        * - Estado_Civil
-         - Numerico
+         - Numérico
        * - Grado_Instruccion
          - Cadena
        * - Condicion_Vivienda
@@ -198,14 +247,14 @@ Cónyuges
        * - Dirección_Habitación
          - Cadena
        * - Municipio
-         - Numerico
+         - Numérico
        * - Telefono_Habitación
          - Cadena
        * - Telefono_Celular
          - Cadena
        * - FAX
          - Cadena
-       * - Correo_Electronico
+       * - Correo_Electrónico
          - Cadena
        * - Observaciones
          - Cadena
@@ -233,7 +282,7 @@ Referencias personales y familiares
        * - Dirección_Habitación
          - Cadena
        * - Municipio
-         - Numerico
+         - Numérico
        * - Telefono_Habitación
          - Cadena
        * - Telefono_Celular
@@ -242,8 +291,8 @@ Referencias personales y familiares
          - Numérico
 
 
-Avalista
---------
+Avalistas
+---------
 
     .. list-table::
        :widths: 40 70
@@ -254,7 +303,7 @@ Avalista
        * - Código
          - Numérico
        * - Cedula_Identidad
-         - Numerico
+         - Numérico
        * - Nombres
          - Cadena
        * - Apellidos
@@ -262,19 +311,19 @@ Avalista
        * - Direccion_Habitacion
          - Cadena
        * - Telefono_Fijo
-         - Numerico
+         - Numérico
        * - Telefono_Celular
-         - Numerico
+         - Numérico
        * - Nombre_Direccion_Trabajo
          - Cadena
        * - Cargo
          - Cadena
        * - Ingreso_Mensual
-         - Numerico
+         - Numérico
        * - Otros_Ingresos
-         - Numerico
+         - Numérico
        * - Total_Ingresos
-         - Numerico
+         - Numérico
        * - Código_Solicitante
          - Numérico
 
@@ -291,13 +340,13 @@ Cuentas Bancarias Avalista
        * - Código
          - Numérico
        * - Nro_Cuenta
-         - Numerico
+         - Numérico
        * - Nombre_Banco
          - Cadena
        * - Tipo_Cuenta
          - Cadena
        * - Monto
-         - Numerico
+         - Numérico
        * - Código_Avalista
          - Numérico
 
@@ -318,12 +367,12 @@ Activos fijos Avalista
        * - Titulo
          - Cadena
        * - Avaluo
-         - Numerico
+         - Numérico
        * - Código_Avalista
          - Numérico
 
-Taller
-------
+Talleres
+--------
 
     .. list-table::
        :widths: 40 70
@@ -335,11 +384,11 @@ Taller
          - Numérico
        * - Fecha_Taller
          - Fecha
-       * - Persona_Atendio
+       * - Atendido_Por
          - Cadena
 
-Garantía
---------
+Garantías
+---------
 
     .. list-table::
        :widths: 40 70
@@ -350,14 +399,14 @@ Garantía
        * - Código
          - Numérico
        * - Nro_Expediente
-         - AlfaNumerico
-       * - Tipo_Garantia
+         - AlfaNumérico
+       * - Tipo_Garantía
          - Cadena
        * - Descripcion
          - Cadena
        * - Avaluo
-         - Numerico
-       * - Código_Credito
+         - Numérico
+       * - Código_Crédito
          - Numérico
 
 
@@ -384,7 +433,7 @@ Requisitos personales
          - Cadena
        * - Permisos_Funcionamiento
          - Cadena
-       * - Código_Credito
+       * - Código_Crédito
          - Numérico
 
 
@@ -411,7 +460,7 @@ Requisitos empresa
          - Cadena
        * - Solvencia_BANAVIH
          - Cadena
-       * - Código_Credito
+       * - Código_Crédito
          - Numérico
 
 
@@ -438,7 +487,7 @@ Requisitos sector
          - Cadena
        * - Permiso_Sanidad
          - Cadena
-       * - Código_Credito
+       * - Código_Crédito
          - Numérico
 
 
@@ -456,28 +505,28 @@ Requisitos garantía
        * - Certificacion_Ingresos_Constancia_trabajo
          - Cadena
        * - Avaluo_Bien_Mueble
-         - Numerico
+         - Numérico
        * - Seguro_Bien_Mueble
          - Cadena
        * - Documento_Propiedad_Bien_Mueble
          - Cadena
        * - Croquis_Ubicación
          - Cadena
-       * - Levantamiento_Topográfico_>1Ha
+       * - Levantamiento_Topográfico
          - Cadena
        * - Cedula_Identidad_Socio_Conyuge
-         - Numerico
+         - Numérico
        * - Inscripcion_Sogampi
          - Cadena
        * - Carta_Fianza
          - Cadena
-       * - Documento_Credito_Notariado
+       * - Documento_Crédito_Notariado
          - Cadena
        * - Fianza_Financiera_Notariado
          - Cadena
        * - Firma
          - Imagen
-       * - Código_Credito
+       * - Código_Crédito
          - Numérico
 
 
@@ -493,7 +542,7 @@ Consejo directivo
        * - Código
          - Numérico
        * - Consejo_Directivo_Nro
-         - Numerico
+         - Numérico
        * - Consejo_Directivo_Fecha
          - Fecha
        * - Hora_Consejo_Directivo
@@ -501,13 +550,13 @@ Consejo directivo
        * - Miembros_Consejo_Directivo
          - Cadena
        * - Nro_Expediente
-         - AlfaNumerico
+         - AlfaNumérico
        * - Razon_Social
          - Cadena
-       * - Estatus_Desicion
+       * - Estatus_Decisión
          - Cadena
        * - Plan_Inversion
-         - Numerico
+         - Numérico
        * - Firma
          - Imagen
 
@@ -523,19 +572,19 @@ Control previo
        * - Código
          - Numérico
        * - Código_Analisis_Juridico
-         - AlfaNumerico
+         - AlfaNumérico
        * - Nro_Expediente
          - Cadena
-       * - Descripcion_Garantia
+       * - Descripcion_Garantía
          - Cadena
        * - Estatus_Analisis_Juridico
          - Cadena
-       * - Código_Credito
+       * - Código_Crédito
          - Numérico
 
 
-Inspección
-----------
+Inspecciones
+------------
 
     .. list-table::
        :widths: 40 70
@@ -546,13 +595,13 @@ Inspección
        * - Código
          - Numérico
        * - Nro_Expediente
-         - AlfaNumerico
+         - AlfaNumérico
        * - Tiempo_Funcionamiento
-         - Numerico
+         - Numérico
        * - Cantidad_Productos
-         - Numerico
+         - Numérico
        * - Costos_Actividad
-         - Numerico
+         - Numérico
        * - Sistema_produccion
          - Cadena
        * - Clientes
@@ -569,12 +618,12 @@ Inspección
          - Cadena
        * - Firma
          - Imagen
-       * - Código_Credito
+       * - Código_Crédito
          - Numérico
 
 
-Informe técnico
----------------
+Informes técnicos
+-----------------
 
       .. list-table::
        :widths: 40 70
@@ -585,13 +634,13 @@ Informe técnico
        * - Código
          - Numérico
        * - Nro_Expediente
-         - AlfaNumerico
+         - AlfaNumérico
        * - Fecha_Elaboracion
          - Fecha
        * - Tipo_Empresa
          - Cadena
        * - Saldo_Balance_Personal
-         - Numerico
+         - Numérico
        * - Organizacion_Juridica
          - Cadena
        * - Recomendaciones
@@ -600,12 +649,12 @@ Informe técnico
          - Imagen
        * - Informe_Fotografico_Inspeccion
          - Imagen
-       * - Código_Credito
+       * - Código_Crédito
          - Numérico
 
 
-Inversión
----------
+Planes Inversión
+----------------
 
       .. list-table::
        :widths: 40 70
@@ -615,16 +664,63 @@ Inversión
          - | Tipo de dato
        * - Código
          - Numérico
-       * - Código_Credito
+       * - Código_Crédito
          - Numérico
        * - Consigno_facturas
          - Numérico
        * - Observaciones
          - Numérico
 
+Pagos
+-----
 
-Estado de cuentas
------------------
+      .. list-table::
+       :widths: 40 70
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+       * - Código
+         - Numérico
+       * - Concepto
+         - Cadena
+       * - Total
+         - Numérico
+       * - Interés_capital
+         - Numérico
+       * - Interés_mora
+         - Numérico
+       * - Código_Crédito
+         - Numérico
+
+
+Créditos
+--------
+
+      .. list-table::
+       :widths: 40 70
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+       * - Código
+         - Numérico
+       * - Nro_Expediente
+         - AlfaNumérico
+       * - Código_Solicitante
+         - Numérico
+       * - Código_UnidadProductiva
+         - Numérico
+       * - Código_Taller
+         - Numérico
+       * - Código_Consejo
+         - Numérico
+       * - Código_EstadosCuentas
+         - Numérico
+
+
+Estados Cuentas
+---------------
 
       .. list-table::
        :widths: 40 70
@@ -650,52 +746,4 @@ Estado de cuentas
          - Fecha
        * - Fecha_ultima
          - Fecha
-
-
-Pagos
------
-
-      .. list-table::
-       :widths: 40 70
-       :header-rows: 1
-
-       * - | Campo
-         - | Tipo de dato
-       * - Código
-         - Numérico
-       * - Concepto
-         - Numérico
-       * - Total
-         - Numérico
-       * - Interes_capital
-         - Numérico
-       * - Interes_mora
-         - Numérico
-       * - Código_Credito
-         - Numérico
-
-
-Credito
--------
-
-      .. list-table::
-       :widths: 40 70
-       :header-rows: 1
-
-       * - | Campo
-         - | Tipo de dato
-       * - Código
-         - Numérico
-       * - Nro_Expediente
-         - AlfaNumerico
-       * - Código_Solicitante
-         - Numerico
-       * - Código_UnidadProductiva
-         - Numerico
-       * - Código_Taller
-         - Numerico
-       * - Código_Consejo
-         - Numerico
-       * - Código_EstadoDeCuentas
-         - Numérico
 
