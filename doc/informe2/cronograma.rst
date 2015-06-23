@@ -15,10 +15,10 @@ desarrollo de TINJACÁ se prevén varios hitos que facilitaran el cumplimiento d
 
 **Tabla de Cronograma**:
 
-    .. tabularcolumns:: |p{7cm}|p{4cm}p{4cm}|p{4cm}|p{4cm}|p{4cm}|
+    .. tabularcolumns:: |p{4cm}|p{1.8cm}|p{1.8cm}|p{1.8cm}|p{1.8cm}|p{1.8cm}|
 
     .. list-table::
-       :widths: 70 40 40 40 40 40
+       :widths: 40 10 10 10 10 10
        :header-rows: 1
 
        * - | Fase
