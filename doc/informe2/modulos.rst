@@ -18,6 +18,8 @@ sistema de forma predeterminada.
 Por otro lado, también existen perfiles especiales con tipos de usuario avanzados dentro del sistema, llamados
 super-usuarios, que tienen capacidades superiores en la administración del sistema, dentro de un ámbito específico.
 
+.. index:: !Módulo Solicitudes, Solicitantes, Créditos, Talleres, Requisitos, Control Previo
+
 Módulo Solicitudes
 ==================
 
@@ -72,6 +74,7 @@ Procedimientos de ingreso de datos
           - Análisis Jurídico
           - Estación actual del expediente
 
+.. index:: !Módulo Solicitudes, Inspecciones, Consejo Directivo, Planes de Inversión, Presupuestos
 
     .. list-table::
         :widths: 40 40 40
@@ -119,6 +122,8 @@ Procedimientos de ingreso de datos
         * - Edición de datos personales del beneficiario
           - Analista económico, analista de crédito
           - Datos personales del beneficiario
+
+.. index:: !Reportes Solicitudes
 
 Procedimiento de generación de reportes
 ---------------------------------------
@@ -173,6 +178,7 @@ Procedimiento de generación de reportes
           - Gerente de crédito
           - Lista de distribución de los analistas económicos.
 
+.. index:: !Módulo Aprobación, Secretaría Ejecutiva, Presupuestos, Liquidaciones, Acompañamiento, Recuperaciones
 
 Módulo Aprobación
 =================
@@ -221,9 +227,11 @@ Procedimientos de ingreso de datos
         * - Envío de los documentos notariados a la gerencia de administración
           - Secretaria ejecutiva
           - Estación del expediente
-        * - Envío de expedientes liquidados a Acompañamiento
+        * - Envío de expedientes liquidados a Acompañamiento y Recuperaciones
           - Secretaria ejecutiva
           - Estación del expediente
+
+.. index:: !Reportes Aprobación
 
 Procedimientos de generación de reportes
 ----------------------------------------
@@ -260,6 +268,7 @@ Procedimientos de generación de reportes
           - Secretaria ejecutiva
           - Registro de entrega del documento a al beneficiario
 
+.. index:: !Módulo Administración, Liquidaciones, Pagos, Recuperaciones
 
 Modulo Administración
 =====================
@@ -306,6 +315,7 @@ Procedimientos de ingreso de datos
           - Analista Financiera
           - Estado de cuenta
 
+.. index:: !Reportes Administración
 
 Procedimiento de generación de reportes
 ---------------------------------------
@@ -339,6 +349,7 @@ Procedimiento de generación de reportes
           - Analista Financiera
           - Pagos recibidos
 
+.. index:: !Módulo Acompañamiento, Visitas Acompañamiento, Rutas Acompañamiento
 
 Módulo Acompañamiento
 =====================
@@ -397,6 +408,7 @@ Procedimientos de ingreso de datos
           - Jefe de acompañamiento
           - Datos personales del beneficiario
 
+.. index:: !Reportes Acompañamiento
 
 Procedimiento de generación de reportes
 ---------------------------------------
@@ -445,6 +457,7 @@ Procedimiento de generación de reportes
           - Jefe de acompañamiento
           - Depósitos de cuotas
 
+.. index:: !Módulo Caja, Pagos
 
 Módulo Caja
 ===========
@@ -484,6 +497,8 @@ Procedimientos de ingreso de datos
           - Cajero
           - Cuentas por cobrar y partidas presupuestarias
 
+.. index:: !Reportes Caja
+
 Procedimiento de generación de reportes
 ---------------------------------------
 
@@ -509,6 +524,8 @@ Procedimiento de generación de reportes
         * - Creación de un reporte con el total de personas atendidas diariamente
           - Cajero
           - Reporte de beneficiarios atendidos
+
+.. index:: !Módulo Recuperaciones, Visitas Cobranza, Rutas Cobranza
 
 Módulo Recuperaciones 
 =====================
@@ -562,6 +579,8 @@ Procedimientos
           - Ejecutivo de cobranza
           - Datos personales del beneficiario
 
+.. index:: !Reportes Recuperaciones
+
 Procedimiento de generación de reportes
 ---------------------------------------
 
@@ -600,6 +619,7 @@ Procedimiento de generación de reportes
           - Ejecutivo de cobranza.
           - Informe de seguimiento.
 
+.. index:: !Módulo Consultoría Jurídica, Créditos, Liberaciones
 
 Módulo Consultaría Jurídica
 ===========================
@@ -635,6 +655,8 @@ Procedimientos de ingreso de datos
           - Consultaría Jurídica
           - Estación del expediente
 
+.. index:: !Reportes Consultoría Jurídica
+
 Procedimiento de generación de reportes
 ---------------------------------------
 
@@ -661,7 +683,7 @@ Procedimiento de generación de reportes
           - Consultaría Jurídica
           - Documento de demanda
 
-
+.. index:: !Módulo Archivo, Créditos
 
 Módulo Archivo
 ==============
@@ -694,6 +716,8 @@ Procedimientos de ingreso de datos
           - Archivólogo
           - Estación del expediente
 
+.. index:: !Reportes Archivo
+
 Procedimiento de generación de reportes
 ---------------------------------------
 
@@ -711,6 +735,8 @@ Procedimiento de generación de reportes
           - Archivólogo.
           - Lista de códigos de expediente
 
+.. index:: !Módulo Estadística, Créditos, Presidencia
+
 Módulo Estadística
 ==================
 
@@ -719,6 +745,8 @@ Descripción
 
 Este módulo abarca los procesos que demandan análisis y cálculos estadísticos. Incluye procedimientos de generación de
 estadísticas para el apoyo en la toma de decisiones por parte de las gerencias y directiva de FOMDES.
+
+.. index:: !Reportes Estadística
 
 Procedimiento de generación de reportes
 ---------------------------------------
@@ -733,6 +761,8 @@ Procedimiento de generación de reportes
         * - Generación de un reporte estadístico de todas las solicitudes ingresadas
           - Analista de crédito
           - Solicitudes ingresadas
+
+.. index:: !Módulo Presidencia, Secretaría Ejecutiva
 
 Módulo Presidencia
 ==================
@@ -757,6 +787,7 @@ Procedimientos de ingreso de datos
           - Secretaría Ejecutiva
           - Lista de expedientes priorizados
 
+.. index:: !Reportes Presidencia
 
 Procedimiento de generación de reportes
 ---------------------------------------
@@ -777,6 +808,8 @@ Procedimiento de generación de reportes
         * - Evaluación y valoración de indicadores clave de rendimiento y variables políticas
           - Presidente
           - Indicadores clave de rendimiento
+
+.. index:: !Módulo Atención
 
 Módulo Atención
 ===============
@@ -804,6 +837,8 @@ Procedimientos de ingreso de datos
         * - Generación de colas por orden de atención y por dependencia
           - Recepcionista
           - Cola de cada dependencia
+
+.. index:: !Reportes Atención
 
 Procedimiento de generación de reportes
 ---------------------------------------
