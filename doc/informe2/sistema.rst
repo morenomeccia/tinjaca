@@ -5,8 +5,7 @@ Arquitectura del Sistema
 Diseño de la Arquitectura
 =========================
 
-El sistema Tinjaca está basado en la plataforma de código abierto de aplicaciones para la gestión
- administrativa *Odoo*.
+El sistema Tinjaca está basado en la plataforma de aplicaciones de código abierto para la gestión administrativa *Odoo*.
 
 Desde el punto de vista de su funcionamiento sigue el patrón de diseño de tres capas:
 
