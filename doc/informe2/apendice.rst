@@ -4,14 +4,14 @@ Apéndice: Sistematización de Datos
 
 Para definir la organización y registro de los datos en el sistema TINJACA se tomaron los formatos y planillas de las diferentes gerencias y dependencias del FOMDES presentes en el expediente, para crear el diseño de la estructura de la base de datos.
 
-PROPUESTA DE FINANCIAMIENTO
+Propuesta de Financiamiento
 ===========================
 
 Es el resumen de la oferta de negocio para la solicitud del crédito.
 
 * **Nº de propuesta**:  Indica el número de propuesta de financiamiento especificado por el servidor público receptor.
 
-DATOS SOCIOECONÓMICOS DEL SOLICITANTE
+Datos Socioeconómicos del Solicitante
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
@@ -28,7 +28,7 @@ DATOS SOCIOECONÓMICOS DEL SOLICITANTE
 * **Correo electrónico**: Indica la dirección electrónica principal del solicitante.
 * **Twitter**: Indica la dirección Twitter del solicitante.
 
-INFORMACIÓN SOBRE LA ACTIVIDAD PRODUCTIVA
+Información sobre la Actividad Productiva
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * **Nombre de la unidad productiva o razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
@@ -39,13 +39,13 @@ INFORMACIÓN SOBRE LA ACTIVIDAD PRODUCTIVA
 * **Experiencia en el área**: Indica el tiempo en meses o años en que viene realizando la actividad propuesta.
 * **Área geográfica a cubrir**: Indica el área (sector, parroquia, municipio, estado, país) a cubrir con los productos de la actividad productiva.
 
-ÁREA DE FUNCIONAMIENTO
+Área de Funcionamiento
 ^^^^^^^^^^^^^^^^^^^^^^
 
 * **Lugar de funcionamiento**: Indica si la unidad productiva funciona o funcionará en un local, galpón, finca, terreno, casa de habitación, posada, hotel u otro. Especificar si la unidad de producción es propia, alquilada u otro y especifique los m2 del área.
 * **Zona geográfica**: Indica si  la unidad productiva se ubica en un área rural o urbana. Especificar si posee servicios como electricidad, agua, teléfono, Internet, ta por cable, transporte, aseo domiciliario y vialidad.
 
-OPERACIONES DE LA UNIDAD PRODUCTIVA O RAZÓN SOCIAL
+Operaciones de la Unidad Productiva o Razón Social
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * **Productos derivados de la actividad**: Indica la denominación genérica del(los) producto(s) derivado(s) de la actividad productiva.
@@ -56,12 +56,12 @@ OPERACIONES DE LA UNIDAD PRODUCTIVA O RAZÓN SOCIAL
 * **Numero de trabajadores existentes**: Indica el número de trabajadores que actualmente estan a cargo de desarrollar la actividad productiva.
 * **Puestos de trabajo que se van a generar**:  Indica el numero de empleados que se van generar al desarrollar la actividad productiva.
 
-BREVE EXPLICACIÓN DE LA PROPUESTA EMPRENDEDORA
+Breve Explicación de la Propuesta Emprendedora
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Indica la exposición de la idea o proyecto de negocio a desarrollarse en la unidad de producción, para lo cual esta solicitando el crédito.
 
-PLAN DE INVERSIÓN
+Plan de Inversión
 ^^^^^^^^^^^^^^^^^
 
 Indica la descripción, aporte propio y aporte del FOMDES en bolívares fuertes del capital de trabajo, materia prima, mano de obra, gastos de constitución, inversiones fijas, ampliación o remodelación, maquinaria, equipos, utensilios y herramientas menores u otros.
@@ -71,12 +71,12 @@ Indica la descripción, aporte propio y aporte del FOMDES en bolívares fuertes 
 * **Garantía a ofrecer**: Indica el compromiso del solicitante a través de hipoteca, prendaria, fianza personal o fianza financiera para el otorgamiento del crédito.
 * **Datos del avalista**: Indica el nombre, apellido, cédula y teléfonos de contacto de la persona que garantizará el pago del crédito.
 
-REFERENCIAS PERSONALES DEL AVALISTA
+Referencias Personales del Avalista
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Indica el nombre y apellido, cédula, dirección y teléfonos de contacto de las personas que refieren de la buena fe del avalista.
 
-REFERENCIAS PERSONALES DEL SOLICITANTE DEL CREDITO
+Referencias Personales del Solicitante de Crédito
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Indica el nombre, apellido, cédula y teléfonos de contacto de las personas que refieren de la buena fe del solicitante.
@@ -85,7 +85,7 @@ Indica el nombre, apellido, cédula y teléfonos de contacto de las personas que
 * **Firma**: Indica el campo para la firma del solicitante y del servidor público receptor.
 
 
-CERTIFICADO DE ASISTENCIA AL TALLER
+Certificado de Asistencia al Taller
 ===================================
 
 Es la constancia de asistencia al “Taller Integral de Acompañamiento al Solicitante” otorgado al solicitante por parte
@@ -99,7 +99,7 @@ de la Gerencia de Crédito.
 * **Firma**: Indica el nombre del Gerente de Crédito y solicitante.
 
 
-DECLARACIÓN PERSONA NATURAL
+Declaración Persona Natural
 ===========================
 
 Es la manifestación escrita que presenta el solicitante ante el FOMDES para dar fe de la veracidad de la documentación consignada.
@@ -114,12 +114,12 @@ Es la manifestación escrita que presenta el solicitante ante el FOMDES para dar
 * **Firma**: Indica el campo para la firma y cédula del solicitante.
 
 
-REFERENCIAS PARA LA SOLICITD DE CREDITOS
-========================================
+Referencias para la Solicitud de Créditos
+=========================================
 
 Es la manifestación escrita de familiares y amigos que expresan el conocimiento positivo que tienen sobre el solicitante.
 
-DATOS DEL SOLICITANTE
+Datos del Solicitante
 ^^^^^^^^^^^^^^^^^^^^^
 
 * **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
@@ -136,7 +136,7 @@ DATOS DEL SOLICITANTE
 * **Correo electrónico**: Indica la dirección electrónica principal del solicitante.
 * **Observaciones**: Indica el campo para obtener información adicional del solicitante.
 
-DATOS DEL CÓNYUGE
+Datos del Cónyuge
 ^^^^^^^^^^^^^^^^^
 
 * **Nombres y apellidos**: Indica el nombre y apellido del cónyuge.
@@ -153,18 +153,18 @@ DATOS DEL CÓNYUGE
 * **Correo electrónico**: Indica la dirección electrónica principal del cónyuge.
 * **Observaciones**: Indica el campo para obtener información adicional del cónyuge.
 
-REFERENCIAS PERSONALES
+Referencias Personales
 ^^^^^^^^^^^^^^^^^^^^^^
 
 * **Personal**: Indica el nombre y apellido, cédula, dirección y teléfonos de contacto de amistades que refieren de la buena fe del solicitante.
 * **Familiar**: Indica el nombre y apellido, cédula, dirección y teléfonos de contacto de familiares que refieren de la buena fe del solicitante.
 
-INFORMACIÓN DEL NÚCLEO FAMILIAR
+Información del Núcleo Familiar
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Indica el nombre, apellido y cédula de cada uno de los integrantes del grupo familiar (padre, madre, hermanos, hijos) del solicitante.
 
-DECLARACIÓN JURADA DEL SOLICITANTE
+Declaración Jurada del Solicitante
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Indica la manifestación escrita que presenta el solicitante ante el FOMDES para dar fe de la veracidad de la documentación consignada.
@@ -172,7 +172,7 @@ Indica la manifestación escrita que presenta el solicitante ante el FOMDES para
 * **Firma**: Indica el campo para la firma y cédula del solicitante y cónyuge.
 
 
-REQUISITOS
+Requisitos
 ==========
 
 Es la documentación necesaria presentada por el solicitante que condiciona el otorgamiento del crédito solicitado.
@@ -188,7 +188,7 @@ Es la documentación necesaria presentada por el solicitante que condiciona el o
 * **Parroquia**: Indica la parroquia en la que reside dentro del municipio.
 * **Fecha del taller**: Indica el día, mes y año en que se realizó el taller por parte del solicitante.
 
-REQUISITOS EXIGIDOS AL SOLICITANTE
+Requisitos Exigidos al Solicitante
 ----------------------------------
 
 * Llenar y entregar la planilla de “Propuesta de Financiamiento”.
@@ -199,32 +199,32 @@ REQUISITOS EXIGIDOS AL SOLICITANTE
 * Exposición de Motivos (formato FOMDES) o Perfil Económico (formato FOMDES) o Proyecto Económico; según sea el caso. Exposición de Motivos hasta Bs. 200.000,00 (Llenar Formato según modelo FOMDES). Perfil económico: a partir de Bs. 200.001,00 hasta Bs. 700.000,00 (Llenar Formato según modelo FOMDES). Proyecto Económico para solicitudes a partir de Bs. 700.001,00 en adelante.
 * Copia fotostática del registro de comercio completo y actualizado con sus modificaciones si las hubiere y del Registro de Información Fiscal (RIF) (para las unidades de producción establecidas). En caso de no poseer este documento (para las unidades de producción promocionales) el FOMDES podrá, a través de sus abogados(as), elaborar el mismo a los fines que el solicitante proceda a registrarlo, cumplir con este requisito y agilizar la pronta liquidación del segundo desembolso.
 * Original (para su verificación) y copia de los permisos de funcionamiento, en el caso de empresas que manejan alimentos o productos químicos (Sanidad, Ambiente, Alcaldía, Bomberos, etc), según sea el caso.
-* **Agrícola y pecuario**:
-* Plan de Producción para el desarrollo agrícola o pecuario según el formato del FOMDES. Cronograma de cultivo.
-* Original (para su verificación) y copia fotostática del título de adjudicación definitivo con registro agrario, declaratoria de permanencia con registro agrario, carta agraria con registro agrario según sea el caso o su tramitación.
-* Carta Aval emitida por IMDERURAL (Tramitada internamente entre IMDERURAL-FOMDES).
-* **Turismo**:
-* Aval Técnico de Viabilidad Turística emitido la Corporación Merideña de Turismo (CORMETUR). (Tramitada internamente entre CORMETUR y FOMDES).
-* **Artesanal**:
-* Copia fotostática de los permisos de Sanidad, Ambiente y Bomberos. Para solicitudes menores de Bs. 100.000,00 NO se solicitará el Registro de Fondo de Comercio.
-* **Ciencia y Tecnología**:
-* Copia fotostática de los permisos de Sanidad, Ambiente, Alcaldía y Bomberos.
-* **Pequeña y Mediana Empresa y Pequeña y Mediana Industria**:
-* Copia fotostática de los permisos de Sanidad, Ambiente, Alcaldía y Bomberos.
-* **Microempresas**:
-* Copia fotostática de los permisos de Sanidad, Ambiente y Bomberos. Para solicitudes menores de Bs. 100.000,00 NO se solicitará el Registro de Fondo de Comercio.
+    * **Agrícola y pecuario**:
+        * Plan de Producción para el desarrollo agrícola o pecuario según el formato del FOMDES. Cronograma de cultivo.
+        * Original (para su verificación) y copia fotostática del título de adjudicación definitivo con registro agrario, declaratoria de permanencia con registro agrario, carta agraria con registro agrario según sea el caso o su tramitación.
+        * Carta Aval emitida por IMDERURAL (Tramitada internamente entre IMDERURAL-FOMDES).
+    * **Turismo**:
+        * Aval Técnico de Viabilidad Turística emitido la Corporación Merideña de Turismo (CORMETUR). (Tramitada internamente entre CORMETUR y FOMDES).
+    * **Artesanal**:
+        * Copia fotostática de los permisos de Sanidad, Ambiente y Bomberos. Para solicitudes menores de Bs. 100.000,00 NO se solicitará el Registro de Fondo de Comercio.
+    * **Ciencia y Tecnología**:
+        * Copia fotostática de los permisos de Sanidad, Ambiente, Alcaldía y Bomberos.
+    * **Pequeña y Mediana Empresa y Pequeña y Mediana Industria**:
+        * Copia fotostática de los permisos de Sanidad, Ambiente, Alcaldía y Bomberos.
+    * **Microempresas**:
+        * Copia fotostática de los permisos de Sanidad, Ambiente y Bomberos. Para solicitudes menores de Bs. 100.000,00 NO se solicitará el Registro de Fondo de Comercio.
 
-PARA EMPRESAS ESTABLECIDAS
+Para Empresas Establecidas
 --------------------------
 
 * Estados Financieros de los dos últimos años (debidamente estructurados) y corte a la fecha.
 * Balance de Comprobación (Empresas con menos de dos años de establecidas).
 * Original (para su verificación) y copia fotostática de la Solvencia Laboral a nombre de la Gobernación del estado Bolivariano de Mérida, o Solvencia del Seguro Social, Solvencia del Instituto Nacional de Capacitación y Educación Socialista (INCES) y Solvencia del Banco Nacional de Vivienda y Hábitat (BANAVIH-FAOV).
 
-REQUISITOS SEGUN EL RUBRO  A FINANCIAR
---------------------------------------
+Requisitos según el Rubro a Financiar
+-------------------------------------
 
-Agrícola y pecuario
+Agrícola y Pecuario
 ^^^^^^^^^^^^^^^^^^^
 
 * Original (para su verificación) y copia fotostática del permiso del ambiente vigente para los rubros de aves, porcino, caprino, y cualquier otro que lo requiera. El mismo debe ser emitido por las direcciones de los entes u oficinas correspondientes.
@@ -275,7 +275,7 @@ Microempresas
 * Proformas de la materia, insumo, maquinarias, equipos; adquisición y repotenciación de las mismas e instalación; o una exposición de motivo fundamentada donde indique el establecimiento o casa comercial proveedora donde solicitó la referencia de precios.
 * Infraestructura: ampliación y remodelación no podrá exceder del 40% del monto solicitado, presentar presupuesto breve descripción y el plano de la misma.
 
-REQUISITOS DE ACUERDO A LA GARANTIA OFRECIDA
+Requisitos de acuerdo a la Garantía Ofrecida
 --------------------------------------------
 
 Letra de cambio con aval (Desde Bs. 20.000,00 hasta Bs. 200.000,00)
@@ -311,7 +311,7 @@ Fianza financiera (Hasta Bs. 3.600.000,00)
 * **Firma**: Indica el campo para la firma del funcionario y representante legal.
 
 
-EXPOSICIÓN DE MOTIVOS
+Exposición de Motivos
 =====================
 
 Es la manifestación escrita del plan de inversión que presenta el solicitante ante el FOMDES para la solicitud de crédito.
@@ -326,7 +326,7 @@ Es la manifestación escrita del plan de inversión que presenta el solicitante 
 * **Lugar de funcionamiento**: Indica si la unidad productiva es propia, alquilada u otro y especifique los m2 del área.
 * **Firma**: Indica el campo para la firma y cédula del solicitante.
 
-DATOS DEL SOLICITANTE
+Datos del Solicitante
 ---------------------
 
 * **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
@@ -340,7 +340,7 @@ DATOS DEL SOLICITANTE
 * **Pin**: Indica el numero de identificación personal del solicitante.
 * **Correo electrónico**: Indica la dirección electrónica principal del solicitante.
 
-INFORMACIÓN DE LA ACTIVIDAD
+Información de la Actividad
 ---------------------------
 
 * **Productos derivados de la actividad**: Indica la denominación genérica del(los) producto(s) derivado(s) de la actividad productiva.
@@ -348,59 +348,59 @@ INFORMACIÓN DE LA ACTIVIDAD
 * **Maquinaria, equipos y herramientas a adquirir**: Indica las especificaciones de cantidad, casa proveedora, precio unitario (Bs) y total (Bs) de los instrumentos necesarios para impulsar la actividad productiva.
 * **Principales competidores**: Indica los competidores que se desarrollan en el sector productivo.
 
-PLAN DE INVERSION
+Plan de Inversión
 -----------------
 
 Indica la descripción, cantidad de unidades, el aporte propio y aporte del FOMDES en bolívares fuertes de maquinaria y equipos, mano de obra, materia prima e insumos, gastos operacionales, ampliación y remodelación, costos de organización y constitución, comisión FLAT, total de inversión y % de financiamiento.
 
-DATOS ECONOMICOS ACTUALES
+Datos Económicos Actuales
 -------------------------
 
 Indica los datos de la actividad económica y montos (Bs) por concepto de ingresos mensuales actuales, otros ingresos mensuales (si los tiene), total ingresos mensuales (1), costos operativos, costos de ventas (compara de materia prima, mercancía, etc), gastos financieros mensuales por créditos actuales (tarjetas de crédito, créditos hipotecarios, otros créditos), gastos fijos (luz, agua, teléfono, mantenimiento, nomina), otros gastos mensuales, total egresos mensuales (2) e ingresos netos disponibles (1-2).
 
-DETALLES DE GASTOS FIJOS ACTUALES DE LA ACTIVIDAD
+Detalles de Gastos Fijos Actuales de la Actividad
 -------------------------------------------------
 
 Indica la descripción y el monto en bolívares fuertes del sueldo del personal, alquiler del local, patente e impuesto, gastos de servicios (luz, agua, teléfono, etc), gastos de transporte y combustible, otros gastos mensuales y total gastos fijos.
 
-INGRESOS MENSUALES POR VENTAS PROYECTADOS
+Ingresos Mensuales por Ventas Proyectados
 -----------------------------------------
 
 Indica los productos o servicios ofrecidos, ventas mensuales estimadas (cantidad), precio unitario (Bs) y el total de ingresos mensuales estimados.
 
-DATOS ECONOMICOS PROYECTADOS
+Datos Económicos Proyectados
 ----------------------------
 
 Indica los datos de la actividad económica y montos (Bs) por concepto de ingresos mensuales estimados propios del negocio a desarrollar, otros ingresos mensuales adicionales (si los tiene), total ingresos mensuales proyectados (1), costos operativos, costos de ventas (compara de materia prima, mercancía, etc), gastos financieros mensuales por créditos actuales (tarjetas de crédito, créditos hipotecarios, otros créditos), gastos fijos (luz, agua, teléfono, mantenimiento, nomina), otros gastos mensuales, total egresos mensuales proyectados (2) e ingresos netos disponibles proyectados (1-2).
 
-CAPACIDAD DE PRODUCCIÓN
+Capacidad de Producción
 -----------------------
 
 Indica la producción actual diaria,  producción actual mensual y % de incremento de la capacidad de producción mensual con el otorgamiento del crédito de FOMDES.
 
-GARANTIA OFRECIDA
+Garabtía Ofrecida
 -----------------
 
 Indica la fianza personal, fianza financiera, hipoteca, letras de cambio, prendaria y una breve descripción de la garantía.
 
-OTROS ASPECTOS DE LA ACTIVIDAD
+Otros Aspectos del la Actividad
 ------------------------------
 
 Indica las fortalezas, debilidades, oportunidades y amenazas de las actividad productiva.
 
 
-BREVE DESCRIPCIÓN DEL IMPACTO O BENEFICIO SOCIAL QUE SE GENERARÁ CON EL OTORGAMIENTO DEL CRÉDITO
+Breve Descripción del Impacto o Beneficio Social que se Generará con el Otorgamiento del Crédito
 --------------------------------------------------------------------------------
 
 Indica una breve descripción de los beneficios para la comunidad o sector donde se desarrolla la actividad.
 
 
-PERFIL ECONÓMICO
+Perfil Económico
 ================
 
 Es un estudio de la viabilidad financiera, económica y social del proyecto propuesto.
 
-NOMBRE DEL PROYECTO
+Nombre del Proyecto
 -------------------
 
 * **Nombre del proyecto**: Indica el nombre de la razón social para el cual solicita el crédito.
@@ -410,12 +410,12 @@ NOMBRE DEL PROYECTO
 * **Experiencia en el área**: Indica el tiempo en meses o años en que viene realizando la actividad propuesta.
 * **Necesidades**: Indica las necesidad(es) que el solicitante desea resolver con el proyecto.
 
-NATURALEZA DEL PROYECTO
+Naturaleza del Proyecto
 -----------------------
 
 * **Objetivos del proyecto**: Indica el objetivo general y específicos del proyecto.
 
-MERCADO DEL PROYECTO
+Mercado del Proyecto
 --------------------
 
 * **Productos/servicios del proyecto**: Indica los productos o servicios del proyecto y el área de influencia del mismo.
@@ -424,7 +424,7 @@ MERCADO DEL PROYECTO
 * **Precio de los productos/servicios**: Indica el valor monetario de los productos o servicios.
 * **Aspectos relativos a la comercialización y abastecimiento de materia prima e insumos**: Indica la descripción de los aspectos resaltantes de los canales de comercialización, distribución y suministro de maquinaria, equipos, materia prima e insumos.
 
-ASPECTOS FINANCIEROS DEL PROYECTO
+Aspectos Financieros del Proyecto
 ---------------------------------
 
 * **Plan de inversión y financiamiento**: Indica la descripción, aporte propio (Bs), aporte FOMDES (Bs) y total (Bs) del activo fijo (maquinaria y equipo usado,  maquinaria y equipo a adquirir, edificio/infraestructura, construcción y remodelaciones), otros activos (estudio económico y gastos legales), capital de trabajo (insumos de trabajo y mano de obra), tasa FLAT 2.5% (comisión tasa FLAT 2.5%), total de inversión y % de financiamiento.
@@ -433,7 +433,7 @@ ASPECTOS FINANCIEROS DEL PROYECTO
 * **Costos de producción**: Indica la materia prima e insumos utilizados, cantidades de medidas, precio unitario (Bs), costo unitario (Bs), producción mensual y costo mensual por producto elaborado.
 
 
-GARANTIA DEL CREDITO - CARTA AVAL
+Garantía del Crédito - Carta Aval
 =================================
 
 Es un compromiso que adquiere el avalista para garantizar el retorno del crédito otorgado.
@@ -452,7 +452,7 @@ Es un compromiso que adquiere el avalista para garantizar el retorno del crédit
 * **Profesión**: Indica el último nivel de estudio cursado y aprobado o la ocupación a la que se dedica el cónyuge en la actualidad.
 * **Fecha**: Indica el campo para la firma del solicitante, avalista y cónyuge.
 
-DATOS DEL AVALISTA
+Datos del Avalista
 ------------------
 
 * **Dirección de habitación**: Indica el domicilio fiscal del avalista.
@@ -464,25 +464,25 @@ DATOS DEL AVALISTA
 * **Otros ingresos**:  Indica la suma de dinero que percibe mensualmente el avalista derivados de otras actividades.
 * **Total de ingresos**:  Indica la suma de ingresos mensuales y otros ingresos que percibe mensualmente el avalista.
 
-ACTIVOS FIJOS
+Aactivos Fijos
 -------------
 
 Indica el tipo de bienes muebles e inmuebles junto con el valor en Bs que posee el avalista.
 
-CUENTAS BANCARIAS
+Cuentas Bancarias
 -----------------
 
 Indica el banco, cuenta y monto disponible de las cuentas bancarias del avalista.
 
-REFERENCIAS PERSONALES
+Referencias Personales
 ----------------------
 
 * **Personal**: Indica el nombre y apellido, dirección y teléfonos de contacto de amistades que refieren de la buena fe del avalista.
 * **Familiar**: Indica el nombre y apellido, dirección y teléfonos de contacto de familiares que refieren de la buena fe del avalista.
 
 
-PLANILLA DE SOLICITUD DEL CREDITO
-=================================
+Planilla de Solicitud de Crédito
+================================
 
 Es el resumen de los requisitos consignados por el solicitante para la aprobación del crédito.
 
@@ -526,7 +526,7 @@ Es el resumen de los requisitos consignados por el solicitante para la aprobaci�
 * **Firma**: Indica el campo para la firma del solicitante y del funcionario del FOMDES.
 
 
-CONTROL PREVIO
+Control Previo
 ==============
 
 Es el reporte de revisión realizado por el analista jurídico de las garantías ofrecidas por el solicitante.
@@ -534,7 +534,7 @@ Es el reporte de revisión realizado por el analista jurídico de las garantías
 * **Código de análisis jurídico**: Indica el número y año de revisión.
 * **Nº de expediente**: Indica el código del expediente determinado por el sector, año y numero del expediente.
 
-DATOS DEL SOLICITANTE
+Datos del Solicitante
 ---------------------
 
 * **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
@@ -543,7 +543,7 @@ DATOS DEL SOLICITANTE
 * **Dirección de habitación**: Indica el domicilio fiscal del solicitante.
 * **Teléfono(s)**: Indica el(los) teléfono(s) de contacto del solicitante.
 
-DATOS DE LA EMPRESA
+Datos de la Empresa
 -------------------
 
 * **Razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
@@ -554,7 +554,7 @@ DATOS DE LA EMPRESA
 * **Plan de inversión**: Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y la comisión FLAT.
 * **Monto solicitado**: Indica la cantidad total en bolívares fuertes del crédito solicitado para llevar a cabo la actividad propuesta.
 
-DATOS DE LA GARANTÍA
+Datos de la Garantía
 --------------------
 
 * **Descripción de la garantía ofrecida**: Indica el tipo de garantía, nombre y cédula del avalista.
@@ -563,7 +563,7 @@ DATOS DE LA GARANTÍA
 * **Firma**:  Indica el nombre, apellido y numero de Inpreabogado del abogado revisor.
 
 
-PLANILLA DE INSPECCIÓN
+Planilla de Inspección
 ======================
 
 Es el reporte de visita realizado por el analista económico a la unidad de producción.
@@ -595,7 +595,7 @@ Es el reporte de visita realizado por el analista económico a la unidad de prod
 * **Firma**: Indica el campo para nombre y cédula del solicitante y analista de crédito.
 
 
-INFORME TÉCNICO
+Informe Técnico
 ===============
 
 Es el reporte de la evaluación económica realizada a la unidad de producción, presentado al Consejo Directivo.
@@ -608,7 +608,7 @@ Es el reporte de la evaluación económica realizada a la unidad de producción,
 * **Fecha de elaboración**: Indica el día, mes y año de realización del informe.
 * **Tipo de empresa**: Indica si el crédito es para una empresa promocional o establecida.
 
-DATOS DEL REPRESENTANTE LEGAL
+Datos del Representante Legal
 -----------------------------
 
 * **Nombres y apellidos**: Indica el nombre y apellido del solicitante.
@@ -618,7 +618,7 @@ DATOS DEL REPRESENTANTE LEGAL
 * **Dirección de habitación**: Indica el domicilio fiscal del solicitante.
 * **Saldo del balance personal**: Indica el valor estimado de los activos que posee el solicitante.
 
-DATOS DE LA EMPRESA
+Datos de la Empresa
 -------------------
 
 * **Razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
@@ -626,7 +626,7 @@ DATOS DE LA EMPRESA
 * **Actividad**: Indica la denominación de la actividad que esta por realizar o realiza actualmente.
 * **Organización jurídica**: Indica si ya tiene el registro de la empresa o se encuentra en tramite.
 
-DESTINO DEL CREDITO
+Destino del Crédito
 -------------------
 
 * **Plan de inversión**: Indica los montos totales por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y la comisión FLAT.
@@ -638,7 +638,7 @@ DESTINO DEL CREDITO
 * **Informe fotográfico de la inspección**: Indica el expediente, la fecha de la visita y un máximo de 8 fotos tomadas a la unidad de producción.
 
 
-DECISIÓN CONSEJO DIRECTIVO
+Decisión Consejo Directivo
 ==========================
 
 Es la notificación de la decisión del consejo directivo referente a la aprobación o negación del crédito.
@@ -656,7 +656,7 @@ Es la notificación de la decisión del consejo directivo referente a la aprobac
 * **Firma**: Indica el nombre, apellido y firma de la secretaria ejecutiva.
 
 
-RECIBO DEL DOCUMENTO DE CRÉDITO
+Recibo del Documento de Crédito
 ===============================
 
 Es la constancia de entrega del documento de crédito al beneficiario para ser autenticado o protocolizado.
@@ -670,7 +670,7 @@ Es la constancia de entrega del documento de crédito al beneficiario para ser a
 * **Firma**: Indica el nombre, apellido, cedula y firma del beneficiario y de la secretaria ejecutiva.
 
 
-ASESORIA PARA EL DESTINO DEL CRÉDITO
+Asesoría para el Destino del Crédito
 ====================================
 
 Es una guía de las normativas que debe cumplir el beneficiario con el otorgamiento del crédito.
@@ -682,7 +682,7 @@ Es una guía de las normativas que debe cumplir el beneficiario con el otorgamie
 * **Firma**: Indica el nombre, cedula y firma del beneficiario y funcionario del FOMDES.
 
 
-DOCUMENTO DE CRÉDITO
+Documento de Crédito
 ====================
 
 Es un documento otorgado al beneficiario para justificar el crédito y garantizar sus derechos ante este compromiso u obligación.
@@ -716,7 +716,7 @@ Es un documento otorgado al beneficiario para justificar el crédito y garantiza
 * **Dirección de habitación**: Indica el domicilio fiscal del avalista.
 
 
-DOCUMENTO DE LA EMPRESA
+Documento de la Empresa
 =======================
 
 Es un documento constitutivo que sirve como la base legal para la  inauguración de la empresa con un fin específico o variado.
@@ -733,12 +733,12 @@ Es un documento constitutivo que sirve como la base legal para la  inauguración
 * **Firma**: Indica el campo para la firma y cédula del beneficiario.
 
 
-ORDEN DE LIQUIDACIÓN
+Orden de Liquidación
 ====================
 
 Es el constancia de egreso del crédito otorgado al beneficiario.
 
-DATOS DEL EXPEDIENTE
+Datos del Expediente
 --------------------
 
 * **Banco**: Indica el banco y numero de cuenta del FOMDES.
@@ -750,24 +750,24 @@ DATOS DEL EXPEDIENTE
 * **Razón social**: Indica la denominación de la unidad productiva o el nombre oficial y legal que aparece en la documentación del Registro Mercantil.
 * **Fecha de aprobación en Consejo directivo**: Indica el día, mes y año de aprobación del crédito.
 
-MONTO DEL PRESTAMO
+Monto del Préstamo
 ------------------
 
 Indica la cantidad total del crédito en cifras y letras.
 
-DATOS DEL DOCUMENTO DE CREDITO
+Datos del Documento de Crédito
 ------------------------------
 
 * **Autenticado**: Indica la acción si el documento de crédito fue notariado.
 * **Registro público/Notaria pública**: Indica el nombre y fecha en que fue notariado el documento de crédito.
 * **Nº, Tomo y Protocolo**: Indica los datos notariales del documento protocolizado.
 
-MONTO CANCELADO ACUMULADO
+Monto Cancelado Acumulado
 -------------------------
 
 Indica Nº de orden, fecha de liquidación, %, rubro, monto total del crédito, codificación contable, codificación presupuestaria y el monto en cifras y letras de la orden de liquidación.
 
-RUBROS
+Rubros
 ------
 
 Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación, comisión FLAT y el monto real de la orden de liquidación.
@@ -775,7 +775,7 @@ Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil 
 * **Firma**: Indica el nombre y apellido del gerente de administración y finanzas.
 
 
-COMPROMISO APORTE SOCIAL VOLUNTARIO
+Compromiso Aporte Social Voluntario
 ===================================
 
 Es la constancia del aporte económico que da el beneficiario a causas sociales del FOMDES.
@@ -794,7 +794,7 @@ Es la constancia del aporte económico que da el beneficiario a causas sociales 
 * **Firma**:  Indica el nombre, apellido y cédula del beneficiario.
 
 
-COMPROBANTE DE EGRESO DEL CRÉDITO
+Comprobante de Egreso del Crédito
 =================================
 
 Es el recibo de egreso y cheque del crédito otorgado al beneficiario. Indica los montos por concepto de aranceles a cancelar en el Registro Mercantil para la constitución del fondo de comercio o compañía anónima, materia prima e insumos, adquisición y repotenciación de maquinaria, equipo e instalación y comisión FLAT.
@@ -816,7 +816,7 @@ Es el recibo de egreso y cheque del crédito otorgado al beneficiario. Indica lo
 * **Recibí conforme**: Indica el nombre, apellido, firma, cedula y fecha en que fue entregado el cheque del crédito al beneficiario.
 
 
-ESTADOS DE CUENTA
+Estados de Cuenta
 =================
 
 Es el resumen contable oficial para la recuperación del crédito otorgado. Indica el periodo de pago, saldo inicial, interés de capital, amortización a capital, cuota financiera, saldo final, fecha de vencimiento, fecha de cancelación, interés de mora y el estado del pago (gracia, vigente, cancelado, exonerado, pendiente, vencido).
@@ -847,7 +847,7 @@ Es el resumen contable oficial para la recuperación del crédito otorgado. Indi
 * **Resumen de estado de cuenta**: Indica el resumen de las cuotas, capital, interés de capital, interés de mora y total dependiendo del estatus del estado de pago.
 
 
-SEGUIMIENTO Y VERIFICACIÓN DE LA INVERSIÓN
+Seguimiento y Verificación de la Inversión
 ==========================================
 
 Es el resumen de la visita realizada a la unidad de producción para verificar el plan de inversión.
@@ -866,7 +866,7 @@ Es el resumen de la visita realizada a la unidad de producción para verificar e
 * **Informe fotográfico de la inspección**: Indica el expediente, la fecha de la visita y un máximo de 8 fotos tomadas a la unidad de producción.
 
 
-INFORME DE RECOMENDACIÓN
+Informe de Recomendación
 ========================
 
 Es el resumen de acompañamiento al plan de inversión del crédito.
@@ -892,7 +892,7 @@ Es el resumen de acompañamiento al plan de inversión del crédito.
 * **Firma**:  Indica el nombre y apellido del jefe de acompañamiento y asistencia técnica.
 
 
-RECIBO DE PAGO
+Recibo de Pago
 ==============
 
 Es el comprobante de cancelación de las cuotas del crédito. Indica el numero de la cuota, capital, interés de capital, interés de mora y total cancelado.
@@ -911,7 +911,7 @@ Es el comprobante de cancelación de las cuotas del crédito. Indica el numero d
 * **Firma**:  Indica el nombre y apellido del funcionario y del beneficiario.
 
 
-CITACIÓN DE PRESIDENCIA
+Citación de Presidencia
 =======================
 
 Es el aviso para tratar morosidad en los pagos del crédito con el  beneficiario.
@@ -923,7 +923,7 @@ Es el aviso para tratar morosidad en los pagos del crédito con el  beneficiario
 * **Presidente**: Indica el nombre y apellido completo del presidente del FOMDES.
 
 
-MAYOR ANALÍTICO
+Mayor Analítico
 ===============
 
 Es el resumen del historial de pago del crédito hasta la cancelación total. Indica la fecha, asiento, referencia, descripción, saldo anterior, debe, haber, saldo y total de la cuenta cancelada.
@@ -933,7 +933,7 @@ Es el resumen del historial de pago del crédito hasta la cancelación total. In
 * **Cuenta**: Indica el nombre, apellido, expediente y cedula del beneficiario.
 
 
-ORDEN DE LIBERACIÓN
+Orden de Liberación
 ===================
 
 Es la orden emitida por consultoría jurídica para la liberación de la garantía del crédito. Indica el expediente, representante legal, cedula, razón social, fecha de liquidación y monto aprobado.
