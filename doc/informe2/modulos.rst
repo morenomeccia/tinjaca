@@ -71,6 +71,15 @@ Procedimientos de ingreso de datos
         * - Envío del expediente a la estación de Análisis Económico
           - Análisis Jurídico
           - Estación actual del expediente
+
+
+    .. list-table::
+        :widths: 40 40 40
+        :header-rows: 1
+
+        * - | Procedimiento
+          - | Responsable
+          - | Campos accedidos o modificados
         * - Registro de la viabilidad económica de la unidad de producción
           - Analista Económico
           - Viabilidad económica de la unidad de producción
@@ -108,7 +117,7 @@ Procedimientos de ingreso de datos
           - Gerente de crédito
           - lista de expedientes rechazados
         * - Edición de datos personales del beneficiario
-          - Analista Económico, analista de crédito
+          - Analista económico, analista de crédito
           - Datos personales del beneficiario
 
 Procedimiento de generación de reportes
