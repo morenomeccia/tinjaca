@@ -69,6 +69,8 @@ simples, implementar la contabilidad requeriría la incluir todos los gatos oper
 Diccionario de Datos
 ====================
 
+.. index:: !Solicitantes
+
 Solicitantes
 ------------
 
@@ -111,6 +113,7 @@ Solicitantes
        * - Correo_Electrónico
          - Cadena
 
+.. index:: !Unidades Productivas
 
 Unidades Productivas
 --------------------
@@ -150,8 +153,9 @@ Unidades Productivas
        * - Código_Solicitante
          - Numérico
 
+.. index:: !Actividad Productiva
 
-Actividad productiva
+Actividad Productiva
 --------------------
 
     .. list-table::
@@ -185,6 +189,7 @@ Actividad productiva
        * - Observaciones
          - Numérico
 
+.. index:: !Planes de Inversión
 
 Planes Inversión
 ----------------
@@ -221,7 +226,14 @@ Planes Inversión
          - Cadena
        * - Código_ActividadProductiva
          - Numérico
+       * - Código_Crédito
+         - Numérico
+       * - Consigno_facturas
+         - Numérico
+       * - Observaciones
+         - Numérico
 
+.. index:: !Cónyuges
 
 Cónyuges
 --------
@@ -265,6 +277,7 @@ Cónyuges
        * - Código_Solicitante
          - Numérico
 
+.. index:: !Referencias Personales
 
 Referencias personales y familiares
 -----------------------------------
@@ -294,6 +307,7 @@ Referencias personales y familiares
        * - Código_Solicitante
          - Numérico
 
+.. index:: !Avalistas
 
 Avalistas
 ---------
@@ -331,6 +345,7 @@ Avalistas
        * - Código_Solicitante
          - Numérico
 
+.. index:: Avalistas, Cuentas Bancarias
 
 Cuentas Bancarias Avalista
 --------------------------
@@ -354,6 +369,7 @@ Cuentas Bancarias Avalista
        * - Código_Avalista
          - Numérico
 
+.. index:: Avalista, Activos Fijos
 
 Activos fijos Avalista
 ----------------------
@@ -375,6 +391,8 @@ Activos fijos Avalista
        * - Código_Avalista
          - Numérico
 
+.. index:: !Talleres
+
 Talleres
 --------
 
@@ -390,6 +408,8 @@ Talleres
          - Fecha
        * - Atendido_Por
          - Cadena
+
+.. index:: !Garantías
 
 Garantías
 ---------
@@ -413,6 +433,7 @@ Garantías
        * - Código_Crédito
          - Numérico
 
+.. index:: !Requisitos, Requisitos Personales
 
 Requisitos personales
 ---------------------
@@ -440,8 +461,9 @@ Requisitos personales
        * - Código_Crédito
          - Numérico
 
+.. index:: !Requisitos, Requisitos Empresa
 
-Requisitos empresa
+Requisitos Empresa
 ------------------
 
     .. list-table::
@@ -467,8 +489,9 @@ Requisitos empresa
        * - Código_Crédito
          - Numérico
 
+.. index:: !Requisitos, Requisitos Sector
 
-Requisitos sector
+Requisitos Sector
 -----------------
 
     .. list-table::
@@ -494,8 +517,9 @@ Requisitos sector
        * - Código_Crédito
          - Numérico
 
+.. index:: !Requisitos, Requisitos Garantía
 
-Requisitos garantía
+Requisitos Garantía
 -------------------
 
     .. list-table::
@@ -533,6 +557,7 @@ Requisitos garantía
        * - Código_Crédito
          - Numérico
 
+.. index:: !Consejo Directivo
 
 Consejo directivo
 -----------------
@@ -564,7 +589,9 @@ Consejo directivo
        * - Firma
          - Imagen
 
-Control previo
+.. index:: !Control Previo
+
+Control Previo
 --------------
 
     .. list-table::
@@ -586,6 +613,7 @@ Control previo
        * - Código_Crédito
          - Numérico
 
+.. index:: !Inspecciones
 
 Inspecciones
 ------------
@@ -625,8 +653,9 @@ Inspecciones
        * - Código_Crédito
          - Numérico
 
+.. index:: !Informes Técnicos
 
-Informes técnicos
+Informes Técnicos
 -----------------
 
       .. list-table::
@@ -656,6 +685,7 @@ Informes técnicos
        * - Código_Crédito
          - Numérico
 
+.. index:: !Pagos, Caja
 
 Pagos
 -----
@@ -679,6 +709,7 @@ Pagos
        * - Código_Crédito
          - Numérico
 
+.. index:: !Créditos
 
 Créditos
 --------
@@ -704,6 +735,7 @@ Créditos
        * - Código_EstadosCuentas
          - Numérico
 
+.. index:: !Estados de Cuenta, Créditos
 
 Estados Cuentas
 ---------------
