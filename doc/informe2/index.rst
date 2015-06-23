@@ -19,9 +19,3 @@ Informe de diseño, propuesta de fases de desarrollo, configuración y pruebas d
    apendice
 
 
-Indices y tablas
-==================
-
-* :ref:`genindex`
-* :ref:`search`
-
