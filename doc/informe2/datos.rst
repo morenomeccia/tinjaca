@@ -96,7 +96,7 @@ Solicitantes
          - Numérico
        * - Sexo
          - Carácter
-       * - Direccion_Habitacion
+       * - Dirección_Habitación
          - Cadena
        * - Municipio
          - Cadena
@@ -109,8 +109,6 @@ Solicitantes
        * - Teléfono_Celular
          - Cadena
        * - Correo_Electrónico
-         - Cadena
-       * - Twitter
          - Cadena
 
 
@@ -139,13 +137,13 @@ Unidades Productivas
          - Cadena
        * - Área_Geográfica
          - Cadena
-       * - Area_Funcionamiento
+       * - Área_Funcionamiento
          - Numérico
        * - Tenencia
          - Cadena
-       * - Area_M2
+       * - Área_M2
          - Numérico
-       * - Zona_Geografica
+       * - Zona_Geográfica
          - Cadena
        * - Servicios
          - Cadena
@@ -240,17 +238,17 @@ Cónyuges
          - Numérico
        * - Estado_Civil
          - Numérico
-       * - Grado_Instruccion
+       * - Grado_Instrucción
          - Cadena
-       * - Condicion_Vivienda
+       * - Condición_Vivienda
          - Cadena
        * - Dirección_Habitación
          - Cadena
        * - Municipio
          - Numérico
-       * - Telefono_Habitación
+       * - Teléfono_Habitación
          - Cadena
-       * - Telefono_Celular
+       * - Teléfono_Celular
          - Cadena
        * - FAX
          - Cadena
@@ -283,9 +281,9 @@ Referencias personales y familiares
          - Cadena
        * - Municipio
          - Numérico
-       * - Telefono_Habitación
+       * - Teléfono_Habitación
          - Cadena
-       * - Telefono_Celular
+       * - Teléfono_Celular
          - Cadena
        * - Código_Solicitante
          - Numérico
@@ -308,13 +306,13 @@ Avalistas
          - Cadena
        * - Apellidos
          - Cadena
-       * - Direccion_Habitacion
+       * - Dirección_Habitación
          - Cadena
-       * - Telefono_Fijo
+       * - Teléfono_Fijo
          - Numérico
-       * - Telefono_Celular
+       * - Teléfono_Celular
          - Numérico
-       * - Nombre_Direccion_Trabajo
+       * - Nombre_Dirección_Trabajo
          - Cadena
        * - Cargo
          - Cadena
@@ -608,7 +606,7 @@ Inspecciones
          - Cadena
        * - Distribucio_Espacio_Fisico
          - Cadena
-       * - Condicion_Fisica_Sanitaria
+       * - Condición_Fisica_Sanitaria
          - Cadena
        * - Maquinaria
          - Cadena
