@@ -9,6 +9,7 @@ Informe de diseño, propuesta de fases de desarrollo, configuración y pruebas d
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
 
    descripcion
    sistema
