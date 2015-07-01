@@ -2,7 +2,7 @@
 
 from openerp import models, fields, api
 
-# class credito(models.Model):
-#     _name = 'credito.credito'
+# class estadistica(models.Model):
+#     _name = 'estadistica.estadistica'
 
 #     name = fields.Char()
