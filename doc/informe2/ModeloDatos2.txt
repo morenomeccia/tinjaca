@@ -1,0 +1,13 @@
+MODULO Fomdes:
+
+* Funcionarios
+* Cargos
+* Dependencias
+* Usuarios
+
+
+Funcionarios 1-1 Usuarios
+Funcionarios 1-1 Cargos
+Dependencias 1-N Cargos
+
+
