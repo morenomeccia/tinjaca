@@ -1,0 +1,58 @@
+1. Propuestas:
+- Solicitante
+- Cónyuges
+- Referencias Personales
+- Unidades Productivas
+- Actividades Productivas
+- Planes de INversión
+- Avalistas
+- Cuentas Bancarias
+- Activos Fijos
+- Garantías
+
+2. Solicitudes:
+- Solicitudes
+- Talleres
+- Requisitos Personales
+- Requisitos Empresas
+- Requisitos Sector
+- Requisitos Garantía
+- Control Previo
+- Inspecciones
+- Avalúos
+- Informes Técnicos
+- Fotografías
+
+3. Aprobación:
+- Consejo Directivo
+
+4. Administración:
+- Crédito
+- Liquidaciones
+- Cheques
+- Estados de cuenta
+
+5. Acompañamiento:
+- Acompañamiento
+
+6. Caja:
+- Pagos
+
+7. Recuperaciones:
+- Recuperaciones
+
+8. Consultoría Jurídica:
+- Liberaciones.
+- Demandas.
+
+9. Archivo:
+- Expedientes
+
+10. Estadística.
+
+11. Presidencia.
+
+12. Atención:
+- Visitantes
+- Visitas
+
