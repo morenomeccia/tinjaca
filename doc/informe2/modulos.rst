@@ -18,17 +18,16 @@ sistema de forma predeterminada.
 Por otro lado, también existen perfiles especiales con tipos de usuario avanzados dentro del sistema, llamados
 super-usuarios, que tienen capacidades superiores en la administración del sistema, dentro de un ámbito específico.
 
-.. index:: !Módulo Solicitudes, Solicitantes, Créditos, Talleres, Requisitos, Control Previo
 
-Módulo Solicitudes
-==================
+.. index:: !Módulo Propuestas, Propuestas, Solicitantes, Talleres
+
+Módulo Propuestas
+=================
 
 Descripción
 -----------
 
-Este módulo abarca los procesos de "Recepción de propuestas" y "Recepción y Evaluación de Solicitudes". Incluye
-procedimientos asociados con la recepción y validación de la propuesta de financiamiento, validación de recaudos para
-solicitud de crédito y generación del listado de expedientes sugeridos para aprobación de créditos.
+Este módulo abarca los procesos de "Recepción de propuestas". Incluye procedimientos asociados con la recepción y validación de la propuesta de financiamiento y la inclusión de los solicitantes a las listas de los talleres de inducción.
 
 Procedimientos de ingreso de datos
 ----------------------------------
@@ -42,19 +41,44 @@ Procedimientos de ingreso de datos
           - | Campos accedidos o modificados
         * - Ingreso de datos del solicitante
           - Analista de crédito
-          - Todos los datos del solicitante
-        * - Ingreso de datos de la propuesta de financiamiento a partir de la planilla consignada y la generación del código de la misma
+          - Datos del solicitante
+        * - Ingreso de datos de la propuesta de financiamiento a partir de la planilla consignada
           - Analista de crédito
-          - Datos de la propuesta de financiamiento y su código
+          - Datos de la unidad de producción, actividad productiva, plan de inversión, avalistas, garantías
+        * - Generación del código de propuesta
+          - Analista de crédito
+          - Código de la propuesta de financiamiento
         * - Registro de la viabilidad de la propuesta según las normativas del FOMDES
           - Analista de crédito
-          - viabilidad de propuesta
+          - Viabilidad de propuesta
         * - Registro del envío de requisitos
           - Analista de crédito
           - Chequeo del envío de requisitos
-        * - Incluir al solicitante en la lista del “Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario”
+        * - Incluir al solicitante en la lista del taller de inducción
           - Analista de crédito
           - Código de asignación de taller
+
+
+.. index:: !Módulo Solicitudes, Requisitos, Control Previo, Avalúo, Ispección, Créditos 
+
+Módulo Solicitudes
+==================
+
+Descripción
+-----------
+
+Este módulo abarca los procesos de "Recepción y Evaluación de Solicitudes". Incluye procedimientos asociados con la recepción y validación de recaudos para solicitud de crédito y generación del listado de expedientes sugeridos para aprobación de créditos.
+
+Procedimientos de ingreso de datos
+----------------------------------
+
+    .. list-table::
+        :widths: 40 40 40
+        :header-rows: 1
+
+        * - | Procedimiento
+          - | Responsable
+          - | Campos accedidos o modificados
         * - Registro de la validez de los requisitos
           - Analista de crédito
           - Validez de los requisitos
@@ -73,6 +97,34 @@ Procedimientos de ingreso de datos
         * - Envío del expediente a la estación de Análisis Económico
           - Análisis Jurídico
           - Estación actual del expediente
+
+.. index:: !Reportes Propuestas
+
+Procedimiento de generación de reportes
+---------------------------------------
+
+    .. list-table::
+        :widths: 40 40 40
+        :header-rows: 1
+
+        * - | Procedimiento
+          - | Responsable
+          - | Reporte de salida
+        * - Consultar el listado de propuestas de financiamiento que son viables
+          - Analista de crédito
+          - Lista de propuestas de financiamiento
+        * - Generación de la planilla de requisitos
+          - Analista de crédito
+          - Planilla de requisitos
+        * - Generación de la invitación para la asistencia al taller
+          - Analista de crédito
+          - Invitación de asistencia al taller
+        * - Generación de la lista de convocados al taller de inducción
+          - Analista de crédito
+          - Lista de potenciales beneficiarios asignados al taller
+        * - Generación de la lista de espera de los potenciales beneficiarios que no asistan al taller
+          - Analista de crédito
+          - Lista de espera de potenciales beneficiarios
 
 .. index:: !Módulo Solicitudes, Inspecciones, Consejo Directivo, Planes de Inversión, Presupuestos
 
@@ -135,18 +187,9 @@ Procedimiento de generación de reportes
         * - | Procedimiento
           - | Responsable
           - | Reporte de salida
-        * - Consultar el listado de propuestas de financiamiento que son viables
+        * - Consultar propuestas de financiamiento viables
           - Analista de crédito
-          - Lista de propuestas de financiamiento
-        * - Generación de la planilla de requisitos e invitación para la asistencia al taller
-          - Analista de crédito
-          - Planilla de requisitos, invitación de asistencia al taller
-        * - Incluir al solicitante en la lista del “Taller Integral de Asesoría y Acompañamiento al Potencial Beneficiario”
-          - Analista de crédito
-          - Lista de potenciales beneficiarios asignados al taller
-        * - Registro en lista de espera de los potenciales beneficiarios que no asistan al taller
-          - Analista de crédito
-          - Lista de espera de potenciales beneficiarios
+          - Información de propuesta de financiamiento
         * - Generar informes POA
           - Analista de crédito
           - Informe POA
