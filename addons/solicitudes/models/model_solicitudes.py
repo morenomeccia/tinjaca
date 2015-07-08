@@ -2,7 +2,7 @@
 
 from openerp import models, fields, api
 
- class solicitudes(models.Model):
+class Solicitudes(models.Model):
      _name = 'solicitudes.solicitudes'
 
      name = fields.Char()
