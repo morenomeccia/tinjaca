@@ -58,8 +58,35 @@ Procedimientos de ingreso de datos
           - Analista de crédito
           - Código de asignación de taller
 
+.. index:: !Reportes Propuestas
 
-.. index:: !Módulo Solicitudes, Requisitos, Control Previo, Avalúo, Ispección, Créditos 
+Procedimiento de generación de reportes
+---------------------------------------
+
+    .. list-table::
+        :widths: 40 40 40
+        :header-rows: 1
+
+        * - | Procedimiento
+          - | Responsable
+          - | Reporte de salida
+        * - Consultar el listado de propuestas de financiamiento que son viables
+          - Analista de crédito
+          - Lista de propuestas de financiamiento
+        * - Generación de la planilla de requisitos
+          - Analista de crédito
+          - Planilla de requisitos
+        * - Generación de la invitación para la asistencia al taller
+          - Analista de crédito
+          - Invitación de asistencia al taller
+        * - Generación de la lista de convocados al taller de inducción
+          - Analista de crédito
+          - Lista de potenciales beneficiarios asignados al taller
+        * - Generación de la lista de espera de los potenciales beneficiarios que no asistan al taller
+          - Analista de crédito
+          - Lista de espera de potenciales beneficiarios
+
+.. index:: !Módulo Solicitudes, Requisitos, Control Previo, Avalúo, Inspección, Créditos
 
 Módulo Solicitudes
 ==================
@@ -98,35 +125,8 @@ Procedimientos de ingreso de datos
           - Análisis Jurídico
           - Estación actual del expediente
 
-.. index:: !Reportes Propuestas
 
-Procedimiento de generación de reportes
----------------------------------------
-
-    .. list-table::
-        :widths: 40 40 40
-        :header-rows: 1
-
-        * - | Procedimiento
-          - | Responsable
-          - | Reporte de salida
-        * - Consultar el listado de propuestas de financiamiento que son viables
-          - Analista de crédito
-          - Lista de propuestas de financiamiento
-        * - Generación de la planilla de requisitos
-          - Analista de crédito
-          - Planilla de requisitos
-        * - Generación de la invitación para la asistencia al taller
-          - Analista de crédito
-          - Invitación de asistencia al taller
-        * - Generación de la lista de convocados al taller de inducción
-          - Analista de crédito
-          - Lista de potenciales beneficiarios asignados al taller
-        * - Generación de la lista de espera de los potenciales beneficiarios que no asistan al taller
-          - Analista de crédito
-          - Lista de espera de potenciales beneficiarios
-
-.. index:: !Módulo Solicitudes, Inspecciones, Consejo Directivo, Planes de Inversión, Presupuestos
+.. index:: !Módulo Solicitudes, Inspecciones, Consejo Directivo, Presupuestos
 
     .. list-table::
         :widths: 40 40 40
