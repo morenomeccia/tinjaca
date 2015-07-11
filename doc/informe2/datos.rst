@@ -406,7 +406,7 @@ Talleres
          - Numérico
        * - Fecha_Taller
          - Fecha
-       * - Atendido_Por
+       * - Funcionario
          - Cadena
 
 .. index:: !Garantías
