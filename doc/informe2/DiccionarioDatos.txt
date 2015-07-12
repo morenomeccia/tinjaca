@@ -10,7 +10,7 @@
 - Cuentas Bancarias Aval (8.3)
 - Activos fijos Aval (8.2)
 - Taller (2)
-- Garantía (6.9)
+- GarantÃ­a (6.9)
 - Requisitos personales (5.1)
 - Requisitos empresa (5.2)
 - Requisitos sector (5.1, 5.3)
