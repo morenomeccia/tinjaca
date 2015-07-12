@@ -3,13 +3,13 @@
 Solicitante 1-1 Conyuge
 Solicitante 1-N Referencias personales
 Solicitante 1-N Unidad productiva
-Actividad productiva 1-1 Unidad productiva
+Actividad productiva N-1 Unidad productiva
 Actividad productiva 1-1 Plan de inversion
 Avalista 1-1 Activos Fijos
 Avalista 1-1 Cuentas bancarias
 Avalista 1-1 Referencias personales
-Credito 1-N Solicitante
-Credito 1-N Unidad productiva
+Credito N-1 Solicitante
+Credito N-1 Unidad productiva
 Credito 1-1 Actividad productiva
 Credito Taller 1-N Credito
 Credito 1-1 Avalista
@@ -24,7 +24,7 @@ Credito 1-1 Inpeccion
 Credito 1-1 Informe tecnico
 Credito 1-1 Inversion
 Credito 1-1 Estado de cuentas
+Credito 1-N Pagos
 
 * Notas:
-- La tabla Inversion se refiere a los datos asociados al informe de acompañamiento (falta planilla)
 - Quedan pendientes algunas tablas relacionadas a los precesos internos de FOMDES para algunas oficinas, que no involucran a los expedientes de credito.

@@ -19,13 +19,14 @@
 - Control previo (10)
 - Inspeccion (11)
 - Informe tecnico (12)
+- Inversion (22)
 - Estado de cuentas (21)
-- Credito (numero de expediente)
+- Pagos (24)
+- Credito
 
 * Notas: 
 
-- Las planillas 3, 14, 15, 16, 17, 18, 19, 20, no representan datos, solo son reportes.
 - La tabla Credito es la que asocia todas las demas tablas con el expediente. Contiene principalmente los id claves de otras tablas para las relaciones.
-
+- Planillas de reportes: 3, 14, 15, 16, 17, 18, 19, 20, 23, 24, 25, 26, 27.
 
 
