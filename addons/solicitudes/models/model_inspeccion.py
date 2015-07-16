@@ -3,7 +3,7 @@
 from openerp import models, fields, api
 
 class Inspecciones(models.Model):
-    _name = 'openacademy.inspecciones'
+    _name = 'solicitudes.inspecciones'
 
     nro_expediente = fields.Char(string='Numero de expediente', required=True) # !!!
     tiempo_funcionamiento = fields.Float(string='Tiempo de funcionamiento', required=True)
