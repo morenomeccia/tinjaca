@@ -2,7 +2,7 @@
 
 from openerp import models, fields, api
 
-class inspecciones(models.Model):
+class Inspecciones(models.Model):
     _name = 'solicitudes.inspecciones'
 
     nro_expediente = fields.Char(string='Numero de expediente', required=True) # !!!
