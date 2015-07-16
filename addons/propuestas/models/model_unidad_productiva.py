@@ -1,8 +1,9 @@
--*- coding: utf-8 -*-
+#-*- coding: utf-8 -*-
 
 from openerp import models, fields, api
 
-class unidadProductiva(models.Model):    _name = 'propuestas.unidadProductiva'
+class UnidadProductiva(models.Model):
+    _name = 'propuestas.unidad_productiva'
 
     codigo_up = fields.Char(string='Codigo de la Solicitud', required=True)
     nombre_up = fields.Char(string='Nombres del Solicitante', required=True)

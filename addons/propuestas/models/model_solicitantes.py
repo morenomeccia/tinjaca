@@ -2,8 +2,10 @@
 
 from openerp import models, fields, api
 
-class solicitantes(models.Model):    _name = 'propuestas.solicitantes'
+class solicitantes(models.Model):
+    _name = 'propuestas.solicitantes'
 
+    propuesta_id = fields.One2many('propuestas.propuestas', string="Propuesta")
     codigo_solicitud = fields.Char(string='Codigo de la Solicitud', required=True)
     nombres = fields.Char(string='Nombres del Solicitante', required=True)
     apellidos = fields.Char(string='Apellidos del Solicitante', required=True)
