@@ -4,7 +4,7 @@ from openerp import models, fields, api
 
 
 class InformeTecnico(models.Model):
-    _name = 'openacademy.informe_tecnico'
+    _name = 'solicitudes.informe_tecnico'
 
     nro_expediente = fields.Char(string='Numero de expediente', required=True)  # !!!
     fecha_elaboracion = fields.Date(string='Fecha de elaboracion', required=True)
