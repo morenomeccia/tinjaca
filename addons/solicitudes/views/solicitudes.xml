@@ -15,6 +15,15 @@
                             <field name="tiempo_funcionamiento"/>
                             <field name="cantidad_productos"/>
                             <field name="costos_actividad"/>
+                            <field name="sistema_produccion"/> 
+                            <field name="clientes"/>
+                            <field name="distribucion_espacio_fisico"/> 
+                            <field name="condicion_fisica_sanitaria"/>
+                            <field name="maquinaria"/>
+                            <field name="materia_prima"/> 
+                            <field name="observaciones"/>
+                            <field name="firma"/>
+                            <field name="codigo_credito"/>
                         </group>
                     </sheet>
                 </form>
@@ -33,7 +42,12 @@
                             <field name="nro_expediente"/>
                             <field name="fecha_elaboracion"/>
                             <field name="tipo_empresa"/>
-                            <field name="Saldo_Balance_Personal"/>      
+                            <field name="Saldo_Balance_Personal"/>  
+                            <field name="Organizacion_Juridica"/> 
+                            <field name="Recomendaciones"/> 
+                            <field name="firma"/> 
+                            <field name="informe_fotografico_inspeccion"/> 
+                            <field name="codigo_credito"/> 
                         </group>
                     </sheet>
                 </form>
