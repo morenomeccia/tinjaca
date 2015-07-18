@@ -13,7 +13,6 @@ class UnidadProductiva(models.Model):
     actividad = fields.Char(string='Actividad', required=True)
     experiencia = fields.Char(string='Experiencia', required=True)
     area_geografica = fields.Char(string='Area Geografica', required=True)
-    area_funcionamiento = fields.Char(string='Area de Funcionamiento', required=True)
     tenencia = fields.Char(string='Tenencia', required=True)
     area_m2 = fields.Integer(string='Area en metros cuadrados', required=True)
     zona_geografica = fields.Char(string='Zona Geografica', required=True)
