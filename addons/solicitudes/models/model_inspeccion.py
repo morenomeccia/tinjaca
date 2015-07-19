@@ -12,7 +12,7 @@ class Inspecciones(models.Model):
     sistema_produccion = fields.Char(string='Sistema de produccion')
     clientes = fields.Char(string='Clientes', required=True)
     distribucion_espacio_fisico = fields.Char(string='Distribucion del espacio fisico')
-    condicion_fisica_sanitaria = fields.Char(string='Condicion sanitaria') # !!!
+    condicion_fisica_sanitaria = fields.Selection(string='Condicion sanitaria', selection=[('1', 'Bueno'), ('2', 'Regular'), ('3', 'Malo')]) # !!!
     maquinaria = fields.Char(string='Maquinaria') 
     materia_prima = fields.Char(string='Materia prima') 
     observaciones = fields.Char(string='Observaciones')
