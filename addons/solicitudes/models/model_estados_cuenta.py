@@ -2,7 +2,7 @@
 
 from openerp import models, fields, api
 
- class estadosCuenta(models.Model):
+class estadosCuenta(models.Model):
     _name = 'solicitudes.EstadosCuenta'
 
     monto_total = fields.Float(string='Monto total', required=True) # !!!

@@ -2,7 +2,7 @@
 
 from openerp import models, fields, api
 
- class controlPrevio(models.Model):
+class ControlPrevio(models.Model):
     _name = 'solicitudes.control_previo'
 
     codigo_analisis_juridico = fields.Char(string='Codigo de Analisis Juridico', required=True) # !!!
