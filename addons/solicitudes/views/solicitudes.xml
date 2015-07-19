@@ -2,6 +2,23 @@
 <openerp>
     <data>
 
+        <!-- Creacion de la vista para mostrar solicitudes -->
+
+        <record model="ir.ui.view" id="vista_forma_solicitudes">
+            <field name="name">solicitudes.form</field>
+            <field name="model">solicitudes.solicitudes</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Solicitudes">
+                    <sheet>
+                        <group>
+                            <field name="nro_expediente"/>
+                            <!-- <field name="informe_tecnico_id"/> -->
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
         <!-- Creacion de la vista para mostrar control previo -->
 
         <record model="ir.ui.view" id="vista_forma_control_previo">
@@ -74,6 +91,18 @@
             </field>
         </record>
 
+        <!-- Accion de ventana para solicitudes -->
+
+        <record model="ir.actions.act_window" id="accion_listar_solicitudes">
+            <field name="name">Solicitudes</field>
+            <field name="res_model">solicitudes.solicitudes</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear solicitud</p>
+            </field>
+        </record>
+
         <!-- Accion de ventana para control previo -->
 
         <record model="ir.actions.act_window" id="accion_listar_controles_previos">
@@ -119,6 +148,8 @@
         <!-- top level menu: no parent -->
         <menuitem id="menu_principal_solicitudes" name="Solicitudes"/>
         <menuitem id="menu_solicitudes" name="Solicitudes" parent="menu_principal_solicitudes"/>
+        <!-- Entrada de menu para el modelo de Solicitudes -->
+        <menuitem id="menu_solicitud" name="Solicitudes" parent="menu_solicitudes" action="accion_listar_solicitudes"/>
         <!-- Entrada de menu para el modelo de Control Previo -->
         <menuitem id="menu_control_previo" name="Controles Previos" parent="menu_solicitudes" action="accion_listar_controles_previos"/>
         <!-- Entrada de menu para el modelo de Inspecciones -->
