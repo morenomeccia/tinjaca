@@ -3,6 +3,7 @@
 from openerp import models, fields, api
 
 class Solicitudes(models.Model):
-     _name = 'solicitudes.solicitudes'
+    _name = 'solicitudes.solicitudes'
 
-     name = fields.Char()
+    nro_expediente = fields.Char(string='Numero de expediente', required=True)
+    #informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', string="Informe tecnico") 
