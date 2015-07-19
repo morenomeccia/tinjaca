@@ -2,7 +2,7 @@
 
 from openerp import models, fields, api
 
- class pagos(models.Model):
+class pagos(models.Model):
     _name = 'solicitudes.pagos'
 
     concepto = fields.Char(string='Concepto de pago', required=True) # !!!
