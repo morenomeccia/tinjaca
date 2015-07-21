@@ -29,7 +29,6 @@
                     <sheet>
                         <group>
                             <field name="fecha"/>
-                            <field name="funcionario"/>
                         </group>
                     </sheet>
                 </form>
@@ -93,16 +92,14 @@
                 <form string="Formulario Informe Tecnico">
                     <sheet>
                         <group>
-                            <field name="nro_expediente"/>
+                            <field name="solicitudes_id"/>
                             <field name="fecha_elaboracion"/>
                             <field name="tipo_empresa"/>
                             <field name="Saldo_Balance_Personal"/>  
                             <field name="Organizacion_Juridica"/> 
                             <field name="Recomendaciones"/> 
                             <field name="firma"/> 
-                            <field name="informe_fotografico_inspeccion"/> 
-                            <field name="codigo_credito"/> 
-                            <field name="solicitudes_id"/>
+                            <field name="informe_fotografico_inspeccion"/>
                         </group>
                     </sheet>
                 </form>
