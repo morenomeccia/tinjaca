@@ -12,7 +12,7 @@
                     <sheet>
                         <group>
                             <field name="nro_expediente"/>
-                            <!-- <field name="informe_tecnico_id"/> -->
+                            <field name="informe_tecnico_id"/>
                         </group>
                     </sheet>
                 </form>
@@ -38,7 +38,6 @@
                 </form>
             </field>
         </record>
-
 
         <!-- Creacion de la vista para mostrar las inspecciones -->
 
@@ -86,6 +85,7 @@
                             <field name="firma"/> 
                             <field name="informe_fotografico_inspeccion"/> 
                             <field name="codigo_credito"/> 
+                            <field name="solicitudes_id"/>
                         </group>
                     </sheet>
                 </form>
