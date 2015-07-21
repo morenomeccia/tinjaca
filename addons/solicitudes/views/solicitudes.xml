@@ -19,6 +19,23 @@
             </field>
         </record>
 
+        <!-- Creacion de la vista para mostrar talleres -->
+
+        <record model="ir.ui.view" id="vista_forma_talleres">
+            <field name="name">talleres.form</field>
+            <field name="model">solicitudes.talleres</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Talleres">
+                    <sheet>
+                        <group>
+                            <field name="fecha"/>
+                            <field name="funcionario"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
         <!-- Creacion de la vista para mostrar control previo -->
 
         <record model="ir.ui.view" id="vista_forma_control_previo">
@@ -104,6 +121,18 @@
             </field>
         </record>
 
+        <!-- Accion de ventana para talleres -->
+
+        <record model="ir.actions.act_window" id="accion_listar_talleres">
+            <field name="name">Talleres</field>
+            <field name="res_model">solicitudes.talleres</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear taller</p>
+            </field>
+        </record>
+
         <!-- Accion de ventana para control previo -->
 
         <record model="ir.actions.act_window" id="accion_listar_controles_previos">
@@ -150,17 +179,19 @@
         <menuitem id="menu_principal_solicitudes" name="Solicitudes"/>
         <menuitem id="menu_solicitudes" name="Solicitudes" parent="menu_principal_solicitudes"/>
         <!-- Entrada de menu para el modelo de Solicitudes -->
-        <menuitem id="menu_solicitud" name="Solicitudes" parent="menu_solicitudes" action="accion_listar_solicitudes"/>
+        <menuitem id="item_solicitudes" name="Solicitudes" parent="menu_solicitudes" action="accion_listar_solicitudes"/>
+        <!-- Entrada de menu para el modelo de Talleres -->
+        <menuitem id="item_talleres" name="Talleres" parent="menu_solicitudes" action="accion_listar_talleres"/>
         <!-- Entrada de menu para el modelo de Control Previo -->
-        <menuitem id="menu_control_previo" name="Controles Previos" parent="menu_solicitudes" action="accion_listar_controles_previos"/>
+        <menuitem id="item_control_previo" name="Controles Previos" parent="menu_solicitudes" action="accion_listar_controles_previos"/>
         <!-- Entrada de menu para el modelo de Inspecciones -->
-        <menuitem id="menu_inspecciones" name="Inspecciones" parent="menu_solicitudes" action="accion_listar_inspecciones"/>
+        <menuitem id="item_inspecciones" name="Inspecciones" parent="menu_solicitudes" action="accion_listar_inspecciones"/>
         <!-- Entrada de menu para el modelo de Informe Tecnico -->
         <!-- Full id location:
              action="solicitudes.accion_listar_inspecciones"
              It is not required when it is the same module -->
         <!-- Entrada de menu para informe tecnico -->
-        <menuitem id="menu_informe_tenico" name="Informe tecnico" parent="menu_solicitudes" action="accion_listar_informes_tecnicos"/>
+        <menuitem id="item_informe_tenico" name="Informe tecnico" parent="menu_solicitudes" action="accion_listar_informes_tecnicos"/>
 
 
     </data>
