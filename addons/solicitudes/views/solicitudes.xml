@@ -11,11 +11,26 @@
                 <form string="Formulario Solicitudes">
                     <sheet>
                         <group>
-                            <field name="nro_expediente"/>
-                            <field name="informe_tecnico_id"/>
+                            <field name="name"/>
+                            <field name="informe_tecnico_id">
+                                <tree string="Informes técnicos">
+                                    <field name="tipo_empresa"/>
+                                    <field name="fecha_elaboracion"/>
+                                </tree>
+                            </field>
                         </group>
                     </sheet>
                 </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="vista_arbol_solicitudes">
+            <field name="name">solicitudes.tree</field>
+            <field name="model">solicitudes.solicitudes</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Solicitudes">
+                    <field name="name"/>
+                </tree>
             </field>
         </record>
 
@@ -92,7 +107,11 @@
                 <form string="Formulario Informe Tecnico">
                     <sheet>
                         <group>
-                            <field name="solicitudes_id"/>
+                            <field name="solicitudes_id">
+                                <tree string="Solicitud">
+                                    <field name="name"/>
+                                </tree>
+                            </field>
                             <field name="fecha_elaboracion"/>
                             <field name="tipo_empresa"/>
                             <field name="Saldo_Balance_Personal"/>  
@@ -103,6 +122,16 @@
                         </group>
                     </sheet>
                 </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="vista_arbol_informe_tecnico">
+            <field name="name">informe_tecnico.tree</field>
+            <field name="model">solicitudes.informe_tecnico</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Informe Tecnico">
+                    <field name="solicitudes_id"/>
+                </tree>
             </field>
         </record>
 
