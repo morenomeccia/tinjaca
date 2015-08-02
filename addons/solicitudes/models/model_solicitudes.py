@@ -5,7 +5,9 @@ from openerp import models, fields, api
 class Solicitudes(models.Model):
     _name = 'solicitudes.solicitudes'
 
-    name = fields.Char(string='Numero de expediente', required=True)
+    _rec_name = 'nro_expediente'
+
+    nro_expediente = fields.Char(string='Numero de expediente', required=True)
     informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', 'solicitudes_id', string="Informe tecnico")
 
     # display_name = fields.Char(

@@ -11,7 +11,7 @@
                 <form string="Formulario Solicitudes">
                     <sheet>
                         <group>
-                            <field name="name"/>
+                            <field name="nro_expediente"/>
                             <field name="informe_tecnico_id">
                                 <tree string="Informes técnicos">
                                     <field name="tipo_empresa"/>
@@ -29,7 +29,7 @@
             <field name="model">solicitudes.solicitudes</field>
             <field name="arch" type="xml">
                 <tree string="Listado Solicitudes">
-                    <field name="name"/>
+                    <field name="nro_expediente"/>
                 </tree>
             </field>
         </record>
@@ -109,15 +109,15 @@
                         <group>
                             <field name="solicitudes_id">
                                 <tree string="Solicitud">
-                                    <field name="name"/>
+                                    <field name="nro_expediente"/>
                                 </tree>
                             </field>
+                            <field name="codigo_informe"/>
                             <field name="fecha_elaboracion"/>
                             <field name="tipo_empresa"/>
                             <field name="Saldo_Balance_Personal"/>  
                             <field name="Organizacion_Juridica"/> 
                             <field name="Recomendaciones"/> 
-                            <field name="firma"/> 
                             <field name="informe_fotografico_inspeccion"/>
                         </group>
                     </sheet>
@@ -131,6 +131,7 @@
             <field name="arch" type="xml">
                 <tree string="Listado Informe Tecnico">
                     <field name="solicitudes_id"/>
+                    <field name="codigo_informe"/>
                 </tree>
             </field>
         </record>
@@ -240,7 +241,6 @@
         <menuitem id="item_inspecciones" name="Inspecciones" parent="menu_economico" action="accion_listar_inspecciones"/>
         <!-- Entrada de menu para el modelo de Informe Tecnico -->
         <menuitem id="item_informe_tenico" name="Informe tecnico" parent="menu_economico" action="accion_listar_informes_tecnicos"/>
-		<menuitem id="item_solicitudes" name="Listar solicitudes" parent="menu_economico" action="accion_listar_solicitudes"/>
         <!-- top level menu: no parent -->
         <menuitem id="menu_principal_gerencia_credito" name="Gerencia de Credito"/>
         <!-- Submenu para Solicitudes -->
