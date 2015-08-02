@@ -219,14 +219,15 @@
 
         <!-- top level menu: no parent -->
         <menuitem id="menu_principal_talleres" name="Talleres"/>
-        <!-- Submenu para Talleres -->
-        <menuitem id="menu_talleres" name="Talleres" parent="menu_principal_talleres"/>
-        <!-- Entrada de menu para el modelo de Talleres -->
-        <menuitem id="item_talleres" name="Talleres" parent="menu_talleres" action="accion_listar_talleres"/>
         <!-- Submenu para Solicitudes -->
         <menuitem id="menu_solicitudes_talleres" name="Solicitudes" parent="menu_principal_talleres"/>
         <!-- Entrada de menu para el modelo de Solicitudes -->
         <menuitem id="item_solicitudes_talleres" name="Listar solicitudes" parent="menu_solicitudes_talleres" action="accion_listar_solicitudes"/>
+        <!-- Submenu para Talleres -->
+        <menuitem id="menu_talleres" name="Talleres" parent="menu_principal_talleres"/>
+        <!-- Entrada de menu para el modelo de Talleres -->
+        <menuitem id="item_talleres" name="Listar Talleres" parent="menu_talleres" action="accion_listar_talleres"/>
+
 
         <!-- top level menu: no parent -->
         <menuitem id="menu_principal_informacion_credito" name="Informacion de Credito"/>
@@ -237,25 +238,30 @@
 
         <!-- top level menu: no parent -->
         <menuitem id="menu_principal_analisis_juridico" name="Analisis Juridico"/>
-        <!-- Submenu para Analisis Juridico -->
-        <menuitem id="menu_solicitudes" name="Solicitudes" parent="menu_principal_analisis_juridico"/>
-        <menuitem id="menu_juridico" name="Garantias" parent="menu_principal_analisis_juridico"/>
-        <!-- Entrada de menu para el modelo de Control Previo -->
-        <menuitem id="item_control_previo" name="Controles Previos" parent="menu_juridico" action="accion_listar_controles_previos"/>
         <!-- Submenu para Solicitudes -->
         <menuitem id="menu_solicitudes_analisis_juridico" name="Solicitudes" parent="menu_principal_analisis_juridico"/>
         <!-- Entrada de menu para el modelo de Solicitudes -->
         <menuitem id="item_solicitudes_analisis_juridico" name="Listar solicitudes" parent="menu_solicitudes_analisis_juridico" action="accion_listar_solicitudes"/>
+        <!-- Submenu para Analisis Juridico -->
+        <menuitem id="menu_solicitudes" name="Solicitudes" parent="menu_principal_analisis_juridico"/>
+        <menuitem id="menu_juridico" name="Garantias" parent="menu_principal_analisis_juridico"/>
+        <!-- Entrada de menu para el modelo de Control Previo -->
+        <menuitem id="item_control_previo" name="Listar Controles Previos" parent="menu_juridico" action="accion_listar_controles_previos"/>
 
 
         <!-- top level menu: no parent -->
         <menuitem id="menu_principal_analisis_economico" name="Analisis Economico"/>
+        <!-- Submenu para Solicitudes -->
+        <menuitem id="menu_solicitudes_analisis_economico" name="Solicitudes" parent="menu_principal_analisis_economico"/>
+        <!-- Entrada de menu para el modelo de Solicitudes -->
+        <menuitem id="item_solicitudes_analisis_economico" name="Listar solicitudes" parent="menu_solicitudes_analisis_economico" action="accion_listar_solicitudes"/>
         <!-- Submenu para Analisis Economico -->
         <menuitem id="menu_economico" name="Inspecciones" parent="menu_principal_analisis_economico"/>
         <!-- Entrada de menu para el modelo de Inspecciones -->
-        <menuitem id="item_inspecciones" name="Inspecciones" parent="menu_economico" action="accion_listar_inspecciones"/>
+        <menuitem id="item_inspecciones" name="Listar Inspecciones" parent="menu_economico" action="accion_listar_inspecciones"/>
         <!-- Entrada de menu para el modelo de Informe Tecnico -->
-        <menuitem id="item_informe_tenico" name="Informe tecnico" parent="menu_economico" action="accion_listar_informes_tecnicos"/>
+        <menuitem id="item_informe_tenico" name="Listar Informes tecnicos" parent="menu_economico" action="accion_listar_informes_tecnicos"/>
+
         <!-- top level menu: no parent -->
         <menuitem id="menu_principal_gerencia_credito" name="Gerencia de Credito"/>
         <!-- Submenu para Solicitudes -->
