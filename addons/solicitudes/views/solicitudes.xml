@@ -9,6 +9,21 @@
             <field name="model">solicitudes.solicitudes</field>
             <field name="arch" type="xml">
                 <form string="Formulario Solicitudes">
+                    <header>
+                        <button name="action_informacion_credito" type="object"
+                                string="Enviar a Informacion de Credito" states="1"
+                                class="oe_highlight"/>
+                        <button name="action_analisis_juridico" type="object"
+                                string="Enviar a Analisis Juridico" states="2"
+                                class="oe_highlight"/>
+                        <button name="action_analisis_economico" type="object"
+                                string="Enviar a Analisis Economico" states="3"
+                                class="oe_highlight"/>
+                        <button name="action_gerencia_credito" type="object"
+                                string="Enviar a Gerencia de Credito" states="4"
+                                class="oe_highlight"/>
+                        <field name="state" widget="statusbar"/>
+                    </header>
                     <sheet>
                         <group>
                             <field name="nro_expediente"/>

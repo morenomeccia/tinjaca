@@ -1,0 +1,62 @@
+<openerp>
+    <data>
+        <record model="workflow" id="wkf_solicitudes">
+            <field name="name">Solicitudes solicitudes workflow</field>
+            <field name="osv">solicitudes.solicitudes</field>
+            <field name="on_create">True</field>
+        </record>
+
+        <record model="workflow.activity" id="1">
+            <field name="name">Taller</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="flow_start" eval="True"/>
+            <field name="kind">function</field>
+            <field name="action">action_taller()</field>
+        </record>
+        <record model="workflow.activity" id="action_informacion_credito">
+            <field name="name">Informacion de Credito</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_informacion_credito()</field>
+        </record>
+        <record model="workflow.activity" id="3">
+            <field name="name">Analisis Juridico</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_analisis_juridico()</field>
+        </record>
+        <record model="workflow.activity" id="4">
+            <field name="name">Analisis Economico</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_analisis_economico()</field>
+        </record>
+        <record model="workflow.activity" id="5">
+            <field name="name">Gerencia de Credito</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_gerencia_credito()</field>
+        </record>
+
+        <record model="workflow.transition" id="solicitud_taller_a_informacion_de_credito">
+            <field name="act_from" ref="taller"/>
+            <field name="act_to" ref="informacion_credito"/>
+            <field name="signal">confirm</field>
+        </record>
+        <record model="workflow.transition" id="solicitud_informacion_de_credito_a_analisis_juridico">
+            <field name="act_from" ref="informacion_credito"/>
+            <field name="act_to" ref="analisis_juridico"/>
+            <field name="signal">draft</field>
+        </record>
+        <record model="workflow.transition" id="solicitud_analisis_juridico_a_analisis_economico">
+            <field name="act_from" ref="analisis_juridico"/>
+            <field name="act_to" ref="analisis_economico"/>
+            <field name="signal">draft</field>
+        </record>
+        <record model="workflow.transition" id="solicitud_analisis_economico_a_gerencia_de_credito">
+            <field name="act_from" ref="analisis_economico"/>
+            <field name="act_to" ref="gerencia_credito"/>
+            <field name="signal">done</field>
+        </record>
+    </data>
+</openerp>
