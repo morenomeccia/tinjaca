@@ -2,7 +2,7 @@
 
 from openerp import models, fields, api
 
- class credito(models.Model):
+class credito(models.Model):
     _name = 'solicitudes.credito'
 
     nro_expediente = fields.Char(string='Numero de expedientes', required=True) # !!!

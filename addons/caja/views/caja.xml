@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+
+        <!-- Creacion de la vista para mostrar pagos -->
+
+        <record model="ir.ui.view" id="vista_forma_pagos">
+            <field name="name">pagos.form</field>
+            <field name="model">administracion.pagos</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Pagos">
+                    <sheet>
+                        <group>
+                            <field name="concepto"/>
+                            <field name="total"/>
+                            <field name="interes_capital"/>
+                            <field name="interes_mora"/>
+                            <field name="codigo_credito"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+        <!-- Accion de ventana para pagos -->
+
+        <record model="ir.actions.act_window" id="accion_listar_pagos">
+            <field name="name">Pagos</field>
+            <field name="res_model">administracion.pagos</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear pagos</p>
+            </field>
+        </record>
+
+        <!-- top level menu: no parent -->
+        <menuitem id="menu_principal_administracion" name="Administracion"/>
+        <menuitem id="menu_administracion" name="Administracion" parent="menu_principal_administracion"/>
+        <!-- Entrada de menu para el modelo de Estados de cuenta -->
+        <menuitem id="menu_pagos" name="Pagos" parent="menu_administracion" action="accion_listar_pagos"/>
+
+
+
+    </data>
+</openerp>

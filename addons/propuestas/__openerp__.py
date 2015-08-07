@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "solicitudes",
+    'name': "propuestas",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
@@ -26,11 +26,9 @@
     'data': [
         # 'security/ir.model.access.csv',
         'templates.xml',
-        'views/solicitudes.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo.xml',
-        'views/solicitudes_workflow.xml',
     ],
 }
