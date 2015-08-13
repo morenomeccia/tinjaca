@@ -4,7 +4,7 @@
 
         <!-- Creacion de la vista para mostrar solicitudes -->
 
-        <record model="ir.ui.view" id="vista_forma_solicitudes">
+        <record model="ir.ui.view" id="vista_formulario_solicitudes">
             <field name="name">solicitudes.form</field>
             <field name="model">solicitudes.solicitudes</field>
             <field name="arch" type="xml">
@@ -51,7 +51,7 @@
 
         <!-- Creacion de la vista para mostrar talleres -->
 
-        <record model="ir.ui.view" id="vista_forma_talleres">
+        <record model="ir.ui.view" id="vista_formulario_talleres">
             <field name="name">talleres.form</field>
             <field name="model">solicitudes.talleres</field>
             <field name="arch" type="xml">
@@ -67,7 +67,7 @@
 
         <!-- Creacion de la vista para mostrar control previo -->
 
-        <record model="ir.ui.view" id="vista_forma_control_previo">
+        <record model="ir.ui.view" id="vista_formulario_control_previo">
             <field name="name">control_previo.form</field>
             <field name="model">solicitudes.control_previo</field>
             <field name="arch" type="xml">
@@ -87,7 +87,7 @@
 
         <!-- Creacion de la vista para mostrar las inspecciones -->
 
-        <record model="ir.ui.view" id="vista_forma_inspeccciones">
+        <record model="ir.ui.view" id="vista_formulario_inspeccciones">
             <field name="name">inspecciones.form</field>
             <field name="model">solicitudes.inspecciones</field>
             <field name="arch" type="xml">
@@ -115,7 +115,7 @@
 
         <!-- Creacion de la vista para mostrar el informe tecnico -->
 
-        <record model="ir.ui.view" id="vista_forma_informe_tecnico">
+        <record model="ir.ui.view" id="vista_formulario_informe_tecnico">
             <field name="name">informe_tecnico.form</field>
             <field name="model">solicitudes.informe_tecnico</field>
             <field name="arch" type="xml">
@@ -265,9 +265,9 @@
         <!-- top level menu: no parent -->
         <menuitem id="menu_principal_gerencia_credito" name="Gerencia de Credito"/>
         <!-- Submenu para Solicitudes -->
-        <menuitem id="menu_solicitudes_analisis_economico" name="Solicitudes" parent="menu_principal_analisis_economico"/>
+        <menuitem id="menu_solicitudes_gerencia_credito" name="Solicitudes" parent="menu_principal_gerencia_credito"/>
         <!-- Entrada de menu para el modelo de Solicitudes -->
-        <menuitem id="item_solicitudes_analisis_economico" name="Listar solicitudes" parent="menu_solicitudes_analisis_economico" action="accion_listar_solicitudes"/>
+        <menuitem id="item_solicitudes_gerencia_credito" name="Listar solicitudes" parent="menu_solicitudes_gerencia_credito" action="accion_listar_solicitudes"/>
 
 
         <!-- Full id location:
