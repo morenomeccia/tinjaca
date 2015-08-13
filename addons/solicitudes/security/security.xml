@@ -12,5 +12,47 @@
         <record id="gerente_credito" model="res.groups">
             <field name="name">Crédito / Gerente de Crédito</field>
         </record>
+
+        <!-- Restricciones de datos -->
+        <record id="estacion_analisis_credito" model="ir.rule">
+            <field name="name">Solicitudes Analisis Juridico</field>
+            <field name="model_id" ref="model_solicitudes_solicitudes"/>
+            <field name="groups" eval="[(4, ref('solicitudes.analista_credito'))]"/>
+            <field name="perm_read" eval="1"/>
+            <field name="perm_write" eval="1"/>
+            <field name="perm_create" eval="0"/>
+            <field name="perm_unlink" eval="0" />
+            <field name="domain_force">[('state','=','2')]</field>
+        </record>
+        <record id="estacion_analisis_juridico" model="ir.rule">
+            <field name="name">Solicitudes Analisis Juridico</field>
+            <field name="model_id" ref="model_solicitudes_solicitudes"/>
+            <field name="groups" eval="[(4, ref('solicitudes.analista_juridico'))]"/>
+            <field name="perm_read" eval="1"/>
+            <field name="perm_write" eval="1"/>
+            <field name="perm_create" eval="0"/>
+            <field name="perm_unlink" eval="0" />
+            <field name="domain_force">[('state','=','3')]</field>
+        </record>
+        <record id="estacion_analisis_economico" model="ir.rule">
+            <field name="name">Solicitudes Analisis Econoico</field>
+            <field name="model_id" ref="model_solicitudes_solicitudes"/>
+            <field name="groups" eval="[(4, ref('solicitudes.analista_economico'))]"/>
+            <field name="perm_read" eval="1"/>
+            <field name="perm_write" eval="1"/>
+            <field name="perm_create" eval="0"/>
+            <field name="perm_unlink" eval="0" />
+            <field name="domain_force">[('state','=','4')]</field>
+        </record>
+        <record id="estacion_gerente_credito" model="ir.rule">
+            <field name="name">Solicitudes Gerente Credito</field>
+            <field name="model_id" ref="model_solicitudes_solicitudes"/>
+            <field name="groups" eval="[(4, ref('solicitudes.gerente_credito'))]"/>
+            <field name="perm_read" eval="1"/>
+            <field name="perm_write" eval="1"/>
+            <field name="perm_create" eval="0"/>
+            <field name="perm_unlink" eval="0" />
+            <field name="domain_force">[('state','=','5')]</field>
+        </record>
     </data>
 </openerp>
