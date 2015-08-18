@@ -24,13 +24,14 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/security.xml',
+        'security/ir.model.access.csv',
         'templates.xml',
         'views/solicitudes.xml',
+        'views/solicitudes_workflow.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo.xml',
-        'views/solicitudes_workflow.xml',
     ],
 }
