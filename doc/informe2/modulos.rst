@@ -115,7 +115,7 @@ Procedimientos de ingreso de datos
         * - Envío del expediente a la estación de Análisis Jurídico
           - Analista de crédito
           - Estación del expediente
-        * - Registro de la validez legal de la garantía
+        * - Registro de la información para informe de control previo
           - Analista Jurídico
           - Validez legal de garantía
         * - Asignación del estatus de “CUMPLE”, “NO CUMPLE” o “CUMPLE CONDICIONADO” para las garantías
@@ -153,9 +153,6 @@ Procedimientos de ingreso de datos
         * - Enviar el expediente al Gerente de Crédito
           - Analista Económico
           - Estación del expediente
-        * - Inclusión del expediente en la lista para consideración del Consejo Directivo
-          - Gerente de crédito
-          - Código de lista para aprobación
         * - Asignación de las tasas de interés por sector, rubro o garantía
           - Gerente de crédito
           - Tasas de interés
@@ -171,9 +168,10 @@ Procedimientos de ingreso de datos
         * - Consulta de expedientes rechazados
           - Gerente de crédito
           - lista de expedientes rechazados
-        * - Edición de datos personales del beneficiario
+        * - Edición de datos personales del solicitante
           - Analista económico, analista de crédito
-          - Datos personales del beneficiario
+          - Datos personales del solicitante
+
 
 .. index:: !Reportes Solicitudes
 
@@ -187,12 +185,12 @@ Procedimiento de generación de reportes
         * - | Procedimiento
           - | Responsable
           - | Reporte de salida
-        * - Consultar propuestas de financiamiento viables
-          - Analista de crédito
-          - Información de propuesta de financiamiento
-        * - Generar informes POA
-          - Analista de crédito
-          - Informe POA
+        * - Listar solicitudes que se encuentren en la estacion
+          - Analista de crédito, Analista Juridico, Analista Economico, Gerente de credito
+          - Lista de solicitudes.
+        * - Consultar solicitudes que se encuentren en la estacion
+          - Analista de crédito, Analista Juridico, Analista Economico, Gerente de credito
+          - Información de solicitud
         * - Generación del informe de control previo
           - Analista Jurídico
           - Informe control previo
@@ -208,9 +206,6 @@ Procedimiento de generación de reportes
         * - Generación del informe técnico
           - Analista Económico
           - Informe técnico
-        * - Generación de la lista para consideración del Consejo Directivo
-          - Gerente de crédito
-          - Lista para consideración del Consejo Directivo
         * - Generación de una lista de rezagados en caso de que se termine el presupuesto pautado
           - Gerente de crédito
           - Lista de potenciales beneficiarios
@@ -220,6 +215,9 @@ Procedimiento de generación de reportes
         * - Distribución de los analistas económicos por municipios y parroquias para realizar las inspecciones
           - Gerente de crédito
           - Lista de distribución de los analistas económicos.
+        * - Generar informes POA
+          - Gerente de crédito
+          - Informe POA
 
 .. index:: !Módulo Aprobación, Secretaría Ejecutiva, Presupuestos, Liquidaciones, Acompañamiento, Recuperaciones
 
@@ -243,6 +241,9 @@ Procedimientos de ingreso de datos
         * - | Procedimiento
           - | Responsable
           - | Datos accedidos o modificados
+        * - Inclusión del expediente en la lista para consideración del Consejo Directivo
+          - Gerente de crédito
+          - Código de lista para aprobación
         * - Ingreso de datos del documento de crédito
           - Secretaría Ejecutiva
           - Datos del documento de crédito          
@@ -310,6 +311,9 @@ Procedimientos de generación de reportes
         * - Creación del documento de crédito para ser notariado por el beneficiario
           - Secretaria ejecutiva
           - Registro de entrega del documento a al beneficiario
+        * - Generación de la lista para consideración del Consejo Directivo
+          - Gerente de crédito
+          - Lista para consideración del Consejo Directivo
 
 .. index:: !Módulo Administración, Liquidaciones, Pagos, Recuperaciones
 
@@ -664,7 +668,7 @@ Procedimiento de generación de reportes
 
 .. index:: !Módulo Consultoría Jurídica, Créditos, Liberaciones
 
-Módulo Consultaría Jurídica
+Módulo Consultoría Jurídica
 ===========================
 
 Descripción
