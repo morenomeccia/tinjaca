@@ -2,7 +2,7 @@
 Requerimientos de TINJACA
 *************************
 
-Desde el punto de vista del despliegue de la aplicación se trata de una aplicación cliente
+Desde el punto de vista del despliegue de TINJACA, se trata de una aplicación cliente
 servidor. El sistema Tinjaca deber ser puesto en producción considerando:
 
 # Un servidor proxy que maneje las conexiones SSL entrantes para contar con conexiones HTTPS
@@ -19,3 +19,4 @@ sobre los servidores HTTP.
 ejemplo, una base de datos del propio sistema y otra para un sitio web creado con el Gestor de
 Contenidos de Odoo, ambas aplicaciones estarían perfectamente integradas. También permite contar
 con  una base de datos de pruebas/desarrollo distinta de la base de datos de producción.
+
