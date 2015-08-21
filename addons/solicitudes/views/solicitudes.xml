@@ -31,8 +31,14 @@
                                 </tree>
                             </field>
                             <field name="requisitos_generales_id">
-                                <tree string="Informes técnicos">
-                                    <field name="tipo_requisito"/>
+                                <tree string="Requisitos Generales">
+                                    <field name="tipo_documento"/>
+                                    <field name="valido"/>
+                                </tree>
+                            </field>
+                            <field name="requisitos_sector_id">
+                                <tree string="Requisitos sector">
+                                    <field name="documentos_sector_id"/>
                                     <field name="valido"/>
                                 </tree>
                             </field>

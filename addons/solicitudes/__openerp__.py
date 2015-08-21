@@ -29,6 +29,7 @@
         'templates.xml',
         'views/solicitudes.xml',
         'views/solicitudes_workflow.xml',
+        'data/data_documentos_sector.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
