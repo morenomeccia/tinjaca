@@ -13,6 +13,10 @@ class Solicitudes(models.Model):
                                                            ('3', 'Analisis economico'),
                                                            ('4', 'Gerencia de credito')], default='1')
 
+
+    requisitos_generales_id = fields.One2many('solicitudes.requisitos_generales', 'solicitudes_id', string="Requisitos generales")
+    informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', 'solicitudes_id', string="Informe tecnico")
+
     @api.one
     def action_informacion_credito(self):
         self.state = '1'
@@ -28,9 +32,6 @@ class Solicitudes(models.Model):
     @api.one
     def action_gerencia_credito(self):
         self.state = '4'
-
-    informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', 'solicitudes_id', string="Informe tecnico")
-
 
     # display_name = fields.Char(
     #     string='Número de expediente', compute='_compute_display_name',

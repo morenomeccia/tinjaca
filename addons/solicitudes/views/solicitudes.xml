@@ -10,17 +10,14 @@
             <field name="arch" type="xml">
                 <form string="Formulario Solicitudes">
                     <header>
-                        <button name="button_informacion_credito" type="workflow"
-                                string="Enviar a Informacion de Credito" states="1"
-                                class="oe_highlight"/>
                         <button name="button_analisis_juridico" type="workflow"
-                                string="Enviar a Analisis Juridico" states="2"
+                                string="Enviar a Analisis Juridico" states="1"
                                 class="oe_highlight"/>
                         <button name="button_analisis_economico" type="workflow"
-                                string="Enviar a Analisis Economico" states="3"
+                                string="Enviar a Analisis Economico" states="2"
                                 class="oe_highlight"/>
                         <button name="button_gerencia_credito" type="workflow"
-                                string="Enviar a Gerencia de Credito" states="4"
+                                string="Enviar a Gerencia de Credito" states="3"
                                 class="oe_highlight"/>
                         <field name="state" widget="statusbar"/>
                     </header>
@@ -31,6 +28,12 @@
                                 <tree string="Informes técnicos">
                                     <field name="tipo_empresa"/>
                                     <field name="fecha_elaboracion"/>
+                                </tree>
+                            </field>
+                            <field name="requisitos_generales_id">
+                                <tree string="Informes técnicos">
+                                    <field name="tipo_requisito"/>
+                                    <field name="valido"/>
                                 </tree>
                             </field>
                         </group>
