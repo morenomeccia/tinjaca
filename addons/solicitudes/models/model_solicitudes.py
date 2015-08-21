@@ -8,31 +8,31 @@ class Solicitudes(models.Model):
     _rec_name = 'nro_expediente'
 
     nro_expediente = fields.Char(string='Numero de expediente', required=True)
-    state = fields.Selection(string='Estacion', selection=[('1', 'Taller'), ('2', 'Informacion de credito'), ('3', 'Analisis juridico'), ('4', 'Analisis economico'), ('5', 'Gerencia de credito')], default='1')
+    state = fields.Selection(string='Estacion', selection=[('1', 'Informacion de credito'),
+                                                           ('2', 'Analisis juridico'),
+                                                           ('3', 'Analisis economico'),
+                                                           ('4', 'Gerencia de credito')], default='1')
 
 
-    @api.one
-    def action_taller(self):
-        self.state = '1'
+    requisitos_generales_id = fields.One2many('solicitudes.requisitos_generales', 'solicitudes_id', string="Requisitos generales")
+    requisitos_sector_id = fields.One2many('solicitudes.requisitos_sector', 'solicitudes_id', string="Requisitos sector")
+    informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', 'solicitudes_id', string="Informe tecnico")
 
     @api.one
     def action_informacion_credito(self):
-        self.state = '2'
+        self.state = '1'
 
     @api.one
     def action_analisis_juridico(self):
-        self.state = '3'
+        self.state = '2'
 
     @api.one
     def action_analisis_economico(self):
-        self.state = '4'
+        self.state = '3'
 
     @api.one
     def action_gerencia_credito(self):
-        self.state = '5'
-
-    informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', 'solicitudes_id', string="Informe tecnico")
-
+        self.state = '4'
 
     # display_name = fields.Char(
     #     string='Número de expediente', compute='_compute_display_name',

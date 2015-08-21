@@ -10,17 +10,14 @@
             <field name="arch" type="xml">
                 <form string="Formulario Solicitudes">
                     <header>
-                        <button name="button_informacion_credito" type="workflow"
-                                string="Enviar a Informacion de Credito" states="1"
-                                class="oe_highlight"/>
                         <button name="button_analisis_juridico" type="workflow"
-                                string="Enviar a Analisis Juridico" states="2"
+                                string="Enviar a Analisis Juridico" states="1"
                                 class="oe_highlight"/>
                         <button name="button_analisis_economico" type="workflow"
-                                string="Enviar a Analisis Economico" states="3"
+                                string="Enviar a Analisis Economico" states="2"
                                 class="oe_highlight"/>
                         <button name="button_gerencia_credito" type="workflow"
-                                string="Enviar a Gerencia de Credito" states="4"
+                                string="Enviar a Gerencia de Credito" states="3"
                                 class="oe_highlight"/>
                         <field name="state" widget="statusbar"/>
                     </header>
@@ -31,6 +28,18 @@
                                 <tree string="Informes técnicos">
                                     <field name="tipo_empresa"/>
                                     <field name="fecha_elaboracion"/>
+                                </tree>
+                            </field>
+                            <field name="requisitos_generales_id">
+                                <tree string="Requisitos Generales">
+                                    <field name="tipo_documento"/>
+                                    <field name="valido"/>
+                                </tree>
+                            </field>
+                            <field name="requisitos_sector_id">
+                                <tree string="Requisitos sector">
+                                    <field name="documentos_sector_id"/>
+                                    <field name="valido"/>
                                 </tree>
                             </field>
                         </group>
@@ -46,22 +55,6 @@
                 <tree string="Listado Solicitudes">
                     <field name="nro_expediente"/>
                 </tree>
-            </field>
-        </record>
-
-        <!-- Creacion de la vista para mostrar talleres -->
-
-        <record model="ir.ui.view" id="vista_formulario_talleres">
-            <field name="name">talleres.form</field>
-            <field name="model">solicitudes.talleres</field>
-            <field name="arch" type="xml">
-                <form string="Formulario Talleres">
-                    <sheet>
-                        <group>
-                            <field name="fecha"/>
-                        </group>
-                    </sheet>
-                </form>
             </field>
         </record>
 
@@ -163,18 +156,6 @@
             </field>
         </record>
 
-        <!-- Accion de ventana para talleres -->
-
-        <record model="ir.actions.act_window" id="accion_listar_talleres">
-            <field name="name">Talleres</field>
-            <field name="res_model">solicitudes.talleres</field>
-            <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
-            <field name="help" type="html">
-                <p class="oe_view_nocontent_create">Crear taller</p>
-            </field>
-        </record>
-
         <!-- Accion de ventana para control previo -->
 
         <record model="ir.actions.act_window" id="accion_listar_controles_previos">
@@ -210,24 +191,6 @@
                 <p class="oe_view_nocontent_create">Crear informe tecnico</p>
             </field>
         </record>
-
-        <!--
-            Creacion del menu lateral:
-            Se crean las entradas del menu para inspecciones e informe tecnico 
-            y se enlazan estas entradas con su accion de ventana respectivas
-        -->
-
-        <!-- top level menu: no parent -->
-        <menuitem id="menu_principal_talleres" name="Talleres"/>
-        <!-- Submenu para Solicitudes -->
-        <menuitem id="menu_solicitudes_talleres" name="Solicitudes" parent="menu_principal_talleres"/>
-        <!-- Entrada de menu para el modelo de Solicitudes -->
-        <menuitem id="item_solicitudes_talleres" name="Listar solicitudes" parent="menu_solicitudes_talleres" action="accion_listar_solicitudes"/>
-        <!-- Submenu para Talleres -->
-        <menuitem id="menu_talleres" name="Talleres" parent="menu_principal_talleres"/>
-        <!-- Entrada de menu para el modelo de Talleres -->
-        <menuitem id="item_talleres" name="Listar Talleres" parent="menu_talleres" action="accion_listar_talleres"/>
-
 
         <!-- top level menu: no parent -->
         <menuitem id="menu_principal_informacion_credito" name="Informacion de Credito"/>

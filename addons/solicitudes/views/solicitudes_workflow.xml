@@ -6,13 +6,6 @@
             <field name="on_create">True</field>
         </record>
 
-        <record model="workflow.activity" id="act_taller">
-            <field name="name">Taller</field>
-            <field name="wkf_id" ref="wkf_solicitudes"/>
-            <field name="flow_start" eval="True"/>
-            <field name="kind">function</field>
-            <field name="action">action_taller()</field>
-        </record>
         <record model="workflow.activity" id="act_informacion_credito">
             <field name="name">Informacion de Credito</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
@@ -38,11 +31,6 @@
             <field name="action">action_gerencia_credito()</field>
         </record>
 
-        <record model="workflow.transition" id="trans_solicitud_taller_a_informacion_de_credito">
-            <field name="act_from" ref="act_taller"/>
-            <field name="act_to" ref="act_informacion_credito"/>
-            <field name="signal">button_informacion_credito</field>
-        </record>
         <record model="workflow.transition" id="trans_solicitud_informacion_de_credito_a_analisis_juridico">
             <field name="act_from" ref="act_informacion_credito"/>
             <field name="act_to" ref="act_analisis_juridico"/>

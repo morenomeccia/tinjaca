@@ -1,0 +1,66 @@
+<openerp>
+    <data>
+        <record id="object0" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Plan de produccion</field>
+            <field name="sector">A</field>
+        </record>
+        <record id="object1" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Cronograma de cultivo</field>
+            <field name="sector">A</field>
+        </record>
+        <record id="object2" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Titulo de adjudicacion</field>
+            <field name="sector">A</field>
+        </record>
+        <record id="object3" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Declaratoria de permanencia</field>
+            <field name="sector">A</field>
+        </record>
+        <record id="object4" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Carta agraria</field>
+            <field name="sector">A</field>
+        </record>
+        <record id="object5" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Carta aval IMDERURAL</field>
+            <field name="sector">A</field>
+        </record>
+
+        <record id="object6" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Certificado de vacunacion</field>
+            <field name="sector">A</field>
+        </record>
+        <record id="object7" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Constancia de no poseer animales INSAI</field>
+            <field name="sector">A</field>
+        </record>
+        <record id="object8" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Registro de hierro</field>
+            <field name="sector">A</field>
+        </record>
+        <record id="object9" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Constancia de productor</field>
+            <field name="sector">A</field>
+        </record>
+        <record id="object10" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Proforma materiales</field>
+            <field name="sector">A</field>
+        </record>
+        <record id="object11" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Proforma Insumos</field>
+            <field name="sector">A</field>
+        </record>
+        <record id="object12" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Proforma maquinariasL</field>
+            <field name="sector">A</field>
+        </record>
+        <record id="object13" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Proforma equipos</field>
+            <field name="sector">A</field>
+        </record>
+        <record id="object14" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Proforma animales</field>
+            <field name="sector">A</field>
+        </record>
+
+    </data>
+</openerp>
