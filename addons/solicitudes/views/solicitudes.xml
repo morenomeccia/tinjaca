@@ -49,22 +49,6 @@
             </field>
         </record>
 
-        <!-- Creacion de la vista para mostrar talleres -->
-
-        <record model="ir.ui.view" id="vista_formulario_talleres">
-            <field name="name">talleres.form</field>
-            <field name="model">solicitudes.talleres</field>
-            <field name="arch" type="xml">
-                <form string="Formulario Talleres">
-                    <sheet>
-                        <group>
-                            <field name="fecha"/>
-                        </group>
-                    </sheet>
-                </form>
-            </field>
-        </record>
-
         <!-- Creacion de la vista para mostrar control previo -->
 
         <record model="ir.ui.view" id="vista_formulario_control_previo">
@@ -163,18 +147,6 @@
             </field>
         </record>
 
-        <!-- Accion de ventana para talleres -->
-
-        <record model="ir.actions.act_window" id="accion_listar_talleres">
-            <field name="name">Talleres</field>
-            <field name="res_model">solicitudes.talleres</field>
-            <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
-            <field name="help" type="html">
-                <p class="oe_view_nocontent_create">Crear taller</p>
-            </field>
-        </record>
-
         <!-- Accion de ventana para control previo -->
 
         <record model="ir.actions.act_window" id="accion_listar_controles_previos">
@@ -210,24 +182,6 @@
                 <p class="oe_view_nocontent_create">Crear informe tecnico</p>
             </field>
         </record>
-
-        <!--
-            Creacion del menu lateral:
-            Se crean las entradas del menu para inspecciones e informe tecnico 
-            y se enlazan estas entradas con su accion de ventana respectivas
-        -->
-
-        <!-- top level menu: no parent -->
-        <menuitem id="menu_principal_talleres" name="Talleres"/>
-        <!-- Submenu para Solicitudes -->
-        <menuitem id="menu_solicitudes_talleres" name="Solicitudes" parent="menu_principal_talleres"/>
-        <!-- Entrada de menu para el modelo de Solicitudes -->
-        <menuitem id="item_solicitudes_talleres" name="Listar solicitudes" parent="menu_solicitudes_talleres" action="accion_listar_solicitudes"/>
-        <!-- Submenu para Talleres -->
-        <menuitem id="menu_talleres" name="Talleres" parent="menu_principal_talleres"/>
-        <!-- Entrada de menu para el modelo de Talleres -->
-        <menuitem id="item_talleres" name="Listar Talleres" parent="menu_talleres" action="accion_listar_talleres"/>
-
 
         <!-- top level menu: no parent -->
         <menuitem id="menu_principal_informacion_credito" name="Informacion de Credito"/>
