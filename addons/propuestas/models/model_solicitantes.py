@@ -1,9 +1,10 @@
--*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 from openerp import models, fields, api
 
 class Solicitantes(models.Model):
     _name = 'propuestas.solicitantes'
+    _inherit = 'res.users'
 
     propuesta_id = fields.One2many('propuestas.propuestas', string="Propuesta")
     codigo_solicitud = fields.Char(string='Codigo de la Solicitud', required=True)
@@ -21,4 +22,8 @@ class Solicitantes(models.Model):
     telefono_fijo = fields.Integer(string='Telefono Fijo', required=True)
     telefono_celular = fields.Integer(string='Telefono Celular', required=True)
     correo_electronico = fields.Char(string='Correo Electronico', required=True)
+
+    @api.model
+    def create(self, values):
+        return super(Solicitantes, self).create(values)
 
