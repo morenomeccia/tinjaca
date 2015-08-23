@@ -2,6 +2,7 @@
 
 from openerp import models, fields, api
 
+
 class Solicitantes(models.Model):
     _name = 'propuestas.solicitantes'
     _inherit = 'res.users'

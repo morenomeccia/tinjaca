@@ -2,6 +2,7 @@
 
 from openerp import models, fields, api
 
+
 class ReferenciasSolicitantes(models.Model):
     _name = 'propuestas.referencias_solicitantes'
 

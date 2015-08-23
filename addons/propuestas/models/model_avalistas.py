@@ -2,6 +2,7 @@
 
 from openerp import models, fields, api
 
+
 class Avalistas(models.Model):
     _name = 'propuestas.avalistas'
 

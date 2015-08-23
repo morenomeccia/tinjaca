@@ -2,6 +2,7 @@
 
 from openerp import models, fields, api
 
+
 class Garantia(models.Model):
     _name = 'propuestas.garantia'
 
