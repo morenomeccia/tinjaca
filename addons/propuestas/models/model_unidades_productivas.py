@@ -2,6 +2,7 @@
 
 from openerp import models, fields, api
 
+
 class UnidadProductiva(models.Model):
     _name = 'propuestas.unidad_productiva'
     _inherit = 'res.company'
