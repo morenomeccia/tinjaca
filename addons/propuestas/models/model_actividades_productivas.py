@@ -2,6 +2,7 @@
 
 from openerp import models, fields, api
 
+
 class ActividadProductiva(models.Model):
     _name = 'propuestas.actividad_productiva'
 
