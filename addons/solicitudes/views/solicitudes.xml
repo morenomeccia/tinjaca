@@ -24,6 +24,7 @@
                     <sheet>
                         <group>
                             <field name="nro_expediente"/>
+                            <field name="sector"/>
                             <field name="informe_tecnico_id">
                                 <tree string="Informes técnicos">
                                     <field name="tipo_empresa"/>
@@ -55,6 +56,47 @@
                 <tree string="Listado Solicitudes">
                     <field name="nro_expediente"/>
                 </tree>
+            </field>
+        </record>
+
+        <!-- Creacion de la vista para mostrar requisitos generales -->
+
+        <record model="ir.ui.view" id="vista_formulario_requisitos_generales">
+            <field name="name">requisitos_generales.form</field>
+            <field name="model">solicitudes.requisitos_generales</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Requisitos Generales">
+                    <sheet>
+                        <group>
+                            <field name="solicitudes_id"/>
+                            <field name="tipo_documento"/>
+                            <field name="documento"/>
+                            <field name="observaciones"/>
+                            <field name="valido"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Creacion de la vista para mostrar requisitos sector -->
+
+        <record model="ir.ui.view" id="vista_formulario_requisitos_sector">
+            <field name="name">requisitos_sector.form</field>
+            <field name="model">solicitudes.requisitos_sector</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Requisitos Sector">
+                    <sheet>
+                        <group>
+                            <field name="solicitudes_id"/>
+                            <field name="documentos_sector_id"/>
+                            <!-- <field name="documentos_sector_id" domain="[('sector','ilike','solicitudes_id.sector')]"/> -->
+                            <field name="documento"/>
+                            <field name="observaciones"/>
+                            <field name="valido"/>
+                        </group>
+                    </sheet>
+                </form>
             </field>
         </record>
 

@@ -8,6 +8,13 @@ class Solicitudes(models.Model):
     _rec_name = 'nro_expediente'
 
     nro_expediente = fields.Char(string='Numero de expediente', required=True)
+    sector = fields.Selection(string='Sector', selection=[('agricola', 'A - Agricola'),
+                                                           ('turismo', 'T - Turismo'),
+                                                           ('artesanal', 'AR - Artesanal'),
+                                                           ('cyt', 'CyT - Ciencia y Tecnologia'),
+                                                           ('pyme', 'PyME - Pequena y Mediana Empresa'),
+                                                           ('pymi', 'PyMI - Pequena y Mediana Industria'),
+                                                           ('microempresa', 'MEMP - Microempresa')])
     state = fields.Selection(string='Estacion', selection=[('1', 'Informacion de credito'),
                                                            ('2', 'Analisis juridico'),
                                                            ('3', 'Analisis economico'),
