@@ -1,6 +1,7 @@
--*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 from openerp import models, fields, api
+
 
 class ReferenciasSolicitantes(models.Model):
     _name = 'propuestas.referencias_solicitantes'

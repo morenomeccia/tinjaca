@@ -1,11 +1,13 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 from openerp import models, fields, api
 
+
 class UnidadProductiva(models.Model):
     _name = 'propuestas.unidad_productiva'
+    _inherit = 'res.company'
 
-    codigo_up = fields.Char(string='Codigo de la Solicitud', required=True)
+    codigo_up = fields.Char(string='Código de la Solicitud', required=True)
     nombre_up = fields.Char(string='Nombres del Solicitante', required=True)
     direccion_up = fields.Char(string='Apellidos del Solicitante', required=True)
     telefono_fijo = fields.Integer(string='Telefono fijo', required=True)
@@ -17,3 +19,7 @@ class UnidadProductiva(models.Model):
     area_m2 = fields.Integer(string='Area en metros cuadrados', required=True)
     zona_geografica = fields.Char(string='Zona Geografica', required=True)
     servicios = fields.Char(string='Servicios', required=True)
+
+    @api.model
+    def create(self, values):
+        return super(UnidadProductiva, self).create(values)

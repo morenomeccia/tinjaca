@@ -2,6 +2,7 @@
 
 from openerp import models, fields, api
 
+
 class Planes_Inversion(models.Model):
     _name = 'propuestas.planes_inversion'
 

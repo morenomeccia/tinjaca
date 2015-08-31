@@ -1,65 +1,303 @@
 <openerp>
     <data>
-        <record id="object0" model="solicitudes.documentos_sector">
+		<!-- Requisitos para el sector agricola y Pecuario (A) -->
+        <record id="agricola0" model="solicitudes.documentos_sector">
             <field name="tipo_documento">Plan de produccion</field>
-            <field name="sector">A</field>
+            <field name="sector">agricola</field>
         </record>
-        <record id="object1" model="solicitudes.documentos_sector">
+        <record id="agricola1" model="solicitudes.documentos_sector">
             <field name="tipo_documento">Cronograma de cultivo</field>
-            <field name="sector">A</field>
+            <field name="sector">agricola</field>
         </record>
-        <record id="object2" model="solicitudes.documentos_sector">
+        <record id="agricola2" model="solicitudes.documentos_sector">
             <field name="tipo_documento">Titulo de adjudicacion</field>
-            <field name="sector">A</field>
+            <field name="sector">agricola</field>
         </record>
-        <record id="object3" model="solicitudes.documentos_sector">
+        <record id="agricola3" model="solicitudes.documentos_sector">
             <field name="tipo_documento">Declaratoria de permanencia</field>
-            <field name="sector">A</field>
+            <field name="sector">agricola</field>
         </record>
-        <record id="object4" model="solicitudes.documentos_sector">
+        <record id="agricola4" model="solicitudes.documentos_sector">
             <field name="tipo_documento">Carta agraria</field>
-            <field name="sector">A</field>
+            <field name="sector">agricola</field>
         </record>
-        <record id="object5" model="solicitudes.documentos_sector">
+        <record id="agricola5" model="solicitudes.documentos_sector">
             <field name="tipo_documento">Carta aval IMDERURAL</field>
-            <field name="sector">A</field>
+            <field name="sector">agricola</field>
         </record>
 
-        <record id="object6" model="solicitudes.documentos_sector">
+        <record id="agricola6" model="solicitudes.documentos_sector">
             <field name="tipo_documento">Certificado de vacunacion</field>
-            <field name="sector">A</field>
+            <field name="sector">agricola</field>
         </record>
-        <record id="object7" model="solicitudes.documentos_sector">
+        <record id="agricola7" model="solicitudes.documentos_sector">
             <field name="tipo_documento">Constancia de no poseer animales INSAI</field>
-            <field name="sector">A</field>
+            <field name="sector">agricola</field>
         </record>
-        <record id="object8" model="solicitudes.documentos_sector">
+        <record id="agricola8" model="solicitudes.documentos_sector">
             <field name="tipo_documento">Registro de hierro</field>
-            <field name="sector">A</field>
+            <field name="sector">agricola</field>
         </record>
-        <record id="object9" model="solicitudes.documentos_sector">
+        <record id="agricola9" model="solicitudes.documentos_sector">
             <field name="tipo_documento">Constancia de productor</field>
-            <field name="sector">A</field>
+            <field name="sector">agricola</field>
         </record>
-        <record id="object10" model="solicitudes.documentos_sector">
+        <record id="agricola10" model="solicitudes.documentos_sector">
             <field name="tipo_documento">Proforma materiales</field>
-            <field name="sector">A</field>
+            <field name="sector">agricola</field>
         </record>
-        <record id="object11" model="solicitudes.documentos_sector">
+        <record id="agricola11" model="solicitudes.documentos_sector">
             <field name="tipo_documento">Proforma Insumos</field>
-            <field name="sector">A</field>
+            <field name="sector">agricola</field>
         </record>
-        <record id="object12" model="solicitudes.documentos_sector">
+        <record id="agricola12" model="solicitudes.documentos_sector">
             <field name="tipo_documento">Proforma maquinariasL</field>
-            <field name="sector">A</field>
+            <field name="sector">agricola</field>
         </record>
-        <record id="object13" model="solicitudes.documentos_sector">
+        <record id="agricola13" model="solicitudes.documentos_sector">
             <field name="tipo_documento">Proforma equipos</field>
-            <field name="sector">A</field>
+            <field name="sector">agricola</field>
         </record>
-        <record id="object14" model="solicitudes.documentos_sector">
+        <record id="agricola14" model="solicitudes.documentos_sector">
             <field name="tipo_documento">Proforma animales</field>
-            <field name="sector">A</field>
+            <field name="sector">agricola</field>
+        </record>
+
+		<!-- Requisitos para el sector turismo (T) -->
+        <record id="turismo0" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Presupuesto de la obra para infraestructura</field>
+            <field name="sector">turismo</field>
+        </record>
+        <record id="turismo1" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Análisis de precios unitarios de la obra para infraestructura</field>
+            <field name="sector">turismo</field>
+        </record>
+        <record id="turismo2" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Facturas pro-forma para infraestructura</field>
+            <field name="sector">turismo</field>
+        </record>
+
+        <record id="turismo3" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Cronograma de ejecución física de la obra para infraestructura</field>
+            <field name="sector">turismo</field>
+        </record>
+
+        <record id="turismo4" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Facturas pro-forma para equipamiento</field>
+            <field name="sector">turismo</field>
+        </record>
+        <record id="turismo5" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Documento de opción a compra para equipamiento</field>
+            <field name="sector">turismo</field>
+        </record>
+        <record id="turismo6" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Exposición de motivos para equipamiento</field>
+            <field name="sector">turismo</field>
+        </record>
+
+        <record id="turismo7" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Facturas pro-forma para mobiliaro</field>
+            <field name="sector">turismo</field>
+        </record>
+        <record id="turismo8" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Documento de opción a compra para mobiliaro</field>
+            <field name="sector">turismo</field>
+        </record>
+        <record id="turismo9" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Exposición de motivos para mobiliaro</field>
+            <field name="sector">turismo</field>
+        </record>
+
+        <record id="turismo10" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Facturas pro-forma para maquinarias y equipos</field>
+            <field name="sector">turismo</field>
+        </record>
+        <record id="turismo11" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Documento de opción a compra para maquinarias y equipos</field>
+            <field name="sector">turismo</field>
+        </record>
+        <record id="turismo12" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Exposición de motivos para maquinarias y equipos</field>
+            <field name="sector">turismo</field>
+        </record>
+
+        <record id="turismo13" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Facturas pro-forma para insumos</field>
+            <field name="sector">turismo</field>
+        </record>
+        <record id="turismo14" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Exposición de motivos para insumos</field>
+            <field name="sector">turismo</field>
+        </record>
+
+        <record id="turismo15" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Facturas pro-forma para unidad de Transporte</field>
+            <field name="sector">turismo</field>
+        </record>
+        <record id="turismo16" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Presupuesto de la repotenciación para unidad de Transporte</field>
+            <field name="sector">turismo</field>
+        </record>
+        <record id="turismo17" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Copia del certificado del vehículo para unidad de Transporte</field>
+            <field name="sector">turismo</field>
+        </record>
+        <record id="turismo18" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Copia del documento de propiedad para unidad de Transporte</field>
+            <field name="sector">turismo</field>
+        </record>
+
+		<!-- Requisitos para el sector artesanal (AR) -->
+        <record id="artesanal0" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Proformas de la materia, insumo, maquinarias, equipos</field>
+            <field name="sector">artesanal</field>
+        </record>
+        <record id="artesanal1" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Presupuesto de infraestructura</field>
+            <field name="sector">artesanal</field>
+        </record>
+        <record id="artesanal2" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Breve descripción de infraestructura</field>
+            <field name="sector">artesanal</field>
+        </record>
+        <record id="artesanal3" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Plano de infraestructura</field>
+            <field name="sector">artesanal</field>
+        </record>
+
+		<!-- Requisitos para el sector ciencia y tecnologia (CT) -->
+        <record id="CyT0" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Facturas pro-forma para Materia prima e Insumos</field>
+            <field name="sector">cyt</field>
+        </record>
+        <record id="CyT1" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Cotización para Materia prima e Insumos</field>
+            <field name="sector">cyt</field>
+        </record>
+        <record id="CyT2" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Exposición de motivos para Materia prima e Insumos</field>
+            <field name="sector">cyt</field>
+        </record>
+
+        <record id="CyT3" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Facturas pro-forma para Adquisición y repotenciación de maquinaria</field>
+            <field name="sector">cyt</field>
+        </record>
+        <record id="CyT4" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Documento de opción a compra para Adquisición y repotenciación de maquinaria</field>
+            <field name="sector">cyt</field>
+        </record>
+        <record id="CyT5" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Presupuesto de repotenciación para Adquisición y repotenciación de maquinaria</field>
+            <field name="sector">cyt</field>
+        </record>
+        <record id="CyT6" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Exposición de motivos para Adquisición y repotenciación de maquinaria</field>
+            <field name="sector">cyt</field>
+        </record>
+
+        <record id="CyT7" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Presupuesto para Infraestructura</field>
+            <field name="sector">cyt</field>
+        </record>
+        <record id="CyT8" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Breve descripción de la obra para Infraestructura</field>
+            <field name="sector">cyt</field>
+        </record>
+        <record id="CyT9" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Plano de la obra para Infraestructura</field>
+            <field name="sector">cyt</field>
+        </record>
+
+		<!-- Requisitos para Pequeña y Mediana Empresa (pyme) -->
+        <record id="pyme0" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Facturas proforma para materia prima e insumo</field>
+            <field name="sector">pyme</field>
+        </record>
+        <record id="pyme1" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Exposición de motivos para materia prima e insumo</field>
+            <field name="sector">pyme</field>
+        </record>
+
+        <record id="pyme2" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Presupuesto para infraestructura</field>
+            <field name="sector">pyme</field>
+        </record>
+        <record id="pyme3" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Cédula de identidad de quien realizará la obra para infraestructura</field>
+            <field name="sector">pyme</field>
+        </record>
+        <record id="pyme4" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Breve descripción de la obra para infraestructura</field>
+            <field name="sector">pyme</field>
+        </record>
+        <record id="pyme5" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Plano de la obra para infraestructura</field>
+            <field name="sector">pyme</field>
+        </record>
+
+        <record id="pyme6" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Certificado de Vehículo (transporte)</field>
+            <field name="sector">pyme</field>
+        </record>
+        <record id="pyme7" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Avalúo de Vehículo (transporte)</field>
+            <field name="sector">pyme</field>
+        </record>
+        <record id="pyme8" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">R.C.V del vehiculo (transporte)</field>
+            <field name="sector">pyme</field>
+        </record>
+
+
+		<!-- Requisitos para Pequeña y Mediana Industria (pymi) -->
+        <record id="pymi0" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Facturas proforma para materia prima e insumo</field>
+            <field name="sector">pymi</field>
+        </record>
+        <record id="pymi1" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Exposición de motivos para materia prima e insumo</field>
+            <field name="sector">pymi</field>
+        </record>
+
+        <record id="pymi2" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Presupuesto para infraestructura</field>
+            <field name="sector">pymi</field>
+        </record>
+        <record id="pymi3" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Cédula de identidad de quien realizará la obra para infraestructura</field>
+            <field name="sector">pymi</field>
+        </record>
+        <record id="pymi4" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Breve descripción de la obra para infraestructura</field>
+            <field name="sector">pymi</field>
+        </record>
+        <record id="pymi5" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Plano de la obra para infraestructura</field>
+            <field name="sector">pymi</field>
+        </record>
+
+        <record id="pymi6" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Certificado de Vehículo (transporte)</field>
+            <field name="sector">pymi</field>
+        </record>
+        <record id="pymi7" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Avalúo de Vehículo (transporte)</field>
+            <field name="sector">pymi</field>
+        </record>
+        <record id="pymi8" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">R.C.V del vehiculo (transporte)</field>
+            <field name="sector">pymi</field>
+        </record>
+
+		<!-- Requisitos para Microempresas -->
+        <record id="microempresa0" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Facturas proforma para materia prima e insumo</field>
+            <field name="sector">microempresa</field>
+        </record>
+        <record id="microempresa1" model="solicitudes.documentos_sector">
+            <field name="tipo_documento">Exposición de motivos para materia prima e insumo</field>
+            <field name="sector">microempresa</field>
         </record>
 
     </data>
