@@ -30,6 +30,8 @@ Genera como reportes visitas por rangos de fechas y por dependencia.
     'data': [
         # 'security/ir.model.access.csv',
         'templates.xml',
+        'models/model_recepcion.py',
+        'views/recepcion.xml'
     ],
     # only loaded in demonstration mode
     'demo': [

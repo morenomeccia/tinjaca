@@ -19,7 +19,7 @@ class visitantes(models.Model):
     nombres = fields.Char(string='Nombres', size=40)
     apellidos = fields.Char(string='Apellidos', size=40)
     cedula = fields.Char(string='Cédula de Identidad')
-    visita_id = fields.One2many('recepcion.visitantes', string='Visitas')
+    visitas_id = fields.One2many('recepcion.visitas', string='Visitas')
 
     @api.depends('nombres', 'apellidos')
     def _nombre_apellido(self):
@@ -28,9 +28,14 @@ class visitantes(models.Model):
 
 
 class visitas(models.Model):
-    _name = 'recepcion.visitantes'
+    _name = 'recepcion.visitas'
 
-    name = fields.Char()
+    name = fields.Char(compute='_visitante_fecha')
     visitante_id = fields.Many2one('recepcion.visitantes', string='Visitante')
     fecha = fields.Datetime(string='Fecha')
     dependencia = fields.Selection(dependencias, string='Dependencia')
+
+    @api.depends('visitante_id', 'fecha')
+    def _visitante_fecha(self):
+        for record in self:
+            record.name = "{}-{}".format(record.visitante, record.fecha)

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+
+        <!-- Creacion de la vista para mostrar los visitantes -->
+
+        <record model="ir.ui.view" id="vista_formulario_visitante">
+            <field name="name">visitante.form</field>
+            <field name="model">recepcion.visitantes</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Visitante">
+                    <field name="nombres"/>
+                    <field name="apellidos"/>
+                    <field name="cedula"/>
+                    <field name="visitas_id">
+                        <tree string="Visitas">
+                            <field name="fecha"/>
+                            <field name="dependencia"/>
+                        </tree>
+                    </field>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="vista_arbol_visitantes">
+            <field name="name">visitantes.tree</field>
+            <field name="model">recepcion.visitantes</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Visitantes">
+                    <field name="name"/>
+                    <field name="cedula"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Creacion de la vista para mostrar las visitas -->
+
+        <record model="ir.ui.view" id="vista_formulario_visitante">
+            <field name="name">visita.form</field>
+            <field name="model">recepcion.visitas</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Visitas">
+                    <field name="visitante_id"/>
+                    <field name="fecha"/>
+                    <field name="dependencia"/>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="vista_arbol_visitantes">
+            <field name="name">visitantes.tree</field>
+            <field name="model">recepcion.visitantes</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Visitantes">
+                    <field name="name"/>
+                    <field name="cedula"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Accion de ventana para los visitantes -->
+
+        <record model="ir.actions.act_window" id="accion_listar_visitantes">
+            <field name="name">Visitantes</field>
+            <field name="res_model">recepcion.visitantes</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear visitante</p>
+            </field>
+        </record>
+
+       <!-- Accion de ventana para las visitas -->
+
+        <record model="ir.actions.act_window" id="accion_listar_visitas">
+            <field name="name">Visitas</field>
+            <field name="res_model">recepcion.visitas</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear visita</p>
+            </field>
+        </record>
+
+        <!-- top level menu: no parent -->
+        <menuitem id="menu_principal_recepcion" name="Recepción"/>
+        <!-- Submenu para Recepción -->
+        <menuitem id="menu_recepcion_recepcion" name="Recepción" parent="menu_principal_recepcion"/>
+        <!-- Entradas de menu para el modelo Recepción -->
+        <menuitem id="item_recepcion_visitantes" name="Visitantes" parent="menu_recepcion_recepcion" action="accion_listar_visitantes"/>
+        <menuitem id="item_recepcion_visitas" name="Visitas" parent="menu_recepcion_recepcion" action="accion_listar_visitas"/>
+
+    </data>
+</openerp>

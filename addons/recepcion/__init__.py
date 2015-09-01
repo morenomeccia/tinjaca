@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 import controllers
-import models
+from addons.recepcion.models import model_recepcion
