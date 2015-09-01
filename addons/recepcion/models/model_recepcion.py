@@ -31,6 +31,6 @@ class Visitas(models.Model):
     _name = 'recepcion.visitas'
 
     _rec_name = 'fecha'
-    visitante_id = fields.Many2one('recepcion.visitantes', string='Visitante')
+    visitante_id = fields.Many2one(comodel_name='recepcion.visitantes', string='Visitante')
     fecha = fields.Datetime(string='Fecha')
     dependencia = fields.Selection(selection=dependencias, string='Dependencia')

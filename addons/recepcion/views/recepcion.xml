@@ -15,7 +15,7 @@
                             <field name="apellidos"/>
                             <field name="cedula"/>
                             <field name="visitas_id">
-                                <tree string="Visitas">
+                                <tree string="Visitas" editable="bottom">
                                     <field name="fecha"/>
                                     <field name="dependencia"/>
                                 </tree>
@@ -62,6 +62,7 @@
             <field name="arch" type="xml">
                 <tree string="Listado Visitas">
                     <field name="fecha"/>
+                    <field name="visitante_id"/>
                     <field name="dependencia"/>
                 </tree>
             </field>
