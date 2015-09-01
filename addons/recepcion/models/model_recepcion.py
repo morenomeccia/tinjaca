@@ -19,7 +19,7 @@ class Visitantes(models.Model):
     nombres = fields.Char(string='Nombres', size=40)
     apellidos = fields.Char(string='Apellidos', size=40)
     cedula = fields.Char(string='Cédula de Identidad')
-#    visitas_id = fields.One2many('recepcion.visitas', string='Visitas')
+    visitas_id = fields.One2many(comodel_name='recepcion.visitas', inverse_name='visitante_id', string='Visitas')
 
     # @api.depends('nombres', 'apellidos')
     # def _nombre_apellido(self):
