@@ -9,15 +9,19 @@
             <field name="model">recepcion.visitantes</field>
             <field name="arch" type="xml">
                 <form string="Formulario Visitante">
-                    <field name="nombres"/>
-                    <field name="apellidos"/>
-                    <field name="cedula"/>
-<!--                    <field name="visitas_id">
-                        <tree string="Visitas">
-                            <field name="fecha"/>
-                            <field name="dependencia"/>
-                        </tree>
-                    </field>-->
+                    <sheet>
+                        <group>
+                            <field name="nombres"/>
+                            <field name="apellidos"/>
+                            <field name="cedula"/>
+                            <field name="visitas_id">
+                                <tree string="Visitas">
+                                    <field name="fecha"/>
+                                    <field name="dependencia"/>
+                                </tree>
+                            </field>
+                        </group>
+                    </sheet>
                 </form>
             </field>
         </record>
@@ -41,9 +45,13 @@
             <field name="model">recepcion.visitas</field>
             <field name="arch" type="xml">
                 <form string="Formulario Visitas">
-                    <field name="visitante_id"/>
-                    <field name="fecha"/>
-                    <field name="dependencia"/>
+                    <sheet>
+                        <group>
+                            <field name="visitante_id"/>
+                            <field name="fecha"/>
+                            <field name="dependencia"/>
+                        </group>
+                    </sheet>
                 </form>
             </field>
         </record>
