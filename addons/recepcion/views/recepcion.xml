@@ -12,12 +12,12 @@
                     <field name="nombres"/>
                     <field name="apellidos"/>
                     <field name="cedula"/>
-                    <field name="visitas_id">
+<!--                    <field name="visitas_id">
                         <tree string="Visitas">
                             <field name="fecha"/>
                             <field name="dependencia"/>
                         </tree>
-                    </field>
+                    </field>-->
                 </form>
             </field>
         </record>
@@ -27,7 +27,8 @@
             <field name="model">recepcion.visitantes</field>
             <field name="arch" type="xml">
                 <tree string="Listado Visitantes">
-                    <field name="name"/>
+                    <field name="nombres"/>
+                    <field name="apellidos"/>
                     <field name="cedula"/>
                 </tree>
             </field>
@@ -35,7 +36,7 @@
 
         <!-- Creacion de la vista para mostrar las visitas -->
 
-        <record model="ir.ui.view" id="vista_formulario_visitante">
+        <record model="ir.ui.view" id="vista_formulario_visita">
             <field name="name">visita.form</field>
             <field name="model">recepcion.visitas</field>
             <field name="arch" type="xml">
@@ -47,13 +48,13 @@
             </field>
         </record>
 
-        <record model="ir.ui.view" id="vista_arbol_visitantes">
-            <field name="name">visitantes.tree</field>
-            <field name="model">recepcion.visitantes</field>
+        <record model="ir.ui.view" id="vista_arbol_visitas">
+            <field name="name">visitas.tree</field>
+            <field name="model">recepcion.visitas</field>
             <field name="arch" type="xml">
-                <tree string="Listado Visitantes">
-                    <field name="name"/>
-                    <field name="cedula"/>
+                <tree string="Listado Visitas">
+                    <field name="fecha"/>
+                    <field name="dependencia"/>
                 </tree>
             </field>
         </record>

@@ -1,1 +1,3 @@
-__author__ = 'mapologo'
+# -*- coding: utf-8 -*-
+
+import model_recepcion
