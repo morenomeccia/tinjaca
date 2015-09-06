@@ -89,8 +89,8 @@
                     <sheet>
                         <group>
                             <field name="solicitudes_id"/>
-                            <field name="documentos_sector_id"/>
-                            <!-- <field name="documentos_sector_id" domain="[('sector','ilike','solicitudes_id.sector')]"/> -->
+                            <field name="sector2"/>
+                            <field name="documentos_sector_id" domain="[('sector','ilike','sector2')]"/>
                             <field name="documento"/>
                             <field name="observaciones"/>
                             <field name="valido"/>
@@ -142,6 +142,11 @@
                             <field name="observaciones"/>
                             <field name="firma"/>
                             <field name="codigo_credito"/>
+                            <field name="resultados_avaluo"/>
+                            <field name="viabilidad_unidad_de_produccion"/>
+                            <field name="foto_1_inspeccion"/>
+                            <field name="foto_2_inspeccion"/>
+                            <field name="foto_3_inspeccion"/>
                         </group>
                     </sheet>
                 </form>
