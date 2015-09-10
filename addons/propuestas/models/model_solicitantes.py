@@ -28,7 +28,7 @@ class Solicitantes(models.Model):
     @api.model
     def create(self, values):
         res_id = super(Solicitantes, self).create(values)
-    return res_id
+        return res_id
 
     @api.depends('nombres', 'apellidos')
     def _nombre_apellido(self):
