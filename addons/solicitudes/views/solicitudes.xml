@@ -25,12 +25,6 @@
                         <group>
                             <field name="nro_expediente"/>
                             <field name="sector"/>
-                            <field name="informe_tecnico_id">
-                                <tree string="Informes técnicos">
-                                    <field name="tipo_empresa"/>
-                                    <field name="fecha_elaboracion"/>
-                                </tree>
-                            </field>
                             <field name="requisitos_generales_id">
                                 <tree string="Requisitos Generales">
                                     <field name="tipo_documento"/>
@@ -43,6 +37,8 @@
                                     <field name="valido"/>
                                 </tree>
                             </field>
+                            <field name="inspeccion_id"/>
+                            <field name="informe_tecnico_id"/>
                         </group>
                     </sheet>
                 </form>
@@ -129,7 +125,12 @@
                 <form string="Formulario Inspecciones">
                     <sheet>
                         <group>
-                            <field name="nro_expediente"/>
+                            <field name="solicitudes_id">
+                                <tree string="Solicitud">
+                                    <field name="nro_expediente"/>
+                                </tree>
+                            </field>
+                            <field name="fecha_inspeccion"/>
                             <field name="tiempo_funcionamiento"/>
                             <field name="cantidad_productos"/>
                             <field name="costos_actividad"/>
@@ -140,16 +141,23 @@
                             <field name="maquinaria"/>
                             <field name="materia_prima"/> 
                             <field name="observaciones"/>
-                            <field name="firma"/>
-                            <field name="codigo_credito"/>
-                            <field name="resultados_avaluo"/>
+                            <field name="resultados_inspeccion"/>
                             <field name="viabilidad_unidad_de_produccion"/>
-                            <field name="foto_1_inspeccion"/>
-                            <field name="foto_2_inspeccion"/>
-                            <field name="foto_3_inspeccion"/>
+                            <field name="foto_inspeccion_id"/>
                         </group>
                     </sheet>
                 </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="vista_arbol_inspecciones">
+            <field name="name">inspeccion.tree</field>
+            <field name="model">solicitudes.inspecciones</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Inspecciones">
+                    <field name="solicitudes_id"/>
+                    <field name="fecha_inspeccion"/>
+                </tree>
             </field>
         </record>
 
@@ -167,13 +175,11 @@
                                     <field name="nro_expediente"/>
                                 </tree>
                             </field>
-                            <field name="codigo_informe"/>
                             <field name="fecha_elaboracion"/>
                             <field name="tipo_empresa"/>
                             <field name="Saldo_Balance_Personal"/>  
                             <field name="Organizacion_Juridica"/> 
                             <field name="Recomendaciones"/> 
-                            <field name="informe_fotografico_inspeccion"/>
                         </group>
                     </sheet>
                 </form>
@@ -186,7 +192,7 @@
             <field name="arch" type="xml">
                 <tree string="Listado Informe Tecnico">
                     <field name="solicitudes_id"/>
-                    <field name="codigo_informe"/>
+                    <field name="fecha_elaboracion"/>
                 </tree>
             </field>
         </record>

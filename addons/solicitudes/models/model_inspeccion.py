@@ -5,7 +5,11 @@ from openerp import models, fields, api
 class Inspecciones(models.Model):
     _name = 'solicitudes.inspecciones'
 
-    nro_expediente = fields.Char(string='Numero de expediente', required=True) # !!!
+    _rec_name = 'fecha_inspeccion'
+
+    solicitudes_id = fields.Many2one('solicitudes.solicitudes', string="Número de expediente")
+
+    fecha_inspeccion = fields.Date(string='Fecha de inspeccion', required=True)
     tiempo_funcionamiento = fields.Float(string='Tiempo de funcionamiento', required=True)
     cantidad_productos = fields.Integer(string='Cantidad de productos')
     costos_actividad = fields.Float(string='Costo de la actividad')
@@ -16,11 +20,11 @@ class Inspecciones(models.Model):
     maquinaria = fields.Char(string='Maquinaria') 
     materia_prima = fields.Char(string='Materia prima') 
     observaciones = fields.Char(string='Observaciones')
-    firma = fields.Binary(string='Firma del beneficiario', required=True)
-    codigo_credito = fields.Integer(string='Codigo del credito', required=True)
-    resultados_avaluo = fields.Char(string='Resultados del avaluo')
+    resultados_inspeccion = fields.Char(string='Resultados del avaluo')
     viabilidad_unidad_de_produccion = fields.Boolean(string='La unidad de produccion es viable')
-    foto_1_inspeccion = fields.Binary(string='Fotografia 1 de la inspeccion')
-    foto_2_inspeccion = fields.Binary(string='Fotografia 2 de la inspeccion')
-    foto_3_inspeccion = fields.Binary(string='Fotografia 3 de la inspeccion')
+    
+    foto_inspeccion_id = fields.One2many('solicitudes.fotografia_inspeccion', 'inspecciones_id', string="Fotografia de la inspeccion")
+    
+
+
 
