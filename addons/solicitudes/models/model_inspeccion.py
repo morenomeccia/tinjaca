@@ -18,3 +18,9 @@ class Inspecciones(models.Model):
     observaciones = fields.Char(string='Observaciones')
     firma = fields.Binary(string='Firma del beneficiario', required=True)
     codigo_credito = fields.Integer(string='Codigo del credito', required=True)
+    resultados_avaluo = fields.Char(string='Resultados del avaluo')
+    viabilidad_unidad_de_produccion = fields.Boolean(string='La unidad de produccion es viable')
+    foto_1_inspeccion = fields.Binary(string='Fotografia 1 de la inspeccion')
+    foto_2_inspeccion = fields.Binary(string='Fotografia 2 de la inspeccion')
+    foto_3_inspeccion = fields.Binary(string='Fotografia 3 de la inspeccion')
+
