@@ -16,8 +16,8 @@ class Visitantes(models.Model):
     _name = 'recepcion.visitantes'
 
     _rec_name = 'cedula'
-    nombres = fields.Char(string='Nombres', size=40)
-    apellidos = fields.Char(string='Apellidos', size=40)
+    nombres = fields.Char(string='Nombres', size=64)
+    apellidos = fields.Char(string='Apellidos', size=64)
     cedula = fields.Char(string='Cédula de Identidad')
     visitas_id = fields.One2many(comodel_name='recepcion.visitas', inverse_name='visitante_id', string='Visitas')
 
