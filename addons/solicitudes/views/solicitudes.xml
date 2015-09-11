@@ -37,6 +37,8 @@
                                     <field name="valido"/>
                                 </tree>
                             </field>
+                            <field name="control_previo_id"/>
+                            <field name="avaluo_id"/>
                             <field name="inspeccion_id"/>
                             <field name="informe_tecnico_id"/>
                         </group>
@@ -86,7 +88,8 @@
                         <group>
                             <field name="solicitudes_id"/>
                             <field name="sector2"/>
-                            <field name="documentos_sector_id" domain="[('sector','ilike','sector2')]"/>
+                            <field name="documentos_sector_id"/>
+                            <!-- <field name="documentos_sector_id" domain="[('sector','ilike','sector2')]"/> -->
                             <field name="documento"/>
                             <field name="observaciones"/>
                             <field name="valido"/>
@@ -105,14 +108,25 @@
                 <form string="Formulario Control Previo">
                     <sheet>
                         <group>
-                            <field name="codigo_analisis_juridico"/>
-                            <field name="nro_expediente"/>
+                            <field name="solicitudes_id"/>
+                            <field name="fecha_elaboracion"/>
                             <field name="descripcion_garantia"/>
                             <field name="estatus_analisis_juridico"/>
-                            <field name="codigo_credito"/>
+                            <field name="observaciones"/>
                         </group>
                     </sheet>
                 </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="vista_control_previo">
+            <field name="name">control_previo.tree</field>
+            <field name="model">solicitudes.control_previo</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Control Previo">
+                    <field name="solicitudes_id"/>
+                    <field name="fecha_elaboracion"/>
+                </tree>
             </field>
         </record>
 
