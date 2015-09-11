@@ -6,7 +6,7 @@ from openerp import models, fields, api
 class Avalistas(models.Model):
     _name = 'propuestas.avalistas'
 
-    propuesta_id = fields.One2many('propuestas.propuestas', string="Propuesta")
+    propuesta_id = fields.One2many('propuestas.propuestas', "avalista_id", "Propuesta")
     codigo_avalista = fields.Char(string='Código del Avalista', required=True)
     nombres = fields.Char(string='Nombres del Avalista', required=True)
     apellidos = fields.Char(string='Apellidos del Avalista', required=True)

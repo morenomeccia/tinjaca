@@ -7,11 +7,11 @@ class Solicitantes(models.Model):
     _name = 'propuestas.solicitantes'
     _inherit = 'res.users'
 
-    name = fields.Char(compute='_nombre_apellido')
-    propuesta_id = fields.One2many('propuestas.propuestas', string="Propuesta")
+#    name = fields.Char(compute='_nombre_apellido')
+    propuesta_id = fields.One2many('propuestas.propuestas', "solicitante_id", string="Propuesta")
     codigo_solicitud = fields.Char(string='Codigo de la Solicitud', required=True)
-    nombres = fields.Char(string='Nombres del Solicitante', required=True)
-    apellidos = fields.Char(string='Apellidos del Solicitante', required=True)
+#    nombres = fields.Char(string='Nombres del Solicitante', required=True)
+#    apellidos = fields.Char(string='Apellidos del Solicitante', required=True)
     cedula = fields.Integer(string='CI del Solicitante', required=True)
     rif = fields.Char(string='RIF del Solicitante', required=True)
     # fecha_nacimiento = fields.Date(string='Fecha de Nacimiento', required=True)
@@ -30,9 +30,20 @@ class Solicitantes(models.Model):
         res_id = super(Solicitantes, self).create(values)
         return res_id
 
-    @api.depends('nombres', 'apellidos')
-    def _nombre_apellido(self):
-        for record in self:
-            record.name = "{} {}".format(record.nombres, record.apellidos)
+
+    # @api.onchange('birthdate')
+    # def set_age(self):
+    #     for rec in self:
+	 #    if rec.dob:
+	 #    dt = rec.dob
+	 #    d1 = datetime.strptime(dt, "%Y-%m-%d").date()
+    #         d2 = date.today()
+	 #    rd = relativedelta(d2, d1)
+    #         rec.age = str(rd.years) + ' years'
+
+    # @api.depends('nombres', 'apellidos')
+    # def _nombre_apellido(self):
+    #     for record in self:
+    #         record.name = "{} {}".format(record.nombres, record.apellidos)
 
 

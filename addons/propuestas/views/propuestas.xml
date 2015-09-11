@@ -4,38 +4,16 @@
 
         <!-- Creacion de la vista para propuestas -->
 
-         <record model="ir.ui.view" id="vista_formulario_propuestas">
+<!--         <record model="ir.ui.view" id="vista_formulario_propuestas">
             <field name="name">propuestas.form</field>
             <field name="model">propuestas.propuestas</field>
             <field name="arch" type="xml">
                 <form string="Propuesta de financiamiento">
                     <header>
-                        <button name="button_solicitantes" type="workflow"
-                                string="Solicitantes" states="1"
-                                class="oe_highlight"/>
-                        <button name="button_unidad_productiva" type="workflow"
-                                string="Unidad Productiva" states="2"
-                                class="oe_highlight"/>
-                        <button name="button_actividad_productiva" type="workflow"
-                                string="Actividad Productiva" states="3"
-                                class="oe_highlight"/>
-                        <button name="button_planes_inversion" type="workflow"
-                                string="Planes de Inversión" states="4"
-                                class="oe_highlight"/>
-                        <button name="button_garantias" type="workflow"
-                                string="Garantias" states="5"
-                                class="oe_highlight"/>
-                        <button name="button_avalistas" type="workflow"
-                                string="Avalistas" states="6"
-                                class="oe_highlight"/>
-                        <button name="button_referencias_solicitantes" type="workflow"
-                                string="Referencias del Solicitante" states="7"
-                                class="oe_highlight"/>
-                        <field name="state" widget="statusbar"/>
                     </header>
                 </form>
             </field>
-        </record>
+        </record>-->
 
         <!-- Creacion de la vista para mostrar actividad productiva -->
 
@@ -51,13 +29,13 @@
                             <field name="materia_prima"/>
                             <field name="obtiene_mp"/>
                             <field name="precio_venta"/>
-                      <field name="distribucion"/>
+                            <field name="distribucion"/>
                             <field name="trabajadores"/>
                             <field name="puestos_generar"/>
                             <field name="explicacion_ap"/>
                             <field name="codigo_up"/>
                             <field name="codigo_credito"/>
-                      <field name="consigno_facturas"/>
+                            <field name="consigno_facturas"/>
                             <field name="observaciones"/>
                        </group>
                     </sheet>
@@ -182,20 +160,19 @@
                         <group>
                             <field name="propuesta_id"/>
                             <field name="codigo_solicitud"/>
-                            <field name="nombres"/>
-                            <field name="apellidos"/>
-                            <field name="ci"/>
-                      <field name="rif"/>
-                            <field name="fecha_nacimiento"/>
+                            <field name="firstname"/>
+                            <field name="lastname"/>
+                            <field name="cedula"/>
+                            <field name="rif"/>
+                            <field name="birthdate_date"/>
                             <field name="edad"/>
                             <field name="sexo"/>
-                            <field name="direccion_habitacion"/>
-                            <field name="municipio"/>
-                      <field name="parroquia"/>
-                            <field name="profesion_oficio"/>
-                      <field name="telefono_fijo"/>
-                            <field name="telefono_celular"/>
-                            <field name="correo_electronico"/>
+                            <field name="street"/>
+                            <!--<field name="municipio"/>-->
+                            <!--<field name="parroquia"/>-->
+                            <field name="mobile"/>
+                            <field name="phone"/>
+                            <field name="email"/>
                        </group>
                     </sheet>
                 </form>

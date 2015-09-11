@@ -7,6 +7,7 @@ class UnidadProductiva(models.Model):
     _name = 'propuestas.unidad_productiva'
     _inherit = 'res.company'
 
+    propuesta_id = fields.One2many('propuestas.propuestas', "unidad_prod_id", string="Propuesta")
     codigo_up = fields.Char(string='Código de la Solicitud', required=True)
     nombre_up = fields.Char(string='Nombres del Solicitante', required=True)
     direccion_up = fields.Char(string='Apellidos del Solicitante', required=True)

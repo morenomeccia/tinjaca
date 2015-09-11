@@ -6,6 +6,7 @@ from openerp import models, fields, api
 class Planes_Inversion(models.Model):
     _name = 'propuestas.planes_inversion'
 
+    propuesta_id = fields.One2many('propuestas.propuestas', "plan_inversion_id", string="Propuesta")
     codigo_pi = fields.Char(string='Código del Plan de Inversión', required=True)
     capital_trabajo = fields.Integer(string='Capital de Trabajo', required=True)
     materia_prima = fields.Integer(string='Materia Prima', required=True)
