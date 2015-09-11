@@ -11,7 +11,7 @@ class Inspecciones(models.Model):
     foto_inspeccion_id = fields.One2many('solicitudes.fotografia_inspeccion', 'inspecciones_id', string="Fotografia de la inspeccion")
 
     fecha_inspeccion = fields.Date(string='Fecha de inspeccion', required=True)
-    tiempo_funcionamiento = fields.Float(string='Tiempo de funcionamiento', required=True)
+    tiempo_funcionamiento = fields.Float(string='Tiempo de funcionamiento')
     cantidad_productos = fields.Integer(string='Cantidad de productos')
     costos_actividad = fields.Float(string='Costo de la actividad')
     sistema_produccion = fields.Char(string='Sistema de produccion')
