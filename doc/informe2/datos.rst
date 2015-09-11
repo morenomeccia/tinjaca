@@ -25,20 +25,20 @@ capacidad de pago.
 El **Solicitante** busca acceder al crédito a través de la **Unidad Productiva**, sujeto cada uno a uno de los **Planes
 Inversión**.
 
-Los solicitantes una vez superen un revisión de factibilidad son invitados una o mas veces a los **Talleres** que se
-planifican regularmente para una cierta cantidad de solicitudes de **Créditos**. La invitación a los **Talleres**
-incluye una lista de requisitos a consignar.
+Los solicitantes introducen **Propuestas**, y una vez superen un revisión de factibilidad son invitados una o mas veces a los **Talleres** que se
+planifican regularmente para una cierta cantidad de **Propuestas**. La invitación a los **Talleres**
+incluye una lista de requisitos a consignar. Para ello debe crearse una **Solicitud** formal en FOMDES junto con la exposición de motivos en uno de sus formatos permitidos.
 
-Durante el proceso de aprobación del crédito el solicitante debe consignar una serie de **Requisitos Personales**,
+Durante el proceso de aprobación del crédito. El solicitante debe consignar una serie de **Requisitos Personales**,
 **Requisitos Empresa** relativos a la **Unidad Productiva**, **Requisitos Sector** propios de cada sector productivo y
-**Requisitos Garantía** relacionados con la Garantía utilizada en la solicitud.
+**Requisitos Garantía** relacionados con la Garantía utilizada en la **Solicitud**.
 
 Una vez consignados los requisitos se verifica una o mas veces si cumple el **Controles Previos** que realizan los
 Analistas Jurídicos, y se realiza una o mas veces la **Inspecciones** e **Inspecciones de Avalúo** que realizan los
 Analistas Económicos.
 
-Las solicitudes de **Créditos** esperan las **Decisiones Consejo Directivo** para ser aprobados (o no), en cada Consejo
-Directivo se delibera sobre uno o mas **Créditos**, y una solicitud de crédito podría requerir una o mas **Decisiones
+Las **Solicitudes** esperan las **Decisiones Consejo Directivo** para ser aprobados (o no), en cada Consejo
+Directivo se delibera sobre uno o mas **Solicitudes**, y una solicitud de crédito podría requerir una o mas **Decisiones
 Consejo Directivo** para ser aprobados.
 
 La aprobación de estos **Créditos** está sujeta a las disponibilidades financieras y presupuestarias en relación a los
@@ -69,7 +69,7 @@ simples, implementar la contabilidad requeriría la incluir todos los gatos oper
 Diccionario de Datos
 ====================
 
-.. index:: !Solicitantes
+.. index:: !Solicitantes, Beneficiarios
 
 Solicitantes
 ------------
@@ -113,6 +113,7 @@ Solicitantes
        * - Correo_Electrónico
          - Cadena
 
+
 .. index:: !Unidades Productivas
 
 Unidades Productivas
@@ -153,6 +154,7 @@ Unidades Productivas
        * - Código_Solicitante
          - Numérico
 
+
 .. index:: !Actividad Productiva
 
 Actividad Productiva
@@ -170,7 +172,7 @@ Actividad Productiva
          - Cadena
        * - Materia_Prima
          - Cadena
-       * - Donde_Y_Como_obtiene_PM
+       * - Donde_Y_Como_obtiene_MP
          - Cadena
        * - Precio_Venta_Producto
          - Numérico
@@ -180,14 +182,13 @@ Actividad Productiva
          - Numérico
        * - Puestos_Trabajo_Generar
          - Numérico
+       * - Observaciones
+         - Cadena
        * - Código_UnidadProductiva
          - Numérico
-       * - Código_Crédito
+       * - Código_Propuesta
          - Numérico
-       * - Consigno_facturas
-         - Numérico
-       * - Observaciones
-         - Numérico
+
 
 .. index:: !Planes de Inversión
 
@@ -224,14 +225,15 @@ Planes Inversión
          - Cadena
        * - Inversión_Total
          - Cadena
+       * - Consigno_facturas
+         - Lógico
+       * - Observaciones
+         - Cadena
        * - Código_ActividadProductiva
          - Numérico
-       * - Código_Crédito
+       * - Código_Propuesta
          - Numérico
-       * - Consigno_facturas
-         - Numérico
-       * - Observaciones
-         - Numérico
+
 
 .. index:: !Cónyuges
 
@@ -277,6 +279,7 @@ Cónyuges
        * - Código_Solicitante
          - Numérico
 
+
 .. index:: !Referencias Personales
 
 Referencias personales y familiares
@@ -306,6 +309,7 @@ Referencias personales y familiares
          - Cadena
        * - Código_Solicitante
          - Numérico
+
 
 .. index:: !Avalistas
 
@@ -342,8 +346,9 @@ Avalistas
          - Numérico
        * - Total_Ingresos
          - Numérico
-       * - Código_Solicitante
+       * - Código_Propuesta
          - Numérico
+
 
 .. index:: Avalistas, Cuentas Bancarias
 
@@ -369,6 +374,7 @@ Cuentas Bancarias Avalista
        * - Código_Avalista
          - Numérico
 
+
 .. index:: Avalista, Activos Fijos
 
 Activos fijos Avalista
@@ -391,6 +397,7 @@ Activos fijos Avalista
        * - Código_Avalista
          - Numérico
 
+
 .. index:: !Talleres
 
 Talleres
@@ -408,6 +415,7 @@ Talleres
          - Fecha
        * - Funcionario
          - Cadena
+
 
 .. index:: !Garantías
 
@@ -430,8 +438,9 @@ Garantías
          - Cadena
        * - Avaluo
          - Numérico
-       * - Código_Crédito
+       * - Código_Propuesta
          - Numérico
+
 
 .. index:: !Requisitos, Requisitos Personales
 
@@ -447,19 +456,20 @@ Requisitos personales
        * - Código
          - Numérico
        * - Carta_Residencia
-         - Cadena
+         - Binario
        * - Documento_Propiedad_Alquiler
-         - Cadena
+         - Binario
        * - Croquis_Ubicacion
-         - Cadena
+         - Binario
        * - Exposicion_Motivos
-         - Cadena
+         - Binario
        * - Registro_Comercio_RIF
-         - Cadena
+         - Binario
        * - Permisos_Funcionamiento
-         - Cadena
-       * - Código_Crédito
+         - Binario
+       * - Código_Solicitud
          - Numérico
+
 
 .. index:: !Requisitos, Requisitos Empresa
 
@@ -475,19 +485,20 @@ Requisitos Empresa
        * - Código
          - Numérico
        * - Estado_Financiero_2_Ultimos_Años
-         - Cadena
+         - Binario
        * - Balance_Comprobacion
-         - Cadena
+         - Binario
        * - Solvencia_Laboral
-         - Cadena
+         - Binario
        * - Solvencia_SS
-         - Cadena
+         - Binario
        * - Solvencia_INCES
-         - Cadena
+         - Binario
        * - Solvencia_BANAVIH
-         - Cadena
-       * - Código_Crédito
+         - Binario
+       * - Código_Solicitud
          - Numérico
+
 
 .. index:: !Requisitos, Requisitos Sector
 
@@ -503,19 +514,20 @@ Requisitos Sector
        * - Código
          - Numérico
        * - Permiso_Sanidad
-         - Cadena
+         - Binario
        * - Permiso_Ambiente
-         - Cadena
+         - Binario
        * - Permiso_Alcaldia
-         - Cadena
+         - Binario
        * - Permiso_Bomberos
-         - Cadena
+         - Binario
        * - Permiso_Sanidad
-         - Cadena
-       * - Permiso_Sanidad
-         - Cadena
-       * - Código_Crédito
+         - Binario
+       * - Permiso_Otro
+         - Binario
+       * - Código_Solicitud
          - Numérico
+
 
 .. index:: !Requisitos, Requisitos Garantía
 
@@ -554,8 +566,9 @@ Requisitos Garantía
          - Cadena
        * - Firma
          - Imagen
-       * - Código_Crédito
+       * - Código_Solicitud
          - Numérico
+
 
 .. index:: !Consejo Directivo
 
@@ -589,6 +602,7 @@ Consejo directivo
        * - Firma
          - Imagen
 
+
 .. index:: !Control Previo
 
 Control Previo
@@ -604,14 +618,61 @@ Control Previo
          - Numérico
        * - Código_Analisis_Juridico
          - AlfaNumérico
-       * - Nro_Expediente
-         - Cadena
        * - Descripcion_Garantía
          - Cadena
        * - Estatus_Analisis_Juridico
          - Cadena
-       * - Código_Crédito
+       * - Observaciones
+         - Cadena
+       * - Código_Solicitud
          - Numérico
+
+
+.. index:: !Avaluo
+
+Avaluos
+-------
+
+    .. list-table::
+       :widths: 40 70
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+       * - Código
+         - Numérico
+       * - Descripcion_Garantía
+         - Cadena
+       * - Observaciones
+         - Cadena
+       * - Código_Solicitud
+         - Numérico
+
+
+.. index:: !Fotografias
+
+Fotografias Avaluos
+-------------------
+
+    .. list-table::
+       :widths: 40 70
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+       * - Código
+         - Numérico
+       * - Foto
+         - Binario
+       * - Descripción
+         - Cadena
+       * - Observaciones
+         - Cadena
+       * - Fecha_captura
+         - Fecha
+       * - Código_Avaluo
+         - Numérico
+
 
 .. index:: !Inspecciones
 
@@ -626,8 +687,6 @@ Inspecciones
          - | Tipo de dato
        * - Código
          - Numérico
-       * - Nro_Expediente
-         - AlfaNumérico
        * - Tiempo_Funcionamiento
          - Numérico
        * - Cantidad_Productos
@@ -638,7 +697,7 @@ Inspecciones
          - Cadena
        * - Clientes
          - Cadena
-       * - Distribucio_Espacio_Fisico
+       * - Distribucion_Espacio_Fisico
          - Cadena
        * - Condición_Fisica_Sanitaria
          - Cadena
@@ -648,10 +707,34 @@ Inspecciones
          - Cadena
        * - Observaciones
          - Cadena
-       * - Firma
-         - Imagen
-       * - Código_Crédito
+       * - Código_Solicitud
          - Numérico
+
+
+.. index:: !Fotografias
+
+Fotografias Inspecciones
+------------------------
+
+    .. list-table::
+       :widths: 40 70
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+       * - Código
+         - Numérico
+       * - Foto
+         - Binario
+       * - Descripción
+         - Cadena
+       * - Observaciones
+         - Cadena
+       * - Fecha_captura
+         - Fecha
+       * - Código_Inspección
+         - Numérico
+
 
 .. index:: !Informes Técnicos
 
@@ -666,8 +749,6 @@ Informes Técnicos
          - | Tipo de dato
        * - Código
          - Numérico
-       * - Nro_Expediente
-         - AlfaNumérico
        * - Fecha_Elaboracion
          - Fecha
        * - Tipo_Empresa
@@ -678,12 +759,9 @@ Informes Técnicos
          - Cadena
        * - Recomendaciones
          - Cadena
-       * - Firma
-         - Imagen
-       * - Informe_Fotografico_Inspeccion
-         - Imagen
-       * - Código_Crédito
+       * - Código_Solicitud
          - Numérico
+
 
 .. index:: !Pagos, Caja
 
@@ -709,10 +787,11 @@ Pagos
        * - Código_Crédito
          - Numérico
 
-.. index:: !Créditos
 
-Créditos
---------
+.. index:: !Propuestas
+
+Propuestas
+----------
 
       .. list-table::
        :widths: 40 70
@@ -722,23 +801,39 @@ Créditos
          - | Tipo de dato
        * - Código
          - Numérico
-       * - Nro_Expediente
-         - AlfaNumérico
+       * - Sector
+         - Numérico
        * - Código_Solicitante
          - Numérico
        * - Código_UnidadProductiva
          - Numérico
        * - Código_Taller
          - Numérico
+
+
+.. index:: !Solicitudes
+
+Solicitudes
+-----------
+
+      .. list-table::
+       :widths: 40 70
+       :header-rows: 1
+
+       * - | Campo
+         - | Tipo de dato
+       * - Código
+         - Numérico
+       * - Numero_expediente
+         - Alfanumérico
        * - Código_Consejo
          - Numérico
-       * - Código_EstadosCuentas
-         - Numérico
 
-.. index:: !Estados de Cuenta, Créditos
 
-Estados Cuentas
----------------
+.. index:: !Créditos, Estados de Cuenta
+
+Créditos
+--------
 
       .. list-table::
        :widths: 40 70
@@ -764,4 +859,12 @@ Estados Cuentas
          - Fecha
        * - Fecha_ultima
          - Fecha
+
+
+
+
+
+
+
+
 
