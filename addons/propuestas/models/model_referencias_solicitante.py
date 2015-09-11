@@ -6,7 +6,7 @@ from openerp import models, fields, api
 class ReferenciasSolicitantes(models.Model):
     _name = 'propuestas.referencias_solicitantes'
 
-    propuesta_id = fields.One2many('propuestas.propuestas', string="Propuesta")
+    propuesta_id = fields.One2many('propuestas.propuestas', "referencias_sol_id", string="Propuesta")
     codigo_referencias = fields.Char(string='Código de las Referencias', required=True)
     nombres = fields.Char(string='Nombres del Avalista', required=True)
     apellidos = fields.Char(string='Apellidos del Avalista', required=True)

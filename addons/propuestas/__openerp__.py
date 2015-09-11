@@ -3,20 +3,23 @@
     'name': "propuestas",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Este módulo abarca los procesos de Recepción de propuestas""",
 
     'description': """
-        Long description of module's purpose
+Módulo de Gestión de Propuestas
+=================================
+
+        Este módulo abarca los procesos de 'Recepción de propuestas'. Incluye procedimientos asociados con la recepción y
+validación de la propuesta de financiamiento y la inclusión de los solicitantes a las listas de los talleres de inducción.
     """,
 
-    'author': "Your Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Cooperativa Saní Tecnologías Comunes",
+    'website': "http://sani.org.ve",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
     # for the full list
-    'category': 'Uncategorized',
+    'category': 'Management',
     'version': '0.1',
 
     # any module necessary for this one to work correctly

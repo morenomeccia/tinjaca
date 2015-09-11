@@ -6,8 +6,8 @@
         Módulo de Gestión de visitantes a la recepción""",
 
     'description': """
-Módulo de Gestión de visitantes a la recepción
-==============================================
+Módulo de Gestión de visitantes a Recepción
+===========================================
 
 Registra las visitas a FOMDES especificando la fecha y la dependencia destino.
 
@@ -20,7 +20,7 @@ Genera como reportes visitas por rangos de fechas y por dependencia.
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
     # for the full list
-    'category': 'Visitas',
+    'category': 'CRM',
     'version': '0.1',
 
     # any module necessary for this one to work correctly

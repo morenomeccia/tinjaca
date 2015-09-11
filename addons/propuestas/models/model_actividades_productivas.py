@@ -6,6 +6,7 @@ from openerp import models, fields, api
 class ActividadProductiva(models.Model):
     _name = 'propuestas.actividad_productiva'
 
+    propuesta_id = fields.One2many('propuestas.propuestas', "actividad_prod_id", string="Propuesta")
     codigo_ap = fields.Char(string='Código de la Actividad Productiva', required=True)
     producto_derivado = fields.Char(string='Productos Derivados de la Actividad', required=True)
     materia_prima = fields.Char(string='Materia Prima a Utilizar', required=True)
