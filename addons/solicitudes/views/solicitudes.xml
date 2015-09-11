@@ -116,6 +116,42 @@
             </field>
         </record>
 
+        <!-- Creacion de la vista para mostrar el avaluo -->
+
+        <record model="ir.ui.view" id="vista_formulario_avaluo">
+            <field name="name">avaluo.form</field>
+            <field name="model">solicitudes.avaluo</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Avaluo">
+                    <sheet>
+                        <group>
+                            <field name="solicitudes_id"/>
+                            <field name="fecha_avaluo"/> 
+                            <field name="descripcion_inmueble"/> 
+                            <field name="valor_del_inmueble"/> 
+                            <field name="ubicacion_del_inmueble"/>
+                            <field name="linderos_del_inmueble"/> 
+                            <field name="caracteristicas_sector"/> 
+                            <field name="observaciones"/>
+                            <field name="foto_avaluo_id"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="vista_arbol_avaluos">
+            <field name="name">avaluo.tree</field>
+            <field name="model">solicitudes.avaluo</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Avaluos">
+                    <field name="solicitudes_id"/>
+                    <field name="fecha_avaluo"/>
+                </tree>
+            </field>
+        </record>
+
+
         <!-- Creacion de la vista para mostrar las inspecciones -->
 
         <record model="ir.ui.view" id="vista_formulario_inspeccciones">
@@ -151,7 +187,7 @@
         </record>
 
         <record model="ir.ui.view" id="vista_arbol_inspecciones">
-            <field name="name">inspeccion.tree</field>
+            <field name="name">inspecciones.tree</field>
             <field name="model">solicitudes.inspecciones</field>
             <field name="arch" type="xml">
                 <tree string="Listado Inspecciones">
@@ -160,6 +196,7 @@
                 </tree>
             </field>
         </record>
+
 
         <!-- Creacion de la vista para mostrar el informe tecnico -->
 
@@ -221,6 +258,18 @@
             </field>
         </record>
 
+        <!-- Accion de ventana para las avaluo -->
+
+        <record model="ir.actions.act_window" id="accion_listar_avaluos">
+            <field name="name">Avaluo</field>
+            <field name="res_model">solicitudes.avaluo</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear avaluo</p>
+            </field>
+        </record>
+
         <!-- Accion de ventana para las inspecciones -->
 
         <record model="ir.actions.act_window" id="accion_listar_inspecciones">
@@ -272,11 +321,13 @@
         <!-- Entrada de menu para el modelo de Solicitudes -->
         <menuitem id="item_solicitudes_analisis_economico" name="Listar solicitudes" parent="menu_solicitudes_analisis_economico" action="accion_listar_solicitudes"/>
         <!-- Submenu para Analisis Economico -->
-        <menuitem id="menu_economico" name="Inspecciones" parent="menu_principal_analisis_economico"/>
-        <!-- Entrada de menu para el modelo de Inspecciones -->
-        <menuitem id="item_inspecciones" name="Listar Inspecciones" parent="menu_economico" action="accion_listar_inspecciones"/>
-        <!-- Entrada de menu para el modelo de Informe Tecnico -->
-        <menuitem id="item_informe_tenico" name="Listar Informes tecnicos" parent="menu_economico" action="accion_listar_informes_tecnicos"/>
+        <menuitem id="menu_avaluo" name="Avaluos" parent="menu_principal_analisis_economico"/>
+        <menuitem id="menu_inspeccion" name="Inspecciones" parent="menu_principal_analisis_economico"/>
+        <menuitem id="menu_informe_tecnico" name="Informe tecnico" parent="menu_principal_analisis_economico"/>
+        <!-- Entrada de menu para Analisis economico -->
+        <menuitem id="item_avaluos" name="Listar Avaluos" parent="menu_avaluo" action="accion_listar_avaluos"/>
+        <menuitem id="item_inspecciones" name="Listar Inspecciones" parent="menu_inspeccion" action="accion_listar_inspecciones"/>
+        <menuitem id="item_informe_tenico" name="Listar Informes tecnicos" parent="menu_informe_tecnico" action="accion_listar_informes_tecnicos"/>
 
         <!-- top level menu: no parent -->
         <menuitem id="menu_principal_gerencia_credito" name="Gerencia de Credito"/>

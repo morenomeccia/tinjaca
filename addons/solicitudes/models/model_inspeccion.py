@@ -8,6 +8,7 @@ class Inspecciones(models.Model):
     _rec_name = 'fecha_inspeccion'
 
     solicitudes_id = fields.Many2one('solicitudes.solicitudes', string="Número de expediente")
+    foto_inspeccion_id = fields.One2many('solicitudes.fotografia_inspeccion', 'inspecciones_id', string="Fotografia de la inspeccion")
 
     fecha_inspeccion = fields.Date(string='Fecha de inspeccion', required=True)
     tiempo_funcionamiento = fields.Float(string='Tiempo de funcionamiento', required=True)
@@ -23,8 +24,7 @@ class Inspecciones(models.Model):
     resultados_inspeccion = fields.Char(string='Resultados del avaluo')
     viabilidad_unidad_de_produccion = fields.Boolean(string='La unidad de produccion es viable')
     
-    foto_inspeccion_id = fields.One2many('solicitudes.fotografia_inspeccion', 'inspecciones_id', string="Fotografia de la inspeccion")
-    
+
 
 
 
