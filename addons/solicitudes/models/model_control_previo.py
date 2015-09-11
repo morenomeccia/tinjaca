@@ -8,6 +8,5 @@ class controlPrevio(models.Model):
     codigo_analisis_juridico = fields.Char(string='Codigo de Analisis Juridico', required=True) # !!!
     nro_expediente = fields.Char(string='Numero de expediente', required=True) # !!!
     descripcion_garantia = fields.Char(string='Descripcion de la garantia', required=True)
-    #estatus_analisis_juridico = fields.Char(string='Estatus en analisis juridico', required=True)
     estatus_analisis_juridico = fields.Selection(string='Estatus en analisis juridico', selection=[('1', 'Cumple'), ('2', 'No cumple'), ('3', 'Cumple condicionado')])
     codigo_credito = fields.Integer(string='Codigo del credito', required=True)
