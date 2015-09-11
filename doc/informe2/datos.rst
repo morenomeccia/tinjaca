@@ -641,7 +641,17 @@ Avaluos
          - | Tipo de dato
        * - Código
          - Numérico
-       * - Descripcion_Garantía
+       * - Fecha_avaluo
+         - Fecha
+       * - Descripcion_inmueble
+         - Cadena
+       * - Valor_inmueble
+         - Numerico
+       * - Ubicacion_inmueble
+         - Cadena
+       * - Linderos_inmueble
+         - Cadena
+       * - Caracteristicas_sector
          - Cadena
        * - Observaciones
          - Cadena
@@ -687,6 +697,8 @@ Inspecciones
          - | Tipo de dato
        * - Código
          - Numérico
+       * - Fecha_inspeccion
+         - Fecha
        * - Tiempo_Funcionamiento
          - Numérico
        * - Cantidad_Productos
