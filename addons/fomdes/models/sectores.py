@@ -7,10 +7,5 @@ class Sectores(models.Model):
 
     _rec_name = 'sector'
     
-    sector = fields.Selection(string='Sector', selection=[('agricola', 'A - Agricola'),
-                                                           ('turismo', 'T - Turismo'),
-                                                           ('artesanal', 'AR - Artesanal'),
-                                                           ('cyt', 'CyT - Ciencia y Tecnologia'),
-                                                           ('pyme', 'PyME - Pequena y Mediana Empresa'),
-                                                           ('pymi', 'PyMI - Pequena y Mediana Industria'),
-                                                           ('microempresa', 'MEMP - Microempresa')])
+    sector = fields.Char(string='Sector', required=True)
+    habilitado = fields.Boolean(string='Habilitado')

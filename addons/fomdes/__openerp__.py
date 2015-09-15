@@ -25,6 +25,7 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
+        'data/fomdes.sectores.csv'
         'templates.xml',
     ],
     # only loaded in demonstration mode
