@@ -1,0 +1,8 @@
+"id","sector","habilitado"
+'agricola','A - Agricola',True
+'turismo','T - Turismo',True
+'artesanal','AR - Artesanal',True
+'cyt','CyT - Ciencia y Tecnologia',True
+'pyme','PyME - Pequena y Mediana Empresa',True
+'pymi','PyMI - Pequena y Mediana Industria',True
+'microempresa','MEMP - Microempresa',True
