@@ -55,6 +55,8 @@ source /usr/local/bin/virtualenvwrapper.sh
 ## desde la carpeta ~/proyecto
 mkproject -f odoo
 
+REVISADO HASTA AQUI
+
 ## Si ya está creado
 workon odoo
 
