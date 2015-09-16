@@ -19,7 +19,14 @@ class Solicitudes(models.Model):
                                                            ('2', 'Analisis juridico'),
                                                            ('3', 'Analisis economico'),
                                                            ('4', 'Gerencia de credito')], default='1')
-
+    monto_total = fields.Float(string='Monto total') 
+    plazo_pago = fields.Integer(string='Periodo de pago')
+    periodos_gracia = fields.Integer(string='Periodo de gracia')
+    tasa_interes = fields.Float(string='Tasa de interes')
+    tasa_mora = fields.Float(string='Tasa de mora')
+    #monto_cuota = fields.Float(string='Monto de la cuota') #calculado
+    comision_flat = fields.Float(string='Comision FLAT')
+    aporte_social = fields.Float(string='Aporte social')
 
     requisitos_generales_id = fields.One2many('solicitudes.requisitos_generales', 'solicitudes_id', string="Requisitos generales")
     requisitos_sector_id = fields.One2many('solicitudes.requisitos_sector', 'solicitudes_id', string="Requisitos sector")
