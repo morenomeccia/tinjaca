@@ -29,7 +29,7 @@
         'templates.xml',
         'views/solicitudes.xml',
         'views/solicitudes_workflow.xml',
-        'data/data_documentos_sector.xml',
+        'data/solicitudes.documentos_sector.csv',
     ],
     # only loaded in demonstration mode
     'demo': [
