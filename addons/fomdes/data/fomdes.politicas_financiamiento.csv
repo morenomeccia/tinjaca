@@ -1,0 +1,9 @@
+"id","sector_id","tasa_interes_promocional","tasa_interes_establecida","tasa_mora","comision_flat","aporte_social","plazo_maximo","monto_maximo","monto_minimo"
+montos0,'agricola',6,6,3,2.5,1.5,36,1200000,20000
+montos1,'turismo',9,16,3,2.5,1.5,60,1200000,20000
+montos2,'artesanal',8,12,3,2.5,1.5,36,1200000,20000
+montos3,'cyt',6,6,3,2.5,1.5,36,1200000,20000
+montos4,'pyme',12,14,3,2.5,1.5,36,1200000,20000
+montos5,'pymi',12,14,3,2.5,1.5,36,1200000,20000
+montos6,'microempresa',8,12,3,2.5,1.5,36,1200000,20000
+montos7,'cooperativa',6,6,3,2.5,1.5,36,1200000,20000
