@@ -37,6 +37,12 @@
                                     <field name="valido"/>
                                 </tree>
                             </field>
+                            <field name="requisitos_garantia_id">
+                                <tree string="Requisitos garantia">
+                                    <field name="documentos_garantia_id"/>
+                                    <field name="valido"/>
+                                </tree>
+                            </field>
                             <field name="control_previo_id"/>
                             <field name="avaluo_id"/>
                             <field name="inspeccion_id"/>
@@ -90,6 +96,26 @@
                             <field name="sector2"/>
                             <field name="documentos_sector_id"/>
                             <!-- <field name="documentos_sector_id" domain="[('sector','ilike','sector2')]"/> -->
+                            <field name="documento"/>
+                            <field name="observaciones"/>
+                            <field name="valido"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+         <!-- Creacion de la vista para mostrar requisitos garantia -->
+
+        <record model="ir.ui.view" id="vista_formulario_requisitos_garantia">
+            <field name="name">requisitos_garantia.form</field>
+            <field name="model">solicitudes.requisitos_garantia</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Requisitos Garantia">
+                    <sheet>
+                        <group>
+                            <field name="solicitudes_id"/>
+                            <field name="documentos_garantia_id"/>
                             <field name="documento"/>
                             <field name="observaciones"/>
                             <field name="valido"/>

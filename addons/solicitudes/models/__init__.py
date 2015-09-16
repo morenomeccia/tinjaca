@@ -4,6 +4,8 @@ import model_solicitudes
 import model_requisitos_generales
 import model_documentos_sector
 import model_requisitos_sector
+import model_documentos_garantia
+import model_requisitos_garantia
 import model_control_previo
 import model_inspeccion
 import model_informe_tecnico
