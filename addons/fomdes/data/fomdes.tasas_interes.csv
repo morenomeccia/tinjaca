@@ -1,0 +1,9 @@
+"id","sector_id","porcentaje_promocional","porcentaje_establecido","tasa_mora","comision_flat","aporte social"
+tasa0,'agricola',6,6,3,2.5,1.5
+tasa1,'turismo',9,16,3,2.5,1.5
+tasa2,'artesanal',8,12,3,2.5,1.5
+tasa3,'cyt',6,6,3,2.5,1.5
+tasa4,'pyme',12,14,3,2.5,1.5
+tasa5,'pymi',12,14,3,2.5,1.5
+tasa6,'microempresa',8,12,3,2.5,1.5
+tasa7,'cooperativa',6,6,3,2.5,1.5
