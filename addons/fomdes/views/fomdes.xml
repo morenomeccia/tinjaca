@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+
+        <!-- Creacion de la vista para mostrar las politicas de financiamiento -->
+
+        <record model="ir.ui.view" id="vista_formulario_politicas">
+            <field name="name">politicas_financiamiento.form</field>
+            <field name="model">fomdes.politicas_financiamiento</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Politicas de financiamiento">
+                    <sheet>
+                        <group>
+                            <field name="sector_id"/>
+                            <field name="tasa_interes_promocional"/>
+                            <field name="tasa_interes_establecida"/>
+                            <field name="tasa_mora"/>
+                            <field name="comision_flat"/>
+                            <field name="aporte_social"/>
+                            <field name="plazo_maximo"/>
+                            <field name="monto_maximo"/>
+                            <field name="monto_minimo"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="vista_politicas">
+            <field name="name">politicas_financiamiento.tree</field>
+            <field name="model">fomdes.politicas_financiamiento</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Politicas de financiamiento">
+                    <field name="sector_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Accion de ventana para politicas de financiamiento -->
+
+        <record model="ir.actions.act_window" id="accion_listar_politicas">
+            <field name="name">Politicas de financiamiento</field>
+            <field name="res_model">fomdes.politicas_financiamiento</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Modificar politicas de financiamiento</p>
+            </field>
+        </record>
+
+
+        <!-- top level menu: no parent -->
+        <menuitem id="menu_principal_politicas_fomdes" name="Politicas FOMDES"/>
+        <!-- Submenu para politicas -->
+        <menuitem id="menu_politicas_fomdes" name="Politicas FOMDES" parent="menu_principal_politicas_fomdes"/>
+        <!-- Entrada de menu para el modelo de politicas del FOMDES -->
+        <menuitem id="item_solicitudes_politicas" name="Ver politicas del FOMDES" parent="menu_politicas_fomdes" action="accion_listar_politicas"/>
+
+    </data>
+</openerp>
+

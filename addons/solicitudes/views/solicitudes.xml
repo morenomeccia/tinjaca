@@ -298,7 +298,7 @@
             </field>
         </record>
 
-        <!-- Accion de ventana para las avaluo -->
+        <!-- Accion de ventana para el avaluo -->
 
         <record model="ir.actions.act_window" id="accion_listar_avaluos">
             <field name="name">Avaluo</field>

@@ -25,9 +25,10 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'data/fomdes.sectores.csv'
-        'data/fomdes.tasas_interes.csv'
-        'templates.xml',
+        'views/fomdes.xml',
+        'data/fomdes.sectores.csv',
+        #'data/fomdes.politicas_financiamiento.csv',
+        'templates.xml'
     ],
     # only loaded in demonstration mode
     'demo': [
