@@ -93,9 +93,8 @@
                     <sheet>
                         <group>
                             <field name="solicitudes_id"/>
-                            <field name="sector2"/>
-                            <field name="documentos_sector_id"/>
-                            <!-- <field name="documentos_sector_id" domain="[('sector','ilike','sector2')]"/> -->
+                            <field name="sector_solicitud"/>
+                            <field name="documentos_sector_id" domain="[('sector','ilike',sector_solicitud)]"/>
                             <field name="documento"/>
                             <field name="observaciones"/>
                             <field name="valido"/>
