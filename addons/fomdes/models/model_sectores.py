@@ -9,3 +9,4 @@ class Sectores(models.Model):
     
     sector = fields.Char(string='Sector', required=True)
     habilitado = fields.Boolean(string='Habilitado')
+

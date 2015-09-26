@@ -1,2 +1,6 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_fomdes_fomdes,fomdes.fomdes,model_fomdes_fomdes,,1,0,0,0
+access_politicas_financiamiento_gerente_credito,fomdes.politicas_financiamiento,model_fomdes_politicas_financiamiento,solicitudes.gerente_credito,1,1,1,1
+access_sectores_gerente_credito,fomdes.sectores,model_fomdes_sectores,solicitudes.gerente_credito,1,1,1,1
+
+
+
