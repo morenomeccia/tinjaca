@@ -334,27 +334,26 @@
         </record>
 
         <!-- top level menu: no parent -->
-        <menuitem id="menu_principal_informacion_credito" name="Informacion de Credito"/>
+        <menuitem id="menu_principal_informacion_credito" name="Informacion de Credito" groups="analista_credito"/>
         <!-- Submenu para Solicitudes -->
         <menuitem id="menu_solicitudes_informacion_credito" name="Solicitudes" parent="menu_principal_informacion_credito"/>
         <!-- Entrada de menu para el modelo de Solicitudes -->
         <menuitem id="item_solicitudes_informacion_credito" name="Listar solicitudes" parent="menu_solicitudes_informacion_credito" action="accion_listar_solicitudes"/>
 
         <!-- top level menu: no parent -->
-        <menuitem id="menu_principal_analisis_juridico" name="Analisis Juridico"/>
+        <menuitem id="menu_principal_analisis_juridico" name="Analisis Juridico" groups="analista_juridico"/>
         <!-- Submenu para Solicitudes -->
         <menuitem id="menu_solicitudes_analisis_juridico" name="Solicitudes" parent="menu_principal_analisis_juridico"/>
         <!-- Entrada de menu para el modelo de Solicitudes -->
         <menuitem id="item_solicitudes_analisis_juridico" name="Listar solicitudes" parent="menu_solicitudes_analisis_juridico" action="accion_listar_solicitudes"/>
         <!-- Submenu para Analisis Juridico -->
-        <menuitem id="menu_solicitudes" name="Solicitudes" parent="menu_principal_analisis_juridico"/>
         <menuitem id="menu_juridico" name="Garantias" parent="menu_principal_analisis_juridico"/>
         <!-- Entrada de menu para el modelo de Control Previo -->
         <menuitem id="item_control_previo" name="Listar Controles Previos" parent="menu_juridico" action="accion_listar_controles_previos"/>
 
 
         <!-- top level menu: no parent -->
-        <menuitem id="menu_principal_analisis_economico" name="Analisis Economico"/>
+        <menuitem id="menu_principal_analisis_economico" name="Analisis Economico" groups="analista_economico"/>
         <!-- Submenu para Solicitudes -->
         <menuitem id="menu_solicitudes_analisis_economico" name="Solicitudes" parent="menu_principal_analisis_economico"/>
         <!-- Entrada de menu para el modelo de Solicitudes -->
@@ -369,7 +368,7 @@
         <menuitem id="item_informe_tenico" name="Listar Informes tecnicos" parent="menu_informe_tecnico" action="accion_listar_informes_tecnicos"/>
 
         <!-- top level menu: no parent -->
-        <menuitem id="menu_principal_gerencia_credito" name="Gerencia de Credito"/>
+        <menuitem id="menu_principal_gerencia_credito" name="Gerencia de Credito" groups="gerente_credito"/>
         <!-- Submenu para Solicitudes -->
         <menuitem id="menu_solicitudes_gerencia_credito" name="Solicitudes" parent="menu_principal_gerencia_credito"/>
         <!-- Entrada de menu para el modelo de Solicitudes -->
