@@ -27,7 +27,7 @@
         'security/ir.model.access.csv',
         'views/fomdes.xml',
         'data/fomdes.sectores.csv',
-        #'data/fomdes.politicas_financiamiento.csv',
+        'data/fomdes.politicas_financiamiento.csv',
         'templates.xml'
     ],
     # only loaded in demonstration mode
