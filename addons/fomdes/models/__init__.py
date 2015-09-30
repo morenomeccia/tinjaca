@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import model_sectores
-import model_politicas_financiamiento
-
-
-
-
+import sectores
+import politicas_financiamiento
 

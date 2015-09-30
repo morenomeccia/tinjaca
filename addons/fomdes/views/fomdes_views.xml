@@ -4,7 +4,7 @@
 
         <!-- Creacion de la vista para mostrar las politicas de financiamiento -->
 
-        <record model="ir.ui.view" id="vista_formulario_politicas">
+        <record id="politicas_financiamiento_view_form" model="ir.ui.view">
             <field name="name">politicas_financiamiento.form</field>
             <field name="model">fomdes.politicas_financiamiento</field>
             <field name="arch" type="xml">
@@ -26,7 +26,7 @@
             </field>
         </record>
 
-        <record model="ir.ui.view" id="vista_politicas">
+        <record id="politicas_financiamiento_view_tree" model="ir.ui.view">
             <field name="name">politicas_financiamiento.tree</field>
             <field name="model">fomdes.politicas_financiamiento</field>
             <field name="arch" type="xml">
@@ -38,7 +38,7 @@
 
         <!-- Accion de ventana para politicas de financiamiento -->
 
-        <record model="ir.actions.act_window" id="accion_listar_politicas">
+        <record id="listar_politicas_financiamiento_action" model="ir.actions.act_window">
             <field name="name">Politicas de financiamiento</field>
             <field name="res_model">fomdes.politicas_financiamiento</field>
             <field name="view_type">form</field>
@@ -50,11 +50,11 @@
 
 
         <!-- top level menu: no parent -->
-        <menuitem id="menu_principal_politicas_fomdes" name="Politicas FOMDES" groups='solicitudes.gerente_credito' />
+        <menuitem id="politicas_financiamiento_main_menu" name="Politicas FOMDES" groups='solicitudes.gerente_credito' />
         <!-- Submenu para politicas -->
-        <menuitem id="menu_politicas_fomdes" name="Politicas FOMDES" parent="menu_principal_politicas_fomdes"/>
+        <menuitem id="politicas_financiamiento_menu" name="Politicas FOMDES" parent="menu_principal_politicas_fomdes"/>
         <!-- Entrada de menu para el modelo de politicas del FOMDES -->
-        <menuitem id="item_solicitudes_politicas" name="Ver politicas del FOMDES" parent="menu_politicas_fomdes" action="accion_listar_politicas"/>
+        <menuitem id="politicas_financiamiento_menu_item" name="Ver politicas del FOMDES" parent="menu_politicas_fomdes" action="accion_listar_politicas"/>
 
     </data>
 </openerp>

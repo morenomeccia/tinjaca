@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 
-import model_solicitudes
-import model_requisitos_generales
-import model_documentos_sector
-import model_requisitos_sector
-import model_documentos_garantia
-import model_requisitos_garantia
-import model_control_previo
-import model_inspeccion
-import model_informe_tecnico
-import model_fotografia_inspeccion
-import model_avaluo
-import model_fotografia_avaluo
+import solicitudes
+import requisitos_generales
+import documentos_sector
+import requisitos_sector
+import documentos_garantia
+import requisitos_garantia
+import control_previo
+import inspecciones
+import informe_tecnico
+import fotografia_inspeccion
+import avaluo
+import fotografia_avaluo
 
 
 
