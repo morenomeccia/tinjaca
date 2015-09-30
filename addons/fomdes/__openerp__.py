@@ -20,14 +20,14 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base','solicitudes'],
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/fomdes.xml',
         'data/fomdes.sectores.csv',
-        #'data/fomdes.politicas_financiamiento.csv',
+        'data/fomdes.politicas_financiamiento.csv',
         'templates.xml'
     ],
     # only loaded in demonstration mode
