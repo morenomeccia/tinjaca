@@ -27,7 +27,7 @@
         'security/security.xml',
         'security/ir.model.access.csv',
         'templates.xml',
-        'views/solicitudes.xml',
+        'views/solicitudes_views.xml',
         'views/solicitudes_workflow.xml',
         'data/solicitudes.documentos_sector.csv',
         'data/solicitudes.documentos_garantia.csv',
