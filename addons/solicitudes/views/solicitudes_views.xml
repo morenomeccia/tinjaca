@@ -2,7 +2,7 @@
 <openerp>
     <data>
 
-        <!-- Creacion de la vista para mostrar solicitudes -->
+        <!-- Vistas para solicitudes -->
 
         <record model="ir.ui.view" id="vista_formulario_solicitudes">
             <field name="name">solicitudes.form</field>
@@ -63,7 +63,7 @@
             </field>
         </record>
 
-        <!-- Creacion de la vista para mostrar requisitos generales -->
+        <!-- Vistas para requisitos generales -->
 
         <record model="ir.ui.view" id="vista_formulario_requisitos_generales">
             <field name="name">requisitos_generales.form</field>
@@ -83,7 +83,7 @@
             </field>
         </record>
 
-        <!-- Creacion de la vista para mostrar requisitos sector -->
+        <!-- Vistas para requisitos sector -->
 
         <record model="ir.ui.view" id="vista_formulario_requisitos_sector">
             <field name="name">requisitos_sector.form</field>
@@ -104,7 +104,7 @@
             </field>
         </record>
 
-         <!-- Creacion de la vista para mostrar requisitos garantia -->
+         <!-- Vistas para requisitos garantia -->
 
         <record model="ir.ui.view" id="vista_formulario_requisitos_garantia">
             <field name="name">requisitos_garantia.form</field>
@@ -124,7 +124,7 @@
             </field>
         </record>
 
-        <!-- Creacion de la vista para mostrar control previo -->
+        <!-- Vistas para control previo -->
 
         <record model="ir.ui.view" id="vista_formulario_control_previo">
             <field name="name">control_previo.form</field>
@@ -155,7 +155,7 @@
             </field>
         </record>
 
-        <!-- Creacion de la vista para mostrar el avaluo -->
+        <!-- Vistas para avaluo -->
 
         <record model="ir.ui.view" id="vista_formulario_avaluo">
             <field name="name">avaluo.form</field>
@@ -191,7 +191,7 @@
         </record>
 
 
-        <!-- Creacion de la vista para mostrar las inspecciones -->
+        <!-- Vistas para inspecciones -->
 
         <record model="ir.ui.view" id="vista_formulario_inspeccciones">
             <field name="name">inspecciones.form</field>
@@ -237,7 +237,7 @@
         </record>
 
 
-        <!-- Creacion de la vista para mostrar el informe tecnico -->
+        <!-- Vistas para informe tecnico -->
 
         <record model="ir.ui.view" id="vista_formulario_informe_tecnico">
             <field name="name">informe_tecnico.form</field>
@@ -273,6 +273,9 @@
             </field>
         </record>
 
+
+
+
         <!-- Accion de ventana para solicitudes -->
 
         <record model="ir.actions.act_window" id="accion_listar_solicitudes">
@@ -297,7 +300,7 @@
             </field>
         </record>
 
-        <!-- Accion de ventana para el avaluo -->
+        <!-- Accion de ventana para avaluo -->
 
         <record model="ir.actions.act_window" id="accion_listar_avaluos">
             <field name="name">Avaluo</field>
@@ -309,7 +312,7 @@
             </field>
         </record>
 
-        <!-- Accion de ventana para las inspecciones -->
+        <!-- Accion de ventana para inspecciones -->
 
         <record model="ir.actions.act_window" id="accion_listar_inspecciones">
             <field name="name">Inspecciones</field>
@@ -321,7 +324,7 @@
             </field>
         </record>
 
-       <!-- Accion de ventana para el informe tecnico -->
+       <!-- Accion de ventana para informe tecnico -->
 
         <record model="ir.actions.act_window" id="accion_listar_informes_tecnicos">
             <field name="name">Informes Tecnicos</field>
@@ -333,47 +336,29 @@
             </field>
         </record>
 
-        <!-- top level menu: no parent -->
-        <menuitem id="menu_principal_informacion_credito" name="Informacion de Credito" groups="analista_credito"/>
-        <!-- Submenu para Solicitudes -->
-        <menuitem id="menu_solicitudes_informacion_credito" name="Solicitudes" parent="menu_principal_informacion_credito"/>
-        <!-- Entrada de menu para el modelo de Solicitudes -->
-        <menuitem id="item_solicitudes_informacion_credito" name="Listar solicitudes" parent="menu_solicitudes_informacion_credito" action="accion_listar_solicitudes"/>
 
-        <!-- top level menu: no parent -->
-        <menuitem id="menu_principal_analisis_juridico" name="Analisis Juridico" groups="analista_juridico"/>
+
+        <!-- Menu Solicitudes (top level menu: no parent) -->
+        <menuitem id="solicitudes_main_menu" name="Solicitudes" groups="analista_credito,analista_juridico,analista_economico,gerente_credito"/>
+
         <!-- Submenu para Solicitudes -->
-        <menuitem id="menu_solicitudes_analisis_juridico" name="Solicitudes" parent="menu_principal_analisis_juridico"/>
+        <menuitem id="solicitudes_menu" name="Solicitudes" parent="solicitudes_main_menu" groups="analista_credito,analista_juridico,analista_economico,gerente_credito"/>
         <!-- Entrada de menu para el modelo de Solicitudes -->
-        <menuitem id="item_solicitudes_analisis_juridico" name="Listar solicitudes" parent="menu_solicitudes_analisis_juridico" action="accion_listar_solicitudes"/>
+        <menuitem id="solicitudes_lista_menu" name="Listar solicitudes" parent="solicitudes_menu" action="accion_listar_solicitudes"/>
+
         <!-- Submenu para Analisis Juridico -->
-        <menuitem id="menu_juridico" name="Garantias" parent="menu_principal_analisis_juridico"/>
+        <menuitem id="analisis_juridico_menu" name="Analisis Juridico" parent="solicitudes_main_menu" groups="analista_juridico"/>
         <!-- Entrada de menu para el modelo de Control Previo -->
-        <menuitem id="item_control_previo" name="Listar Controles Previos" parent="menu_juridico" action="accion_listar_controles_previos"/>
+        <menuitem id="control_previo_lista_menu" name="Listar Controles Previos" parent="analisis_juridico_menu" action="accion_listar_controles_previos"/>
 
-
-        <!-- top level menu: no parent -->
-        <menuitem id="menu_principal_analisis_economico" name="Analisis Economico" groups="analista_economico"/>
-        <!-- Submenu para Solicitudes -->
-        <menuitem id="menu_solicitudes_analisis_economico" name="Solicitudes" parent="menu_principal_analisis_economico"/>
-        <!-- Entrada de menu para el modelo de Solicitudes -->
-        <menuitem id="item_solicitudes_analisis_economico" name="Listar solicitudes" parent="menu_solicitudes_analisis_economico" action="accion_listar_solicitudes"/>
         <!-- Submenu para Analisis Economico -->
-        <menuitem id="menu_avaluo" name="Avaluos" parent="menu_principal_analisis_economico"/>
-        <menuitem id="menu_inspeccion" name="Inspecciones" parent="menu_principal_analisis_economico"/>
-        <menuitem id="menu_informe_tecnico" name="Informe tecnico" parent="menu_principal_analisis_economico"/>
-        <!-- Entrada de menu para Analisis economico -->
-        <menuitem id="item_avaluos" name="Listar Avaluos" parent="menu_avaluo" action="accion_listar_avaluos"/>
-        <menuitem id="item_inspecciones" name="Listar Inspecciones" parent="menu_inspeccion" action="accion_listar_inspecciones"/>
-        <menuitem id="item_informe_tenico" name="Listar Informes tecnicos" parent="menu_informe_tecnico" action="accion_listar_informes_tecnicos"/>
-
-        <!-- top level menu: no parent -->
-        <menuitem id="menu_principal_gerencia_credito" name="Gerencia de Credito" groups="gerente_credito"/>
-        <!-- Submenu para Solicitudes -->
-        <menuitem id="menu_solicitudes_gerencia_credito" name="Solicitudes" parent="menu_principal_gerencia_credito"/>
-        <!-- Entrada de menu para el modelo de Solicitudes -->
-        <menuitem id="item_solicitudes_gerencia_credito" name="Listar solicitudes" parent="menu_solicitudes_gerencia_credito" action="accion_listar_solicitudes"/>
-
+        <menuitem id="analisis_economico_menu" name="Analisis Economico" parent="solicitudes_main_menu" groups="analista_economico"/>
+        <!-- Entrada de menu para el modelo de Avaluos -->
+        <menuitem id="avaluos_lista_menu" name="Listar Avaluos" parent="analisis_economico_menu" action="accion_listar_avaluos"/>
+        <!-- Entrada de menu para el modelo de Inspecciones -->
+        <menuitem id="inspecciones_lista_menu" name="Listar Inspecciones" parent="analisis_economico_menu" action="accion_listar_inspecciones"/>
+        <!-- Entrada de menu para el modelo de Informe Tecnico -->
+        <menuitem id="informe_tenico_lista_menu" name="Listar Informes tecnicos" parent="analisis_economico_menu" action="accion_listar_informes_tecnicos"/>
 
         <!-- Full id location:
              action="solicitudes.accion_listar_inspecciones"
