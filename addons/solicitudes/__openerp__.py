@@ -31,6 +31,7 @@
         'views/solicitudes_workflow.xml',
         'data/solicitudes.documentos_sector.csv',
         'data/solicitudes.documentos_garantia.csv',
+        'data/solicitudes.documentos_generales.csv',
     ],
     # only loaded in demonstration mode
     'demo': [

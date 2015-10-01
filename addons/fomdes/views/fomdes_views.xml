@@ -52,9 +52,9 @@
         <!-- top level menu: no parent -->
         <menuitem id="politicas_financiamiento_main_menu" name="Politicas FOMDES" groups='solicitudes.gerente_credito' />
         <!-- Submenu para politicas -->
-        <menuitem id="politicas_financiamiento_menu" name="Politicas FOMDES" parent="menu_principal_politicas_fomdes"/>
+        <menuitem id="politicas_financiamiento_menu" name="Politicas FOMDES" parent="politicas_financiamiento_main_menu"/>
         <!-- Entrada de menu para el modelo de politicas del FOMDES -->
-        <menuitem id="politicas_financiamiento_menu_item" name="Ver politicas del FOMDES" parent="menu_politicas_fomdes" action="accion_listar_politicas"/>
+        <menuitem id="politicas_financiamiento_menu_item" name="Ver politicas del FOMDES" parent="politicas_financiamiento_menu" action="listar_politicas_financiamiento_action"/>
 
     </data>
 </openerp>

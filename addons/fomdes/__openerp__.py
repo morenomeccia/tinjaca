@@ -25,7 +25,7 @@
     # always loaded
     'data': [
         'security/ir.model.access.csv',
-        'views/fomdes.xml',
+        'views/fomdes_views.xml',
         'data/fomdes.sectores.csv',
         'data/fomdes.politicas_financiamiento.csv',
         'templates.xml'
