@@ -130,6 +130,26 @@
             </field>
         </record>
 
+         <!-- Vistas para requisitos empresa -->
+
+        <record model="ir.ui.view" id="vista_formulario_requisitos_empresa">
+            <field name="name">requisitos_empresa.form</field>
+            <field name="model">solicitudes.requisitos_empresa</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Requisitos Empresa">
+                    <sheet>
+                        <group>
+                            <field name="solicitudes_id"/>
+                            <field name="documentos_empresa_id"/>
+                            <field name="documento"/>
+                            <field name="observaciones"/>
+                            <field name="valido"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
         <!-- Vistas para control previo -->
 
         <record model="ir.ui.view" id="vista_formulario_control_previo">
