@@ -27,7 +27,7 @@
                             <field name="sector"/>
                             <field name="requisitos_generales_id">
                                 <tree string="Requisitos Generales">
-                                    <field name="tipo_documento"/>
+                                    <field name="documentos_generales_id"/>
                                     <field name="valido"/>
                                 </tree>
                             </field>
@@ -73,7 +73,7 @@
                     <sheet>
                         <group>
                             <field name="solicitudes_id"/>
-                            <field name="tipo_documento"/>
+                            <field name="documentos_generales_id"/>
                             <field name="documento"/>
                             <field name="observaciones"/>
                             <field name="valido"/>
