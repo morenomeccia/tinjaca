@@ -32,6 +32,7 @@
         'data/solicitudes.documentos_sector.csv',
         'data/solicitudes.documentos_garantia.csv',
         'data/solicitudes.documentos_generales.csv',
+        'data/solicitudes.documentos_empresa.csv'
     ],
     # only loaded in demonstration mode
     'demo': [
