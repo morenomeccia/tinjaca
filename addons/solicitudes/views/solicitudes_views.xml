@@ -43,6 +43,12 @@
                                     <field name="valido"/>
                                 </tree>
                             </field>
+                            <field name="requisitos_empresa_id">
+                                <tree string="Requisitos empresa">
+                                    <field name="documentos_empresa_id"/>
+                                    <field name="valido"/>
+                                </tree>
+                            </field>
                             <field name="control_previo_id"/>
                             <field name="avaluo_id"/>
                             <field name="inspeccion_id"/>
