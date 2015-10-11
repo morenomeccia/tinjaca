@@ -4,9 +4,9 @@
 
         <!-- Creacion de la vista para mostrar las politicas de financiamiento -->
 
-        <record id="politicas_financiamiento_view_form" model="ir.ui.view">
-            <field name="name">politicas_financiamiento.form</field>
-            <field name="model">fomdes.politicas_financiamiento</field>
+        <record id="montos_view_form" model="ir.ui.view">
+            <field name="name">montos.form</field>
+            <field name="model">politicas.montos</field>
             <field name="arch" type="xml">
                 <form string="Formulario Politicas de financiamiento">
                     <sheet>
@@ -26,9 +26,9 @@
             </field>
         </record>
 
-        <record id="politicas_financiamiento_view_tree" model="ir.ui.view">
-            <field name="name">politicas_financiamiento.tree</field>
-            <field name="model">fomdes.politicas_financiamiento</field>
+        <record id="montos_view_tree" model="ir.ui.view">
+            <field name="name">montos.tree</field>
+            <field name="model">politicas.montos</field>
             <field name="arch" type="xml">
                 <tree string="Listado Politicas de financiamiento">
                     <field name="sector_id"/>
@@ -38,9 +38,9 @@
 
         <!-- Accion de ventana para politicas de financiamiento -->
 
-        <record id="listar_politicas_financiamiento_action" model="ir.actions.act_window">
+        <record id="listar_montos_action" model="ir.actions.act_window">
             <field name="name">Politicas de financiamiento</field>
-            <field name="res_model">fomdes.politicas_financiamiento</field>
+            <field name="res_model">politicas.montos</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -50,11 +50,11 @@
 
 
         <!-- top level menu: no parent -->
-        <menuitem id="politicas_financiamiento_main_menu" name="Politicas FOMDES" groups='solicitudes.gerente_credito' />
+        <menuitem id="montos_main_menu" name="Politicas FOMDES" groups='solicitudes.gerente_credito' />
         <!-- Submenu para politicas -->
-        <menuitem id="politicas_financiamiento_menu" name="Politicas FOMDES" parent="politicas_financiamiento_main_menu"/>
+        <menuitem id="montos_menu" name="Politicas FOMDES" parent="montos_main_menu"/>
         <!-- Entrada de menu para el modelo de politicas del FOMDES -->
-        <menuitem id="politicas_financiamiento_menu_item" name="Ver politicas del FOMDES" parent="politicas_financiamiento_menu" action="listar_politicas_financiamiento_action"/>
+        <menuitem id="montos_menu_item" name="Ver politicas del FOMDES" parent="montos_menu" action="listar_montos_action"/>
 
     </data>
 </openerp>

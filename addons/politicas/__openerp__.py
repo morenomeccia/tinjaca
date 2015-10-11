@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "fomdes",
+    'name': "politicas",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
@@ -20,14 +20,14 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','solicitudes'],
+    'depends': ['base'],
 
     # always loaded
     'data': [
         'security/ir.model.access.csv',
-        'views/fomdes_views.xml',
-        'data/fomdes.sectores.csv',
-        'data/fomdes.politicas_financiamiento.csv',
+        'views/politicas_views.xml',
+        'data/politicas.sectores.csv',
+        'data/politicas.montos.csv',
         'templates.xml'
     ],
     # only loaded in demonstration mode

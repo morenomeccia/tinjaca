@@ -3,7 +3,7 @@
 from openerp import models, fields, api
 
 class Sectores(models.Model):
-    _name = 'fomdes.sectores'
+    _name = 'politicas.sectores'
 
     _rec_name = 'sector'
     

@@ -2,12 +2,12 @@
 
 from openerp import models, fields, api
 
-class politicasFinanciamiento(models.Model):
-    _name = 'fomdes.politicas_financiamiento'
+class Montos(models.Model):
+    _name = 'politicas.montos'
 
     rec_name = "sector_id"    
 
-    sector_id = fields.Many2one('fomdes.sectores', string="Sector")
+    sector_id = fields.Many2one('politicas.sectores', string="Sector")
     tasa_interes_promocional = fields.Float(string='Tasa de interes empresa promocional')
     tasa_interes_establecida = fields.Float(string='Tasa de interes empresa establecida')
     tasa_mora = fields.Float(string='Tasa de mora')
