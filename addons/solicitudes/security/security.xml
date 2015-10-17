@@ -21,7 +21,7 @@
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="0"/>
             <field name="perm_unlink" eval="0" />
-            <field name="domain_force">[('state','=','2')]</field>
+            <field name="domain_force">[('state','=','1')]</field>
         </record>
         <record id="estacion_analisis_juridico" model="ir.rule">
             <field name="name">Solicitudes Analisis Juridico</field>
@@ -31,7 +31,7 @@
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="0"/>
             <field name="perm_unlink" eval="0" />
-            <field name="domain_force">[('state','=','3')]</field>
+            <field name="domain_force">[('state','=','2')]</field>
         </record>
         <record id="estacion_analisis_economico" model="ir.rule">
             <field name="name">Solicitudes Analisis Economico</field>
@@ -41,7 +41,7 @@
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="0"/>
             <field name="perm_unlink" eval="0" />
-            <field name="domain_force">[('state','=','4')]</field>
+            <field name="domain_force">[('state','=','3')]</field>
         </record>
         <record id="estacion_gerente_credito" model="ir.rule">
             <field name="name">Solicitudes Gerente Credito</field>
@@ -51,7 +51,7 @@
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="0"/>
             <field name="perm_unlink" eval="0" />
-            <field name="domain_force">[('state','=','5')]</field>
+            <field name="domain_force">[('state','=','4')]</field>
         </record>
     </data>
 </openerp>
