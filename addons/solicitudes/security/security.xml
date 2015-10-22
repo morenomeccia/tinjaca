@@ -1,22 +1,10 @@
 <openerp>
     <data>
-        <record id="analista_credito" model="res.groups">
-            <field name="name">Crédito / Analista de Crédito</field>
-        </record>
-        <record id="analista_juridico" model="res.groups">
-            <field name="name">Crédito / Analista Jurídico</field>
-        </record>
-        <record id="analista_economico" model="res.groups">
-            <field name="name">Crédito / Analista Económico</field>
-        </record>
-        <record id="gerente_credito" model="res.groups">
-            <field name="name">Crédito / Gerente de Crédito</field>
-        </record>
         <!-- Restricciones de datos -->
         <record id="estacion_analisis_credito" model="ir.rule">
             <field name="name">Solicitudes Analisis Credito</field>
             <field name="model_id" ref="model_solicitudes_solicitudes"/>
-            <field name="groups" eval="[(4, ref('solicitudes.analista_credito'))]"/>
+            <field name="groups" eval="[(4, ref('fomdes.analista_credito'))]"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="0"/>
@@ -26,7 +14,7 @@
         <record id="estacion_analisis_juridico" model="ir.rule">
             <field name="name">Solicitudes Analisis Juridico</field>
             <field name="model_id" ref="model_solicitudes_solicitudes"/>
-            <field name="groups" eval="[(4, ref('solicitudes.analista_juridico'))]"/>
+            <field name="groups" eval="[(4, ref('fomdes.analista_juridico'))]"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="0"/>
@@ -36,7 +24,7 @@
         <record id="estacion_analisis_economico" model="ir.rule">
             <field name="name">Solicitudes Analisis Economico</field>
             <field name="model_id" ref="model_solicitudes_solicitudes"/>
-            <field name="groups" eval="[(4, ref('solicitudes.analista_economico'))]"/>
+            <field name="groups" eval="[(4, ref('fomdes.analista_economico'))]"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="0"/>
@@ -46,7 +34,7 @@
         <record id="estacion_gerente_credito" model="ir.rule">
             <field name="name">Solicitudes Gerente Credito</field>
             <field name="model_id" ref="model_solicitudes_solicitudes"/>
-            <field name="groups" eval="[(4, ref('solicitudes.gerente_credito'))]"/>
+            <field name="groups" eval="[(4, ref('fomdes.gerente_credito'))]"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="0"/>
