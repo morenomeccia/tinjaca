@@ -20,7 +20,7 @@
     'version': '0.2',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base','fomdes','politicas'],
 
     # always loaded
     'data': [
@@ -29,10 +29,6 @@
         'templates.xml',
         'views/solicitudes_views.xml',
         'views/solicitudes_workflow.xml',
-        'data/solicitudes.documentos_sector.csv',
-        'data/solicitudes.documentos_garantia.csv',
-        'data/solicitudes.documentos_generales.csv',
-        'data/solicitudes.documentos_empresa.csv'
     ],
     # only loaded in demonstration mode
     'demo': [

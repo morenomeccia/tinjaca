@@ -20,7 +20,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base','fomdes'],
 
     # always loaded
     'data': [
@@ -28,6 +28,10 @@
         'views/politicas_views.xml',
         'data/politicas.sectores.csv',
         'data/politicas.montos.csv',
+        'data/politicas.documentos_generales.csv',
+        'data/politicas.documentos_sector.csv',
+        'data/politicas.documentos_garantia.csv',
+        'data/politicas.documentos_empresa.csv',
         'templates.xml'
     ],
     # only loaded in demonstration mode

@@ -50,7 +50,7 @@
 
 
         <!-- top level menu: no parent -->
-        <menuitem id="montos_main_menu" name="Politicas FOMDES" groups='solicitudes.gerente_credito' />
+        <menuitem id="montos_main_menu" name="Politicas FOMDES" groups='fomdes.gerente_credito' />
         <!-- Submenu para politicas -->
         <menuitem id="montos_menu" name="Politicas FOMDES" parent="montos_main_menu"/>
         <!-- Entrada de menu para el modelo de politicas del FOMDES -->

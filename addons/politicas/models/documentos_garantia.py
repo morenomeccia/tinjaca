@@ -3,7 +3,7 @@
 from openerp import models, fields, api
 
 class DocumentosGarantia(models.Model):
-    _name = 'solicitudes.documentos_garantia'
+    _name = 'politicas.documentos_garantia'
 
     _rec_name = 'tipo_documento'
 
