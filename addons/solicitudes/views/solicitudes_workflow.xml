@@ -6,44 +6,44 @@
             <field name="on_create">True</field>
         </record>
 
-        <record model="workflow.activity" id="act_informacion_credito">
+        <record model="workflow.activity" id="activity_informacion_credito">
             <field name="name">Informacion de Credito</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
-            <field name="action">action_informacion_credito()</field>
+            <field name="action">action_enviar_informacion_credito()</field>
         </record>
-        <record model="workflow.activity" id="act_analisis_juridico">
+        <record model="workflow.activity" id="activity_analisis_juridico">
             <field name="name">Analisis Juridico</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
-            <field name="action">action_analisis_juridico()</field>
+            <field name="action">action_enviar_analisis_juridico()</field>
         </record>
-        <record model="workflow.activity" id="act_analisis_economico">
+        <record model="workflow.activity" id="activity_analisis_economico">
             <field name="name">Analisis Economico</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
-            <field name="action">action_analisis_economico()</field>
+            <field name="action">action_enviar_analisis_economico()</field>
         </record>
-        <record model="workflow.activity" id="act_gerencia_credito">
+        <record model="workflow.activity" id="activity_gerencia_credito">
             <field name="name">Gerencia de Credito</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
-            <field name="action">action_gerencia_credito()</field>
+            <field name="action">action_enviar_gerencia_credito()</field>
         </record>
 
         <record model="workflow.transition" id="trans_solicitud_informacion_de_credito_a_analisis_juridico">
-            <field name="act_from" ref="act_informacion_credito"/>
-            <field name="act_to" ref="act_analisis_juridico"/>
+            <field name="act_from" ref="activity_informacion_credito"/>
+            <field name="act_to" ref="activity_analisis_juridico"/>
             <field name="signal">button_analisis_juridico</field>
         </record>
         <record model="workflow.transition" id="trans_solicitud_analisis_juridico_a_analisis_economico">
-            <field name="act_from" ref="act_analisis_juridico"/>
-            <field name="act_to" ref="act_analisis_economico"/>
+            <field name="act_from" ref="activity_analisis_juridico"/>
+            <field name="act_to" ref="activity_analisis_economico"/>
             <field name="signal">button_analisis_economico</field>
         </record>
         <record model="workflow.transition" id="trans_solicitud_analisis_economico_a_gerencia_de_credito">
-            <field name="act_from" ref="act_analisis_economico"/>
-            <field name="act_to" ref="act_gerencia_credito"/>
+            <field name="act_from" ref="activity_analisis_economico"/>
+            <field name="act_to" ref="activity_gerencia_credito"/>
             <field name="signal">button_gerencia_credito</field>
         </record>
     </data>

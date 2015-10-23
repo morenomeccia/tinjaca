@@ -15,10 +15,10 @@ class Solicitudes(models.Model):
                                                            ('pyme', 'PyME - Pequena y Mediana Empresa'),
                                                            ('pymi', 'PyMI - Pequena y Mediana Industria'),
                                                            ('microempresa', 'MEMP - Microempresa')])
-    state = fields.Selection(string='Estacion', selection=[('1', 'Informacion de credito'),
-                                                           ('2', 'Analisis juridico'),
-                                                           ('3', 'Analisis economico'),
-                                                           ('4', 'Gerencia de credito')], default='1')
+    state = fields.Selection(string='Estacion', selection=[('estacion_1_analisis_credito', 'Informacion de credito'),
+                                                           ('estacion_2_analisis_juridico', 'Analisis juridico'),
+                                                           ('estacion_3_analisis_economico', 'Analisis economico'),
+                                                           ('estacion_4_gerencia_credito', 'Gerencia de credito')], default='estacion_1_analisis_credito')
     monto_total = fields.Float(string='Monto total') 
     plazo_pago = fields.Integer(string='Periodo de pago')
     periodos_gracia = fields.Integer(string='Periodo de gracia')
@@ -38,20 +38,20 @@ class Solicitudes(models.Model):
     informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', 'solicitudes_id', string="Informe tecnico")
 
     @api.one
-    def action_informacion_credito(self):
-        self.state = '1'
+    def action_enviar_informacion_credito(self):
+        self.state = 'estacion_1_analisis_credito'
 
     @api.one
-    def action_analisis_juridico(self):
-        self.state = '2'
+    def action_enviar_analisis_juridico(self):
+        self.state = 'estacion_2_analisis_juridico'
 
     @api.one
-    def action_analisis_economico(self):
-        self.state = '3'
+    def action_enviar_analisis_economico(self):
+        self.state = 'estacion_3_analisis_economico'
 
     @api.one
-    def action_gerencia_credito(self):
-        self.state = '4'
+    def action_enviar_gerencia_credito(self):
+        self.state = 'estacion_4_gerencia_credito'
 
     # display_name = fields.Char(
     #     string='Número de expediente', compute='_compute_display_name',
