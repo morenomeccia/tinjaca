@@ -1,0 +1,16 @@
+<openerp>
+    <data>
+        <record id="analista_credito" model="res.groups">
+            <field name="name">Crédito / Analista de Crédito</field>
+        </record>
+        <record id="analista_juridico" model="res.groups">
+            <field name="name">Crédito / Analista Jurídico</field>
+        </record>
+        <record id="analista_economico" model="res.groups">
+            <field name="name">Crédito / Analista Económico</field>
+        </record>
+        <record id="gerente_credito" model="res.groups">
+            <field name="name">Crédito / Gerente de Crédito</field>
+        </record>
+    </data>
+</openerp>
