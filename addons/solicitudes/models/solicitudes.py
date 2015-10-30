@@ -27,6 +27,10 @@ class Solicitudes(models.Model):
     #monto_cuota = fields.Float(string='Monto de la cuota') #calculado
     comision_flat = fields.Float(string='Comision FLAT')
     aporte_social = fields.Float(string='Aporte social')
+	
+	estatus_decision_consejo_directivo = fields.Selection(string='Estatus', selection=[	('rechazado', 'rechazado'),
+                                                           								('aprobado', 'aprobado'),
+                                                           								('diferido', 'diferido') ] 
 
     requisitos_generales_id = fields.One2many('solicitudes.requisitos_generales', 'solicitudes_id', string="Requisitos generales")
     requisitos_sector_id = fields.One2many('solicitudes.requisitos_sector', 'solicitudes_id', string="Requisitos sector")
@@ -36,6 +40,8 @@ class Solicitudes(models.Model):
     avaluo_id = fields.One2many('solicitudes.inspecciones', 'solicitudes_id', string="Avaluo")
     inspeccion_id = fields.One2many('solicitudes.inspecciones', 'solicitudes_id', string="Inspeccion")
     informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', 'solicitudes_id', string="Informe tecnico")
+
+    consejo_directivo_ids = fields.Many2many('aprobacion.consejo_directivo', string="Número de expediente")
 
     @api.one
     def action_enviar_informacion_credito(self):
