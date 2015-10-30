@@ -44,17 +44,17 @@
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
-                <p class="oe_view_nocontent_create">Modificar politicas de financiamiento</p>
+                <p class="oe_view_nocontent_create">Crear Montos para Sector</p>
             </field>
         </record>
 
 
         <!-- top level menu: no parent -->
-        <menuitem id="montos_main_menu" name="Politicas FOMDES" groups='gerente_credito' />
-        <!-- Submenu para politicas -->
-        <menuitem id="montos_menu" name="Politicas FOMDES" parent="montos_main_menu"/>
-        <!-- Entrada de menu para el modelo de politicas del FOMDES -->
-        <menuitem id="montos_menu_item" name="Ver politicas del FOMDES" parent="montos_menu" action="listar_montos_action"/>
+        <menuitem id="politicas_menu" name="Politicas de Financiamiento" groups="fomdes.group_gerente_credito"/>
+        <!-- Submenu para montos -->
+        <menuitem id="montos_menu" name="Politicas Financiamiento" parent="politicas_menu"/>
+        <!-- Entrada de menu para el modelo de montos -->
+        <menuitem id="montos_lista_menu" name="Listar Montos" parent="montos_menu" action="listar_montos_action"/>
 
     </data>
 </openerp>

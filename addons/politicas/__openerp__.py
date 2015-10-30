@@ -20,11 +20,10 @@
     'version': '0.2',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['fomdes'],
 
     # always loaded
     'data': [
-        'security/groups.xml',
         'security/ir.model.access.csv',
         'views/politicas_views.xml',
         'data/politicas.sectores.csv',
