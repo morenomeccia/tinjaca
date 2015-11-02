@@ -10,7 +10,8 @@ class miembros(models.Model):
     nombre = fields.Char(string='Nombre', required=True)	
     apellido = fields.Char(string='Apellido', required=True)	
 
-    consejo_directivo_ids = fields.Many2many('aprobacion.consejo_directivo', string="Consejo directivo")
+    # referencias al modelo de consejo directivo
+    #consejos_ids = fields.Many2many('aprobacion.consejo', string="Consejo directivo")
 
 
 
