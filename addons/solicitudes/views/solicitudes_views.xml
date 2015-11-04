@@ -25,7 +25,6 @@
                         <group>
                             <field name="nro_expediente"/>
                             <field name="sector"/>
-                            <field name="state"/>
                             <field name="requisitos_generales_id">
                                 <tree string="Requisitos Generales">
                                     <field name="documentos_generales_id"/>

@@ -1,7 +1,7 @@
 <openerp>
     <data>
         <record model="workflow" id="wkf_solicitudes">
-            <field name="name">Solicitudes solicitudes workflow</field>
+            <field name="name">Evaluacion de Solicitudes</field>
             <field name="osv">solicitudes.solicitudes</field>
             <field name="on_create">True</field>
         </record>
@@ -9,6 +9,7 @@
         <record model="workflow.activity" id="activity_informacion_credito">
             <field name="name">Informacion de Credito</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="flow_start">True</field>
             <field name="kind">function</field>
             <field name="action">action_enviar_informacion_credito()</field>
         </record>
@@ -35,16 +36,19 @@
             <field name="act_from" ref="activity_informacion_credito"/>
             <field name="act_to" ref="activity_analisis_juridico"/>
             <field name="signal">button_analisis_juridico</field>
+            <field name="group_id" ref="analista_credito"/>
         </record>
         <record model="workflow.transition" id="trans_solicitud_analisis_juridico_a_analisis_economico">
             <field name="act_from" ref="activity_analisis_juridico"/>
             <field name="act_to" ref="activity_analisis_economico"/>
             <field name="signal">button_analisis_economico</field>
+            <field name="group_id" ref="analista_juridico"/>
         </record>
         <record model="workflow.transition" id="trans_solicitud_analisis_economico_a_gerencia_de_credito">
             <field name="act_from" ref="activity_analisis_economico"/>
             <field name="act_to" ref="activity_gerencia_credito"/>
             <field name="signal">button_gerencia_credito</field>
+            <field name="group_id" ref="analista_economico"/>
         </record>
     </data>
 </openerp>
