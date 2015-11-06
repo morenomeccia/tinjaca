@@ -49,17 +49,17 @@
                                     <field name="valido"/>
                                 </tree>
                             </field>
-                            <field name="control_previo_id" groups="fomdes.groups_analista_juridico,fomdes.groups_analista_economico"/>
-                            <field name="avaluo_id" groups="fomdes.groups_analista_economico"/>
-                            <field name="inspeccion_id" groups="fomdes.groups_analista_economico"/>
-                            <field name="informe_tecnico_id" groups="fomdes.groups_analista_economico"/>
-                            <field name="monto_total" groups="fomdes.groups_analista_economico"/>
-                            <field name="plazo_pago" groups="fomdes.groups_analista_economico"/>
-                            <field name="periodos_gracia" groups="fomdes.groups_analista_economico"/>
-                            <field name="tasa_interes" groups="fomdes.groups_analista_economico"/>
-                            <field name="tasa_mora" groups="fomdes.groups_analista_economico"/>
-                            <field name="comision_flat" groups="fomdes.groups_analista_economico"/>
-                            <field name="aporte_social" groups="fomdes.groups_analista_economico"/>
+                            <field name="control_previo_id" groups="fomdes.group_analista_juridico,fomdes.group_analista_economico"/>
+                            <field name="avaluo_id" groups="fomdes.group_analista_economico"/>
+                            <field name="inspeccion_id" groups="fomdes.group_analista_economico"/>
+                            <field name="informe_tecnico_id" groups="fomdes.group_analista_economico"/>
+                            <field name="monto_total" groups="fomdes.group_analista_economico"/>
+                            <field name="plazo_pago" groups="fomdes.group_analista_economico"/>
+                            <field name="periodos_gracia" groups="fomdes.group_analista_economico"/>
+                            <field name="tasa_interes" groups="fomdes.group_analista_economico"/>
+                            <field name="tasa_mora" groups="fomdes.group_analista_economico"/>
+                            <field name="comision_flat" groups="fomdes.group_analista_economico"/>
+                            <field name="aporte_social" groups="fomdes.group_analista_economico"/>
                         </group>
                     </sheet>
                 </form>
@@ -372,20 +372,20 @@
 
 
         <!-- Menu Solicitudes (top level menu: no parent) -->
-        <menuitem id="solicitudes_main_menu" name="Solicitudes" groups="analista_credito,analista_juridico,analista_economico,gerente_credito"/>
+        <menuitem id="solicitudes_main_menu" name="Solicitudes" groups="fomdes.group_analista_credito,fomdes.group_analista_juridico,fomdes.group_analista_economico,fomdes.group_gerente_credito"/>
 
         <!-- Submenu para Solicitudes -->
-        <menuitem id="solicitudes_menu" name="Solicitudes" parent="solicitudes_main_menu" groups="analista_credito,analista_juridico,analista_economico,gerente_credito"/>
+        <menuitem id="solicitudes_menu" name="Solicitudes" parent="solicitudes_main_menu" groups="fomdes.group_analista_credito,fomdes.group_analista_juridico,fomdes.group_analista_economico,fomdes.group_gerente_credito"/>
         <!-- Entrada de menu para el modelo de Solicitudes -->
         <menuitem id="solicitudes_lista_menu" name="Listar solicitudes" parent="solicitudes_menu" action="accion_listar_solicitudes"/>
 
         <!-- Submenu para Analisis Juridico -->
-        <menuitem id="analisis_juridico_menu" name="Analisis Juridico" parent="solicitudes_main_menu" groups="analista_juridico"/>
+        <menuitem id="analisis_juridico_menu" name="Analisis Juridico" parent="solicitudes_main_menu" groups="fomdes.group_analista_juridico"/>
         <!-- Entrada de menu para el modelo de Control Previo -->
         <menuitem id="control_previo_lista_menu" name="Listar Controles Previos" parent="analisis_juridico_menu" action="accion_listar_controles_previos"/>
 
         <!-- Submenu para Analisis Economico -->
-        <menuitem id="analisis_economico_menu" name="Analisis Economico" parent="solicitudes_main_menu" groups="analista_economico"/>
+        <menuitem id="analisis_economico_menu" name="Analisis Economico" parent="solicitudes_main_menu" groups="fomdes.group_analista_economico"/>
         <!-- Entrada de menu para el modelo de Avaluos -->
         <menuitem id="avaluos_lista_menu" name="Listar Avaluos" parent="analisis_economico_menu" action="accion_listar_avaluos"/>
         <!-- Entrada de menu para el modelo de Inspecciones -->
