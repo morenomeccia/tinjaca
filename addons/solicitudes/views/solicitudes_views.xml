@@ -49,17 +49,17 @@
                                     <field name="valido"/>
                                 </tree>
                             </field>
-                            <field name="control_previo_id" groups="solicitudes.analista_juridico,solicitudes.analista_economico"/>
-                            <field name="avaluo_id" groups="solicitudes.analista_economico"/>
-                            <field name="inspeccion_id" groups="solicitudes.analista_economico"/>
-                            <field name="informe_tecnico_id" groups="solicitudes.analista_economico"/>
-                            <field name="monto_total" groups="solicitudes.analista_economico"/>
-                            <field name="plazo_pago" groups="solicitudes.analista_economico"/>
-                            <field name="periodos_gracia" groups="solicitudes.analista_economico"/>
-                            <field name="tasa_interes" groups="solicitudes.analista_economico"/>
-                            <field name="tasa_mora" groups="solicitudes.analista_economico"/>
-                            <field name="comision_flat" groups="solicitudes.analista_economico"/>
-                            <field name="aporte_social" groups="solicitudes.analista_economico"/>
+                            <field name="control_previo_id" groups="fomdes.groups_analista_juridico,fomdes.groups_analista_economico"/>
+                            <field name="avaluo_id" groups="fomdes.groups_analista_economico"/>
+                            <field name="inspeccion_id" groups="fomdes.groups_analista_economico"/>
+                            <field name="informe_tecnico_id" groups="fomdes.groups_analista_economico"/>
+                            <field name="monto_total" groups="fomdes.groups_analista_economico"/>
+                            <field name="plazo_pago" groups="fomdes.groups_analista_economico"/>
+                            <field name="periodos_gracia" groups="fomdes.groups_analista_economico"/>
+                            <field name="tasa_interes" groups="fomdes.groups_analista_economico"/>
+                            <field name="tasa_mora" groups="fomdes.groups_analista_economico"/>
+                            <field name="comision_flat" groups="fomdes.groups_analista_economico"/>
+                            <field name="aporte_social" groups="fomdes.groups_analista_economico"/>
                         </group>
                     </sheet>
                 </form>
