@@ -36,19 +36,19 @@
             <field name="act_from" ref="activity_informacion_credito"/>
             <field name="act_to" ref="activity_analisis_juridico"/>
             <field name="signal">button_analisis_juridico</field>
-            <field name="group_id" ref="analista_credito"/>
+            <field name="group_id" ref="fomdes.group_analista_credito"/>
         </record>
         <record model="workflow.transition" id="trans_solicitud_analisis_juridico_a_analisis_economico">
             <field name="act_from" ref="activity_analisis_juridico"/>
             <field name="act_to" ref="activity_analisis_economico"/>
             <field name="signal">button_analisis_economico</field>
-            <field name="group_id" ref="analista_juridico"/>
+            <field name="group_id" ref="fomdes.group_analista_juridico"/>
         </record>
         <record model="workflow.transition" id="trans_solicitud_analisis_economico_a_gerencia_de_credito">
             <field name="act_from" ref="activity_analisis_economico"/>
             <field name="act_to" ref="activity_gerencia_credito"/>
             <field name="signal">button_gerencia_credito</field>
-            <field name="group_id" ref="analista_economico"/>
+            <field name="group_id" ref="fomdes.group_analista_economico"/>
         </record>
     </data>
 </openerp>
