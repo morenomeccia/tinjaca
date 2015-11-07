@@ -1,21 +1,21 @@
-"id","tipo_documento","garantia"
-"letra0","Cédula de identidad del avalista","letra"
-"letra1","Carta de residencia del avalista","letra"
-"letra2","Cedula de identidad del conyuge del avalista","letra"
-"letra3","Copia del Registro de Información Fiscal (RIF) vigente","letra"
-"letra4","Recibo de Servicio Público","letra"
-"letra5","Certificación de Ingresos","letra"
-"letra6","Constancia de Trabajo","letra"
-"prendaria0","Avalúo del bien mueble dado en prenda","prendaria"
-"prendaria1","Fianzas respaldadas por compañía de seguros","prendaria"
-"hipotecaria0","Documento de propiedad del inmueble a hipotecar","hipotecaria"
-"hipotecaria1","Croquis de la ubicación del inmueble","hipotecaria"
-"hipotecaria2","Levantamiento topográfico","hipotecaria"
-"hipotecaria3","Cédula de identidad del propietario","hipotecaria"
-"hipotecaria4","Cédula de identidad del conyuge del propietario","hipotecaria"
-"financiera0","Constancia de inscripción en la Sociedad de Garantías Recíprocas","financiera"
-"financiera1","Constancia de inscripción en la empresa de seguros","financiera"
-"financiera2","Carta Fianza otorgada por la Sociedad de Garantías Reciprocas","financiera"
-"financiera3","Documento de fianza de la empresa de seguros","financiera"
-"financiera4","Documento de Crédito de FOMDES notariado","financiera"
-"financiera5","Fianza financiera notariada","financiera"
+'id','tipo_documento','garantia'
+'letra0','Cédula de identidad del avalista','letra'
+'letra1','Carta de residencia del avalista','letra'
+'letra2','Cedula de identidad del conyuge del avalista','letra'
+'letra3','Copia del Registro de Información Fiscal (RIF) vigente','letra'
+'letra4','Recibo de Servicio Público','letra'
+'letra5','Certificación de Ingresos','letra'
+'letra6','Constancia de Trabajo','letra'
+'prendaria0','Avalúo del bien mueble dado en prenda','prendaria'
+'prendaria1','Fianzas respaldadas por compañía de seguros','prendaria'
+'hipotecaria0','Documento de propiedad del inmueble a hipotecar','hipotecaria'
+'hipotecaria1','Croquis de la ubicación del inmueble','hipotecaria'
+'hipotecaria2','Levantamiento topográfico','hipotecaria'
+'hipotecaria3','Cédula de identidad del propietario','hipotecaria'
+'hipotecaria4','Cédula de identidad del conyuge del propietario','hipotecaria'
+'financiera0','Constancia de inscripción en la Sociedad de Garantías Recíprocas','financiera'
+'financiera1','Constancia de inscripción en la empresa de seguros','financiera'
+'financiera2','Carta Fianza otorgada por la Sociedad de Garantías Reciprocas','financiera'
+'financiera3','Documento de fianza de la empresa de seguros','financiera'
+'financiera4','Documento de Crédito de FOMDES notariado','financiera'
+'financiera5','Fianza financiera notariada','financiera'

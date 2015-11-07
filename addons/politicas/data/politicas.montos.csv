@@ -1,4 +1,4 @@
-"id","sector_id","tasa_interes_promocional","tasa_interes_establecida","tasa_mora","comision_flat","aporte_social","plazo_maximo","monto_maximo","monto_minimo"
+'id','sector_id','tasa_interes_promocional','tasa_interes_establecida','tasa_mora','comision_flat','aporte_social','plazo_maximo','monto_maximo','monto_minimo'
 montos0,'A',6,6,3,2.5,1.5,36,1200000,20000
 montos1,'T',9,16,3,2.5,1.5,60,1200000,20000
 montos2,'AR',8,12,3,2.5,1.5,36,1200000,20000
