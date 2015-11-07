@@ -7,18 +7,9 @@ class Solicitudes(models.Model):
 
     _rec_name = 'nro_expediente'
 
+    sector_id = fields.Many2one('politicas.sectores', string="Sector")
+
     nro_expediente = fields.Char(string='Numero de expediente', required=True)
-    sector = fields.Selection(string='Sector', selection=[('agricola', 'A - Agricola'),
-                                                           ('turismo', 'T - Turismo'),
-                                                           ('artesanal', 'AR - Artesanal'),
-                                                           ('cyt', 'CyT - Ciencia y Tecnologia'),
-                                                           ('pyme', 'PyME - Pequena y Mediana Empresa'),
-                                                           ('pymi', 'PyMI - Pequena y Mediana Industria'),
-                                                           ('microempresa', 'MEMP - Microempresa')])
-    state = fields.Selection(string='Estacion', selection=[('estacion_1_analisis_credito', 'Informacion de credito'),
-                                                           ('estacion_2_analisis_juridico', 'Analisis juridico'),
-                                                           ('estacion_3_analisis_economico', 'Analisis economico'),
-                                                           ('estacion_4_gerencia_credito', 'Gerencia de credito')], default='estacion_1_analisis_credito')
     monto_total = fields.Float(string='Monto total') 
     plazo_pago = fields.Integer(string='Periodo de pago')
     periodos_gracia = fields.Integer(string='Periodo de gracia')
@@ -28,6 +19,10 @@ class Solicitudes(models.Model):
     comision_flat = fields.Float(string='Comision FLAT')
     aporte_social = fields.Float(string='Aporte social')
 
+    state = fields.Selection(string='Estacion', selection=[('estacion_1_analisis_credito', 'Informacion de credito'),
+                                                           ('estacion_2_analisis_juridico', 'Analisis juridico'),
+                                                           ('estacion_3_analisis_economico', 'Analisis economico'),
+                                                           ('estacion_4_gerencia_credito', 'Gerencia de credito')], default='estacion_1_analisis_credito')
     estatus_consejo_directivo = fields.Selection(string='Estatus', selection=[('estatus_discusion', 'Discusion'),
                                                                               ('estatus_rechazado', 'Rechazado'),
                                                                               ('estatus_aprobado', 'Aprobado'),

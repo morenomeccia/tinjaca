@@ -8,4 +8,7 @@ class DocumentosSector(models.Model):
     _rec_name = 'tipo_documento'
 
     tipo_documento = fields.Char(string='Tipo de Documento')
-    sector = fields.Char(string='Sector')
+    habilitado = fields.Boolean(string='Habilitar')
+
+    sector_id = fields.Many2one('politicas.sectores', string="Sector")
+

@@ -23,8 +23,8 @@
                     </header>
                     <sheet>
                         <group>
+                            <field name="sector_id"/>
                             <field name="nro_expediente"/>
-                            <field name="sector"/>
                             <field name="requisitos_generales_id">
                                 <tree string="Requisitos Generales">
                                     <field name="documentos_generales_id"/>
@@ -106,8 +106,8 @@
                     <sheet>
                         <group>
                             <field name="solicitudes_id"/>
-                            <field name="sector_solicitud"/>
-                            <field name="documentos_sector_id" domain="[('sector','ilike',sector_solicitud)]"/>
+                            <field name="sector_id_solicitud" readonly="1"/>
+                            <field name="documentos_sector_id" domain="[('sector_id','=',sector_id_solicitud)]"/>
                             <field name="documento"/>
                             <field name="observaciones"/>
                             <field name="valido"/>

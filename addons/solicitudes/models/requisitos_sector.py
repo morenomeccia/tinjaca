@@ -12,4 +12,4 @@ class RequisitosSector(models.Model):
     observaciones = fields.Char(string='Observaciones')
     valido = fields.Boolean(string='Valido')
 
-    sector_solicitud = fields.Selection(string='Sector', related='solicitudes_id.sector', readonly=True)
+    sector_id_solicitud = fields.Many2one(string='Sector', related='solicitudes_id.sector_id', readonly=True)
