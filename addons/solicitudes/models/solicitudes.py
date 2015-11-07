@@ -42,7 +42,6 @@ class Solicitudes(models.Model):
     inspeccion_id = fields.One2many('solicitudes.inspecciones', 'solicitudes_id', string="Inspeccion")
     informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', 'solicitudes_id', string="Informe tecnico")
 
-    consejo_directivo_ids = fields.Many2many('aprobacion.consejo_directivo', string="Número de expediente")
 
     @api.one
     def action_enviar_informacion_credito(self):

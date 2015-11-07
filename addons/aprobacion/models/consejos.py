@@ -2,8 +2,8 @@
 
 from openerp import models, fields, api
 
-class consejo(models.Model):
-    _name = 'aprobacion.consejo'
+class Consejo(models.Model):
+    _name = 'aprobacion.consejos'
 
     codigo = fields.Integer(string='Codigo del consejo')
     numero = fields.Integer(string='Numero del consejo')
