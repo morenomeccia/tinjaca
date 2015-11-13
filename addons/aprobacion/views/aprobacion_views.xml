@@ -2,7 +2,27 @@
 <openerp>
 	<data>
 
-	<!-- Accion para el modelo de Consejo -->
+	<!-- Vista de formulario para el modelo de consejo directivo-->
+	<record model="ir.ui.view" id="view_form_consejo">
+		<field name="name">formulario_consejo</field>
+		<field name="model">aprobacion.consejos</field>
+		<field name="arch" type="xml">
+			<form string="Consejo">
+				<sheet>
+					<group>
+						<field name="codigo"/>
+						<field name="numero"/>
+						<field name="fecha"/>
+						<field name="solicitudes_ids"/>
+						<field name="miembros_ids"/>
+					</group>
+				</sheet>
+			</form>
+		</field>
+	</record>
+
+
+	<!-- Accion para el modelo de consejo directivo -->
 	<record model="ir.actions.act_window" id="accion_listar_consejos">
 		<field name="name">Consejos</field>
 		<field name="res_model">aprobacion.consejos</field>
