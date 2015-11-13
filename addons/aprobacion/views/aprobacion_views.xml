@@ -2,5 +2,51 @@
 <openerp>
 	<data>
 
+	<!-- Accion para el modelo de Consejo -->
+	<record model="ir.actions.act_window" id="accion_listar_consejos">
+		<field name="name">Consejos</field>
+		<field name="res_model">aprobacion.consejos</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">tree,form</field>
+		<field name="help" type="html">
+		    <p class="oe_view_nocontent_create">Crear consejo</p>
+		</field>
+	</record>
+	<!-- Accion para el modelo de miembros -->
+	<record model="ir.actions.act_window" id="accion_listar_miembros">
+		<field name="name">Miembros</field>
+		<field name="res_model">aprobacion.miembros</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">tree,form</field>
+		<field name="help" type="html">
+		    <p class="oe_view_nocontent_create">Crear miembro</p>
+		</field>
+	</record>
+
+
+    <!-- Entrada para el menu principal para el modulo de Aprobacion -->
+    <menuitem id="entrada_principal_menu_aprobacion" 
+			  name="Aprobacion"
+    />
+    <!-- Entrada de menu principales para el modelo de consejo directivo -->
+    <menuitem id="menu_consejos" 
+              name="Consejos"
+              parent="entrada_principal_menu_aprobacion"
+    />
+	<!-- Entradas de menu secundarias para el modelo de consejo directivo-->
+	<!-- Entrada para ver los consejos -->
+    <menuitem id="entrada_secundaria_menu_consejos" 
+              name="Listar consejos" 
+              parent="menu_consejos"
+              action="aprobacion.accion_listar_consejos"
+    />
+	<!-- Entrada para ver los miembros -->
+    <menuitem id="entrada_secundaria_menu_miembros" 
+              name="Listar miembros" 
+              parent="menu_consejos"
+              action="aprobacion.accion_listar_miembros"
+    />
+
+
 	</data>
 </openerp>
