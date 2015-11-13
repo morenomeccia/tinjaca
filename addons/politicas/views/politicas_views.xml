@@ -2,13 +2,43 @@
 <openerp>
     <data>
 
-        <!-- Creacion de la vista para mostrar las politicas de financiamiento -->
+        <!-- Vista de formulario para el modelo de sectores -->
+
+        <record id="sectores_view_form" model="ir.ui.view">
+            <field name="name">sectores.form</field>
+            <field name="model">politicas.sectores</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Sectores">
+                    <sheet>
+                        <group>
+                            <field name="codigo"/>
+                            <field name="descripcion"/>
+                            <field name="habilitado"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="sectores_view_tree" model="ir.ui.view">
+            <field name="name">sectores.tree</field>
+            <field name="model">politicas.sectores</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Sectores">
+                    <field name="codigo"/>
+                    <field name="descripcion"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <!-- Vista de formulario para el modelo de montos -->
 
         <record id="montos_view_form" model="ir.ui.view">
             <field name="name">montos.form</field>
             <field name="model">politicas.montos</field>
             <field name="arch" type="xml">
-                <form string="Formulario Politicas de financiamiento">
+                <form string="Formulario Montos">
                     <sheet>
                         <group>
                             <field name="sector_id"/>
@@ -36,10 +66,22 @@
             </field>
         </record>
 
-        <!-- Accion de ventana para politicas de financiamiento -->
+        <!-- Accion de ventana para el modelo de sectores -->
+
+        <record id="listar_sectores_action" model="ir.actions.act_window">
+            <field name="name">Sectores</field>
+            <field name="res_model">politicas.sectores</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear Sector</p>
+            </field>
+        </record>
+
+        <!-- Accion de ventana para el modelo de montos -->
 
         <record id="listar_montos_action" model="ir.actions.act_window">
-            <field name="name">Politicas de financiamiento</field>
+            <field name="name">Montos</field>
             <field name="res_model">politicas.montos</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
@@ -51,10 +93,12 @@
 
         <!-- top level menu: no parent -->
         <menuitem id="politicas_menu" name="Politicas de Financiamiento" groups="fomdes.group_gerente_credito"/>
-        <!-- Submenu para montos -->
-        <menuitem id="montos_menu" name="Politicas Financiamiento" parent="politicas_menu"/>
+        <!-- Submenu para Politicas de Financiamiento -->
+        <menuitem id="politicas_financiamiento_menu" name="Politicas de Financiamiento" parent="politicas_menu"/>
+        <!-- Entrada de menu para el modelo de sector -->
+        <menuitem id="sectores_lista_menu" name="Listar Sectores" parent="politicas_financiamiento_menu" action="listar_sectores_action"/>
         <!-- Entrada de menu para el modelo de montos -->
-        <menuitem id="montos_lista_menu" name="Listar Montos" parent="montos_menu" action="listar_montos_action"/>
+        <menuitem id="montos_lista_menu" name="Listar Montos" parent="politicas_financiamiento_menu" action="listar_montos_action"/>
 
     </data>
 </openerp>
