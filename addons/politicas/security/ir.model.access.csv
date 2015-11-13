@@ -1,13 +1,13 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 
-access_sectores_gerente_credito,politicas.sectores,model_politicas_sectores,fomdes.group_analista_credito,1,0,0,0
-access_sectores_gerente_credito,politicas.sectores,model_politicas_sectores,fomdes.group_analista_juridico,1,0,0,0
-access_sectores_gerente_credito,politicas.sectores,model_politicas_sectores,fomdes.group_analista_economico,1,0,0,0
+access_sectores_analista_credito,politicas.sectores,model_politicas_sectores,fomdes.group_analista_credito,1,0,0,0
+access_sectores_analista_juridico,politicas.sectores,model_politicas_sectores,fomdes.group_analista_juridico,1,0,0,0
+access_sectores_analista_economico,politicas.sectores,model_politicas_sectores,fomdes.group_analista_economico,1,0,0,0
 access_sectores_gerente_credito,politicas.sectores,model_politicas_sectores,fomdes.group_gerente_credito,1,1,1,1
 
-access_montos_gerente_credito,politicas.montos,model_politicas_montos,fomdes.group_analista_credito,1,0,0,0
-access_montos_gerente_credito,politicas.montos,model_politicas_montos,fomdes.group_analista_juridico,1,0,0,0
-access_montos_gerente_credito,politicas.montos,model_politicas_montos,fomdes.group_analista_economico,1,0,0,0
+access_montos_analista_credito,politicas.montos,model_politicas_montos,fomdes.group_analista_credito,1,0,0,0
+access_montos_analista_juridico,politicas.montos,model_politicas_montos,fomdes.group_analista_juridico,1,0,0,0
+access_montos_analista_economico,politicas.montos,model_politicas_montos,fomdes.group_analista_economico,1,0,0,0
 access_montos_gerente_credito,politicas.montos,model_politicas_montos,fomdes.group_gerente_credito,1,1,1,1
 
 access_documentos_generales_analista_credito,politicas.documentos_generales,model_politicas_documentos_generales,fomdes.group_analista_credito,1,0,0,0
