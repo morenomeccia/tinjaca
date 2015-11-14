@@ -71,7 +71,7 @@
 		</field>
 	</record>
 
-	<!-- Caja de busqueda para el modelo de consejo directivo-->
+	<!-- Caja de busqueda para el modelo de consejo directivo -->
     <record model="ir.ui.view" id="consejo_search_view">
         <field name="name">caja_de_busqueda_consejo</field>
         <field name="model">aprobacion.consejos</field>
@@ -79,6 +79,18 @@
             <search>
                 <field name="numero"/>
                 <field name="codigo"/>
+            </search>
+        </field>
+    </record>
+
+	<!-- Caja de busqueda para el modelo de miembros -->
+    <record model="ir.ui.view" id="miembros_search_view">
+        <field name="name">caja_de_busqueda_miembros</field>
+        <field name="model">aprobacion.miembros</field>
+        <field name="arch" type="xml">
+            <search>
+		        <field name="nombre"/>
+		        <field name="apellido"/>
             </search>
         </field>
     </record>
