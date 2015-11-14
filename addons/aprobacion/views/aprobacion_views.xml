@@ -51,8 +51,22 @@
 		<field name="name">lista_consejos</field>
 		<field name="model">aprobacion.consejos</field>
 		<field name="arch" type="xml">
-		    <tree string="Listado consejos">
+		    <tree string="Listado de consejos">
 		        <field name="numero"/>
+		        <field name="codigo"/>
+		        <field name="fecha"/>
+		    </tree>
+		</field>
+	</record>
+
+	<!-- Vista de lista para el modelo de miembros-->
+	<record model="ir.ui.view" id="view_list_miembros">
+		<field name="name">lista_miembros</field>
+		<field name="model">aprobacion.miembros</field>
+		<field name="arch" type="xml">
+		    <tree string="Listado de miembros del consejo">
+		        <field name="nombre"/>
+		        <field name="apellido"/>
 		    </tree>
 		</field>
 	</record>
