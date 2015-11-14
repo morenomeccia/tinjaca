@@ -8,6 +8,7 @@ class consejos(models.Model):
     codigo = fields.Integer(string='Codigo del consejo')
     numero = fields.Integer(string='Numero del consejo')
     fecha = fields.Datetime(string='Fecha y hora del consejo')
+    minuta = fields.Text(string='Fecha y hora del consejo')
 
     # Referencias a solicitudes
     solicitudes_ids = fields.Many2many('solicitudes.solicitudes', string="Numero de expediente")

@@ -13,9 +13,18 @@
 						<field name="codigo"/>
 						<field name="numero"/>
 						<field name="fecha"/>
-						<field name="solicitudes_ids"/>
-						<field name="miembros_ids"/>
 					</group>
+					<notebook>
+						<page string="Solicitudes">
+							<field name="solicitudes_ids"/>
+						</page>
+						<page string="Miembros">
+							<field name="miembros_ids"/>
+						</page>
+						<page string="Minuta del consejo">
+							<field name="minuta"/>
+						</page>
+					</notebook>
 				</sheet>
 			</form>
 		</field>
