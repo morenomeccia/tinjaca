@@ -30,6 +30,21 @@
 		</field>
 	</record>
 
+	<!-- Vista de formulario para el modelo de miembros -->
+	<record model="ir.ui.view" id="view_form_miembros">
+		<field name="name">formulario_miembros</field>
+		<field name="model">aprobacion.miembros</field>
+		<field name="arch" type="xml">
+			<form string="Miembros">
+				<sheet>
+					<group>
+						<field name="nombre"/>
+						<field name="apellido"/>
+					</group>
+				</sheet>
+			</form>
+		</field>
+	</record>
 
 	<!-- Accion para el modelo de consejo directivo -->
 	<record model="ir.actions.act_window" id="accion_listar_consejos">
