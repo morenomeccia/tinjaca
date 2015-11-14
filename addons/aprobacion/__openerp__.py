@@ -1,26 +1,26 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "aprobacion",
+    'name': "Tinjaca - Aprobacion",
 
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+    'summary': """ 
+        Aprobacion de solicitudes de credito del FOMDES
+     """,
 
     'description': """
-        Long description of module's purpose
+		Tinjaca - Modulo Solicitudes (FOMDES)
     """,
 
-    'author': "Your Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Cooperativa Saní Tecnologías Comunes",
+    'website': "http://sani.org.ve",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
     # for the full list
-    'category': 'Uncategorized',
-    'version': '0.1',
+    'category': 'Tinjaca',
+    'version': '0.3',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'solicitudes'],
 
     # always loaded
     'data': [
@@ -32,4 +32,6 @@
     'demo': [
         'demo.xml',
     ],
+    'installable': True,
+    'application': True,
 }
