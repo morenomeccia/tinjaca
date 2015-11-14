@@ -3,7 +3,7 @@
 	<data>
 
 	<!-- Vista de formulario para el modelo de consejo directivo-->
-	<record model="ir.ui.view" id="view_form_consejo">
+	<record model="ir.ui.view" id="comsejos_form_view">
 		<field name="name">formulario_consejo</field>
 		<field name="model">aprobacion.consejos</field>
 		<field name="arch" type="xml">
@@ -31,7 +31,7 @@
 	</record>
 
 	<!-- Vista de formulario para el modelo de miembros -->
-	<record model="ir.ui.view" id="view_form_miembros">
+	<record model="ir.ui.view" id="miembros_form_view">
 		<field name="name">formulario_miembros</field>
 		<field name="model">aprobacion.miembros</field>
 		<field name="arch" type="xml">
@@ -47,7 +47,7 @@
 	</record>
 
 	<!-- Vista de lista para el modelo de consejo directivo-->
-	<record model="ir.ui.view" id="view_list_consejo">
+	<record model="ir.ui.view" id="consejo_list_view">
 		<field name="name">lista_consejos</field>
 		<field name="model">aprobacion.consejos</field>
 		<field name="arch" type="xml">
@@ -60,7 +60,7 @@
 	</record>
 
 	<!-- Vista de lista para el modelo de miembros-->
-	<record model="ir.ui.view" id="view_list_miembros">
+	<record model="ir.ui.view" id="miembros_list_view">
 		<field name="name">lista_miembros</field>
 		<field name="model">aprobacion.miembros</field>
 		<field name="arch" type="xml">
@@ -71,6 +71,17 @@
 		</field>
 	</record>
 
+	<!-- Caja de busqueda para el modelo de consejo directivo-->
+    <record model="ir.ui.view" id="consejo_search_view">
+        <field name="name">caja_de_busqueda_consejo</field>
+        <field name="model">aprobacion.consejos</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="numero"/>
+                <field name="codigo"/>
+            </search>
+        </field>
+    </record>
 
 	<!-- Accion para el modelo de consejo directivo -->
 	<record model="ir.actions.act_window" id="accion_listar_consejos">
@@ -82,6 +93,7 @@
 		    <p class="oe_view_nocontent_create">Crear consejo</p>
 		</field>
 	</record>
+
 	<!-- Accion para el modelo de miembros -->
 	<record model="ir.actions.act_window" id="accion_listar_miembros">
 		<field name="name">Miembros</field>
