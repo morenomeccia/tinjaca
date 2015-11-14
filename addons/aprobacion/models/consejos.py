@@ -4,6 +4,7 @@ from openerp import models, fields, api
 
 class consejos(models.Model):
     _name = 'aprobacion.consejos'
+    _rec_name = 'numero'
 
     codigo = fields.Integer(string='Codigo del consejo')
     numero = fields.Integer(string='Numero del consejo')
