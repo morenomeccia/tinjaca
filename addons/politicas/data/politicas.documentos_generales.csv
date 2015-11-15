@@ -1,4 +1,5 @@
-'id','tipo_documento'
+id,tipo_documento
+
 'generales_01','Cedula'
 'generales_02','Propuesta de financiamiento' 
 'generales_03','RIF' 

@@ -1,4 +1,5 @@
-'id','tipo_documento','garantia'
+id,tipo_documento,garantia
+
 'letra0','Cédula de identidad del avalista','letra'
 'letra1','Carta de residencia del avalista','letra'
 'letra2','Cedula de identidad del conyuge del avalista','letra'

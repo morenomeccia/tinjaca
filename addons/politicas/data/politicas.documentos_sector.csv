@@ -1,4 +1,4 @@
-'id','tipo_documento','sector_id','habilitado'
+id,tipo_documento,sector_id,habilitado
 
 'doc_agricola0','Plan de produccion','A',True
 'doc_agricola1','Cronograma de cultivo','A',True

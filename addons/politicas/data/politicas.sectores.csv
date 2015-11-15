@@ -1,4 +1,5 @@
-'id','codigo','descripcion','habilitado'
+id,codigo,descripcion,habilitado
+
 'sector_agricola','A','Agricola',True
 'sector_turismo','T','Turismo',True
 'sector_artesanal','AR','Artesanal',True
