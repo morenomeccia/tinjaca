@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+
+	<!-- Vista de formulario para el modelo de consejo directivo-->
+	<record model="ir.ui.view" id="comsejos_form_view">
+		<field name="name">formulario_consejo</field>
+		<field name="model">aprobacion.consejos</field>
+		<field name="arch" type="xml">
+			<form string="Consejo">
+				<sheet>
+					<group>
+						<field name="codigo"/>
+						<field name="numero"/>
+						<field name="fecha"/>
+					</group>
+					<notebook>
+						<page string="Solicitudes">
+							<field name="solicitudes_ids"/>
+						</page>
+						<page string="Miembros">
+							<field name="miembros_ids"/>
+						</page>
+						<page string="Minuta del consejo">
+							<field name="minuta"/>
+						</page>
+					</notebook>
+				</sheet>
+			</form>
+		</field>
+	</record>
+
+	<!-- Vista de formulario para el modelo de miembros -->
+	<record model="ir.ui.view" id="miembros_form_view">
+		<field name="name">formulario_miembros</field>
+		<field name="model">aprobacion.miembros</field>
+		<field name="arch" type="xml">
+			<form string="Miembros">
+				<sheet>
+					<group>
+						<field name="nombre"/>
+						<field name="apellido"/>
+					</group>
+				</sheet>
+			</form>
+		</field>
+	</record>
+
+	<!-- Vista de lista para el modelo de consejo directivo-->
+	<record model="ir.ui.view" id="consejo_list_view">
+		<field name="name">lista_consejos</field>
+		<field name="model">aprobacion.consejos</field>
+		<field name="arch" type="xml">
+		    <tree string="Listado de consejos">
+		        <field name="numero"/>
+		        <field name="codigo"/>
+		        <field name="fecha"/>
+		    </tree>
+		</field>
+	</record>
+
+	<!-- Vista de lista para el modelo de miembros-->
+	<record model="ir.ui.view" id="miembros_list_view">
+		<field name="name">lista_miembros</field>
+		<field name="model">aprobacion.miembros</field>
+		<field name="arch" type="xml">
+		    <tree string="Listado de miembros del consejo">
+		        <field name="nombre"/>
+		        <field name="apellido"/>
+		    </tree>
+		</field>
+	</record>
+
+	<!-- Caja de busqueda para el modelo de consejo directivo -->
+    <record model="ir.ui.view" id="consejo_search_view">
+        <field name="name">caja_de_busqueda_consejo</field>
+        <field name="model">aprobacion.consejos</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="numero"/>
+                <field name="codigo"/>
+            </search>
+        </field>
+    </record>
+
+	<!-- Caja de busqueda para el modelo de miembros -->
+    <record model="ir.ui.view" id="miembros_search_view">
+        <field name="name">caja_de_busqueda_miembros</field>
+        <field name="model">aprobacion.miembros</field>
+        <field name="arch" type="xml">
+            <search>
+		        <field name="nombre"/>
+		        <field name="apellido"/>
+            </search>
+        </field>
+    </record>
+
+	<!-- Accion para el modelo de consejo directivo -->
+	<record model="ir.actions.act_window" id="accion_listar_consejos">
+		<field name="name">Consejos</field>
+		<field name="res_model">aprobacion.consejos</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">tree,form</field>
+		<field name="help" type="html">
+		    <p class="oe_view_nocontent_create">Crear consejo</p>
+		</field>
+	</record>
+
+	<!-- Accion para el modelo de miembros -->
+	<record model="ir.actions.act_window" id="accion_listar_miembros">
+		<field name="name">Miembros</field>
+		<field name="res_model">aprobacion.miembros</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">tree,form</field>
+		<field name="help" type="html">
+		    <p class="oe_view_nocontent_create">Crear miembro</p>
+		</field>
+	</record>
+
+
+    <!-- Entrada para el menu principal para el modulo de Aprobacion -->
+    <menuitem id="entrada_principal_menu_aprobacion" 
+			  name="Aprobacion"
+    />
+    <!-- Entrada de menu principales para el modelo de consejo directivo -->
+    <menuitem id="menu_consejos" 
+              name="Consejos"
+              parent="entrada_principal_menu_aprobacion"
+    />
+	<!-- Entradas de menu secundarias para el modelo de consejo directivo-->
+	<!-- Entrada para ver los consejos -->
+    <menuitem id="entrada_secundaria_menu_consejos" 
+              name="Listar consejos" 
+              parent="menu_consejos"
+              action="aprobacion.accion_listar_consejos"
+    />
+	<!-- Entrada para ver los miembros -->
+    <menuitem id="entrada_secundaria_menu_miembros" 
+              name="Listar miembros" 
+              parent="menu_consejos"
+              action="aprobacion.accion_listar_miembros"
+    />
+
+
+	</data>
+</openerp>
