@@ -28,7 +28,7 @@
                         </group>
                         <notebook>
                             <page string="Requisitos">
-                                <group string="Requisitos Generales">
+                                <group>
                                     <field name="requisitos_generales_id">
                                         <tree>
                                             <field name="documentos_generales_id"/>
@@ -36,7 +36,7 @@
                                         </tree>
                                     </field>
                                 </group>
-                                <group string="Requisitos por Sector">
+                                <group>
                                     <field name="requisitos_sector_id">
                                         <tree>
                                             <field name="documentos_sector_id"/>
@@ -44,7 +44,7 @@
                                         </tree>
                                     </field>
                                 </group>
-                                <group string="Requisitos por Garantia">
+                                <group>
                                     <field name="requisitos_garantia_id">
                                         <tree string="Requisitos garantia">
                                             <field name="documentos_garantia_id"/>
@@ -52,7 +52,7 @@
                                         </tree>
                                     </field>
                                 </group>
-                                <group string="Requisitos por Empresa">
+                                <group>
                                     <field name="requisitos_empresa_id">
                                         <tree>
                                             <field name="documentos_empresa_id"/>
@@ -61,20 +61,32 @@
                                     </field>
                                 </group>
                             </page>
-                            <page string="Evaluaciones">
-                                <field name="control_previo_id" groups="fomdes.group_analista_juridico,fomdes.group_analista_economico"/>
-                                <field name="avaluo_id" groups="fomdes.group_analista_economico"/>
-                                <field name="inspeccion_id" groups="fomdes.group_analista_economico"/>
-                                <field name="informe_tecnico_id" groups="fomdes.group_analista_economico"/>
+                            <page string="Analisis Juridico" groups="fomdes.group_analista_juridico,fomdes.group_analista_economico,fomdes.group_gerente_credito">
+                                <group>
+                                    <field name="control_previo_id"/>
+                                </group>
                             </page>
-                            <page string="Montos y tasas">
-                                <field name="monto_total" groups="fomdes.group_analista_economico"/>
-                                <field name="plazo_pago" groups="fomdes.group_analista_economico"/>
-                                <field name="periodos_gracia" groups="fomdes.group_analista_economico"/>
-                                <field name="tasa_interes" groups="fomdes.group_analista_economico"/>
-                                <field name="tasa_mora" groups="fomdes.group_analista_economico"/>
-                                <field name="comision_flat" groups="fomdes.group_analista_economico"/>
-                                <field name="aporte_social" groups="fomdes.group_analista_economico"/>
+                            <page string="Analisis Economico" groups="fomdes.group_analista_economico,fomdes.group_gerente_credito">
+                                <group>
+                                    <field name="avaluo_id"/>
+                                </group>
+                                <group>
+                                    <field name="inspeccion_id"/>
+                                </group>
+                                <group>
+                                    <field name="informe_tecnico_id"/>
+                                </group>
+                            </page>
+                            <page string="Montos y tasas" groups="fomdes.group_analista_economico,fomdes.group_gerente_credito">
+                                <group>
+                                    <field name="monto_total"/>
+                                    <field name="plazo_pago"/>
+                                    <field name="periodos_gracia"/>
+                                    <field name="tasa_interes"/>
+                                    <field name="tasa_mora"/>
+                                    <field name="comision_flat"/>
+                                    <field name="aporte_social"/>
+                                </group>
                             </page>
                         </notebook>
                     </sheet>
