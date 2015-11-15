@@ -117,30 +117,58 @@
 		</field>
 	</record>
 
+	<!-- Accion para el modelo de solicitudes -->
+	<record model="ir.actions.act_window" id="accion_listar_solicitudes">
+		<field name="name">Solicitudes</field>
+		<field name="res_model">solicitudes.solicitudes</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">tree,form</field>
+		<field name="help" type="html">
+		    <p class="oe_view_nocontent_create">Crear Solicitud</p>
+		</field>
+	</record>
 
     <!-- Entrada para el menu principal para el modulo de Aprobacion -->
     <menuitem id="entrada_principal_menu_aprobacion" 
 			  name="Aprobacion"
     />
-    <!-- Entrada de menu principales para el modelo de consejo directivo -->
+
+    <!-- Entrada de menu principal para el Consejo Directivo -->
     <menuitem id="menu_consejos" 
-              name="Consejos"
+              name="Consejo Directivo"
               parent="entrada_principal_menu_aprobacion"
     />
-	<!-- Entradas de menu secundarias para el modelo de consejo directivo-->
+
+	<!-- Entradas de menu secundarias para el Consejo Directivo-->
+
 	<!-- Entrada para ver los consejos -->
-    <menuitem id="entrada_secundaria_menu_consejos" 
+    <menuitem id="entrada_secundaria_consejos" 
               name="Listar consejos" 
               parent="menu_consejos"
               action="aprobacion.accion_listar_consejos"
     />
 	<!-- Entrada para ver los miembros -->
-    <menuitem id="entrada_secundaria_menu_miembros" 
+    <menuitem id="entrada_secundaria_miembros" 
               name="Listar miembros" 
               parent="menu_consejos"
               action="aprobacion.accion_listar_miembros"
     />
 
+    <!-- Entrada de menu principal para Presidencia -->
+
+    <menuitem id="menu_presidencia" 
+              name="Presidencia"
+              parent="entrada_principal_menu_aprobacion"
+    />
+
+	<!-- Entradas de menu secundarias para Presidencia -->
+
+	<!-- Entrada para ver las solicitudes -->
+    <menuitem id="entrada_secundaria_solicitudes" 
+              name="Listar solicitudes" 
+              parent="menu_presidencia"
+              action="aprobacion.accion_listar_solicitudes"
+    />
 
 	</data>
 </openerp>
