@@ -127,19 +127,19 @@
 		    <p class="oe_view_nocontent_create">Crear Solicitud</p>
 		</field>
 	</record>
-
+	
     <!-- Entrada para el menu principal para el modulo de Aprobacion -->
     <menuitem id="entrada_principal_menu_aprobacion" 
 			  name="Aprobacion"
     />
 
-    <!-- Entrada de menu principal para el Consejo Directivo -->
+    <!-- Entrada de menu principal para los consejos -->
     <menuitem id="menu_consejos" 
               name="Consejo Directivo"
               parent="entrada_principal_menu_aprobacion"
     />
 
-	<!-- Entradas de menu secundarias para el Consejo Directivo-->
+	<!-- Entradas de menu secundarias para los consejos -->
 
 	<!-- Entrada para ver los consejos -->
     <menuitem id="entrada_secundaria_consejos" 
@@ -154,21 +154,20 @@
               action="aprobacion.accion_listar_miembros"
     />
 
-    <!-- Entrada de menu principal para Presidencia -->
-
-    <menuitem id="menu_presidencia" 
-              name="Presidencia"
+    <!-- Entrada de menu principal para las solicitudes -->
+    <menuitem id="menu_solicitudes" 
+              name="Solicitudes"
               parent="entrada_principal_menu_aprobacion"
     />
 
-	<!-- Entradas de menu secundarias para Presidencia -->
+	<!-- Entradas de menu secundarias para las solicitudes -->
 
 	<!-- Entrada para ver las solicitudes -->
     <menuitem id="entrada_secundaria_solicitudes" 
               name="Listar solicitudes" 
-              parent="menu_presidencia"
+              parent="menu_solicitudes"
               action="aprobacion.accion_listar_solicitudes"
     />
-
+	
 	</data>
 </openerp>
