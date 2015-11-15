@@ -23,44 +23,60 @@
                     </header>
                     <sheet>
                         <group>
-                            <field name="sector_id"/>
                             <field name="nro_expediente"/>
-                            <field name="requisitos_generales_id">
-                                <tree string="Requisitos Generales">
-                                    <field name="documentos_generales_id"/>
-                                    <field name="valido"/>
-                                </tree>
-                            </field>
-                            <field name="requisitos_sector_id">
-                                <tree string="Requisitos sector">
-                                    <field name="documentos_sector_id"/>
-                                    <field name="valido"/>
-                                </tree>
-                            </field>
-                            <field name="requisitos_garantia_id">
-                                <tree string="Requisitos garantia">
-                                    <field name="documentos_garantia_id"/>
-                                    <field name="valido"/>
-                                </tree>
-                            </field>
-                            <field name="requisitos_empresa_id">
-                                <tree string="Requisitos empresa">
-                                    <field name="documentos_empresa_id"/>
-                                    <field name="valido"/>
-                                </tree>
-                            </field>
-                            <field name="control_previo_id" groups="fomdes.group_analista_juridico,fomdes.group_analista_economico"/>
-                            <field name="avaluo_id" groups="fomdes.group_analista_economico"/>
-                            <field name="inspeccion_id" groups="fomdes.group_analista_economico"/>
-                            <field name="informe_tecnico_id" groups="fomdes.group_analista_economico"/>
-                            <field name="monto_total" groups="fomdes.group_analista_economico"/>
-                            <field name="plazo_pago" groups="fomdes.group_analista_economico"/>
-                            <field name="periodos_gracia" groups="fomdes.group_analista_economico"/>
-                            <field name="tasa_interes" groups="fomdes.group_analista_economico"/>
-                            <field name="tasa_mora" groups="fomdes.group_analista_economico"/>
-                            <field name="comision_flat" groups="fomdes.group_analista_economico"/>
-                            <field name="aporte_social" groups="fomdes.group_analista_economico"/>
+                            <field name="sector_id"/>
                         </group>
+                        <notebook>
+                            <page string="Requisitos">
+                                <group string="Requisitos Generales">
+                                    <field name="requisitos_generales_id">
+                                        <tree>
+                                            <field name="documentos_generales_id"/>
+                                            <field name="valido"/>
+                                        </tree>
+                                    </field>
+                                </group>
+                                <group string="Requisitos por Sector">
+                                    <field name="requisitos_sector_id">
+                                        <tree>
+                                            <field name="documentos_sector_id"/>
+                                            <field name="valido"/>
+                                        </tree>
+                                    </field>
+                                </group>
+                                <group string="Requisitos por Garantia">
+                                    <field name="requisitos_garantia_id">
+                                        <tree string="Requisitos garantia">
+                                            <field name="documentos_garantia_id"/>
+                                            <field name="valido"/>
+                                        </tree>
+                                    </field>
+                                </group>
+                                <group string="Requisitos por Empresa">
+                                    <field name="requisitos_empresa_id">
+                                        <tree>
+                                            <field name="documentos_empresa_id"/>
+                                            <field name="valido"/>
+                                        </tree>
+                                    </field>
+                                </group>
+                            </page>
+                            <page string="Evaluaciones">
+                                <field name="control_previo_id" groups="fomdes.group_analista_juridico,fomdes.group_analista_economico"/>
+                                <field name="avaluo_id" groups="fomdes.group_analista_economico"/>
+                                <field name="inspeccion_id" groups="fomdes.group_analista_economico"/>
+                                <field name="informe_tecnico_id" groups="fomdes.group_analista_economico"/>
+                            </page>
+                            <page string="Montos y tasas">
+                                <field name="monto_total" groups="fomdes.group_analista_economico"/>
+                                <field name="plazo_pago" groups="fomdes.group_analista_economico"/>
+                                <field name="periodos_gracia" groups="fomdes.group_analista_economico"/>
+                                <field name="tasa_interes" groups="fomdes.group_analista_economico"/>
+                                <field name="tasa_mora" groups="fomdes.group_analista_economico"/>
+                                <field name="comision_flat" groups="fomdes.group_analista_economico"/>
+                                <field name="aporte_social" groups="fomdes.group_analista_economico"/>
+                            </page>
+                        </notebook>
                     </sheet>
                 </form>
             </field>
