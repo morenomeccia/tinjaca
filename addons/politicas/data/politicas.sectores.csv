@@ -1,10 +1,10 @@
 id,codigo,descripcion,habilitado
 
-'sector_agricola','A','Agricola',True
-'sector_turismo','T','Turismo',True
-'sector_artesanal','AR','Artesanal',True
-'sector_cyt','CYT','Ciencia y Tecnologia',True
-'sector_pyme','PYME','Pequena y Mediana Empresa',True
-'sector_pymi','PYMI','Pequena y Mediana Industria',True
-'sector_microempresa','MEMP','Microempresa',True
-'sector_cooperativa','COOP','Coperativa',False
+"sector_agricola","A","Agricola",True
+"sector_turismo","T","Turismo",True
+"sector_artesanal","AR","Artesanal",True
+"sector_cyt","CYT","Ciencia y Tecnologia",True
+"sector_pyme","PYME","Pequena y Mediana Empresa",True
+"sector_pymi","PYMI","Pequena y Mediana Industria",True
+"sector_microempresa","MEMP","Microempresa",True
+"sector_cooperativa","COOP","Coperativa",False
