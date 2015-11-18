@@ -8,4 +8,5 @@ class DocumentosEmpresa(models.Model):
     _rec_name = 'tipo_documento'
 
     tipo_documento = fields.Char(string='Tipo de Documento')
+    habilitado = fields.Boolean(string='Habilitar')
     empresa = fields.Char(string='Empresa')
