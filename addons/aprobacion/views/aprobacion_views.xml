@@ -143,13 +143,13 @@
 
 	<!-- Entrada para ver los consejos -->
     <menuitem id="entrada_secundaria_consejos" 
-              name="Listar consejos" 
+              name="Ver consejos" 
               parent="menu_consejos"
               action="aprobacion.accion_listar_consejos"
     />
 	<!-- Entrada para ver los miembros -->
     <menuitem id="entrada_secundaria_miembros" 
-              name="Listar miembros" 
+              name="Ver miembros" 
               parent="menu_consejos"
               action="aprobacion.accion_listar_miembros"
     />
@@ -164,7 +164,7 @@
 
 	<!-- Entrada para ver las solicitudes -->
     <menuitem id="entrada_secundaria_solicitudes" 
-              name="Listar solicitudes" 
+              name="Ver solicitudes" 
               parent="menu_solicitudes"
               action="aprobacion.accion_listar_solicitudes"
     />
