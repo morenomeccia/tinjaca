@@ -41,29 +41,118 @@
         </record>
 
 
-        <!-- Vista de formulario para el modelo de montos -->
+        <!-- Vista de formulario para el modelo de documentos generales -->
 
-        <record id="montos_view_form" model="ir.ui.view">
-            <field name="name">montos.form</field>
-            <field name="model">politicas.montos</field>
+        <record id="documentos_generales_view_form" model="ir.ui.view">
+            <field name="name">documentos_generales.form</field>
+            <field name="model">politicas.documentos_generales</field>
             <field name="arch" type="xml">
-                <form string="Formulario Montos">
+                <form string="Formulario Documentos Generales">
                     <sheet>
                         <group>
-                            <field name="sector_id"/>
-                            
+                            <field name="tipo_documento"/>
+                            <field name="habilitado"/>
                         </group>
                     </sheet>
                 </form>
             </field>
         </record>
 
-        <record id="montos_view_tree" model="ir.ui.view">
-            <field name="name">montos.tree</field>
-            <field name="model">politicas.montos</field>
+        <record id="documentos_generales_view_tree" model="ir.ui.view">
+            <field name="name">documentos_generales.tree</field>
+            <field name="model">politicas.documentos_generales</field>
             <field name="arch" type="xml">
-                <tree string="Listado Politicas de financiamiento">
-                    <field name="sector_id"/>
+                <tree string="Listado Documentos Generales">
+                    <field name="tipo_documento"/>
+                    <field name="habilitado"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Vista de formulario para el modelo de documentos sector -->
+
+        <record id="documentos_sector_view_form" model="ir.ui.view">
+            <field name="name">documentos_sector.form</field>
+            <field name="model">politicas.documentos_sector</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Documentos Sector">
+                    <sheet>
+                        <group>
+                            <field name="tipo_documento"/>
+                            <field name="habilitado"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="documentos_sector_view_tree" model="ir.ui.view">
+            <field name="name">documentos_sector.tree</field>
+            <field name="model">politicas.documentos_sector</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Documentos Sector">
+                    <field name="tipo_documento"/>
+                    <field name="habilitado"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Vista de formulario para el modelo de documentos empresa -->
+
+        <record id="documentos_empresa_view_form" model="ir.ui.view">
+            <field name="name">documentos_empresa.form</field>
+            <field name="model">politicas.documentos_empresa</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Documentos Empresa">
+                    <sheet>
+                        <group>
+                            <field name="tipo_documento"/>
+                            <field name="habilitado"/>
+                            <field name="empresa"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="documentos_empresa_view_tree" model="ir.ui.view">
+            <field name="name">documentos_empresa.tree</field>
+            <field name="model">politicas.documentos_empresa</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Documentos Empresa">
+                    <field name="tipo_documento"/>
+                    <field name="habilitado"/>
+                    <field name="empresa"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Vista de formulario para el modelo de documentos garantia -->
+
+        <record id="documentos_garantia_view_form" model="ir.ui.view">
+            <field name="name">documentos_garantia.form</field>
+            <field name="model">politicas.documentos_garantia</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Documentos Garantia">
+                    <sheet>
+                        <group>
+                            <field name="tipo_documento"/>
+                            <field name="habilitado"/>
+                            <field name="garantia"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="documentos_garantia_view_tree" model="ir.ui.view">
+            <field name="name">documentos_garantia.tree</field>
+            <field name="model">politicas.documentos_garantia</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Documentos Garantia">
+                    <field name="tipo_documento"/>
+                    <field name="habilitado"/>
+                    <field name="garantia"/>
                 </tree>
             </field>
         </record>
@@ -80,6 +169,53 @@
             </field>
         </record>
 
+        <!-- Accion de ventana para el modelo de documentos generales -->
+
+        <record id="listar_documentos_generales_action" model="ir.actions.act_window">
+            <field name="name">Documentos Generales</field>
+            <field name="res_model">politicas.documentos_generales</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear Documento</p>
+            </field>
+        </record>
+
+        <!-- Accion de ventana para el modelo de documentos sector -->
+
+        <record id="listar_documentos_sector_action" model="ir.actions.act_window">
+            <field name="name">Documentos Sector</field>
+            <field name="res_model">politicas.documentos_sector</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear Documento</p>
+            </field>
+        </record>
+
+        <!-- Accion de ventana para el modelo de documentos empresa -->
+
+        <record id="listar_documentos_empresa_action" model="ir.actions.act_window">
+            <field name="name">Documentos Empresa</field>
+            <field name="res_model">politicas.documentos_empresa</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear Documento</p>
+            </field>
+        </record>
+
+        <!-- Accion de ventana para el modelo de documentos garantia -->
+
+        <record id="listar_documentos_garantia_action" model="ir.actions.act_window">
+            <field name="name">Documentos Garantia</field>
+            <field name="res_model">politicas.documentos_garantia</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear Documento</p>
+            </field>
+        </record>
 
         <!-- top level menu: no parent -->
         <menuitem id="politicas_menu" name="Politicas de Financiamiento" groups="fomdes.group_gerente_credito"/>
@@ -87,7 +223,14 @@
         <menuitem id="politicas_financiamiento_menu" name="Politicas de Financiamiento" parent="politicas_menu"/>
         <!-- Entrada de menu para el modelo de sector -->
         <menuitem id="sectores_lista_menu" name="Listar Sectores" parent="politicas_financiamiento_menu" action="listar_sectores_action"/>
-
+        <!-- Entrada de menu para el modelo de documentos generales -->
+        <menuitem id="documentos_generales_lista_menu" name="Listar Documentos Generales" parent="politicas_financiamiento_menu" action="listar_documentos_generales_action"/>
+        <!-- Entrada de menu para el modelo de documentos sector -->
+        <menuitem id="documentos_sector_lista_menu" name="Listar Documentos Sector" parent="politicas_financiamiento_menu" action="listar_documentos_sector_action"/>
+        <!-- Entrada de menu para el modelo de documentos empresa -->
+        <menuitem id="documentos_empresa_lista_menu" name="Listar Documentos Empresa" parent="politicas_financiamiento_menu" action="listar_documentos_empresa_action"/>
+        <!-- Entrada de menu para el modelo de documentos garantia -->
+        <menuitem id="documentos_garantia_lista_menu" name="Listar Documentos Garantia" parent="politicas_financiamiento_menu" action="listar_documentos_garantia_action"/>
     </data>
 </openerp>
 
