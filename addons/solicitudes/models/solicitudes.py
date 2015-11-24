@@ -7,8 +7,6 @@ class Solicitudes(models.Model):
 
     _rec_name = 'nro_expediente'
 
-    sector_id = fields.Many2one('politicas.sectores', string="Sector")
-
     nro_expediente = fields.Char(string='Numero de expediente', required=True)
     monto_total = fields.Float(string='Monto total') 
     plazo_pago = fields.Integer(string='Periodo de pago')
@@ -34,8 +32,13 @@ class Solicitudes(models.Model):
                                                                               ('estatus_aprobado', 'Aprobado'),
                                                                               ('estatus_diferido', 'Diferido')], default='estatus_discusion')
 
+	# Campos para generar del documento de credito y de la empresa
+    empresa_promocional = fields.Boolean(string='Empresa promocional')
+    fecha_de_entrega = fields.Date()
+	lapso_de_devolucion = fields.Integer(string='Lapso de devolucion del documento')
 
-
+	# Referencias a otros modelos
+    sector_id = fields.Many2one('politicas.sectores', string="Sector")
     requisitos_generales_id = fields.One2many('solicitudes.requisitos_generales', 'solicitudes_id', string="Requisitos generales")
     requisitos_sector_id = fields.One2many('solicitudes.requisitos_sector', 'solicitudes_id', string="Requisitos sector")
     requisitos_garantia_id = fields.One2many('solicitudes.requisitos_garantia', 'solicitudes_id', string="Requisitos garantia")
