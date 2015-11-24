@@ -6,6 +6,8 @@
             <field name="on_create">True</field>
         </record>
 
+		<!-- ***************** Actividades ********************* -->
+
         <record model="workflow.activity" id="activity_informacion_credito">
             <field name="name">Informacion de Credito</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
@@ -44,6 +46,7 @@
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_enviar_secretaria_aprobar()</field>
+			<field name="split_mode">OR</field>
         </record>
        <!-- Envia a la estacion "Secretaria ejecutiva (crear documentos)", boton "aprobar" --> 
         <record model="workflow.activity" id="activity_por_documentar_secretaria">
@@ -58,6 +61,7 @@
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_secretaria_rechazar()</field>
+			<field name="join_mode">XOR</field>
         </record>
        <!-- Envia a la estacion "Gerencia de credito", boton "Diferir" -->
         <record model="workflow.activity" id="activity_diferir_secretaria">
@@ -65,6 +69,7 @@
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_secretaria_diferir()</field>
+			<field name="join_mode">XOR</field>
         </record>
        <!-- Envia a la estacion "Liquidacion", boton "Enviar a liquidacion" -->
         <record model="workflow.activity" id="activity_enviar_liquidacion">
@@ -73,6 +78,8 @@
             <field name="kind">function</field>
             <field name="action">action_enviar_liquidacion()</field>
         </record>
+
+		<!-- ***************** Transiciones ********************* -->
 
         <record model="workflow.transition" id="trans_solicitud_informacion_de_credito_a_analisis_juridico">
             <field name="act_from" ref="activity_informacion_credito"/>
@@ -128,8 +135,8 @@
             <!-- <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/> -->
         </record>
 		<!-- transicion "Secretaria ejecutiva (crear documentos)" a "liquidacion"-->
-        <record model="workflow.transition" id="trans_secretaria_aprobacion_a_secretaria_documentacion">
-            <field name="act_from" ref="activity_por_aprobar_secretaria"/>
+        <record model="workflow.transition" id="trans_secretaria_documentacion_a_liquidacion">
+            <field name="act_from" ref="activity_por_documentar_secretaria"/> 
             <field name="act_to" ref="activity_enviar_liquidacion"/>
             <field name="signal">button_enviar_a_liquidacion</field>
             <!-- <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/> -->
