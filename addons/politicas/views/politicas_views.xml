@@ -14,6 +14,14 @@
                             <field name="codigo"/>
                             <field name="descripcion"/>
                             <field name="habilitado"/>
+                            <field name="tasa_interes_promocionales"/>
+                            <field name="tasa_interes_establecidas"/>
+                            <field name="tasa_mora"/>
+                            <field name="comision_flat"/>
+                            <field name="aporte_social"/>
+                            <field name="plazo_maximo"/>
+                            <field name="monto_maximo"/>
+                            <field name="monto_minimo"/>
                         </group>
                     </sheet>
                 </form>
@@ -27,6 +35,7 @@
                 <tree string="Listado Sectores">
                     <field name="codigo"/>
                     <field name="descripcion"/>
+                    <field name="habilitado"/>
                 </tree>
             </field>
         </record>
@@ -42,14 +51,7 @@
                     <sheet>
                         <group>
                             <field name="sector_id"/>
-                            <field name="tasa_interes_promocional"/>
-                            <field name="tasa_interes_establecida"/>
-                            <field name="tasa_mora"/>
-                            <field name="comision_flat"/>
-                            <field name="aporte_social"/>
-                            <field name="plazo_maximo"/>
-                            <field name="monto_maximo"/>
-                            <field name="monto_minimo"/>
+                            
                         </group>
                     </sheet>
                 </form>
@@ -78,18 +80,6 @@
             </field>
         </record>
 
-        <!-- Accion de ventana para el modelo de montos -->
-
-        <record id="listar_montos_action" model="ir.actions.act_window">
-            <field name="name">Montos</field>
-            <field name="res_model">politicas.montos</field>
-            <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
-            <field name="help" type="html">
-                <p class="oe_view_nocontent_create">Crear Montos para Sector</p>
-            </field>
-        </record>
-
 
         <!-- top level menu: no parent -->
         <menuitem id="politicas_menu" name="Politicas de Financiamiento" groups="fomdes.group_gerente_credito"/>
@@ -97,8 +87,6 @@
         <menuitem id="politicas_financiamiento_menu" name="Politicas de Financiamiento" parent="politicas_menu"/>
         <!-- Entrada de menu para el modelo de sector -->
         <menuitem id="sectores_lista_menu" name="Listar Sectores" parent="politicas_financiamiento_menu" action="listar_sectores_action"/>
-        <!-- Entrada de menu para el modelo de montos -->
-        <menuitem id="montos_lista_menu" name="Listar Montos" parent="politicas_financiamiento_menu" action="listar_montos_action"/>
 
     </data>
 </openerp>
