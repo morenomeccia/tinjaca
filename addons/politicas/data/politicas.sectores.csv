@@ -1,4 +1,4 @@
-id,codigo,descripcion,habilitado,tasa_interes_promocional,tasa_interes_establecida,tasa_mora,comision_flat,aporte_social,plazo_maximo,monto_maximo,monto_minimo
+id,codigo,descripcion,habilitado,tasa_interes_promocionales,tasa_interes_establecidas,tasa_mora,comision_flat,aporte_social,plazo_maximo,monto_maximo,monto_minimo
 
 "sector_agricola","A","Agricola",True,6,6,3,2.5,1.5,36,1200000,20000
 "sector_turismo","T","Turismo",True,9,16,3,2.5,1.5,60,1200000,20000

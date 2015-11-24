@@ -27,7 +27,6 @@
         'security/ir.model.access.csv',
         'views/politicas_views.xml',
         'data/politicas.sectores.csv',
-        'data/politicas.montos.csv',
         'data/politicas.documentos_generales.csv',
         'data/politicas.documentos_sector.csv',
         'data/politicas.documentos_garantia.csv',
