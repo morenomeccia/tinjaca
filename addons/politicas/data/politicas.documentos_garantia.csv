@@ -1,22 +1,22 @@
-id,tipo_documento,garantia,habilitado
+id,tipo_documento,garantia_id,habilitado
 
-"letra0","Cédula de identidad del avalista","letra",True
-"letra1","Carta de residencia del avalista","letra",True
-"letra2","Cedula de identidad del conyuge del avalista","letra",True
-"letra3","Copia del Registro de Información Fiscal (RIF) vigente","letra",True
-"letra4","Recibo de Servicio Público","letra",True
-"letra5","Certificación de Ingresos","letra",True
-"letra6","Constancia de Trabajo","letra",True
-"prendaria0","Avalúo del bien mueble dado en prenda","prendaria",True
-"prendaria1","Fianzas respaldadas por compañía de seguros","prendaria",True
-"hipotecaria0","Documento de propiedad del inmueble a hipotecar","hipotecaria",True
-"hipotecaria1","Croquis de la ubicación del inmueble","hipotecaria",True
-"hipotecaria2","Levantamiento topográfico","hipotecaria",True
-"hipotecaria3","Cédula de identidad del propietario","hipotecaria",True
-"hipotecaria4","Cédula de identidad del conyuge del propietario","hipotecaria",True
-"financiera0","Constancia de inscripción en la Sociedad de Garantías Recíprocas","financiera",True
-"financiera1","Constancia de inscripción en la empresa de seguros","financiera",True
-"financiera2","Carta Fianza otorgada por la Sociedad de Garantías Reciprocas","financiera",True
-"financiera3","Documento de fianza de la empresa de seguros","financiera",True
-"financiera4","Documento de Crédito de FOMDES notariado","financiera",True
-"financiera5","Fianza financiera notariada","financiera",True
+"letra0","Cédula de identidad del avalista","Letra",True
+"letra1","Carta de residencia del avalista","Letra",True
+"letra2","Cedula de identidad del conyuge del avalista","Letra",True
+"letra3","Copia del Registro de Información Fiscal (RIF) vigente","Letra",True
+"letra4","Recibo de Servicio Público","Letra",True
+"letra5","Certificación de Ingresos","Letra",True
+"letra6","Constancia de Trabajo","Letra",True
+"prendaria0","Avalúo del bien mueble dado en prenda","Prenda",True
+"prendaria1","Fianzas respaldadas por compañía de seguros","Prenda",True
+"hipotecaria0","Documento de propiedad del inmueble a hipotecar","Hipoteca",True
+"hipotecaria1","Croquis de la ubicación del inmueble","Hipoteca",True
+"hipotecaria2","Levantamiento topográfico","Hipoteca",True
+"hipotecaria3","Cédula de identidad del propietario","Hipoteca",True
+"hipotecaria4","Cédula de identidad del conyuge del propietario","Hipoteca",True
+"financiera0","Constancia de inscripción en la Sociedad de Garantías Recíprocas","Fianza",True
+"financiera1","Constancia de inscripción en la empresa de seguros","Fianza",True
+"financiera2","Carta Fianza otorgada por la Sociedad de Garantías Reciprocas","Fianza",True
+"financiera3","Documento de fianza de la empresa de seguros","Fianza",True
+"financiera4","Documento de Crédito de FOMDES notariado","Fianza",True
+"financiera5","Fianza financiera notariada","Fianza",True
