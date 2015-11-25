@@ -35,7 +35,7 @@ class Solicitudes(models.Model):
 	# Campos para generar del documento de credito y de la empresa
     empresa_promocional = fields.Boolean(string='Empresa promocional')
     fecha_de_entrega = fields.Date()
-	lapso_de_devolucion = fields.Integer(string='Lapso de devolucion del documento')
+    lapso_de_devolucion = fields.Integer(string='Lapso de devolucion del documento')
 
 	# Referencias a otros modelos
     sector_id = fields.Many2one('politicas.sectores', string="Sector")
