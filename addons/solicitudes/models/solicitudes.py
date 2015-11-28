@@ -27,7 +27,7 @@ class Solicitudes(models.Model):
 
     # Campos provinientes de propuestas:
     sector_id = fields.Many2one('politicas.sectores', string="Sector")
-    garantia_id = fields.Many2one('poiticas.garantias', string="Garantias")
+    garantia_id = fields.Many2one('politicas.garantias', string="Garantia")
     empresa_promocional = fields.Boolean(string='Empresa promocional?')
 
     # Campos para los montos y tasas sugeridas:

@@ -44,6 +44,7 @@
                             <field name="nro_expediente"/>
                             <field name="sector_id"/>
                             <field name="garantia_id"/>
+                            <field name="empresa_promocional"/>
                         </group>
                         <notebook>
                             <page string="Requisitos">
