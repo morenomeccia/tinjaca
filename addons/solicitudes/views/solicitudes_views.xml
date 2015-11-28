@@ -43,6 +43,7 @@
                         <group>
                             <field name="nro_expediente"/>
                             <field name="sector_id"/>
+                            <field name="garantia_id"/>
                         </group>
                         <notebook>
                             <page string="Requisitos">

@@ -17,8 +17,8 @@ class Solicitudes(models.Model):
                                                            ('estacion_6_aprobar_secretaria', 'Secretaria ejecutiva (por aprobar)'), 
                                                            ('estacion_7_crear_documentos_secretaria', 'Secretaria ejecutiva (crear documentos)'),
                                                            ('estacion_8_liquidacion', 'Liquidacion')], 
-							                                                   default='estacion_1_analisis_credito')
-    
+                                                          default='estacion_1_analisis_credito')
+
     estatus_consejo_directivo = fields.Selection(string='Estatus', selection=[('estatus_discutir', 'Por discutir'),
                                                                               ('estatus_rechazado', 'Rechazado'),
                                                                               ('estatus_aprobado', 'Aprobado'),
@@ -26,8 +26,9 @@ class Solicitudes(models.Model):
                                                                              default='estatus_discutir')
 
     # Campos provinientes de propuestas:
-    empresa_promocional = fields.Boolean(string='Empresa promocional?')
     sector_id = fields.Many2one('politicas.sectores', string="Sector")
+    garantia_id = fields.Many2one('poiticas.garantias', string="Garantias")
+    empresa_promocional = fields.Boolean(string='Empresa promocional?')
 
     # Campos para los montos y tasas sugeridas:
     monto_total = fields.Float(string='Monto total') 
@@ -38,11 +39,11 @@ class Solicitudes(models.Model):
     #monto_cuota = fields.Float(string='Monto de la cuota') #calculado
     comision_flat = fields.Float(string='Comision FLAT')
     aporte_social = fields.Float(string='Aporte social')
-	   # Campos para generar del documento de credito y de la empresa
+    # Campos para generar del documento de credito y de la empresa
     fecha_de_entrega = fields.Date()
     lapso_de_devolucion = fields.Integer(string='Lapso de devolucion del documento')
 
-	   # Referencias a otros modelos
+    # Referencias a otros modelos:
     requisitos_generales_id = fields.One2many('solicitudes.requisitos_generales', 'solicitudes_id', string="Requisitos generales")
     requisitos_sector_id = fields.One2many('solicitudes.requisitos_sector', 'solicitudes_id', string="Requisitos sector")
     requisitos_garantia_id = fields.One2many('solicitudes.requisitos_garantia', 'solicitudes_id', string="Requisitos garantia")
@@ -72,35 +73,35 @@ class Solicitudes(models.Model):
     def action_enviar_gerencia_credito(self):
         self.state = 'estacion_4_gerencia_credito'
 
-	   # Envia a la estacion "Secretaria ejecutiva (por verificar)", boton "Enviar a secretaria ejecutiva"
+    # Envia a la estacion "Secretaria ejecutiva (por verificar)", boton "Enviar a secretaria ejecutiva"
     @api.one
     def action_enviar_secretaria_verificar(self):
         self.state = 'estacion_5_verificar_secretaria'
 
-	   # Envia a la estacion "Secretaria ejecutiva (por aprobar)", boton "verificado"
+    # Envia a la estacion "Secretaria ejecutiva (por aprobar)", boton "verificado"
     @api.one
     def action_enviar_secretaria_aprobar(self):
         self.state = 'estacion_6_aprobar_secretaria'
 
-	   # Envia a la estacion "Secretaria ejecutiva (crear documentos)", boton "aprobar"
+    # Envia a la estacion "Secretaria ejecutiva (crear documentos)", boton "aprobar"
     @api.one
     def action_enviar_secretaria_documentar(self):
         self.state = 'estacion_7_crear_documentos_secretaria'
         self.estatus_consejo_directivo = 'estatus_aprobado'
 
-   	# Envia a la estacion "Gerencia de credito", boton "Rechazar"
+    # Envia a la estacion "Gerencia de credito", boton "Rechazar"
     @api.one
     def action_secretaria_rechazar(self):
         self.state = 'estacion_4_gerencia_credito'
         self.estatus_consejo_directivo = 'estatus_rechazado'
 
-	   # Envia a la estacion "Gerencia de credito", boton "Diferir"
+    # Envia a la estacion "Gerencia de credito", boton "Diferir"
     @api.one
     def action_secretaria_diferir(self):
         self.state = 'estacion_4_gerencia_credito'
         self.estatus_consejo_directivo = 'estatus_diferido'
 
-	   # Envia a la estacion "Liquidacion", boton "Enviar a liquidacion"
+    # Envia a la estacion "Liquidacion", boton "Enviar a liquidacion"
     @api.one
     def action_enviar_liquidacion(self):
         self.state = 'estacion_8_liquidacion'
