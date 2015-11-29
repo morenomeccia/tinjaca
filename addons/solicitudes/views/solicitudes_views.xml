@@ -120,6 +120,7 @@
             <field name="arch" type="xml">
                 <tree string="Listado Solicitudes">
                     <field name="nro_expediente"/>
+                    <field name="state"/>
                 </tree>
             </field>
         </record>
