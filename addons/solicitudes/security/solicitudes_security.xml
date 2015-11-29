@@ -1,10 +1,10 @@
 <openerp>
     <data>
-        <!-- Restricciones de datos -->
+        <!-- Restricciones para los registros (record rules) -->
         <record id="estacion_analisis_credito" model="ir.rule">
             <field name="name">Solicitudes Analisis Credito</field>
             <field name="model_id" ref="model_solicitudes_solicitudes"/>
-            <field name="groups" eval="[(4, ref('fomdes.analista_credito'))]"/>
+            <field name="groups" eval="[(4, ref('fomdes.group_analista_credito'))]"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="0"/>
@@ -14,7 +14,7 @@
         <record id="estacion_analisis_juridico" model="ir.rule">
             <field name="name">Solicitudes Analisis Juridico</field>
             <field name="model_id" ref="model_solicitudes_solicitudes"/>
-            <field name="groups" eval="[(4, ref('fomdes.analista_juridico'))]"/>
+            <field name="groups" eval="[(4, ref('fomdes.group_analista_juridico'))]"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="0"/>
@@ -24,7 +24,7 @@
         <record id="estacion_analisis_economico" model="ir.rule">
             <field name="name">Solicitudes Analisis Economico</field>
             <field name="model_id" ref="model_solicitudes_solicitudes"/>
-            <field name="groups" eval="[(4, ref('fomdes.analista_economico'))]"/>
+            <field name="groups" eval="[(4, ref('fomdes.group_analista_economico'))]"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="0"/>
@@ -34,7 +34,7 @@
         <record id="estacion_gerente_credito" model="ir.rule">
             <field name="name">Solicitudes Gerente Credito</field>
             <field name="model_id" ref="model_solicitudes_solicitudes"/>
-            <field name="groups" eval="[(4, ref('fomdes.gerente_credito'))]"/>
+            <field name="groups" eval="[(4, ref('fomdes.group_gerente_credito'))]"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="0"/>
@@ -44,7 +44,7 @@
         <record id="estacion_Secretaria" model="ir.rule">
             <field name="name">Solicitudes Secretaria Ejecutiva</field>
             <field name="model_id" ref="model_solicitudes_solicitudes"/>
-            <field name="groups" eval="[(4, ref('fomdes.secretaria_ejecutiva'))]"/>
+            <field name="groups" eval="[(4, ref('fomdes.group_secretaria_ejecutiva'))]"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="0"/>

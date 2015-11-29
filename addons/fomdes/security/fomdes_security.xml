@@ -19,10 +19,6 @@
             <field name="name">Gerente de Crédito</field>
             <field name="category_id" ref="solicitudes_category"/>
         </record>
-        <record id="group_gerente_credito" model="res.groups">
-            <field name="name">Gerente de Crédito</field>
-            <field name="category_id" ref="solicitudes_category"/>
-        </record>
         <record id="group_secretaria_ejecutiva" model="res.groups">
             <field name="name">Secretaria Ejecutiva</field>
         </record>
