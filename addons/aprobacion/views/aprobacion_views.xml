@@ -127,6 +127,18 @@
 		    <p class="oe_view_nocontent_create">Crear Solicitud</p>
 		</field>
 	</record>
+
+	<!-- Accion para el modelo de presupuesto 
+	<record model="ir.actions.act_window" id="accion_listar_presupuesto">
+		<field name="name">Solicitudes</field>
+		<field name="res_model">???????.presupuesto</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">tree,form</field>
+		<field name="help" type="html">
+		    <p class="oe_view_nocontent_create">Crear presupuesto</p>
+		</field>
+	</record>
+	-->
 	
     <!-- Entrada para el menu principal para el modulo de Aprobacion -->
     <menuitem id="entrada_principal_menu_aprobacion" 
@@ -169,5 +181,21 @@
               action="aprobacion.accion_listar_solicitudes"
     />
 	
+    <!-- Entrada de menu principal para el presupuesto
+    <menuitem id="menu_presupuesto" 
+              name="Presupuesto"
+              parent="entrada_principal_menu_aprobacion"
+    />
+	-->
+	<!-- Entradas de menu secundarias para el presupuesto -->
+
+	<!-- Entrada para ver el presupuesto 
+    <menuitem id="entrada_secundaria_presupuesto" 
+              name="Ver presupuesto" 
+              parent="menu_presupuesto"
+              action="aprobacion.accion_listar_presupuesto"
+    />
+	-->
+
 	</data>
 </openerp>
