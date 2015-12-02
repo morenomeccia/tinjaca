@@ -125,6 +125,23 @@
             </field>
         </record>
 
+		<!-- Caja de busqueda para solicitudes
+		<record model="ir.ui.view" id="solicitudes_search_view">
+		    <field name="name">caja_de_busqueda_solicitudes</field>
+		    <field name="model">solicitudes.solicitudes</field>
+		    <field name="arch" type="xml">
+		        <search>
+                    <field name="nro_expediente"/>
+                    <field name="state"/>
+					<filter name="Estado" 
+                            string="Estado" 
+                            domain="[('usuario_responsable', '=', ???)]"
+                    />
+		        </search>
+		    </field>
+		</record>
+		 -->
+ 		
         <!-- Vistas para requisitos generales -->
 
         <record model="ir.ui.view" id="vista_formulario_requisitos_generales">

@@ -1,6 +1,6 @@
 <openerp>
     <data>
-        <!-- Restricciones para los registros (record rules) -->
+        <!-- Restricciones para los registros (record rules)
         <record id="estacion_analisis_credito" model="ir.rule">
             <field name="name">Solicitudes Analisis Credito</field>
             <field name="model_id" ref="model_solicitudes_solicitudes"/>
@@ -51,5 +51,6 @@
             <field name="perm_unlink" eval="0" />
             <field name="domain_force">['|',('state','=','estacion_5_verificar_secretaria'),('state','=','estacion_6_aprobar_secretaria'),('state','=','estacion_7_crear_documentos_secretaria')]</field>
         </record>
+		 -->
     </data>
 </openerp>
