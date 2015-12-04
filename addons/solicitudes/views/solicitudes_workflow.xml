@@ -35,7 +35,7 @@
         </record>
        <!-- Envia a la estacion "Secretaria ejecutiva (por verificar)", boton "Enviar a secretaria ejecutiva" -->
         <record model="workflow.activity" id="activity_por_verificar_secretaria">
-            <field name="name">Secretaria ejecutiva (por verificar)</field>
+            <field name="name">Secretaria ejecutiva</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_enviar_secretaria_verificar()</field>
@@ -71,12 +71,13 @@
             <field name="action">action_secretaria_diferir()</field>
 			<!-- <field name="join_mode">XOR</field> -->
         </record>
-       <!-- Envia a la estacion "Liquidacion", boton "Enviar a liquidacion" -->
+       <!-- Envia a la estacion "Liquidacion", boton "Enviar a liquidacion" --> 
         <record model="workflow.activity" id="activity_enviar_liquidacion">
-            <field name="name">Enviar a liquidacion</field>
+            <field name="name">Liquidacion</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_enviar_liquidacion()</field>
+			<field name="flow_stop">True</field>
         </record>
 
 		<!-- ***************** Transiciones ********************* -->
@@ -141,6 +142,12 @@
             <field name="signal">button_enviar_a_liquidacion</field>
             <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
         </record>	
-
+		<!-- transicion "Gerencia de Credito" a "Secretaria ejecutiva (verificacion)" -->
+        <record model="workflow.transition" id="trans_gerencia_de_credito_a_secretaria_verificacion">
+            <field name="act_from" ref="activity_gerencia_credito"/>
+            <field name="act_to" ref="activity_por_verificar_secretaria"/>
+            <field name="signal">button_enviar_a_verificacion_secretaria</field>
+            <field name="group_id" ref="fomdes.group_analista_economico"/>
+        </record>
     </data>
 </openerp>

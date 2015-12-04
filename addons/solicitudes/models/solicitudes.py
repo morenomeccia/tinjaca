@@ -25,12 +25,7 @@ class Solicitudes(models.Model):
                                                                               ('estatus_diferido', 'Diferido')],
                                                                               default='estatus_discutir')
 
-    grupo_responsable = fields.Selection(string='Usuario responsable', selection=[('fomdes.group_analista_credito', 'Analista de credito'),
-                                                                                  ('fomdes.group_analista_juridico', 'Analista juridico'),
-                                                                                  ('fomdes.group_analista_economico', 'Analista Economico'),
-                                                                                  ('fomdes.group_gerente_credito', 'Gerente de credito'),
-                                                                                  ('fomdes.group_secretaria_ejecutiva', 'Secretaria Ejecutiva')],
-                                                                                  default='fomdes.group_analista_credito')
+    #grupo_responsable = fields.Selection(string='Usuario responsable', selection=[('group_analista_credito', 'Analista de credito'),('group_analista_juridico', 'Analista juridico'),('group_analista_economico', 'Analista Economico'),('group_gerente_credito', 'Gerente de credito'),('group_secretaria_ejecutiva', 'Secretaria Ejecutiva')],default='fomdes.group_analista_credito')
 
     # Campos provinientes de propuestas:
     sector_id = fields.Many2one('politicas.sectores', string="Sector")
@@ -60,50 +55,55 @@ class Solicitudes(models.Model):
     inspeccion_id = fields.One2many('solicitudes.inspecciones', 'solicitudes_id', string="Inspeccion")
     informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', 'solicitudes_id', string="Informe tecnico")
 
-    grupo_actual = fields.Char(compute='_compute_grupo')
-
-    def _compute_grupo(self, cr, uid, *args):
-        user_obj = self.pool.get('res.users')
-        grupo_actual = user_obj.browse(cr, uid, uid)['groups_id']
-        return grupo_actual or False
+    #grupo_actual = fields.Char(string="Usuario Actual", comodel_name='res.users', default = lambda self: self.env.user.name)
+    #grupo_actual = fields.Char(string="Usuario Actual", comodel_name='res.groups', default = lambda self: self.env.user.)
 
     """
+    grupo_actual = fields.Char(compute='_compute_grupo')
+
+	# Returns group id of current user
+    def _compute_grupo(self, cr, uid, *args):
+        user_obj = self.pool.get('res.users')
+        #grupo_actual = user_obj.browse(cr, uid, uid)['groups_id']
+        grupo_actual = read(cr, uid, [uid], context)[0]['groups_id']
+        return grupo_actual or False 
+
+	# Returns id of current user
     def _compute_grupo(self, cr, uid, *args):
         user_obj = self.pool.get('res.users')
         user_value = user_obj.browse(cr, uid, uid)
         return user_value.login or False
     """
 
-
     # Envia a la estacion "Informacion de credito"
     @api.one
     def action_enviar_informacion_credito(self):
         self.state = 'estacion_1_analisis_credito'
-        self.grupo_responsable = 'group_analista_credito'
+        #self.grupo_responsable = 'group_analista_credito'
 
     # Envia a la estacion "Analisis Juridico"
     @api.one
     def action_enviar_analisis_juridico(self):
         self.state = 'estacion_2_analisis_juridico'
-        self.grupo_responsable = 'group_analista_juridico'
+        #self.grupo_responsable = 'group_analista_juridico'
 
     # Envia a la estacion "Analisis Economico"
     @api.one
     def action_enviar_analisis_economico(self):
         self.state = 'estacion_3_analisis_economico'
-        self.grupo_responsable = 'group_analista_economico'
+        #self.grupo_responsable = 'group_analista_economico'
 
     # Envia a la estacion "Gerencia de credito"
     @api.one
     def action_enviar_gerencia_credito(self):
         self.state = 'estacion_4_gerencia_credito'
-        self.grupo_responsable = 'group_gerente_credito'
+        #self.grupo_responsable = 'group_gerente_credito'
 
     # Envia a la estacion "Secretaria ejecutiva (por verificar)", boton "Enviar a secretaria ejecutiva"
     @api.one
     def action_enviar_secretaria_verificar(self):
         self.state = 'estacion_5_verificar_secretaria'
-        self.grupo_responsable = 'group_secretaria_ejecutiva'
+        #self.grupo_responsable = 'group_secretaria_ejecutiva'
 
     # Envia a la estacion "Secretaria ejecutiva (por aprobar)", boton "verificado"
     @api.one
@@ -113,24 +113,41 @@ class Solicitudes(models.Model):
 
     # Envia a la estacion "Secretaria ejecutiva (crear documentos)", boton "aprobar"
     @api.one
-    def action_enviar_secretaria_documentar(self):
+    def action_enviar_secretaria_documentar(self): 
         self.state = 'estacion_7_crear_documentos_secretaria'
         self.estatus_consejo_directivo = 'estatus_aprobado'
-        self.grupo_responsable = 'group_secretaria_ejecutiva'
+        #self.grupo_responsable = 'group_secretaria_ejecutiva'
 
     # Envia a la estacion "Gerencia de credito", boton "Rechazar"
+	"""
+    @api.one
+    def action_secretaria_rechazar(self, cr, uid, ids, context=None):
+        if not len(ids):
+            return False
+        self.write(cr, uid, ids, {'state':'draft','shipped':0})
+        wf_service = netsvc.LocalService("workflow")
+        for p_id in ids:
+            # Deleting the existing instance of workflow
+            wf_service.trg_delete(uid, 'solicitudes', p_id, cr)
+            wf_service.trg_create(uid, 'solicitudes', p_id, cr)
+        self.state = 'estacion_4_gerencia_credito'
+        self.estatus_consejo_directivo = 'estatus_rechazado'
+        return True	
+
+	"""
     @api.one
     def action_secretaria_rechazar(self):
         self.state = 'estacion_4_gerencia_credito'
         self.estatus_consejo_directivo = 'estatus_rechazado'
-        self.grupo_responsable = 'group_gerente_credito'
+        #self.grupo_responsable = 'group_gerente_credito'
+
 
     # Envia a la estacion "Gerencia de credito", boton "Diferir"
     @api.one
     def action_secretaria_diferir(self):
         self.state = 'estacion_4_gerencia_credito'
         self.estatus_consejo_directivo = 'estatus_diferido'
-        self.grupo_responsable = 'group_gerente_credito'
+        #self.grupo_responsable = 'group_gerente_credito'
 
     # Envia a la estacion "Liquidacion", boton "Enviar a liquidacion"
     @api.one
