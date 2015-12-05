@@ -7,19 +7,19 @@ class UnidadProductiva(models.Model):
     _name = 'propuestas.unidad_productiva'
     _inherit = 'res.company'
 
+    solicitante_id = fields.Many2one(comodel_name='propuestas.solicitantes', string="Solicitante")
     propuesta_id = fields.One2many('propuestas.propuestas', "unidad_prod_id", string="Propuesta")
-    codigo_up = fields.Char(string='Código de la Solicitud', required=True)
-    nombre_up = fields.Char(string='Nombres del Solicitante', required=True)
-    direccion_up = fields.Char(string='Apellidos del Solicitante', required=True)
-    telefono_fijo = fields.Integer(string='Telefono fijo', required=True)
-    telefono_celular = fields.Integer(string='Telefono Celular', required=True)
-    actividad = fields.Char(string='Actividad', required=True)
-    experiencia = fields.Char(string='Experiencia', required=True)
-    area_geografica = fields.Char(string='Area Geografica', required=True)
-    tenencia = fields.Char(string='Tenencia', required=True)
-    area_m2 = fields.Integer(string='Area en metros cuadrados', required=True)
-    zona_geografica = fields.Char(string='Zona Geografica', required=True)
-    servicios = fields.Char(string='Servicios', required=True)
+    street = fields.Char(string='Dirección') # de res.partner>res.company
+    street2 = fields.Char(string='Dirección cont.') # de res.partner>res.company
+    telefono_fijo = fields.Integer(string='Teléfono fijo')
+    telefono_celular = fields.Integer(string='Teléfono Celular')
+    actividad = fields.Char(string='Actividad')
+    experiencia = fields.Char(string='Experiencia')
+    area_geografica = fields.Char(string='Area Geografica')
+    tenencia = fields.Char(string='Tenencia')
+    area_m2 = fields.Integer(string='Area en metros cuadrados')
+    zona_geografica = fields.Char(string='Zona Geografica')
+    servicios = fields.Char(string='Servicios')
 
     @api.model
     def create(self, values):
