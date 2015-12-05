@@ -43,6 +43,9 @@
                         <group>
                             <field name="nro_expediente"/>
                             <field name="sector_id"/>
+                            <field name="garantia_id"/>
+                            <field name="empresa_promocional"/>
+                            <field name="grupo_actual"/>
                         </group>
                         <notebook>
                             <page string="Requisitos">
@@ -118,10 +121,29 @@
             <field name="arch" type="xml">
                 <tree string="Listado Solicitudes">
                     <field name="nro_expediente"/>
+                    <field name="state"/>
                 </tree>
             </field>
         </record>
 
+		<!-- Caja de busqueda para solicitudes 
+		<record model="ir.ui.view" id="solicitudes_search_view">
+		    <field name="name">caja_de_busqueda_solicitudes</field>
+		    <field name="model">solicitudes.solicitudes</field>
+		    <field name="arch" type="xml">
+		        <search>
+                    <field name="nro_expediente"/>
+                    <field name="state"/>
+					<filter name="Estado" 
+                            string="Estado" 
+		 					icon="terp-personal"
+                            domain="[('create_uid', '=', uid)]"
+                    />
+		        </search>
+		    </field>
+		</record>
+        -->
+ 		
         <!-- Vistas para requisitos generales -->
 
         <record model="ir.ui.view" id="vista_formulario_requisitos_generales">

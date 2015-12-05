@@ -1,2 +1,6 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_aprobacion_aprobacion,aprobacion.aprobacion,model_aprobacion_aprobacion,,1,0,0,0
+
+access_consejos_secretaria_ejecutiva,aprobacion.consejos,model_aprobacion_consejos,fomdes.group_secretaria_ejecutiva,1,1,1,1
+
+access_miembros_secretaria_ejecutiva,aprobacion.miembros,model_aprobacion_miembros,fomdes.group_secretaria_ejecutiva,1,1,1,1
+
