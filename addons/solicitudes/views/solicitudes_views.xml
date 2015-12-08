@@ -45,7 +45,6 @@
                             <field name="sector_id"/>
                             <field name="garantia_id"/>
                             <field name="empresa_promocional"/>
-                            <field name="grupo_actual"/>
                         </group>
                         <notebook>
                             <page string="Requisitos">
@@ -126,23 +125,24 @@
             </field>
         </record>
 
-		<!-- Caja de busqueda para solicitudes 
+		<!-- Caja de busqueda para solicitudes -->
 		<record model="ir.ui.view" id="solicitudes_search_view">
-		    <field name="name">caja_de_busqueda_solicitudes</field>
+		    <field name="name">Caja de busqueda Solicitudes</field>
 		    <field name="model">solicitudes.solicitudes</field>
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="nro_expediente"/>
-                    <field name="state"/>
-					<filter name="Estado" 
-                            string="Estado" 
-		 					icon="terp-personal"
-                            domain="[('create_uid', '=', uid)]"
-                    />
+					<filter name="filter_estacion_informacion_requisitos" string="Informacion de Credito" domain="[('state', '=', 'estacion_1_analisis_credito')]"/>
+                    <filter name="filter_estacion_informacion_requisitos" string="Analisis Juridico" domain="[('state', '=', 'estacion_2_analisis_juridico')]"/>
+                    <filter name="filter_estacion_informacion_requisitos" string="Analisis Economico" domain="[('state', '=', 'estacion_3_analisis_economico')]"/>
+                    <filter name="filter_estacion_informacion_requisitos" string="Gerencia de Credito" domain="[('state', '=', 'estacion_4_gerencia_credito')]"/>
+                    <filter name="filter_estacion_informacion_requisitos" string="Verificacion Secretaria" domain="[('state', '=', 'estacion_5_verificar_secretaria')]"/>
+                    <filter name="filter_estacion_informacion_requisitos" string="Aprobacion Consejo" domain="[('state', '=', 'estacion_6_aprobar_secretaria')]"/>
+                    <filter name="filter_estacion_informacion_requisitos" string="Documentos Secretaria" domain="[('state', '=', 'estacion_7_crear_documentos_secretaria')]"/>
+                    <filter name="filter_estacion_informacion_requisitos" string="Liquidacion" domain="[('state', '=', 'estacion_8_liquidacion')]"/>
 		        </search>
 		    </field>
 		</record>
-        -->
  		
         <!-- Vistas para requisitos generales -->
 
