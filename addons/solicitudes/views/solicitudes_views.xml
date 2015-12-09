@@ -132,14 +132,16 @@
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="nro_expediente"/>
-					<filter name="filter_estacion_informacion_requisitos" string="Informacion de Credito" domain="[('state', '=', 'estacion_1_analisis_credito')]"/>
-                    <filter name="filter_estacion_informacion_requisitos" string="Analisis Juridico" domain="[('state', '=', 'estacion_2_analisis_juridico')]"/>
-                    <filter name="filter_estacion_informacion_requisitos" string="Analisis Economico" domain="[('state', '=', 'estacion_3_analisis_economico')]"/>
-                    <filter name="filter_estacion_informacion_requisitos" string="Gerencia de Credito" domain="[('state', '=', 'estacion_4_gerencia_credito')]"/>
-                    <filter name="filter_estacion_informacion_requisitos" string="Verificacion Secretaria" domain="[('state', '=', 'estacion_5_verificar_secretaria')]"/>
-                    <filter name="filter_estacion_informacion_requisitos" string="Aprobacion Consejo" domain="[('state', '=', 'estacion_6_aprobar_secretaria')]"/>
-                    <filter name="filter_estacion_informacion_requisitos" string="Documentos Secretaria" domain="[('state', '=', 'estacion_7_crear_documentos_secretaria')]"/>
-                    <filter name="filter_estacion_informacion_requisitos" string="Liquidacion" domain="[('state', '=', 'estacion_8_liquidacion')]"/>
+                    <group string="Estacion">
+                        <filter name="filter_estacion_informacion" string="Informacion de Credito" domain="[('state', '=', 'estacion_1_analisis_credito')]"/>
+                        <filter name="filter_estacion_juridico" string="Analisis Juridico" domain="[('state', '=', 'estacion_2_analisis_juridico')]"/>
+                        <filter name="filter_estacion_economico" string="Analisis Economico" domain="[('state', '=', 'estacion_3_analisis_economico')]"/>
+                        <filter name="filter_estacion_gerencia" string="Gerencia de Credito" domain="[('state', '=', 'estacion_4_gerencia_credito')]"/>
+                        <filter name="filter_estacion_verificar" string="Verificacion Secretaria" domain="[('state', '=', 'estacion_5_verificar_secretaria')]"/>
+                        <filter name="filter_estacion_consejo" string="Aprobacion Consejo" domain="[('state', '=', 'estacion_6_aprobar_secretaria')]"/>
+                        <filter name="filter_estacion_documentos" string="Documentos Secretaria" domain="[('state', '=', 'estacion_7_crear_documentos_secretaria')]"/>
+                        <filter name="filter_estacion_liquidacion" string="Liquidacion" domain="[('state', '=', 'estacion_8_liquidacion')]"/>
+                    </group>
 		        </search>
 		    </field>
 		</record>
