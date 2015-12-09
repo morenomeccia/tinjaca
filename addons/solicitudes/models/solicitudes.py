@@ -54,6 +54,7 @@ class Solicitudes(models.Model):
     avaluo_id = fields.One2many('solicitudes.inspecciones', 'solicitudes_id', string="Avaluo")
     inspeccion_id = fields.One2many('solicitudes.inspecciones', 'solicitudes_id', string="Inspeccion")
     informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', 'solicitudes_id', string="Informe tecnico")
+    consejos_directivos_ids = fields.Many2many('aprobacion.consejos', string="Consejo directivo")
 
     #grupo_actual = fields.Char(string="Usuario Actual", comodel_name='res.users', default = lambda self: self.env.user.name)
     #grupo_actual = fields.Char(string="Usuario Actual", comodel_name='res.groups', default = lambda self: self.env.user.)
