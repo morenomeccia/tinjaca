@@ -138,14 +138,14 @@
 		        <search>
                     <field name="nro_expediente"/>
                     <group string="Estacion">
-                        <filter name="filter_estacion_informacion" string="Informacion de Credito" domain="[('state', '=', 'estacion_1_analisis_credito')]"/>
-                        <filter name="filter_estacion_juridico" string="Analisis Juridico" domain="[('state', '=', 'estacion_2_analisis_juridico')]"/>
-                        <filter name="filter_estacion_economico" string="Analisis Economico" domain="[('state', '=', 'estacion_3_analisis_economico')]"/>
-                        <filter name="filter_estacion_gerencia" string="Gerencia de Credito" domain="[('state', '=', 'estacion_4_gerencia_credito')]"/>
-                        <filter name="filter_estacion_verificar" string="Verificacion Secretaria" domain="[('state', '=', 'estacion_5_verificar_secretaria')]"/>
-                        <filter name="filter_estacion_consejo" string="Aprobacion Consejo" domain="[('state', '=', 'estacion_6_aprobar_secretaria')]"/>
-                        <filter name="filter_estacion_documentos" string="Documentos Secretaria" domain="[('state', '=', 'estacion_7_crear_documentos_secretaria')]"/>
-                        <filter name="filter_estacion_liquidacion" string="Liquidacion" domain="[('state', '=', 'estacion_8_liquidacion')]"/>
+                        <filter name="filter_estacion_informacion" string="Informacion de Credito" domain="[('state', '=', 'estacion_1_analisis_credito')]" groups="fomdes.group_analista_credito,fomdes.group_gerente_credito"/>
+                        <filter name="filter_estacion_juridico" string="Analisis Juridico" domain="[('state', '=', 'estacion_2_analisis_juridico')]" groups="fomdes.group_analista_juridico,fomdes.group_gerente_credito"/>
+                        <filter name="filter_estacion_economico" string="Analisis Economico" domain="[('state', '=', 'estacion_3_analisis_economico')]" groups="fomdes.group_analista_economico,fomdes.group_gerente_credito"/>
+                        <filter name="filter_estacion_gerencia" string="Gerencia de Credito" domain="[('state', '=', 'estacion_4_gerencia_credito')]" groups="fomdes.group_gerente_credito"/>
+                        <filter name="filter_estacion_verificar" string="Verificacion Secretaria" domain="[('state', '=', 'estacion_5_verificar_secretaria')]" groups="fomdes.group_secretaria_ejecutiva,fomdes.group_gerente_credito"/>
+                        <filter name="filter_estacion_consejo" string="Aprobacion Consejo" domain="[('state', '=', 'estacion_6_aprobar_secretaria')]" groups="fomdes.group_secretaria_ejecutiva,fomdes.group_gerente_credito"/>
+                        <filter name="filter_estacion_documentos" string="Documentos Secretaria" domain="[('state', '=', 'estacion_7_crear_documentos_secretaria')]" groups="fomdes.group_secretaria_ejecutiva,fomdes.group_gerente_credito"/>
+                        <filter name="filter_estacion_liquidacion" string="Liquidacion" domain="[('state', '=', 'estacion_8_liquidacion')]" groups="fomdes.group_secretaria_ejecutiva,fomdes.group_gerente_credito"/>
                     </group>
 		        </search>
 		    </field>
