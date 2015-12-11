@@ -10,41 +10,41 @@
             <field name="arch" type="xml">
                 <form string="Formulario Solicitudes">
                     <header>
-                        <button name="button_analisis_juridico" type="workflow"
-                                string="Enviar a Analisis Juridico" states="estacion_1_analisis_credito"
-                                class="oe_highlight"/>
-                        <button name="button_analisis_economico" type="workflow"
-                                string="Enviar a Analisis Economico" states="estacion_2_analisis_juridico"
-                                class="oe_highlight"/>
-                        <button name="button_gerencia_credito" type="workflow"
-                                string="Enviar a Gerencia de Credito" states="estacion_3_analisis_economico"
-                                class="oe_highlight"/>
-                        <button name="button_enviar_a_verificacion_secretaria" type="workflow"
-                                string="Enviar a secretaria ejecutiva" states="estacion_4_gerencia_credito"
-                                class="oe_highlight"/>
-                        <button name="button_enviar_a_aprobacion_secretaria" type="workflow"
-                                string="Verificado" states="estacion_5_verificar_secretaria"
-                                class="oe_highlight"/>
-                        <button name="button_aprobar" type="workflow"
-                                string="Aprobar" states="estacion_6_aprobar_secretaria"
-                                class="oe_highlight"/>
-                        <button name="button_rechazar" type="workflow"
-                                string="Rechazar" states="estacion_6_aprobar_secretaria"
-                                class="oe_highlight"/>
-                        <button name="button_diferir" type="workflow"
-                                string="Diferir" states="estacion_6_aprobar_secretaria"
-                                class="oe_highlight"/>
-                        <button name="button_enviar_a_liquidacion" type="workflow"
-                                string="Enviar a liquidacion" states="estacion_7_crear_documentos_secretaria"
-                                class="oe_highlight"/>
                         <field name="state" widget="statusbar"/>
+                        <button name="button_enviar_control_previo" type="workflow"
+                                string="Enviar a Control Previo" states="estacion_1_consignacion_requisitos"
+                                class="oe_highlight"/>
+                        <button name="button_enviar_inspeccion_avaluo" type="workflow"
+                                string="Enviar a Inspeccion / Avaluo" states="estacion_2_control_previo"
+                                class="oe_highlight"/>
+                        <button name="button_enviar_gerente_credito" type="workflow"
+                                string="Enviar a Gerente de Credito" states="estacion_3_inspeccion_avaluo"
+                                class="oe_highlight"/>
+                        <button name="button_aprobar_gerente" type="workflow"
+                                string="Enviar a Secretaria Ejecutiva" states="estacion_4_evaluacion_gerente"
+                                class="oe_highlight"/>
+                        <button name="button_aprobar_secretaria" type="workflow"
+                                string="Aprobar" states="estacion_5_evaluacion_secretaria"
+                                class="oe_highlight"/>
+                        <button name="button_aprobar_consejo" type="workflow"
+                                string="Aprobar" states="estacion_7_discusion_consejo"
+                                class="oe_highlight"/>
+                        <button name="button_rechazar_consejo" type="workflow"
+                                string="Rechazar" states="estacion_7_discusion_consejo"
+                                class="oe_highlight"/>
+                        <button name="button_diferir_consejo" type="workflow"
+                                string="Diferir" states="estacion_7_discusion_consejo"
+                                class="oe_highlight"/>
+                        <button name="button_enviar_liquidacion" type="workflow"
+                                string="Enviar a liquidacion" states="estacion_8_creacion_documentos"
+                                class="oe_highlight"/>
                     </header>
                     <sheet>
                         <group>
                             <field name="nro_expediente"/>
                             <field name="sector_id"/>
                             <field name="garantia_id"/>
-                            <field name="empresa_promocional"/>
+                            <field name="empresa_establecida"/>
                         </group>
                         <notebook>
                             <page string="Requisitos">
