@@ -117,17 +117,6 @@
 		</field>
 	</record>
 
-	<!-- Accion para el modelo de solicitudes -->
-	<record model="ir.actions.act_window" id="accion_listar_solicitudes">
-		<field name="name">Solicitudes</field>
-		<field name="res_model">solicitudes.solicitudes</field>
-		<field name="view_type">form</field>
-		<field name="view_mode">tree,form</field>
-		<field name="help" type="html">
-		    <p class="oe_view_nocontent_create">Crear Solicitud</p>
-		</field>
-	</record>
-
 	<!-- Accion para el modelo de presupuesto 
 	<record model="ir.actions.act_window" id="accion_listar_presupuesto">
 		<field name="name">Solicitudes</field>
@@ -164,21 +153,6 @@
               name="Ver miembros" 
               parent="menu_consejos"
               action="aprobacion.accion_listar_miembros"
-    />
-
-    <!-- Entrada de menu principal para las solicitudes -->
-    <menuitem id="menu_solicitudes" 
-              name="Solicitudes"
-              parent="entrada_principal_menu_aprobacion"
-    />
-
-	<!-- Entradas de menu secundarias para las solicitudes -->
-
-	<!-- Entrada para ver las solicitudes -->
-    <menuitem id="entrada_secundaria_solicitudes" 
-              name="Ver solicitudes" 
-              parent="menu_solicitudes"
-              action="aprobacion.accion_listar_solicitudes"
     />
 	
     <!-- Entrada de menu principal para el presupuesto
