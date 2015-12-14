@@ -9,15 +9,15 @@ class Solicitudes(models.Model):
 
     nro_expediente = fields.Char(string='Numero de expediente', required=True)
 
-    state = fields.Selection(string='Estacion', selection=[('estacion_1_analisis_credito', 'Informacion de credito'),
-                                                           ('estacion_2_analisis_juridico', 'Analisis juridico'),
-                                                           ('estacion_3_analisis_economico', 'Analisis economico'),
-                                                           ('estacion_4_gerencia_credito', 'Gerencia de credito'),
-                                                           ('estacion_5_verificar_secretaria', 'Secretaria ejecutiva (por verificar)'),
-                                                           ('estacion_6_aprobar_secretaria', 'Secretaria ejecutiva (por aprobar)'), 
-                                                           ('estacion_7_crear_documentos_secretaria', 'Secretaria ejecutiva (crear documentos)'),
-                                                           ('estacion_8_liquidacion', 'Liquidacion')], 
-                                                           default='estacion_1_analisis_credito')
+    state = fields.Selection(string='Estacion', selection=[('estacion_1_consignacion_requisitos', 'Consignacion de Requisitos'),
+                                                           ('estacion_2_control_previo', 'Control Previo'),
+                                                           ('estacion_3_inspeccion_avaluo', 'Inspeccion / Avaluo'),
+                                                           ('estacion_4_evaluacion_gerente', 'Evaluacion por Gerente'),
+                                                           ('estacion_5_evaluacion_secretaria', 'Evaluacion por Secretaria'),
+                                                           ('estacion_7_discusion_consejo', 'Discusion por Consejo)'),
+                                                           ('estacion_8_creacion_documentos', 'Creacion Documentos)'),
+                                                           ('estacion_9_liquidacion', 'Liquidacion')],
+                                                           default='estacion_1_consignacion_requisitos')
 
     estatus_consejo_directivo = fields.Selection(string='Estatus', selection=[('estatus_discutir', 'Por discutir'),
                                                                               ('estatus_rechazado', 'Rechazado'),
@@ -25,12 +25,10 @@ class Solicitudes(models.Model):
                                                                               ('estatus_diferido', 'Diferido')],
                                                                               default='estatus_discutir')
 
-    #grupo_responsable = fields.Selection(string='Usuario responsable', selection=[('group_analista_credito', 'Analista de credito'),('group_analista_juridico', 'Analista juridico'),('group_analista_economico', 'Analista Economico'),('group_gerente_credito', 'Gerente de credito'),('group_secretaria_ejecutiva', 'Secretaria Ejecutiva')],default='fomdes.group_analista_credito')
-
     # Campos provinientes de propuestas:
     sector_id = fields.Many2one('politicas.sectores', string="Sector")
     garantia_id = fields.Many2one('politicas.garantias', string="Garantia")
-    empresa_promocional = fields.Boolean(string='Empresa promocional?')
+    empresa_establecida = fields.Boolean(string='Empresa establecida?')
 
     # Campos para los montos y tasas sugeridas:
     monto_total = fields.Float(string='Monto total') 
@@ -41,6 +39,7 @@ class Solicitudes(models.Model):
     #monto_cuota = fields.Float(string='Monto de la cuota') #calculado
     comision_flat = fields.Float(string='Comision FLAT')
     aporte_social = fields.Float(string='Aporte social')
+
     # Campos para generar del documento de credito y de la empresa
     fecha_de_entrega = fields.Date()
     lapso_de_devolucion = fields.Integer(string='Lapso de devolucion del documento')
@@ -56,71 +55,94 @@ class Solicitudes(models.Model):
     informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', 'solicitudes_id', string="Informe tecnico")
     consejos_directivos_ids = fields.Many2many('aprobacion.consejos', string="Consejo directivo")
 
+    # Cambia a la estacion "Consignar Requisitos"
+    @api.one
+    def action_estacion_consignacion_requisitos(self):
+        self.state = 'estacion_1_consignacion_requisitos'
+
+    # Cambia a la estacion "Control Previo"
+    @api.one
+    def action_estacion_control_previo(self):
+        self.state = 'estacion_2_control_previo'
+
+    # Cambia a la estacion "Inspeccion - Avaluo"
+    @api.one
+    def action_estacion_inspeccion_avaluo(self):
+        self.state = 'estacion_3_inspeccion_avaluo'
+
+    # Cambia a la estacion "Aprobacion Gerente"
+    @api.one
+    def action_estacion_evaluacion_gerente(self):
+        self.state = 'estacion_4_evaluacion_gerente'
+
+    # Cambia a la estacion "Aprobacion Secretaria"
+    @api.one
+    def action_estacion_evaluacion_secretaria(self):
+        self.state = 'estacion_5_evaluacion_secretaria'
+
+    # Cambia a la estacion "Aprobacion Consejo"
+    @api.one
+    def action_estacion_discusion_consejo(self):
+        self.state = 'estacion_7_discusion_consejo'
+
+    # Cambia a la estacion "Creacion Documentos"
+    @api.one
+    def action_estacion_creacion_documentos(self):
+        self.state = 'estacion_8_creacion_documentos'
+
+    # Cambia a la estacion "Liquidacion"
+    @api.one
+    def action_estacion_liquidacion(self):
+        self.state = 'estacion_9_liquidacion'
+
+    # Cambia al estatus "Aprobado"
+    @api.one
+    def action_estatus_aprobado_consejo(self):
+        self.estatus_consejo_directivo = 'estatus_aprobado'
+
+    # Cambia al estatus "Rechazado"
+    @api.one
+    def action_estatus_rechazado_consejo(self):
+        self.estatus_consejo_directivo = 'estatus_rechazado'
+
+    # Cambia al estatus "Diferido"
+    @api.one
+    def action_estatus_diferido_consejo(self):
+        self.estatus_consejo_directivo = 'estatus_diferido'
+
+
+
+    # display_name = fields.Char(
+    #     string='Número de expediente', compute='_compute_display_name',
+    # )
+    #
+    # @api.one
+    # @api.depends('nro_expediente')
+    # def _compute_display_name(self):
+    #     self.display_name = self.nro_expediente
+
     #grupo_actual = fields.Char(string="Usuario Actual", comodel_name='res.users', default = lambda self: self.env.user.name)
     #grupo_actual = fields.Char(string="Usuario Actual", comodel_name='res.groups', default = lambda self: self.env.user.)
+    #grupo_responsable = fields.Selection(string='Usuario responsable', selection=[('group_analista_credito', 'Analista de credito'),('group_analista_juridico', 'Analista juridico'),('group_analista_economico', 'Analista Economico'),('group_gerente_credito', 'Gerente de credito'),('group_secretaria_ejecutiva', 'Secretaria Ejecutiva')],default='fomdes.group_analista_credito')
 
     """
     grupo_actual = fields.Char(compute='_compute_grupo')
 
-	# Returns group id of current user
+    # Returns group id of current user
     def _compute_grupo(self, cr, uid, *args):
         user_obj = self.pool.get('res.users')
         #grupo_actual = user_obj.browse(cr, uid, uid)['groups_id']
         grupo_actual = read(cr, uid, [uid], context)[0]['groups_id']
-        return grupo_actual or False 
+        return grupo_actual or False
 
-	# Returns id of current user
+    # Returns id of current user
     def _compute_grupo(self, cr, uid, *args):
         user_obj = self.pool.get('res.users')
         user_value = user_obj.browse(cr, uid, uid)
         return user_value.login or False
     """
 
-    # Envia a la estacion "Informacion de credito"
-    @api.one
-    def action_enviar_informacion_credito(self):
-        self.state = 'estacion_1_analisis_credito'
-        #self.grupo_responsable = 'group_analista_credito'
-
-    # Envia a la estacion "Analisis Juridico"
-    @api.one
-    def action_enviar_analisis_juridico(self):
-        self.state = 'estacion_2_analisis_juridico'
-        #self.grupo_responsable = 'group_analista_juridico'
-
-    # Envia a la estacion "Analisis Economico"
-    @api.one
-    def action_enviar_analisis_economico(self):
-        self.state = 'estacion_3_analisis_economico'
-        #self.grupo_responsable = 'group_analista_economico'
-
-    # Envia a la estacion "Gerencia de credito"
-    @api.one
-    def action_enviar_gerencia_credito(self):
-        self.state = 'estacion_4_gerencia_credito'
-        #self.grupo_responsable = 'group_gerente_credito'
-
-    # Envia a la estacion "Secretaria ejecutiva (por verificar)", boton "Enviar a secretaria ejecutiva"
-    @api.one
-    def action_enviar_secretaria_verificar(self):
-        self.state = 'estacion_5_verificar_secretaria'
-        #self.grupo_responsable = 'group_secretaria_ejecutiva'
-
-    # Envia a la estacion "Secretaria ejecutiva (por aprobar)", boton "verificado"
-    @api.one
-    def action_enviar_secretaria_aprobar(self):
-        self.state = 'estacion_6_aprobar_secretaria'
-        self.grupo_responsable = 'group_secretaria_ejecutiva'
-
-    # Envia a la estacion "Secretaria ejecutiva (crear documentos)", boton "aprobar"
-    @api.one
-    def action_enviar_secretaria_documentar(self): 
-        self.state = 'estacion_7_crear_documentos_secretaria'
-        self.estatus_consejo_directivo = 'estatus_aprobado'
-        #self.grupo_responsable = 'group_secretaria_ejecutiva'
-
-    # Envia a la estacion "Gerencia de credito", boton "Rechazar"
-	"""
+    """
     @api.one
     def action_secretaria_rechazar(self, cr, uid, ids, context=None):
         if not len(ids):
@@ -133,33 +155,5 @@ class Solicitudes(models.Model):
             wf_service.trg_create(uid, 'solicitudes', p_id, cr)
         self.state = 'estacion_4_gerencia_credito'
         self.estatus_consejo_directivo = 'estatus_rechazado'
-        return True	
-
-	"""
-    @api.one
-    def action_secretaria_rechazar(self):
-        self.state = 'estacion_4_gerencia_credito'
-        self.estatus_consejo_directivo = 'estatus_rechazado'
-        #self.grupo_responsable = 'group_gerente_credito'
-
-
-    # Envia a la estacion "Gerencia de credito", boton "Diferir"
-    @api.one
-    def action_secretaria_diferir(self):
-        self.state = 'estacion_4_gerencia_credito'
-        self.estatus_consejo_directivo = 'estatus_diferido'
-        #self.grupo_responsable = 'group_gerente_credito'
-
-    # Envia a la estacion "Liquidacion", boton "Enviar a liquidacion"
-    @api.one
-    def action_enviar_liquidacion(self):
-        self.state = 'estacion_8_liquidacion'
-
-    # display_name = fields.Char(
-    #     string='Número de expediente', compute='_compute_display_name',
-    # )
-    #
-    # @api.one
-    # @api.depends('nro_expediente')
-    # def _compute_display_name(self):
-    #     self.display_name = self.nro_expediente
+        return True
+    """
