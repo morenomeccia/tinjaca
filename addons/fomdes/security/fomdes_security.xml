@@ -19,8 +19,17 @@
             <field name="name">Gerente de Crédito</field>
             <field name="category_id" ref="solicitudes_category"/>
         </record>
+
+        <record id="aprobacion_category" model="ir.module.category">
+            <field name="name">Cuerpo Ejecutivo</field>
+        </record>
         <record id="group_secretaria_ejecutiva" model="res.groups">
             <field name="name">Secretaria Ejecutiva</field>
+            <field name="category_id" ref="aprobacion_category"/>
+        </record>
+        <record id="group_presidente" model="res.groups">
+            <field name="name">Presidente</field>
+            <field name="category_id" ref="aprobacion_category"/>
         </record>
     </data>
 </openerp>
