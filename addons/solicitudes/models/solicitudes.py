@@ -50,7 +50,7 @@ class Solicitudes(models.Model):
     requisitos_garantia_id = fields.One2many('solicitudes.requisitos_garantia', 'solicitudes_id', string="Requisitos garantia")
     requisitos_empresa_id = fields.One2many('solicitudes.requisitos_empresa', 'solicitudes_id', string="Requisitos empresa")
     control_previo_id = fields.One2many('solicitudes.control_previo', 'solicitudes_id', string="Control Previo")
-    avaluo_id = fields.One2many('solicitudes.inspecciones', 'solicitudes_id', string="Avaluo")
+    avaluo_id = fields.One2many('solicitudes.avaluo', 'solicitudes_id', string="Avaluo")
     inspeccion_id = fields.One2many('solicitudes.inspecciones', 'solicitudes_id', string="Inspeccion")
     informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', 'solicitudes_id', string="Informe tecnico")
     consejos_directivos_ids = fields.Many2many('aprobacion.consejos', string="Consejo directivo")
