@@ -73,7 +73,7 @@
                                     </field>
                                 </group>
                                 <group>
-                                    <field name="requisitos_empresa_id">
+                                    <field name="requisitos_empresa_id" attrs="{'invisible': [('empresa_establecida', '=', False)]}">
                                         <tree>
                                             <field name="documentos_empresa_id"/>
                                             <field name="valido"/>
@@ -202,7 +202,8 @@
                     <sheet>
                         <group>
                             <field name="solicitudes_id"/>
-                            <field name="documentos_garantia_id"/>
+                            <field name="garantia_id_solicitud" readonly="1"/>
+                            <field name="documentos_garantia_id" domain="[('garantia_id','=',garantia_id_solicitud)]"/>
                             <field name="documento"/>
                             <field name="observaciones"/>
                             <field name="valido"/>
@@ -222,6 +223,7 @@
                     <sheet>
                         <group>
                             <field name="solicitudes_id"/>
+                            <field name="empresa_establecida_solicitud" readonly="1"/>
                             <field name="documentos_empresa_id"/>
                             <field name="documento"/>
                             <field name="observaciones"/>
