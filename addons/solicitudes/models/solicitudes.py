@@ -13,17 +13,24 @@ class Solicitudes(models.Model):
                                                            ('estacion_2_control_previo', 'Control Previo'),
                                                            ('estacion_3_inspeccion_avaluo', 'Inspeccion / Avaluo'),
                                                            ('estacion_4_evaluacion_gerente', 'Evaluacion por Gerente'),
-                                                           ('estacion_5_evaluacion_secretaria', 'Evaluacion por Secretaria'),
-                                                           ('estacion_7_discusion_consejo', 'Discusion por Consejo)'),
-                                                           ('estacion_8_creacion_documentos', 'Creacion Documentos)'),
+                                                           ('estacion_5_evaluacion_presidencia', 'Evaluacion por Presidencia'),
+                                                           ('estacion_7_discusion_consejo', 'Discusion por Consejo'),
+                                                           ('estacion_8_creacion_documentos', 'Creacion Documentos'),
                                                            ('estacion_9_liquidacion', 'Liquidacion')],
                                                            default='estacion_1_consignacion_requisitos')
 
-    estatus_consejo_directivo = fields.Selection(string='Estatus', selection=[('estatus_discutir', 'Por discutir'),
-                                                                              ('estatus_rechazado', 'Rechazado'),
-                                                                              ('estatus_aprobado', 'Aprobado'),
-                                                                              ('estatus_diferido', 'Diferido')],
-                                                                              default='estatus_discutir')
+    estatus_gerencia_credito = fields.Selection(string='Estatus Gerencia', selection=[('estatus_evaluar', 'Por evaluar'),
+                                                                                      ('estatus_rechazado', 'Rechazado'),
+                                                                                      ('estatus_aceptado', 'Aceptado'),
+                                                                                      ('estatus_aceptado_cond', 'Aceptado Condicionado')],
+                                                                                      default='estatus_evaluar')
+
+    estatus_consejo_directivo = fields.Selection(string='Estatus Consejo', selection=[('estatus_discutir', 'Por discutir'),
+                                                                                      ('estatus_negado', 'Negado'),
+                                                                                      ('estatus_aprobado', 'Aprobado'),
+                                                                                      ('estatus_aprobado_cond', 'Aprobado Condicionado'),
+                                                                                      ('estatus_diferido', 'Diferido')],
+                                                                                      default='estatus_discutir')
 
     # Campos provinientes de propuestas:
     sector_id = fields.Many2one('politicas.sectores', string="Sector")
@@ -77,8 +84,8 @@ class Solicitudes(models.Model):
 
     # Cambia a la estacion "Aprobacion Secretaria"
     @api.one
-    def action_estacion_evaluacion_secretaria(self):
-        self.state = 'estacion_5_evaluacion_secretaria'
+    def action_estacion_evaluacion_presidencia(self):
+        self.state = 'estacion_5_evaluacion_presidencia'
 
     # Cambia a la estacion "Aprobacion Consejo"
     @api.one
@@ -95,17 +102,22 @@ class Solicitudes(models.Model):
     def action_estacion_liquidacion(self):
         self.state = 'estacion_9_liquidacion'
 
-    # Cambia al estatus "Aprobado"
+    # Cambia al estatus "Aprobado" (consejo)
     @api.one
     def action_estatus_aprobado_consejo(self):
         self.estatus_consejo_directivo = 'estatus_aprobado'
 
-    # Cambia al estatus "Rechazado"
+    # Cambia al estatus "Aprobado Condicionado" (consejo)
     @api.one
-    def action_estatus_rechazado_consejo(self):
-        self.estatus_consejo_directivo = 'estatus_rechazado'
+    def action_estatus_aprobado_cond_consejo(self):
+        self.estatus_consejo_directivo = 'estatus_aprobado_cond'
 
-    # Cambia al estatus "Diferido"
+    # Cambia al estatus "Negado" (consejo)
+    @api.one
+    def action_estatus_negado_consejo(self):
+        self.estatus_consejo_directivo = 'estatus_negado'
+
+    # Cambia al estatus "Diferido" (consejo)
     @api.one
     def action_estatus_diferido_consejo(self):
         self.estatus_consejo_directivo = 'estatus_diferido'
