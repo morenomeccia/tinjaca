@@ -25,6 +25,12 @@ class Solicitudes(models.Model):
                                                                                       ('estatus_aceptado_cond', 'Aceptado Condicionado')],
                                                                                       default='estatus_evaluar')
 
+    estatus_presidencia = fields.Selection(string='Estatus Presidencia', selection=[('estatus_decidir', 'Por decidir'),
+                                                                                      ('estatus_recomendado', 'Recomendado'),
+                                                                                      ('estatus_no_recomendado', 'No recomendado'),
+                                                                                      ('estatus_recomendado_cond', 'Recomendado Condicionado')],
+                                                                                      default='estatus_decidir')
+
     estatus_consejo_directivo = fields.Selection(string='Estatus Consejo', selection=[('estatus_discutir', 'Por discutir'),
                                                                                       ('estatus_negado', 'Negado'),
                                                                                       ('estatus_aprobado', 'Aprobado'),
@@ -101,6 +107,36 @@ class Solicitudes(models.Model):
     @api.one
     def action_estacion_liquidacion(self):
         self.state = 'estacion_9_liquidacion'
+
+    # Cambia al estatus "Aceptado" (gerencia)
+    @api.one
+    def action_estatus_aceptado_gerencia(self):
+        self.estatus_gerencia_credito = 'estatus_aceptado'
+
+    # Cambia al estatus "Aceptado Condicionado" (gerencia)
+    @api.one
+    def action_estatus_aprobado_cond_gerencia(self):
+        self.estatus_gerencia_credito = 'estatus_aceptado_cond'
+
+    # Cambia al estatus "Rechazado" (gerencia)
+    @api.one
+    def action_estatus_rechazado_gerencia(self):
+        self.estatus_gerencia_credito = 'estatus_rechazado'
+
+    # Cambia al estatus "Recomendado" (presidencia)
+    @api.one
+    def action_estatus_recomendado_presidencia(self):
+        self.estatus_presidencia = 'estatus_recomendado'
+
+    # Cambia al estatus "Recomendado Condicionado" (presidencia)
+    @api.one
+    def action_estatus_recomendado_cond_presidencia(self):
+        self.estatus_presidencia = 'estatus_recomendado_cond'
+
+    # Cambia al estatus "No recomendado" (presidencia)
+    @api.one
+    def action_estatus_no_recomendado_presidencia(self):
+        self.estatus_presidencia = 'estatus_no_recomendado'
 
     # Cambia al estatus "Aprobado" (consejo)
     @api.one
