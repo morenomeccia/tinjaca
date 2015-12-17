@@ -11,3 +11,4 @@ class RequisitosEmpresa(models.Model):
     observaciones = fields.Char(string='Observaciones')
     valido = fields.Boolean(string='Valido')
 
+    empresa_establecida_solicitud = fields.Boolean(string='Empresa establecida?', related='solicitudes_id.empresa_establecida', readonly=True)
