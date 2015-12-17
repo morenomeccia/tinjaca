@@ -10,3 +10,5 @@ class RequisitosGarantia(models.Model):
     documento = fields.Binary(string='Documento')
     observaciones = fields.Char(string='Observaciones')
     valido = fields.Boolean(string='Valido')
+
+    garantia_id_solicitud = fields.Many2one(string='Garantia', related='solicitudes_id.garantia_id', readonly=True)

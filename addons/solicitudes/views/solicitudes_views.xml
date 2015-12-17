@@ -202,7 +202,8 @@
                     <sheet>
                         <group>
                             <field name="solicitudes_id"/>
-                            <field name="documentos_garantia_id"/>
+                            <field name="garantia_id_solicitud" readonly="1"/>
+                            <field name="documentos_garantia_id" domain="[('garantia_id','=',garantia_id_solicitud)]"/>
                             <field name="documento"/>
                             <field name="observaciones"/>
                             <field name="valido"/>
