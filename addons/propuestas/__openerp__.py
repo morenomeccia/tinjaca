@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "propuestas",
+    'name': "Tinjaca - Propuestas",
 
     'summary': """
         Este módulo abarca los procesos de Recepción de propuestas""",
@@ -23,7 +23,7 @@ validación de la propuesta de financiamiento y la inclusión de los solicitante
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base','partner_contact_birthdate', 'partner_contact_gender', 'partner_firstname'],
 
     # always loaded
     'data': [
