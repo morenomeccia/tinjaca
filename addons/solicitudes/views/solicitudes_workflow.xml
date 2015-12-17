@@ -34,11 +34,11 @@
             <field name="action">action_estacion_evaluacion_gerente()</field>
             <!-- <field name="join_mode">XOR</field> -->
         </record>
-        <record model="workflow.activity" id="activity_estacion_evaluacion_secretaria">
-            <field name="name">Evaluacion Secretaria Ejecutiva</field>
+        <record model="workflow.activity" id="activity_estacion_evaluacion_presidencia">
+            <field name="name">Evaluacion Presidencia</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
-            <field name="action">action_estacion_evaluacion_secretaria()</field>
+            <field name="action">action_estacion_evaluacion_presidencia()</field>
         </record>
         <record model="workflow.activity" id="activity_estacion_discusion_consejo">
             <field name="name">Discusion Consejo</field>
@@ -53,11 +53,11 @@
             <field name="kind">function</field>
             <field name="action">action_estatus_aprobado_consejo()</field>
         </record>
-        <record model="workflow.activity" id="activity_estatus_rechazado_consejo">
+        <record model="workflow.activity" id="activity_estatus_negado_consejo">
             <field name="name">Solicitud Rechazada</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
-            <field name="action">action_estatus_rechazado_consejo()</field>
+            <field name="action">action_estatus_negado_consejo()</field>
         </record>
         <record model="workflow.activity" id="activity_estatus_diferido_consejo">
             <field name="name">Solicitud Diferida</field>
@@ -104,18 +104,18 @@
             <field name="group_id" ref="fomdes.group_analista_economico"/>
         </record>
 		<!-- Cambio de estacion (boton)" -->
-        <record model="workflow.transition" id="trans_evaluacion_gerente_a_aprobacion_secretaria">
+        <record model="workflow.transition" id="trans_evaluacion_gerente_a_evaluacion_presidencia">
             <field name="act_from" ref="activity_estacion_evaluacion_gerente"/>
-            <field name="act_to" ref="activity_estacion_evaluacion_secretaria"/>
-            <field name="signal">button_aprobar_gerente</field>
+            <field name="act_to" ref="activity_estacion_evaluacion_presidencia"/>
+            <field name="signal">button_aceptar_gerente</field>
             <field name="group_id" ref="fomdes.group_gerente_credito"/>
         </record>
 		<!-- Cambio de estacion (boton)" -->
-        <record model="workflow.transition" id="trans_evaluacion_secretaria_a_discusion_consejo">
-            <field name="act_from" ref="activity_estacion_evaluacion_secretaria"/>
+        <record model="workflow.transition" id="trans_evaluacion_presidencia_a_discusion_consejo">
+            <field name="act_from" ref="activity_estacion_evaluacion_presidencia"/>
             <field name="act_to" ref="activity_estacion_discusion_consejo"/>
-            <field name="signal">button_aprobar_secretaria</field>
-            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
+            <field name="signal">button_recomendar_presidente</field>
+            <field name="group_id" ref="fomdes.group_presidente"/>
         </record>
 		<!-- Cambio de estatus (boton)" -->
         <record model="workflow.transition" id="trans_discusion_consejo_a_aprobado_consejo">
@@ -125,9 +125,9 @@
             <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
         </record>
 		<!-- Cambio de estatus (boton)" -->
-        <record model="workflow.transition" id="trans_discusion_consejo_a_rechazado_consejo">
+        <record model="workflow.transition" id="trans_discusion_consejo_a_negado_consejo">
             <field name="act_from" ref="activity_estacion_discusion_consejo"/>
-            <field name="act_to" ref="activity_estatus_rechazado_consejo"/>
+            <field name="act_to" ref="activity_estatus_negado_consejo"/>
             <field name="signal">button_rechazar_consejo</field>
             <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
         </record>
@@ -146,8 +146,8 @@
             <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
         </record>
 		<!-- Cambio de estacion (auto)" -->
-        <record model="workflow.transition" id="trans_rechazado_consejo_a_evaluacion_gerente">
-            <field name="act_from" ref="activity_estatus_rechazado_consejo"/>
+        <record model="workflow.transition" id="trans_negado_consejo_a_evaluacion_gerente">
+            <field name="act_from" ref="activity_estatus_negado_consejo"/>
             <field name="act_to" ref="activity_estacion_evaluacion_gerente"/>
             <field name="condition">True</field>
             <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>

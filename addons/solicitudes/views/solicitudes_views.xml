@@ -20,11 +20,23 @@
                         <button name="button_enviar_gerente_credito" type="workflow"
                                 string="Enviar a Gerente de Credito" states="estacion_3_inspeccion_avaluo"
                                 class="oe_highlight"/>
-                        <button name="button_aprobar_gerente" type="workflow"
+                        <button name="button_aceptar_gerente" type="workflow"
                                 string="Enviar a Secretaria Ejecutiva" states="estacion_4_evaluacion_gerente"
                                 class="oe_highlight"/>
-                        <button name="button_aprobar_secretaria" type="workflow"
-                                string="Aprobar" states="estacion_5_evaluacion_secretaria"
+                        <button name="button_devolver_requisitos" type="workflow"
+                                string="Devolver a Requisitos" states="estacion_4_evaluacion_gerente"
+                                class="oe_highlight"/>
+                        <button name="button_devolver_control_previo" type="workflow"
+                                string="Devolver a Control Previo" states="estacion_4_evaluacion_gerente"
+                                class="oe_highlight"/>
+                        <button name="button_devolver_inspeccion_avaluo" type="workflow"
+                                string="Devolver a Inspeccion / Avaluo" states="estacion_4_evaluacion_gerente"
+                                class="oe_highlight"/>
+                        <button name="button_recomendar_presidente" type="workflow"
+                                string="Recomendar" states="estacion_5_evaluacion_presidencia"
+                                class="oe_highlight"/>
+                        <button name="button_no_recomendar_presidente" type="workflow"
+                                string="No recomendar" states="estacion_5_evaluacion_presidencia"
                                 class="oe_highlight"/>
                         <button name="button_aprobar_consejo" type="workflow"
                                 string="Aprobar" states="estacion_7_discusion_consejo"
