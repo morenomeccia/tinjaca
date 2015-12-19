@@ -1,11 +1,11 @@
--*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 from openerp import models, fields, api
 
 class Facturas(models.Model):
     _name = 'acompanamiento.facturas'
 
-    rec_name = descripcion
+    _rec_name = 'descripcion'
     
     credito_id = fields.Many2one('administracion.creditos', string="Número de expediente")
     #rubro_id = fields.Many2one('politicas.rubros', string="Rubro")

@@ -2,7 +2,7 @@
 
 from openerp import models, fields, api
 
-class fotografiasAcompanamiento(models.Model):
+class FotografiasAcompanamiento(models.Model):
     _name = 'acompanamiento.fotografias_acompanamiento'
 
     _rec_name = 'descripcion'

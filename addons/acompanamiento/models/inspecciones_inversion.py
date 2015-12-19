@@ -16,7 +16,7 @@ class InspeccionesInversion(models.Model):
     resultados = fields.Text(string='Resultados')
     observaciones = fields.Char(string='Observaciones')
     
-    cantidad_empleos = fields.Integer(string='Cantidad de empleos generados')
+    cantidad_empleos = fields.Integer(string='Cantidad de empleos generados') # administacion.credito?
     
     
     

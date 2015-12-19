@@ -1,6 +1,6 @@
--*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
-#import informes_acompanamiento
-#import fotografias_acompanamiento
-#import facturas
-#import notas
+import inspecciones_inversion
+import fotografias_acompanamiento
+import facturas
+import notas
