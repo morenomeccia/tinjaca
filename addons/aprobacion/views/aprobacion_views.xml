@@ -3,7 +3,7 @@
 	<data>
 
 	<!-- Vista de formulario para el modelo de consejo directivo-->
-	<record model="ir.ui.view" id="comsejos_form_view">
+	<record model="ir.ui.view" id="consejos_form_view">
 		<field name="name">formulario_consejo</field>
 		<field name="model">aprobacion.consejos</field>
 		<field name="arch" type="xml">
