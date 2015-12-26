@@ -1,8 +1,8 @@
 id,codigo,descripcion,habilitado,tasa_interes_promocionales,tasa_interes_establecidas,tasa_mora,comision_flat,aporte_social,plazo_maximo,monto_maximo,monto_minimo
 
-"sector_agricola","A","Agricola",True,6,6,3,2.5,1.5,36,1200000,20000
+"sector_agricola","AGR","Agricola",True,6,6,3,2.5,1.5,36,1200000,20000
 "sector_turismo","T","Turismo",True,9,16,3,2.5,1.5,60,1200000,20000
-"sector_artesanal","AR","Artesanal",True,8,12,3,2.5,1.5,36,1200000,20000
+"sector_artesanal","A","Artesanal",True,8,12,3,2.5,1.5,36,1200000,20000
 "sector_cyt","CYT","Ciencia y Tecnologia",True,6,6,3,2.5,1.5,36,1200000,20000
 "sector_pyme","PYME","Pequena y Mediana Empresa",True,12,14,3,2.5,1.5,36,1200000,20000
 "sector_pymi","PYMI","Pequena y Mediana Industria",True,12,14,3,2.5,1.5,36,1200000,20000

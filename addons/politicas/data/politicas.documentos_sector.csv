@@ -1,20 +1,20 @@
 id,tipo_documento,sector_id,habilitado
 
-"doc_agricola0","Plan de produccion","A",True
-"doc_agricola1","Cronograma de cultivo","A",True
-"doc_agricola2","Titulo de adjudicacion","A",True
-"doc_agricola3","Declaratoria de permanencia","A",True
-"doc_agricola4","Carta agraria","A",True
-"doc_agricola5","Carta aval IMDERURAL","A",True
-"doc_agricola6","Certificado de vacunacion","A",True
-"doc_agricola7","Constancia de no poseer animales INSAI","A",True
-"doc_agricola8","Registro de hierro","A",True
-"doc_agricola9","Constancia de productor","A",True
-"doc_agricola10","Proforma materiales","A",True
-"doc_agricola11","Proforma Insumos","A",True
-"doc_agricola12","Proforma maquinarias","A",True
-"doc_agricola13","Proforma equipos","A",True
-"doc_agricola14","Proforma animales","A",True
+"doc_agricola0","Plan de produccion","AGR",True
+"doc_agricola1","Cronograma de cultivo","AGR",True
+"doc_agricola2","Titulo de adjudicacion","AGR",True
+"doc_agricola3","Declaratoria de permanencia","AGR",True
+"doc_agricola4","Carta agraria","AGR",True
+"doc_agricola5","Carta aval IMDERURAL","AGR",True
+"doc_agricola6","Certificado de vacunacion","AGR",True
+"doc_agricola7","Constancia de no poseer animales INSAI","AGR",True
+"doc_agricola8","Registro de hierro","AGR",True
+"doc_agricola9","Constancia de productor","AGR",True
+"doc_agricola10","Proforma materiales","AGR",True
+"doc_agricola11","Proforma Insumos","AGR",True
+"doc_agricola12","Proforma maquinarias","AGR",True
+"doc_agricola13","Proforma equipos","AGR",True
+"doc_agricola14","Proforma animales","AGR",True
 
 "doc_turismo0","Presupuesto de la obra para infraestructura","T",True
 "doc_turismo1","Análisis de precios unitarios de la obra para infraestructura","T",True
@@ -36,11 +36,11 @@ id,tipo_documento,sector_id,habilitado
 "doc_turismo17","Copia del certificado del vehículo para unidad de Transporte","T",True
 "doc_turismo18","Copia del documento de propiedad para unidad de Transporte","T",True
 
-"doc_artesanal0","Proformas de la materia o insumo","AR",True
-"doc_artesanal1","Proformas de maquinarias o equipos","AR",True
-"doc_artesanal2","Presupuesto de infraestructura","AR",True
-"doc_artesanal3","Breve descripción de infraestructura","AR",True
-"doc_artesanal4","Plano de infraestructura","AR",True
+"doc_artesanal0","Proformas de la materia o insumo","A",True
+"doc_artesanal1","Proformas de maquinarias o equipos","A",True
+"doc_artesanal2","Presupuesto de infraestructura","A",True
+"doc_artesanal3","Breve descripción de infraestructura","A",True
+"doc_artesanal4","Plano de infraestructura","A",True
 
 "doc_CyT0","Facturas pro-forma para Materia prima e Insumos","CYT",True
 "doc_CyT1","Cotización para Materia prima e Insumos","CYT",True
