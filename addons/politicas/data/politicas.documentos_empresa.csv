@@ -1,6 +1,6 @@
-id,tipo_documento,empresa,habilitado
+id,tipo_documento,establecida,habilitado
 
-"establecida0","Estado Financiero","establecida",True
-"establecida1","Balance de Comprobación","establecida",True
-"establecida2","Solvencia Laboral","establecida",True
+"establecida0","Estado Financiero",True,True
+"establecida1","Balance de Comprobación",True,True
+"establecida2","Solvencia Laboral",True,True
 

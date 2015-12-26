@@ -9,4 +9,4 @@ class DocumentosEmpresa(models.Model):
 
     tipo_documento = fields.Char(string='Tipo de Documento')
     habilitado = fields.Boolean(string='Habilitar')
-    empresa = fields.Char(string='Empresa')
+    establecida = fields.Boolean(string='Empresa establecida?')

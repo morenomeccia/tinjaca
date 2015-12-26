@@ -139,7 +139,7 @@
                         <group>
                             <field name="tipo_documento"/>
                             <field name="habilitado"/>
-                            <field name="empresa"/>
+                            <field name="establecida"/>
                         </group>
                     </sheet>
                 </form>
@@ -153,7 +153,7 @@
                 <tree string="Listado Documentos Empresa">
                     <field name="tipo_documento"/>
                     <field name="habilitado"/>
-                    <field name="empresa"/>
+                    <!-- <field name="establecida"/> -->
                 </tree>
             </field>
         </record>
