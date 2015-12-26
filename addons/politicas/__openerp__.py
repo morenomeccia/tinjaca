@@ -17,10 +17,10 @@
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
     # for the full list
     'category': 'Tinjaca',
-    'version': '0.2',
+    'version': '0.3',
 
     # any module necessary for this one to work correctly
-    'depends': ['fomdes'],
+    'depends': ['base','fomdes'],
 
     # always loaded
     'data': [
@@ -28,6 +28,7 @@
         'views/politicas_views.xml',
         'data/politicas.sectores.csv',
         'data/politicas.garantias.csv',
+        'data/politicas.rubros.csv',
         'data/politicas.documentos_generales.csv',
         'data/politicas.documentos_sector.csv',
         'data/politicas.documentos_garantia.csv',

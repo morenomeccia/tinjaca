@@ -2,6 +2,7 @@
 
 import sectores
 import garantias
+import rubros
 import documentos_sector
 import documentos_garantia
 import documentos_generales

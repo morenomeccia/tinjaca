@@ -1,0 +1,7 @@
+id,descripcion,sector_ids,habilitado
+
+"rubro01","Materia prima e insumos",,True
+"rubro02","Maquinaria",,True
+"rubro03","Materiales de construccion",,True
+"rubro04","Sistema de riego",,True
+"rubro05","Mano de obra",,True
