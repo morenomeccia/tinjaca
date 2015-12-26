@@ -8,7 +8,7 @@ class InspeccionesInversion(models.Model):
     _rec_name = 'fecha_inspeccion'
 
     creditos_id = fields.Many2one('administracion.creditos', string="Número de expediente", required=True)
-    foto_inspeccion_id = fields.One2many('acompanamiento.fotografias_acompanamiento', 'acompanamiento.inspecciones_inversion', string="Fotografias de la inspeccion")
+    foto_inspeccion_id = fields.One2many('acompanamiento.fotografias_acompanamiento', 'inspecciones_inversion_id', string="Fotografias de la inspeccion")
 
     fecha_inspeccion = fields.Date(string='Fecha de inspeccion', required=True)
     numero_liquidacion = fields.Integer(string='Numero de Liquidacion')
