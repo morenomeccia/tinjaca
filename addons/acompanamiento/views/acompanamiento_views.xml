@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+
+	<!-- Vista de formulario para el modelo de facturas-->
+	<record model="ir.ui.view" id="vista_formulario_facturas">
+		<field name="name">formulario_facturas</field>
+		<field name="model">acompanamiento.facturas</field>
+		<field name="arch" type="xml">
+			<form string="Facturas">
+				<sheet>
+					<group>
+						<field name="credito_id"/>
+                        <field name="rubro_id"/>
+						<field name="descripcion"/>
+						<field name="monto"/>
+						<field name="valido"/>
+						<field name="observaciones"/>
+					</group>
+				</sheet>
+			</form>
+		</field>
+	</record>
+
+	<!-- Vista de formulario para el modelo de fotografias de acompanamiento -->
+	<record model="ir.ui.view" id="vista_formulario_fotografias">
+		<field name="name">formulario_fotografias</field>
+		<field name="model">acompanamiento.fotografias_acompanamiento</field>
+		<field name="arch" type="xml">
+			<form string="Fotografias de acompanamiento">
+				<sheet>
+					<group>
+						<field name="inspecciones_inversion_id"/>
+						<field name="descripcion"/>
+						<field name="fecha"/>
+						<field name="foto_acompanamiento"/>
+					</group>
+				</sheet>
+			</form>
+		</field>
+	</record>
+
+	<!-- Vista de formulario para el modelo de inspecciones de inversion -->
+	<record model="ir.ui.view" id="vista_formulario_inspecciones">
+		<field name="name">formulario_inspecciones</field>
+		<field name="model">acompanamiento.inspecciones_inversion</field>
+		<field name="arch" type="xml">
+			<form string="Inspecciones de Inversion">
+				<sheet>
+					<group>
+						<field name="creditos_id"/>
+						<field name="foto_inspeccion_id"/>
+						<field name="fecha_inspeccion"/>
+						<field name="recomendacion"/>
+						<field name="resultados"/>
+						<field name="observaciones"/>
+						<field name="cantidad_empleos"/>
+					</group>
+				</sheet>
+			</form>
+		</field>
+	</record>
+
+	<!-- Vista de formulario para el modelo de notas -->
+	<record model="ir.ui.view" id="vista_formulario_notas">
+		<field name="name">formulario_notas</field>
+		<field name="model">acompanamiento.notas</field>
+		<field name="arch" type="xml">
+			<form string="Notas">
+				<sheet>
+					<group>
+						<field name="creditos_id"/>
+						<field name="fecha_nota"/>
+						<field name="tipo_nota"/>
+						<field name="declaraciones"/>
+					</group>
+				</sheet>
+			</form>
+		</field>
+	</record>
+
+	<!-- Vista de lista para el modelo de facturas-->
+	<record model="ir.ui.view" id="facturas_list_view">
+		<field name="name">lista_facturas</field>
+		<field name="model">acompanamiento.facturas</field>
+		<field name="arch" type="xml">
+		    <tree string="Listado de facturas">
+                <field name="credito_id"/>
+                <field name="rubro_id"/>
+                <field name="descripcion"/>
+                <field name="monto"/>
+                <field name="valido"/>
+                <field name="observaciones"/>
+		    </tree>
+		</field>
+	</record>
+
+
+	<!-- Vista de lista para el modelo de fotografias de acompanamiento-->
+	<record model="ir.ui.view" id="fotografias_list_view">
+		<field name="name">lista_fotografias</field>
+		<field name="model">acompanamiento.fotografias_acompanamiento</field>
+		<field name="arch" type="xml">
+		    <tree string="Listado de Fotografias">
+                <field name="inspecciones_inversion_id"/>
+                <field name="descripcion"/>
+                <field name="fecha"/>
+                <field name="foto_acompanamiento"/>
+		    </tree>
+		</field>
+	</record>
+
+	<!-- Vista de lista para el modelo de inspecciones de inversion-->
+	<record model="ir.ui.view" id="inspecciones_list_view">
+		<field name="name">lista_inspecciones</field>
+		<field name="model">acompanamiento.inspecciones_inversion</field>
+		<field name="arch" type="xml">
+		    <tree string="Listado de inspecciones">
+                <field name="creditos_id"/>
+                <field name="fecha_inspeccion"/>
+                <field name="foto_inspeccion_id"/>
+                <field name="resultados"/>
+                <field name="recomendacion"/>
+                <field name="cantidad_empleos"/>
+                <field name="observaciones"/>
+		    </tree>
+		</field>
+	</record>
+
+	<!-- Vista de lista para el modelo de notas-->
+	<record model="ir.ui.view" id="notas_list_view">
+		<field name="name">lista_notas</field>
+		<field name="model">acompanamiento.notas</field>
+		<field name="arch" type="xml">
+		    <tree string="Listado de notas">
+                <field name="creditos_id"/>
+                <field name="fecha_nota"/>
+                <field name="tipo_nota"/>
+                <field name="declaraciones"/>
+		    </tree>
+		</field>
+	</record>
+
+	<!-- Caja de busqueda para el modelo de facturas -->
+    <record model="ir.ui.view" id="facturas_search_view">
+        <field name="name">caja_de_busqueda_facturas</field>
+        <field name="model">acompanamiento.facturas</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="credito_id"/>
+                <field name="rubro_id"/>
+                <field name="descripcion"/>
+                <field name="monto"/>
+                <field name="valido"/>
+                <field name="observaciones"/>
+            </search>
+        </field>
+    </record>
+
+	<!-- Caja de busqueda para el modelo de fotografias de acompanamiento -->
+    <record model="ir.ui.view" id="fotografias_search_view">
+        <field name="name">caja_de_busqueda_fotografias</field>
+        <field name="model">acompanamiento.fotografias_acompanamiento</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="inspecciones_inversion_id"/>
+                <field name="descripcion"/>
+                <field name="fecha"/>
+                <field name="foto_acompanamiento"/>
+            </search>
+        </field>
+    </record>
+
+	<!-- Caja de busqueda para el modelo de inspecciones de inversion -->
+    <record model="ir.ui.view" id="inspecciones_search_view">
+        <field name="name">caja_de_busqueda_inspecciones</field>
+        <field name="model">acompanamiento.inspecciones_inversion</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="creditos_id"/>
+                <field name="fecha_inspeccion"/>
+                <field name="foto_inspeccion_id"/>
+                <field name="resultados"/>
+                <field name="recomendacion"/>
+                <field name="cantidad_empleos"/>
+                <field name="observaciones"/>
+            </search>
+        </field>
+    </record>
+
+	<!-- Caja de busqueda para el modelo de notas -->
+    <record model="ir.ui.view" id="notas_search_view">
+        <field name="name">caja_de_busqueda_notas</field>
+        <field name="model">acompanamiento.notas</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="creditos_id"/>
+                <field name="fecha_nota"/>
+                <field name="tipo_nota"/>
+                <field name="declaraciones"/>
+            </search>
+        </field>
+    </record>
+
+	<!-- Accion para el modelo de facturas -->
+	<record model="ir.actions.act_window" id="accion_listar_facturas">
+		<field name="name">Facturas</field>
+		<field name="res_model">acompanamiento.facturas</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">tree,form</field>
+		<field name="help" type="html">
+		    <p class="oe_view_nocontent_create">Crear factura</p>
+		</field>
+	</record>
+
+	<!-- Accion para el modelo de fotografias de acompanamiento -->
+	<record model="ir.actions.act_window" id="accion_listar_fotografias">
+		<field name="name">Fotografias de acompanamiento</field>
+		<field name="res_model">acompanamiento.fotografias_acompanamiento</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">tree,form</field>
+		<field name="help" type="html">
+		    <p class="oe_view_nocontent_create">Crear fotografias</p>
+		</field>
+	</record>
+
+	<!-- Accion para el modelo de inspecciones de inversion -->
+	<record model="ir.actions.act_window" id="accion_listar_inspecciones">
+		<field name="name">Inspecciones de inversion</field>
+		<field name="res_model">acompanamiento.inspecciones_inversion</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">tree,form</field>
+		<field name="help" type="html">
+		    <p class="oe_view_nocontent_create">Crear inspeccion</p>
+		</field>
+	</record>
+
+	<!-- Accion para el modelo de notas -->
+	<record model="ir.actions.act_window" id="accion_listar_notas">
+		<field name="name">Notas</field>
+		<field name="res_model">acompanamiento.notas</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">tree,form</field>
+		<field name="help" type="html">
+		    <p class="oe_view_nocontent_create">Crear notas</p>
+		</field>
+	</record>
+
+    <!-- Entrada para el menu principal para el modulo de Acompanamiento -->
+    <menuitem id="entrada_principal_menu_acompanamiento"
+			  name="Acompanamiento"
+    />
+
+    <!-- Entrada de menu principal para el acompanamiento -->
+    <menuitem id="menu_acompanamiento"
+              name="Acompanamiento"
+              parent="entrada_principal_menu_acompanamiento"
+    />
+
+	<!-- Entradas de menu secundarias para el acompanamiento -->
+
+	<!-- Entrada para ver las facturas -->
+    <menuitem id="entrada_secundaria_acompanamiento"
+              name="Facturas"
+              parent="menu_acompanamiento"
+              action="acompanamiento.accion_listar_facturas"
+    />
+
+	<!-- Entrada para ver las inspecciones de inversion -->
+    <menuitem id="entrada_secundaria_inspecciones"
+              name="Inspecciones"
+              parent="menu_acompanamiento"
+              action="acompanamiento.accion_listar_inspecciones"
+    />
+
+	<!-- Entrada para ver las notas -->
+    <menuitem id="entrada_secundaria_notas"
+              name="Notas"
+              parent="menu_acompanamiento"
+              action="acompanamiento.accion_listar_notas"
+    />
+
+	</data>
+</openerp>

@@ -8,7 +8,7 @@ class Facturas(models.Model):
     _rec_name = 'descripcion'
     
     credito_id = fields.Many2one('administracion.creditos', string="Número de expediente")
-    #rubro_id = fields.Many2one('politicas.rubros', string="Rubro")
+    rubro_id = fields.Many2one('politicas.rubros', string="Rubro")
     descripcion = fields.Char(string="Descripcion")
     monto = fields.Float(string="Monto")
     valido = fields.Boolean(string="Valida?")

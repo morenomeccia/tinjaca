@@ -3,7 +3,7 @@
     'name': "Tinjaca - Acompanamiento",
 
     'summary': """
-        Cumplimiento de las normativas para los creditos aproados por el FOMDES
+        Cumplimiento de las normativas para los creditos aprobados por el FOMDES
     """,
 
     'description': """
@@ -25,7 +25,7 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        # 'templates.xml',
+         'views/acompanamiento_views.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
