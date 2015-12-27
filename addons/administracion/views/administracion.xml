@@ -14,7 +14,7 @@
                             <field name="fecha_liquidacion"/>
                             <field name="fecha_ultima"/>
                             <field name="solicitudes_id"/>
-                            <field name="nro_expediente_solicitudes"/>
+                            <field name="nro_expediente_solicitudes" invisible="1"/>
                         </group>
                     </sheet>
                 </form>
@@ -27,10 +27,9 @@
 		<field name="model">administracion.creditos</field>
 		<field name="arch" type="xml">
 		    <tree string="Listado de creditos">
+                <field name="nro_expediente_solicitudes"/>
                 <field name="fecha_liquidacion"/>
                 <field name="fecha_ultima"/>
-                <field name="solicitudes_id"/>
-                <field name="nro_expediente_solicitudes"/>
 		    </tree>
 		</field>
 	</record>
@@ -43,7 +42,6 @@
             <search>
                 <field name="fecha_liquidacion"/>
                 <field name="fecha_ultima"/>
-                <field name="solicitudes_id"/>
                 <field name="nro_expediente_solicitudes"/>
             </search>
         </field>
@@ -53,7 +51,7 @@
 
         <record model="ir.actions.act_window" id="accion_listar_credito">
             <field name="name">Credito</field>
-            <field name="res_model">administracion.credito</field>
+            <field name="res_model">administracion.creditos</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
