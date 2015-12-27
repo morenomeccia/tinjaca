@@ -261,28 +261,21 @@
 
 	<!-- Entrada para ver las facturas -->
     <menuitem id="entrada_secundaria_acompanamiento"
-              name="Ver facturas"
+              name="Facturas"
               parent="menu_acompanamiento"
               action="acompanamiento.accion_listar_facturas"
     />
 
-	<!-- Entrada para ver las fotografias de acompanamiento -->
-    <menuitem id="entrada_secundaria_fotografias"
-              name="Ver fotografias"
-              parent="menu_acompanamiento"
-              action="acompanamiento.accion_listar_fotografias"
-    />
-
 	<!-- Entrada para ver las inspecciones de inversion -->
     <menuitem id="entrada_secundaria_inspecciones"
-              name="Ver inspecciones"
+              name="Inspecciones"
               parent="menu_acompanamiento"
               action="acompanamiento.accion_listar_inspecciones"
     />
 
 	<!-- Entrada para ver las notas -->
     <menuitem id="entrada_secundaria_notas"
-              name="Ver notas"
+              name="Notas"
               parent="menu_acompanamiento"
               action="acompanamiento.accion_listar_notas"
     />
