@@ -2,65 +2,38 @@
 <openerp>
     <data>
 
-        <!-- Creacion de la vista para mostrar estados de cuenta -->
+        <!-- Creacion de la vista para el modelo creditos -->
 
-        <record model="ir.ui.view" id="vista_forma_estados_cuenta">
-            <field name="name">estados_cuenta.form</field>
-            <field name="model">solicitudes.estados_cuenta</field>
+        <record model="ir.ui.view" id="creditos_view_form">
+            <field name="name">creditos.form</field>
+            <field name="model">administracion.creditos</field>
             <field name="arch" type="xml">
-                <form string="Formulario Estados de Cuenta">
+                <form string="Formulario de Creditos">
                     <sheet>
                         <group>
-                            <field name="monto_total"/>
-                            <field name="monto_cuota"/>
-                            <field name="periodos_gracia"/>
-                            <field name="periodo_pago"/>
-                            <field name="tasas_interes"/>
-                            <field name="interes_mora"/>
                             <field name="fecha_liquidacion"/>
                             <field name="fecha_ultima"/>
+                            <field name="solicitudes_id"/>
+                            <field name="nro_expediente_solicitudes"/>
                         </group>
                     </sheet>
                 </form>
             </field>
         </record>
 
-
-        <!-- Creacion de la vista para mostrar credito -->
-
-        <record model="ir.ui.view" id="vista_forma_credito">
-            <field name="name">credito.form</field>
-            <field name="model">administracion.credito</field>
-            <field name="arch" type="xml">
-                <form string="Formulario Credito">
-                    <sheet>
-                        <group>
-                            <field name="nro_expediente"/>
-                            <field name="codigo_solcitante"/>
-                            <field name="codigo_unidad_productiva"/>
-                            <field name="codigo_taller"/>
-                            <field name="codigo_consejo"/>
-                            <field name="codigo_estados_cuenta"/>
-                        </group>
-                    </sheet>
-                </form>
-            </field>
-        </record>
-
-
-
-
-        <!-- Accion de ventana para estados de cuenta -->
-
-        <record model="ir.actions.act_window" id="accion_listar_estados_cuenta">
-            <field name="name">Estados de cuenta</field>
-            <field name="res_model">solicitudes.estados_cuenta</field>
-            <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
-            <field name="help" type="html">
-                <p class="oe_view_nocontent_create">Crear estados de cuenta</p>
-            </field>
-        </record>
+	<!-- Vista de lista para el modelo de creditos-->
+	<record model="ir.ui.view" id="creditos_view_list">
+		<field name="name">lista_creditos</field>
+		<field name="model">administracion.creditos</field>
+		<field name="arch" type="xml">
+		    <tree string="Listado de creditos">
+                <field name="fecha_liquidacion"/>
+                <field name="fecha_ultima"/>
+                <field name="solicitudes_id"/>
+                <field name="nro_expediente_solicitudes"/>
+		    </tree>
+		</field>
+	</record>
 
         <!-- Accion de ventana para credito -->
 
@@ -77,8 +50,6 @@
         <!-- top level menu: no parent -->
         <menuitem id="menu_principal_administracion" name="Administracion"/>
         <menuitem id="menu_administracion" name="Administracion" parent="menu_principal_administracion"/>
-        <!-- Entrada de menu para el modelo de Estados de cuenta -->
-        <menuitem id="menu_estados_cuenta" name="Estados de Cuenta" parent="menu_administracion" action="accion_listar_estados_cuenta"/>
         <!-- Entrada de menu para el modelo de Credito -->
         <menuitem id="menu_credito" name="Credito" parent="menu_administracion" action="accion_listar_credito"/>
 
