@@ -11,9 +11,9 @@
                 <form string="Formulario de Creditos">
                     <sheet>
                         <group>
+                            <field name="solicitudes_id"/>
                             <field name="fecha_liquidacion"/>
                             <field name="fecha_ultima"/>
-                            <field name="solicitudes_id"/>
                             <field name="nro_expediente_solicitudes" invisible="1"/>
                         </group>
                     </sheet>
