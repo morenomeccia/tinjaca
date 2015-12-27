@@ -35,6 +35,20 @@
 		</field>
 	</record>
 
+	<!-- Caja de busqueda para el modelo de credito -->
+    <record model="ir.ui.view" id="credito_view_search">
+        <field name="name">caja_de_busqueda_creditos</field>
+        <field name="model">administracion.creditos</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="fecha_liquidacion"/>
+                <field name="fecha_ultima"/>
+                <field name="solicitudes_id"/>
+                <field name="nro_expediente_solicitudes"/>
+            </search>
+        </field>
+    </record>
+
         <!-- Accion de ventana para credito -->
 
         <record model="ir.actions.act_window" id="accion_listar_credito">
