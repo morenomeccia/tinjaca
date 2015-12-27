@@ -3,7 +3,7 @@
     'name': "Tinjaca - Acompanamiento",
 
     'summary': """
-        Cumplimiento de las normativas para los creditos aproados por el FOMDES
+        Cumplimiento de las normativas para los creditos aprobados por el FOMDES
     """,
 
     'description': """
