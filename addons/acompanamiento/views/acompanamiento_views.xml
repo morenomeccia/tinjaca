@@ -10,7 +10,7 @@
 			<form string="Facturas">
 				<sheet>
 					<group>
-						<field name="credito_id"/>
+						<field name="solicitudes_id"/>
                         <field name="rubro_id"/>
 						<field name="descripcion"/>
 						<field name="monto"/>
@@ -48,7 +48,7 @@
 			<form string="Inspecciones de Inversion">
 				<sheet>
 					<group>
-						<field name="creditos_id"/>
+						<field name="solicitudes_id"/>
 						<field name="foto_inspeccion_id"/>
 						<field name="fecha_inspeccion"/>
 						<field name="recomendacion"/>
@@ -69,7 +69,7 @@
 			<form string="Notas">
 				<sheet>
 					<group>
-						<field name="creditos_id"/>
+						<field name="solicitudes_id"/>
 						<field name="fecha_nota"/>
 						<field name="tipo_nota"/>
 						<field name="declaraciones"/>
@@ -85,7 +85,7 @@
 		<field name="model">acompanamiento.facturas</field>
 		<field name="arch" type="xml">
 		    <tree string="Listado de facturas">
-                <field name="credito_id"/>
+                <field name="solicitudes_id"/>
                 <field name="rubro_id"/>
                 <field name="descripcion"/>
                 <field name="monto"/>
@@ -116,7 +116,7 @@
 		<field name="model">acompanamiento.inspecciones_inversion</field>
 		<field name="arch" type="xml">
 		    <tree string="Listado de inspecciones">
-                <field name="creditos_id"/>
+                <field name="solicitudes_id"/>
                 <field name="fecha_inspeccion"/>
                 <field name="foto_inspeccion_id"/>
                 <field name="resultados"/>
@@ -133,7 +133,7 @@
 		<field name="model">acompanamiento.notas</field>
 		<field name="arch" type="xml">
 		    <tree string="Listado de notas">
-                <field name="creditos_id"/>
+                <field name="solicitudes_id"/>
                 <field name="fecha_nota"/>
                 <field name="tipo_nota"/>
                 <field name="declaraciones"/>
@@ -147,7 +147,7 @@
         <field name="model">acompanamiento.facturas</field>
         <field name="arch" type="xml">
             <search>
-                <field name="credito_id"/>
+                <field name="solicitudes_id"/>
                 <field name="rubro_id"/>
                 <field name="descripcion"/>
                 <field name="monto"/>
@@ -177,7 +177,7 @@
         <field name="model">acompanamiento.inspecciones_inversion</field>
         <field name="arch" type="xml">
             <search>
-                <field name="creditos_id"/>
+                <field name="solicitudes_id"/>
                 <field name="fecha_inspeccion"/>
                 <field name="foto_inspeccion_id"/>
                 <field name="resultados"/>
@@ -194,7 +194,7 @@
         <field name="model">acompanamiento.notas</field>
         <field name="arch" type="xml">
             <search>
-                <field name="creditos_id"/>
+                <field name="solicitudes_id"/>
                 <field name="fecha_nota"/>
                 <field name="tipo_nota"/>
                 <field name="declaraciones"/>

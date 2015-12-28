@@ -7,7 +7,7 @@ class Notas(models.Model):
 
     _rec_name = 'fecha_nota'
 
-    creditos_id = fields.Many2one('administracion.creditos', string="Número de expediente", required=True)
+    solicitudes_id = fields.Many2one('solicitudes.solicitudes', string="Número de expediente", required=True)
     
     fecha_nota = fields.Date(string='Fecha de la nota', required=True)
     tipo_nota = fields.Selection(string='Tipo de nota', selection=[('1', 'Atencion en oficina'), ('2', 'Llamada telefonica'), ('3', 'Visita a la unidad')]) 

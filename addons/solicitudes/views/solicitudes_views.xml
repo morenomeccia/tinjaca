@@ -125,6 +125,13 @@
                                     <field name="consejos_directivos_ids"/>
                                 </group>
                             </page>
+                            <page string="Liquidacion" >
+                                <group>
+                                    <field name="consejos_directivos_ids"/>
+                                    <field name="fecha_liquidacion"/>
+                                    <field name="fecha_ultima"/>
+                                </group>
+                            </page>
                         </notebook>
                     </sheet>
                 </form>

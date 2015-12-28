@@ -57,6 +57,10 @@ class Solicitudes(models.Model):
     fecha_de_entrega = fields.Date()
     lapso_de_devolucion = fields.Integer(string='Lapso de devolucion del documento')
 
+    # Campos de liquidacion de credito
+    fecha_liquidacion = fields.Date(string='Fecha de liquidacion', required=True)
+    fecha_ultima = fields.Date(string='Fecha ultima de pago', required=True) #calculado
+
     # Referencias a otros modelos:
     requisitos_generales_id = fields.One2many('solicitudes.requisitos_generales', 'solicitudes_id', string="Requisitos generales")
     requisitos_sector_id = fields.One2many('solicitudes.requisitos_sector', 'solicitudes_id', string="Requisitos sector")
