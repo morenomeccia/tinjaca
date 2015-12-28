@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Tinjaca - Propuestas X",
+    'name': "Tinjaca - Propuestas Fomdes",
 
     'summary': """
-        Recepción de propuestas de financiamiento y gestion de talleres de induccion
+        Recepción de propuestas de financiamiento del FOMDES y gestion de talleres de induccion
     """,
 
     'description': """

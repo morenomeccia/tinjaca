@@ -2,8 +2,71 @@
 <openerp>
     <data>
 
+        <!-- Vistas para Solicitantes -->
+
+        <record model="ir.ui.view" id="vista_formulario_solicitantes">
+            <field name="name">solicitantes.form</field>
+            <field name="model">propuestasfomdes.solicitantes</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Solicitante">
+                    <sheet>
+                        <group>
+                            <field name="cedula"/>
+                            <field name="nombres"/>
+                            <field name="apellidos"/>
+                            <field name="rif"/>
+                            <field name="fecha_nacimiento"/>
+                            <field name="edad"/>
+                            <field name="genero"/>
+                            <field name="direccion"/>
+                            <field name="municipio"/>
+                            <field name="parroquia"/>
+                            <field name="profesion_oficio"/>
+                            <field name="telefono_fijo"/>
+                            <field name="telefono_celular"/>
+                            <field name="email"/>
+                            <field name="unidades_productivas_ids"/>
+                            <field name="propuestas_ids"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="vista_arbol_solicitantes">
+            <field name="name">solicitantes.tree</field>
+            <field name="model">propuestasfomdes.solicitantes</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Solicitantes">
+                    <field name="cedula"/>
+                    <field name="nombres"/>
+                    <field name="apellidos"/>
+                </tree>
+            </field>
+        </record>
+
+
+
+
+        <!-- Accion de ventana para Solicitantes -->
+
+        <record model="ir.actions.act_window" id="accion_listar_solicitantes">
+            <field name="name">Solicitantes</field>
+            <field name="res_model">propuestasfomdes.solicitantes</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear solicitante</p>
+            </field>
+        </record>
+
         <!-- Menu Propuestas (top level menu: no parent) -->
         <menuitem id="propuestas_main_menu" name="Propuestas"/>
+
+        <!-- Submenu para Solicitantes -->
+        <menuitem id="solicitantes_menu" name="Solicitantes" parent="propuestas_main_menu"/>
+        <!-- Entrada de menu para el modelo de Solicitantes -->
+        <menuitem id="solicitudes_lista_menu" name="Solicitantes" parent="solicitantes_menu" action="accion_listar_solicitantes"/>
 
     </data>
 </openerp>
