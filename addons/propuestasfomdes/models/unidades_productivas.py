@@ -22,4 +22,4 @@ class UnidadesProductivas(models.Model):
     zona_geografica = fields.Char(string='Zona Geografica')
     servicios = fields.Text(string='Servicios')
 
-    actividades_productivas_ids = fields.One2many('propuestasfomdes.actividades_productivas', 'unidades_productivas_id', string="Unidad Productiva")
+    actividades_productivas_ids = fields.One2many('propuestasfomdes.actividades_productivas', 'unidades_productivas_id', string="Actividades Productivas")
