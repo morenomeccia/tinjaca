@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+
+        <!-- Menu Propuestas (top level menu: no parent) -->
+        <menuitem id="propuestas_main_menu" name="Propuestas"/>
+
+    </data>
+</openerp>
