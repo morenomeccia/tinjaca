@@ -7,9 +7,16 @@ class pagos(models.Model):
 
     monto = fields.Float(string='Monto del pago', required=True)
     fecha_pago = fields.Date(string='Fecha de pago', required=True)
+    modo_pago = fields.Selection(string='Modo de pago', selection=[('pago_efectivo', 'Efectivo'),
+                                                                   ('pago_debito', 'Debito'),
+                                                                   ('pago_credito', 'Credito'),
+                                                                   ('pago_cheque', 'Cheque'),
+                                                                   ('pago_deposito', 'Deposito'),
+                                                                   ('pago_transferencia', 'Transferencia')])
+    exoneracion = fields.Boolean(string='Exoneracion?')
 
     cantidad = fields.Char() # Monto en frase !!! Calculado
-    capital = fields.Float(string='Abono de capital') # !!! Calculado
+    amortizacion_capital = fields.Float(string='Amortizacion de capital') # !!! Calculado
     interes_capital = fields.Float(string='Interes del capital') # !!! Calculado
     interes_mora = fields.Float(string='Interes por mora') # !!! Calculado
     concepto = fields.Char(string='Concepto de pago') # !!! Calculado

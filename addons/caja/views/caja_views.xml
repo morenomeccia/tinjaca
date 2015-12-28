@@ -14,8 +14,9 @@
                             <field name="solicitudes_id"/>
                             <field name="monto"/>
                             <field name="fecha_pago"/>
+                            <field name="modo_pago"/>
                             <field name="cantidad"/>
-                            <field name="capital"/>
+                            <field name="amortizacion_capital"/>
                             <field name="interes_capital"/>
                             <field name="interes_mora"/>
                             <field name="concepto"/>
@@ -34,11 +35,6 @@
                 <field name="solicitudes_id"/>
                 <field name="monto"/>
                 <field name="fecha_pago"/>
-                <field name="cantidad"/>
-                <field name="capital"/>
-                <field name="interes_capital"/>
-                <field name="interes_mora"/>
-                <field name="concepto"/>
 		    </tree>
 		</field>
 	</record>
@@ -50,13 +46,7 @@
         <field name="arch" type="xml">
             <search>
                 <field name="solicitudes_id"/>
-                <field name="monto"/>
                 <field name="fecha_pago"/>
-                <field name="cantidad"/>
-                <field name="capital"/>
-                <field name="interes_capital"/>
-                <field name="interes_mora"/>
-                <field name="concepto"/>
             </search>
         </field>
     </record>
