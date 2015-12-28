@@ -1,3 +1,4 @@
 # -*- coding: utf-8 -*-
-import creditos
+import cuenta_cobrar
+import partida
 
