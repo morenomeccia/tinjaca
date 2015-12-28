@@ -45,7 +45,44 @@
             </field>
         </record>
 
+        <!-- Vistas para Propuestas -->
 
+        <record model="ir.ui.view" id="vista_formulario_propuestas">
+            <field name="name">propuestas.form</field>
+            <field name="model">propuestasfomdes.propuestas</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Propuestas">
+                    <sheet>
+                        <group>
+                            <field name="solicitantes_id"/>
+                            <field name="codigo_propuesta"/>
+                            <field name="unidades_productivas_id"/>
+                            <field name="actividades_productivas_id"/>
+                            <field name="referencias_solicitante_ids"/>
+                            <field name="garantias_ids"/>
+                            <field name="avalistas_ids"/>
+                            <field name="referencias_avalista_ids"/>
+                            <field name="inversiones_ids"/>
+                            <field name="inversion_total"/>
+                            <field name="aporte_propio"/>
+                            <field name="consigno_facturas"/>
+                            <field name="observaciones"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="vista_arbol_propuestas">
+            <field name="name">propuestas.tree</field>
+            <field name="model">propuestasfomdes.propuestas</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Propuestas">
+                    <field name="codigo_propuesta"/>
+                    <field name="solicitantes_id"/>
+                </tree>
+            </field>
+        </record>
 
 
         <!-- Accion de ventana para Solicitantes -->
@@ -60,6 +97,18 @@
             </field>
         </record>
 
+        <!-- Accion de ventana para Propuestas -->
+
+        <record model="ir.actions.act_window" id="accion_listar_propuestas">
+            <field name="name">Propuestas</field>
+            <field name="res_model">propuestasfomdes.propuestas</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear propuesta</p>
+            </field>
+        </record>
+
         <!-- Menu Propuestas (top level menu: no parent) -->
         <menuitem id="propuestas_main_menu" name="Propuestas"/>
 
@@ -67,6 +116,11 @@
         <menuitem id="solicitantes_menu" name="Solicitantes" parent="propuestas_main_menu"/>
         <!-- Entrada de menu para el modelo de Solicitantes -->
         <menuitem id="solicitudes_lista_menu" name="Solicitantes" parent="solicitantes_menu" action="accion_listar_solicitantes"/>
+
+        <!-- Submenu para Propuestas -->
+        <menuitem id="propuestas_menu" name="Propuestas" parent="propuestas_main_menu"/>
+        <!-- Entrada de menu para el modelo de Solicitantes -->
+        <menuitem id="propuestas_lista_menu" name="Propuestas" parent="propuestas_menu" action="accion_listar_propuestas"/>
 
     </data>
 </openerp>
