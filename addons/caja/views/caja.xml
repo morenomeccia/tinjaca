@@ -4,30 +4,68 @@
 
         <!-- Creacion de la vista para mostrar pagos -->
 
-        <record model="ir.ui.view" id="vista_forma_pagos">
+        <record model="ir.ui.view" id="pagos_view_form">
             <field name="name">pagos.form</field>
-            <field name="model">administracion.pagos</field>
+            <field name="model">caja.pagos</field>
             <field name="arch" type="xml">
                 <form string="Formulario Pagos">
                     <sheet>
                         <group>
-                            <field name="concepto"/>
-                            <field name="total"/>
+                            <field name="solicitudes_id"/>
+                            <field name="monto"/>
+                            <field name="fecha_pago"/>
+                            <field name="cantidad"/>
+                            <field name="capital"/>
                             <field name="interes_capital"/>
                             <field name="interes_mora"/>
-                            <field name="codigo_credito"/>
+                            <field name="concepto"/>
                         </group>
                     </sheet>
                 </form>
             </field>
         </record>
 
+	<!-- Vista de lista para el modelo de pagos-->
+	<record model="ir.ui.view" id="pagos_view_list">
+		<field name="name">lista_pagos</field>
+		<field name="model">caja.pagos</field>
+		<field name="arch" type="xml">
+		    <tree string="Listado de pagos">
+                <field name="solicitudes_id"/>
+                <field name="monto"/>
+                <field name="fecha_pago"/>
+                <field name="cantidad"/>
+                <field name="capital"/>
+                <field name="interes_capital"/>
+                <field name="interes_mora"/>
+                <field name="concepto"/>
+		    </tree>
+		</field>
+	</record>
+
+	<!-- Caja de busqueda para el modelo de pagos -->
+    <record model="ir.ui.view" id="pagos_view_search">
+        <field name="name">caja_de_busqueda_pagos</field>
+        <field name="model">caja.pagos</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="solicitudes_id"/>
+                <field name="monto"/>
+                <field name="fecha_pago"/>
+                <field name="cantidad"/>
+                <field name="capital"/>
+                <field name="interes_capital"/>
+                <field name="interes_mora"/>
+                <field name="concepto"/>
+            </search>
+        </field>
+    </record>
 
         <!-- Accion de ventana para pagos -->
 
         <record model="ir.actions.act_window" id="accion_listar_pagos">
             <field name="name">Pagos</field>
-            <field name="res_model">administracion.pagos</field>
+            <field name="res_model">caja.pagos</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -36,12 +74,10 @@
         </record>
 
         <!-- top level menu: no parent -->
-        <menuitem id="menu_principal_administracion" name="Administracion"/>
-        <menuitem id="menu_administracion" name="Administracion" parent="menu_principal_administracion"/>
+        <menuitem id="menu_principal_caja" name="Caja"/>
+        <menuitem id="menu_caja" name="Caja" parent="menu_principal_caja"/>
         <!-- Entrada de menu para el modelo de Estados de cuenta -->
-        <menuitem id="menu_pagos" name="Pagos" parent="menu_administracion" action="accion_listar_pagos"/>
-
-
+        <menuitem id="menu_pagos" name="Pagos" parent="menu_caja" action="accion_listar_pagos"/>
 
     </data>
 </openerp>

@@ -3,7 +3,7 @@
 from openerp import models, fields, api
 
 class pagos(models.Model):
-    _name = 'solicitudes.pagos'
+    _name = 'caja.pagos'
 
     monto = fields.Float(string='Monto del pago', required=True)
     fecha_pago = fields.Date(string='Fecha de pago', required=True)
@@ -14,5 +14,5 @@ class pagos(models.Model):
     interes_mora = fields.Float(string='Interes por mora') # !!! Calculado
     concepto = fields.Char(string='Concepto de pago') # !!! Calculado
 
-    creditos_id = fields.Many2one('administracion.creditos', string='Numero de expediente', required=True)
+    solicitudes_id = fields.Many2one('solicitudes.solicitudes', string='Numero de expediente', required=True)
     #caja_id = fields.Many2one('caja.cajas', string='Numero de expediente', required=True) # !!! Obtenido del usuario?
