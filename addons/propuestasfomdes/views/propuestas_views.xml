@@ -61,7 +61,7 @@
                             <field name="referencias_solicitante_ids"/>
                             <field name="garantias_ids"/>
                             <field name="avalistas_ids"/>
-                            <field name="referencias_avalista_ids"/>
+                            <!-- <field name="referencias_avalista_ids"/> -->
                             <field name="inversiones_ids"/>
                             <field name="inversion_total"/>
                             <field name="aporte_propio"/>
@@ -83,6 +83,18 @@
                 </tree>
             </field>
         </record>
+
+        <!-- Caja de busqueda para Propuestas -->
+		<record model="ir.ui.view" id="propuestas_search_view">
+		    <field name="name">Caja de busqueda propuestas</field>
+		    <field name="model">propuestasfomdes.propuestas</field>
+		    <field name="arch" type="xml">
+		        <search>
+                    <field name="codigo_propuesta"/>
+                    <field name="solicitantes_id"/>
+		        </search>
+		    </field>
+		</record>
 
 
         <!-- Accion de ventana para Solicitantes -->

@@ -10,11 +10,11 @@ class UnidadesProductivas(models.Model):
 
     solicitantes_id = fields.Many2one('propuestasfomdes.solicitantes', string="Solicitante")
 
-    nombre = fields.Text(string="Nombre de la Unidad Productiva")
+    nombre = fields.Char(string="Nombre de la Unidad Productiva")
     direccion = fields.Text(string='Dirección') # de res.partner>res.company
     telefono_fijo = fields.Integer(string='Teléfono fijo')
     telefono_celular = fields.Integer(string='Teléfono Celular')
-    actividad = fields.Text(string='Actividad')
+    actividad = fields.Text(string='Actividades')
     experiencia = fields.Text(string='Experiencia')
     area_geografica = fields.Text(string='Area Geografica')
     tenencia = fields.Text(string='Tenencia')

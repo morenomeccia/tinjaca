@@ -11,8 +11,8 @@ class Propuestas(models.Model):
 
     codigo_propuesta = fields.Char(string="Codigo")
 
-    unidades_productivas_id = fields.Many2one('propuestasfomdes.unidades_productivas', string="Unidad Productiva", required=True)
-    actividades_productivas_id = fields.Many2one('propuestasfomdes.actividades_productivas', string="Actividad Productiva", required=True)
+    unidades_productivas_id = fields.Many2one('propuestasfomdes.unidades_productivas', string="Unidad Productiva")
+    actividades_productivas_id = fields.Many2one('propuestasfomdes.actividades_productivas', string="Actividad Productiva")
 
     referencias_solicitante_ids = fields.One2many('propuestasfomdes.referencias_solicitante', 'propuestas_id', string="Referencias del Solicitante")
     garantias_ids = fields.One2many('propuestasfomdes.garantias', 'propuestas_id', string="Garantías")
@@ -24,3 +24,5 @@ class Propuestas(models.Model):
     aporte_propio = fields.Float(string='Aporte Propio') #calculado!!!
     consigno_facturas = fields.Boolean(string='Consignación de Facturas?')
     observaciones = fields.Text(string='Observaciones')
+
+    cedula_solicitante = fields.Char(string='Cédula de Identidad', related='solicitantes_id.cedula', readonly=True)
