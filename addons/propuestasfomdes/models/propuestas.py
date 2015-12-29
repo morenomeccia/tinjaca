@@ -29,7 +29,7 @@ class Propuestas(models.Model):
 
     state = fields.Selection(string='Estacion', selection=[('estacion_1_propuesta_recibida', 'Propuesta recibida'),
                                                            ('estacion_2_taller', 'Taller'),
-                                                           ('estacion_3_creacion_expediente', 'Creacion de expediente'),
+                                                           ('estacion_3_creacion_expediente', 'Creacion de expediente')],
                                                            default='estacion_1_propuesta_recibida')
 
     # Cambia a la estacion "Propuesta recibida"
