@@ -26,3 +26,8 @@ class Propuestas(models.Model):
     observaciones = fields.Text(string='Observaciones')
 
     cedula_solicitante = fields.Char(string='Cédula de Identidad', related='solicitantes_id.cedula', readonly=True)
+
+    state = fields.Selection(string='Estacion', selection=[('estacion_1_recepcion_de_propuesta', 'Recepcion de Propuesta'),
+                                                           ('estacion_2_taller', 'Taller'),
+                                                           ('estacion_3_creacion_de_expediente', 'Creacion de expediente'),
+                                                           default='estacion_1_recepcion_de_propuesta')
