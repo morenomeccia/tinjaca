@@ -1,0 +1,170 @@
+<openerp>
+    <data>
+        <record model="workflow" id="wkf_solicitudes">
+            <field name="name">Evaluacion de Solicitudes</field>
+            <field name="osv">solicitudes.solicitudes</field>
+            <field name="on_create">True</field>
+        </record>
+
+		<!-- ***************** Actividades ********************* -->
+
+        <record model="workflow.activity" id="activity_estacion_consignacion_requisitos">
+            <field name="name">Estacion Requisitos</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="flow_start">True</field>
+            <field name="kind">function</field>
+            <field name="action">action_estacion_consignacion_requisitos()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estacion_control_previo">
+            <field name="name">Estacion Control Previo</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estacion_control_previo()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estacion_inspeccion_avaluo">
+            <field name="name">Estacion Inspeccion Avaluo</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estacion_inspeccion_avaluo()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estacion_evaluacion_gerente">
+            <field name="name">Evaluacion Gerencia de Credito</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estacion_evaluacion_gerente()</field>
+            <!-- <field name="join_mode">XOR</field> -->
+        </record>
+        <record model="workflow.activity" id="activity_estacion_evaluacion_presidencia">
+            <field name="name">Evaluacion Presidencia</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estacion_evaluacion_presidencia()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estacion_discusion_consejo">
+            <field name="name">Discusion Consejo</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estacion_discusion_consejo()</field>
+            <!-- <field name="split_mode">XOR</field> -->
+        </record>
+        <record model="workflow.activity" id="activity_estatus_aprobado_consejo">
+            <field name="name">Solicitud Aprobada</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_aprobado_consejo()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_negado_consejo">
+            <field name="name">Solicitud Rechazada</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_negado_consejo()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_diferido_consejo">
+            <field name="name">Solicitud Diferida</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_diferido_consejo()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estacion_creacion_documentos">
+            <field name="name">Creacion Documentos</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estacion_creacion_documentos()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estacion_liquidacion">
+            <field name="name">Liquidacion</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estacion_liquidacion()</field>
+			<field name="flow_stop">True</field>
+        </record>
+
+
+		<!-- ***************** Transiciones ********************* -->
+
+        <!-- Cambio de estacion (boton)" -->
+        <record model="workflow.transition" id="trans_consignacion_requisitos_a_control_previo">
+            <field name="act_from" ref="activity_estacion_consignacion_requisitos"/>
+            <field name="act_to" ref="activity_estacion_control_previo"/>
+            <field name="signal">button_enviar_control_previo</field>
+            <field name="group_id" ref="fomdes.group_analista_credito"/>
+        </record>
+        <!-- Cambio de estacion (boton)" -->
+        <record model="workflow.transition" id="trans_control_previo_a_inspeccion_avaluo">
+            <field name="act_from" ref="activity_estacion_control_previo"/>
+            <field name="act_to" ref="activity_estacion_inspeccion_avaluo"/>
+            <field name="signal">button_enviar_inspeccion_avaluo</field>
+            <field name="group_id" ref="fomdes.group_analista_juridico"/>
+        </record>
+        <!-- Cambio de estacion (boton)" -->
+        <record model="workflow.transition" id="trans_inspeccion_avaluo_a_evaluacion_gerente">
+            <field name="act_from" ref="activity_estacion_inspeccion_avaluo"/>
+            <field name="act_to" ref="activity_estacion_evaluacion_gerente"/>
+            <field name="signal">button_enviar_gerente_credito</field>
+            <field name="group_id" ref="fomdes.group_analista_economico"/>
+        </record>
+		<!-- Cambio de estacion (boton)" -->
+        <record model="workflow.transition" id="trans_evaluacion_gerente_a_evaluacion_presidencia">
+            <field name="act_from" ref="activity_estacion_evaluacion_gerente"/>
+            <field name="act_to" ref="activity_estacion_evaluacion_presidencia"/>
+            <field name="signal">button_aceptar_gerente</field>
+            <field name="group_id" ref="fomdes.group_gerente_credito"/>
+        </record>
+		<!-- Cambio de estacion (boton)" -->
+        <record model="workflow.transition" id="trans_evaluacion_presidencia_a_discusion_consejo">
+            <field name="act_from" ref="activity_estacion_evaluacion_presidencia"/>
+            <field name="act_to" ref="activity_estacion_discusion_consejo"/>
+            <field name="signal">button_recomendar_presidente</field>
+            <field name="group_id" ref="fomdes.group_presidente"/>
+        </record>
+		<!-- Cambio de estatus (boton)" -->
+        <record model="workflow.transition" id="trans_discusion_consejo_a_aprobado_consejo">
+            <field name="act_from" ref="activity_estacion_discusion_consejo"/>
+            <field name="act_to" ref="activity_estatus_aprobado_consejo"/>
+            <field name="signal">button_aprobar_consejo</field>
+            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
+        </record>
+		<!-- Cambio de estatus (boton)" -->
+        <record model="workflow.transition" id="trans_discusion_consejo_a_negado_consejo">
+            <field name="act_from" ref="activity_estacion_discusion_consejo"/>
+            <field name="act_to" ref="activity_estatus_negado_consejo"/>
+            <field name="signal">button_rechazar_consejo</field>
+            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
+        </record>
+        <!-- Cambio de estatus (boton)" -->
+        <record model="workflow.transition" id="trans_discusion_consejo_a_diferido_consejo">
+            <field name="act_from" ref="activity_estacion_discusion_consejo"/>
+            <field name="act_to" ref="activity_estatus_diferido_consejo"/>
+            <field name="signal">button_diferir_consejo</field>
+            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
+        </record>
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_aprobado_consejo_a_creacion_documentos">
+            <field name="act_from" ref="activity_estatus_aprobado_consejo"/>
+            <field name="act_to" ref="activity_estacion_creacion_documentos"/>
+            <field name="condition">True</field>
+            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
+        </record>
+		<!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_negado_consejo_a_evaluacion_gerente">
+            <field name="act_from" ref="activity_estatus_negado_consejo"/>
+            <field name="act_to" ref="activity_estacion_evaluacion_gerente"/>
+            <field name="condition">True</field>
+            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
+        </record>
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_diferido_consejo_a_evaluacion_gerente">
+            <field name="act_from" ref="activity_estatus_diferido_consejo"/>
+            <field name="act_to" ref="activity_estacion_evaluacion_gerente"/>
+            <field name="condition">True</field>
+            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
+        </record>
+        <!-- Cambio de estacion (boton)" -->
+        <record model="workflow.transition" id="trans_creacion_documentos_a_liquidacion">
+            <field name="act_from" ref="activity_estacion_creacion_documentos"/>
+            <field name="act_to" ref="activity_estacion_liquidacion"/>
+            <field name="signal">button_enviar_liquidacion</field>
+            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
+        </record>
+    </data>
+</openerp>
