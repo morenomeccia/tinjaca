@@ -23,3 +23,4 @@ class pagos(models.Model):
 
     solicitudes_id = fields.Many2one('solicitudes.solicitudes', string='Numero de expediente', required=True)
     #caja_id = fields.Many2one('caja.cajas', string='Numero de expediente', required=True) # !!! Obtenido del usuario?
+    nro_expediente_solicitud = fields.Char(string='Número de expediente', related='solicitudes_id.nro_expediente', readonly=True)
