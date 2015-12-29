@@ -93,36 +93,7 @@
                 <tree string="Listado Propuestas">
                     <field name="codigo_propuesta"/>
                     <field name="solicitantes_id"/>
-                </tree>
-            </field>
-        </record>
-
-        <!-- Vistas para Talleres -->
-
-        <record model="ir.ui.view" id="vista_formulario_talleres">
-            <field name="name">talleres.form</field>
-            <field name="model">propuestasfomdes.talleres</field>
-            <field name="arch" type="xml">
-                <form string="Formulario Talleres">
-                    <sheet>
-                        <group>
-                            <field name="codigo"/>
-                            <field name="fecha"/>
-                            <field name="responsable"/>
-                        </group>
-                    </sheet>
-                </form>
-            </field>
-        </record>
-
-        <record model="ir.ui.view" id="vista_arbol_talleres">
-            <field name="name">talleres.tree</field>
-            <field name="model">propuestasfomdes.talleres</field>
-            <field name="arch" type="xml">
-                <tree string="Listado Talleres">
-                            <field name="codigo"/>
-                            <field name="fecha"/>
-                            <field name="responsable"/>
+                    <field name="state"/>
                 </tree>
             </field>
         </record>
@@ -164,18 +135,6 @@
             </field>
         </record>
 
-        <!-- Accion de ventana para Talleres -->
-
-        <record model="ir.actions.act_window" id="accion_listar_talleres">
-            <field name="name">Talleres</field>
-            <field name="res_model">propuestasfomdes.talleres</field>
-            <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
-            <field name="help" type="html">
-                <p class="oe_view_nocontent_create">Crear taller</p>
-            </field>
-        </record>
-
         <!-- Menu Propuestas (top level menu: no parent) -->
         <menuitem id="propuestas_main_menu" name="Propuestas"/>
 
@@ -188,11 +147,6 @@
         <menuitem id="propuestas_menu" name="Propuestas" parent="propuestas_main_menu"/>
         <!-- Entrada de menu para el modelo de Solicitantes -->
         <menuitem id="propuestas_lista_menu" name="Propuestas" parent="propuestas_menu" action="accion_listar_propuestas"/>
-
-        <!-- Submenu para Talleres -->
-        <menuitem id="talleres_menu" name="Talleres" parent="propuestas_main_menu"/>
-        <!-- Entrada de menu para el modelo de Talleres -->
-        <menuitem id="propuestas_lista_menu" name="Talleres" parent="talleres_menu" action="accion_listar_talleres"/>
 
     </data>
 </openerp>

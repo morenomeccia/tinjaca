@@ -32,6 +32,8 @@ class Propuestas(models.Model):
                                                            ('estacion_3_creacion_expediente', 'Creacion de expediente')],
                                                            default='estacion_1_propuesta_recibida')
 
+    talleres_ids = fields.Many2many('propuestasfomdes.talleres', string="Taller")
+
     # Cambia a la estacion "Propuesta recibida"
     @api.one
     def action_estacion_propuesta_recibida(self):
