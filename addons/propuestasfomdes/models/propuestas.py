@@ -27,7 +27,24 @@ class Propuestas(models.Model):
 
     cedula_solicitante = fields.Char(string='Cédula de Identidad', related='solicitantes_id.cedula', readonly=True)
 
-    state = fields.Selection(string='Estacion', selection=[('estacion_1_recepcion_de_propuesta', 'Recepcion de Propuesta'),
+    state = fields.Selection(string='Estacion', selection=[('estacion_1_propuesta_recibida', 'Propuesta recibida'),
                                                            ('estacion_2_taller', 'Taller'),
-                                                           ('estacion_3_creacion_de_expediente', 'Creacion de expediente'),
-                                                           default='estacion_1_recepcion_de_propuesta')
+                                                           ('estacion_3_creacion_expediente', 'Creacion de expediente'),
+                                                           default='estacion_1_propuesta_recibida')
+
+    # Cambia a la estacion "Propuesta recibida"
+    @api.one
+    def action_estacion_propuesta_recibida(self):
+        self.state = 'estacion_1_propuesta_recibida'
+
+    # Cambia a la estacion "Taller"
+    @api.one
+    def action_estacion_taller(self):
+        self.state = 'estacion_2_taller'
+
+    # Cambia a la estacion "Creacion de expediente"
+    @api.one
+    def action_estacion_creacion_expediente(self):
+        self.state = 'estacion_3_creacion_expediente'
+
+
