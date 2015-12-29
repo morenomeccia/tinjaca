@@ -421,6 +421,7 @@
             <field name="help" type="html">
                 <p class="oe_view_nocontent_create">Crear solicitud</p>
             </field>
+            <field name="context">{'tree_view_ref':'vista_arbol_solicitudes'}</field>
         </record>
 
         <!-- Accion de ventana para control previo -->
