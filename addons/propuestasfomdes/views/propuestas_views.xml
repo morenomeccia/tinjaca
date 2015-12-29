@@ -52,6 +52,19 @@
             <field name="model">propuestasfomdes.propuestas</field>
             <field name="arch" type="xml">
                 <form string="Formulario Propuestas">
+                    <header>
+                        <field name="state" widget="statusbar"/>
+                        <button name="button_viable" 
+								type="workflow"
+                                string="Viable" 
+								states="estacion_1_propuesta_recibida"
+                                class="oe_highlight"/>
+                        <button name="button_asistio" 
+								type="workflow"
+                                string="Asistio" 
+								states="estacion_2_taller"
+                                class="oe_highlight"/> 
+                    </header>
                     <sheet>
                         <group>
                             <field name="solicitantes_id"/>
