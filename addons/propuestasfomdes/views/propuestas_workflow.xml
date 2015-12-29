@@ -1,84 +1,32 @@
 <openerp>
     <data>
-        <record model="workflow" id="wkf_solicitudes">
-            <field name="name">Evaluacion de Solicitudes</field>
-            <field name="osv">solicitudes.solicitudes</field>
+        <record model="workflow" id="wkf_propuestas">
+            <field name="name">Evaluacion de propuestas</field>
+            <field name="osv">propuestasfomdes.propuestas</field>
             <field name="on_create">True</field>
         </record>
 
 		<!-- ***************** Actividades ********************* -->
 
-        <record model="workflow.activity" id="activity_estacion_consignacion_requisitos">
-            <field name="name">Estacion Requisitos</field>
-            <field name="wkf_id" ref="wkf_solicitudes"/>
+        <record model="workflow.activity" id="activity_estacion_1_propuesta_recibida">
+            <field name="name">Estacion Propuesta recibida</field>
+            <field name="wkf_id" ref="wkf_propuestas"/>
             <field name="flow_start">True</field>
             <field name="kind">function</field>
-            <field name="action">action_estacion_consignacion_requisitos()</field>
+            <field name="action">action_estacion_propuesta_recibida()</field>
         </record>
-        <record model="workflow.activity" id="activity_estacion_control_previo">
-            <field name="name">Estacion Control Previo</field>
-            <field name="wkf_id" ref="wkf_solicitudes"/>
+        <record model="workflow.activity" id="activity_estacion_2_taller">
+            <field name="name">Estacion Taller</field>
+            <field name="wkf_id" ref="wkf_propuestas"/>
             <field name="kind">function</field>
-            <field name="action">action_estacion_control_previo()</field>
+            <field name="action">action_estacion_taller()</field>
         </record>
-        <record model="workflow.activity" id="activity_estacion_inspeccion_avaluo">
-            <field name="name">Estacion Inspeccion Avaluo</field>
-            <field name="wkf_id" ref="wkf_solicitudes"/>
+        <record model="workflow.activity" id="activity_estacion_3_creacion_expediente">
+            <field name="name">Estacion Crear Expediente</field>
+            <field name="wkf_id" ref="wkf_propuestas"/>
             <field name="kind">function</field>
-            <field name="action">action_estacion_inspeccion_avaluo()</field>
+            <field name="action">action_estacion_creacion_expediente()</field>
         </record>
-        <record model="workflow.activity" id="activity_estacion_evaluacion_gerente">
-            <field name="name">Evaluacion Gerencia de Credito</field>
-            <field name="wkf_id" ref="wkf_solicitudes"/>
-            <field name="kind">function</field>
-            <field name="action">action_estacion_evaluacion_gerente()</field>
-            <!-- <field name="join_mode">XOR</field> -->
-        </record>
-        <record model="workflow.activity" id="activity_estacion_evaluacion_presidencia">
-            <field name="name">Evaluacion Presidencia</field>
-            <field name="wkf_id" ref="wkf_solicitudes"/>
-            <field name="kind">function</field>
-            <field name="action">action_estacion_evaluacion_presidencia()</field>
-        </record>
-        <record model="workflow.activity" id="activity_estacion_discusion_consejo">
-            <field name="name">Discusion Consejo</field>
-            <field name="wkf_id" ref="wkf_solicitudes"/>
-            <field name="kind">function</field>
-            <field name="action">action_estacion_discusion_consejo()</field>
-            <!-- <field name="split_mode">XOR</field> -->
-        </record>
-        <record model="workflow.activity" id="activity_estatus_aprobado_consejo">
-            <field name="name">Solicitud Aprobada</field>
-            <field name="wkf_id" ref="wkf_solicitudes"/>
-            <field name="kind">function</field>
-            <field name="action">action_estatus_aprobado_consejo()</field>
-        </record>
-        <record model="workflow.activity" id="activity_estatus_negado_consejo">
-            <field name="name">Solicitud Rechazada</field>
-            <field name="wkf_id" ref="wkf_solicitudes"/>
-            <field name="kind">function</field>
-            <field name="action">action_estatus_negado_consejo()</field>
-        </record>
-        <record model="workflow.activity" id="activity_estatus_diferido_consejo">
-            <field name="name">Solicitud Diferida</field>
-            <field name="wkf_id" ref="wkf_solicitudes"/>
-            <field name="kind">function</field>
-            <field name="action">action_estatus_diferido_consejo()</field>
-        </record>
-        <record model="workflow.activity" id="activity_estacion_creacion_documentos">
-            <field name="name">Creacion Documentos</field>
-            <field name="wkf_id" ref="wkf_solicitudes"/>
-            <field name="kind">function</field>
-            <field name="action">action_estacion_creacion_documentos()</field>
-        </record>
-        <record model="workflow.activity" id="activity_estacion_liquidacion">
-            <field name="name">Liquidacion</field>
-            <field name="wkf_id" ref="wkf_solicitudes"/>
-            <field name="kind">function</field>
-            <field name="action">action_estacion_liquidacion()</field>
-			<field name="flow_stop">True</field>
-        </record>
-
 
 		<!-- ***************** Transiciones ********************* -->
 
