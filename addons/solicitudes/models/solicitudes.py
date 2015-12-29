@@ -38,7 +38,10 @@ class Solicitudes(models.Model):
                                                                                       ('estatus_diferido', 'Diferido')],
                                                                                       default='estatus_discutir')
 
+    propuestas_id = fields.Many2one('propuestasfomdes.propuestas', string="Propuesta")
+
     # Campos provinientes de propuestas:
+    cedula_solicitante = fields.Char(string='Cédula Solicitante', related='propuestas_id.cedula_solicitante', readonly=True)
     sector_id = fields.Many2one('politicas.sectores', string="Sector")
     garantia_id = fields.Many2one('politicas.garantias', string="Garantia")
     empresa_establecida = fields.Boolean(string='Empresa establecida?', default = False)
@@ -58,8 +61,8 @@ class Solicitudes(models.Model):
     lapso_de_devolucion = fields.Integer(string='Lapso de devolucion del documento')
 
     # Campos de liquidacion de credito
-    fecha_liquidacion = fields.Date(string='Fecha de liquidacion', required=True)
-    fecha_ultima = fields.Date(string='Fecha ultima de pago', required=True) #calculado
+    fecha_liquidacion = fields.Date(string='Fecha de liquidacion',)
+    fecha_ultima = fields.Date(string='Fecha ultima de pago') #calculado
 
     # Referencias a otros modelos:
     requisitos_generales_id = fields.One2many('solicitudes.requisitos_generales', 'solicitudes_id', string="Requisitos generales")
