@@ -57,11 +57,11 @@ class Solicitudes(models.Model):
     aporte_social = fields.Float(string='Aporte social')
 
     # Campos para generar del documento de credito y de la empresa
-    fecha_de_entrega = fields.Date()
+    fecha_de_entrega = fields.Date("Fecha de Entrega")
     lapso_de_devolucion = fields.Integer(string='Lapso de devolucion del documento')
 
     # Campos de liquidacion de credito
-    fecha_liquidacion = fields.Date(string='Fecha de liquidacion',)
+    fecha_liquidacion = fields.Date(string='Fecha de liquidacion')
     fecha_ultima = fields.Date(string='Fecha ultima de pago') #calculado
 
     # Referencias a otros modelos:

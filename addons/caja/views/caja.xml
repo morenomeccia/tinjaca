@@ -6,17 +6,17 @@
 
         <record model="ir.ui.view" id="estado_cuenta_form">
             <field name="name">estado_cuenta.form</field>
-            <field name="model">solicitudes.solicitudes</field>
+            <field name="model">administracion.creditos</field>
             <field name="arch" type="xml">
                 <form string="Estado de cuenta expediente">
                     <sheet>
                         <group>
                             <field name="monto_total"/>
                             <field name="plazo_pago"/>
-                            <field name="periodo_gracia"/>
+                            <field name="periodos_gracia"/>
                             <field name="tasa_interes"/>
                             <field name="tasa_mora"/>
-                            <field name="fecha_entrega"/>
+                            <field name="fecha_liquidacion"/>
                         </group>
                     </sheet>
                 </form>
@@ -25,7 +25,7 @@
 
         <record model="ir.ui.view" id="estado_cuenta_tree">
             <field name="name">estado_cuenta.tree</field>
-            <field name="model">solicitudes.solicitudes</field>
+            <field name="model">administracion.creditos</field>
             <field name="arch" type="xml">
                 <tree string="Listado Solicitudes">
                     <field name="nro_expediente"/>
@@ -37,7 +37,7 @@
         <!-- Caja de busqueda para expedientes -->
         <record model="ir.ui.view" id="estado_cuenta_search">
             <field name="name">estado_cuenta.search</field>
-            <field name="model">solicitudes.solicitudes</field>
+            <field name="model">administracion.creditos</field>
             <field name="arch" type="xml">
                 <search>
                     <field name="nro_expediente"/>
@@ -55,6 +55,8 @@
                 <form string="Formulario Pagos">
                     <sheet>
                         <group>
+                            <field name="solicitudes_id"/>
+                            <field name="solicitante_propuesta"/>
                             <field name="monto"/>
                             <field name="fecha_pago"/>
                             <field name="modo_pago"/>
@@ -110,7 +112,7 @@
 
         <record model="ir.actions.act_window" id="accion_buscar_expediente">
             <field name="name">Buscar expediente</field>
-            <field name="res_model">solicitudes.solicitudes</field>
+            <field name="res_model">administracion.creditos</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
