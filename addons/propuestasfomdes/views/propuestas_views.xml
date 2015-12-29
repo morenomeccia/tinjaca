@@ -176,5 +176,10 @@
         <!-- Entrada de menu para el modelo de Solicitantes -->
         <menuitem id="propuestas_lista_menu" name="Propuestas" parent="propuestas_menu" action="accion_listar_propuestas"/>
 
+        <!-- Submenu para Talleres -->
+        <menuitem id="talleres_menu" name="Talleres" parent="propuestas_main_menu"/>
+        <!-- Entrada de menu para el modelo de Talleres -->
+        <menuitem id="propuestas_lista_menu" name="Talleres" parent="talleres_menu" action="accion_listar_talleres"/>
+
     </data>
 </openerp>
