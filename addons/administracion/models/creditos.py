@@ -2,9 +2,13 @@ from openerp import models, fields, api
 
 class Creditos(models.Model):
     _name = 'administracion.creditos'
-    _rec_name = 'descripcion'
+    _rec_name = 'nro_expediente'
+
 
     solicitudes_id = fields.Many2one('solicitudes.solicitudes', string='Número de expediente', required=True)
+    nro_expediente = fields.Char(string='Numero de expediente',
+                                            related='solicitudes_id.nro_expediente',
+                                            readonly=True)
     #caja_id = fields.Many2one('caja.cajas', string='Numero de expediente', required=True) # !!! Obtenido del usuario?
     solicitante_propuesta = fields.Many2one(string='Solicitante',
                                             related='solicitudes_id.solicitante_propuesta',
