@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+
+        <!-- Vista para estados de cuenta -->
+
+        <record model="ir.ui.view" id="estado_cuenta_form">
+            <field name="name">estado_cuenta.form</field>
+            <field name="model">solicitudes.solicitudes</field>
+            <field name="arch" type="xml">
+                <form string="Estado de cuenta expediente">
+                    <sheet>
+                        <group>
+                            <field name="monto_total"/>
+                            <field name="plazo_pago"/>
+                            <field name="periodo_gracia"/>
+                            <field name="tasa_interes"/>
+                            <field name="tasa_mora"/>
+                            <field name="fecha_entrega"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="estado_cuenta_tree">
+            <field name="name">estado_cuenta.tree</field>
+            <field name="model">solicitudes.solicitudes</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Solicitudes">
+                    <field name="nro_expediente"/>
+                    <field name="cedula_solicitante"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Caja de busqueda para expedientes -->
+        <record model="ir.ui.view" id="estado_cuenta_search">
+            <field name="name">estado_cuenta.search</field>
+            <field name="model">solicitudes.solicitudes</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="nro_expediente"/>
+                    <field name="cedula_solicitante"/>
+                </search>
+            </field>
+        </record>
+
+        <!-- Creacion de la vista para mostrar pagos -->
+
+        <record model="ir.ui.view" id="pagos_view_form">
+            <field name="name">pagos.form</field>
+            <field name="model">caja.pagos</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Pagos">
+                    <sheet>
+                        <group>
+                            <field name="monto"/>
+                            <field name="fecha_pago"/>
+                            <field name="modo_pago"/>
+                            <field name="cantidad"/>
+                            <field name="amortizacion_capital"/>
+                            <field name="interes_capital"/>
+                            <field name="interes_mora"/>
+                            <field name="concepto"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Vista de lista para el modelo de pagos-->
+        <record model="ir.ui.view" id="pagos_view_list">
+            <field name="name">lista_pagos</field>
+            <field name="model">caja.pagos</field>
+            <field name="arch" type="xml">
+                <tree string="Listado de pagos">
+                    <field name="solicitudes_id"/>
+                    <field name="monto"/>
+                    <field name="fecha_pago"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Caja de busqueda para el modelo de pagos -->
+        <record model="ir.ui.view" id="pagos_view_search">
+            <field name="name">caja_de_busqueda_pagos</field>
+            <field name="model">caja.pagos</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="solicitudes_id"/>
+                    <field name="fecha_pago"/>
+                </search>
+            </field>
+        </record>
+
+        <!-- Accion de ventana para pagos -->
+
+        <record model="ir.actions.act_window" id="accion_listar_pagos">
+            <field name="name">Pagos</field>
+            <field name="res_model">caja.pagos</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear pagos</p>
+            </field>
+        </record>
+
+        <!-- Accion de ventana para búsqueda de expedientes -->
+
+        <record model="ir.actions.act_window" id="accion_buscar_expediente">
+            <field name="name">Buscar expediente</field>
+            <field name="res_model">solicitudes.solicitudes</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Buscar expedientes</p>
+            </field>
+            <field name="context">{'tree_view_ref':'estado_cuenta_tree'}</field>
+        </record>
+
+        <!-- top level menu: no parent -->
+        <menuitem id="menu_principal_caja" name="Caja"/>
+        <menuitem id="menu_caja" name="Caja" parent="menu_principal_caja"/>
+        <!-- Entrada de menu para el modelo de Estados de cuenta -->
+        <menuitem id="menu_pagos" name="Pagos" parent="menu_caja" action="accion_listar_pagos"/>
+        <menuitem id="menu_busqueda_expediente" name="Buscar expedientes" parent="menu_caja" action="accion_buscar_expediente"/>
+
+    </data>
+</openerp>
