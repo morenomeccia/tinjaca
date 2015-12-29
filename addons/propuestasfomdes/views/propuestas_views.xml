@@ -84,6 +84,36 @@
             </field>
         </record>
 
+        <!-- Vistas para Talleres -->
+
+        <record model="ir.ui.view" id="vista_formulario_talleres">
+            <field name="name">talleres.form</field>
+            <field name="model">propuestasfomdes.talleres</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Talleres">
+                    <sheet>
+                        <group>
+                            <field name="codigo"/>
+                            <field name="fecha"/>
+                            <field name="responsable"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="vista_arbol_talleres">
+            <field name="name">talleres.tree</field>
+            <field name="model">propuestasfomdes.talleres</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Talleres">
+                            <field name="codigo"/>
+                            <field name="fecha"/>
+                            <field name="responsable"/>
+                </tree>
+            </field>
+        </record>
+
         <!-- Caja de busqueda para Propuestas -->
 		<record model="ir.ui.view" id="propuestas_search_view">
 		    <field name="name">Caja de busqueda propuestas</field>
