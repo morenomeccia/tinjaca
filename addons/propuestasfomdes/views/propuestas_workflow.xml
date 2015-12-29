@@ -30,89 +30,20 @@
 
 		<!-- ***************** Transiciones ********************* -->
 
-        <!-- Cambio de estacion (boton)" -->
-        <record model="workflow.transition" id="trans_consignacion_requisitos_a_control_previo">
-            <field name="act_from" ref="activity_estacion_consignacion_requisitos"/>
-            <field name="act_to" ref="activity_estacion_control_previo"/>
-            <field name="signal">button_enviar_control_previo</field>
-            <field name="group_id" ref="fomdes.group_analista_credito"/>
+        <!-- Cambio de estacion boton viable" -->
+        <record model="workflow.transition" id="trans_estacion_1_a_estacion_2">
+            <field name="act_from" ref="activity_estacion_1_propuesta_recibida"/>
+            <field name="act_to" ref="activity_estacion_2_taller"/>
+            <field name="signal">button_viable</field>
+            <!-- <field name="group_id" ref="fomdes.group_analista_credito"/> -->
         </record>
-        <!-- Cambio de estacion (boton)" -->
-        <record model="workflow.transition" id="trans_control_previo_a_inspeccion_avaluo">
-            <field name="act_from" ref="activity_estacion_control_previo"/>
-            <field name="act_to" ref="activity_estacion_inspeccion_avaluo"/>
-            <field name="signal">button_enviar_inspeccion_avaluo</field>
-            <field name="group_id" ref="fomdes.group_analista_juridico"/>
+        <!-- Cambio de estacion boton asistio" -->
+        <record model="workflow.transition" id="trans_estacion_2_a_estacion_3">
+            <field name="act_from" ref="activity_estacion_2_taller"/>
+            <field name="act_to" ref="activity_estacion_3_creacion_expediente"/>
+            <field name="signal">button_asistio</field>
+            <!-- <field name="group_id" ref="fomdes.group_analista_credito"/> -->
         </record>
-        <!-- Cambio de estacion (boton)" -->
-        <record model="workflow.transition" id="trans_inspeccion_avaluo_a_evaluacion_gerente">
-            <field name="act_from" ref="activity_estacion_inspeccion_avaluo"/>
-            <field name="act_to" ref="activity_estacion_evaluacion_gerente"/>
-            <field name="signal">button_enviar_gerente_credito</field>
-            <field name="group_id" ref="fomdes.group_analista_economico"/>
-        </record>
-		<!-- Cambio de estacion (boton)" -->
-        <record model="workflow.transition" id="trans_evaluacion_gerente_a_evaluacion_presidencia">
-            <field name="act_from" ref="activity_estacion_evaluacion_gerente"/>
-            <field name="act_to" ref="activity_estacion_evaluacion_presidencia"/>
-            <field name="signal">button_aceptar_gerente</field>
-            <field name="group_id" ref="fomdes.group_gerente_credito"/>
-        </record>
-		<!-- Cambio de estacion (boton)" -->
-        <record model="workflow.transition" id="trans_evaluacion_presidencia_a_discusion_consejo">
-            <field name="act_from" ref="activity_estacion_evaluacion_presidencia"/>
-            <field name="act_to" ref="activity_estacion_discusion_consejo"/>
-            <field name="signal">button_recomendar_presidente</field>
-            <field name="group_id" ref="fomdes.group_presidente"/>
-        </record>
-		<!-- Cambio de estatus (boton)" -->
-        <record model="workflow.transition" id="trans_discusion_consejo_a_aprobado_consejo">
-            <field name="act_from" ref="activity_estacion_discusion_consejo"/>
-            <field name="act_to" ref="activity_estatus_aprobado_consejo"/>
-            <field name="signal">button_aprobar_consejo</field>
-            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
-        </record>
-		<!-- Cambio de estatus (boton)" -->
-        <record model="workflow.transition" id="trans_discusion_consejo_a_negado_consejo">
-            <field name="act_from" ref="activity_estacion_discusion_consejo"/>
-            <field name="act_to" ref="activity_estatus_negado_consejo"/>
-            <field name="signal">button_rechazar_consejo</field>
-            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
-        </record>
-        <!-- Cambio de estatus (boton)" -->
-        <record model="workflow.transition" id="trans_discusion_consejo_a_diferido_consejo">
-            <field name="act_from" ref="activity_estacion_discusion_consejo"/>
-            <field name="act_to" ref="activity_estatus_diferido_consejo"/>
-            <field name="signal">button_diferir_consejo</field>
-            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
-        </record>
-        <!-- Cambio de estacion (auto)" -->
-        <record model="workflow.transition" id="trans_aprobado_consejo_a_creacion_documentos">
-            <field name="act_from" ref="activity_estatus_aprobado_consejo"/>
-            <field name="act_to" ref="activity_estacion_creacion_documentos"/>
-            <field name="condition">True</field>
-            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
-        </record>
-		<!-- Cambio de estacion (auto)" -->
-        <record model="workflow.transition" id="trans_negado_consejo_a_evaluacion_gerente">
-            <field name="act_from" ref="activity_estatus_negado_consejo"/>
-            <field name="act_to" ref="activity_estacion_evaluacion_gerente"/>
-            <field name="condition">True</field>
-            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
-        </record>
-        <!-- Cambio de estacion (auto)" -->
-        <record model="workflow.transition" id="trans_diferido_consejo_a_evaluacion_gerente">
-            <field name="act_from" ref="activity_estatus_diferido_consejo"/>
-            <field name="act_to" ref="activity_estacion_evaluacion_gerente"/>
-            <field name="condition">True</field>
-            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
-        </record>
-        <!-- Cambio de estacion (boton)" -->
-        <record model="workflow.transition" id="trans_creacion_documentos_a_liquidacion">
-            <field name="act_from" ref="activity_estacion_creacion_documentos"/>
-            <field name="act_to" ref="activity_estacion_liquidacion"/>
-            <field name="signal">button_enviar_liquidacion</field>
-            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
-        </record>
+
     </data>
 </openerp>
