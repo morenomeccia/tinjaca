@@ -6,7 +6,7 @@
 
         <record model="ir.ui.view" id="vista_formulario_talleres">
             <field name="name">talleres.form</field>
-            <field name="model">propuestasfomdes.talleres</field>
+            <field name="model">propuestasfomdes.taller</field>
             <field name="arch" type="xml">
                 <form string="Formulario Talleres">
                     <sheet>
@@ -21,7 +21,7 @@
 
         <record model="ir.ui.view" id="vista_arbol_talleres">
             <field name="name">talleres.tree</field>
-            <field name="model">propuestasfomdes.talleres</field>
+            <field name="model">propuestasfomdes.taller</field>
             <field name="arch" type="xml">
                 <tree string="Listado Talleres">
                             <field name="fecha"/>
@@ -33,7 +33,7 @@
 
         <record model="ir.actions.act_window" id="accion_listar_talleres">
             <field name="name">Talleres</field>
-            <field name="res_model">propuestasfomdes.talleres</field>
+            <field name="res_model">propuestasfomdes.taller</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
