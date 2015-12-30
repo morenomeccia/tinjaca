@@ -9,4 +9,4 @@ class Taller(models.Model):
 
     fecha = fields.Date(string='Fecha', required=True)
 
-    propuestas_ids = fields.Many2many('propuestasfomdes.propuestas', string="Propuestas")
+    propuestas_ids = fields.Many2many('propuestasfomdes.propuestas', string="Propuestas", relation='propuestas_talleres')
