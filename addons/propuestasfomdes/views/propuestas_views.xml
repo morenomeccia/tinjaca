@@ -80,6 +80,7 @@
                             <field name="aporte_propio"/>
                             <field name="consigno_facturas"/>
                             <field name="observaciones"/>
+                            <field name="talleres_ids" states="estacion_2_taller,estacion_3_creacion_expediente"/>
                         </group>
                     </sheet>
                 </form>
