@@ -62,7 +62,6 @@
 		    <tree string="Listado de partidas">
                 <field name="codigo"/>
                 <field name="descripcion"/>
-                <field name="cuentas_cobrar_ids"/>
 		    </tree>
 		</field>
 	</record>
@@ -121,8 +120,8 @@
         <menuitem id="menu_principal_administracion" name="Administracion"/>
         <menuitem id="menu_administracion" name="Administracion" parent="menu_principal_administracion"/>
         <!-- Entrada de menu para el modelo de Credito -->
-        <menuitem id="menu_cuenta_cobrar" name="Cuenta por Cobrar" parent="menu_administracion" action="accion_listar_cuentas_cobrar"/>
-        <menuitem id="menu_partida" name="Partida" parent="menu_administracion" action="accion_listar_partidas"/>
+        <menuitem id="menu_cuenta_cobrar" name="Cuentas por Cobrar" parent="menu_administracion" action="accion_listar_cuentas_cobrar"/>
+        <menuitem id="menu_partida" name="Partidas" parent="menu_administracion" action="accion_listar_partidas"/>
 
     </data>
 </openerp>
