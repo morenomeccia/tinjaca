@@ -2,11 +2,11 @@
 <openerp>
     <data>
 
-        <!-- Creacion de la vista para el modelo cuenta por cobrar -->
+        <!-- Creacion de la vista para el modelo cuentas por cobrar -->
 
-        <record model="ir.ui.view" id="cuenta_cobrar_view_form">
-            <field name="name">cuenta_cobrar.form</field>
-            <field name="model">administracion.cuenta_cobrar</field>
+        <record model="ir.ui.view" id="cuentas_cobrar_view_form">
+            <field name="name">cuentas_cobrar.form</field>
+            <field name="model">administracion.cuentas_cobrar</field>
             <field name="arch" type="xml">
                 <form string="Formulario de Cuentas por Cobrar">
                     <sheet>
@@ -21,13 +21,13 @@
             </field>
         </record>
 
-        <!-- Creacion de la vista para el modelo partida presupuestaria -->
+        <!-- Creacion de la vista para el modelo partidas presupuestarias -->
 
-        <record model="ir.ui.view" id="partida_view_form">
-            <field name="name">partida.form</field>
-            <field name="model">administracion.partida</field>
+        <record model="ir.ui.view" id="partidas_view_form">
+            <field name="name">partidas.form</field>
+            <field name="model">administracion.partidas</field>
             <field name="arch" type="xml">
-                <form string="Formulario de Partida">
+                <form string="Formulario de Partidas">
                     <sheet>
                         <group>
                             <field name="codigo"/>
@@ -41,9 +41,9 @@
 
 
 	<!-- Vista de lista para el modelo de cuentas por cobrar-->
-	<record model="ir.ui.view" id="cuenta_cobrar_view_list">
-		<field name="name">lista_cuenta_cobrar</field>
-		<field name="model">administracion.cuenta_cobrar</field>
+	<record model="ir.ui.view" id="cuentas_cobrar_view_list">
+		<field name="name">lista_cuentas_cobrar</field>
+		<field name="model">administracion.cuentas_cobrar</field>
 		<field name="arch" type="xml">
 		    <tree string="Listado de cuentas por cobrar">
                 <field name="solicitudes_id"/>
@@ -54,12 +54,12 @@
 		</field>
 	</record>
 
-	<!-- Vista de lista para el modelo de partida presupuestaria-->
-	<record model="ir.ui.view" id="partida_view_list">
-		<field name="name">lista_partida</field>
-		<field name="model">administracion.partida</field>
+	<!-- Vista de lista para el modelo de partidas presupuestarias-->
+	<record model="ir.ui.view" id="partidas_view_list">
+		<field name="name">lista_partidas</field>
+		<field name="model">administracion.partidas</field>
 		<field name="arch" type="xml">
-		    <tree string="Listado de partida">
+		    <tree string="Listado de partidas">
                 <field name="codigo"/>
                 <field name="descripcion"/>
                 <field name="cuenta_cobrar_id"/>
@@ -67,10 +67,10 @@
 		</field>
 	</record>
 
-	<!-- Caja de busqueda para el modelo de cuenta por cobrar -->
-    <record model="ir.ui.view" id="cuenta_cobrar_view_search">
-        <field name="name">caja_de_busqueda_cuenta_cobrar</field>
-        <field name="model">administracion.cuenta_cobrar</field>
+	<!-- Caja de busqueda para el modelo de cuentas por cobrar -->
+    <record model="ir.ui.view" id="cuentas_cobrar_view_search">
+        <field name="name">caja_de_busqueda_cuentas_cobrar</field>
+        <field name="model">administracion.cuentas_cobrar</field>
         <field name="arch" type="xml">
             <search>
                 <field name="solicitudes_id"/>
@@ -81,10 +81,10 @@
         </field>
     </record>
 
-    <!-- Caja de busqueda para el modelo de partida presupuestaria-->
-    <record model="ir.ui.view" id="partida_view_search">
-        <field name="name">caja_de_busqueda_partida</field>
-        <field name="model">administracion.partida</field>
+    <!-- Caja de busqueda para el modelo de partidas presupuestarias-->
+    <record model="ir.ui.view" id="partidas_view_search">
+        <field name="name">caja_de_busqueda_partidas</field>
+        <field name="model">administracion.partidas</field>
         <field name="arch" type="xml">
             <search>
                 <field name="codigo"/>
@@ -96,9 +96,9 @@
 
         <!-- Accion de ventana para cuenta por cobrar -->
 
-        <record model="ir.actions.act_window" id="accion_listar_cuenta_cobrar">
-            <field name="name">Cuenta por Cobrar</field>
-            <field name="res_model">administracion.cuenta_cobrar</field>
+        <record model="ir.actions.act_window" id="accion_listar_cuentas_cobrar">
+            <field name="name">Cuentas por Cobrar</field>
+            <field name="res_model">administracion.cuentas_cobrar</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -108,9 +108,9 @@
 
         <!-- Accion de ventana para partida presupuestaria -->
 
-        <record model="ir.actions.act_window" id="accion_listar_partida">
-            <field name="name">Partida Presupuestaria</field>
-            <field name="res_model">administracion.partida</field>
+        <record model="ir.actions.act_window" id="accion_listar_partidas">
+            <field name="name">Partidas Presupuestarias</field>
+            <field name="res_model">administracion.partidas</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -122,8 +122,8 @@
         <menuitem id="menu_principal_administracion" name="Administracion"/>
         <menuitem id="menu_administracion" name="Administracion" parent="menu_principal_administracion"/>
         <!-- Entrada de menu para el modelo de Credito -->
-        <menuitem id="menu_cuenta_cobrar" name="Cuenta por Cobrar" parent="menu_administracion" action="accion_listar_cuenta_cobrar"/>
-        <menuitem id="menu_partida" name="Partida" parent="menu_administracion" action="accion_listar_partida"/>
+        <menuitem id="menu_cuenta_cobrar" name="Cuenta por Cobrar" parent="menu_administracion" action="accion_listar_cuentas_cobrar"/>
+        <menuitem id="menu_partida" name="Partida" parent="menu_administracion" action="accion_listar_partidas"/>
 
     </data>
 </openerp>
