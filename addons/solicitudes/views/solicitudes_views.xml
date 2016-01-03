@@ -21,7 +21,7 @@
                                 string="Enviar a Gerente de Credito" states="estacion_3_inspeccion_avaluo"
                                 class="oe_highlight"/>
                         <button name="button_aceptar_gerente" type="workflow"
-                                string="Enviar a Secretaria Ejecutiva" states="estacion_4_evaluacion_gerente"
+                                string="Enviar a Presidencia" states="estacion_4_evaluacion_gerente"
                                 class="oe_highlight"/>
                         <button name="button_devolver_requisitos" type="workflow"
                                 string="Devolver a Requisitos" states="estacion_4_evaluacion_gerente"
