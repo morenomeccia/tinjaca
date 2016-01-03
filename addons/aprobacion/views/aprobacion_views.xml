@@ -10,7 +10,6 @@
 			<form string="Consejo">
 				<sheet>
 					<group>
-						<field name="codigo"/>
 						<field name="numero"/>
 						<field name="fecha"/>
 					</group>
@@ -43,8 +42,10 @@
 			<form string="Miembros">
 				<sheet>
 					<group>
+                        <field name="cedula"/>
 						<field name="nombre"/>
 						<field name="apellido"/>
+                        <field name="consejos_ids"/>
 					</group>
 				</sheet>
 			</form>
@@ -58,7 +59,6 @@
 		<field name="arch" type="xml">
 		    <tree string="Listado de consejos">
 		        <field name="numero"/>
-		        <field name="codigo"/>
 		        <field name="fecha"/>
 		    </tree>
 		</field>
@@ -70,6 +70,7 @@
 		<field name="model">aprobacion.miembros</field>
 		<field name="arch" type="xml">
 		    <tree string="Listado de miembros del consejo">
+                <field name="cedula"/>
 		        <field name="nombre"/>
 		        <field name="apellido"/>
 		    </tree>
@@ -83,7 +84,7 @@
         <field name="arch" type="xml">
             <search>
                 <field name="numero"/>
-                <field name="codigo"/>
+                <field name="fecha"/>
             </search>
         </field>
     </record>
@@ -94,6 +95,7 @@
         <field name="model">aprobacion.miembros</field>
         <field name="arch" type="xml">
             <search>
+                <field name="cedula"/>
 		        <field name="nombre"/>
 		        <field name="apellido"/>
             </search>
@@ -136,12 +138,12 @@
 	
     <!-- Entrada para el menu principal para el modulo de Aprobacion -->
     <menuitem id="entrada_principal_menu_aprobacion" 
-			  name="Consejo directivo"
+			  name="Consejos Directivos"
     />
 
     <!-- Entrada de menu principal para los consejos -->
     <menuitem id="menu_consejos" 
-              name="Consejo Directivo"
+              name="Consejos Directivos"
               parent="entrada_principal_menu_aprobacion"
     />
 
@@ -149,13 +151,13 @@
 
 	<!-- Entrada para ver los consejos -->
     <menuitem id="entrada_secundaria_consejos" 
-              name="Ver consejos" 
+              name="Consejos"
               parent="menu_consejos"
               action="aprobacion.accion_listar_consejos"
     />
 	<!-- Entrada para ver los miembros -->
     <menuitem id="entrada_secundaria_miembros" 
-              name="Ver miembros" 
+              name="Miembros"
               parent="menu_consejos"
               action="aprobacion.accion_listar_miembros"
     />
