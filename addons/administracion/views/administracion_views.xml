@@ -12,7 +12,7 @@
                     <sheet>
                         <group>
                             <field name="solicitudes_id"/>
-                            <field name="partida_id"/>
+                            <field name="partidas_id"/>
                             <field name="codigo"/>
                             <field name="descripcion"/>
                         </group>
@@ -32,7 +32,7 @@
                         <group>
                             <field name="codigo"/>
                             <field name="descripcion"/>
-                            <field name="cuenta_cobrar_id"/>
+                            <field name="cuentas_cobrar_ids"/>
                         </group>
                     </sheet>
                 </form>
@@ -47,9 +47,9 @@
 		<field name="arch" type="xml">
 		    <tree string="Listado de cuentas por cobrar">
                 <field name="solicitudes_id"/>
-                <field name="partida_id"/>
                 <field name="codigo"/>
                 <field name="descripcion"/>
+                <field name="partidas_id"/>
 		    </tree>
 		</field>
 	</record>
@@ -62,7 +62,7 @@
 		    <tree string="Listado de partidas">
                 <field name="codigo"/>
                 <field name="descripcion"/>
-                <field name="cuenta_cobrar_id"/>
+                <field name="cuentas_cobrar_ids"/>
 		    </tree>
 		</field>
 	</record>
@@ -74,7 +74,7 @@
         <field name="arch" type="xml">
             <search>
                 <field name="solicitudes_id"/>
-                <field name="partida_id"/>
+                <field name="partidas_id"/>
                 <field name="codigo"/>
                 <field name="descripcion"/>
             </search>
@@ -89,7 +89,6 @@
             <search>
                 <field name="codigo"/>
                 <field name="descripcion"/>
-                <field name="cuenta_cobrar_id"/>
             </search>
         </field>
     </record>
