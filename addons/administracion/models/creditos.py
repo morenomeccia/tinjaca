@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-<<<<<<< HEAD
-=======
 
->>>>>>> 4f5642a136f8cf789865a55027e7966d1f1dbd04
 from openerp import models, fields, api
 
 class Creditos(models.Model):
