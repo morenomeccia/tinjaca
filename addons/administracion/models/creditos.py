@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from openerp import models, fields, api
 
 class Creditos(models.Model):
@@ -10,8 +12,8 @@ class Creditos(models.Model):
                                             related='solicitudes_id.nro_expediente',
                                             readonly=True)
     #caja_id = fields.Many2one('caja.cajas', string='Numero de expediente', required=True) # !!! Obtenido del usuario?
-    solicitante_propuesta = fields.Many2one(string='Solicitante',
-                                            related='solicitudes_id.solicitante_propuesta',
+    solicitantes_id_propuesta = fields.Many2one(string='Solicitante',
+                                            related='solicitudes_id.solicitantes_id_propuesta',
                                             readonly=True)
     # Campos para los montos y tasas sugeridas:
     monto_total = fields.Float(string='Monto total',
