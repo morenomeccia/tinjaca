@@ -21,7 +21,7 @@
                                 string="Enviar a Gerente de Credito" states="estacion_3_inspeccion_avaluo"
                                 class="oe_highlight"/>
                         <button name="button_aceptar_gerente" type="workflow"
-                                string="Enviar a Secretaria Ejecutiva" states="estacion_4_evaluacion_gerente"
+                                string="Enviar a Presidencia" states="estacion_4_evaluacion_gerente"
                                 class="oe_highlight"/>
                         <button name="button_devolver_requisitos" type="workflow"
                                 string="Devolver a Requisitos" states="estacion_4_evaluacion_gerente"
@@ -57,7 +57,7 @@
                             <field name="nro_expediente"/>
                         </group>
                         <group>
-                            <field name="cedula_solicitante"/>
+                            <field name="solicitantes_id_propuesta"/>
                             <field name="sector_id"/>
                             <field name="garantia_id"/>
                             <field name="empresa_establecida"/>
@@ -148,7 +148,7 @@
             <field name="arch" type="xml">
                 <tree string="Listado Solicitudes">
                     <field name="nro_expediente"/>
-                    <field name="cedula_solicitante"/>
+                    <field name="solicitantes_id_propuesta"/>
                     <field name="state"/>
                 </tree>
             </field>
@@ -161,7 +161,7 @@
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="nro_expediente"/>
-                    <field name="cedula_solicitante"/>
+                    <field name="solicitantes_id_propuesta"/>
                     <group string="Estacion">
                         <filter name="filter_estacion_informacion" string="Informacion de Credito" domain="[('state', '=', 'estacion_1_analisis_credito')]" groups="fomdes.group_analista_credito,fomdes.group_gerente_credito"/>
                         <filter name="filter_estacion_juridico" string="Analisis Juridico" domain="[('state', '=', 'estacion_2_analisis_juridico')]" groups="fomdes.group_analista_juridico,fomdes.group_gerente_credito"/>

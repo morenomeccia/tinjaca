@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4f5642a136f8cf789865a55027e7966d1f1dbd04
 from openerp import models, fields, api
 
 class Creditos(models.Model):
@@ -12,8 +16,9 @@ class Creditos(models.Model):
     cedula_solicitante = fields.Char(string='Cédula Solicitante',
                                      related='solicitudes_id.propuestas_id.cedula_solicitante')
     #caja_id = fields.Many2one('caja.cajas', string='Numero de expediente', required=True) # !!! Obtenido del usuario?
-    solicitante_propuesta = fields.Many2one(string='Solicitante',
-                                            related='solicitudes_id.propuestas_id.solicitantes_id')
+    solicitantes_id_propuesta = fields.Many2one(string='Solicitante',
+                                            related='solicitudes_id.solicitantes_id_propuesta',
+                                            readonly=True)
     # Campos para los montos y tasas sugeridas:
     monto_total = fields.Float(string='Monto total',
                                             related='solicitudes_id.monto_total')
