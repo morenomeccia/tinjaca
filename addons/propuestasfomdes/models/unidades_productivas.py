@@ -17,7 +17,7 @@ class UnidadesProductivas(models.Model):
     actividad = fields.Text(string='Actividades')
     experiencia = fields.Text(string='Experiencia')
     area_geografica = fields.Text(string='Area Geografica')
-    tenencia = fields.Text(string='Tenencia')
+    tenencia = fields.Selection(string='Tenencia', selection=[('1', 'Propio'), ('2', 'Alquilado'), ('3', 'Comodato'), ('4', 'Prestado')]) # TODO revisar las opciones en el expediente
     area_m2 = fields.Float(string='Area en metros cuadrados')
     zona_geografica = fields.Char(string='Zona Geografica')
     servicios = fields.Text(string='Servicios')
