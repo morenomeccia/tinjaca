@@ -18,7 +18,7 @@ class Solicitudes(models.Model):
                                                            ('estacion_7_creacion_documentos', 'Creacion Documentos'),
                                                            ('estacion_8_liquidacion', 'Liquidacion'),
                                                            ('estacion_9_acompanamiento', 'Acompanamiento'),
-                                                           ('estacion_10_recuperaciones', 'Caja'),
+                                                           ('estacion_10_recuperaciones', 'Recuperaciones'),
                                                            ('estacion_11_consultoria_juridica', 'Consultoria Juridica'),
                                                            ('estacion_12_archivo', 'Archivo')],
                                                            default='estacion_1_consignacion_requisitos')
@@ -71,10 +71,10 @@ class Solicitudes(models.Model):
                                                                                       ('estatus_no_invirtio', 'No invirtio')],
                                                                                       default='estatus_asignar')
 
-
     estatus_recuperaciones = fields.Selection(string='Estatus recuperaciones', selection=[('estatus_asignar', 'Por asignar'),
                                                                       ('estatus_caja', 'Caja'),
-                                                                      ('estatus_demanda', 'Demanda'),
+                                                                      ('estatus_liberar', 'Liberar'),
+                                                                      ('estatus_demandar', 'Demandar'),
                                                                       ('estatus_extrajudicial', 'Extrajudicial')],
                                                                        default='estatus_asignar')
 
@@ -179,9 +179,9 @@ class Solicitudes(models.Model):
     def action_estacion_acompanamiento(self):
         self.state = 'estacion_9_acompanamiento'
 
-    # Cambia a la estacion "caja"
+    # Cambia a la estacion "recuperaciones"
     @api.one
-    def action_estacion_caja(self):
+    def action_estacion_recuperaciones(self):
         self.state = 'estacion_10_recuperaciones'
 
     # Cambia a la estacion "consultoria juridica"
@@ -246,7 +246,25 @@ class Solicitudes(models.Model):
     def action_estatus_diferido_consejo(self):
         self.estatus_consejo_directivo = 'estatus_diferido'
 
+    # Cambia al estatus "Liquidado" (Administracion)
+    @api.one
+    def action_estatus_liquidado(self):
+        self.estatus_liquidacion = 'estatus_liquidado'
 
+    # Cambia al estatus "Invirtio" (Acompanamiento)
+    @api.one
+    def action_estatus_invirtio(self):
+        self.estatus_acompanamiento = 'estatus_invirtio'
+
+    # Cambia al estatus "Liberar" (Recuperaciones)
+    @api.one
+    def action_estatus_liberar(self):
+        self.estatus_recuperaciones = 'estatus_liberar'
+
+    # Cambia al estatus "Demandar" (Recuperaciones)
+    @api.one
+    def action_estatus_demandar(self):
+        self.estatus_recuperaciones = 'estatus_demandar'
 
     # display_name = fields.Char(
     #     string='Número de expediente', compute='_compute_display_name',

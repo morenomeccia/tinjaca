@@ -77,17 +77,41 @@
             <field name="kind">function</field>
             <field name="action">action_estacion_liquidacion()</field>
         </record>
+        <record model="workflow.activity" id="activity_estatus_liquidado">
+            <field name="name">Credito liquidado</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_liquidado()</field>
+        </record>
         <record model="workflow.activity" id="activity_estacion_acompanamiento">
             <field name="name">Acompanamiento</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estacion_acompanamiento()</field>
         </record>
-        <record model="workflow.activity" id="activity_estacion_caja">
+        <record model="workflow.activity" id="activity_estatus_invirtio">
+            <field name="name">Credito invertido</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_invirtio()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estacion_recuperaciones">
             <field name="name">Caja</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
-            <field name="action">action_estacion_caja()</field>
+            <field name="action">action_estacion_recuperaciones()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_liberar">
+            <field name="name">Credito a liberar</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_liberar()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_demandar">
+            <field name="name">Credito a demanda</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_demandar()</field>
         </record>
         <record model="workflow.activity" id="activity_estacion_consultoria">
             <field name="name">Consultoria Juridica</field>
@@ -188,6 +212,69 @@
             <field name="act_to" ref="activity_estacion_liquidacion"/>
             <field name="signal">button_enviar_liquidacion</field>
             <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
+        </record>
+        <!-- Cambio de estatus (boton)" -->
+        <record model="workflow.transition" id="trans_liquidacion_a_liquidado">
+            <field name="act_from" ref="activity_estacion_liquidacion"/>
+            <field name="act_to" ref="activity_estatus_liquidado"/>
+            <field name="signal">button_enviar_acompanamiento</field>
+            <!-- <field name="group_id" ref="fomdes.group_administracion"/> -->
+        </record>
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_liquidado_a_acompanamiento">
+            <field name="act_from" ref="activity_estatus_liquidado"/>
+            <field name="act_to" ref="activity_estacion_acompanamiento"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_administracion"/> -->
+        </record>
+        <!-- Cambio de estatus (boton)" -->
+        <record model="workflow.transition" id="trans_acompanamiento_a_invirtio">
+            <field name="act_from" ref="activity_estacion_acompanamiento"/>
+            <field name="act_to" ref="activity_estatus_invirtio"/>
+            <field name="signal">button_enviar_recuperaciones</field>
+            <!-- <field name="group_id" ref="fomdes.group_acompanamiento"/> -->
+        </record>
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_invirtio_a_recuperaciones">
+            <field name="act_from" ref="activity_estatus_invirtio"/>
+            <field name="act_to" ref="activity_estacion_recuperaciones"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_acompanamiento"/> -->
+        </record>
+        <!-- Cambio de estatus (boton)" -->
+        <record model="workflow.transition" id="trans_recuperaciones_a_liberar">
+            <field name="act_from" ref="activity_estacion_recuperaciones"/>
+            <field name="act_to" ref="activity_estatus_liberar"/>
+            <field name="signal">button_enviar_a_liberar</field>
+            <!-- <field name="group_id" ref="fomdes.group_recuperaciones"/> -->
+        </record>
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_liberar_a_consultoria">
+            <field name="act_from" ref="activity_estatus_liberar"/>
+            <field name="act_to" ref="activity_estacion_consultoria"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_acompanamiento"/> -->
+        </record>
+        <!-- Cambio de estatus (boton)" -->
+        <record model="workflow.transition" id="trans_recuperaciones_a_demanda">
+            <field name="act_from" ref="activity_estacion_recuperaciones"/>
+            <field name="act_to" ref="activity_estatus_demandar"/>
+            <field name="signal">button_enviar_a_demanda</field>
+            <!-- <field name="group_id" ref="fomdes.group_recuperaciones"/> -->
+        </record>
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_demandar_a_consultoria">
+            <field name="act_from" ref="activity_estatus_demandar"/>
+            <field name="act_to" ref="activity_estacion_consultoria"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_acompanamiento"/> -->
+        </record>
+        <!-- Cambio de estacion (boton)" -->
+        <record model="workflow.transition" id="trans_consultoria_a_archivo">
+            <field name="act_from" ref="activity_estacion_consultoria"/>
+            <field name="act_to" ref="activity_estacion_archivo"/>
+            <field name="signal">button_enviar_a_archivo</field>
+            <!-- <field name="group_id" ref="fomdes.group_consultoria"/> -->
         </record>
 
 
