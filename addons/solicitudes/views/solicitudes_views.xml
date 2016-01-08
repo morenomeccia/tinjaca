@@ -20,7 +20,7 @@
                         <button name="button_enviar_gerente_credito" type="workflow"
                                 string="Enviar a Gerente de Credito" states="estacion_3_inspeccion_avaluo"
                                 class="oe_highlight"/>
-                        <button name="button_aceptar_gerente" type="workflow"
+                        <button name="button_aprobar_gerente" type="workflow"
                                 string="Enviar a Presidencia" states="estacion_4_evaluacion_gerente"
                                 class="oe_highlight"/>
                         <button name="button_devolver_requisitos" type="workflow"
@@ -39,16 +39,28 @@
                                 string="No recomendar" states="estacion_5_evaluacion_presidencia"
                                 class="oe_highlight"/>
                         <button name="button_aprobar_consejo" type="workflow"
-                                string="Aprobar" states="estacion_7_discusion_consejo"
+                                string="Aprobar" states="estacion_6_discusion_consejo"
                                 class="oe_highlight"/>
                         <button name="button_rechazar_consejo" type="workflow"
-                                string="Rechazar" states="estacion_7_discusion_consejo"
+                                string="Rechazar" states="estacion_6_discusion_consejo"
                                 class="oe_highlight"/>
                         <button name="button_diferir_consejo" type="workflow"
-                                string="Diferir" states="estacion_7_discusion_consejo"
+                                string="Diferir" states="estacion_6_discusion_consejo"
                                 class="oe_highlight"/>
                         <button name="button_enviar_liquidacion" type="workflow"
-                                string="Enviar a liquidacion" states="estacion_8_creacion_documentos"
+                                string="Enviar a liquidacion" states="estacion_7_creacion_documentos"
+                                class="oe_highlight"/>
+                        <button name="button_enviar_acompanamiento" type="workflow"
+                                string="Enviar a acompanamiento" states="estacion_8_liquidacion"
+                                class="oe_highlight"/>
+                        <button name="button_enviar_caja" type="workflow"
+                                string="Enviar a caja" states="estacion_9_acompanamiento"
+                                class="oe_highlight"/>
+                        <button name="button_enviar_consultoria" type="workflow"
+                                string="Enviar a consultoria juridica" states="estacion_10_recuperaciones"
+                                class="oe_highlight"/>
+                        <button name="button_enviar_archivo" type="workflow"
+                                string="Enviar a archivo" states="estacion_11_consultoria_juridica"
                                 class="oe_highlight"/>
                     </header>
                     <sheet>

@@ -76,9 +76,32 @@
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estacion_liquidacion()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estacion_acompanamiento">
+            <field name="name">Acompanamiento</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estacion_acompanamiento()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estacion_caja">
+            <field name="name">Caja</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estacion_caja()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estacion_consultoria">
+            <field name="name">Consultoria Juridica</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estacion_consultoria()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estacion_archivo">
+            <field name="name">Archivo</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estacion_archivo()</field>
 			<field name="flow_stop">True</field>
         </record>
-
 
 		<!-- ***************** Transiciones ********************* -->
 
@@ -107,7 +130,7 @@
         <record model="workflow.transition" id="trans_evaluacion_gerente_a_evaluacion_presidencia">
             <field name="act_from" ref="activity_estacion_evaluacion_gerente"/>
             <field name="act_to" ref="activity_estacion_evaluacion_presidencia"/>
-            <field name="signal">button_aceptar_gerente</field>
+            <field name="signal">button_aprobar_gerente</field>
             <field name="group_id" ref="fomdes.group_gerente_credito"/>
         </record>
 		<!-- Cambio de estacion (boton)" -->
@@ -166,5 +189,7 @@
             <field name="signal">button_enviar_liquidacion</field>
             <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
         </record>
+
+
     </data>
 </openerp>
