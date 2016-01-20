@@ -201,6 +201,7 @@ class Solicitudes(models.Model):
         self.state = 'estacion_12_archivo'
 
 
+
     # Cambia al estatus "Asignar" (requisitos)
     @api.one
     def action_estatus_asginar_requisitos(self):
@@ -227,7 +228,30 @@ class Solicitudes(models.Model):
         self.estatus_requisitos = 'estatus_devuelto'
 
 
+    # Cambia al estatus "Asignar" (juridico)
+    @api.one
+    def action_estatus_asginar_juridico(self):
+        self.estatus_juridico = 'estatus_asignar'
 
+    # Cambia al estatus "Aceptado" (juridico)
+    @api.one
+    def action_estatus_aceptar_juridico(self):
+        self.estatus_juridico = 'estatus_aceptado_juridico'
+
+    # Cambia al estatus "Rechazado" (juridico)
+    @api.one
+    def action_estatus_rechazado_juridico(self):
+        self.estatus_juridico = 'estatus_rechazado_juridico'
+
+    # Cambia al estatus "Aceptado condicionado" (juridico)
+    @api.one
+    def action_estatus_aceptado_cond_juridico(self):
+        self.estatus_juridico = 'estatus_aceptado_cond_juridico'
+
+    # Cambia al estatus "Devuelto" (juridico)
+    @api.one
+    def action_estatus_devuelto_juridico(self):
+        self.estatus_juridico = 'estatus_devuelto'
 
 
 
