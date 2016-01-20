@@ -201,6 +201,49 @@ class Solicitudes(models.Model):
         self.state = 'estacion_12_archivo'
 
 
+    # Cambia al estatus "Asignar" (requisitos)
+    @api.one
+    def action_estatus_asginar_requisitos(self):
+        self.estatus_requisitos = 'estatus_asignar'
+
+    # Cambia al estatus "Pendiente" (requisitos)
+    @api.one
+    def action_estatus_pendiente_requisitos(self):
+        self.estatus_requisitos = 'estatus_pendiente'
+
+    # Cambia al estatus "Completo" (requisitos)
+    @api.one
+    def action_estatus_completo_requisitos(self):
+        self.estatus_requisitos = 'estatus_completo'
+
+    # Cambia al estatus "Deficiente" (requisitos)
+    @api.one
+    def action_estatus_deficiente_requisitos(self):
+        self.estatus_requisitos = 'estatus_deficiente'
+
+    # Cambia al estatus "Devuelto" (requisitos)
+    @api.one
+    def action_estatus_devuelto_requisitos(self):
+        self.estatus_requisitos = 'estatus_devuelto'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     # Cambia al estatus "Aprobado" (gerencia)
     @api.one
