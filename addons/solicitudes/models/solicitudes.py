@@ -204,7 +204,7 @@ class Solicitudes(models.Model):
 
     # Cambia al estatus "Asignar" (requisitos)
     @api.one
-    def action_estatus_asginar_requisitos(self):
+    def action_estatus_asignar_requisitos(self):
         self.estatus_requisitos = 'estatus_asignar'
 
     # Cambia al estatus "Pendiente" (requisitos)
@@ -228,9 +228,10 @@ class Solicitudes(models.Model):
         self.estatus_requisitos = 'estatus_devuelto'
 
 
+
     # Cambia al estatus "Asignar" (juridico)
     @api.one
-    def action_estatus_asginar_juridico(self):
+    def action_estatus_asignar_juridico(self):
         self.estatus_juridico = 'estatus_asignar'
 
     # Cambia al estatus "Aceptado" (juridico)
@@ -255,8 +256,30 @@ class Solicitudes(models.Model):
 
 
 
+    # Cambia al estatus "Asignar" (economico)
+    @api.one
+    def action_estatus_asignar_economico(self):
+        self.estatus_economico = 'estatus_asignar'
 
+    # Cambia al estatus "Negado" (economico)
+    @api.one
+    def action_estatus_negado_economico(self):
+        self.estatus_economico = 'estatus_negado_economico'
 
+    # Cambia al estatus "Aprobado" (economico)
+    @api.one
+    def action_estatus_aprobado_economico(self):
+        self.estatus_economico = 'estatus_aprobado_economico'
+
+    # Cambia al estatus "Aprobado condicionado" (economico)
+    @api.one
+    def action_estatus_aprobado_cond_economico(self):
+        self.estatus_economico = 'estatus_aprobado_cond_economico'
+
+    # Cambia al estatus "Devuelto" (economico)
+    @api.one
+    def action_estatus_devuelto_economico(self):
+        self.estatus_economico = 'estatus_devuelto'
 
 
 
