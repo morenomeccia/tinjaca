@@ -308,25 +308,33 @@ class Solicitudes(models.Model):
         self.estatus_gerencia_credito = 'estatus_devuelto'
 
 
-
-
-
-
+    # Cambia al estatus "Decidir" (presidencia)
+    @api.one
+    def action_estatus_decidir_presidencia(self):
+        self.estatus_presidencia = 'estatus_decidir'
 
     # Cambia al estatus "Recomendado" (presidencia)
     @api.one
     def action_estatus_recomendado_presidencia(self):
         self.estatus_presidencia = 'estatus_recomendado'
 
+    # Cambia al estatus "No recomendado" (presidencia)
+    @api.one
+    def action_estatus_no_recomendado_presidencia(self):
+        self.estatus_presidencia = 'estatus_no_recomendado'
+
     # Cambia al estatus "Recomendado Condicionado" (presidencia)
     @api.one
     def action_estatus_recomendado_cond_presidencia(self):
         self.estatus_presidencia = 'estatus_recomendado_cond'
 
-    # Cambia al estatus "No recomendado" (presidencia)
+    # Cambia al estatus "Devuelto" (presidencia)
     @api.one
-    def action_estatus_no_recomendado_presidencia(self):
-        self.estatus_presidencia = 'estatus_no_recomendado'
+    def action_estatus_devuelto_presidencia(self):
+        self.estatus_presidencia = 'estatus_devuelto'
+
+
+
 
     # Cambia al estatus "Aprobado" (consejo)
     @api.one
