@@ -335,6 +335,15 @@ class Solicitudes(models.Model):
 
 
 
+    # Cambia al estatus "Discutir" (consejo)
+    @api.one
+    def action_estatus_discutir_consejo(self):
+        self.estatus_consejo_directivo = 'estatus_discutir'
+
+    # Cambia al estatus "Negado" (consejo)
+    @api.one
+    def action_estatus_negado_consejo(self):
+        self.estatus_consejo_directivo = 'estatus_negado_consejo'
 
     # Cambia al estatus "Aprobado" (consejo)
     @api.one
@@ -346,20 +355,35 @@ class Solicitudes(models.Model):
     def action_estatus_aprobado_cond_consejo(self):
         self.estatus_consejo_directivo = 'estatus_aprobado_cond_consejo'
 
-    # Cambia al estatus "Negado" (consejo)
-    @api.one
-    def action_estatus_negado_consejo(self):
-        self.estatus_consejo_directivo = 'estatus_negado_consejo'
-
     # Cambia al estatus "Diferido" (consejo)
     @api.one
     def action_estatus_diferido_consejo(self):
         self.estatus_consejo_directivo = 'estatus_diferido'
 
+    # Cambia al estatus "Devuelto" (consejo)
+    @api.one
+    def action_estatus_devuelto_consejo(self):
+        self.estatus_consejo_directivo = 'estatus_devuelto'
+
+
+    # Cambia al estatus "Asignar" (Administracion)
+    @api.one
+    def action_estatus_asignar(self):
+        self.estatus_liquidacion = 'estatus_asignar'
+
     # Cambia al estatus "Liquidado" (Administracion)
     @api.one
     def action_estatus_liquidado(self):
         self.estatus_liquidacion = 'estatus_liquidado'
+
+    # Cambia al estatus "Devuelto" (Administracion)
+    @api.one
+    def action_estatus_devuelto(self):
+        self.estatus_liquidacion = 'estatus_devuelto'
+
+
+
+
 
     # Cambia al estatus "Invirtio" (Acompanamiento)
     @api.one
