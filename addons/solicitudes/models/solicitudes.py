@@ -282,15 +282,15 @@ class Solicitudes(models.Model):
         self.estatus_economico = 'estatus_devuelto'
 
 
+    # Cambia al estatus "Evaluar" (gerencia)
+    @api.one
+    def action_estatus_evaluar_gerencia(self):
+        self.estatus_gerencia_credito = 'estatus_evaluar'
 
-
-
-
-
-
-
-
-
+    # Cambia al estatus "Negado" (gerencia)
+    @api.one
+    def action_estatus_negado_gerencia(self):
+        self.estatus_gerencia_credito = 'estatus_negado_gerencia'
 
     # Cambia al estatus "Aprobado" (gerencia)
     @api.one
@@ -302,10 +302,16 @@ class Solicitudes(models.Model):
     def action_estatus_aprobado_cond_gerencia(self):
         self.estatus_gerencia_credito = 'estatus_aprobado_cond_gerencia'
 
-    # Cambia al estatus "Negado" (gerencia)
+    # Cambia al estatus "devuelto" (gerencia)
     @api.one
-    def action_estatus_negado_gerencia(self):
-        self.estatus_gerencia_credito = 'estatus_negado_gerencia'
+    def action_estatus_devuelto_gerencia(self):
+        self.estatus_gerencia_credito = 'estatus_devuelto'
+
+
+
+
+
+
 
     # Cambia al estatus "Recomendado" (presidencia)
     @api.one
