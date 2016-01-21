@@ -88,13 +88,6 @@ class Solicitudes(models.Model):
                                                                       ('estatus_devuelto', 'Devuelto')],
                                                                        default='estatus_asignar')
 
-    estatus_consultoria_juridica = fields.Selection(string='Estatus consultoria juridica', selection=[('estatus_asignar', 'Por asignar'),
-                                                                      ('estatus_liberado', 'Liberado'),
-                                                                      ('estatus_demandado', 'Demandado'),
-                                                                      ('estatus_reintegrado', 'Reintegrado'),
-                                                                      ('estatus_devuelto', 'Devuelto')],
-                                                                       default='estatus_asignar')
-
     estatus_archivo = fields.Selection(string='Estatus archivo', selection=[('estatus_asignar', 'Por asignar'),
                                                                       ('estatus_prestado', 'Prestado'),
                                                                       ('estatus_archivado', 'Archivado'),
@@ -383,12 +376,37 @@ class Solicitudes(models.Model):
 
 
 
-
+    # Cambia al estatus "Asignar" (Acompanamiento)
+    @api.one
+    def action_estatus_asignar(self):
+        self.estatus_acompanamiento = 'estatus_asignar'
 
     # Cambia al estatus "Invirtio" (Acompanamiento)
     @api.one
     def action_estatus_invirtio(self):
         self.estatus_acompanamiento = 'estatus_invirtio'
+
+    # Cambia al estatus "No Invirtio" (Acompanamiento)
+    @api.one
+    def action_estatus_no_invirtio(self):
+        self.estatus_acompanamiento = 'estatus_no_invirtio'
+
+    # Cambia al estatus "Devuelto" (Acompanamiento)
+    @api.one
+    def action_estatus_devuelto(self):
+        self.estatus_acompanamiento = 'estatus_devuelto'
+
+
+
+    # Cambia al estatus "Asignar" (Recuperaciones)
+    @api.one
+    def action_estatus_asignar(self):
+        self.estatus_recuperaciones = 'estatus_asignar'
+
+    # Cambia al estatus "Asignar" (Recuperaciones)
+    @api.one
+    def action_estatus_caja(self):
+        self.estatus_recuperaciones = 'estatus_caja'
 
     # Cambia al estatus "Liberar" (Recuperaciones)
     @api.one
@@ -399,6 +417,20 @@ class Solicitudes(models.Model):
     @api.one
     def action_estatus_demandar(self):
         self.estatus_recuperaciones = 'estatus_demandar'
+
+    # Cambia al estatus "Extrajudicial" (Recuperaciones)
+    @api.one
+    def action_estatus_extrajudicial(self):
+        self.estatus_recuperaciones = 'estatus_extrajudicial'
+
+    # Cambia al estatus "Devuelto" (Recuperaciones)
+    @api.one
+    def action_estatus_devuelto(self):
+        self.estatus_recuperaciones = 'estatus_devuelto'
+
+
+
+
 
     # display_name = fields.Char(
     #     string='Número de expediente', compute='_compute_display_name',
