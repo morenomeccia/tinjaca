@@ -430,7 +430,52 @@ class Solicitudes(models.Model):
 
 
 
+    # Cambia al estatus "Asignar" (Consultoria Juridica)
+    @api.one
+    def action_estatus_asignar_consultoria(self):
+        self.estatus_consultoria_juridica = 'estatus_asignar'
 
+    # Cambia al estatus "Liberado" (Consultoria Juridica)
+    @api.one
+    def action_estatus_liberar_consultoria(self):
+        self.estatus_consultoria_juridica = 'estatus_liberado'
+
+    # Cambia al estatus "Demandado" (Consultoria Juridica)
+    @api.one
+    def action_estatus_demandar_consultoria(self):
+        self.estatus_consultoria_juridica = 'estatus_demandado'
+
+    # Cambia al estatus "Reintegro" (Consultoria Juridica)
+    @api.one
+    def action_estatus_reintegrar_consultoria(self):
+        self.estatus_consultoria_juridica = 'estatus_reintegrado'
+
+    # Cambia al estatus "Reintegro" (Consultoria Juridica)
+    @api.one
+    def action_estatus_devolver_consultoria(self):
+        self.estatus_consultoria_juridica = 'estatus_devuelto'
+
+
+
+    # Cambia al estatus "asignar" (Archivo)
+    @api.one
+    def action_estatus_asignar_archivo(self):
+        self.estatus_consultoria_juridica = 'estatus_asignar'
+
+    # Cambia al estatus "prestado" (Archivo)
+    @api.one
+    def action_estatus_prestar_archivo(self):
+        self.estatus_consultoria_juridica = 'estatus_prestado'
+
+    # Cambia al estatus "archivado" (Archivo)
+    @api.one
+    def action_estatus_archivar_archivo(self):
+        self.estatus_consultoria_juridica = 'estatus_archivado'
+
+    # Cambia al estatus "archivado" (Archivo)
+    @api.one
+    def action_estatus_devolver_archivo(self):
+        self.estatus_consultoria_juridica = 'estatus_devuelto'
 
     # display_name = fields.Char(
     #     string='Número de expediente', compute='_compute_display_name',
