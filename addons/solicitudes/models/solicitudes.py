@@ -361,71 +361,71 @@ class Solicitudes(models.Model):
 
     # Cambia al estatus "Asignar" (Administracion)
     @api.one
-    def action_estatus_asignar(self):
+    def action_estatus_asignar_administracion(self):
         self.estatus_liquidacion = 'estatus_asignar'
 
     # Cambia al estatus "Liquidado" (Administracion)
     @api.one
-    def action_estatus_liquidado(self):
+    def action_estatus_liquidado_administracion(self):
         self.estatus_liquidacion = 'estatus_liquidado'
 
     # Cambia al estatus "Devuelto" (Administracion)
     @api.one
-    def action_estatus_devuelto(self):
+    def action_estatus_devuelto_administracion(self):
         self.estatus_liquidacion = 'estatus_devuelto'
 
 
 
     # Cambia al estatus "Asignar" (Acompanamiento)
     @api.one
-    def action_estatus_asignar(self):
+    def action_estatus_asignar_acompanamiento(self):
         self.estatus_acompanamiento = 'estatus_asignar'
 
     # Cambia al estatus "Invirtio" (Acompanamiento)
     @api.one
-    def action_estatus_invirtio(self):
+    def action_estatus_invirtio_acompanamiento(self):
         self.estatus_acompanamiento = 'estatus_invirtio'
 
     # Cambia al estatus "No Invirtio" (Acompanamiento)
     @api.one
-    def action_estatus_no_invirtio(self):
+    def action_estatus_no_invirtio_acompanamiento(self):
         self.estatus_acompanamiento = 'estatus_no_invirtio'
 
     # Cambia al estatus "Devuelto" (Acompanamiento)
     @api.one
-    def action_estatus_devuelto(self):
+    def action_estatus_devuelto_acompanamiento(self):
         self.estatus_acompanamiento = 'estatus_devuelto'
 
 
 
     # Cambia al estatus "Asignar" (Recuperaciones)
     @api.one
-    def action_estatus_asignar(self):
+    def action_estatus_asignar_recuperaciones(self):
         self.estatus_recuperaciones = 'estatus_asignar'
 
     # Cambia al estatus "Asignar" (Recuperaciones)
     @api.one
-    def action_estatus_caja(self):
+    def action_estatus_caja_recuperaciones(self):
         self.estatus_recuperaciones = 'estatus_caja'
 
     # Cambia al estatus "Liberar" (Recuperaciones)
     @api.one
-    def action_estatus_liberar(self):
+    def action_estatus_liberar_recuperaciones(self):
         self.estatus_recuperaciones = 'estatus_liberar'
 
     # Cambia al estatus "Demandar" (Recuperaciones)
     @api.one
-    def action_estatus_demandar(self):
+    def action_estatus_demandar_recuperaciones(self):
         self.estatus_recuperaciones = 'estatus_demandar'
 
     # Cambia al estatus "Extrajudicial" (Recuperaciones)
     @api.one
-    def action_estatus_extrajudicial(self):
+    def action_estatus_extrajudicial_recuperaciones(self):
         self.estatus_recuperaciones = 'estatus_extrajudicial'
 
     # Cambia al estatus "Devuelto" (Recuperaciones)
     @api.one
-    def action_estatus_devuelto(self):
+    def action_estatus_devuelto_recuperaciones(self):
         self.estatus_recuperaciones = 'estatus_devuelto'
 
 
