@@ -1,16 +1,13 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Tinjaca - Propuestas",
+    'name': "Tinjaca - Propuestas Fomdes",
 
     'summary': """
-        Este módulo abarca los procesos de Recepción de propuestas""",
+        Recepción de propuestas de financiamiento del FOMDES y gestion de talleres de induccion
+    """,
 
     'description': """
-Módulo de Gestión de Propuestas
-=================================
-
-        Este módulo abarca los procesos de 'Recepción de propuestas'. Incluye procedimientos asociados con la recepción y
-validación de la propuesta de financiamiento y la inclusión de los solicitantes a las listas de los talleres de inducción.
+        Tinjaca - Modulo Propuestas (FOMDES)
     """,
 
     'author': "Cooperativa Saní Tecnologías Comunes",
@@ -19,20 +16,26 @@ validación de la propuesta de financiamiento y la inclusión de los solicitante
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
     # for the full list
-    'category': 'Management',
+    'category': 'Tinjaca',
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','partner_contact_birthdate', 'partner_contact_gender', 'partner_firstname'],
+    'depends': ['base','politicas'],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'templates.xml',
-        'views/propuestas.xml',
+        #'templates.xml',
+        'views/propuestas_views.xml',
+        'views/propuestas_workflow.xml',
+        'views/talleres_views.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
-        'demo.xml',
+        #'demo.xml',
     ],
+
+    'installable': True,
+    'application': True,
+    'auto_install': False,
 }

@@ -3,24 +3,23 @@
 from openerp import models, fields, api
 
 
-class UnidadProductiva(models.Model):
-    _name = 'propuestas.unidad_productiva'
-    _inherit = 'res.company'
+class UnidadesProductivas(models.Model):
+    _name = 'propuestasfomdes.unidades_productivas'
 
-    solicitante_id = fields.Many2one(comodel_name='propuestas.solicitantes', string="Solicitante")
-    propuesta_id = fields.One2many('propuestas.propuestas', "unidad_prod_id", string="Propuesta")
-    street = fields.Char(string='Dirección') # de res.partner>res.company
-    street2 = fields.Char(string='Dirección cont.') # de res.partner>res.company
+    _rec_name = 'nombre'
+
+    solicitantes_id = fields.Many2one('propuestasfomdes.solicitantes', string="Solicitante")
+
+    nombre = fields.Char(string="Nombre de la Unidad Productiva")
+    direccion = fields.Text(string='Dirección') # de res.partner>res.company
     telefono_fijo = fields.Integer(string='Teléfono fijo')
     telefono_celular = fields.Integer(string='Teléfono Celular')
-    actividad = fields.Char(string='Actividad')
-    experiencia = fields.Char(string='Experiencia')
-    area_geografica = fields.Char(string='Area Geografica')
-    tenencia = fields.Char(string='Tenencia')
-    area_m2 = fields.Integer(string='Area en metros cuadrados')
+    actividad = fields.Text(string='Actividades')
+    experiencia = fields.Text(string='Experiencia')
+    area_geografica = fields.Text(string='Area Geografica')
+    tenencia = fields.Selection(string='Tenencia', selection=[('1', 'Propio'), ('2', 'Alquilado'), ('3', 'Comodato'), ('4', 'Prestado')]) # TODO revisar las opciones en el expediente
+    area_m2 = fields.Float(string='Area en metros cuadrados')
     zona_geografica = fields.Char(string='Zona Geografica')
-    servicios = fields.Char(string='Servicios')
+    servicios = fields.Text(string='Servicios')
 
-    @api.model
-    def create(self, values):
-        return super(UnidadProductiva, self).create(values)
+    actividades_productivas_ids = fields.One2many('propuestasfomdes.actividades_productivas', 'unidades_productivas_id', string="Actividades Productivas")
