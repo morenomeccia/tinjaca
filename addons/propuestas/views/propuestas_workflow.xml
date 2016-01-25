@@ -35,14 +35,14 @@
             <field name="act_from" ref="activity_estacion_1_propuesta_recibida"/>
             <field name="act_to" ref="activity_estacion_2_taller"/>
             <field name="signal">button_viable</field>
-            <!-- <field name="group_id" ref="fomdes.group_analista_credito"/> -->
+            <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
         </record>
         <!-- Cambio de estacion boton asistio" -->
         <record model="workflow.transition" id="trans_estacion_2_a_estacion_3">
             <field name="act_from" ref="activity_estacion_2_taller"/>
             <field name="act_to" ref="activity_estacion_3_creacion_expediente"/>
             <field name="signal">button_asistio</field>
-            <!-- <field name="group_id" ref="fomdes.group_analista_credito"/> -->
+            <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
         </record>
 
     </data>
