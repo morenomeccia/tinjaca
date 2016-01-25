@@ -1,10 +1,13 @@
 # -*- coding: utf-8 -*-
 
-import actividades_productivas
-import avalistas
-import garantias
-import planes_inversion
-import propuestas
-import referencias_solicitante
 import solicitantes
 import unidades_productivas
+import actividades_productivas
+import propuestas
+import garantias
+import avalistas
+import inversiones
+import referencias_solicitante
+import talleres
+
+

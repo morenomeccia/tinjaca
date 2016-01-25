@@ -1,65 +1,28 @@
 # -*- coding: utf-8 -*-
 
-from datetime import date, datetime
-from dateutil.relativedelta import relativedelta
 from openerp import models, fields, api
 
 
 class Solicitantes(models.Model):
-    _name = 'propuestas.solicitantes'
-    _inherit = 'res.partner'
+    _name = 'propuestasfomdes.solicitantes'
 
-    # user_id = fields.Many2one('res.users')
-    # propuesta_id = fields.One2many('propuestas.propuestas', "solicitante_id", string="Propuesta")
-    # codigo_solicitud = fields.Char(string='Código de la Solicitud')
-    # firstname = fields.Char(string='Nombres', required=True) # de partner_firstname
-    # lastname = fields.Char(string='Apellidos', required=True) # de partner_firstname
+    _rec_name = 'cedula'
+
     cedula = fields.Char(string='Cédula de Identidad', required=True)
+    nombres = fields.Char(string='Nombres', required=True) # de partner_firstname
+    apellidos = fields.Char(string='Apellidos', required=True) # de partner_firstname
     rif = fields.Char(string='RIF')
-    birthdate_date = fields.Date(string='Fecha de Nacimiento',
-                                 default=fields.Date.today())  # de partner_contact_birthdate
-    edad = fields.Integer(string='Edad', compute="_compute_edad", readonly=True)
-    # gender = fields.Char(string='Sexo') # de partner_gender
-    # street = fields.Char(string='Dirección de Habitación') # de res.partner>res.users
-    # municipality_id = fields.Many2one('res.country.state.municipality', 'Municipality')
-    # parish_id = fields.Many2one('res.country.state.municipality.parish', 'Parish')
+    fecha_nacimiento = fields.Date(string='Fecha de Nacimiento', default=fields.Date.today())  # de partner_contact_birthdate
+    edad = fields.Integer(string='Edad', readonly=True) #calculado!!!
+    genero = fields.Selection(string='Sexo', selection=[('genero_masculino', 'Masculino'),
+                                                        ('genero_femenino', 'Femenino')]) # de partner_gender
+    direccion = fields.Text(string='Dirección de Habitación') # de res.partner>res.users
+    municipio = fields.Char(String='Municipio') #seleccion!!!
+    parroquia = fields.Char(String='Parroquia') #seleccion!!!
     profesion_oficio = fields.Char(string='Profesión u Oficio')
+    telefono_fijo = fields.Char(string='Teléfono Fijo') # de res.partner>res.users
+    telefono_celular = fields.Char(string='Teléfono Celular') # de res.partner>res.users
+    email = fields.Char(string='Correo Electrónico') # de res.partner>res.users
 
-    # phone = fields.Char(string='Teléfono Fijo') # de res.partner>res.users
-    # mobile = fields.Char(string='Teléfono Celular') # de res.partner>res.users
-    # email = fields.Char(string='Correo Electrónico') # de res.partner>res.users
-
-    @api.model
-    def create(self, values):
-        res_id = super(Solicitantes, self).create(values)
-        return res_id
-
-    @api.onchange('birthdate_date')
-    def _onchange_birthdate_date(self):
-        """Almacenar la fecha en el campo birthdate original."""
-        self.birthdate = self.birthdate_date
-        dnac = datetime.strptime(self.birthdate_date, "%Y-%m-%d").date()
-        dt = relativedelta(date.today(), dnac)
-        self.edad = dt.years
-
-    @api.depends('birthdate_date')
-    def _compute_edad(self):
-        """Calcular la edad actual a partir de la fecha de nacimiento"""
-        dnac = datetime.strptime(self.birthdate_date, "%Y-%m-%d").date()
-        dt = relativedelta(date.today(), dnac)
-        self.edad = dt.years
-
-        # @api.onchange('birthdate')
-        # def set_age(self):
-        #     for rec in self:
-        #    if rec.dob:
-        #    dt = rec.dob
-        #    d1 = datetime.strptime(dt, "%Y-%m-%d").date()
-        #         d2 = date.today()
-        #    rd = relativedelta(d2, d1)
-        #         rec.age = str(rd.years) + ' years'
-
-        # @api.depends('nombres', 'apellidos')
-        # def _nombre_apellido(self):
-        #     for record in self:
-        #         record.name = "{} {}".format(record.nombres, record.apellidos)
+    unidades_productivas_ids = fields.One2many('propuestasfomdes.unidades_productivas', 'solicitantes_id', string="Unidad Productiva")
+    propuestas_ids = fields.One2many('propuestasfomdes.propuestas', 'solicitantes_id', string="Propuesta")
