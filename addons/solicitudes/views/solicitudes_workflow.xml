@@ -8,6 +8,8 @@
 
 		<!-- ***************** Actividades ********************* -->
 
+		<!-- Requisitos -->
+
         <record model="workflow.activity" id="activity_estacion_consignacion_requisitos">
             <field name="name">Estacion Requisitos</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
@@ -15,12 +17,77 @@
             <field name="kind">function</field>
             <field name="action">action_estacion_consignacion_requisitos()</field>
         </record>
+        <record model="workflow.activity" id="activity_estatus_asignar_requisitos">
+            <field name="name">Asignar (requisitos)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_asignar_requisitos()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_pendiente_requisitos">
+            <field name="name">Pendiente (requisitos)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_pendiente_requisitos()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_completo_requisitos">
+            <field name="name">Completo (requisitos)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_completo_requisitos()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_deficiente_requisitos">
+            <field name="name">Deficiente (requisitos)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_deficiente_requisitos()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_devuelto_requisitos">
+            <field name="name">Devuelto (requisitos)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_devuelto_requisitos()</field>
+        </record>
+
+		<!-- Control previo -->
         <record model="workflow.activity" id="activity_estacion_control_previo">
             <field name="name">Estacion Control Previo</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estacion_control_previo()</field>
         </record>
+        <record model="workflow.activity" id="activity_estatus_asignar_juridico">
+            <field name="name">Asignar (juridico)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_asignar_juridico()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_aceptar_juridico">
+            <field name="name">Aceptar (juridico)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_aceptar_juridico()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_rechazar_juridico">
+            <field name="name">Rechazar (juridico)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_rechazar_juridico()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_aceptar_cond_juridico">
+            <field name="name">Aceptar con condicion (juridico)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_aceptar_cond_juridico()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_devuelto_juridico">
+            <field name="name">Devuelto (juridico)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_devuelto_juridico()</field>
+        </record>
+
+
+
         <record model="workflow.activity" id="activity_estacion_inspeccion_avaluo">
             <field name="name">Estacion Inspeccion Avaluo</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
@@ -129,63 +196,63 @@
 
 		<!-- ***************** Transiciones ********************* -->
 
-        <!-- Cambio de estacion (boton)" -->
+        <!-- Cambio de estacion (boton) requisitos a control previo -->
         <record model="workflow.transition" id="trans_requisitos_a_control_previo">
             <field name="act_from" ref="activity_estacion_consignacion_requisitos"/>
             <field name="act_to" ref="activity_estacion_control_previo"/>
             <field name="signal">button_enviar_control_previo</field>
             <field name="group_id" ref="fomdes.group_informacion_credito"/>
         </record>
-        <!-- Cambio de estacion (boton)" control previo a requisitos -->
+        <!-- Cambio de estacion (boton) control previo a requisitos -->
         <record model="workflow.transition" id="trans_control_previo_a_requisitos">
             <field name="act_from" ref="activity_estacion_control_previo"/>
             <field name="act_to" ref="activity_estacion_consignacion_requisitos"/>
             <field name="signal">button_enviar_requisitos</field>
             <field name="group_id" ref="fomdes.group_analista_credito"/>
         </record>
-        <!-- Cambio de estacion (boton)" -->
+        <!-- Cambio de estacion (boton) -->
         <record model="workflow.transition" id="trans_control_previo_a_inspeccion_avaluo">
             <field name="act_from" ref="activity_estacion_control_previo"/>
             <field name="act_to" ref="activity_estacion_inspeccion_avaluo"/>
             <field name="signal">button_enviar_inspeccion_avaluo</field>
             <field name="group_id" ref="fomdes.group_analista_juridico"/>
         </record>
-        <!-- Cambio de estacion (boton)" -->
+        <!-- Cambio de estacion (boton) -->
         <record model="workflow.transition" id="trans_inspeccion_avaluo_a_evaluacion_gerente">
             <field name="act_from" ref="activity_estacion_inspeccion_avaluo"/>
             <field name="act_to" ref="activity_estacion_evaluacion_gerente"/>
             <field name="signal">button_enviar_gerente_credito</field>
             <field name="group_id" ref="fomdes.group_analista_economico"/>
         </record>
-		<!-- Cambio de estacion (boton)" -->
+		<!-- Cambio de estacion (boton) -->
         <record model="workflow.transition" id="trans_evaluacion_gerente_a_evaluacion_presidencia">
             <field name="act_from" ref="activity_estacion_evaluacion_gerente"/>
             <field name="act_to" ref="activity_estacion_evaluacion_presidencia"/>
             <field name="signal">button_aprobar_gerente</field>
             <field name="group_id" ref="fomdes.group_gerente_credito"/>
         </record>
-		<!-- Cambio de estacion (boton)" -->
+		<!-- Cambio de estacion (boton) -->
         <record model="workflow.transition" id="trans_evaluacion_presidencia_a_discusion_consejo">
             <field name="act_from" ref="activity_estacion_evaluacion_presidencia"/>
             <field name="act_to" ref="activity_estacion_discusion_consejo"/>
             <field name="signal">button_recomendar_presidente</field>
             <field name="group_id" ref="fomdes.group_presidente"/>
         </record>
-		<!-- Cambio de estatus (boton)" -->
+		<!-- Cambio de estatus (boton) -->
         <record model="workflow.transition" id="trans_discusion_consejo_a_aprobado_consejo">
             <field name="act_from" ref="activity_estacion_discusion_consejo"/>
             <field name="act_to" ref="activity_estatus_aprobado_consejo"/>
             <field name="signal">button_aprobar_consejo</field>
             <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
         </record>
-		<!-- Cambio de estatus (boton)" -->
+		<!-- Cambio de estatus (boton) -->
         <record model="workflow.transition" id="trans_discusion_consejo_a_negado_consejo">
             <field name="act_from" ref="activity_estacion_discusion_consejo"/>
             <field name="act_to" ref="activity_estatus_negado_consejo"/>
             <field name="signal">button_rechazar_consejo</field>
             <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
         </record>
-        <!-- Cambio de estatus (boton)" -->
+        <!-- Cambio de estatus (boton) -->
         <record model="workflow.transition" id="trans_discusion_consejo_a_diferido_consejo">
             <field name="act_from" ref="activity_estacion_discusion_consejo"/>
             <field name="act_to" ref="activity_estatus_diferido_consejo"/>
@@ -213,14 +280,14 @@
             <field name="condition">True</field>
             <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
         </record>
-        <!-- Cambio de estacion (boton)" -->
+        <!-- Cambio de estacion (boton) -->
         <record model="workflow.transition" id="trans_creacion_documentos_a_liquidacion">
             <field name="act_from" ref="activity_estacion_creacion_documentos"/>
             <field name="act_to" ref="activity_estacion_liquidacion"/>
             <field name="signal">button_enviar_liquidacion</field>
             <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
         </record>
-        <!-- Cambio de estatus (boton)" -->
+        <!-- Cambio de estatus (boton) -->
         <record model="workflow.transition" id="trans_liquidacion_a_liquidado">
             <field name="act_from" ref="activity_estacion_liquidacion"/>
             <field name="act_to" ref="activity_estatus_liquidado"/>
@@ -234,7 +301,7 @@
             <field name="condition">True</field>
             <!-- <field name="group_id" ref="fomdes.group_administracion"/> -->
         </record>
-        <!-- Cambio de estatus (boton)" -->
+        <!-- Cambio de estatus (boton) -->
         <record model="workflow.transition" id="trans_acompanamiento_a_invirtio">
             <field name="act_from" ref="activity_estacion_acompanamiento"/>
             <field name="act_to" ref="activity_estatus_invirtio"/>
@@ -248,7 +315,7 @@
             <field name="condition">True</field>
             <!-- <field name="group_id" ref="fomdes.group_acompanamiento"/> -->
         </record>
-        <!-- Cambio de estatus (boton)" -->
+        <!-- Cambio de estatus (boton) -->
         <record model="workflow.transition" id="trans_recuperaciones_a_liberar">
             <field name="act_from" ref="activity_estacion_recuperaciones"/>
             <field name="act_to" ref="activity_estatus_liberar"/>
@@ -262,7 +329,7 @@
             <field name="condition">True</field>
             <!-- <field name="group_id" ref="fomdes.group_acompanamiento"/> -->
         </record>
-        <!-- Cambio de estatus (boton)" -->
+        <!-- Cambio de estatus (boton) -->
         <record model="workflow.transition" id="trans_recuperaciones_a_demanda">
             <field name="act_from" ref="activity_estacion_recuperaciones"/>
             <field name="act_to" ref="activity_estatus_demandar"/>
@@ -276,7 +343,7 @@
             <field name="condition">True</field>
             <!-- <field name="group_id" ref="fomdes.group_acompanamiento"/> -->
         </record>
-        <!-- Cambio de estacion (boton)" -->
+        <!-- Cambio de estacion (boton) -->
         <record model="workflow.transition" id="trans_consultoria_a_archivo">
             <field name="act_from" ref="activity_estacion_consultoria"/>
             <field name="act_to" ref="activity_estacion_archivo"/>

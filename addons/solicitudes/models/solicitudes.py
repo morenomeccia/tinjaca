@@ -227,19 +227,19 @@ class Solicitudes(models.Model):
     def action_estatus_asignar_juridico(self):
         self.estatus_juridico = 'estatus_asignar'
 
-    # Cambia al estatus "Aceptado" (juridico)
+    # Cambia al estatus "Aceptar" (juridico)
     @api.one
     def action_estatus_aceptar_juridico(self):
         self.estatus_juridico = 'estatus_aceptado_juridico'
 
-    # Cambia al estatus "Rechazado" (juridico)
+    # Cambia al estatus "Rechazar" (juridico)
     @api.one
-    def action_estatus_rechazado_juridico(self):
+    def action_estatus_rechazar_juridico(self):
         self.estatus_juridico = 'estatus_rechazado_juridico'
 
-    # Cambia al estatus "Aceptado condicionado" (juridico)
+    # Cambia al estatus "Aceptar con condicion" (juridico)
     @api.one
-    def action_estatus_aceptado_cond_juridico(self):
+    def action_estatus_aceptar_cond_juridico(self):
         self.estatus_juridico = 'estatus_aceptado_cond_juridico'
 
     # Cambia al estatus "Devuelto" (juridico)
