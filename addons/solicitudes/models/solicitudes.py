@@ -402,7 +402,7 @@ class Solicitudes(models.Model):
     def action_estatus_asignar_recuperaciones(self):
         self.estatus_recuperaciones = 'estatus_asignar'
 
-    # Cambia al estatus "Asignar" (Recuperaciones)
+    # Cambia al estatus "Caja" (Recuperaciones)
     @api.one
     def action_estatus_caja_recuperaciones(self):
         self.estatus_recuperaciones = 'estatus_caja'

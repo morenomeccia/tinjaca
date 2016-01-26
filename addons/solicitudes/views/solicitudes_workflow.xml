@@ -299,30 +299,78 @@
             <field name="kind">function</field>
             <field name="action">action_estacion_acompanamiento()</field>
         </record>
-        <record model="workflow.activity" id="activity_estatus_invirtio">
-            <field name="name">Credito invertido</field>
+        <record model="workflow.activity" id="activity_estatus_asignar_acompanamiento">
+            <field name="name">Asignar (Acompanamiento)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
-            <field name="action">action_estatus_invirtio()</field>
+            <field name="action">action_estatus_asignar_acompanamiento()</field>
         </record>
+        <record model="workflow.activity" id="activity_estatus_invirtio_acompanamiento">
+            <field name="name">Invirtio (Acompanamiento)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_invirtio_acompanamiento()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_no_invirtio_acompanamiento">
+            <field name="name">No Invirtio (Acompanamiento)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_no_invirtio_acompanamiento()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_devuelto_acompanamiento">
+            <field name="name">Devuelto (Acompanamiento)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_devuelto_acompanamiento()</field>
+        </record>
+
+		<!-- Recuperaciones -->
+
         <record model="workflow.activity" id="activity_estacion_recuperaciones">
             <field name="name">Caja</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estacion_recuperaciones()</field>
         </record>
-        <record model="workflow.activity" id="activity_estatus_liberar">
-            <field name="name">Credito a liberar</field>
+        <record model="workflow.activity" id="activity_estatus_asignar_recuperaciones">
+            <field name="name">Asignar (Recuperaciones)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
-            <field name="action">action_estatus_liberar()</field>
+            <field name="action">action_estatus_asignar_recuperaciones()</field>
         </record>
-        <record model="workflow.activity" id="activity_estatus_demandar">
-            <field name="name">Credito a demanda</field>
+        <record model="workflow.activity" id="activity_estatus_caja_recuperaciones">
+            <field name="name">Caja (Recuperaciones)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
-            <field name="action">action_estatus_demandar()</field>
+            <field name="action">action_estatus_caja_recuperaciones()</field>
         </record>
+        <record model="workflow.activity" id="activity_estatus_liberar_recuperaciones">
+            <field name="name">Liberar (Recuperaciones)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_liberar_recuperaciones()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_demandar_recuperaciones">
+            <field name="name">Demandar (Recuperaciones)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_demandar_recuperaciones()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_extrajudicial_recuperaciones">
+            <field name="name">Extrajudicial (Recuperaciones)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_extrajudicial_recuperaciones()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_devuelto_recuperaciones">
+            <field name="name">Devuelto (Recuperaciones)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_devuelto_recuperaciones()</field>
+        </record>
+
+		<!-- Consultoria Juridica -->
+
         <record model="workflow.activity" id="activity_estacion_consultoria">
             <field name="name">Consultoria Juridica</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
