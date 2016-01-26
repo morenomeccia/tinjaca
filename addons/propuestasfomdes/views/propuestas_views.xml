@@ -68,7 +68,8 @@
                     <sheet>
                         <group>
                             <field name="solicitantes_id"/>
-                            <field name="codigo_propuesta"/>
+                            <field name="codigo_planilla"/>
+                            <field name="fecha_recibida"/>
                             <field name="unidades_productivas_id"/>
                             <field name="actividades_productivas_id"/>
                             <field name="referencias_solicitante_ids"/>
@@ -92,8 +93,9 @@
             <field name="model">propuestasfomdes.propuestas</field>
             <field name="arch" type="xml">
                 <tree string="Listado Propuestas">
-                    <field name="codigo_propuesta"/>
+                    <field name="codigo_planilla"/>
                     <field name="solicitantes_id"/>
+                    <field name="fecha_recibida"/>
                     <field name="state"/>
                 </tree>
             </field>
@@ -366,7 +368,7 @@
 		    <field name="model">propuestasfomdes.propuestas</field>
 		    <field name="arch" type="xml">
 		        <search>
-                    <field name="codigo_propuesta"/>
+                    <field name="codigo_planilla"/>
                     <field name="solicitantes_id"/>
                     <field name="unidades_productivas_id"/>
                     <field name="actividades_productivas_id"/>

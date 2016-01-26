@@ -5,11 +5,12 @@ from openerp import models, fields, api
 class Propuestas(models.Model):
     _name = 'propuestasfomdes.propuestas'
 
-    _rec_name = 'codigo_propuesta'
+    _rec_name = 'fecha_recibida'
 
     solicitantes_id = fields.Many2one('propuestasfomdes.solicitantes', string="Solicitante", required=True)
 
-    codigo_propuesta = fields.Char(string="Codigo")
+    codigo_planilla = fields.Char(string="Codigo Planilla")
+    fecha_recibida = fields.Date(string='Fecha de elaboracion', default=fields.Date.today(), required=True)
 
     unidades_productivas_id = fields.Many2one('propuestasfomdes.unidades_productivas', string="Unidad Productiva")
     actividades_productivas_id = fields.Many2one('propuestasfomdes.actividades_productivas', string="Actividad Productiva")
