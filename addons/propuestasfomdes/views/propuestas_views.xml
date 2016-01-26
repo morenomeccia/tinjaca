@@ -294,6 +294,51 @@
             </field>
         </record>
 
+        <!-- Vistas para Referencias Familiares-->
+
+        <record model="ir.ui.view" id="vista_formulario_referencias_familiares">
+            <field name="name">referencias_familiares.form</field>
+            <field name="model">propuestasfomdes.referencias_familiares</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Referencias del Familiares">
+                    <sheet>
+                        <group>
+                            <field name="solicitantes_id"/>
+                            <field name="cedula"/>
+                            <field name="nombres"/>
+                            <field name="apellidos"/>
+                            <field name="rif"/>
+                            <field name="fecha_nacimiento"/>
+                            <field name="edad"/>
+                            <field name="genero"/>
+                            <field name="direccion"/>
+                            <field name="municipio"/>
+                            <field name="parroquia"/>
+                            <field name="profesion_oficio"/>
+                            <field name="telefono_fijo"/>
+                            <field name="telefono_celular"/>
+                            <field name="email"/>
+                            <field name="parentezco"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="vista_arbol_referencias_familiares">
+            <field name="name">referencias_familiares.tree</field>
+            <field name="model">propuestasfomdes.referencias_familiares</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Referencias del Familiares">
+                    <field name="solicitantes_id"/>
+                    <field name="cedula"/>
+                    <field name="nombres"/>
+                    <field name="apellidos"/>
+                    <field name="parentezco"/>
+                </tree>
+            </field>
+        </record>
+
         <!-- Vistas para Unidades Productivas-->
 
         <record model="ir.ui.view" id="vista_formulario_unidades_productivas">
@@ -495,6 +540,33 @@
 		    </field>
 		</record>
 
+        <!-- Caja de busqueda para Referecias Familiares-->
+
+		<record model="ir.ui.view" id="referencias_familiares_search_view">
+		    <field name="name">Caja de busqueda referencias familiares</field>
+		    <field name="model">propuestasfomdes.referencias_familiares</field>
+		    <field name="arch" type="xml">
+		        <search>
+                    <field name="solicitantes_id"/>
+                    <field name="cedula"/>
+                    <field name="nombres"/>
+                    <field name="apellidos"/>
+                    <field name="rif"/>
+                    <field name="fecha_nacimiento"/>
+                    <field name="edad"/>
+                    <field name="genero"/>
+                    <field name="direccion"/>
+                    <field name="municipio"/>
+                    <field name="parroquia"/>
+                    <field name="profesion_oficio"/>
+                    <field name="telefono_fijo"/>
+                    <field name="telefono_celular"/>
+                    <field name="email"/>
+                    <field name="parentezco"/>
+		        </search>
+		    </field>
+		</record>
+
         <!-- Caja de busqueda para Unidades Productivas-->
 
 		<record model="ir.ui.view" id="unidades_productivas_search_view">
@@ -604,6 +676,18 @@
             </field>
         </record>
 
+        <!-- Accion de ventana para Referencias Familiares-->
+
+        <record model="ir.actions.act_window" id="accion_listar_referencias_familiares">
+            <field name="name">Referencias Familiares</field>
+            <field name="res_model">propuestasfomdes.referencias_familiares</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear referencias familiares</p>
+            </field>
+        </record>
+
 
         <!-- Accion de ventana para Unidades Productivas -->
 
@@ -628,6 +712,8 @@
         <menuitem id="unidades_productivas_lista_menu" name="Unidades Productivas" parent="solicitantes_menu" action="accion_listar_unidades_productivas"/>
         <!-- Entrada de menu para el modelo de Actividades productivas-->
         <menuitem id="actividades_productivas_lista_menu" name="Actividades Productivas" parent="solicitantes_menu" action="accion_listar_actividades_productivas"/>
+        <!-- Entrada de menu para el modelo de Referencias Familiares-->
+        <menuitem id="referencias_familiares_lista_menu" name="Referencias Familiares" parent="solicitantes_menu" action="accion_listar_referencias_familiares"/>
 
         <!-- Submenu para Propuestas -->
         <menuitem id="propuestas_menu" name="Propuestas" parent="propuestas_main_menu"/>
@@ -639,6 +725,8 @@
         <menuitem id="garantias_lista_menu" name="Garantias" parent="propuestas_menu" action="accion_listar_garantias"/>
         <!-- Entrada de menu para el modelo de Inversiones-->
         <menuitem id="inversiones_lista_menu" name="Inversiones" parent="propuestas_menu" action="accion_listar_inversiones"/>
+        <!-- Entrada de menu para el modelo de Referencias del Solicitante-->
+        <menuitem id="referencias_solicitante_lista_menu" name="Referencias del Solicitante" parent="propuestas_menu" action="accion_listar_referencias_solicitante"/>
 
 
     </data>
