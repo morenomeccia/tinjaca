@@ -48,7 +48,8 @@
             <field name="action">action_estatus_devuelto_requisitos()</field>
         </record>
 
-		<!-- Control previo -->
+		<!-- Analisis juridico, control previo -->
+
         <record model="workflow.activity" id="activity_estacion_control_previo">
             <field name="name">Estacion Control Previo</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
@@ -86,6 +87,7 @@
             <field name="action">action_estatus_devuelto_juridico()</field>
         </record>
 
+		<!-- Analisis economico, inspeccion y avaluo -->
 
         <record model="workflow.activity" id="activity_estatus_asignar_economico">
             <field name="name">Asignar (economico)</field>
@@ -117,14 +119,15 @@
             <field name="kind">function</field>
             <field name="action">action_estatus_devuelto_economico()</field>
         </record>
-
-		<!-- Avaluo -->
         <record model="workflow.activity" id="activity_estacion_inspeccion_avaluo">
             <field name="name">Estacion Inspeccion Avaluo</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estacion_inspeccion_avaluo()</field>
         </record>
+
+		<!-- Gerencia -->
+
         <record model="workflow.activity" id="activity_estacion_evaluacion_gerente">
             <field name="name">Evaluacion Gerencia de Credito</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
@@ -132,12 +135,79 @@
             <field name="action">action_estacion_evaluacion_gerente()</field>
             <!-- <field name="join_mode">XOR</field> -->
         </record>
+        <record model="workflow.activity" id="activity_estacion_evaluar_gerencia">
+            <field name="name">Evaluacion (Gerencia)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_evaluar_gerencia()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estacion_negar_gerencia">
+            <field name="name">Negar (Gerencia)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_negado_gerencia()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estacion_aprobar_gerencia">
+            <field name="name">Aprobar (Gerencia)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_aprobado_gerencia()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estacion_aprobado_cond_gerencia">
+            <field name="name">Aprobado Condicionado (Gerencia)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_aprobado_cond_gerencia()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estacion_devolver_gerencia">
+            <field name="name">Devuelto (Gerencia)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_devuelto_gerencia()</field>
+        </record>
+
+		<!-- Presidencia -->
+
         <record model="workflow.activity" id="activity_estacion_evaluacion_presidencia">
             <field name="name">Evaluacion Presidencia</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estacion_evaluacion_presidencia()</field>
         </record>
+
+        <record model="workflow.activity" id="activity_estacion_decidir_presidencia">
+            <field name="name">Decidir (Presidencia)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_decidir_presidencia()</field>
+        </record>
+        <record model="workflow.activity" id="action_estatus_recomendado_presidencia">
+            <field name="name">Recomendar (Presidencia)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_recomendado_presidencia()</field>
+        </record>
+        <record model="workflow.activity" id="action_estatus_no_recomendado_presidencia">
+            <field name="name">No recomendar (Presidencia)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_no_recomendado_presidencia()</field>
+        </record>
+        <record model="workflow.activity" id="action_estatus_recomendado_cond_presidencia">
+            <field name="name">Recomendado Condicionado (Presidencia)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_recomendado_cond_presidencia()</field>
+        </record>
+        <record model="workflow.activity" id="action_estatus_devolver_presidencia">
+            <field name="name">Devolver (Presidencia)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_devuelto_presidencia()</field>
+        </record>
+
+		<!-- Consejo -->
+
         <record model="workflow.activity" id="activity_estacion_discusion_consejo">
             <field name="name">Discusion Consejo</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
