@@ -87,7 +87,38 @@
         </record>
 
 
+        <record model="workflow.activity" id="activity_estatus_asignar_economico">
+            <field name="name">Asignar (economico)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_asignar_economico()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_negado_economico">
+            <field name="name">Negado (economico)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_negado_economico()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_negado_economico">
+            <field name="name">Aprobado (economico)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_aprobado_economico()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_aprobado_cond_economico">
+            <field name="name">Aprobado condicionado (economico)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_aprobado_cond_economico()</field>
+        </record>
+        <record model="workflow.activity" id="action_estatus_devuelto_economico">
+            <field name="name">Devuelto (economico)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_devuelto_economico()</field>
+        </record>
 
+		<!-- Avaluo -->
         <record model="workflow.activity" id="activity_estacion_inspeccion_avaluo">
             <field name="name">Estacion Inspeccion Avaluo</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
