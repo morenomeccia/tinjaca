@@ -215,24 +215,45 @@
             <field name="action">action_estacion_discusion_consejo()</field>
             <!-- <field name="split_mode">XOR</field> -->
         </record>
+        <record model="workflow.activity" id="activity_estatus_discutir_consejo">
+            <field name="name">Discutir (consejo)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_discutir_consejo()</field>
+        </record>
         <record model="workflow.activity" id="activity_estatus_aprobado_consejo">
-            <field name="name">Solicitud Aprobada</field>
+            <field name="name">Aprobar (consejo)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estatus_aprobado_consejo()</field>
         </record>
         <record model="workflow.activity" id="activity_estatus_negado_consejo">
-            <field name="name">Solicitud Rechazada</field>
+            <field name="name">Negar (consejo)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estatus_negado_consejo()</field>
         </record>
+        <record model="workflow.activity" id="activity_estatus_aprobado_cond_consejo">
+            <field name="name">Aprobar condicionado (consejo)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_aprobado_cond_consejo()</field>
+        </record>
         <record model="workflow.activity" id="activity_estatus_diferido_consejo">
-            <field name="name">Solicitud Diferida</field>
+            <field name="name">Diferir (consejo)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estatus_diferido_consejo()</field>
         </record>
+        <record model="workflow.activity" id="activity_estatus_devuelto_consejo">
+            <field name="name">Devolver (consejo)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_devuelto_consejo()</field>
+        </record>
+
+		<!-- Administracion -->
+
         <record model="workflow.activity" id="activity_estacion_creacion_documentos">
             <field name="name">Creacion Documentos</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
@@ -251,6 +272,27 @@
             <field name="kind">function</field>
             <field name="action">action_estatus_liquidado()</field>
         </record>
+        <record model="workflow.activity" id="activity_estatus_asignar_administracion">
+            <field name="name">Asignar (Administracion)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_asignar_administracion()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_liquidar_administracion">
+            <field name="name">Liquidar (Administracion)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_liquidado_administracion()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_devolver_administracion">
+            <field name="name">Devolver (Administracion)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_devuelto_administracion()</field>
+        </record>
+
+		<!-- Acompanamiento -->
+
         <record model="workflow.activity" id="activity_estacion_acompanamiento">
             <field name="name">Acompanamiento</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>

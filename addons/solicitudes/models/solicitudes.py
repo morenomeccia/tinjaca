@@ -327,7 +327,6 @@ class Solicitudes(models.Model):
         self.estatus_presidencia = 'estatus_devuelto'
 
 
-
     # Cambia al estatus "Discutir" (consejo)
     @api.one
     def action_estatus_discutir_consejo(self):
