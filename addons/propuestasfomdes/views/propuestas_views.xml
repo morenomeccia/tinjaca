@@ -313,10 +313,18 @@
                             <field name="actividad"/>
                             <field name="experiencia"/>
                             <field name="area_geografica"/>
-                            <field name="tenencia"/>
+                            <field name="espacio_funcionamiento"/>
+                            <field name="situacion_propiedad"/>
                             <field name="area_m2"/>
                             <field name="zona_geografica"/>
-                            <field name="servicios"/>
+                            <field name="servicio_electricidad"/>
+                            <field name="servicio_agua"/>
+                            <field name="servicio_telefono"/>
+                            <field name="servicio_internet"/>
+                            <field name="servicio_cabletv"/>
+                            <field name="servicio_transporte"/>
+                            <field name="servicio_aseo"/>
+                            <field name="servicio_vialidad"/>
                             <field name="actividades_productivas_ids"/>
                         </group>
                     </sheet>
@@ -336,7 +344,7 @@
             </field>
         </record>
 
-        <!-- Caja de busqueda para Solicitudes -->
+        <!-- Caja de busqueda para Solicitantes -->
 		<record model="ir.ui.view" id="solicitantes_search_view">
 		    <field name="name">Caja de busqueda de solicitantes</field>
 		    <field name="model">propuestasfomdes.solicitantes</field>
@@ -506,17 +514,6 @@
 		        <search>
                     <field name="solicitantes_id"/>
                     <field name="nombre"/>
-                    <field name="direccion"/>
-                    <field name="telefono_fijo"/>
-                    <field name="telefono_celular"/>
-                    <field name="actividad"/>
-                    <field name="experiencia"/>
-                    <field name="area_geografica"/>
-                    <field name="tenencia"/>
-                    <field name="area_m2"/>
-                    <field name="zona_geografica"/>
-                    <field name="servicios"/>
-                    <field name="actividades_productivas_ids"/>
 		        </search>
 		    </field>
 		</record>
