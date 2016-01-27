@@ -71,7 +71,14 @@
                             <field name="codigo_planilla"/>
                             <field name="fecha_recibida"/>
                             <field name="unidades_productivas_id"/>
-                            <field name="actividades_productivas_id"/>
+                            <field name="producto_derivado"/>
+                            <field name="materia_prima"/>
+                            <field name="obtencion_materia"/>
+                            <field name="precio_venta"/>
+                            <field name="distribucion"/>
+                            <field name="trabajadores"/>
+                            <field name="puestos_trabajo"/>
+                            <field name="explicacion"/>
                             <field name="referencias_solicitante_ids"/>
                             <field name="garantias_ids"/>
                             <field name="avalistas_ids"/>
@@ -97,46 +104,6 @@
                     <field name="solicitantes_id"/>
                     <field name="fecha_recibida"/>
                     <field name="state"/>
-                </tree>
-            </field>
-        </record>
-
-
-        <!-- Vistas para Actividades Productivas-->
-
-        <record model="ir.ui.view" id="vista_formulario_actividades_productivas">
-            <field name="name">actividades_productivas.form</field>
-            <field name="model">propuestasfomdes.actividades_productivas</field>
-            <field name="arch" type="xml">
-                <form string="Formulario Actividades Productivas">
-                    <sheet>
-                        <group>
-                            <field name="unidades_productivas_id"/>
-                            <field name="descripcion"/>
-                            <field name="producto_derivado"/>
-                            <field name="materia_prima"/>
-                            <field name="obtiene_mp"/>
-                            <field name="precio_venta"/>
-                            <field name="distribucion"/>
-                            <field name="trabajadores"/>
-                            <field name="puestos_generar"/>
-                            <field name="explicacion_ap"/>
-                            <field name="consigno_facturas"/>
-                            <field name="observaciones"/>
-                        </group>
-                    </sheet>
-                </form>
-            </field>
-        </record>
-
-        <record model="ir.ui.view" id="vista_arbol_actividades_productivas">
-            <field name="name">actividades_productivas.tree</field>
-            <field name="model">propuestasfomdes.actividades_productivas</field>
-            <field name="arch" type="xml">
-                <tree string="Listado Actividades Productivas">
-                    <field name="unidades_productivas_id"/>
-                    <field name="descripcion"/>
-                    <field name="producto_derivado"/>
                 </tree>
             </field>
         </record>
@@ -325,7 +292,6 @@
                             <field name="servicio_transporte"/>
                             <field name="servicio_aseo"/>
                             <field name="servicio_vialidad"/>
-                            <field name="actividades_productivas_ids"/>
                         </group>
                     </sheet>
                 </form>
@@ -379,7 +345,6 @@
                     <field name="codigo_planilla"/>
                     <field name="solicitantes_id"/>
                     <field name="unidades_productivas_id"/>
-                    <field name="actividades_productivas_id"/>
                     <field name="referencias_solicitante_ids"/>
                     <field name="garantias_ids"/>
                     <field name="avalistas_ids"/>
@@ -387,29 +352,6 @@
                     <field name="inversiones_ids"/>
                     <field name="inversion_total"/>
                     <field name="aporte_propio"/>
-                    <field name="consigno_facturas"/>
-                    <field name="observaciones"/>
-		        </search>
-		    </field>
-		</record>
-
-        <!-- Caja de busqueda para Actividades productivas -->
-
-		<record model="ir.ui.view" id="actividades_productivas_search_view">
-		    <field name="name">Caja de busqueda actividades productivas</field>
-		    <field name="model">propuestasfomdes.actividades_productivas</field>
-		    <field name="arch" type="xml">
-		        <search>
-                    <field name="unidades_productivas_id"/>
-                    <field name="descripcion"/>
-                    <field name="producto_derivado"/>
-                    <field name="materia_prima"/>
-                    <field name="obtiene_mp"/>
-                    <field name="precio_venta"/>
-                    <field name="distribucion"/>
-                    <field name="trabajadores"/>
-                    <field name="puestos_generar"/>
-                    <field name="explicacion_ap"/>
                     <field name="consigno_facturas"/>
                     <field name="observaciones"/>
 		        </search>
@@ -543,18 +485,6 @@
             </field>
         </record>
 
-        <!-- Accion de ventana para Actividades productivas -->
-
-        <record model="ir.actions.act_window" id="accion_listar_actividades_productivas">
-            <field name="name">Actividades Productivas</field>
-            <field name="res_model">propuestasfomdes.actividades_productivas</field>
-            <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
-            <field name="help" type="html">
-                <p class="oe_view_nocontent_create">Crear Actividad Productiva</p>
-            </field>
-        </record>
-
         <!-- Accion de ventana para Avalistas -->
 
         <record model="ir.actions.act_window" id="accion_listar_avalistas">
@@ -625,8 +555,6 @@
         <menuitem id="solicitudes_lista_menu" name="Solicitantes" parent="solicitantes_menu" action="accion_listar_solicitantes"/>
         <!-- Entrada de menu para el modelo de Unidades Productivas-->
         <menuitem id="unidades_productivas_lista_menu" name="Unidades Productivas" parent="solicitantes_menu" action="accion_listar_unidades_productivas"/>
-        <!-- Entrada de menu para el modelo de Actividades productivas-->
-        <menuitem id="actividades_productivas_lista_menu" name="Actividades Productivas" parent="solicitantes_menu" action="accion_listar_actividades_productivas"/>
 
         <!-- Submenu para Propuestas -->
         <menuitem id="propuestas_menu" name="Propuestas" parent="propuestas_main_menu"/>

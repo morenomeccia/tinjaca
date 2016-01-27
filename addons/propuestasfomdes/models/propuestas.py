@@ -13,7 +13,15 @@ class Propuestas(models.Model):
     fecha_recibida = fields.Date(string='Fecha de elaboracion', default=fields.Date.today(), required=True)
 
     unidades_productivas_id = fields.Many2one('propuestasfomdes.unidades_productivas', string="Unidad Productiva")
-    actividades_productivas_id = fields.Many2one('propuestasfomdes.actividades_productivas', string="Actividad Productiva")
+
+    producto_derivado = fields.Text(string='Productos derivados de la actividad')
+    materia_prima = fields.Text(string='Materia prima a utilizar')
+    obtencion_materia = fields.Text(string='¿Dónde y cómo obtiene la materia prima?')
+    precio_venta = fields.Float(string='Precio estimado de venta de los productos')
+    distribucion = fields.Text(string='Distribuión y sistemas de ventas')
+    trabajadores = fields.Integer(string='Número de trabajadores existentes')
+    puestos_trabajo = fields.Integer(string='Puestos de trabajos que se van a generar')
+    explicacion = fields.Text(string='Breve explicación de la propuesta emprendedora')
 
     referencias_solicitante_ids = fields.One2many('propuestasfomdes.referencias_solicitante', 'propuestas_id', string="Referencias del Solicitante")
     garantias_ids = fields.One2many('propuestasfomdes.garantias', 'propuestas_id', string="Garantías")

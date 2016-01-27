@@ -30,5 +30,3 @@ class UnidadesProductivas(models.Model):
     servicio_transporte = fields.Boolean(string='Transporte')
     servicio_aseo = fields.Boolean(string='Aseo domiciliario')
     servicio_vialidad = fields.Boolean(string='Vialidad')
-
-    actividades_productivas_ids = fields.One2many('propuestasfomdes.actividades_productivas', 'unidades_productivas_id', string="Actividades Productivas")

@@ -2,7 +2,6 @@
 
 import solicitantes
 import unidades_productivas
-import actividades_productivas
 import propuestas
 import garantias
 import avalistas
