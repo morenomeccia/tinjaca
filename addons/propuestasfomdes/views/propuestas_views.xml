@@ -45,6 +45,25 @@
             </field>
         </record>
 
+        <!-- Caja de busqueda para Solicitantes -->
+		<record model="ir.ui.view" id="solicitantes_search_view">
+		    <field name="name">Caja de busqueda de solicitantes</field>
+		    <field name="model">propuestasfomdes.solicitantes</field>
+		    <field name="arch" type="xml">
+		        <search>
+                    <field name="cedula"/>
+                    <field name="nombres"/>
+                    <field name="apellidos"/>
+                    <field name="rif"/>
+                    <field name="municipio"/>
+                    <field name="parroquia"/>
+                    <field name="profesion_oficio"/>
+                    <field name="unidades_productivas_ids"/>
+                    <field name="propuestas_ids"/>
+		        </search>
+		    </field>
+		</record>
+
         <!-- Vistas para Propuestas -->
 
         <record model="ir.ui.view" id="vista_formulario_propuestas">
@@ -113,6 +132,19 @@
                 </tree>
             </field>
         </record>
+
+        <!-- Caja de busqueda para Propuestas -->
+		<record model="ir.ui.view" id="propuestas_search_view">
+		    <field name="name">Caja de busqueda propuestas</field>
+		    <field name="model">propuestasfomdes.propuestas</field>
+		    <field name="arch" type="xml">
+		        <search>
+                    <field name="codigo_planilla"/>
+                    <field name="solicitantes_id"/>
+                    <field name="unidades_productivas_id"/>
+		        </search>
+		    </field>
+		</record>
 
         <!-- Vistas para Avalistas-->
 
@@ -479,54 +511,6 @@
             </field>
         </record>
 
-        <!-- Caja de busqueda para Solicitantes -->
-		<record model="ir.ui.view" id="solicitantes_search_view">
-		    <field name="name">Caja de busqueda de solicitantes</field>
-		    <field name="model">propuestasfomdes.solicitantes</field>
-		    <field name="arch" type="xml">
-		        <search>
-                    <field name="cedula"/>
-                    <field name="nombres"/>
-                    <field name="apellidos"/>
-                    <field name="rif"/>
-                    <field name="fecha_nacimiento"/>
-                    <field name="edad"/>
-                    <field name="genero"/>
-                    <field name="direccion"/>
-                    <field name="municipio"/>
-                    <field name="parroquia"/>
-                    <field name="profesion_oficio"/>
-                    <field name="telefono_fijo"/>
-                    <field name="telefono_celular"/>
-                    <field name="email"/>
-                    <field name="unidades_productivas_ids"/>
-                    <field name="propuestas_ids"/>
-		        </search>
-		    </field>
-		</record>
-
-        <!-- Caja de busqueda para Propuestas -->
-		<record model="ir.ui.view" id="propuestas_search_view">
-		    <field name="name">Caja de busqueda propuestas</field>
-		    <field name="model">propuestasfomdes.propuestas</field>
-		    <field name="arch" type="xml">
-		        <search>
-                    <field name="codigo_planilla"/>
-                    <field name="solicitantes_id"/>
-                    <field name="unidades_productivas_id"/>
-                    <field name="referencias_solicitante_ids"/>
-                    <field name="garantias_ids"/>
-                    <field name="avalistas_ids"/>
-                    <!-- <field name="referencias_avalista_ids"/> -->
-                    <field name="inversiones_ids"/>
-                    <field name="inversion_total"/>
-                    <field name="aporte_propio"/>
-                    <field name="consigno_facturas"/>
-                    <field name="observaciones"/>
-		        </search>
-		    </field>
-		</record>
-
         <!-- Caja de busqueda para Avalistas -->
 
 		<record model="ir.ui.view" id="avalistas_search_view">
@@ -856,19 +840,9 @@
             </field>
         </record>
 
+
         <!-- Menu Propuestas (top level menu: no parent) -->
         <menuitem id="propuestas_main_menu" name="Propuestas"/>
-
-        <!-- Submenu para Solicitantes -->
-        <menuitem id="solicitantes_menu" name="Solicitantes" parent="propuestas_main_menu"/>
-        <!-- Entrada de menu para el modelo de Solicitantes -->
-        <menuitem id="solicitudes_lista_menu" name="Solicitantes" parent="solicitantes_menu" action="accion_listar_solicitantes"/>
-        <!-- Entrada de menu para el modelo de Unidades Productivas-->
-        <menuitem id="unidades_productivas_lista_menu" name="Unidades Productivas" parent="solicitantes_menu" action="accion_listar_unidades_productivas"/>
-        <!-- Entrada de menu para el modelo de Referencias Familiares-->
-        <menuitem id="referencias_familiares_lista_menu" name="Referencias Familiares" parent="solicitantes_menu" action="accion_listar_referencias_familiares"/>
-        <!-- Entrada de menu para el modelo de Conyuge-->
-        <menuitem id="conyuge_lista_menu" name="Conyuge" parent="solicitantes_menu" action="accion_listar_conyuge"/>
 
         <!-- Submenu para Propuestas -->
         <menuitem id="propuestas_menu" name="Propuestas" parent="propuestas_main_menu"/>
@@ -887,6 +861,16 @@
         <!-- Entrada de menu para el modelo de Referencias del Avalista-->
         <menuitem id="referencias_avalistas_lista_menu" name="Referencias del Avalista" parent="propuestas_menu" action="accion_listar_referencias_avalistas"/>
 
+        <!-- Submenu para Solicitantes -->
+        <menuitem id="solicitantes_menu" name="Solicitantes" parent="propuestas_main_menu"/>
+        <!-- Entrada de menu para el modelo de Solicitantes -->
+        <menuitem id="solicitudes_lista_menu" name="Solicitantes" parent="solicitantes_menu" action="accion_listar_solicitantes"/>
+        <!-- Entrada de menu para el modelo de Unidades Productivas-->
+        <menuitem id="unidades_productivas_lista_menu" name="Unidades Productivas" parent="solicitantes_menu" action="accion_listar_unidades_productivas"/>
+        <!-- Entrada de menu para el modelo de Referencias Familiares-->
+        <menuitem id="referencias_familiares_lista_menu" name="Referencias Familiares" parent="solicitantes_menu" action="accion_listar_referencias_familiares"/>
+        <!-- Entrada de menu para el modelo de Conyuge-->
+        <menuitem id="conyuge_lista_menu" name="Conyuges" parent="solicitantes_menu" action="accion_listar_conyuge"/>
 
     </data>
 </openerp>
