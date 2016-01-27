@@ -417,6 +417,31 @@
             <field name="action">action_estacion_archivo()</field>
 			<field name="flow_stop">True</field>
         </record>
+        <record model="workflow.activity" id="activity_estatus_asignar_archivo">
+            <field name="name">Asignar (Archivo)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_asignar_archivo()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_prestar_archivo">
+            <field name="name">Prestar (Archivo)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_prestar_archivo()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_archivar_archivo">
+            <field name="name">Archivar (Archivo)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_archivar_archivo()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_devolver_archivo">
+            <field name="name">Devolver (Archivo)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_devolver_archivo()</field>
+        </record>
+
 
 		<!-- ***************** Transiciones ********************* -->
 

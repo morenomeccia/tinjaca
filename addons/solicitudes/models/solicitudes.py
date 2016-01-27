@@ -471,7 +471,7 @@ class Solicitudes(models.Model):
     def action_estatus_archivar_archivo(self):
         self.estatus_consultoria_juridica = 'estatus_archivado'
 
-    # Cambia al estatus "archivado" (Archivo)
+    # Cambia al estatus "Devuelto" (Archivo)
     @api.one
     def action_estatus_devolver_archivo(self):
         self.estatus_consultoria_juridica = 'estatus_devuelto'
