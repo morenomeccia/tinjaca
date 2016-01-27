@@ -83,7 +83,13 @@
                             <field name="garantias_ids"/>
                             <field name="avalistas_ids"/>
                             <!-- <field name="referencias_avalista_ids"/> -->
-                            <field name="inversiones_ids"/>
+                            <field name="inversiones_ids">
+                                <tree>
+                                    <field name="rubro_id"/>
+                                    <field name="aporte_propio"/>
+                                    <field name="aporte_fomdes"/>
+                                </tree>
+                            </field>
                             <field name="inversion_total"/>
                             <field name="aporte_propio"/>
                             <field name="consigno_facturas"/>
@@ -198,10 +204,8 @@
                             <field name="propuestas_id"/>
                             <field name="rubro_id"/>
                             <field name="descripcion"/>
-                            <field name="monto_solicitado"/>
-                            <field name="monto_recomendado"/>
-                            <field name="monto_ajustado"/>
                             <field name="aporte_propio"/>
+                            <field name="aporte_fomdes"/>
                         </group>
                     </sheet>
                 </form>
@@ -413,10 +417,8 @@
                     <field name="propuestas_id"/>
                     <field name="rubro_id"/>
                     <field name="descripcion"/>
-                    <field name="monto_solicitado"/>
-                    <field name="monto_recomendado"/>
-                    <field name="monto_ajustado"/>
                     <field name="aporte_propio"/>
+                    <field name="aporte_fomdes"/>
 		        </search>
 		    </field>
 		</record>
