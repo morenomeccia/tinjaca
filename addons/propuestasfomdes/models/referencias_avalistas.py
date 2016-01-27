@@ -3,12 +3,12 @@
 from openerp import models, fields, api
 
 
-class Avalistas(models.Model):
-    _name = 'propuestasfomdes.avalistas'
+class ReferenciasAvalistas(models.Model):
+    _name = 'propuestasfomdes.referencias_avalistas'
 
     _rec_name = 'cedula'
 
-    propuestas_id = fields.Many2one('propuestasfomdes.propuestas', "Propuesta")
+    avalistas_id = fields.Many2one('propuestasfomdes.avalistas', string="Avalista")
 
     cedula = fields.Char(string='Cédula de Identidad', required=True)
     nombres = fields.Char(string='Nombres', required=True) # de partner_firstname
@@ -25,10 +25,3 @@ class Avalistas(models.Model):
     telefono_fijo = fields.Char(string='Teléfono Fijo') # de res.partner>res.users
     telefono_celular = fields.Char(string='Teléfono Celular') # de res.partner>res.users
     email = fields.Char(string='Correo Electrónico') # de res.partner>res.users
-
-    cargo = fields.Char(string='Cargo')
-    ingreso_mensual = fields.Float(string='Ingreso Mensual')
-    otros_ingresos = fields.Float(string='Otros Ingresos')
-    total_ingresos = fields.Float(string='Total de Ingresos') #calculado!!!
-    referencias_avalistas_ids = fields.One2many('propuestasfomdes.referencias_avalistas','avalistas_id', string='Referencias Personales del Avalista')
-    cuentas_bancarias_avalista_ids = fields.One2many('propuestasfomdes.cuentas_bancarias_avalista','avalistas_id',string='Cuentas Bancarias del Avalista')
