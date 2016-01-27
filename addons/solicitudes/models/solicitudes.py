@@ -449,7 +449,7 @@ class Solicitudes(models.Model):
     def action_estatus_reintegrar_consultoria(self):
         self.estatus_consultoria_juridica = 'estatus_reintegrado'
 
-    # Cambia al estatus "Reintegro" (Consultoria Juridica)
+    # Cambia al estatus "Devolucion" (Consultoria Juridica)
     @api.one
     def action_estatus_devolver_consultoria(self):
         self.estatus_consultoria_juridica = 'estatus_devuelto'

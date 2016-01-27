@@ -377,6 +377,39 @@
             <field name="kind">function</field>
             <field name="action">action_estacion_consultoria()</field>
         </record>
+        <record model="workflow.activity" id="activity_estatus_asignar_consultoria">
+            <field name="name">Asignar (Consultoria)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_asignar_consultoria()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_liberar_consultoria">
+            <field name="name">Liberar (Consultoria)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_liberar_consultoria()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_demandar_consultoria">
+            <field name="name">Demandar (Consultoria)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_demandar_consultoria()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_reintegrar_consultoria">
+            <field name="name">Reintegrar (Consultoria)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_reintegrar_consultoria()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_devolver_consultoria">
+            <field name="name">Devolver (Consultoria)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_devolver_consultoria()</field>
+        </record>
+
+		<!-- Archivo -->
+
         <record model="workflow.activity" id="activity_estacion_archivo">
             <field name="name">Archivo</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
