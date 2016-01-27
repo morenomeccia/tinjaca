@@ -6,6 +6,7 @@ import actividades_productivas
 import propuestas
 import garantias
 import avalistas
+import conyuge
 import inversiones
 import referencias_solicitante
 import referencias_familiares

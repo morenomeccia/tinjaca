@@ -3,8 +3,8 @@
 from openerp import models, fields, api
 
 
-class ReferenciasFamiliares(models.Model):
-    _name = 'propuestasfomdes.referencias_familiares'
+class Conyuge(models.Model):
+    _name = 'propuestasfomdes.conyuge'
 
     _rec_name = 'cedula'
 
@@ -24,9 +24,3 @@ class ReferenciasFamiliares(models.Model):
     telefono_fijo = fields.Char(string='Teléfono Fijo') # de res.partner>res.users
     telefono_celular = fields.Char(string='Teléfono Celular') # de res.partner>res.users
     email = fields.Char(string='Correo Electrónico') # de res.partner>res.users
-    parentezco = fields.Selection(string='Parentezco', selection=[('parentezco_madre', 'Madre'),
-                                                                  ('parentezco_padre', 'Padre'),
-                                                                  ('parentezco_hija', 'Hija'),
-                                                                  ('parentezco_hijo', 'Hijo'),
-                                                                  ('parentezco_hermana', 'Hermana'),
-                                                                  ('parentezco_hermano', 'Hermano')])

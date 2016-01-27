@@ -186,6 +186,49 @@
             </field>
         </record>
 
+        <!-- Vistas para Conyuge-->
+
+        <record model="ir.ui.view" id="vista_formulario_conyuge">
+            <field name="name">conyuge.form</field>
+            <field name="model">propuestasfomdes.conyuge</field>
+            <field name="arch" type="xml">
+                <form string="Formulario para Conyuge">
+                    <sheet>
+                        <group>
+                            <field name="solicitantes_id"/>
+                            <field name="cedula"/>
+                            <field name="nombres"/>
+                            <field name="apellidos"/>
+                            <field name="rif"/>
+                            <field name="fecha_nacimiento"/>
+                            <field name="edad"/>
+                            <field name="genero"/>
+                            <field name="direccion"/>
+                            <field name="municipio"/>
+                            <field name="parroquia"/>
+                            <field name="profesion_oficio"/>
+                            <field name="telefono_fijo"/>
+                            <field name="telefono_celular"/>
+                            <field name="email"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="vista_arbol_conyuge">
+            <field name="name">conyuge.tree</field>
+            <field name="model">propuestasfomdes.conyuge</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Conyuge">
+                    <field name="solicitantes_id"/>
+                    <field name="cedula"/>
+                    <field name="nombres"/>
+                    <field name="apellidos"/>
+                </tree>
+            </field>
+        </record>
+
         <!-- Vistas para Garantias-->
 
         <record model="ir.ui.view" id="vista_formulario_garantias">
@@ -329,7 +372,7 @@
             <field name="name">referencias_familiares.tree</field>
             <field name="model">propuestasfomdes.referencias_familiares</field>
             <field name="arch" type="xml">
-                <tree string="Listado Referencias del Familiares">
+                <tree string="Listado Referencias Familiares">
                     <field name="solicitantes_id"/>
                     <field name="cedula"/>
                     <field name="nombres"/>
@@ -524,6 +567,32 @@
 		    </field>
 		</record>
 
+        <!-- Caja de busqueda para Conyuge-->
+
+		<record model="ir.ui.view" id="conyuge_search_view">
+		    <field name="name">Caja de busqueda conyuge</field>
+		    <field name="model">propuestasfomdes.conyuge</field>
+		    <field name="arch" type="xml">
+		        <search>
+                    <field name="solicitantes_id"/>
+                    <field name="cedula"/>
+                    <field name="nombres"/>
+                    <field name="apellidos"/>
+                    <field name="rif"/>
+                    <field name="fecha_nacimiento"/>
+                    <field name="edad"/>
+                    <field name="genero"/>
+                    <field name="direccion"/>
+                    <field name="municipio"/>
+                    <field name="parroquia"/>
+                    <field name="profesion_oficio"/>
+                    <field name="telefono_fijo"/>
+                    <field name="telefono_celular"/>
+                    <field name="email"/>
+		        </search>
+		    </field>
+		</record>
+
         <!-- Caja de busqueda para Garantias -->
 
 		<record model="ir.ui.view" id="garantias_search_view">
@@ -709,6 +778,18 @@
             </field>
         </record>
 
+        <!-- Accion de ventana para Conyuge-->
+
+        <record model="ir.actions.act_window" id="accion_listar_conyuge">
+            <field name="name">Conyuge</field>
+            <field name="res_model">propuestasfomdes.conyuge</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear conyuge</p>
+            </field>
+        </record>
+
         <!-- Accion de ventana para Garantias -->
 
         <record model="ir.actions.act_window" id="accion_listar_garantias">
@@ -794,6 +875,8 @@
         <menuitem id="actividades_productivas_lista_menu" name="Actividades Productivas" parent="solicitantes_menu" action="accion_listar_actividades_productivas"/>
         <!-- Entrada de menu para el modelo de Referencias Familiares-->
         <menuitem id="referencias_familiares_lista_menu" name="Referencias Familiares" parent="solicitantes_menu" action="accion_listar_referencias_familiares"/>
+        <!-- Entrada de menu para el modelo de Conyuge-->
+        <menuitem id="conyuge_lista_menu" name="Conyuge" parent="solicitantes_menu" action="accion_listar_conyuge"/>
 
         <!-- Submenu para Propuestas -->
         <menuitem id="propuestas_menu" name="Propuestas" parent="propuestas_main_menu"/>
