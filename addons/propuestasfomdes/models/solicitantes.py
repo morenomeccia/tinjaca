@@ -26,3 +26,4 @@ class Solicitantes(models.Model):
 
     unidades_productivas_ids = fields.One2many('propuestasfomdes.unidades_productivas', 'solicitantes_id', string="Unidad Productiva")
     propuestas_ids = fields.One2many('propuestasfomdes.propuestas', 'solicitantes_id', string="Propuesta")
+    #    referencias_familiares_ids = fields.One2many('propuestasfomdes.referencias_familiares', 'solicitantes_id',string="Referencias Familiares")

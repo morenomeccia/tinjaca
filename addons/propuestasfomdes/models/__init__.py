@@ -9,6 +9,7 @@ import avalistas
 import inversiones
 import referencias_solicitante
 import referencias_familiares
+import referencias_avalistas
 import talleres
 
 

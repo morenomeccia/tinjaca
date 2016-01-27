@@ -30,4 +30,4 @@ class Avalistas(models.Model):
     ingreso_mensual = fields.Float(string='Ingreso Mensual')
     otros_ingresos = fields.Float(string='Otros Ingresos')
     total_ingresos = fields.Float(string='Total de Ingresos') #calculado!!!
-    #referencias_avalista = fields.Integer(string='Referencias Personales del Avalista', required=True)
+    #referencias_avalistas_ids = fields.One2many('propuestasfomdes.referencias_avalistas', string='Referencias Personales del Avalista', required=True)
