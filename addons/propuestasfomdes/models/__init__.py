@@ -11,6 +11,7 @@ import inversiones
 import referencias_solicitante
 import referencias_familiares
 import referencias_avalistas
+import cuentas_bancarias_avalista
 import talleres
 
 

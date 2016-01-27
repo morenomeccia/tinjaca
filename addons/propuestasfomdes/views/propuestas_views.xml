@@ -167,6 +167,8 @@
                             <field name="ingreso_mensual"/>
                             <field name="otros_ingresos"/>
                             <field name="total_ingresos"/>
+                            <field name="referencias_avalistas_ids"/>
+                            <field name="cuentas_bancarias_avalista_ids"/>
                         </group>
                     </sheet>
                 </form>
@@ -225,6 +227,38 @@
                     <field name="cedula"/>
                     <field name="nombres"/>
                     <field name="apellidos"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Vistas para Cuentas Bancarias de Avalista-->
+
+        <record model="ir.ui.view" id="vista_formulario_cuentas_bancarias_avalista">
+            <field name="name">cuentas_bancarias_avalista.form</field>
+            <field name="model">propuestasfomdes.cuentas_bancarias_avalista</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Cuentas Bancarias del Avalista">
+                    <sheet>
+                        <group>
+                            <field name="avalistas_id"/>
+                            <field name="nro_cuenta"/>
+                            <field name="banco"/>
+                            <field name="tipo_cuenta"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="vista_arbol_cuentas_bancarias_avalista">
+            <field name="name">cuentas_bancarias_avalista.tree</field>
+            <field name="model">propuestasfomdes.cuentas_bancarias_avalista</field>
+            <field name="arch" type="xml">
+                <tree string="Listado de Cuentas Bancarias del Avalista">
+                    <field name="avalistas_id"/>
+                    <field name="nro_cuenta"/>
+                    <field name="banco"/>
+                    <field name="tipo_cuenta"/>
                 </tree>
             </field>
         </record>
@@ -563,6 +597,8 @@
                     <field name="ingreso_mensual"/>
                     <field name="otros_ingresos"/>
                     <field name="total_ingresos"/>
+                    <field name="referencias_avalistas_ids"/>
+                    <field name="cuentas_bancarias_avalista_ids"/>
 		        </search>
 		    </field>
 		</record>
@@ -589,6 +625,21 @@
                     <field name="telefono_fijo"/>
                     <field name="telefono_celular"/>
                     <field name="email"/>
+		        </search>
+		    </field>
+		</record>
+
+        <!-- Caja de busqueda para Cuentas Bancarias del Avalista-->
+
+		<record model="ir.ui.view" id="cuantas_bancarias_avalista_search_view">
+		    <field name="name">Caja de busqueda de cuentas bancarias del avalista</field>
+		    <field name="model">propuestasfomdes.cuentas_bancarias_avalista</field>
+		    <field name="arch" type="xml">
+		        <search>
+                    <field name="avalistas_id"/>
+                    <field name="nro_cuenta"/>
+                    <field name="banco"/>
+                    <field name="tipo_cuenta"/>
 		        </search>
 		    </field>
 		</record>
@@ -790,6 +841,18 @@
             </field>
         </record>
 
+        <!-- Accion de ventana para Cuentas Bancarias del Avalista-->
+
+        <record model="ir.actions.act_window" id="accion_listar_cuentas_bancarias_avalista">
+            <field name="name">Cuentas Bancarias del Avalista</field>
+            <field name="res_model">propuestasfomdes.cuentas_bancarias_avalista</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear cuenta bancaria del avalista</p>
+            </field>
+        </record>
+
         <!-- Accion de ventana para Garantias -->
 
         <record model="ir.actions.act_window" id="accion_listar_garantias">
@@ -884,6 +947,8 @@
         <menuitem id="propuestas_lista_menu" name="Propuestas" parent="propuestas_menu" action="accion_listar_propuestas"/>
         <!-- Entrada de menu para el modelo de Avalistas-->
         <menuitem id="avalistas_lista_menu" name="Avalistas" parent="propuestas_menu" action="accion_listar_avalistas"/>
+        <!-- Entrada de menu para el modelo de Cuentas Bancarias de Avalista-->
+        <menuitem id="cuentas_bancarias_avalista_lista_menu" name="Cuentas Bancarias de Avalista" parent="propuestas_menu" action="accion_listar_cuentas_bancarias_avalista"/>
         <!-- Entrada de menu para el modelo de Garantias-->
         <menuitem id="garantias_lista_menu" name="Garantias" parent="propuestas_menu" action="accion_listar_garantias"/>
         <!-- Entrada de menu para el modelo de Inversiones-->
