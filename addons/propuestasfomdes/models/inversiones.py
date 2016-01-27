@@ -11,7 +11,5 @@ class Inversiones(models.Model):
     rubro_id = fields.Many2one('politicas.rubros', string="Rubro")
 
     descripcion = fields.Char(string="Descripcion")
-    monto_solicitado = fields.Float(string="Monto Solicitado")
-    monto_recomendado = fields.Float(string="Monto recomendado")
-    monto_ajustado = fields.Float(string="Monto Ajustado")
     aporte_propio = fields.Float(string="Aporte Propio")
+    aporte_fomdes = fields.Float(string="Aporte FOMDES")
