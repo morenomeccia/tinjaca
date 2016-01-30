@@ -86,33 +86,57 @@
                     </header>
                     <sheet>
                         <group>
-                            <field name="solicitantes_id"/>
                             <field name="codigo_planilla"/>
                             <field name="fecha_recibida"/>
+                            <field name="solicitantes_id"/>
                             <field name="unidades_productivas_id"/>
-                            <field name="producto_derivado"/>
-                            <field name="materia_prima"/>
-                            <field name="obtencion_materia"/>
-                            <field name="precio_venta"/>
-                            <field name="distribucion"/>
-                            <field name="trabajadores"/>
-                            <field name="puestos_trabajo"/>
-                            <field name="explicacion"/>
-                            <field name="referencias_solicitante_ids"/>
-                            <field name="garantias_ids"/>
-                            <field name="avalistas_ids"/>
-                            <!-- <field name="referencias_avalista_ids"/> -->
-                            <field name="inversiones_ids">
-                                <tree>
-                                    <field name="rubro_id"/>
-                                    <field name="aporte_propio"/>
-                                    <field name="aporte_fomdes"/>
-                                </tree>
-                            </field>
-                            <field name="inversion_total_propia"/>
-                            <field name="inversion_total_fomdes"/>
+                        </group>
+                        <notebook>
+                            <page string="Actividad Productiva">
+                                <group>
+                                    <field name="producto_derivado"/>
+                                    <field name="materia_prima"/>
+                                    <field name="obtencion_materia"/>
+                                    <field name="precio_venta"/>
+                                    <field name="distribucion"/>
+                                    <field name="trabajadores"/>
+                                    <field name="puestos_trabajo"/>
+                                    <field name="explicacion"/>
+                                </group>
+                            </page>
+                            <page string="Plan de Inversion">
+                                <group>
+                                    <field name="inversiones_ids">
+                                        <tree>
+                                            <field name="rubro_id"/>
+                                            <field name="aporte_propio"/>
+                                            <field name="aporte_fomdes"/>
+                                        </tree>
+                                    </field>
+                                    <field name="inversion_total_propia"/>
+                                    <field name="inversion_total_fomdes"/>
+                                </group>
+                            </page>
+                            <page string="Garantia">
+                                <group>
+                                    <field name="garantias_ids"/>
+                                    <field name="avalistas_ids"/>
+                                    <!-- <field name="referencias_avalista_ids"/> -->
+                                </group>
+                            </page>
+                            <page string="Referencias">
+                                <group>
+                                    <field name="referencias_solicitante_ids"/>
+                                </group>
+                            </page>
+                            <page string="Talleres" states="estacion_2_taller,estacion_3_creacion_expediente">
+                                <group>
+                                    <field name="talleres_ids"/>
+                                </group>
+                            </page>
+                        </notebook>
+                        <group>
                             <field name="observaciones"/>
-                            <field name="talleres_ids" states="estacion_2_taller,estacion_3_creacion_expediente"/>
                         </group>
                     </sheet>
                 </form>
