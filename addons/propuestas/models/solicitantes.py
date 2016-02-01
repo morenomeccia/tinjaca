@@ -3,12 +3,11 @@
 from openerp import models, fields, api
 
 
-class Conyuge(models.Model):
-    _name = 'propuestasfomdes.conyuge'
+class Solicitantes(models.Model):
+    _name = 'propuestas.solicitantes'
 
     _rec_name = 'cedula'
 
-    solicitantes_id = fields.Many2one('propuestasfomdes.solicitantes', string="Solicitante")
     cedula = fields.Char(string='Cédula de Identidad', required=True)
     nombres = fields.Char(string='Nombres', required=True) # de partner_firstname
     apellidos = fields.Char(string='Apellidos', required=True) # de partner_firstname
@@ -24,3 +23,7 @@ class Conyuge(models.Model):
     telefono_fijo = fields.Char(string='Teléfono Fijo') # de res.partner>res.users
     telefono_celular = fields.Char(string='Teléfono Celular') # de res.partner>res.users
     email = fields.Char(string='Correo Electrónico') # de res.partner>res.users
+
+    unidades_productivas_ids = fields.One2many('propuestas.unidades_productivas', 'solicitantes_id', string="Unidad Productiva")
+    propuestas_ids = fields.One2many('propuestas.propuestas', 'solicitantes_id', string="Propuesta")
+    #    referencias_familiares_ids = fields.One2many('propuestas.referencias_familiares', 'solicitantes_id',string="Referencias Familiares")

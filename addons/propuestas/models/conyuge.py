@@ -3,12 +3,12 @@
 from openerp import models, fields, api
 
 
-class ReferenciasSolicitante(models.Model):
-    _name = 'propuestasfomdes.referencias_solicitante'
+class Conyuge(models.Model):
+    _name = 'propuestas.conyuge'
 
     _rec_name = 'cedula'
 
-    propuestas_id = fields.Many2one('propuestasfomdes.propuestas', string="Propuesta")
+    solicitantes_id = fields.Many2one('propuestas.solicitantes', string="Solicitante")
     cedula = fields.Char(string='Cédula de Identidad', required=True)
     nombres = fields.Char(string='Nombres', required=True) # de partner_firstname
     apellidos = fields.Char(string='Apellidos', required=True) # de partner_firstname

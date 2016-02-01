@@ -4,11 +4,11 @@ from openerp import models, fields, api
 
 
 class UnidadesProductivas(models.Model):
-    _name = 'propuestasfomdes.unidades_productivas'
+    _name = 'propuestas.unidades_productivas'
 
     _rec_name = 'nombre'
 
-    solicitantes_id = fields.Many2one('propuestasfomdes.solicitantes', string="Solicitante")
+    solicitantes_id = fields.Many2one('propuestas.solicitantes', string="Solicitante")
 
     nombre = fields.Char(string="Nombre de la Unidad Productiva")
     direccion = fields.Text(string='Dirección') # de res.partner>res.company
