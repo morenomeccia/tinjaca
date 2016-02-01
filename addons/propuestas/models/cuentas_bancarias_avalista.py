@@ -1,10 +1,10 @@
 from openerp import models, fields, api
 
 class CuentasBancariasAvalista(models.Model):
-    _name = 'propuestasfomdes.cuentas_bancarias_avalista'
+    _name = 'propuestas.cuentas_bancarias_avalista'
     _rec_name = 'nro_cuenta'
 
-    avalistas_id = fields.Many2one('propuestasfomdes.avalistas', string="Avalista")
+    avalistas_id = fields.Many2one('propuestas.avalistas', string="Avalista")
 
     nro_cuenta = fields.Char(string= "Numero de cuenta")
     banco = fields.Selection(string="Banco", selection=[('banco_bancaribe','Bancaribe'),

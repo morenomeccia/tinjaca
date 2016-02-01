@@ -6,7 +6,7 @@
 
         <record model="ir.ui.view" id="vista_formulario_solicitantes">
             <field name="name">solicitantes.form</field>
-            <field name="model">propuestasfomdes.solicitantes</field>
+            <field name="model">propuestas.solicitantes</field>
             <field name="arch" type="xml">
                 <form string="Formulario Solicitante">
                     <sheet>
@@ -35,7 +35,7 @@
 
         <record model="ir.ui.view" id="vista_arbol_solicitantes">
             <field name="name">solicitantes.tree</field>
-            <field name="model">propuestasfomdes.solicitantes</field>
+            <field name="model">propuestas.solicitantes</field>
             <field name="arch" type="xml">
                 <tree string="Listado Solicitantes">
                     <field name="cedula"/>
@@ -48,7 +48,7 @@
         <!-- Caja de busqueda para Solicitantes -->
 		<record model="ir.ui.view" id="solicitantes_search_view">
 		    <field name="name">Caja de busqueda de solicitantes</field>
-		    <field name="model">propuestasfomdes.solicitantes</field>
+		    <field name="model">propuestas.solicitantes</field>
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="cedula"/>
@@ -68,7 +68,7 @@
 
         <record model="ir.ui.view" id="vista_formulario_propuestas">
             <field name="name">propuestas.form</field>
-            <field name="model">propuestasfomdes.propuestas</field>
+            <field name="model">propuestas.propuestas</field>
             <field name="arch" type="xml">
                 <form string="Formulario Propuestas">
                     <header>
@@ -121,7 +121,7 @@
 
         <record model="ir.ui.view" id="vista_arbol_propuestas">
             <field name="name">propuestas.tree</field>
-            <field name="model">propuestasfomdes.propuestas</field>
+            <field name="model">propuestas.propuestas</field>
             <field name="arch" type="xml">
                 <tree string="Listado Propuestas">
                     <field name="codigo_planilla"/>
@@ -135,7 +135,7 @@
         <!-- Caja de busqueda para Propuestas -->
 		<record model="ir.ui.view" id="propuestas_search_view">
 		    <field name="name">Caja de busqueda propuestas</field>
-		    <field name="model">propuestasfomdes.propuestas</field>
+		    <field name="model">propuestas.propuestas</field>
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="codigo_planilla"/>
@@ -149,7 +149,7 @@
 
         <record model="ir.ui.view" id="vista_formulario_avalistas">
             <field name="name">avalistas.form</field>
-            <field name="model">propuestasfomdes.avalistas</field>
+            <field name="model">propuestas.avalistas</field>
             <field name="arch" type="xml">
                 <form string="Formulario Avalistas">
                     <sheet>
@@ -183,7 +183,7 @@
 
         <record model="ir.ui.view" id="vista_arbol_avalistas">
             <field name="name">avalistas.tree</field>
-            <field name="model">propuestasfomdes.avalistas</field>
+            <field name="model">propuestas.avalistas</field>
             <field name="arch" type="xml">
                 <tree string="Listado Avalistas">
                     <field name="propuestas_id"/>
@@ -198,7 +198,7 @@
 
         <record model="ir.ui.view" id="vista_formulario_conyuge">
             <field name="name">conyuge.form</field>
-            <field name="model">propuestasfomdes.conyuge</field>
+            <field name="model">propuestas.conyuge</field>
             <field name="arch" type="xml">
                 <form string="Formulario para Conyuge">
                     <sheet>
@@ -226,7 +226,7 @@
 
         <record model="ir.ui.view" id="vista_arbol_conyuge">
             <field name="name">conyuge.tree</field>
-            <field name="model">propuestasfomdes.conyuge</field>
+            <field name="model">propuestas.conyuge</field>
             <field name="arch" type="xml">
                 <tree string="Listado Conyuge">
                     <field name="solicitantes_id"/>
@@ -241,7 +241,7 @@
 
         <record model="ir.ui.view" id="vista_formulario_cuentas_bancarias_avalista">
             <field name="name">cuentas_bancarias_avalista.form</field>
-            <field name="model">propuestasfomdes.cuentas_bancarias_avalista</field>
+            <field name="model">propuestas.cuentas_bancarias_avalista</field>
             <field name="arch" type="xml">
                 <form string="Formulario Cuentas Bancarias del Avalista">
                     <sheet>
@@ -258,7 +258,7 @@
 
         <record model="ir.ui.view" id="vista_arbol_cuentas_bancarias_avalista">
             <field name="name">cuentas_bancarias_avalista.tree</field>
-            <field name="model">propuestasfomdes.cuentas_bancarias_avalista</field>
+            <field name="model">propuestas.cuentas_bancarias_avalista</field>
             <field name="arch" type="xml">
                 <tree string="Listado de Cuentas Bancarias del Avalista">
                     <field name="avalistas_id"/>
@@ -273,7 +273,7 @@
 
         <record model="ir.ui.view" id="vista_formulario_garantias">
             <field name="name">garantias.form</field>
-            <field name="model">propuestasfomdes.garantias</field>
+            <field name="model">propuestas.garantias</field>
             <field name="arch" type="xml">
                 <form string="Formulario Garantias">
                     <sheet>
@@ -290,7 +290,7 @@
 
         <record model="ir.ui.view" id="vista_arbol_garantias">
             <field name="name">garantias.tree</field>
-            <field name="model">propuestasfomdes.garantias</field>
+            <field name="model">propuestas.garantias</field>
             <field name="arch" type="xml">
                 <tree string="Listado Garantias">
                     <field name="propuestas_id"/>
@@ -304,7 +304,7 @@
 
         <record model="ir.ui.view" id="vista_formulario_inversiones">
             <field name="name">inversiones.form</field>
-            <field name="model">propuestasfomdes.inversiones</field>
+            <field name="model">propuestas.inversiones</field>
             <field name="arch" type="xml">
                 <form string="Formulario Inversiones">
                     <sheet>
@@ -322,7 +322,7 @@
 
         <record model="ir.ui.view" id="vista_arbol_inversiones">
             <field name="name">inversiones.tree</field>
-            <field name="model">propuestasfomdes.inversiones</field>
+            <field name="model">propuestas.inversiones</field>
             <field name="arch" type="xml">
                 <tree string="Listado Garantias">
                     <field name="propuestas_id"/>
@@ -336,7 +336,7 @@
 
         <record model="ir.ui.view" id="vista_formulario_referencias_solicitante">
             <field name="name">referencias_solicitante.form</field>
-            <field name="model">propuestasfomdes.referencias_solicitante</field>
+            <field name="model">propuestas.referencias_solicitante</field>
             <field name="arch" type="xml">
                 <form string="Formulario Referencias del Solicitante">
                     <sheet>
@@ -364,7 +364,7 @@
 
         <record model="ir.ui.view" id="vista_arbol_referencias_solicitante">
             <field name="name">referencias_solicitante.tree</field>
-            <field name="model">propuestasfomdes.referencias_solicitante</field>
+            <field name="model">propuestas.referencias_solicitante</field>
             <field name="arch" type="xml">
                 <tree string="Listado Referencias del Solicitante">
                     <field name="propuestas_id"/>
@@ -379,7 +379,7 @@
 
         <record model="ir.ui.view" id="vista_formulario_referencias_familiares">
             <field name="name">referencias_familiares.form</field>
-            <field name="model">propuestasfomdes.referencias_familiares</field>
+            <field name="model">propuestas.referencias_familiares</field>
             <field name="arch" type="xml">
                 <form string="Formulario Referencias del Familiares">
                     <sheet>
@@ -408,7 +408,7 @@
 
         <record model="ir.ui.view" id="vista_arbol_referencias_familiares">
             <field name="name">referencias_familiares.tree</field>
-            <field name="model">propuestasfomdes.referencias_familiares</field>
+            <field name="model">propuestas.referencias_familiares</field>
             <field name="arch" type="xml">
                 <tree string="Listado Referencias Familiares">
                     <field name="solicitantes_id"/>
@@ -424,7 +424,7 @@
 
         <record model="ir.ui.view" id="vista_formulario_referencias_avalistas">
             <field name="name">referencias_avalistas.form</field>
-            <field name="model">propuestasfomdes.referencias_avalistas</field>
+            <field name="model">propuestas.referencias_avalistas</field>
             <field name="arch" type="xml">
                 <form string="Formulario Referencias del Avalista">
                     <sheet>
@@ -452,7 +452,7 @@
 
         <record model="ir.ui.view" id="vista_arbol_referencias_avalistas">
             <field name="name">referencias_avalistas.tree</field>
-            <field name="model">propuestasfomdes.referencias_avalistas</field>
+            <field name="model">propuestas.referencias_avalistas</field>
             <field name="arch" type="xml">
                 <tree string="Listado Referencias del Avalista">
                     <field name="avalistas_id"/>
@@ -467,7 +467,7 @@
 
         <record model="ir.ui.view" id="vista_formulario_unidades_productivas">
             <field name="name">unidades_productivas.form</field>
-            <field name="model">propuestasfomdes.unidades_productivas</field>
+            <field name="model">propuestas.unidades_productivas</field>
             <field name="arch" type="xml">
                 <form string="Formulario de Unidades Productivas">
                     <sheet>
@@ -500,7 +500,7 @@
 
         <record model="ir.ui.view" id="vista_arbol_unidades_productivas">
             <field name="name">unidades_productivas.tree</field>
-            <field name="model">propuestasfomdes.unidades_productivas</field>
+            <field name="model">propuestas.unidades_productivas</field>
             <field name="arch" type="xml">
                 <tree string="Listado Unidades Productivas">
                     <field name="solicitantes_id"/>
@@ -514,7 +514,7 @@
 
 		<record model="ir.ui.view" id="avalistas_search_view">
 		    <field name="name">Caja de busqueda avalistas</field>
-		    <field name="model">propuestasfomdes.avalistas</field>
+		    <field name="model">propuestas.avalistas</field>
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="propuestas_id"/>
@@ -546,7 +546,7 @@
 
 		<record model="ir.ui.view" id="conyuge_search_view">
 		    <field name="name">Caja de busqueda conyuge</field>
-		    <field name="model">propuestasfomdes.conyuge</field>
+		    <field name="model">propuestas.conyuge</field>
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="solicitantes_id"/>
@@ -572,7 +572,7 @@
 
 		<record model="ir.ui.view" id="cuantas_bancarias_avalista_search_view">
 		    <field name="name">Caja de busqueda de cuentas bancarias del avalista</field>
-		    <field name="model">propuestasfomdes.cuentas_bancarias_avalista</field>
+		    <field name="model">propuestas.cuentas_bancarias_avalista</field>
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="avalistas_id"/>
@@ -587,7 +587,7 @@
 
 		<record model="ir.ui.view" id="garantias_search_view">
 		    <field name="name">Caja de busqueda garantias</field>
-		    <field name="model">propuestasfomdes.garantias</field>
+		    <field name="model">propuestas.garantias</field>
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="propuestas_id"/>
@@ -602,7 +602,7 @@
 
 		<record model="ir.ui.view" id="inversiones_search_view">
 		    <field name="name">Caja de busqueda inversiones</field>
-		    <field name="model">propuestasfomdes.inversiones</field>
+		    <field name="model">propuestas.inversiones</field>
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="propuestas_id"/>
@@ -618,7 +618,7 @@
 
 		<record model="ir.ui.view" id="referencias_solicitante_search_view">
 		    <field name="name">Caja de busqueda referencias del solicitante</field>
-		    <field name="model">propuestasfomdes.referencias_solicitante</field>
+		    <field name="model">propuestas.referencias_solicitante</field>
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="propuestas_id"/>
@@ -644,7 +644,7 @@
 
 		<record model="ir.ui.view" id="referencias_familiares_search_view">
 		    <field name="name">Caja de busqueda referencias familiares</field>
-		    <field name="model">propuestasfomdes.referencias_familiares</field>
+		    <field name="model">propuestas.referencias_familiares</field>
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="solicitantes_id"/>
@@ -671,7 +671,7 @@
 
 		<record model="ir.ui.view" id="referencias_avalistas_search_view">
 		    <field name="name">Caja de busqueda referencias del avalista</field>
-		    <field name="model">propuestasfomdes.referencias_avalistas</field>
+		    <field name="model">propuestas.referencias_avalistas</field>
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="avalistas_id"/>
@@ -697,7 +697,7 @@
 
 		<record model="ir.ui.view" id="unidades_productivas_search_view">
 		    <field name="name">Caja de busqueda unidades productivas</field>
-		    <field name="model">propuestasfomdes.unidades_productivas</field>
+		    <field name="model">propuestas.unidades_productivas</field>
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="solicitantes_id"/>
@@ -711,7 +711,7 @@
 
         <record model="ir.actions.act_window" id="accion_listar_solicitantes">
             <field name="name">Solicitantes</field>
-            <field name="res_model">propuestasfomdes.solicitantes</field>
+            <field name="res_model">propuestas.solicitantes</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -723,7 +723,7 @@
 
         <record model="ir.actions.act_window" id="accion_listar_propuestas">
             <field name="name">Propuestas</field>
-            <field name="res_model">propuestasfomdes.propuestas</field>
+            <field name="res_model">propuestas.propuestas</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -735,7 +735,7 @@
 
         <record model="ir.actions.act_window" id="accion_listar_avalistas">
             <field name="name">Avalistas</field>
-            <field name="res_model">propuestasfomdes.avalistas</field>
+            <field name="res_model">propuestas.avalistas</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -747,7 +747,7 @@
 
         <record model="ir.actions.act_window" id="accion_listar_conyuge">
             <field name="name">Conyuge</field>
-            <field name="res_model">propuestasfomdes.conyuge</field>
+            <field name="res_model">propuestas.conyuge</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -759,7 +759,7 @@
 
         <record model="ir.actions.act_window" id="accion_listar_cuentas_bancarias_avalista">
             <field name="name">Cuentas Bancarias del Avalista</field>
-            <field name="res_model">propuestasfomdes.cuentas_bancarias_avalista</field>
+            <field name="res_model">propuestas.cuentas_bancarias_avalista</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -771,7 +771,7 @@
 
         <record model="ir.actions.act_window" id="accion_listar_garantias">
             <field name="name">Garantias</field>
-            <field name="res_model">propuestasfomdes.garantias</field>
+            <field name="res_model">propuestas.garantias</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -783,7 +783,7 @@
 
         <record model="ir.actions.act_window" id="accion_listar_inversiones">
             <field name="name">Inversiones</field>
-            <field name="res_model">propuestasfomdes.inversiones</field>
+            <field name="res_model">propuestas.inversiones</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -795,7 +795,7 @@
 
         <record model="ir.actions.act_window" id="accion_listar_referencias_solicitante">
             <field name="name">Referencias del Solicitante</field>
-            <field name="res_model">propuestasfomdes.referencias_solicitante</field>
+            <field name="res_model">propuestas.referencias_solicitante</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -807,7 +807,7 @@
 
         <record model="ir.actions.act_window" id="accion_listar_referencias_familiares">
             <field name="name">Referencias Familiares</field>
-            <field name="res_model">propuestasfomdes.referencias_familiares</field>
+            <field name="res_model">propuestas.referencias_familiares</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -819,7 +819,7 @@
 
         <record model="ir.actions.act_window" id="accion_listar_referencias_avalistas">
             <field name="name">Referencias del Avalista</field>
-            <field name="res_model">propuestasfomdes.referencias_avalistas</field>
+            <field name="res_model">propuestas.referencias_avalistas</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -831,7 +831,7 @@
 
         <record model="ir.actions.act_window" id="accion_listar_unidades_productivas">
             <field name="name">Unidades Productivas</field>
-            <field name="res_model">propuestasfomdes.unidades_productivas</field>
+            <field name="res_model">propuestas.unidades_productivas</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">

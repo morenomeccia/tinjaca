@@ -94,7 +94,7 @@ class Solicitudes(models.Model):
                                                                       ('estatus_devuelto', 'Devuelto')],
                                                                        default='estatus_asignar')
 
-    propuestas_id = fields.Many2one('propuestasfomdes.propuestas', string="Propuesta")
+    propuestas_id = fields.Many2one('propuestas.propuestas', string="Propuesta")
 
     # Campos provinientes de propuestas:
     solicitantes_id_propuesta = fields.Many2one(string='Solicitante', related='propuestas_id.solicitantes_id', readonly=True)

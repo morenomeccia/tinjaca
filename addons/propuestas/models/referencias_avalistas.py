@@ -4,11 +4,11 @@ from openerp import models, fields, api
 
 
 class ReferenciasAvalistas(models.Model):
-    _name = 'propuestasfomdes.referencias_avalistas'
+    _name = 'propuestas.referencias_avalistas'
 
     _rec_name = 'cedula'
 
-    avalistas_id = fields.Many2one('propuestasfomdes.avalistas', string="Avalista")
+    avalistas_id = fields.Many2one('propuestas.avalistas', string="Avalista")
 
     cedula = fields.Char(string='Cédula de Identidad', required=True)
     nombres = fields.Char(string='Nombres', required=True) # de partner_firstname
