@@ -11,7 +11,7 @@ class Consejos(models.Model):
     minuta = fields.Text(string='Minuta')
 
     # Referencias a solicitudes
-    solicitudes_ids = fields.Many2many('solicitudes.solicitudes', string="Numero de expediente")
+    #solicitudes_ids = fields.Many2many('solicitudes.solicitudes', string="Numero de expediente")
     # Referencias a miembros o asistentes
     miembros_ids = fields.Many2many('aprobacion.miembros', string="Miembros", relation='consejos_miembros')
 

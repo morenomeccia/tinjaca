@@ -65,6 +65,10 @@ class Solicitudes(models.Model):
                                                                                       ('estatus_diferido', 'Diferido'),                                                                          ('estatus_devuelto', 'Devuelto')],
                                                                                       default='estatus_discutir')
 
+    estatus_secretaria = fields.Selection(string='Estatus Secretaria', selection=[('estatus_asignar', 'Por asignar'),
+                                                                                    ('estatus_entrego', 'Entrego'),                                                                       ('estatus_no_entrego', 'No entrego')],
+                                                                                      default='estatus_asignar')
+
     estatus_liquidacion = fields.Selection(string='Estatus Liquidacion', selection=[('estatus_asignar', 'Por asignar'),
                                                                                     ('estatus_liquidado', 'Liquidado'),                                                                       ('estatus_devuelto', 'Devuelto')],
                                                                                       default='estatus_asignar')
@@ -129,7 +133,7 @@ class Solicitudes(models.Model):
     avaluo_id = fields.One2many('solicitudes.avaluo', 'solicitudes_id', string="Avaluo")
     inspeccion_id = fields.One2many('solicitudes.inspecciones', 'solicitudes_id', string="Inspeccion")
     informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', 'solicitudes_id', string="Informe tecnico")
-    consejos_directivos_ids = fields.Many2many('aprobacion.consejos', string="Consejo directivo")
+    #consejos_directivos_ids = fields.Many2many('aprobacion.consejos', string="Consejo directivo")
     #cuentas_cobrar_ids = fields.One2many('administracion.cuentas_cobrar', string="Cuenta por cobrar") #Error!!!
     #cheques_ids = fields.One2many('administracion.cheques', 'solicitudes_id', string="Cuenta por cobrar") #Error!!!
 
@@ -356,6 +360,24 @@ class Solicitudes(models.Model):
     @api.one
     def action_estatus_devuelto_consejo(self):
         self.estatus_consejo_directivo = 'estatus_devuelto'
+
+
+
+    # Cambia al estatus "Asignar" (secretaria)
+    @api.one
+    def action_estatus_asignar_secretaria(self):
+        self.estatus_secretaria = 'estatus_asignar'
+
+    # Cambia al estatus "Entrego" (secretaria)
+    @api.one
+    def action_estatus_entrego_secretaria(self):
+        self.estatus_secretaria = 'estatus_entrego'
+
+    # Cambia al estatus "No entrego" (secretaria)
+    @api.one
+    def action_estatus_no_entrego_secretaria(self):
+        self.estatus_secretaria = 'estatus_no_entrego'
+
 
 
     # Cambia al estatus "Asignar" (Administracion)

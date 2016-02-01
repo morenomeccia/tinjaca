@@ -89,6 +89,12 @@
 
 		<!-- Analisis economico, inspeccion y avaluo -->
 
+        <record model="workflow.activity" id="activity_estacion_inspeccion_avaluo">
+            <field name="name">Estacion Inspeccion Avaluo</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estacion_inspeccion_avaluo()</field>
+        </record>
         <record model="workflow.activity" id="activity_estatus_asignar_economico">
             <field name="name">Asignar (economico)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
@@ -101,7 +107,7 @@
             <field name="kind">function</field>
             <field name="action">action_estatus_negado_economico()</field>
         </record>
-        <record model="workflow.activity" id="activity_estatus_negado_economico">
+        <record model="workflow.activity" id="activity_estatus_aprobado_economico">
             <field name="name">Aprobado (economico)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
@@ -119,12 +125,6 @@
             <field name="kind">function</field>
             <field name="action">action_estatus_devuelto_economico()</field>
         </record>
-        <record model="workflow.activity" id="activity_estacion_inspeccion_avaluo">
-            <field name="name">Estacion Inspeccion Avaluo</field>
-            <field name="wkf_id" ref="wkf_solicitudes"/>
-            <field name="kind">function</field>
-            <field name="action">action_estacion_inspeccion_avaluo()</field>
-        </record>
 
 		<!-- Gerencia -->
 
@@ -135,31 +135,31 @@
             <field name="action">action_estacion_evaluacion_gerente()</field>
             <!-- <field name="join_mode">XOR</field> -->
         </record>
-        <record model="workflow.activity" id="activity_estacion_evaluar_gerencia">
+        <record model="workflow.activity" id="activity_estatus_evaluar_gerencia">
             <field name="name">Evaluacion (Gerencia)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estatus_evaluar_gerencia()</field>
         </record>
-        <record model="workflow.activity" id="activity_estacion_negar_gerencia">
+        <record model="workflow.activity" id="activity_estatus_negar_gerencia">
             <field name="name">Negar (Gerencia)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estatus_negado_gerencia()</field>
         </record>
-        <record model="workflow.activity" id="activity_estacion_aprobar_gerencia">
+        <record model="workflow.activity" id="activity_estatus_evaluar_gerencia">
             <field name="name">Aprobar (Gerencia)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estatus_aprobado_gerencia()</field>
         </record>
-        <record model="workflow.activity" id="activity_estacion_aprobado_cond_gerencia">
+        <record model="workflow.activity" id="activity_estatus_aprobado_cond_gerencia">
             <field name="name">Aprobado Condicionado (Gerencia)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estatus_aprobado_cond_gerencia()</field>
         </record>
-        <record model="workflow.activity" id="activity_estacion_devolver_gerencia">
+        <record model="workflow.activity" id="activity_estatus_devolver_gerencia">
             <field name="name">Devuelto (Gerencia)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
@@ -175,7 +175,7 @@
             <field name="action">action_estacion_evaluacion_presidencia()</field>
         </record>
 
-        <record model="workflow.activity" id="activity_estacion_decidir_presidencia">
+        <record model="workflow.activity" id="activity_estatus_decidir_presidencia">
             <field name="name">Decidir (Presidencia)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
@@ -252,7 +252,7 @@
             <field name="action">action_estatus_devuelto_consejo()</field>
         </record>
 
-		<!-- Administracion -->
+		<!-- Secretaria ejecutiva -->
 
         <record model="workflow.activity" id="activity_estacion_creacion_documentos">
             <field name="name">Creacion Documentos</field>
@@ -260,17 +260,32 @@
             <field name="kind">function</field>
             <field name="action">action_estacion_creacion_documentos()</field>
         </record>
+        <record model="workflow.activity" id="activity_estatus_asignar_secretaria">
+            <field name="name">Asignar (Secretaria)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_asignar_secretaria()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_entrego_secretaria">
+            <field name="name">Entrego (Secretaria)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_entrego_secretaria()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_no_entrego_secretaria">
+            <field name="name">No entrego (Secretaria)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_estatus_no_entrego_secretaria()</field>
+        </record>
+
+		<!-- Administracion -->
+
         <record model="workflow.activity" id="activity_estacion_liquidacion">
             <field name="name">Liquidacion</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estacion_liquidacion()</field>
-        </record>
-        <record model="workflow.activity" id="activity_estatus_liquidado">
-            <field name="name">Credito liquidado</field>
-            <field name="wkf_id" ref="wkf_solicitudes"/>
-            <field name="kind">function</field>
-            <field name="action">action_estatus_liquidado()</field>
         </record>
         <record model="workflow.activity" id="activity_estatus_asignar_administracion">
             <field name="name">Asignar (Administracion)</field>
@@ -539,13 +554,13 @@
         <!-- Cambio de estatus (boton) -->
         <record model="workflow.transition" id="trans_liquidacion_a_liquidado">
             <field name="act_from" ref="activity_estacion_liquidacion"/>
-            <field name="act_to" ref="activity_estatus_liquidado"/>
+            <field name="act_to" ref="activity_estatus_liquidar_administracion"/>
             <field name="signal">button_enviar_acompanamiento</field>
             <!-- <field name="group_id" ref="fomdes.group_administracion"/> -->
         </record>
         <!-- Cambio de estacion (auto)" -->
         <record model="workflow.transition" id="trans_liquidado_a_acompanamiento">
-            <field name="act_from" ref="activity_estatus_liquidado"/>
+            <field name="act_from" ref="activity_estatus_liquidar_administracion"/>
             <field name="act_to" ref="activity_estacion_acompanamiento"/>
             <field name="condition">True</field>
             <!-- <field name="group_id" ref="fomdes.group_administracion"/> -->
