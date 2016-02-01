@@ -20,7 +20,7 @@
     'version': '0.4',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','fomdes','politicas','propuestas'],
+    'depends': ['base','fomdes','politicas','propuestas', 'l10n_ve_dpt'],
 
     # always loaded
     'data': [
