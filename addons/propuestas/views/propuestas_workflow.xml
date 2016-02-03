@@ -2,7 +2,7 @@
     <data>
         <record model="workflow" id="wkf_propuestas">
             <field name="name">Evaluacion de propuestas</field>
-            <field name="osv">propuestasfomdes.propuestas</field>
+            <field name="osv">propuestas.propuestas</field>
             <field name="on_create">True</field>
         </record>
 

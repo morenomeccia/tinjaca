@@ -4,7 +4,7 @@ from openerp import models, fields, api
 
 
 class Solicitantes(models.Model):
-    _name = 'propuestasfomdes.solicitantes'
+    _name = 'propuestas.solicitantes'
 
     _rec_name = 'cedula'
 
@@ -24,5 +24,6 @@ class Solicitantes(models.Model):
     telefono_celular = fields.Char(string='Teléfono Celular') # de res.partner>res.users
     email = fields.Char(string='Correo Electrónico') # de res.partner>res.users
 
-    unidades_productivas_ids = fields.One2many('propuestasfomdes.unidades_productivas', 'solicitantes_id', string="Unidad Productiva")
-    propuestas_ids = fields.One2many('propuestasfomdes.propuestas', 'solicitantes_id', string="Propuesta")
+    unidades_productivas_ids = fields.One2many('propuestas.unidades_productivas', 'solicitantes_id', string="Unidad Productiva")
+    propuestas_ids = fields.One2many('propuestas.propuestas', 'solicitantes_id', string="Propuesta")
+    #    referencias_familiares_ids = fields.One2many('propuestas.referencias_familiares', 'solicitantes_id',string="Referencias Familiares")

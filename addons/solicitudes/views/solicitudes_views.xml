@@ -14,6 +14,9 @@
                         <button name="button_enviar_control_previo" type="workflow"
                                 string="Enviar a Control Previo" states="estacion_1_consignacion_requisitos"
                                 class="oe_highlight"/>
+                        <button name="button_enviar_requisitos" type="workflow"
+                                string="Devolver a requisitos" states="estacion_2_control_previo"
+                                class="oe_highlight"/>
                         <button name="button_enviar_inspeccion_avaluo" type="workflow"
                                 string="Enviar a Inspeccion / Avaluo" states="estacion_2_control_previo"
                                 class="oe_highlight"/>
@@ -139,11 +142,11 @@
                                     <field name="aporte_social"/>
                                 </group>
                             </page>
-                            <page string="Aprobacion" groups="fomdes.group_secretaria_ejecutiva">
+                            <!--<page string="Aprobacion" groups="fomdes.group_secretaria_ejecutiva">
                                 <group>
                                     <field name="consejos_directivos_ids"/>
                                 </group>
-                            </page>
+                            </page>-->
                             <page string="Liquidacion" >
                                 <group>
                                     <!-- <field name="cuentas_cobrar_ids"/> -->
