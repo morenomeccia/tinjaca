@@ -13,8 +13,8 @@ Contents:
 
 
 
-Indices and tables
-==================
+Indices y tablas
+================
 
 * :ref:`genindex`
 * :ref:`modindex`
