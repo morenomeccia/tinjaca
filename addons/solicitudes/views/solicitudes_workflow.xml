@@ -119,7 +119,7 @@
             <field name="kind">function</field>
             <field name="action">action_estatus_aprobado_cond_economico()</field>
         </record>
-        <record model="workflow.activity" id="action_estatus_devuelto_economico">
+        <record model="workflow.activity" id="activity_estatus_devuelto_economico">
             <field name="name">Devuelto (economico)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
@@ -147,7 +147,7 @@
             <field name="kind">function</field>
             <field name="action">action_estatus_negado_gerencia()</field>
         </record>
-        <record model="workflow.activity" id="activity_estatus_evaluar_gerencia">
+        <record model="workflow.activity" id="activity_estatus_aprobar_gerencia">
             <field name="name">Aprobar (Gerencia)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
@@ -181,25 +181,25 @@
             <field name="kind">function</field>
             <field name="action">action_estatus_decidir_presidencia()</field>
         </record>
-        <record model="workflow.activity" id="action_estatus_recomendado_presidencia">
+        <record model="workflow.activity" id="activity_estatus_recomendado_presidencia">
             <field name="name">Recomendar (Presidencia)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estatus_recomendado_presidencia()</field>
         </record>
-        <record model="workflow.activity" id="action_estatus_no_recomendado_presidencia">
+        <record model="workflow.activity" id="activity_estatus_no_recomendado_presidencia">
             <field name="name">No recomendar (Presidencia)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estatus_no_recomendado_presidencia()</field>
         </record>
-        <record model="workflow.activity" id="action_estatus_recomendado_cond_presidencia">
+        <record model="workflow.activity" id="activity_estatus_recomendado_cond_presidencia">
             <field name="name">Recomendado Condicionado (Presidencia)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estatus_recomendado_cond_presidencia()</field>
         </record>
-        <record model="workflow.activity" id="action_estatus_devolver_presidencia">
+        <record model="workflow.activity" id="activity_estatus_devolver_presidencia">
             <field name="name">Devolver (Presidencia)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
@@ -459,6 +459,59 @@
 
 
 		<!-- ***************** Transiciones ********************* -->
+
+
+		<!-- Requisitos -->
+	
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_asignar_requisitos_a_pendiente_requisitos">
+            <field name="act_from" ref="activity_estacion_consignacion_requisitos"/>
+            <field name="act_to" ref="activity_estatus_pendiente_requisitos"/>
+            <field name="signal">button_asignar_requisitos_pendiente_requisitos</field>
+            <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_pendiente_requisitos_a_asignar_juridico">
+            <field name="act_from" ref="activity_estatus_pendiente_requisitos"/>
+            <field name="act_to" ref="activity_estacion_control_previo"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
+        </record>
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_asignar_requisitos_a_completo_requisitos">
+            <field name="act_from" ref="activity_estacion_consignacion_requisitos"/>
+            <field name="act_to" ref="activity_estatus_completo_requisitos"/>
+            <field name="signal">button_asignar_requisitos_completo_requisitos</field>
+            <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_completo_requisitos_a_asignar_juridico">
+            <field name="act_from" ref="activity_estatus_completo_requisitos"/>
+            <field name="act_to" ref="activity_estacion_control_previo"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
+        </record>
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_asignar_requisitos_a_deficiente_requisitos">
+            <field name="act_from" ref="activity_estacion_consignacion_requisitos"/>
+            <field name="act_to" ref="activity_estatus_deficiente_requisitos"/>
+            <field name="signal">button_asignar_requisitos_deficiente_requisitos</field>
+            <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_deficiente_requisitos_a_asignar_archivo">
+            <field name="act_from" ref="activity_estatus_deficiente_requisitos"/>
+            <field name="act_to" ref="activity_estacion_archivo"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
+        </record>		
+
+		<!-- Analisis juridico, control previo -->
 
         <!-- Cambio de estacion (boton) requisitos a control previo -->
         <record model="workflow.transition" id="trans_requisitos_a_control_previo">
