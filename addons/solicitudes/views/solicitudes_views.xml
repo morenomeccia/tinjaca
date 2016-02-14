@@ -11,15 +11,28 @@
                 <form string="Formulario Solicitudes">
                     <header>
                         <field name="state" widget="statusbar"/>
-                        <button name="button_enviar_control_previo" type="workflow"
-                                string="Enviar a Control Previo" states="estacion_1_consignacion_requisitos"
+
+                        <button name="button_pendiente_requisitos" type="workflow"
+                                string="Requisitos pendientes" states="estacion_1_consignacion_requisitos"
                                 class="oe_highlight"/>
-                        <button name="button_enviar_requisitos" type="workflow"
-                                string="Devolver a requisitos" states="estacion_2_control_previo"
+                        <button name="button_completo_requisitos" type="workflow"
+                                string="Requisitos completos" states="estacion_1_consignacion_requisitos"
                                 class="oe_highlight"/>
-                        <button name="button_enviar_inspeccion_avaluo" type="workflow"
-                                string="Enviar a Inspeccion / Avaluo" states="estacion_2_control_previo"
+                        <button name="button_deficiente_requisitos" type="workflow"
+                                string="Requisitos deficientes" states="estacion_1_consignacion_requisitos"
                                 class="oe_highlight"/>
+
+                        <button name="button_aceptar_control_previo" type="workflow"
+                                string="Aceptar" states="estacion_2_control_previo"
+                                class="oe_highlight"/>
+                        <button name="button_aceptar_cond_control_previo" type="workflow"
+                                string="Aceptar condicionado" states="estacion_2_control_previo"
+                                class="oe_highlight"/>
+                        <button name="button_rechazar_control_previo" type="workflow"
+                                string="Rechazar" states="estacion_2_control_previo"
+                                class="oe_highlight"/>
+
+
                         <button name="button_enviar_gerente_credito" type="workflow"
                                 string="Enviar a Gerente de Credito" states="estacion_3_inspeccion_avaluo"
                                 class="oe_highlight"/>
