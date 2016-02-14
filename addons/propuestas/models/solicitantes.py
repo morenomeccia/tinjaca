@@ -20,9 +20,10 @@ class Solicitantes(models.Model):
     genero = fields.Selection(string='Sexo', selection=[('genero_masculino', 'Masculino'),
                                                         ('genero_femenino', 'Femenino')]) # de partner_gender
     direccion = fields.Text(string='Dirección de Habitación') # de res.partner>res.users
-    state_id = fields.Many2one(related='user_id.state_id', String='Estado') #seleccion!!!
-    municipality_id = fields.Many2one(related='user_id.municipality_id', String='Municipio') #seleccion!!!
-    parish_id = fields.Many2one(related='user_id.parish_id', String='Parroquia') #seleccion!!!
+    pais_id = fields.Many2one(related='user_id.country_id', String='País', default=240)
+    estado_id = fields.Many2one(related='user_id.state_id', String='Estado') #seleccion!!!
+    municipio_id = fields.Many2one(related='user_id.municipality_id', String='Municipio') #seleccion!!!
+    parroquia_id = fields.Many2one(related='user_id.parish_id', String='Parroquia') #seleccion!!!
     profesion_oficio = fields.Char(string='Profesión u Oficio')
     telefono_fijo = fields.Char(string='Teléfono Fijo') # de res.partner>res.users
     telefono_celular = fields.Char(string='Teléfono Celular') # de res.partner>res.users
@@ -32,6 +33,15 @@ class Solicitantes(models.Model):
     propuestas_ids = fields.One2many('propuestas.propuestas', 'solicitantes_id', string="Propuesta")
     #    referencias_familiares_ids = fields.One2many('propuestas.referencias_familiares', 'solicitantes_id',string="Referencias Familiares")
 
+    @api.onchange('state_id')
+    def _onchange_state_id(self):
+        """        """
+        print self.state_id
+        print self.state_id.country_id
+        self.country_id = self.state_id.country_id
+
+    # def write(self):
+    #     return super(Solicitantes, self).write()
 
 class res_partner(models.Model):
     '''Defining a address information '''
