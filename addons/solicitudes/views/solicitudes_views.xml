@@ -12,6 +12,7 @@
                     <header>
                         <field name="state" widget="statusbar"/>
 
+<<<<<<< HEAD
                         <button name="button_pendiente_requisitos" type="workflow"
                                 string="Requisitos pendientes" states="estacion_1_consignacion_requisitos"
                                 class="oe_highlight"/>
@@ -24,6 +25,21 @@
 
                         <button name="button_aceptar_control_previo" type="workflow"
                                 string="Aceptar" states="estacion_2_control_previo"
+=======
+                        <button name="button_asignar_requisitos_pendiente_requisitos" type="workflow"
+                                string="Requisitos pendientes" states="estacion_1_consignacion_requisitos"
+                                class="oe_highlight"/>
+                        <button name="button_asignar_requisitos_completo_requisitos" type="workflow"
+                                string="Requisitos completos" states="estacion_1_consignacion_requisitos"
+                                class="oe_highlight"/>
+                        <button name="button_asignar_requisitos_deficiente_requisitos" type="workflow"
+                                string="Requisitos deficientes" states="estacion_1_consignacion_requisitos"
+                                class="oe_highlight"/>
+
+
+                     	<button name="button_enviar_requisitos" type="workflow"
+                                string="Devolver a requisitos" states="estacion_2_control_previo"
+>>>>>>> da466a5f7f8c7d66c9212041e67ca1ddde6b5985
                                 class="oe_highlight"/>
                         <button name="button_aceptar_cond_control_previo" type="workflow"
                                 string="Aceptar condicionado" states="estacion_2_control_previo"

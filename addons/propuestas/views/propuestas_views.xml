@@ -11,6 +11,7 @@
                 <form string="Formulario Solicitante">
                     <sheet>
                         <group>
+                            <field name="user_id"/>
                             <field name="propuestas_ids"/>
                             <field name="cedula"/>
                             <field name="nombres"/>
@@ -20,8 +21,10 @@
                             <field name="edad"/>
                             <field name="genero"/>
                             <field name="direccion"/>
-                            <field name="municipio"/>
-                            <field name="parroquia"/>
+                            <field name="pais_id" placeholder="País" readonly="1"/>
+                            <field name="estado_id" placeholder="Estado" domain="[('country_id','=',pais_id)]"/>
+                            <field name="municipio_id" placeholder="Municipio"  domain="[('state_id','=',estado_id)]"/>
+                            <field name="parroquia_id" placeholder="Parroquia" domain="[('municipality_id','=',municipio_id)]"/>
                             <field name="profesion_oficio"/>
                             <field name="telefono_fijo"/>
                             <field name="telefono_celular"/>
@@ -55,8 +58,8 @@
                     <field name="nombres"/>
                     <field name="apellidos"/>
                     <field name="rif"/>
-                    <field name="municipio"/>
-                    <field name="parroquia"/>
+                    <field name="municipality_id"/>
+                    <field name="parish_id"/>
                     <field name="profesion_oficio"/>
                     <field name="unidades_productivas_ids"/>
                     <field name="propuestas_ids"/>

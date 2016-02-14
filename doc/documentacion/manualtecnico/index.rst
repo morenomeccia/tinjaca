@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-
-Informe de Requerimientos y Nudos Críticos de los Sistemas Actuales
-===================================================================
+=====================================================
+Informe de Manual Técnico y de Utilización de Tinjacá
+=====================================================
 
 .. toctree::
    :maxdepth: 3
