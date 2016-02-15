@@ -5,7 +5,7 @@ import unidades_productivas
 import propuestas
 import garantias
 import avalistas
-import conyuge
+import conyuges
 import inversiones
 import referencias_solicitante
 import referencias_familiares

@@ -3,8 +3,8 @@
 from openerp import models, fields, api
 
 
-class Conyuge(models.Model):
-    _name = 'propuestas.conyuge'
+class Conyuges(models.Model):
+    _name = 'propuestas.conyuges'
 
     _rec_name = 'cedula'
 
