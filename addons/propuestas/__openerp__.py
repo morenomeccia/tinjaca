@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Tinjaca - Propuestas Fomdes",
+    'name': "Tinjaca - Propuestas",
 
     'summary': """
-        Recepción de propuestas de financiamiento del FOMDES y gestion de talleres de induccion
+        Recepción de propuestas de financiamiento del FOMDES y organizacion de talleres de induccion
     """,
 
     'description': """
@@ -17,10 +17,10 @@
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
     # for the full list
     'category': 'Tinjaca',
-    'version': '0.1',
+    'version': '0.3',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','politicas'],
+    'depends': ['base','fomdes','politicas','l10n_ve_dpt'],
 
     # always loaded
     'data': [
