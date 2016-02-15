@@ -402,13 +402,13 @@
             </field>
         </record>
 
-        <!-- Vistas para Referencias Familiares-->
+        <!-- Vistas para Familiares-->
 
-        <record model="ir.ui.view" id="vista_formulario_referencias_familiares">
-            <field name="name">referencias_familiares.form</field>
-            <field name="model">propuestas.referencias_familiares</field>
+        <record model="ir.ui.view" id="vista_formulario_familiares">
+            <field name="name">familiares.form</field>
+            <field name="model">propuestas.familiares</field>
             <field name="arch" type="xml">
-                <form string="Formulario Referencias del Familiares">
+                <form string="Formulario Familiares">
                     <sheet>
                         <group>
                             <field name="solicitantes_id"/>
@@ -433,11 +433,11 @@
             </field>
         </record>
 
-        <record model="ir.ui.view" id="vista_arbol_referencias_familiares">
-            <field name="name">referencias_familiares.tree</field>
-            <field name="model">propuestas.referencias_familiares</field>
+        <record model="ir.ui.view" id="vista_arbol_familiares">
+            <field name="name">familiares.tree</field>
+            <field name="model">propuestas.familiares</field>
             <field name="arch" type="xml">
-                <tree string="Listado Referencias Familiares">
+                <tree string="Listado Familiares">
                     <field name="solicitantes_id"/>
                     <field name="cedula"/>
                     <field name="nombres"/>
@@ -667,11 +667,11 @@
 		    </field>
 		</record>
 
-        <!-- Caja de busqueda para Referecias Familiares-->
+        <!-- Caja de busqueda para Familiares-->
 
-		<record model="ir.ui.view" id="referencias_familiares_search_view">
-		    <field name="name">Caja de busqueda referencias familiares</field>
-		    <field name="model">propuestas.referencias_familiares</field>
+		<record model="ir.ui.view" id="familiares_search_view">
+		    <field name="name">Caja de busqueda familiares</field>
+		    <field name="model">propuestas.familiares</field>
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="solicitantes_id"/>
@@ -830,15 +830,15 @@
             </field>
         </record>
 
-        <!-- Accion de ventana para Referencias Familiares-->
+        <!-- Accion de ventana para Familiares-->
 
-        <record model="ir.actions.act_window" id="accion_listar_referencias_familiares">
-            <field name="name">Referencias Familiares</field>
-            <field name="res_model">propuestas.referencias_familiares</field>
+        <record model="ir.actions.act_window" id="accion_listar_familiares">
+            <field name="name">Familiares</field>
+            <field name="res_model">propuestas.familiares</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
-                <p class="oe_view_nocontent_create">Crear referencias familiares</p>
+                <p class="oe_view_nocontent_create">Crear familiar</p>
             </field>
         </record>
 
@@ -882,7 +882,7 @@
         <!-- Entrada de menu para el modelo de Solicitantes -->
         <menuitem id="solicitudes_lista_menu" name="Solicitantes" parent="solicitantes_menu" action="accion_listar_solicitantes"/>
         <!-- Entrada de menu para el modelo de Unidades Productivas-->
-        <menuitem id="referencias_familiares_lista_menu" name="Referencias Familiares" parent="solicitantes_menu" action="accion_listar_referencias_familiares"/>
+        <menuitem id="familiares_lista_menu" name="Familiares" parent="solicitantes_menu" action="accion_listar_familiares"/>
         <!-- Entrada de menu para el modelo de Conyuges-->
         <menuitem id="conyuges_lista_menu" name="Conyuges" parent="solicitantes_menu" action="accion_listar_conyuges"/>
         <!-- Entrada de menu para el modelo de Referencias del Solicitante-->
