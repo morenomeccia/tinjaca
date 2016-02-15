@@ -9,4 +9,4 @@ class DocumentosGarantia(models.Model):
 
     tipo_documento = fields.Char(string='Tipo de Documento')
     habilitado = fields.Boolean(string='Habilitar')
-    garantia_id = fields.Many2one('politicas.garantias', string="Garantias")
+    tipos_garantia_id = fields.Many2one('politicas.tipos_garantia', string="Tipo de Garantia")

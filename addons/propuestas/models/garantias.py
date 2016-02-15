@@ -10,7 +10,7 @@ class Garantias(models.Model):
 
     propuestas_id = fields.Many2one('propuestas.propuestas', "Propuesta")
 
-    garantia_id = fields.Many2one('politicas.garantias', string="Tipo de Garantía", required=True)
+    tipos_garantia_id = fields.Many2one('politicas.tipos_garantia', string="Tipo de Garantía", required=True)
 
     descripcion = fields.Char(string='Descripción de la Garantía')
     avaluo = fields.Char(string='Avalúo de la Garantía')

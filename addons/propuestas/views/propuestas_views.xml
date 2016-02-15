@@ -306,7 +306,7 @@
                     <sheet>
                         <group>
                             <field name="propuestas_id"/>
-                            <field name="garantia_id"/>
+                            <field name="tipos_garantia_id"/>
                             <field name="descripcion"/>
                             <field name="avaluo"/>
                         </group>
@@ -321,7 +321,7 @@
             <field name="arch" type="xml">
                 <tree string="Listado Garantias">
                     <field name="propuestas_id"/>
-                    <field name="garantia_id"/>
+                    <field name="tipos_garantia_id"/>
                     <field name="descripcion"/>
                 </tree>
             </field>
@@ -618,7 +618,7 @@
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="propuestas_id"/>
-                    <field name="garantia_id"/>
+                    <field name="tipos_garantia_id"/>
                     <field name="descripcion"/>
                     <field name="avaluo"/>
 		        </search>
@@ -802,7 +802,7 @@
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
-                <p class="oe_view_nocontent_create">Crear garantias</p>
+                <p class="oe_view_nocontent_create">Crear garantia</p>
             </field>
         </record>
 

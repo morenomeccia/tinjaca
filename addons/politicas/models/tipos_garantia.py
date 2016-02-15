@@ -2,8 +2,8 @@
 
 from openerp import models, fields, api
 
-class Garantias(models.Model):
-    _name = 'politicas.garantias'
+class TiposGarantia(models.Model):
+    _name = 'politicas.tipos_garantia'
 
     _rec_name = 'codigo'
 
