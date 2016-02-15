@@ -465,59 +465,6 @@
 	
 		<!-- Cambio de estatus (boton) -->
         <record model="workflow.transition" id="trans_asignar_requisitos_a_pendiente_requisitos">
-<<<<<<< HEAD
-=======
-            <field name="act_from" ref="activity_estacion_consignacion_requisitos"/>
-            <field name="act_to" ref="activity_estatus_pendiente_requisitos"/>
-            <field name="signal">button_asignar_requisitos_pendiente_requisitos</field>
-            <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
-        </record>
-
-        <!-- Cambio de estacion (auto)" -->
-        <record model="workflow.transition" id="trans_pendiente_requisitos_a_asignar_juridico">
-            <field name="act_from" ref="activity_estatus_pendiente_requisitos"/>
-            <field name="act_to" ref="activity_estacion_control_previo"/>
-            <field name="condition">True</field>
-            <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
-        </record>
-
-		<!-- Cambio de estatus (boton) -->
-        <record model="workflow.transition" id="trans_asignar_requisitos_a_completo_requisitos">
-            <field name="act_from" ref="activity_estacion_consignacion_requisitos"/>
-            <field name="act_to" ref="activity_estatus_completo_requisitos"/>
-            <field name="signal">button_asignar_requisitos_completo_requisitos</field>
-            <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
-        </record>
-
-        <!-- Cambio de estacion (auto)" -->
-        <record model="workflow.transition" id="trans_completo_requisitos_a_asignar_juridico">
-            <field name="act_from" ref="activity_estatus_completo_requisitos"/>
-            <field name="act_to" ref="activity_estacion_control_previo"/>
-            <field name="condition">True</field>
-            <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
-        </record>
-
-		<!-- Cambio de estatus (boton) -->
-        <record model="workflow.transition" id="trans_asignar_requisitos_a_deficiente_requisitos">
-            <field name="act_from" ref="activity_estacion_consignacion_requisitos"/>
-            <field name="act_to" ref="activity_estatus_deficiente_requisitos"/>
-            <field name="signal">button_asignar_requisitos_deficiente_requisitos</field>
-            <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
-        </record>
-
-        <!-- Cambio de estacion (auto)" -->
-        <record model="workflow.transition" id="trans_deficiente_requisitos_a_asignar_archivo">
-            <field name="act_from" ref="activity_estatus_deficiente_requisitos"/>
-            <field name="act_to" ref="activity_estacion_archivo"/>
-            <field name="condition">True</field>
-            <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
-        </record>		
-
-		<!-- Analisis juridico, control previo -->
-
-        <!-- Cambio de estacion (boton) requisitos a control previo -->
-        <record model="workflow.transition" id="trans_requisitos_a_control_previo">
->>>>>>> da466a5f7f8c7d66c9212041e67ca1ddde6b5985
             <field name="act_from" ref="activity_estacion_consignacion_requisitos"/>
             <field name="act_to" ref="activity_estatus_pendiente_requisitos"/>
             <field name="signal">button_pendiente_requisitos</field>
@@ -584,7 +531,7 @@
 
 		<!-- Cambio de estatus (boton) -->
         <record model="workflow.transition" id="trans_control_previo_a_aceptar_cond_juridico">
-            <field name="act_from" ref="activity_estacion_control_previo "/>
+            <field name="act_from" ref="activity_estacion_control_previo"/>
             <field name="act_to" ref="activity_estatus_aceptar_cond_juridico"/>
             <field name="signal">button_aceptar_cond_control_previo</field>
             <!-- <field name="group_id" ref="fomdes.group_analista_juridico"/> -->
