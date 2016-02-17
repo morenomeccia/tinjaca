@@ -159,11 +159,23 @@
             <field name="kind">function</field>
             <field name="action">action_estatus_aprobado_cond_gerencia()</field>
         </record>
-        <record model="workflow.activity" id="activity_estatus_devolver_gerencia">
-            <field name="name">Devuelto (Gerencia)</field>
+        <record model="workflow.activity" id="activity_estatus_devuelto_gerencia_a_requisitos">
+            <field name="name">Devuelto a requisitos (Gerencia)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
-            <field name="action">action_estatus_devuelto_gerencia()</field>
+            <field name="action">action_devolver_gerencia_a_requisitos()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_devuelto_gerencia_a_control_previo">
+            <field name="name">Devuelto a control previo (Gerencia)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_devolver_gerencia_a_control_previo()</field>
+        </record>
+        <record model="workflow.activity" id="activity_estatus_devuelto_gerencia_a_avaluo">
+            <field name="name">Devuelto a avaluo (Gerencia)</field>
+            <field name="wkf_id" ref="wkf_solicitudes"/>
+            <field name="kind">function</field>
+            <field name="action">action_devolver_gerencia_a_avaluo()</field>
         </record>
 
 		<!-- Presidencia -->
@@ -561,31 +573,185 @@
             <!-- <field name="group_id" ref="fomdes.group_analista_juridico"/> -->
         </record>
 
-
 		<!-- Analisis economico, inspeccion y avaluo -->
 
-
-        <!-- Cambio de estacion (boton) -->
-        <record model="workflow.transition" id="trans_control_previo_a_inspeccion_avaluo">
-            <field name="act_from" ref="activity_estacion_control_previo"/>
-            <field name="act_to" ref="activity_estacion_inspeccion_avaluo"/>
-            <field name="signal">button_enviar_inspeccion_avaluo</field>
-            <field name="group_id" ref="fomdes.group_analista_juridico"/>
-        </record>
-        <!-- Cambio de estacion (boton) -->
-        <record model="workflow.transition" id="trans_inspeccion_avaluo_a_evaluacion_gerente">
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_inspeccion_avaluo_a_aprobado_economico">
             <field name="act_from" ref="activity_estacion_inspeccion_avaluo"/>
+            <field name="act_to" ref="activity_estatus_aprobado_economico"/>
+            <field name="signal">button_aprobar_avaluo</field>
+            <!-- <field name="group_id" ref="fomdes.group_analista_economico"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_aprobado_economico_a_evaluacion_gerente">
+            <field name="act_from" ref="activity_estatus_aprobado_economico"/>
             <field name="act_to" ref="activity_estacion_evaluacion_gerente"/>
-            <field name="signal">button_enviar_gerente_credito</field>
-            <field name="group_id" ref="fomdes.group_analista_economico"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_analista_economico"/> -->
         </record>
-		<!-- Cambio de estacion (boton) -->
-        <record model="workflow.transition" id="trans_evaluacion_gerente_a_evaluacion_presidencia">
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_inspeccion_avaluo_a_aprobado_cond_economico">
+            <field name="act_from" ref="activity_estacion_inspeccion_avaluo"/>
+            <field name="act_to" ref="activity_estatus_aprobado_cond_economico"/>
+            <field name="signal">button_aprobar_cond_avaluo</field>
+            <!-- <field name="group_id" ref="fomdes.group_analista_economico"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_aprobado_cond_economico_a_evaluacion_gerente">
+            <field name="act_from" ref="activity_estatus_aprobado_cond_economico"/>
+            <field name="act_to" ref="activity_estacion_evaluacion_gerente"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_analista_economico"/> -->
+        </record>
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_inspeccion_avaluo_a_negado_economico">
+            <field name="act_from" ref="activity_estacion_inspeccion_avaluo"/>
+            <field name="act_to" ref="activity_estatus_negado_economico"/>
+            <field name="signal">button_negar_avaluo</field>
+            <!-- <field name="group_id" ref="fomdes.group_analista_economico"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_negado_economico_a_evaluacion_gerente">
+            <field name="act_from" ref="activity_estatus_negado_economico"/>
+            <field name="act_to" ref="activity_estacion_evaluacion_gerente"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_analista_economico"/> -->
+        </record>
+
+		<!-- Gerencia -->
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_evaluacion_gerente_a_aprobar_gerencia">
             <field name="act_from" ref="activity_estacion_evaluacion_gerente"/>
-            <field name="act_to" ref="activity_estacion_evaluacion_presidencia"/>
-            <field name="signal">button_aprobar_gerente</field>
-            <field name="group_id" ref="fomdes.group_gerente_credito"/>
+            <field name="act_to" ref="activity_estatus_aprobar_gerencia"/>
+            <field name="signal">button_aprobar_gerencia</field>
+            <!-- <field name="group_id" ref="fomdes.group_gerente_credito"/> -->
         </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_aprobar_gerencia_a_evaluacion_presidencia">
+            <field name="act_from" ref="activity_estatus_aprobar_gerencia"/>
+            <field name="act_to" ref="activity_estacion_evaluacion_presidencia"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_gerente_credito"/> -->
+        </record>
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_evaluacion_gerente_a_aprobado_cond_gerencia">
+            <field name="act_from" ref="activity_estacion_evaluacion_gerente"/>
+            <field name="act_to" ref="activity_estatus_aprobado_cond_gerencia"/>
+            <field name="signal">button_aprobar_cond_gerencia</field>
+            <!-- <field name="group_id" ref="fomdes.group_gerente_credito"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_aprobado_cond_gerencia_a_evaluacion_presidencia">
+            <field name="act_from" ref="activity_estatus_aprobado_cond_gerencia"/>
+            <field name="act_to" ref="activity_estacion_evaluacion_presidencia"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_gerente_credito"/> -->
+        </record>
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_evaluacion_gerente_a_negar_gerencia">
+            <field name="act_from" ref="activity_estacion_evaluacion_gerente"/>
+            <field name="act_to" ref="activity_estatus_negar_gerencia"/>
+            <field name="signal">button_negar_gerencia</field>
+            <!-- <field name="group_id" ref="fomdes.group_gerente_credito"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_negar_gerencia_a_evaluacion_presidencia">
+            <field name="act_from" ref="activity_estatus_negar_gerencia"/>
+            <field name="act_to" ref="activity_estacion_evaluacion_presidencia"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_gerente_credito"/> -->
+        </record>
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_evaluacion_gerente_a_devuelto_gerencia_a_requisitos">
+            <field name="act_from" ref="activity_estacion_evaluacion_gerente"/>
+            <field name="act_to" ref="activity_estatus_devuelto_gerencia_a_requisitos"/>
+            <field name="signal">button_devolver_requisitos</field>
+            <!-- <field name="group_id" ref="fomdes.group_gerente_credito"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_devuelto_gerencia_a_requisitos_a_devuelto_requisitos">
+            <field name="act_from" ref="activity_estatus_devuelto_gerencia_a_requisitos"/>
+            <field name="act_to" ref="activity_estatus_devuelto_requisitos"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_gerente_credito"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_devuelto_requisitos_a_estacion_consignacion_requisitos">
+            <field name="act_from" ref="activity_estatus_devuelto_requisitos"/>
+            <field name="act_to" ref="activity_estacion_consignacion_requisitos"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_gerente_credito"/> -->
+        </record>
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_evaluacion_gerente_a_devuelto_gerencia_a_control_previo">
+            <field name="act_from" ref="activity_estacion_evaluacion_gerente"/>
+            <field name="act_to" ref="activity_estatus_devuelto_gerencia_a_control_previo"/>
+            <field name="signal">button_devolver_control_previo</field>
+            <!-- <field name="group_id" ref="fomdes.group_gerente_credito"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_devuelto_gerencia_a_control_previo_a_devuelto_juridico">
+            <field name="act_from" ref="activity_estatus_devuelto_gerencia_a_control_previo"/>
+            <field name="act_to" ref="activity_estatus_devuelto_juridico"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_gerente_credito"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_devuelto_juridico_a_control_previo">
+            <field name="act_from" ref="activity_estatus_devuelto_juridico"/>
+            <field name="act_to" ref="activity_estacion_control_previo"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_gerente_credito"/> -->
+        </record>
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_evaluacion_gerente_a_devuelto_gerencia_a_avaluo">
+            <field name="act_from" ref="activity_estacion_evaluacion_gerente"/>
+            <field name="act_to" ref="activity_estatus_devuelto_gerencia_a_avaluo"/>
+            <field name="signal">button_devolver_inspeccion_avaluo</field>
+            <!-- <field name="group_id" ref="fomdes.group_gerente_credito"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_devuelto_gerencia_a_avaluo_a_devuelto_economico">
+            <field name="act_from" ref="activity_estatus_devuelto_gerencia_a_avaluo"/>
+            <field name="act_to" ref="activity_estatus_devuelto_economico"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_gerente_credito"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_devuelto_economico_a_inspeccion_avaluo">
+            <field name="act_from" ref="activity_estatus_devuelto_economico"/>
+            <field name="act_to" ref="activity_estacion_inspeccion_avaluo"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_gerente_credito"/> -->
+        </record>
+
+
+		<!-- Presidencia -->
+
+
+
+
+
 		<!-- Cambio de estacion (boton) -->
         <record model="workflow.transition" id="trans_evaluacion_presidencia_a_discusion_consejo">
             <field name="act_from" ref="activity_estacion_evaluacion_presidencia"/>
@@ -723,6 +889,22 @@
             <field name="act_to" ref="activity_estacion_consignacion_requisitos"/>
             <field name="signal">button_enviar_requisitos</field>
             <field name="group_id" ref="fomdes.group_analista_credito"/>
+        </record>
+
+        <!-- Cambio de estacion (boton) -->
+        <record model="workflow.transition" id="trans_control_previo_a_inspeccion_avaluo">
+            <field name="act_from" ref="activity_estacion_control_previo"/>
+            <field name="act_to" ref="activity_estacion_inspeccion_avaluo"/>
+            <field name="signal">button_enviar_inspeccion_avaluo</field>
+            <field name="group_id" ref="fomdes.group_analista_juridico"/>
+        </record>
+
+        <!-- Cambio de estacion (boton) -->
+        <record model="workflow.transition" id="trans_inspeccion_avaluo_a_evaluacion_gerente">
+            <field name="act_from" ref="activity_estacion_inspeccion_avaluo"/>
+            <field name="act_to" ref="activity_estacion_evaluacion_gerente"/>
+            <field name="signal">button_enviar_gerente_credito</field>
+            <field name="group_id" ref="fomdes.group_analista_economico"/>
         </record>
 
     </data>
