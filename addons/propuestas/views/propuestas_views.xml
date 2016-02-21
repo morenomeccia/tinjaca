@@ -126,7 +126,7 @@
                                     <field name="codigo_garantia" invisible="True"/>
                                     <field name="garantias_ids" atrrs="{'invisible': [('codigo_garantia', '=', 'Letra')]}"/> <!-- TODO No funciona! -->
                                     <field name="avalistas_ids" atrrs="{'invisible': [('codigo_garantia', '!=', 'Letra')]}"/> <!-- TODO No funciona! -->
-                                    <!-- <field name="referencias_avalista_ids"/> -->
+                                    <field name="referencias_avalista_ids" atrrs="{'invisible': [('codigo_garantia', '!=', 'Letra')]}"/> <!-- TODO No funciona! -->
                                 </group>
                             </page>
                             <page string="Referencias">
@@ -202,7 +202,6 @@
                             <field name="ingreso_mensual"/>
                             <field name="otros_ingresos"/>
                             <field name="total_ingresos"/>
-                            <field name="referencias_avalistas_ids"/>
                             <field name="cuentas_bancarias_avalista_ids"/>
                         </group>
                     </sheet>
@@ -458,7 +457,7 @@
                 <form string="Formulario Referencias del Avalista">
                     <sheet>
                         <group>
-                            <field name="avalistas_id"/>
+                            <field name="propuestas_id"/>
                             <field name="cedula"/>
                             <field name="nombres"/>
                             <field name="apellidos"/>
@@ -484,7 +483,7 @@
             <field name="model">propuestas.referencias_avalistas</field>
             <field name="arch" type="xml">
                 <tree string="Listado Referencias del Avalista">
-                    <field name="avalistas_id"/>
+                    <field name="propuestas_id"/>
                     <field name="cedula"/>
                     <field name="nombres"/>
                     <field name="apellidos"/>
@@ -551,21 +550,6 @@
                     <field name="nombres"/>
                     <field name="apellidos"/>
                     <field name="rif"/>
-                    <field name="fecha_nacimiento"/>
-                    <field name="edad"/>
-                    <field name="genero"/>
-                    <field name="direccion"/>
-                    <field name="municipio"/>
-                    <field name="parroquia"/>
-                    <field name="profesion_oficio"/>
-                    <field name="telefono_fijo"/>
-                    <field name="telefono_celular"/>
-                    <field name="email"/>
-                    <field name="cargo"/>
-                    <field name="ingreso_mensual"/>
-                    <field name="otros_ingresos"/>
-                    <field name="total_ingresos"/>
-                    <field name="referencias_avalistas_ids"/>
                     <field name="cuentas_bancarias_avalista_ids"/>
 		        </search>
 		    </field>
@@ -703,21 +687,11 @@
 		    <field name="model">propuestas.referencias_avalistas</field>
 		    <field name="arch" type="xml">
 		        <search>
-                    <field name="avalistas_id"/>
+                    <field name="propuestas_id"/>
                     <field name="cedula"/>
                     <field name="nombres"/>
                     <field name="apellidos"/>
                     <field name="rif"/>
-                    <field name="fecha_nacimiento"/>
-                    <field name="edad"/>
-                    <field name="genero"/>
-                    <field name="direccion"/>
-                    <field name="municipio"/>
-                    <field name="parroquia"/>
-                    <field name="profesion_oficio"/>
-                    <field name="telefono_fijo"/>
-                    <field name="telefono_celular"/>
-                    <field name="email"/>
 		        </search>
 		    </field>
 		</record>

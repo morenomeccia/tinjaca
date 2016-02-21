@@ -28,7 +28,7 @@ class Propuestas(models.Model):
     referencias_solicitante_ids = fields.One2many('propuestas.referencias_solicitante', 'propuestas_id', string="Referencias del Solicitante")
     garantias_ids = fields.One2many('propuestas.garantias', 'propuestas_id', string="Garantías")
     avalistas_ids = fields.One2many('propuestas.avalistas', 'propuestas_id', string="Avalista")
-    #referencias_avalista_ids = fields.One2many('propuestas.referencias_avalista', 'propuestas_id', string='Referencias del Avalista')
+    referencias_avalista_ids = fields.One2many('propuestas.referencias_avalistas', 'propuestas_id', string='Referencias del Avalista')
     inversiones_ids = fields.One2many('propuestas.inversiones', 'propuestas_id', string='Plan de Inversiones')
 
     inversion_total_propia = fields.Float(string='Inversión total propia') #TODO calculado!!!
