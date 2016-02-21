@@ -11,4 +11,4 @@ class RequisitosGarantia(models.Model):
     observaciones = fields.Char(string='Observaciones')
     valido = fields.Boolean(string='Valido')
 
-    garantia_id_solicitud = fields.Many2one(string='Garantia', related='solicitudes_id.garantia_id', readonly=True)
+    solicitudes_tipos_garantia_id = fields.Many2one(string='Garantia', related='solicitudes_id.propuestas_tipos_garantia_id', readonly=True)

@@ -84,9 +84,9 @@
                             <field name="nro_expediente"/>
                         </group>
                         <group>
-                            <field name="solicitantes_id_propuesta"/>
+                            <field name="propuestas_solicitantes_id"/>
                             <field name="sector_id"/>
-                            <field name="garantia_id"/>
+                            <field name="propuestas_tipos_garantia_id"/>
                             <field name="empresa_establecida"/>
                         </group>
                         <notebook>
@@ -175,7 +175,7 @@
             <field name="arch" type="xml">
                 <tree string="Listado Solicitudes">
                     <field name="nro_expediente"/>
-                    <field name="solicitantes_id_propuesta"/>
+                    <field name="propuestas_solicitantes_id"/>
                     <field name="state"/>
                 </tree>
             </field>
@@ -188,7 +188,7 @@
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="nro_expediente"/>
-                    <field name="solicitantes_id_propuesta"/>
+                    <field name="propuestas_solicitantes_id"/>
                     <group string="Estacion">
                         <filter name="filter_estacion_informacion" string="Informacion de Credito" domain="[('state', '=', 'estacion_1_analisis_credito')]" groups="fomdes.group_informacion_credito,fomdes.group_gerente_credito"/>
                         <filter name="filter_estacion_juridico" string="Analisis Juridico" domain="[('state', '=', 'estacion_2_analisis_juridico')]" groups="fomdes.group_analista_juridico,fomdes.group_gerente_credito"/>
@@ -254,8 +254,8 @@
                     <sheet>
                         <group>
                             <field name="solicitudes_id"/>
-                            <field name="garantia_id_solicitud" readonly="1"/>
-                            <field name="documentos_garantia_id" domain="[('garantia_id','=',garantia_id_solicitud)]"/>
+                            <field name="solicitudes_tipos_garantia_id" readonly="1"/>
+                            <field name="documentos_garantia_id" domain="[('tipos_garantia_id','=',solicitudes_tipos_garantia_id)]"/>
                             <field name="documento"/>
                             <field name="observaciones"/>
                             <field name="valido"/>
