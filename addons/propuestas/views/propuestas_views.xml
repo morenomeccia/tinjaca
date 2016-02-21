@@ -122,6 +122,7 @@
                             </page>
                             <page string="Garantia">
                                 <group>
+                                    <field name="tipos_garantia_id"/>
                                     <field name="garantias_ids"/>
                                     <field name="avalistas_ids"/>
                                     <!-- <field name="referencias_avalista_ids"/> -->

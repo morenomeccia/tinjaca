@@ -8,11 +8,10 @@ class Propuestas(models.Model):
     _rec_name = 'codigo_planilla'
 
     solicitantes_id = fields.Many2one('propuestas.solicitantes', string="Solicitante", required=True)
+    unidades_productivas_id = fields.Many2one('propuestas.unidades_productivas', string="Unidad Productiva")
 
     codigo_planilla = fields.Char(string="Codigo Planilla", required=True)
     fecha_recibida = fields.Date(string='Fecha de recepcion', default=fields.Date.today(), required=True)
-
-    unidades_productivas_id = fields.Many2one('propuestas.unidades_productivas', string="Unidad Productiva")
 
     producto_derivado = fields.Text(string='Productos derivados de la actividad')
     materia_prima = fields.Text(string='Materia prima a utilizar')
@@ -23,6 +22,7 @@ class Propuestas(models.Model):
     puestos_trabajo = fields.Integer(string='Puestos de trabajos que se van a generar')
     explicacion = fields.Text(string='Breve explicación de la propuesta emprendedora')
 
+    tipos_garantia_id = fields.Many2one('politicas.tipos_garantia', string="Tipo de Garantia")
     referencias_solicitante_ids = fields.One2many('propuestas.referencias_solicitante', 'propuestas_id', string="Referencias del Solicitante")
     garantias_ids = fields.One2many('propuestas.garantias', 'propuestas_id', string="Garantías")
     avalistas_ids = fields.One2many('propuestas.avalistas', 'propuestas_id', string="Avalista")
