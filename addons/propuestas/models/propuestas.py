@@ -23,6 +23,8 @@ class Propuestas(models.Model):
     explicacion = fields.Text(string='Breve explicación de la propuesta emprendedora')
 
     tipos_garantia_id = fields.Many2one('politicas.tipos_garantia', string="Tipo de Garantia")
+    codigo_garantia = fields.Char(related='tipos_garantia_id.codigo')
+
     referencias_solicitante_ids = fields.One2many('propuestas.referencias_solicitante', 'propuestas_id', string="Referencias del Solicitante")
     garantias_ids = fields.One2many('propuestas.garantias', 'propuestas_id', string="Garantías")
     avalistas_ids = fields.One2many('propuestas.avalistas', 'propuestas_id', string="Avalista")
@@ -33,14 +35,13 @@ class Propuestas(models.Model):
     inversion_total_fomdes = fields.Float(string='Inversión total fomdes') #TODO calculado!!!
     observaciones = fields.Text(string='Observaciones')
 
-    #cedula_solicitante = fields.Char(string='Cédula de Identidad', related='solicitantes_id.cedula', readonly=True)
+    talleres_ids = fields.Many2many('propuestas.talleres', string="Taller", relation='talleres_propuestas')
 
     state = fields.Selection(string='Estacion', selection=[('estacion_1_propuesta_recibida', 'Propuesta recibida'),
                                                            ('estacion_2_taller', 'Taller'),
                                                            ('estacion_3_creacion_expediente', 'Creacion de expediente')],
                                                            default='estacion_1_propuesta_recibida')
 
-    talleres_ids = fields.Many2many('propuestas.talleres', string="Taller", relation='talleres_propuestas')
 
     # Cambia a la estacion "Propuesta recibida"
     @api.one

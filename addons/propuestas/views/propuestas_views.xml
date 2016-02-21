@@ -123,8 +123,9 @@
                             <page string="Garantia">
                                 <group>
                                     <field name="tipos_garantia_id"/>
-                                    <field name="garantias_ids"/>
-                                    <field name="avalistas_ids"/>
+                                    <field name="codigo_garantia" invisible="True"/>
+                                    <field name="garantias_ids" atrrs="{'invisible': [('codigo_garantia', '=', 'Letra')]}"/> <!-- TODO No funciona! -->
+                                    <field name="avalistas_ids" atrrs="{'invisible': [('codigo_garantia', '!=', 'Letra')]}"/> <!-- TODO No funciona! -->
                                     <!-- <field name="referencias_avalista_ids"/> -->
                                 </group>
                             </page>
