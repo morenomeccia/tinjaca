@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+
+        <!-- Vista de formulario para el modelo de consejo directivo (herencia) -->
+        <record model="ir.ui.view" id="solicitudes_consejos_form_view">
+            <field name="name">formulario_solcitudes_consejo</field>
+            <field name="model">consejos.consejos</field>
+            <field name="inherit_id" ref="consejos.consejos_form_view"/>
+            <field name="arch" type="xml">
+                <!-- Agrega el campo solicitudes_ids a la vista ya existente -->
+                <notebook position="inside">
+                    <page string="Solicitudes">
+                        <group>
+                            <field name="solicitudes_ids"/>
+                        </group>
+                    </page>
+                </notebook>
+            </field>
+        </record>
+
+	</data>
+</openerp>
