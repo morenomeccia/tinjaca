@@ -1,0 +1,6 @@
+id,codigo,descripcion,habilitado
+
+"garantia_letra","Letra","Letra de cambio con aval",True
+"garantia_prenda","Prenda","Garantia prendaria sin desplazamiento de posicion",True
+"garantia_hipoteca","Hipoteca","Garantia hipotecaria",True
+"garantia_fianza","Fianza","Fianza financiera",True

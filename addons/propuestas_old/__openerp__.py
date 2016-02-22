@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Tinjaca - Propuestas",
+    'name': "Tinjaca - Propuestas OLD",
 
     'summary': """
         Este módulo abarca los procesos de Recepción de propuestas""",

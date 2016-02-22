@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import sectores
-import garantias
+import tipos_garantia
 import rubros
 import documentos_sector
 import documentos_garantia

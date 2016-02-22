@@ -7,10 +7,6 @@
             <field name="name">Informacion de Credito</field>
             <field name="category_id" ref="credito_category"/>
         </record>
-        <record id="group_analista_credito" model="res.groups">
-            <field name="name">Analista de Crédito 2</field>
-            <field name="category_id" ref="credito_category"/>
-        </record>
         <record id="group_analista_juridico" model="res.groups">
             <field name="name">Analista Jurídico</field>
             <field name="category_id" ref="credito_category"/>

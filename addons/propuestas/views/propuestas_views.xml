@@ -122,9 +122,11 @@
                             </page>
                             <page string="Garantia">
                                 <group>
-                                    <field name="garantias_ids"/>
-                                    <field name="avalistas_ids"/>
-                                    <!-- <field name="referencias_avalista_ids"/> -->
+                                    <field name="tipos_garantia_id"/>
+                                    <field name="codigo_garantia" invisible="True"/>
+                                    <field name="garantias_ids" atrrs="{'invisible': [('codigo_garantia', '=', 'Letra')]}"/> <!-- TODO No funciona! -->
+                                    <field name="avalistas_ids" atrrs="{'invisible': [('codigo_garantia', '!=', 'Letra')]}"/> <!-- TODO No funciona! -->
+                                    <field name="referencias_avalista_ids" atrrs="{'invisible': [('codigo_garantia', '!=', 'Letra')]}"/> <!-- TODO No funciona! -->
                                 </group>
                             </page>
                             <page string="Referencias">
@@ -200,7 +202,6 @@
                             <field name="ingreso_mensual"/>
                             <field name="otros_ingresos"/>
                             <field name="total_ingresos"/>
-                            <field name="referencias_avalistas_ids"/>
                             <field name="cuentas_bancarias_avalista_ids"/>
                         </group>
                     </sheet>
@@ -221,13 +222,13 @@
             </field>
         </record>
 
-        <!-- Vistas para Conyuge-->
+        <!-- Vistas para Conyuges-->
 
-        <record model="ir.ui.view" id="vista_formulario_conyuge">
-            <field name="name">conyuge.form</field>
-            <field name="model">propuestas.conyuge</field>
+        <record model="ir.ui.view" id="vista_formulario_conyuges">
+            <field name="name">conyuges.form</field>
+            <field name="model">propuestas.conyuges</field>
             <field name="arch" type="xml">
-                <form string="Formulario para Conyuge">
+                <form string="Formulario para Conyuges">
                     <sheet>
                         <group>
                             <field name="solicitantes_id"/>
@@ -251,11 +252,11 @@
             </field>
         </record>
 
-        <record model="ir.ui.view" id="vista_arbol_conyuge">
-            <field name="name">conyuge.tree</field>
-            <field name="model">propuestas.conyuge</field>
+        <record model="ir.ui.view" id="vista_arbol_conyuges">
+            <field name="name">conyuges.tree</field>
+            <field name="model">propuestas.conyuges</field>
             <field name="arch" type="xml">
-                <tree string="Listado Conyuge">
+                <tree string="Listado Conyuges">
                     <field name="solicitantes_id"/>
                     <field name="cedula"/>
                     <field name="nombres"/>
@@ -306,7 +307,7 @@
                     <sheet>
                         <group>
                             <field name="propuestas_id"/>
-                            <field name="garantia_id"/>
+                            <field name="tipos_garantia_id"/>
                             <field name="descripcion"/>
                             <field name="avaluo"/>
                         </group>
@@ -321,7 +322,7 @@
             <field name="arch" type="xml">
                 <tree string="Listado Garantias">
                     <field name="propuestas_id"/>
-                    <field name="garantia_id"/>
+                    <field name="tipos_garantia_id"/>
                     <field name="descripcion"/>
                 </tree>
             </field>
@@ -402,13 +403,13 @@
             </field>
         </record>
 
-        <!-- Vistas para Referencias Familiares-->
+        <!-- Vistas para Familiares-->
 
-        <record model="ir.ui.view" id="vista_formulario_referencias_familiares">
-            <field name="name">referencias_familiares.form</field>
-            <field name="model">propuestas.referencias_familiares</field>
+        <record model="ir.ui.view" id="vista_formulario_familiares">
+            <field name="name">familiares.form</field>
+            <field name="model">propuestas.familiares</field>
             <field name="arch" type="xml">
-                <form string="Formulario Referencias del Familiares">
+                <form string="Formulario Familiares">
                     <sheet>
                         <group>
                             <field name="solicitantes_id"/>
@@ -433,11 +434,11 @@
             </field>
         </record>
 
-        <record model="ir.ui.view" id="vista_arbol_referencias_familiares">
-            <field name="name">referencias_familiares.tree</field>
-            <field name="model">propuestas.referencias_familiares</field>
+        <record model="ir.ui.view" id="vista_arbol_familiares">
+            <field name="name">familiares.tree</field>
+            <field name="model">propuestas.familiares</field>
             <field name="arch" type="xml">
-                <tree string="Listado Referencias Familiares">
+                <tree string="Listado Familiares">
                     <field name="solicitantes_id"/>
                     <field name="cedula"/>
                     <field name="nombres"/>
@@ -456,7 +457,7 @@
                 <form string="Formulario Referencias del Avalista">
                     <sheet>
                         <group>
-                            <field name="avalistas_id"/>
+                            <field name="propuestas_id"/>
                             <field name="cedula"/>
                             <field name="nombres"/>
                             <field name="apellidos"/>
@@ -482,7 +483,7 @@
             <field name="model">propuestas.referencias_avalistas</field>
             <field name="arch" type="xml">
                 <tree string="Listado Referencias del Avalista">
-                    <field name="avalistas_id"/>
+                    <field name="propuestas_id"/>
                     <field name="cedula"/>
                     <field name="nombres"/>
                     <field name="apellidos"/>
@@ -549,31 +550,16 @@
                     <field name="nombres"/>
                     <field name="apellidos"/>
                     <field name="rif"/>
-                    <field name="fecha_nacimiento"/>
-                    <field name="edad"/>
-                    <field name="genero"/>
-                    <field name="direccion"/>
-                    <field name="municipio"/>
-                    <field name="parroquia"/>
-                    <field name="profesion_oficio"/>
-                    <field name="telefono_fijo"/>
-                    <field name="telefono_celular"/>
-                    <field name="email"/>
-                    <field name="cargo"/>
-                    <field name="ingreso_mensual"/>
-                    <field name="otros_ingresos"/>
-                    <field name="total_ingresos"/>
-                    <field name="referencias_avalistas_ids"/>
                     <field name="cuentas_bancarias_avalista_ids"/>
 		        </search>
 		    </field>
 		</record>
 
-        <!-- Caja de busqueda para Conyuge-->
+        <!-- Caja de busqueda para Conyuges-->
 
-		<record model="ir.ui.view" id="conyuge_search_view">
-		    <field name="name">Caja de busqueda conyuge</field>
-		    <field name="model">propuestas.conyuge</field>
+		<record model="ir.ui.view" id="conyuges_search_view">
+		    <field name="name">Caja de busqueda conyuges</field>
+		    <field name="model">propuestas.conyuges</field>
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="solicitantes_id"/>
@@ -618,7 +604,7 @@
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="propuestas_id"/>
-                    <field name="garantia_id"/>
+                    <field name="tipos_garantia_id"/>
                     <field name="descripcion"/>
                     <field name="avaluo"/>
 		        </search>
@@ -667,11 +653,11 @@
 		    </field>
 		</record>
 
-        <!-- Caja de busqueda para Referecias Familiares-->
+        <!-- Caja de busqueda para Familiares-->
 
-		<record model="ir.ui.view" id="referencias_familiares_search_view">
-		    <field name="name">Caja de busqueda referencias familiares</field>
-		    <field name="model">propuestas.referencias_familiares</field>
+		<record model="ir.ui.view" id="familiares_search_view">
+		    <field name="name">Caja de busqueda familiares</field>
+		    <field name="model">propuestas.familiares</field>
 		    <field name="arch" type="xml">
 		        <search>
                     <field name="solicitantes_id"/>
@@ -701,21 +687,11 @@
 		    <field name="model">propuestas.referencias_avalistas</field>
 		    <field name="arch" type="xml">
 		        <search>
-                    <field name="avalistas_id"/>
+                    <field name="propuestas_id"/>
                     <field name="cedula"/>
                     <field name="nombres"/>
                     <field name="apellidos"/>
                     <field name="rif"/>
-                    <field name="fecha_nacimiento"/>
-                    <field name="edad"/>
-                    <field name="genero"/>
-                    <field name="direccion"/>
-                    <field name="municipio"/>
-                    <field name="parroquia"/>
-                    <field name="profesion_oficio"/>
-                    <field name="telefono_fijo"/>
-                    <field name="telefono_celular"/>
-                    <field name="email"/>
 		        </search>
 		    </field>
 		</record>
@@ -770,11 +746,11 @@
             </field>
         </record>
 
-        <!-- Accion de ventana para Conyuge-->
+        <!-- Accion de ventana para Conyuges-->
 
-        <record model="ir.actions.act_window" id="accion_listar_conyuge">
-            <field name="name">Conyuge</field>
-            <field name="res_model">propuestas.conyuge</field>
+        <record model="ir.actions.act_window" id="accion_listar_conyuges">
+            <field name="name">Conyuges</field>
+            <field name="res_model">propuestas.conyuges</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -802,7 +778,7 @@
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
-                <p class="oe_view_nocontent_create">Crear garantias</p>
+                <p class="oe_view_nocontent_create">Crear garantia</p>
             </field>
         </record>
 
@@ -830,15 +806,15 @@
             </field>
         </record>
 
-        <!-- Accion de ventana para Referencias Familiares-->
+        <!-- Accion de ventana para Familiares-->
 
-        <record model="ir.actions.act_window" id="accion_listar_referencias_familiares">
-            <field name="name">Referencias Familiares</field>
-            <field name="res_model">propuestas.referencias_familiares</field>
+        <record model="ir.actions.act_window" id="accion_listar_familiares">
+            <field name="name">Familiares</field>
+            <field name="res_model">propuestas.familiares</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
-                <p class="oe_view_nocontent_create">Crear referencias familiares</p>
+                <p class="oe_view_nocontent_create">Crear familiar</p>
             </field>
         </record>
 
@@ -882,22 +858,22 @@
         <!-- Entrada de menu para el modelo de Solicitantes -->
         <menuitem id="solicitudes_lista_menu" name="Solicitantes" parent="solicitantes_menu" action="accion_listar_solicitantes"/>
         <!-- Entrada de menu para el modelo de Unidades Productivas-->
-        <menuitem id="referencias_familiares_lista_menu" name="Referencias Familiares" parent="solicitantes_menu" action="accion_listar_referencias_familiares"/>
-        <!-- Entrada de menu para el modelo de Conyuge-->
-        <menuitem id="conyuge_lista_menu" name="Conyuges" parent="solicitantes_menu" action="accion_listar_conyuge"/>
+        <menuitem id="familiares_lista_menu" name="Familiares" parent="solicitantes_menu" action="accion_listar_familiares"/>
+        <!-- Entrada de menu para el modelo de Conyuges-->
+        <menuitem id="conyuges_lista_menu" name="Conyuges" parent="solicitantes_menu" action="accion_listar_conyuges"/>
         <!-- Entrada de menu para el modelo de Referencias del Solicitante-->
         <menuitem id="referencias_solicitante_lista_menu" name="Referencias del Solicitante" parent="propuestas_menu" action="accion_listar_referencias_solicitante"/>
 
         <!-- Submenu para Garantias -->
         <menuitem id="garantias_menu" name="Garantias" parent="propuestas_main_menu"/>
         <!-- Entrada de menu para el modelo de Garantias-->
-        <menuitem id="garantias_lista_menu" name="Garantias" parent="propuestas_menu" action="accion_listar_garantias"/>
+        <menuitem id="garantias_lista_menu" name="Garantias" parent="garantias_menu" action="accion_listar_garantias"/>
         <!-- Entrada de menu para el modelo de Avalistas-->
-        <menuitem id="avalistas_lista_menu" name="Avalistas" parent="propuestas_menu" action="accion_listar_avalistas"/>
+        <menuitem id="avalistas_lista_menu" name="Avalistas" parent="garantias_menu" action="accion_listar_avalistas"/>
         <!-- Entrada de menu para el modelo de Cuentas Bancarias de Avalista-->
-        <menuitem id="cuentas_bancarias_avalista_lista_menu" name="Cuentas Bancarias de Avalista" parent="propuestas_menu" action="accion_listar_cuentas_bancarias_avalista"/>
+        <menuitem id="cuentas_bancarias_avalista_lista_menu" name="Cuentas Bancarias de Avalista" parent="garantias_menu" action="accion_listar_cuentas_bancarias_avalista"/>
         <!-- Entrada de menu para el modelo de Referencias del Avalista-->
-        <menuitem id="referencias_avalistas_lista_menu" name="Referencias del Avalista" parent="propuestas_menu" action="accion_listar_referencias_avalistas"/>
+        <menuitem id="referencias_avalistas_lista_menu" name="Referencias del Avalista" parent="garantias_menu" action="accion_listar_referencias_avalistas"/>
 
     </data>
 </openerp>

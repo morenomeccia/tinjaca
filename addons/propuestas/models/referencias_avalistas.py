@@ -8,7 +8,7 @@ class ReferenciasAvalistas(models.Model):
 
     _rec_name = 'cedula'
 
-    avalistas_id = fields.Many2one('propuestas.avalistas', string="Avalista")
+    propuestas_id = fields.Many2one('propuestas.propuestas', string="Propuesta")
 
     cedula = fields.Char(string='Cédula de Identidad', required=True)
     nombres = fields.Char(string='Nombres', required=True) # de partner_firstname

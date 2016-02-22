@@ -40,13 +40,13 @@
             </field>
         </record>
 
-        <!-- Vista de formulario para el modelo de garantias -->
+        <!-- Vista de formulario para el modelo de Tipos de garantia -->
 
-        <record id="garantias_view_form" model="ir.ui.view">
-            <field name="name">garantias.form</field>
-            <field name="model">politicas.garantias</field>
+        <record id="tipos_garantia_view_form" model="ir.ui.view">
+            <field name="name">tipos_garantia.form</field>
+            <field name="model">politicas.tipos_garantia</field>
             <field name="arch" type="xml">
-                <form string="Formulario Garantias">
+                <form string="Formulario Tipos Garantia">
                     <sheet>
                         <group>
                             <field name="codigo"/>
@@ -58,11 +58,11 @@
             </field>
         </record>
 
-        <record id="garantias_view_tree" model="ir.ui.view">
-            <field name="name">garantias.tree</field>
-            <field name="model">politicas.garantias</field>
+        <record id="tipos_garantia_view_tree" model="ir.ui.view">
+            <field name="name">tipos_garantia.tree</field>
+            <field name="model">politicas.tipos_garantia</field>
             <field name="arch" type="xml">
-                <tree string="Listado Garantias">
+                <tree string="Listado Tipos de Garantia">
                     <field name="codigo"/>
                     <field name="descripcion"/>
                     <field name="habilitado"/>
@@ -169,7 +169,7 @@
                         <group>
                             <field name="tipo_documento"/>
                             <field name="habilitado"/>
-                            <field name="garantia_id"/>
+                            <field name="tipos_garantia_id"/>
                         </group>
                     </sheet>
                 </form>
@@ -183,7 +183,7 @@
                 <tree string="Listado Documentos Garantia">
                     <field name="tipo_documento"/>
                     <field name="habilitado"/>
-                    <field name="garantia_id"/>
+                    <field name="tipos_garantia_id"/>
                 </tree>
             </field>
         </record>
@@ -200,15 +200,15 @@
             </field>
         </record>
 
-        <!-- Accion de ventana para el modelo de garantias -->
+        <!-- Accion de ventana para el modelo de Tipos de garantia -->
 
-        <record id="listar_garantias_action" model="ir.actions.act_window">
-            <field name="name">Garantias</field>
-            <field name="res_model">politicas.garantias</field>
+        <record id="listar_tipos_garantia_action" model="ir.actions.act_window">
+            <field name="name">Tipos de Garantia</field>
+            <field name="res_model">politicas.tipos_garantia</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
-                <p class="oe_view_nocontent_create">Crear Garantia</p>
+                <p class="oe_view_nocontent_create">Crear Tipo de Garantia</p>
             </field>
         </record>
 
@@ -261,21 +261,21 @@
         </record>
 
         <!-- top level menu: no parent -->
-        <menuitem id="politicas_menu" name="Politicas de Financiamiento" groups="fomdes.group_gerente_credito"/>
+        <menuitem id="politicas_main_menu" name="Politicas de Financiamiento" groups="fomdes.group_gerente_credito"/>
         <!-- Submenu para Politicas de Financiamiento -->
-        <menuitem id="politicas_financiamiento_menu" name="Politicas de Financiamiento" parent="politicas_menu"/>
+        <menuitem id="politicas_menu" name="Politicas de Financiamiento" parent="politicas_main_menu"/>
         <!-- Entrada de menu para el modelo de sectores -->
-        <menuitem id="sectores_lista_menu" name="Sectores" parent="politicas_financiamiento_menu" action="listar_sectores_action"/>
-        <!-- Entrada de menu para el modelo de garantias -->
-        <menuitem id="garantias_lista_menu" name="Garantias" parent="politicas_financiamiento_menu" action="listar_garantias_action"/>
+        <menuitem id="sectores_lista_menu" name="Sectores" parent="politicas_menu" action="listar_sectores_action"/>
+        <!-- Entrada de menu para el modelo de tipos de garantia -->
+        <menuitem id="tipos_garantia_lista_menu" name="Tipos de Garantia" parent="politicas_menu" action="listar_tipos_garantia_action"/>
         <!-- Entrada de menu para el modelo de documentos generales -->
-        <menuitem id="documentos_generales_lista_menu" name="Documentos Generales" parent="politicas_financiamiento_menu" action="listar_documentos_generales_action"/>
+        <menuitem id="documentos_generales_lista_menu" name="Documentos Generales" parent="politicas_menu" action="listar_documentos_generales_action"/>
         <!-- Entrada de menu para el modelo de documentos sector -->
-        <menuitem id="documentos_sector_lista_menu" name="Documentos Sector" parent="politicas_financiamiento_menu" action="listar_documentos_sector_action"/>
+        <menuitem id="documentos_sector_lista_menu" name="Documentos Sector" parent="politicas_menu" action="listar_documentos_sector_action"/>
         <!-- Entrada de menu para el modelo de documentos empresa -->
-        <menuitem id="documentos_empresa_lista_menu" name="Documentos Empresa" parent="politicas_financiamiento_menu" action="listar_documentos_empresa_action"/>
+        <menuitem id="documentos_empresa_lista_menu" name="Documentos Empresa" parent="politicas_menu" action="listar_documentos_empresa_action"/>
         <!-- Entrada de menu para el modelo de documentos garantia -->
-        <menuitem id="documentos_garantia_lista_menu" name="Documentos Garantia" parent="politicas_financiamiento_menu" action="listar_documentos_garantia_action"/>
+        <menuitem id="documentos_garantia_lista_menu" name="Documentos Garantia" parent="politicas_menu" action="listar_documentos_garantia_action"/>
     </data>
 </openerp>
 

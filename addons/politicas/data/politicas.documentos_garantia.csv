@@ -1,4 +1,4 @@
-id,tipo_documento,garantia_id,habilitado
+id,tipo_documento,tipos_garantia_id,habilitado
 
 "letra0","Cédula de identidad del avalista","Letra",True
 "letra1","Carta de residencia del avalista","Letra",True
