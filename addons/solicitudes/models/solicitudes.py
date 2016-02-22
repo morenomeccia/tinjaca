@@ -49,7 +49,9 @@ class Solicitudes(models.Model):
                                                                                       ('estatus_negado_gerencia', 'Negado'),
                                                                                       ('estatus_aprobado_gerencia', 'Aprobado'),
                                                                                       ('estatus_aprobado_cond_gerencia', 'Aprobado Condicionado'),
-                                                                                  ('estatus_devuelto', 'Devuelto')],
+                                                                                 	  ('estatus_devuelto_a_requisitos', 'Devuelto a requisitos'),
+																					  ('estatus_devuelto_a_control_previo', 'Devuelto a control previo'),
+																					  ('estatus_devuelto_a_avaluo', 'Devuelto a avaluo')],
                                                                                       default='estatus_evaluar')
 
     estatus_presidencia = fields.Selection(string='Estatus Presidencia', selection=[('estatus_decidir', 'Por decidir'),
@@ -299,10 +301,21 @@ class Solicitudes(models.Model):
     def action_estatus_aprobado_cond_gerencia(self):
         self.estatus_gerencia_credito = 'estatus_aprobado_cond_gerencia'
 
-    # Cambia al estatus "devuelto" (gerencia)
+    # Cambia al estatus "devuelto_a_requisitos" (gerencia) 
     @api.one
-    def action_estatus_devuelto_gerencia(self):
-        self.estatus_gerencia_credito = 'estatus_devuelto'
+    def action_devolver_gerencia_a_requisitos(self):
+        self.estatus_gerencia_credito = 'estatus_devuelto_a_requisitos'
+
+    # Cambia al estatus "devuelto_a_control_previo" (gerencia) 
+    @api.one
+    def action_devolver_gerencia_a_control_previo(self):
+        self.estatus_gerencia_credito = 'estatus_devuelto_a_control_previo'
+
+    # Cambia al estatus "devuelto_a_avaluo" (gerencia)
+    @api.one
+    def action_devolver_gerencia_a_avaluo(self):
+        self.estatus_gerencia_credito = 'estatus_devuelto_a_avaluo'
+
 
 
     # Cambia al estatus "Decidir" (presidencia)
