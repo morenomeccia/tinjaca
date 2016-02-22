@@ -311,7 +311,7 @@ class Solicitudes(models.Model):
     def action_devolver_gerencia_a_control_previo(self):
         self.estatus_gerencia_credito = 'estatus_devuelto_a_control_previo'
 
-    # Cambia al estatus "devuelto_a_avaluo" (gerencia) ******************************************************************
+    # Cambia al estatus "devuelto_a_avaluo" (gerencia)
     @api.one
     def action_devolver_gerencia_a_avaluo(self):
         self.estatus_gerencia_credito = 'estatus_devuelto_a_avaluo'
