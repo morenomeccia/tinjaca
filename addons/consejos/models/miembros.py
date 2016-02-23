@@ -26,7 +26,7 @@ class Miembros(models.Model):
     fecha_ingreso = fields.Date(string='Fecha de Ingreso')
     fecha_retiro = fields.Date(string='Fecha de Retiro')
 
-    consejos_ids = fields.Many2many('consejos.consejos', string="Consejos directivos", relation='consejos_miembros_rel')
+    consejos_ids = fields.Many2many('consejos.consejos', string="Consejos directivos", relation='consejos_consejos_miembros_rel')
 
 
 

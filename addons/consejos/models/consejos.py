@@ -11,5 +11,5 @@ class Consejos(models.Model):
     agenda = fields.Text(string='Agenda')
     minuta = fields.Text(string='Minuta')
 
-    miembros_ids = fields.Many2many('consejos.miembros', string="Miembros", relation='consejos_miembros_rel')
+    miembros_ids = fields.Many2many('consejos.miembros', string="Miembros", relation='consejos_consejos_miembros_rel')
 

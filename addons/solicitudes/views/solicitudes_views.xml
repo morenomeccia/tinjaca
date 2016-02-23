@@ -183,11 +183,11 @@
                                     <field name="aporte_social"/>
                                 </group>
                             </page>
-                            <!--<page string="Aprobacion" groups="fomdes.group_secretaria_ejecutiva">
+                            <page string="Aprobacion" groups="fomdes.group_secretaria_ejecutiva,fomdes.group_gerente_credito">
                                 <group>
                                     <field name="consejos_directivos_ids"/>
                                 </group>
-                            </page>-->
+                            </page>
                             <page string="Liquidacion" >
                                 <group>
                                     <!-- <field name="cuentas_cobrar_ids"/> -->
