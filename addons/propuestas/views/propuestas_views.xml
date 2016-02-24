@@ -844,7 +844,7 @@
 
 
         <!-- Menu Propuestas (top level menu: no parent) -->
-        <menuitem id="propuestas_main_menu" name="Propuestas"/>
+        <menuitem id="propuestas_main_menu" name="Propuestas" groups="fomdes.group_informacion_credito,fomdes.group_gerente_credito"/>
 
         <!-- Submenu para Propuestas -->
         <menuitem id="propuestas_menu" name="Propuestas" parent="propuestas_main_menu"/>
