@@ -501,17 +501,23 @@
                     <sheet>
                         <group>
                             <field name="solicitantes_id"/>
+                            <field name="empresa_establecida"/>
                             <field name="nombre"/>
-                            <field name="direccion"/>
-                            <field name="telefono_fijo"/>
-                            <field name="telefono_celular"/>
+                        </group>
+                        <group string="Actividades">
                             <field name="actividad"/>
                             <field name="experiencia"/>
                             <field name="area_geografica"/>
+                        </group>
+                        <group string="Area de funcionamiento">
+                            <field name="direccion"/>
+                            <field name="telefono"/>
                             <field name="espacio_funcionamiento"/>
                             <field name="situacion_propiedad"/>
                             <field name="area_m2"/>
                             <field name="zona_geografica"/>
+                        </group>
+                        <group string="Servicios">
                             <field name="servicio_electricidad"/>
                             <field name="servicio_agua"/>
                             <field name="servicio_telefono"/>
@@ -858,6 +864,8 @@
         <!-- Entrada de menu para el modelo de Solicitantes -->
         <menuitem id="solicitudes_lista_menu" name="Solicitantes" parent="solicitantes_menu" action="accion_listar_solicitantes"/>
         <!-- Entrada de menu para el modelo de Unidades Productivas-->
+        <menuitem id="unidades_productivas_lista_menu" name="Unidades Productivas" parent="solicitantes_menu" action="accion_listar_unidades_productivas"/>
+        <!-- Entrada de menu para el modelo de Familiares-->
         <menuitem id="familiares_lista_menu" name="Familiares" parent="solicitantes_menu" action="accion_listar_familiares"/>
         <!-- Entrada de menu para el modelo de Conyuges-->
         <menuitem id="conyuges_lista_menu" name="Conyuges" parent="solicitantes_menu" action="accion_listar_conyuges"/>
