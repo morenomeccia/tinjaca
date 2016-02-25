@@ -113,11 +113,11 @@
                     <sheet>
                         <group>
                             <field name="propuestas_id"/>
+                            <field name="sector_id"/>
                             <field name="nro_expediente"/>
                         </group>
                         <group>
                             <field name="propuestas_solicitantes_id"/>
-                            <field name="sector_id"/>
                             <field name="propuestas_tipos_garantia_id"/>
                             <field name="empresa_establecida"/>
                         </group>
@@ -469,7 +469,6 @@
 
 
 
-
         <!-- Accion de ventana para solicitudes -->
 
         <record model="ir.actions.act_window" id="accion_listar_solicitudes">
@@ -480,7 +479,7 @@
             <field name="help" type="html">
                 <p class="oe_view_nocontent_create">Crear solicitud</p>
             </field>
-            <field name="context">{'tree_view_ref':'vista_arbol_solicitudes'}</field>
+            <!-- <field name="context">{'tree_view_ref':'vista_arbol_solicitudes'}</field> -->
         </record>
 
         <!-- Accion de ventana para control previo -->

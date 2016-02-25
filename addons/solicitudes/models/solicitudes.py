@@ -7,17 +7,17 @@ class Solicitudes(models.Model):
 
     _rec_name = 'nro_expediente'
 
-    nro_expediente = fields.Char(string='Numero de expediente', required=True)
+    propuestas_id = fields.Many2one('propuestas.propuestas', string="Propuesta", required=True)
 
-    propuestas_id = fields.Many2one('propuestas.propuestas', string="Propuesta")
+    sector_id = fields.Many2one('politicas.sectores', string="Sector", required=True)
+    nro_expediente = fields.Char(string='Numero de expediente', required=True) #TODO calculado!!!
 
     # Campos provinientes de propuestas:
     propuestas_solicitantes_id = fields.Many2one(string='Solicitante', related='propuestas_id.solicitantes_id', readonly=True)
-    sector_id = fields.Many2one('politicas.sectores', string="Sector") #TODO related propuestas
     propuestas_tipos_garantia_id = fields.Many2one(related='propuestas_id.tipos_garantia_id', string="Tipo de Garantia")
     empresa_establecida = fields.Boolean(string='Empresa establecida?', default = False) #TODO related propuestas
 
-    # Campos para los montos y tasas sugeridas:
+    # Campos para los montos y tasas:
     monto_total = fields.Float(string='Monto total')
     plazo_pago = fields.Integer(string='Periodo de pago')
     periodos_gracia = fields.Integer(string='Periodo de gracia')
