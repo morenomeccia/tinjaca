@@ -93,6 +93,7 @@
                             <field name="fecha_recibida"/>
                             <field name="solicitantes_id"/>
                             <field name="unidades_productivas_id"/>
+                            <field name="up_empresa_establecida"/>
                         </group>
                         <notebook>
                             <page string="Actividad Productiva">
