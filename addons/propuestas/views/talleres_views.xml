@@ -42,7 +42,7 @@
         </record>
 
         <!-- Menu Talleres (top level menu: no parent) -->
-        <menuitem id="talleres_main_menu" name="Talleres"/>
+        <menuitem id="talleres_main_menu" name="Talleres" groups="fomdes.group_gerente_credito"/>
         <!-- Submenu para Talleres -->
         <menuitem id="talleres_menu" name="Talleres" parent="talleres_main_menu"/>
         <!-- Entrada de menu para el modelo de Talleres -->
