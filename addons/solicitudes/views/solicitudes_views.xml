@@ -119,7 +119,7 @@
                         <group>
                             <field name="propuestas_solicitantes_id"/>
                             <field name="propuestas_tipos_garantia_id"/>
-                            <field name="empresa_establecida"/>
+                            <field name="propuestas_empresa_establecida"/>
                         </group>
                         <notebook>
                             <page string="Requisitos">
@@ -148,7 +148,7 @@
                                     </field>
                                 </group>
                                 <group>
-                                    <field name="requisitos_empresa_id" attrs="{'invisible': [('empresa_establecida', '=', False)]}">
+                                    <field name="requisitos_empresa_id" attrs="{'invisible': [('propuestas_empresa_establecida', '=', False)]}">
                                         <tree>
                                             <field name="documentos_empresa_id"/>
                                             <field name="valido"/>
@@ -307,7 +307,7 @@
                     <sheet>
                         <group>
                             <field name="solicitudes_id"/>
-                            <field name="empresa_establecida_solicitud" readonly="1"/>
+                            <field name="solicitudes_empresa_establecida" readonly="1"/>
                             <field name="documentos_empresa_id"/>
                             <field name="documento"/>
                             <field name="observaciones"/>
@@ -538,7 +538,7 @@
         <!-- Submenu para Solicitudes -->
         <menuitem id="solicitudes_menu" name="Solicitudes" parent="solicitudes_main_menu" groups="fomdes.group_informacion_credito,fomdes.group_analista_juridico,fomdes.group_analista_economico,fomdes.group_gerente_credito"/>
         <!-- Entrada de menu para el modelo de Solicitudes -->
-        <menuitem id="solicitudes_lista_menu" name="Listar solicitudes" parent="solicitudes_menu" action="accion_listar_solicitudes"/>
+        <menuitem id="solicitudes_lista_menu" name="Solicitudes" parent="solicitudes_menu" action="accion_listar_solicitudes"/>
 
         <!-- Submenu para Analisis Juridico -->
         <menuitem id="analisis_juridico_menu" name="Analisis Juridico" parent="solicitudes_main_menu" groups="fomdes.group_analista_juridico"/>

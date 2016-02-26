@@ -15,7 +15,7 @@ class Solicitudes(models.Model):
     # Campos provinientes de propuestas:
     propuestas_solicitantes_id = fields.Many2one(string='Solicitante', related='propuestas_id.solicitantes_id', readonly=True)
     propuestas_tipos_garantia_id = fields.Many2one(related='propuestas_id.tipos_garantia_id', string="Tipo de Garantia")
-    empresa_establecida = fields.Boolean(string='Empresa establecida?', default = False) #TODO related propuestas
+    propuestas_empresa_establecida = fields.Boolean(related='propuestas_id.up_empresa_establecida', readonly=True)
 
     # Campos para los montos y tasas:
     monto_total = fields.Float(string='Monto total')
