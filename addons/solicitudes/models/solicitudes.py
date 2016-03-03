@@ -7,109 +7,18 @@ class Solicitudes(models.Model):
 
     _rec_name = 'nro_expediente'
 
-    nro_expediente = fields.Char(string='Numero de expediente', required=True)
+    propuestas_id = fields.Many2one('propuestas.propuestas', string="Propuesta", required=True)
 
-    state = fields.Selection(string='Estacion', selection=[('estacion_1_consignacion_requisitos', 'Consignacion de Requisitos'),
-                                                           ('estacion_2_control_previo', 'Control Previo'),
-                                                           ('estacion_3_inspeccion_avaluo', 'Inspeccion / Avaluo'),
-                                                           ('estacion_4_evaluacion_gerente', 'Evaluacion por Gerente'),
-                                                           ('estacion_5_evaluacion_presidencia', 'Evaluacion por Presidencia'),
-                                                           ('estacion_6_discusion_consejo', 'Discusion por Consejo'),
-                                                           ('estacion_7_creacion_documentos', 'Creacion Documentos'),
-                                                           ('estacion_8_liquidacion', 'Liquidacion'),
-                                                           ('estacion_9_acompanamiento', 'Acompanamiento'),
-                                                           ('estacion_10_recuperaciones', 'Recuperaciones'),
-                                                           ('estacion_11_consultoria_juridica', 'Consultoria Juridica'),
-                                                           ('estacion_12_archivo', 'Archivo')],
-                                                           default='estacion_1_consignacion_requisitos')
-
-
-
-    estatus_requisitos = fields.Selection(string='Estatus Requisitos', selection=[('estatus_asignar', 'Por asignar'),
-                                                                                  ('estatus_pendiente', 'Pendiente'),
-                                                                                  ('estatus_completo', 'Completo'),
-                                                                                  ('estatus_deficiente', 'Deficiente'),
-                                                                                  ('estatus_devuelto', 'Devuelto')],
-                                                                                  default='estatus_asignar')
-
-    estatus_juridico = fields.Selection(string='Estatus Juridico', selection=[('estatus_asignar', 'Por asignar'),
-                                                                      ('estatus_aceptado_juridico', 'Aceptado'),
-                                                                      ('estatus_rechazado_juridico', 'Rechazado'),
-                                                                      ('estatus_aceptado_cond_juridico', 'Aceptado condicionado'),                                                      ('estatus_devuelto', 'Devuelto')],
-                                                                       default='estatus_asignar')
-
-    estatus_economico = fields.Selection(string='Estatus Economico', selection=[('estatus_asignar', 'Por asignar'),
-                                                                                ('estatus_negado_economico', 'Negado'),
-                                                                                ('estatus_aprobado_economico', 'Aprobado'),
-                                                                                ('estatus_aprobado_cond_economico', 'Aprobado Condicionado'),
-                                                                                  ('estatus_devuelto', 'Devuelto')],
-                                                                                default='estatus_asignar')
-
-    estatus_gerencia_credito = fields.Selection(string='Estatus Gerencia', selection=[('estatus_evaluar', 'Por evaluar'),
-                                                                                      ('estatus_negado_gerencia', 'Negado'),
-                                                                                      ('estatus_aprobado_gerencia', 'Aprobado'),
-                                                                                      ('estatus_aprobado_cond_gerencia', 'Aprobado Condicionado'),
-                                                                                 	  ('estatus_devuelto_a_requisitos', 'Devuelto a requisitos'),
-																					  ('estatus_devuelto_a_control_previo', 'Devuelto a control previo'),
-																					  ('estatus_devuelto_a_avaluo', 'Devuelto a avaluo')],
-                                                                                      default='estatus_evaluar')
-
-    estatus_presidencia = fields.Selection(string='Estatus Presidencia', selection=[('estatus_decidir', 'Por decidir'),
-                                                                                    ('estatus_recomendado', 'Recomendado'),
-                                                                                    ('estatus_no_recomendado', 'No recomendado'),
-                                                                                    ('estatus_recomendado_cond', 'Recomendado Condicionado'),                                                                                  ('estatus_devuelto', 'Devuelto')],
-                                                                                    default='estatus_decidir')
-
-    estatus_consejo_directivo = fields.Selection(string='Estatus Consejo', selection=[('estatus_discutir', 'Por discutir'),
-                                                                                      ('estatus_negado_consejo', 'Negado'),
-                                                                                      ('estatus_aprobado_consejo', 'Aprobado'),
-                                                                                      ('estatus_aprobado_cond_consejo', 'Aprobado Condicionado'),
-                                                                                      ('estatus_diferido', 'Diferido'),                                                                          ('estatus_devuelto', 'Devuelto')],
-                                                                                      default='estatus_discutir')
-
-    estatus_secretaria = fields.Selection(string='Estatus Secretaria', selection=[('estatus_asignar', 'Por asignar'),
-                                                                                    ('estatus_entrego', 'Entrego'),                                                                       ('estatus_no_entrego', 'No entrego')],
-                                                                                      default='estatus_asignar')
-
-    estatus_liquidacion = fields.Selection(string='Estatus Liquidacion', selection=[('estatus_asignar', 'Por asignar'),
-                                                                                    ('estatus_liquidado', 'Liquidado'),                                                                       ('estatus_devuelto', 'Devuelto')],
-                                                                                      default='estatus_asignar')
-
-    estatus_acompanamiento = fields.Selection(string='Estatus Acompanamiento', selection=[('estatus_asignar', 'Por asignar'),
-                                                                                      ('estatus_invirtio', 'Invirtio'),
-                                                                                      ('estatus_no_invirtio', 'No invirtio'),                                                                           ('estatus_devuelto', 'Devuelto')],
-                                                                                      default='estatus_asignar')
-
-    estatus_recuperaciones = fields.Selection(string='Estatus recuperaciones', selection=[('estatus_asignar', 'Por asignar'),
-                                                                      ('estatus_caja', 'Caja'),
-                                                                      ('estatus_liberar', 'Liberar'),
-                                                                      ('estatus_demandar', 'Demandar'),
-                                                                      ('estatus_extrajudicial', 'Extrajudicial'),                                                     ('estatus_devuelto', 'Devuelto')],
-                                                                       default='estatus_asignar')
-
-    estatus_consultoria_juridica = fields.Selection(string='Estatus consultoria juridica', selection=[('estatus_asignar', 'Por asignar'),
-                                                                      ('estatus_liberado', 'Liberado'),
-                                                                      ('estatus_demandado', 'Demandado'),
-                                                                      ('estatus_reintegrado', 'Reintegrado'),
-                                                                      ('estatus_devuelto', 'Devuelto')],
-                                                                       default='estatus_asignar')
-
-    estatus_archivo = fields.Selection(string='Estatus archivo', selection=[('estatus_asignar', 'Por asignar'),
-                                                                      ('estatus_prestado', 'Prestado'),
-                                                                      ('estatus_archivado', 'Archivado'),
-                                                                      ('estatus_devuelto', 'Devuelto')],
-                                                                       default='estatus_asignar')
-
-    propuestas_id = fields.Many2one('propuestas.propuestas', string="Propuesta")
+    sector_id = fields.Many2one('politicas.sectores', string="Sector", required=True)
+    nro_expediente = fields.Char(string='Numero de expediente', required=True) #TODO calculado!!!
 
     # Campos provinientes de propuestas:
     propuestas_solicitantes_id = fields.Many2one(string='Solicitante', related='propuestas_id.solicitantes_id', readonly=True)
-    sector_id = fields.Many2one('politicas.sectores', string="Sector") #TODO related propuestas
     propuestas_tipos_garantia_id = fields.Many2one(related='propuestas_id.tipos_garantia_id', string="Tipo de Garantia")
-    empresa_establecida = fields.Boolean(string='Empresa establecida?', default = False) #TODO related propuestas
+    propuestas_empresa_establecida = fields.Boolean(related='propuestas_id.up_empresa_establecida', readonly=True)
 
-    # Campos para los montos y tasas sugeridas:
-    monto_total = fields.Float(string='Monto total') 
+    # Campos para los montos y tasas:
+    monto_total = fields.Float(string='Monto total')
     plazo_pago = fields.Integer(string='Periodo de pago')
     periodos_gracia = fields.Integer(string='Periodo de gracia')
     tasa_interes = fields.Float(string='Tasa de interes')
@@ -135,9 +44,118 @@ class Solicitudes(models.Model):
     avaluo_id = fields.One2many('solicitudes.avaluo', 'solicitudes_id', string="Avaluo")
     inspeccion_id = fields.One2many('solicitudes.inspecciones', 'solicitudes_id', string="Inspeccion")
     informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', 'solicitudes_id', string="Informe tecnico")
-    #consejos_directivos_ids = fields.Many2many('aprobacion.consejos', string="Consejo directivo")
+    consejos_directivos_ids = fields.Many2many('consejos.consejos', string="Consejo directivo", relation='consejos_consejos_solicitudes_rel')
     #cuentas_cobrar_ids = fields.One2many('administracion.cuentas_cobrar', string="Cuenta por cobrar") #Error!!!
     #cheques_ids = fields.One2many('administracion.cheques', 'solicitudes_id', string="Cuenta por cobrar") #Error!!!
+
+    state = fields.Selection(string='Estacion',
+                             selection=[('estacion_1_consignacion_requisitos', 'Consignacion de Requisitos'),
+                                        ('estacion_2_control_previo', 'Control Previo'),
+                                        ('estacion_3_inspeccion_avaluo', 'Inspeccion / Avaluo'),
+                                        ('estacion_4_evaluacion_gerente', 'Evaluacion por Gerente'),
+                                        ('estacion_5_evaluacion_presidencia', 'Evaluacion por Presidencia'),
+                                        ('estacion_6_discusion_consejo', 'Discusion por Consejo'),
+                                        ('estacion_7_creacion_documentos', 'Creacion Documentos'),
+                                        ('estacion_8_liquidacion', 'Liquidacion'),
+                                        ('estacion_9_acompanamiento', 'Acompanamiento'),
+                                        ('estacion_10_recuperaciones', 'Recuperaciones'),
+                                        ('estacion_11_consultoria_juridica', 'Consultoria Juridica'),
+                                        ('estacion_12_archivo', 'Archivo')],
+                             default='estacion_1_consignacion_requisitos')
+
+    estatus_requisitos = fields.Selection(string='Estatus Requisitos',
+                                          selection=[('estatus_asignar', 'Por asignar'),
+                                                     ('estatus_pendiente', 'Pendiente'),
+                                                     ('estatus_completo', 'Completo'),
+                                                     ('estatus_deficiente', 'Deficiente'),
+                                                     ('estatus_devuelto', 'Devuelto')],
+                                          default='estatus_asignar')
+
+    estatus_juridico = fields.Selection(string='Estatus Juridico',
+                                        selection=[('estatus_asignar', 'Por asignar'),
+                                                   ('estatus_aceptado_juridico', 'Aceptado'),
+                                                   ('estatus_rechazado_juridico', 'Rechazado'),
+                                                   ('estatus_aceptado_cond_juridico', 'Aceptado condicionado'),
+                                                   ('estatus_devuelto', 'Devuelto')],
+                                        default='estatus_asignar')
+
+    estatus_economico = fields.Selection(string='Estatus Economico',
+                                         selection=[('estatus_asignar', 'Por asignar'),
+                                                    ('estatus_negado_economico', 'Negado'),
+                                                    ('estatus_aprobado_economico', 'Aprobado'),
+                                                    ('estatus_aprobado_cond_economico', 'Aprobado Condicionado'),
+                                                    ('estatus_devuelto', 'Devuelto')],
+                                         default='estatus_asignar')
+
+    estatus_gerencia_credito = fields.Selection(string='Estatus Gerencia',
+                                                selection=[('estatus_evaluar', 'Por evaluar'),
+                                                           ('estatus_negado_gerencia', 'Negado'),
+                                                           ('estatus_aprobado_gerencia', 'Aprobado'),
+                                                           ('estatus_aprobado_cond_gerencia', 'Aprobado Condicionado'),
+                                                           ('estatus_devuelto_a_requisitos', 'Devuelto a requisitos'),
+                                                           ('estatus_devuelto_a_control_previo', 'Devuelto a control previo'),
+                                                           ('estatus_devuelto_a_avaluo', 'Devuelto a avaluo')],
+                                                default='estatus_evaluar')
+
+    estatus_presidencia = fields.Selection(string='Estatus Presidencia',
+                                           selection=[('estatus_decidir', 'Por decidir'),
+                                                      ('estatus_recomendado', 'Recomendado'),
+                                                      ('estatus_no_recomendado', 'No recomendado'),
+                                                      ('estatus_recomendado_cond', 'Recomendado Condicionado'),
+                                                      ('estatus_devuelto', 'Devuelto')],
+                                           default='estatus_decidir')
+
+    estatus_consejo_directivo = fields.Selection(string='Estatus Consejo',
+                                                 selection=[('estatus_discutir', 'Por discutir'),
+                                                            ('estatus_negado_consejo', 'Negado'),
+                                                            ('estatus_aprobado_consejo', 'Aprobado'),
+                                                            ('estatus_aprobado_cond_consejo', 'Aprobado Condicionado'),
+                                                            ('estatus_diferido', 'Diferido'),
+                                                            ('estatus_devuelto', 'Devuelto')],
+                                                 default='estatus_discutir')
+
+    estatus_secretaria = fields.Selection(string='Estatus Secretaria',
+                                          selection=[('estatus_asignar', 'Por asignar'),
+                                                     ('estatus_entrego', 'Entrego'),
+                                                     ('estatus_no_entrego', 'No entrego')],
+                                          default='estatus_asignar')
+
+    estatus_liquidacion = fields.Selection(string='Estatus Liquidacion',
+                                           selection=[('estatus_asignar', 'Por asignar'),
+                                                      ('estatus_liquidado', 'Liquidado'),
+                                                      ('estatus_devuelto', 'Devuelto')],
+                                           default='estatus_asignar')
+
+    estatus_acompanamiento = fields.Selection(string='Estatus Acompanamiento',
+                                              selection=[('estatus_asignar', 'Por asignar'),
+                                                         ('estatus_invirtio', 'Invirtio'),
+                                                         ('estatus_no_invirtio', 'No invirtio'),
+                                                         ('estatus_devuelto', 'Devuelto')],
+                                              default='estatus_asignar')
+
+    estatus_recuperaciones = fields.Selection(string='Estatus recuperaciones',
+                                              selection=[('estatus_asignar', 'Por asignar'),
+                                                         ('estatus_caja', 'Caja'),
+                                                         ('estatus_liberar', 'Liberar'),
+                                                         ('estatus_demandar', 'Demandar'),
+                                                         ('estatus_extrajudicial', 'Extrajudicial'),
+                                                         ('estatus_devuelto', 'Devuelto')],
+                                              default='estatus_asignar')
+
+    estatus_consultoria_juridica = fields.Selection(string='Estatus consultoria juridica',
+                                                    selection=[('estatus_asignar', 'Por asignar'),
+                                                               ('estatus_liberado', 'Liberado'),
+                                                               ('estatus_demandado', 'Demandado'),
+                                                               ('estatus_reintegrado', 'Reintegrado'),
+                                                               ('estatus_devuelto', 'Devuelto')],
+                                                    default='estatus_asignar')
+
+    estatus_archivo = fields.Selection(string='Estatus archivo',
+                                       selection=[('estatus_asignar', 'Por asignar'),
+                                                  ('estatus_prestado', 'Prestado'),
+                                                  ('estatus_archivado', 'Archivado'),
+                                                  ('estatus_devuelto', 'Devuelto')],
+                                       default='estatus_asignar')
 
     # Cambia a la estacion "Consignar Requisitos"
     @api.one
@@ -511,6 +529,8 @@ class Solicitudes(models.Model):
     def action_estatus_devolver_archivo(self):
         self.estatus_consultoria_juridica = 'estatus_devuelto'
 
+
+
     # display_name = fields.Char(
     #     string='Número de expediente', compute='_compute_display_name',
     # )
@@ -520,39 +540,3 @@ class Solicitudes(models.Model):
     # def _compute_display_name(self):
     #     self.display_name = self.nro_expediente
 
-    #grupo_actual = fields.Char(string="Usuario Actual", comodel_name='res.users', default = lambda self: self.env.user.name)
-    #grupo_actual = fields.Char(string="Usuario Actual", comodel_name='res.groups', default = lambda self: self.env.user.)
-    #grupo_responsable = fields.Selection(string='Usuario responsable', selection=[('group_analista_credito', 'Analista de credito'),('group_analista_juridico', 'Analista juridico'),('group_analista_economico', 'Analista Economico'),('group_gerente_credito', 'Gerente de credito'),('group_secretaria_ejecutiva', 'Secretaria Ejecutiva')],default='fomdes.group_analista_credito')
-
-    """
-    grupo_actual = fields.Char(compute='_compute_grupo')
-
-    # Returns group id of current user
-    def _compute_grupo(self, cr, uid, *args):
-        user_obj = self.pool.get('res.users')
-        #grupo_actual = user_obj.browse(cr, uid, uid)['groups_id']
-        grupo_actual = read(cr, uid, [uid], context)[0]['groups_id']
-        return grupo_actual or False
-
-    # Returns id of current user
-    def _compute_grupo(self, cr, uid, *args):
-        user_obj = self.pool.get('res.users')
-        user_value = user_obj.browse(cr, uid, uid)
-        return user_value.login or False
-    """
-
-    """
-    @api.one
-    def action_secretaria_rechazar(self, cr, uid, ids, context=None):
-        if not len(ids):
-            return False
-        self.write(cr, uid, ids, {'state':'draft','shipped':0})
-        wf_service = netsvc.LocalService("workflow")
-        for p_id in ids:
-            # Deleting the existing instance of workflow
-            wf_service.trg_delete(uid, 'solicitudes', p_id, cr)
-            wf_service.trg_create(uid, 'solicitudes', p_id, cr)
-        self.state = 'estacion_4_gerencia_credito'
-        self.estatus_consejo_directivo = 'estatus_rechazado'
-        return True
-    """

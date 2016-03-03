@@ -12,8 +12,8 @@ class Creditos(models.Model):
     cedula_solicitante = fields.Char(string='Cédula Solicitante',
                                      related='solicitudes_id.propuestas_id.cedula_solicitante')
     # caja_id = fields.Many2one('caja.cajas', string='Numero de expediente', required=True) # !!! Obtenido del usuario?
-    solicitantes_id_propuesta = fields.Many2one(string='Solicitante',
-                                            related='solicitudes_id.solicitantes_id_propuesta',
+    solicitudes_solicitantes_id = fields.Many2one(string='Solicitante',
+                                            related='solicitudes_id.propuestas_solicitantes_id',
                                             readonly=True)
     # Campos para los montos y tasas sugeridas:
     monto_total = fields.Float(string='Monto total',

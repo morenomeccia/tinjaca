@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_consejos_secretaria_ejecutiva,consejos.consejos,model_consejos_consejos,fomdes.group_secretaria_ejecutiva,1,1,1,1
+access_consejos_gerente_credito,consejos.consejos,model_consejos_consejos,fomdes.group_gerente_credito,1,0,0,0
+access_consejos_presidente,consejos.consejos,model_consejos_consejos,fomdes.group_presidente,1,0,0,0
+
+access_miembros_secretaria_ejecutiva,consejos.miembros,model_consejos_miembros,fomdes.group_secretaria_ejecutiva,1,0,0,0
+access_miembros_presidente,consejos.miembros,model_consejos_miembros,fomdes.group_presidente,1,0,0,0
+access_miembros_gerente_credito,consejos.miembros,model_consejos_miembros,fomdes.group_gerente_credito,1,0,0,0
+

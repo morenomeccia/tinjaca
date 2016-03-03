@@ -973,7 +973,7 @@
             <field name="act_from" ref="activity_estacion_control_previo"/>
             <field name="act_to" ref="activity_estacion_consignacion_requisitos"/>
             <field name="signal">button_enviar_requisitos</field>
-            <field name="group_id" ref="fomdes.group_analista_credito"/>
+            <field name="group_id" ref="fomdes.group_analista_juridico"/>
         </record>
 
         <!-- Cambio de estacion (boton) -->
