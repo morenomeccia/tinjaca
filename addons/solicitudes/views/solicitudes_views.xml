@@ -87,13 +87,16 @@
                                 string="Diferir" states="estacion_6_discusion_consejo"
                                 class="oe_highlight"/>
 
-
-
-
-
-                        <button name="button_enviar_liquidacion" type="workflow"
-                                string="Enviar a liquidacion" states="estacion_7_creacion_documentos"
+                        <button name="button_entrego_secretaria" type="workflow"
+                                string="Documento de credito entregado" states="estacion_7_creacion_documentos"
                                 class="oe_highlight"/>
+                        <button name="button_no_entrego_secretaria" type="workflow"
+                                string="Documento de credito no entregado" states="estacion_7_creacion_documentos"
+                                class="oe_highlight"/>
+
+
+
+
                         <button name="button_enviar_acompanamiento" type="workflow"
                                 string="Enviar a acompanamiento" states="estacion_8_liquidacion"
                                 class="oe_highlight"/>

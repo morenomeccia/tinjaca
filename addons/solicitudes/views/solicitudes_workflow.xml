@@ -878,6 +878,50 @@
             <!-- <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/> -->
         </record>
 
+		<!-- Secretaria ejecutiva -->
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_creacion_documentos_a_entrego_secretaria">
+            <field name="act_from" ref="activity_estacion_creacion_documentos"/>
+            <field name="act_to" ref="activity_estatus_entrego_secretaria"/>
+            <field name="signal">button_entrego_secretaria</field>
+            <!-- <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_entrego_secretaria_a_liquidacion">
+            <field name="act_from" ref="activity_estatus_entrego_secretaria"/>
+            <field name="act_to" ref="activity_estacion_liquidacion"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/> -->
+        </record>
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_creacion_documentos_a_no_entrego_secretaria">
+            <field name="act_from" ref="activity_estacion_creacion_documentos"/>
+            <field name="act_to" ref="activity_estatus_no_entrego_secretaria"/>
+            <field name="signal">button_no_entrego_secretaria</field>
+            <!-- <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_no_entrego_secretaria_a_estacion_archivo">
+            <field name="act_from" ref="activity_estatus_no_entrego_secretaria"/>
+            <field name="act_to" ref="activity_estacion_archivo"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/> -->
+        </record>
+
+		<!-- Administracion -->
+
+
+
+
+
+
+
+
+
 
 
 
