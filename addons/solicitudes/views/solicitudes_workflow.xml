@@ -886,13 +886,9 @@
 
 
 
-        <!-- Cambio de estacion (boton) -->
-        <record model="workflow.transition" id="trans_creacion_documentos_a_liquidacion">
-            <field name="act_from" ref="activity_estacion_creacion_documentos"/>
-            <field name="act_to" ref="activity_estacion_liquidacion"/>
-            <field name="signal">button_enviar_liquidacion</field>
-            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
-        </record>
+
+
+
         <!-- Cambio de estatus (boton) -->
         <record model="workflow.transition" id="trans_liquidacion_a_liquidado">
             <field name="act_from" ref="activity_estacion_liquidacion"/>
@@ -998,6 +994,14 @@
             <field name="act_to" ref="activity_estacion_discusion_consejo"/>
             <field name="signal">button_recomendar_presidente</field>
             <field name="group_id" ref="fomdes.group_presidente"/>
+        </record>
+
+        <!-- Cambio de estacion (boton) -->
+        <record model="workflow.transition" id="trans_creacion_documentos_a_liquidacion">
+            <field name="act_from" ref="activity_estacion_creacion_documentos"/>
+            <field name="act_to" ref="activity_estacion_liquidacion"/>
+            <field name="signal">button_enviar_liquidacion</field>
+            <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
         </record>
 
     </data>
