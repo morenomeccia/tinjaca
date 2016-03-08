@@ -108,16 +108,15 @@
                                 string="Credito no invertido" states="estacion_9_acompanamiento"
                                 class="oe_highlight"/>
 
-
-
-
-
                         <button name="button_enviar_a_liberar" type="workflow"
                                 string="Enviar a liberacion" states="estacion_10_recuperaciones"
                                 class="oe_highlight"/>
                         <button name="button_enviar_a_demanda" type="workflow"
                                 string="Enviar a demanda" states="estacion_10_recuperaciones"
                                 class="oe_highlight"/>
+
+
+
                         <button name="button_enviar_a_archivo" type="workflow"
                                 string="Enviar a archivo" states="estacion_11_consultoria_juridica"
                                 class="oe_highlight"/>

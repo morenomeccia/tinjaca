@@ -980,50 +980,46 @@
             <!-- <field name="group_id" ref="fomdes.group_acompanamiento"/> -->
         </record>
 
-		<!-- Recuperacion -->
+		<!-- Recuperaciones -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- Cambio de estatus (boton) -->
-        <record model="workflow.transition" id="trans_recuperaciones_a_liberar">
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_estacion_recuperaciones_a_estatus_liberar">
             <field name="act_from" ref="activity_estacion_recuperaciones"/>
             <field name="act_to" ref="activity_estatus_liberar_recuperaciones"/>
             <field name="signal">button_enviar_a_liberar</field>
             <!-- <field name="group_id" ref="fomdes.group_recuperaciones"/> -->
         </record>
+
         <!-- Cambio de estacion (auto)" -->
-        <record model="workflow.transition" id="trans_liberar_a_consultoria">
-            <field name="act_from" ref="activity_estatus_liberar_consultoria"/>
+        <record model="workflow.transition" id="trans_estatus_liberar_a_estacion_consultoria">
+            <field name="act_from" ref="activity_estatus_liberar_recuperaciones"/>
             <field name="act_to" ref="activity_estacion_consultoria"/>
             <field name="condition">True</field>
-            <!-- <field name="group_id" ref="fomdes.group_acompanamiento"/> -->
+            <!-- <field name="group_id" ref="fomdes.group_recuperaciones"/> -->
         </record>
-        <!-- Cambio de estatus (boton) -->
-        <record model="workflow.transition" id="trans_recuperaciones_a_demanda">
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_estacion_recuperaciones_a_estatus_demandar">
             <field name="act_from" ref="activity_estacion_recuperaciones"/>
             <field name="act_to" ref="activity_estatus_demandar_recuperaciones"/>
             <field name="signal">button_enviar_a_demanda</field>
             <!-- <field name="group_id" ref="fomdes.group_recuperaciones"/> -->
         </record>
+
         <!-- Cambio de estacion (auto)" -->
-        <record model="workflow.transition" id="trans_demandar_a_consultoria">
-            <field name="act_from" ref="activity_estatus_demandar_consultoria"/>
+        <record model="workflow.transition" id="trans_estatus_demandar_a_estacion_consultoria">
+            <field name="act_from" ref="activity_estatus_demandar_recuperaciones"/>
             <field name="act_to" ref="activity_estacion_consultoria"/>
             <field name="condition">True</field>
-            <!-- <field name="group_id" ref="fomdes.group_acompanamiento"/> -->
+            <!-- <field name="group_id" ref="fomdes.group_recuperaciones"/> -->
         </record>
+
+
+
+
+
+
+
         <!-- Cambio de estacion (boton) -->
         <record model="workflow.transition" id="trans_consultoria_a_archivo">
             <field name="act_from" ref="activity_estacion_consultoria"/>
