@@ -94,12 +94,17 @@
                                 string="Documento de credito no entregado" states="estacion_7_creacion_documentos"
                                 class="oe_highlight"/>
 
-
-
-
-                        <button name="button_enviar_acompanamiento" type="workflow"
-                                string="Enviar a acompanamiento" states="estacion_8_liquidacion"
+                        <button name="button_cheque_entregado" type="workflow"
+                                string="Cheque entregado" states="estacion_8_liquidacion"
                                 class="oe_highlight"/>
+                        <button name="button_devolver_administracion" type="workflow"
+                                string="Devolver" states="estacion_8_liquidacion"
+                                class="oe_highlight"/>
+
+
+
+
+
                         <button name="button_enviar_recuperaciones" type="workflow"
                                 string="Enviar a recuperaciones" states="estacion_9_acompanamiento"
                                 class="oe_highlight"/>

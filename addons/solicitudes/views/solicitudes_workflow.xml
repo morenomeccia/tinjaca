@@ -305,7 +305,7 @@
             <field name="kind">function</field>
             <field name="action">action_estatus_asignar_administracion()</field>
         </record>
-        <record model="workflow.activity" id="activity_estatus_liquidar_administracion">
+        <record model="workflow.activity" id="activity_estatus_entregado_administracion">
             <field name="name">Liquidar (Administracion)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
@@ -914,39 +914,58 @@
 
 		<!-- Administracion -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- Cambio de estatus (boton) -->
-        <record model="workflow.transition" id="trans_liquidacion_a_liquidado">
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_liquidacion_a_estatus_entregado">
             <field name="act_from" ref="activity_estacion_liquidacion"/>
-            <field name="act_to" ref="activity_estatus_liquidar_administracion"/>
-            <field name="signal">button_enviar_acompanamiento</field>
+            <field name="act_to" ref="activity_estatus_entregado_administracion"/>
+            <field name="signal">button_cheque_entregado</field>
             <!-- <field name="group_id" ref="fomdes.group_administracion"/> -->
         </record>
+
         <!-- Cambio de estacion (auto)" -->
-        <record model="workflow.transition" id="trans_liquidado_a_acompanamiento">
-            <field name="act_from" ref="activity_estatus_liquidar_administracion"/>
+        <record model="workflow.transition" id="trans_estatus_entregado_a_acompanamiento">
+            <field name="act_from" ref="activity_estatus_entregado_administracion"/>
             <field name="act_to" ref="activity_estacion_acompanamiento"/>
             <field name="condition">True</field>
             <!-- <field name="group_id" ref="fomdes.group_administracion"/> -->
         </record>
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_liquidacion_a_devolver_administracion">
+            <field name="act_from" ref="activity_estacion_liquidacion"/>
+            <field name="act_to" ref="activity_estatus_devolver_administracion"/>
+            <field name="signal">button_devolver_administracion</field>
+            <!-- <field name="group_id" ref="fomdes.group_administracion"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_devolver_administracion_a_archivo">
+            <field name="act_from" ref="activity_estatus_devolver_administracion"/>
+            <field name="act_to" ref="activity_estacion_archivo"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_administracion"/> -->
+        </record>
+
+		<!-- Acompanamiento -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- Cambio de estatus (boton) -->
         <record model="workflow.transition" id="trans_acompanamiento_a_invirtio">
             <field name="act_from" ref="activity_estacion_acompanamiento"/>
