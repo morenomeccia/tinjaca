@@ -948,38 +948,54 @@
 
 		<!-- Acompanamiento -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- Cambio de estatus (boton) -->
-        <record model="workflow.transition" id="trans_acompanamiento_a_invirtio">
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_estacion_acompanamiento_a_estatus_invirtio">
             <field name="act_from" ref="activity_estacion_acompanamiento"/>
             <field name="act_to" ref="activity_estatus_invirtio_acompanamiento"/>
-            <field name="signal">button_enviar_recuperaciones</field>
+            <field name="signal">button_invirtio_acompanamiento</field>
             <!-- <field name="group_id" ref="fomdes.group_acompanamiento"/> -->
         </record>
+
         <!-- Cambio de estacion (auto)" -->
-        <record model="workflow.transition" id="trans_invirtio_a_recuperaciones">
+        <record model="workflow.transition" id="trans_estatus_invirtio_a_estacion_recuperaciones">
             <field name="act_from" ref="activity_estatus_invirtio_acompanamiento"/>
             <field name="act_to" ref="activity_estacion_recuperaciones"/>
             <field name="condition">True</field>
             <!-- <field name="group_id" ref="fomdes.group_acompanamiento"/> -->
         </record>
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_estacion_acompanamiento_a_estatus_no_invirtio">
+            <field name="act_from" ref="activity_estacion_acompanamiento"/>
+            <field name="act_to" ref="activity_estatus_no_invirtio_acompanamiento"/>
+            <field name="signal">button_no_invirtio_acompanamiento</field>
+            <!-- <field name="group_id" ref="fomdes.group_acompanamiento"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_estatus_no_invirtio_a_estacion_consultoria">
+            <field name="act_from" ref="activity_estatus_no_invirtio_acompanamiento"/>
+            <field name="act_to" ref="activity_estacion_consultoria"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_acompanamiento"/> -->
+        </record>
+
+		<!-- Recuperacion -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- Cambio de estatus (boton) -->
         <record model="workflow.transition" id="trans_recuperaciones_a_liberar">
             <field name="act_from" ref="activity_estacion_recuperaciones"/>
@@ -1066,6 +1082,21 @@
             <field name="signal">button_enviar_liquidacion</field>
             <field name="group_id" ref="fomdes.group_secretaria_ejecutiva"/>
         </record>
+        <!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_acompanamiento_a_invirtio">
+            <field name="act_from" ref="activity_estacion_acompanamiento"/>
+            <field name="act_to" ref="activity_estatus_invirtio_acompanamiento"/>
+            <field name="signal">button_enviar_recuperaciones</field>
+            <!-- <field name="group_id" ref="fomdes.group_acompanamiento"/> -->
+        </record>
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_invirtio_a_recuperaciones">
+            <field name="act_from" ref="activity_estatus_invirtio_acompanamiento"/>
+            <field name="act_to" ref="activity_estacion_recuperaciones"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_acompanamiento"/> -->
+        </record>
+
 
     </data>
 </openerp>
