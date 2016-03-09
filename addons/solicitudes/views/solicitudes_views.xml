@@ -115,11 +115,16 @@
                                 string="Enviar a demanda" states="estacion_10_recuperaciones"
                                 class="oe_highlight"/>
 
-
-
-                        <button name="button_enviar_a_archivo" type="workflow"
-                                string="Enviar a archivo" states="estacion_11_consultoria_juridica"
+                        <button name="button_liberar_consultoria" type="workflow"
+                                string="Credito liberado" states="estacion_11_consultoria_juridica"
                                 class="oe_highlight"/>
+                        <button name="button_demandar_consultoria" type="workflow"
+                                string="Demanda ejecutada" states="estacion_11_consultoria_juridica"
+                                class="oe_highlight"/>
+                        <button name="button_reintegrar_consultoria" type="workflow"
+                                string="Credito Reintegrado" states="estacion_11_consultoria_juridica"
+                                class="oe_highlight"/>
+
                     </header>
                     <sheet>
                         <group>

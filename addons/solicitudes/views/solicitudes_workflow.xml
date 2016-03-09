@@ -410,19 +410,19 @@
             <field name="kind">function</field>
             <field name="action">action_estatus_asignar_consultoria()</field>
         </record>
-        <record model="workflow.activity" id="activity_estatus_liberar_consultoria">
+        <record model="workflow.activity" id="activity_estatus_liberado_consultoria">
             <field name="name">Liberar (Consultoria)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estatus_liberar_consultoria()</field>
         </record>
-        <record model="workflow.activity" id="activity_estatus_demandar_consultoria">
+        <record model="workflow.activity" id="activity_estatus_demandado_consultoria">
             <field name="name">Demandar (Consultoria)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
             <field name="action">action_estatus_demandar_consultoria()</field>
         </record>
-        <record model="workflow.activity" id="activity_estatus_reintegrar_consultoria">
+        <record model="workflow.activity" id="activity_estatus_reintegrado_consultoria">
             <field name="name">Reintegrar (Consultoria)</field>
             <field name="wkf_id" ref="wkf_solicitudes"/>
             <field name="kind">function</field>
@@ -1013,6 +1013,76 @@
             <field name="condition">True</field>
             <!-- <field name="group_id" ref="fomdes.group_recuperaciones"/> -->
         </record>
+
+		<!-- Consultoria juridica -->
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_estacion_consultoria_a_liberado_consultoria">
+            <field name="act_from" ref="activity_estacion_consultoria"/>
+            <field name="act_to" ref="activity_estatus_liberado_consultoria"/>
+            <field name="signal">button_liberar_consultoria</field>
+            <!-- <field name="group_id" ref="fomdes.group_consultoria"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_liberado_consultoria_a_estacion_archivo">
+            <field name="act_from" ref="activity_estatus_liberado_consultoria"/>
+            <field name="act_to" ref="activity_estacion_archivo"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_consultoria"/> -->
+        </record>
+
+        <record model="workflow.transition" id="trans_estacion_consultoria_a_demandado_consultoria">
+            <field name="act_from" ref="activity_estacion_consultoria"/>
+            <field name="act_to" ref="activity_estatus_demandado_consultoria"/>
+            <field name="signal">button_demandar_consultoria</field>
+            <!-- <field name="group_id" ref="fomdes.group_consultoria"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_demandado_consultoria_a_estacion_archivo">
+            <field name="act_from" ref="activity_estatus_demandado_consultoria"/>
+            <field name="act_to" ref="activity_estacion_archivo"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_consultoria"/> -->
+        </record>
+
+		<!-- Cambio de estatus (boton) -->
+        <record model="workflow.transition" id="trans_estacion_consultoria_a_reintegrado_consultoria">
+            <field name="act_from" ref="activity_estacion_consultoria"/>
+            <field name="act_to" ref="activity_estatus_reintegrado_consultoria"/>
+            <field name="signal">button_reintegrar_consultoria</field>
+            <!-- <field name="group_id" ref="fomdes.group_consultoria"/> -->
+        </record>
+
+        <!-- Cambio de estacion (auto)" -->
+        <record model="workflow.transition" id="trans_reintegrado_consultoria_a_estacion_archivo">
+            <field name="act_from" ref="activity_estatus_reintegrado_consultoria"/>
+            <field name="act_to" ref="activity_estacion_archivo"/>
+            <field name="condition">True</field>
+            <!-- <field name="group_id" ref="fomdes.group_consultoria"/> -->
+        </record>
+
+		<!-- Archivo -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
