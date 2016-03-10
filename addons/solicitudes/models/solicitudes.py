@@ -151,10 +151,10 @@ class Solicitudes(models.Model):
                                                     default='estatus_asignar')
 
     estatus_archivo = fields.Selection(string='Estatus archivo',
-                                       selection=[('estatus_asignar', 'Por asignar'),
-                                                  ('estatus_prestado', 'Prestado'),
-                                                  ('estatus_archivado', 'Archivado'),
-                                                  ('estatus_devuelto', 'Devuelto')],
+									   selection=[('estatus_asignar', 'Por asignar'),
+                                                  ('estatus_devuelto_a_gerencia', 'Devuelto a gerencia'),
+                                                  ('estatus_devuelto_a_creacion_doc', 'Devuelto a creacion de documentos'),
+                                                  ('estatus_devuelto_a_administracion', 'Devuelto a administracion')],
                                        default='estatus_asignar')
 
     # Cambia a la estacion "Consignar Requisitos"
@@ -511,23 +511,19 @@ class Solicitudes(models.Model):
 
     # Cambia al estatus "asignar" (Archivo)
     @api.one
-    def action_estatus_asignar_archivo(self):
-        self.estatus_consultoria_juridica = 'estatus_asignar'
+    def action_estatus_devolver_arch_a_gerencia(self):
+        self.estatus_archivo = 'estatus_devuelto_a_gerencia'
 
-    # Cambia al estatus "prestado" (Archivo)
+    # Cambia al estatus "asignar" (Archivo)
     @api.one
-    def action_estatus_prestar_archivo(self):
-        self.estatus_consultoria_juridica = 'estatus_prestado'
+    def action_estatus_devol_arch_a_creacion_doc(self):
+        self.estatus_archivo = 'estatus_devuelto_a_creacion_doc'
 
-    # Cambia al estatus "archivado" (Archivo)
+    # Cambia al estatus "asignar" (Archivo)
     @api.one
-    def action_estatus_archivar_archivo(self):
-        self.estatus_consultoria_juridica = 'estatus_archivado'
+    def action_estatus_devol_arch_a_admin(self):
+        self.estatus_archivo = 'estatus_devuelto_a_administracion'
 
-    # Cambia al estatus "Devuelto" (Archivo)
-    @api.one
-    def action_estatus_devolver_archivo(self):
-        self.estatus_consultoria_juridica = 'estatus_devuelto'
 
 
 
