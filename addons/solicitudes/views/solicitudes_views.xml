@@ -187,6 +187,7 @@
                                 <group>
                                     <field name="monto_total"/>
                                     <field name="plazo_pago"/>
+				    <field name="forma_pago_id"/>
                                     <field name="periodos_gracia"/>
                                     <field name="tasa_interes"/>
                                     <field name="tasa_mora"/>

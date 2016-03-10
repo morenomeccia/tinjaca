@@ -20,6 +20,7 @@ class Solicitudes(models.Model):
     # Campos para los montos y tasas:
     monto_total = fields.Float(string='Monto total')
     plazo_pago = fields.Integer(string='Periodo de pago')
+    forma_pago_id = fields.Many2one('politicas.forma_pago',string='Forma de pago')
     periodos_gracia = fields.Integer(string='Periodo de gracia')
     tasa_interes = fields.Float(string='Tasa de interes')
     tasa_mora = fields.Float(string='Tasa de mora')
