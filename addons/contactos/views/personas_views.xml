@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_personas_form" model="ir.ui.view">
+            <field name="name">contactos.personas.form</field>
+            <field name="model">contactos.personas</field>
+            <field name="arch" type="xml">
+                <form string="Personas">
+                    <group>
+                        <field name="name"/>
+                        <field name="email"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_partner_title_tree" model="ir.ui.view">
+            <field name="name">contactos.personas.tree</field>
+            <field name="model">contactos.personas</field>
+            <field name="arch" type="xml">
+                <tree string="Personas">
+                    <field name="name"/>
+                    <field name="email"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_listar_personas" model="ir.actions.act_window">
+            <field name="name">Personas</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">contactos.personas</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear persona</p>
+            </field>
+        </record>
+
+        <menuitem id="menu_contactos" name="Contactos"/>
+        <menuitem id="menu_personas" name="Personas" parent="menu_contactos"/>
+        <menuitem id="menu_lista_personas" name="Personas" parent="menu_personas" action="action_listar_personas"/>
+
+    </data>
+</openerp>
