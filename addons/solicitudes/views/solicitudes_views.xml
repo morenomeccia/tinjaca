@@ -12,67 +12,143 @@
                     <header>
                         <field name="state" widget="statusbar"/>
 
-                        <button name="button_pendiente_requisitos" type="workflow"
-                                string="Requisitos pendientes" states="estacion_1_consignacion_requisitos"
-                                class="oe_highlight" confirm="Esta seguro de que desea ?"/>
-                        <button name="button_completo_requisitos" type="workflow"
-                                string="Requisitos completos" states="estacion_1_consignacion_requisitos"
-                                class="oe_highlight"/>
-                        <button name="button_deficiente_requisitos" type="workflow"
-                                string="Requisitos deficientes" states="estacion_1_consignacion_requisitos"
-                                class="oe_highlight"/>
+                        <button name="button_completo_requisitos" 
+								type="workflow"
+                                string="Requisitos completos" 
+								states="estacion_1_consignacion_requisitos"
+                                class="oe_highlight" 
+								confirm="¿Esta seguro de que desea indicar que los requisitos estan completos?"
+								color="#ffcc00" 
+						/>
+                        <button name="button_pendiente_requisitos" 
+								type="workflow"
+                                string="Requisitos pendientes" 
+								states="estacion_1_consignacion_requisitos"
+                                class="oe_highlight" 
+								confirm="¿Esta seguro de que desea indicar que hay requisitos pendientes?"
+						/>
+                        <button name="button_deficiente_requisitos" 
+								type="workflow"
+                                string="Requisitos deficientes" 
+								states="estacion_1_consignacion_requisitos"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea indicar que los requisitos estan deficientes?"
+						/>
 
-                        <button name="button_aceptar_control_previo" type="workflow"
-                                string="Aceptar" states="estacion_2_control_previo"
-                                class="oe_highlight"/>
-                        <button name="button_aceptar_cond_control_previo" type="workflow"
-                                string="Aceptar condicionado" states="estacion_2_control_previo"
-                                class="oe_highlight"/>
-                        <button name="button_rechazar_control_previo" type="workflow"
-                                string="Rechazar" states="estacion_2_control_previo"
-                                class="oe_highlight"/>
+                        <button name="button_aceptar_control_previo" 
+								type="workflow"
+                                string="Aceptar" 
+								states="estacion_2_control_previo"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea enviar el expediente a inspeccion y avaluo?"		
+						/>
+                        <button name="button_aceptar_cond_control_previo" 
+								type="workflow"
+                                string="Aceptar condicionado" 
+								states="estacion_2_control_previo"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea enviar el expediente a inspeccion y avaluo condicionado?"
+						/>
+                        <button name="button_rechazar_control_previo" 
+								type="workflow"
+                                string="Rechazar" 
+								states="estacion_2_control_previo"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea rechazar el credito?"					
+						/>
 
-                        <button name="button_aprobar_avaluo" type="workflow"
-                                string="Aprobar" states="estacion_3_inspeccion_avaluo"
-                                class="oe_highlight"/>
-                        <button name="button_aprobar_cond_avaluo" type="workflow"
-                                string="Aprobar condicionado" states="estacion_3_inspeccion_avaluo"
-                                class="oe_highlight"/>
-                        <button name="button_negar_avaluo" type="workflow"
+                        <button name="button_aprobar_avaluo" 
+								type="workflow"
+                                string="Aprobar" 
+								states="estacion_3_inspeccion_avaluo"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea aprobar el avaluo?"	
+						/>
+                        <button name="button_aprobar_cond_avaluo" 
+								type="workflow"
+                                string="Aprobar condicionado" 
+								states="estacion_3_inspeccion_avaluo"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea aprobar el avaluo condicionado?"
+						/>
+                        <button name="button_negar_avaluo" 
+								type="workflow"
                                 string="Negar" states="estacion_3_inspeccion_avaluo"
-                                class="oe_highlight"/>
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea rechazar el credito?"
+						/>
 
-                        <button name="button_aprobar_gerencia" type="workflow"
-                                string="Aprobar" states="estacion_4_evaluacion_gerente"
-                                class="oe_highlight"/>
-                        <button name="button_aprobar_cond_gerencia" type="workflow"
-                                string="Aprobar condicionado" states="estacion_4_evaluacion_gerente"
-                                class="oe_highlight"/>
-                        <button name="button_negar_gerencia" type="workflow"
-                                string="Negar" states="estacion_4_evaluacion_gerente"
-                                class="oe_highlight"/>
-                        <button name="button_devolver_requisitos" type="workflow"
-                                string="Devolver a Requisitos" states="estacion_4_evaluacion_gerente"
-                                class="oe_highlight"/>
-                        <button name="button_devolver_control_previo" type="workflow"
-                                string="Devolver a Control Previo" states="estacion_4_evaluacion_gerente"
-                                class="oe_highlight"/>
-                        <button name="button_devolver_inspeccion_avaluo" type="workflow"
-                                string="Devolver a Inspeccion / Avaluo" states="estacion_4_evaluacion_gerente"
-                                class="oe_highlight"/>
+                        <button name="button_aprobar_gerencia" 
+								type="workflow"
+                                string="Aprobar" 
+								states="estacion_4_evaluacion_gerente"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea aprobar el credito?"
+						/>
+                        <button name="button_aprobar_cond_gerencia" 
+								type="workflow"
+                                string="Aprobar condicionado" 
+								states="estacion_4_evaluacion_gerente"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea aprobar condicionado el credito?"
+						/>
+                        <button name="button_negar_gerencia" 
+								type="workflow"
+                                string="Negar" 
+								states="estacion_4_evaluacion_gerente"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea negar el credito?"
+						/>
+                        <button name="button_devolver_requisitos" 
+								type="workflow"
+                                string="Devolver a Requisitos" 
+								states="estacion_4_evaluacion_gerente"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea devolver el expediente a revision de requisitos?"
+						/>
+                        <button name="button_devolver_control_previo" 
+								type="workflow"
+                                string="Devolver a Control Previo" 
+								states="estacion_4_evaluacion_gerente"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea devolver el expediente a contro previo?"
+						/>
+                        <button name="button_devolver_inspeccion_avaluo" 
+								type="workflow"
+                                string="Devolver a Inspeccion / Avaluo" 
+								states="estacion_4_evaluacion_gerente"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea devolver el expediente a inspeccion/avaluo"
+						/>
 
-                        <button name="button_recomendar_presidencia" type="workflow"
-                                string="Recomendar" states="estacion_5_evaluacion_presidencia"
-                                class="oe_highlight"/>
-                        <button name="button_no_recomendar_presidencia" type="workflow"
-                                string="No recomendar" states="estacion_5_evaluacion_presidencia"
-                                class="oe_highlight"/>
-                        <button name="button_recomendar_cond_presidencia" type="workflow"
-                                string="Recomendar condicionado" states="estacion_5_evaluacion_presidencia"
-                                class="oe_highlight"/>
-                        <button name="button_devolver_presidencia" type="workflow"
-                                string="Devolver" states="estacion_5_evaluacion_presidencia"
-                                class="oe_highlight"/>
+                        <button name="button_recomendar_presidencia" 
+								type="workflow"
+                                string="Recomendar" 
+								states="estacion_5_evaluacion_presidencia"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea recomendar el credito"
+						/>
+                        <button name="button_no_recomendar_presidencia" 
+								type="workflow"
+                                string="No recomendar" 
+								states="estacion_5_evaluacion_presidencia"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que no desea recomendar el credito"
+						/>
+                        <button name="button_recomendar_cond_presidencia" 
+								type="workflow"
+                                string="Recomendar condicionado" 
+								states="estacion_5_evaluacion_presidencia"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea recomendar el credito condicionado"
+						/>
+                        <button name="button_devolver_presidencia" 
+								type="workflow"
+                                string="Devolver" 
+								states="estacion_5_evaluacion_presidencia"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea devolver el expediente a gerencia"
+						/>
 
                         <button name="button_aprobar_consejo" type="workflow"
                                 string="Aprobar" states="estacion_6_discusion_consejo"
