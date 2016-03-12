@@ -33,6 +33,7 @@
         'data/politicas.documentos_sector.csv',
         'data/politicas.documentos_garantia.csv',
         'data/politicas.documentos_empresa.csv',
+        'data/politicas.forma_pago.csv',
         #'templates.xml'
     ],
     # only loaded in demonstration mode

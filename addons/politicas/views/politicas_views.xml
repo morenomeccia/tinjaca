@@ -188,6 +188,36 @@
             </field>
         </record>
 
+        <!-- Vista de formulario para el modelo de Forma de Pago -->
+
+        <record id="forma_pago_view_form" model="ir.ui.view">
+            <field name="name">forma_pago.form</field>
+            <field name="model">politicas.forma_pago</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Forma de Pago">
+                    <sheet>
+                        <group>
+                            <field name="descripcion"/>
+                            <field name="nro_meses"/>
+                            <field name="habilitado"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="forma_pago_view_tree" model="ir.ui.view">
+            <field name="name">forma_pago.tree</field>
+            <field name="model">politicas.forma_pago</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Forma de Pago">
+                    <field name="descripcion"/>
+                    <field name="nro_meses"/>
+                    <field name="habilitado"/>
+                </tree>
+            </field>
+        </record>
+
         <!-- Accion de ventana para el modelo de sectores -->
 
         <record id="listar_sectores_action" model="ir.actions.act_window">
@@ -260,6 +290,18 @@
             </field>
         </record>
 
+        <!-- Accion de ventana para el modelo de forma de pago -->
+
+        <record id="listar_forma_pago_action" model="ir.actions.act_window">
+            <field name="name">Forma Pago</field>
+            <field name="res_model">politicas.forma_pago</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear Forma de Pago</p>
+            </field>
+        </record>
+
         <!-- top level menu: no parent -->
         <menuitem id="politicas_main_menu" name="Politicas de Financiamiento" groups="fomdes.group_gerente_credito"/>
         <!-- Submenu para Politicas de Financiamiento -->
@@ -276,6 +318,8 @@
         <menuitem id="documentos_empresa_lista_menu" name="Documentos Empresa" parent="politicas_menu" action="listar_documentos_empresa_action"/>
         <!-- Entrada de menu para el modelo de documentos garantia -->
         <menuitem id="documentos_garantia_lista_menu" name="Documentos Garantia" parent="politicas_menu" action="listar_documentos_garantia_action"/>
+        <!-- Entrada de menu para el modelo de forma de pago -->
+        <menuitem id="forma_pago_lista_menu" name="Forma de Pago" parent="politicas_menu" action="listar_forma_pago_action"/>
     </data>
 </openerp>
 

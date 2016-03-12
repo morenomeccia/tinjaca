@@ -1,0 +1,10 @@
+id,descripcion,nro_meses,habilitado
+
+"pago_1_mensual","Mensual",1,True
+"pago_2_bimensual","Bimensual",2,True
+"pago_3_trimestral","Trimestral",3,True
+"pago_4_tetramestral","Tetramestral",4,True
+"pago_5_semestral","Semestral",6,True
+"pago_6_octamestral","Octamestral",8,True
+"pago_7_anual","Anual",12,True
+"pago_8_bianual","Bianual",24,True
