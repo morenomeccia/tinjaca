@@ -150,66 +150,138 @@
 								confirm="¿Esta seguro de que desea devolver el expediente a gerencia"
 						/>
 
-                        <button name="button_aprobar_consejo" type="workflow"
-                                string="Aprobar" states="estacion_6_discusion_consejo"
-                                class="oe_highlight"/>
-                        <button name="button_aprobar_cond_consejo" type="workflow"
-                                string="Aprobar condicionado" states="estacion_6_discusion_consejo"
-                                class="oe_highlight"/>
-                        <button name="button_rechazar_consejo" type="workflow"
-                                string="Rechazar" states="estacion_6_discusion_consejo"
-                                class="oe_highlight"/>
-                        <button name="button_diferir_consejo" type="workflow"
-                                string="Diferir" states="estacion_6_discusion_consejo"
-                                class="oe_highlight"/>
+                        <button name="button_aprobar_consejo" 
+								type="workflow"
+                                string="Aprobar" 
+								states="estacion_6_discusion_consejo"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea aprobar el credito"
+						/>
+                        <button name="button_aprobar_cond_consejo" 
+								type="workflow"
+                                string="Aprobar condicionado" 
+								states="estacion_6_discusion_consejo"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea aprobar el credito condicionado"
+						/>
+                        <button name="button_rechazar_consejo" 
+								type="workflow"
+                                string="Rechazar" 
+								states="estacion_6_discusion_consejo"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea rechazar el credito"
+						/>
+                        <button name="button_diferir_consejo" 
+								type="workflow"
+                                string="Diferir" 
+								states="estacion_6_discusion_consejo"
+                                class="oe_highlight"
+								confirm="¿Esta seguro de que desea diferir el credito"
+						/>
 
-                        <button name="button_entrego_secretaria" type="workflow"
-                                string="Documento de credito entregado" states="estacion_7_creacion_documentos"
-                                class="oe_highlight"/>
-                        <button name="button_no_entrego_secretaria" type="workflow"
-                                string="Documento de credito no entregado" states="estacion_7_creacion_documentos"
-                                class="oe_highlight"/>
+                        <button name="button_entrego_secretaria" 
+								type="workflow"
+                                string="Documento de credito entregado" 
+								states="estacion_7_creacion_documentos"
+                                class="oe_highlight"
+								confirm="¿Desea confirmar que el documento de credito fue entregado?"
+						/>
+                        <button name="button_no_entrego_secretaria" 
+								type="workflow"
+                                string="Documento de credito no entregado" 
+								states="estacion_7_creacion_documentos"
+                                class="oe_highlight"
+								confirm="¿Desea confirmar que el documento de credito no fue entregado?"
+						/>
 
-                        <button name="button_cheque_entregado" type="workflow"
-                                string="Cheque entregado" states="estacion_8_liquidacion"
-                                class="oe_highlight"/>
-                        <button name="button_devolver_administracion" type="workflow"
-                                string="Devolver" states="estacion_8_liquidacion"
-                                class="oe_highlight"/>
+                        <button name="button_cheque_entregado" 
+								type="workflow"
+                                string="Cheque entregado" 
+								states="estacion_8_liquidacion"
+                                class="oe_highlight"
+								confirm="¿Desea confirmar que el cheque fue entregado?"
+						/>
+                        <button name="button_devolver_administracion" 
+								type="workflow"
+                                string="Devolver" 
+								states="estacion_8_liquidacion"
+                                class="oe_highlight"
+								confirm="¿Desea enviar el expediente a archivo?"
+						/>
 
-                        <button name="button_invirtio_acompanamiento" type="workflow"
-                                string="Credito invertido" states="estacion_9_acompanamiento"
-                                class="oe_highlight"/>
-                        <button name="button_no_invirtio_acompanamiento" type="workflow"
-                                string="Credito no invertido" states="estacion_9_acompanamiento"
-                                class="oe_highlight"/>
+                        <button name="button_invirtio_acompanamiento" 
+								type="workflow"
+                                string="Credito invertido" 
+								states="estacion_9_acompanamiento"
+                                class="oe_highlight"
+								confirm="¿Desea confirmar que el credito fue invertido y enviar el expediente a recuperaciones?"
+						/>
+                        <button name="button_no_invirtio_acompanamiento" 
+								type="workflow"
+                                string="Credito no invertido" 
+								states="estacion_9_acompanamiento"
+                                class="oe_highlight"
+								confirm="¿Desea confirmar que el credito no fue invertido y enviar el expediente a consultoria?"
+						/>
 
-                        <button name="button_enviar_a_liberar" type="workflow"
-                                string="Enviar a liberacion" states="estacion_10_recuperaciones"
-                                class="oe_highlight"/>
-                        <button name="button_enviar_a_demanda" type="workflow"
-                                string="Enviar a demanda" states="estacion_10_recuperaciones"
-                                class="oe_highlight"/>
+                        <button name="button_enviar_a_liberar" 
+								type="workflow"
+                                string="Enviar a liberacion" 
+								states="estacion_10_recuperaciones"
+                                class="oe_highlight"
+								confirm="¿Desea confirmar la liberacion del credito?"
+						/>
+                        <button name="button_enviar_a_demanda" 
+								type="workflow"
+                                string="Enviar a demanda" 
+								states="estacion_10_recuperaciones"
+                                class="oe_highlight"
+								confirm="¿Desea confirmar la introduccion de una demanda?"
+						/>
 
-                        <button name="button_liberar_consultoria" type="workflow"
-                                string="Credito liberado" states="estacion_11_consultoria_juridica"
-                                class="oe_highlight"/>
-                        <button name="button_demandar_consultoria" type="workflow"
-                                string="Demanda ejecutada" states="estacion_11_consultoria_juridica"
-                                class="oe_highlight"/>
-                        <button name="button_reintegrar_consultoria" type="workflow"
-                                string="Credito Reintegrado" states="estacion_11_consultoria_juridica"
-                                class="oe_highlight"/>
+                        <button name="button_liberar_consultoria" 
+								type="workflow"
+                                string="Credito liberado" 
+								states="estacion_11_consultoria_juridica"
+                                class="oe_highlight"
+								confirm="¿Desea confirmar la liberacion del credito?"
+						/>
+                        <button name="button_demandar_consultoria" 
+								type="workflow"
+                                string="Demanda ejecutada" 
+								states="estacion_11_consultoria_juridica"
+                                class="oe_highlight"
+								confirm="¿Desea confirmar la introduccion de una demanda?"
+						/>
+                        <button name="button_reintegrar_consultoria" 
+								type="workflow"
+                                string="Credito Reintegrado" 
+								states="estacion_11_consultoria_juridica"
+                                class="oe_highlight"
+								confirm="¿Desea confirmar el reintegro del credito?"
+						/>
 
-                        <button name="button_devolver_gerencia_consejo" type="workflow"
-                                string="Devolver a gerencia" states="estacion_12_archivo"
-                                class="oe_highlight"/>
-                        <button name="button_devolver_creacion_doc_consejo" type="workflow"
-                                string="Devolver a creacion de documentos" states="estacion_12_archivo"
-                                class="oe_highlight"/>
-                        <button name="button_devolver_admin_consejo" type="workflow"
-                                string="Devolver a administracion" states="estacion_12_archivo"
-                                class="oe_highlight"/>
+                        <button name="button_devolver_gerencia_consejo" 
+								type="workflow"
+                                string="Devolver a gerencia" 
+								states="estacion_12_archivo"
+                                class="oe_highlight"
+								confirm="¿Desea devolver el expediente a gerencia?"
+						/>
+                        <button name="button_devolver_creacion_doc_consejo" 
+								type="workflow"
+                                string="Devolver a creacion de documentos" 
+								states="estacion_12_archivo"
+                                class="oe_highlight"
+								confirm="¿Desea devolver el expediente a creacion de documentos?"
+						/>
+                        <button name="button_devolver_admin_consejo" 
+								type="workflow"
+                                string="Devolver a administracion" 
+								states="estacion_12_archivo"
+                                class="oe_highlight"
+								confirm="¿Desea devolver el expediente a administracion?"						
+						/>
 
                     </header>
                     <sheet>
