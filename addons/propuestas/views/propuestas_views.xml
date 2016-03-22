@@ -81,9 +81,19 @@
                                 string="Viable" 
 								states="estacion_1_propuesta_recibida"
                                 class="oe_highlight"/>
+                        <button name="button_no_viable" 
+								type="workflow"
+                                string="No viable" 
+								states="estacion_1_propuesta_recibida"
+                                class="oe_highlight"/>
                         <button name="button_asistio" 
 								type="workflow"
                                 string="Asistio" 
+								states="estacion_2_taller"
+                                class="oe_highlight"/> 
+                        <button name="button_no_asistio" 
+								type="workflow"
+                                string="No asistio" 
 								states="estacion_2_taller"
                                 class="oe_highlight"/> 
                     </header>

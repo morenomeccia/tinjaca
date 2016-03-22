@@ -39,7 +39,8 @@ class Propuestas(models.Model):
 
     state = fields.Selection(string='Estacion', selection=[('estacion_1_propuesta_recibida', 'Propuesta recibida'),
                                                            ('estacion_2_taller', 'Taller'),
-                                                           ('estacion_3_creacion_expediente', 'Creacion de expediente')],
+														   ('estacion_3_creacion_expediente', 'Creacion de expediente'),
+                                                           ('estacion_4_improcedentes', 'Improcedentes')],
                                                            default='estacion_1_propuesta_recibida')
 
 
@@ -57,5 +58,10 @@ class Propuestas(models.Model):
     @api.one
     def action_estacion_creacion_expediente(self):
         self.state = 'estacion_3_creacion_expediente'
+
+    # Cambia a la estacion "Improcedentes"
+    @api.one
+    def action_estacion_improcedentes(self):
+        self.state = 'estacion_4_improcedentes'
 
 

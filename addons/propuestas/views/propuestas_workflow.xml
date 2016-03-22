@@ -27,6 +27,12 @@
             <field name="kind">function</field>
             <field name="action">action_estacion_creacion_expediente()</field>
         </record>
+        <record model="workflow.activity" id="activity_estacion_4_improcedentes">
+            <field name="name">Estacion Improcedentes</field>
+            <field name="wkf_id" ref="wkf_propuestas"/>
+            <field name="kind">function</field>
+            <field name="action">action_estacion_improcedentes()</field>
+        </record>
 
 		<!-- ***************** Transiciones ********************* -->
 
@@ -37,11 +43,25 @@
             <field name="signal">button_viable</field>
             <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
         </record>
+        <!-- Cambio de estacion boton no viable" -->
+        <record model="workflow.transition" id="trans_estacion_1_a_estacion_4">
+            <field name="act_from" ref="activity_estacion_1_propuesta_recibida"/>
+            <field name="act_to" ref="activity_estacion_4_improcedentes"/>
+            <field name="signal">button_no_viable</field>
+            <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
+        </record>
         <!-- Cambio de estacion boton asistio" -->
         <record model="workflow.transition" id="trans_estacion_2_a_estacion_3">
             <field name="act_from" ref="activity_estacion_2_taller"/>
             <field name="act_to" ref="activity_estacion_3_creacion_expediente"/>
             <field name="signal">button_asistio</field>
+            <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
+        </record>
+        <!-- Cambio de estacion boton no asistio" -->
+        <record model="workflow.transition" id="trans_estacion_2_a_estacion_4">
+            <field name="act_from" ref="activity_estacion_2_taller"/>
+            <field name="act_to" ref="activity_estacion_4_improcedentes"/>
+            <field name="signal">button_no_asistio</field>
             <!-- <field name="group_id" ref="fomdes.group_informacion_credito"/> -->
         </record>
 
