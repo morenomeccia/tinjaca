@@ -9,7 +9,17 @@
                 <form string="Personas">
                     <group>
                         <field name="name"/>
-                        <field name="email"/>
+                        <field name="foto"/>
+                        <field name="pais_id"/>
+                        <field name="estado_id"/>
+                        <field name="ciudad"/>
+                        <field name="direccion"/>
+                        <field name="direccion2"/>
+                        <field name="codigo_postal"/>
+                        <field name="telefono_fijo"/>
+                        <field name="telefono_celular"/>
+                        <field name="telefono_fax"/>
+                        <field name="correo_electronico"/>
                     </group>
                 </form>
             </field>
@@ -21,7 +31,7 @@
             <field name="arch" type="xml">
                 <tree string="Personas">
                     <field name="name"/>
-                    <field name="email"/>
+                    <field name="correo_electronico"/>
                 </tree>
             </field>
         </record>
