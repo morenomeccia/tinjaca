@@ -12,8 +12,10 @@ class Personas(models.Model):
     # Campos relacionados a res.partner:
     name = fields.Char(related='partner_id.name', string="Nombre", inherited=True)
     foto = fields.Binary(related='partner_id.image', string="Foto")
-    pais_id = fields.Many2one(related='partner_id.country_id', string="País")
+    pais_id = fields.Many2one(related='partner_id.country_id', string="País", default=240)  #Venezuela
     estado_id = fields.Many2one(related='partner_id.state_id', string="Estado")
+    municipio_id = fields.Many2one(related='partner_id.municipality_id', string='Municipio')
+    parroquia_id = fields.Many2one(related='partner_id.parish_id', string='Parroquia')
     ciudad = fields.Char(related='partner_id.city', string="Ciudad")
     direccion = fields.Char(related='partner_id.street', string="Dirección")
     direccion2 = fields.Char(related='partner_id.street2', string="Dirección 2")

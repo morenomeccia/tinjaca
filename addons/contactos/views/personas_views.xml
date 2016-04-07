@@ -13,7 +13,9 @@
                         <field name="name"/>
                         <field name="foto"/>
                         <field name="pais_id"/>
-                        <field name="estado_id"/>
+                        <field name="estado_id" domain="[('country_id','=',pais_id)]"/>
+                        <field name="municipio_id" domain="[('state_id','=',estado_id)]"/>
+                        <field name="parroquia_id" domain="[('municipality_id','=',municipio_id)]"/>
                         <field name="ciudad"/>
                         <field name="direccion"/>
                         <field name="direccion2"/>
