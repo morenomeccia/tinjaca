@@ -8,6 +8,8 @@
             <field name="arch" type="xml">
                 <form string="Personas">
                     <group>
+                        <field name="id" invisible="1"/>
+                        <field name="partner_id" readonly="1" required="0" attrs="{'invisible': [('id', '=', False)]}" groups="base.group_no_one"/>
                         <field name="name"/>
                         <field name="foto"/>
                         <field name="pais_id"/>

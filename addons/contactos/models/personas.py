@@ -7,6 +7,8 @@ class Personas(models.Model):
 
     _inherits = {'res.partner': 'partner_id'}
 
+    partner_id = fields.Many2one('res.partner', required=True, ondelete='restrict', string='Contacto relacionado')
+
     # Campos relacionados a res.partner:
     name = fields.Char(related='partner_id.name', string="Nombre", inherited=True)
     foto = fields.Binary(related='partner_id.image', string="Foto")
