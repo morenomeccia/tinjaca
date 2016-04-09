@@ -7,24 +7,32 @@
             <field name="model">contactos.personas</field>
             <field name="arch" type="xml">
                 <form string="Personas">
+                    <field name="id" invisible="1"/>
+                    <field name="partner_id" readonly="1" required="0" attrs="{'invisible': [('id', '=', False)]}" groups="base.group_no_one"/>
+                    <field name="foto" widget='image' class="oe_left oe_avatar"/>
                     <group>
-                        <field name="id" invisible="1"/>
-                        <field name="partner_id" readonly="1" required="0" attrs="{'invisible': [('id', '=', False)]}" groups="base.group_no_one"/>
                         <field name="name"/>
-                        <field name="foto"/>
-                        <field name="pais_id"/>
-                        <field name="estado_id" domain="[('country_id','=',pais_id)]"/>
-                        <field name="municipio_id" domain="[('state_id','=',estado_id)]"/>
-                        <field name="parroquia_id" domain="[('municipality_id','=',municipio_id)]"/>
-                        <field name="ciudad"/>
-                        <field name="direccion"/>
-                        <field name="direccion2"/>
-                        <field name="codigo_postal"/>
-                        <field name="telefono_fijo"/>
-                        <field name="telefono_celular"/>
-                        <field name="telefono_fax"/>
-                        <field name="correo_electronico"/>
                     </group>
+                    <notebook>
+                        <page string="Informacion de contacto">
+                            <group>
+                                <field name="telefono_fijo"/>
+                                <field name="telefono_celular"/>
+                                <field name="telefono_fax"/>
+                                <field name="correo_electronico"/>
+                            </group>
+                            <group string="Direccion">
+                                <field name="pais_id"/>
+                                <field name="estado_id" domain="[('country_id','=',pais_id)]"/>
+                                <field name="municipio_id" domain="[('state_id','=',estado_id)]"/>
+                                <field name="parroquia_id" domain="[('municipality_id','=',municipio_id)]"/>
+                                <field name="ciudad"/>
+                                <field name="direccion"/>
+                                <field name="direccion2"/>
+                                <field name="codigo_postal"/>
+                            </group>
+                        </page>
+                    </notebook>
                 </form>
             </field>
         </record>
