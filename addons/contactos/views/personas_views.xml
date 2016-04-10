@@ -8,12 +8,18 @@
             <field name="arch" type="xml">
                 <form string="Personas">
                     <field name="id" invisible="1"/>
+                    <field name="name" invisible="1"/>
                     <field name="partner_id" readonly="1" required="0" attrs="{'invisible': [('id', '=', False)]}" groups="base.group_no_one"/>
                     <field name="foto" widget='image' class="oe_left oe_avatar"/>
                     <group>
-                        <field name="name"/>
+                        <field name="cedula"/>
+                        <field name="apellidos"/>
+                        <field name="nombres"/>
                     </group>
                     <notebook>
+                        <page string="Informacion personal">
+
+                        </page>
                         <page string="Informacion de contacto">
                             <group>
                                 <field name="telefono_fijo"/>
@@ -42,8 +48,9 @@
             <field name="model">contactos.personas</field>
             <field name="arch" type="xml">
                 <tree string="Personas">
-                    <field name="name"/>
-                    <field name="correo_electronico"/>
+                    <field name="cedula"/>
+                    <field name="nombres"/>
+                    <field name="apellidos"/>
                 </tree>
             </field>
         </record>
