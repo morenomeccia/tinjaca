@@ -15,8 +15,28 @@ class Personas(models.Model):
     cedula = fields.Char(string="Cedula", required=True)
     apellidos = fields.Char(string="Apellidos", required=True)
     nombres = fields.Char(string="Nombres", required=True)
+    rif = fields.Char(string="RIF")
     fecha_nacimiento = fields.Date(string="Fecha de Nacimiento", default=fields.Date.today())
     edad = fields.Integer(string="Edad", compute='_compute_edad')
+    genero = fields.Selection(string='Genero', selection=[('genero_masculino', "Masculino"),
+                                                          ('genero_femenino', "Femenino")])
+    estado_civil = fields.Selection(string='Estado Civil', selection=[('estado_soltero', "Soltero"),
+                                                                      ('estado_casado', "Casado"),
+                                                                      ('estado_divorciado', "Divorciado"),
+                                                                      ('estado_viudo', "Viudo")])
+    hijos = fields.Integer(string="Hijos", default=0)
+    profesion = fields.Char(string="Profesion u Oficio")
+    telefono_oficina = fields.Char(string="Teléfono de Oficina")
+    telefono_celular2 = fields.Char(string="Teléfono Celular 2")
+    correo_electronico2 = fields.Char(string="Correo Electrónico 2")
+    cuenta_twitter = fields.Char(string="Cuenta Twitter")
+    nivel_estudios = fields.Selection(string='Nivel de Estudios', selection=[('estudio_ninguno', "Ninguno"),
+                                                                             ('estudio_primaria', "Primaria"),
+                                                                             ('estudio_secundaria', "Secundaria"),
+                                                                             ('estudio_universitario', "Universitario")])
+    trabaja = fields.Boolean(string="Trabaja?")
+    ingresos_mensuales = fields.Float(string="Ingresos Mensuales")
+    limite_tdc = fields.Float(string="Limite TDC")
 
     # Campos relacionados a res.partner:
     name = fields.Char(related='partner_id.name', string="Nombre", inherited=True)
@@ -29,7 +49,7 @@ class Personas(models.Model):
     direccion = fields.Char(related='partner_id.street', string="Dirección")
     direccion2 = fields.Char(related='partner_id.street2', string="Dirección 2")
     codigo_postal = fields.Char(related='partner_id.zip', string="Codigo Postal")
-    telefono_fijo = fields.Char(related='partner_id.phone', string="Teléfono Fijo")
+    telefono_habitacion = fields.Char(related='partner_id.phone', string="Teléfono de Habitacion")
     telefono_celular = fields.Char(related='partner_id.mobile', string="Teléfono Celular")
     telefono_fax = fields.Char(related='partner_id.fax', string="Fax")
     correo_electronico = fields.Char(related='partner_id.email', string="Correo Electrónico")
