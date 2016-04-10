@@ -18,7 +18,10 @@
                     </group>
                     <notebook>
                         <page string="Informacion personal">
-
+                            <group>
+                                <field name="fecha_nacimiento"/>
+                                <field name="edad"/>
+                            </group>
                         </page>
                         <page string="Informacion de contacto">
                             <group>

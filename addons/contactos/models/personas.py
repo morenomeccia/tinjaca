@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 
 from openerp import models, fields, api
+from datetime import date, datetime
+from dateutil.relativedelta import relativedelta
+
 
 class Personas(models.Model):
     _name = 'contactos.personas'
@@ -12,6 +15,8 @@ class Personas(models.Model):
     cedula = fields.Char(string="Cedula", required=True)
     apellidos = fields.Char(string="Apellidos", required=True)
     nombres = fields.Char(string="Nombres", required=True)
+    fecha_nacimiento = fields.Date(string="Fecha de Nacimiento", default=fields.Date.today())
+    edad = fields.Integer(string="Edad", compute='_compute_edad')
 
     # Campos relacionados a res.partner:
     name = fields.Char(related='partner_id.name', string="Nombre", inherited=True)
@@ -38,3 +43,9 @@ class Personas(models.Model):
     def _update_name(self):
         self._get_name()
 
+    @api.depends('fecha_nacimiento')
+    def _compute_edad(self):
+        """Obtiene campo edad a partir de la fecha de nacimiento"""
+        f_nac = datetime.strptime(self.fecha_nacimiento, "%Y-%m-%d").date()
+        dif_t = relativedelta(date.today(), f_nac)
+        self.edad = dif_t.years
