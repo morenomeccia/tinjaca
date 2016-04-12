@@ -9,21 +9,15 @@
                 <form string="Personas">
                     <field name="id" invisible="1"/>
                     <field name="name" invisible="1"/>
-                    <field name="partner_id" readonly="1" required="0" attrs="{'invisible': [('id', '=', False)]}" groups="base.group_no_one"/>
+                    <field name="partner_id" readonly="1" required="0" attrs="{'invisible': [('id', '=', False)]}"/>
                     <field name="foto" widget='image' class="oe_left oe_avatar"/>
                     <group>
                         <group>
                             <field name="cedula"/>
-                        </group>
-                        <group>
                             <field name="rif"/>
                         </group>
-                    </group>
-                    <group>
                         <group>
                             <field name="apellidos"/>
-                        </group>
-                        <group>
                             <field name="nombres"/>
                         </group>
                     </group>
