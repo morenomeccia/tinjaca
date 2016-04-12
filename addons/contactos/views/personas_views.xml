@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_personas_form" model="ir.ui.view">
+            <field name="name">contactos.personas.form</field>
+            <field name="model">contactos.personas</field>
+            <field name="arch" type="xml">
+                <form string="Personas">
+                    <field name="id" invisible="1"/>
+                    <field name="name" invisible="1"/>
+                    <field name="partner_id" readonly="1" required="0" attrs="{'invisible': [('id', '=', False)]}" groups="base.group_no_one"/>
+                    <field name="foto" widget='image' class="oe_left oe_avatar"/>
+                    <group>
+                        <group>
+                            <field name="cedula"/>
+                        </group>
+                        <group>
+                            <field name="rif"/>
+                        </group>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="apellidos"/>
+                        </group>
+                        <group>
+                            <field name="nombres"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Informacion Personal">
+                            <group>
+                                <group>
+                                    <field name="fecha_nacimiento"/>
+                                    <field name="edad"/>
+                                    <field name="genero"/>
+                                    <field name="estado_civil"/>
+                                    <field name="hijos"/>
+                                </group>
+                                <group string="Datos Socioeconomicos">
+                                    <field name="nivel_estudios"/>
+                                    <field name="trabaja"/>
+                                    <field name="profesion"/>
+                                    <field name="ingresos_mensuales"/>
+                                    <field name="limite_tdc"/>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Informacion de Contacto">
+                            <group>
+                                <group>
+                                    <field name="telefono_celular"/>
+                                    <field name="telefono_celular2"/>
+                                    <field name="telefono_habitacion"/>
+                                    <field name="telefono_oficina"/>
+                                    <field name="telefono_fax"/>
+                                    <field name="correo_electronico"/>
+                                    <field name="correo_electronico2"/>
+                                    <field name="cuenta_twitter"/>
+                                </group>
+                                <group string="Direccion">
+                                    <field name="pais_id"/>
+                                    <field name="estado_id" domain="[('country_id','=',pais_id)]"/>
+                                    <field name="municipio_id" domain="[('state_id','=',estado_id)]"/>
+                                    <field name="parroquia_id" domain="[('municipality_id','=',municipio_id)]"/>
+                                    <field name="ciudad"/>
+                                    <field name="direccion"/>
+                                    <field name="direccion2"/>
+                                    <field name="codigo_postal"/>
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_partner_title_tree" model="ir.ui.view">
+            <field name="name">contactos.personas.tree</field>
+            <field name="model">contactos.personas</field>
+            <field name="arch" type="xml">
+                <tree string="Personas">
+                    <field name="cedula"/>
+                    <field name="nombres"/>
+                    <field name="apellidos"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_listar_personas" model="ir.actions.act_window">
+            <field name="name">Personas</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">contactos.personas</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear persona</p>
+            </field>
+        </record>
+
+        <menuitem id="menu_contactos" name="Contactos"/>
+        <menuitem id="menu_personas" name="Personas" parent="menu_contactos"/>
+        <menuitem id="menu_lista_personas" name="Personas" parent="menu_personas" action="action_listar_personas"/>
+
+    </data>
+</openerp>
