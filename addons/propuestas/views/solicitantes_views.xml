@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+
+        <!-- Vista de formulario (herencia de Personas) -->
+        <record id="view_solicitantes_form" model="ir.ui.view">
+            <field name="name">formulario_solicitantes</field>
+            <field name="model">propuestas.solicitantes</field>
+            <field name="inherit_id" ref="contactos.view_personas_form"/>
+            <field name="arch" type="xml">
+                <!-- Agrega campos adicionales a la vista heredada -->
+                <notebook position="inside">
+                    <page string="Informacion Familiar">
+                        <group>
+                            <field name="familiares_ids"/>
+                            <field name="conyuges_ids"/>
+                        </group>
+                    </page>
+                    <page string="Unidades Productivas">
+                        <group>
+                            <field name="unidades_productivas_ids"/>
+                        </group>
+                    </page>
+                    <page string="Solicitudes de Credito">
+                        <group>
+                            <field name="propuestas_ids"/>
+                        </group>
+                    </page>
+                </notebook>
+            </field>
+        </record>
+
+        <!-- Vista de arbol -->
+        <record id="view_solicitantes_tree" model="ir.ui.view">
+            <field name="name">arbol_solicitantes</field>
+            <field name="model">propuestas.solicitantes</field>
+            <field name="arch" type="xml">
+                <tree string="Listado Solicitantes">
+                    <field name="cedula"/>
+                    <field name="nombres"/>
+                    <field name="apellidos"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Caja de busqueda -->
+		<record id="view_solicitantes_search" model="ir.ui.view">
+		    <field name="name">busqueda_solicitantes</field>
+		    <field name="model">propuestas.solicitantes</field>
+		    <field name="arch" type="xml">
+		        <search>
+                    <field name="cedula"/>
+                    <field name="nombres"/>
+                    <field name="apellidos"/>
+		        </search>
+		    </field>
+		</record>
+
+	</data>
+</openerp>

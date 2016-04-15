@@ -17,15 +17,16 @@
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
     # for the full list
     'category': 'Tinjaca',
-    'version': '0.3',
+    'version': '0.4',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','fomdes','politicas','l10n_ve_dpt'],
+    'depends': ['base','fomdes','politicas','contactos'],
 
     # always loaded
     'data': [
+        # 'templates.xml',
         # 'security/ir.model.access.csv',
-        #'templates.xml',
+        'views/solicitantes_views.xml',
         'views/propuestas_views.xml',
         'views/propuestas_workflow.xml',
         'views/talleres_views.xml',
