@@ -24,3 +24,7 @@ class Conyuges(models.Model):
     telefono_fijo = fields.Char(string='Teléfono Fijo') # de res.partner>res.users
     telefono_celular = fields.Char(string='Teléfono Celular') # de res.partner>res.users
     email = fields.Char(string='Correo Electrónico') # de res.partner>res.users
+
+    _sql_constraints = [
+        ('conyuge_unico', 'unique(cedula)', 'El numero de cedula ya existe!')
+    ]

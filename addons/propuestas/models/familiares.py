@@ -29,3 +29,7 @@ class Familiares(models.Model):
                                                                   ('parentezco_padre', 'Padre'),
                                                                   ('parentezco_hijo', 'Hijo/Hija'),
                                                                   ('parentezco_hermano', 'Hermano/Hermana')])
+
+    _sql_constraints = [
+        ('familiar_unico', 'unique(cedula)', 'El numero de cedula ya existe!')
+    ]

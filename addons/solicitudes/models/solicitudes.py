@@ -525,7 +525,9 @@ class Solicitudes(models.Model):
     def action_estatus_devol_arch_a_admin(self):
         self.estatus_archivo = 'estatus_devuelto_a_administracion'
 
-
+    _sql_constraints = [
+        ('numero_expediente_unico', 'unique(nro_expediente)', 'El numero de expediente ya existe!')
+    ]
 
 
     # display_name = fields.Char(

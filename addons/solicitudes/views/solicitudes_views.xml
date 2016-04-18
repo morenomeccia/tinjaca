@@ -286,8 +286,8 @@
                     </header>
                     <sheet>
                         <group>
-                            <field name="propuestas_id"/>
-                            <field name="sector_id" domain="[('habilitado','=',True)]"/>
+                            <field name="propuestas_id" domain="[('state','=','estacion_3_creacion_expediente')]"/>
+			    <field name="sector_id" domain="[('habilitado','=',True)]"/>
                             <field name="nro_expediente"/>
                         </group>
                         <group>
