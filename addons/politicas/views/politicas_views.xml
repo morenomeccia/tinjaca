@@ -109,7 +109,7 @@
                         <group>
                             <field name="tipo_documento"/>
                             <field name="habilitado"/>
-                            <field name="sector_id"/>
+                            <field name="sector_id" domain="[('habilitado','=',True)]"/>
                         </group>
                     </sheet>
                 </form>
@@ -169,7 +169,7 @@
                         <group>
                             <field name="tipo_documento"/>
                             <field name="habilitado"/>
-                            <field name="tipos_garantia_id"/>
+                            <field name="tipos_garantia_id" domain="[('habilitado','=',True)]"/>
                         </group>
                     </sheet>
                 </form>
