@@ -3,8 +3,8 @@
 	<data>
 
         <!-- Vista de formulario (herencia de Personas) -->
-        <record id="view_solicitantes_form" model="ir.ui.view">
-            <field name="name">formulario_solicitantes</field>
+        <record id="view_solicitantes_herencia_form" model="ir.ui.view">
+            <field name="name">formulario_solicitantes_herencia</field>
             <field name="model">propuestas.solicitantes</field>
             <field name="inherit_id" ref="contactos.view_personas_form"/>
             <field name="arch" type="xml">
@@ -27,6 +27,90 @@
                         </group>
                     </page>
                 </notebook>
+            </field>
+        </record>
+
+        <!-- Vista de formulario (completo) -->
+        <record id="view_solicitantes_form" model="ir.ui.view">
+            <field name="name">formulario_solicitantes</field>
+            <field name="model">propuestas.solicitantes</field>
+            <field name="arch" type="xml">
+                <form string="Solicitantes">
+                    <field name="id" invisible="1"/>
+                    <field name="name" invisible="1"/>
+                    <field name="partner_id" readonly="1" required="0" attrs="{'invisible': [('id', '=', False)]}"/>
+                    <field name="foto" widget='image' class="oe_left oe_avatar"/>
+                    <group>
+                        <group>
+                            <field name="cedula"/>
+                            <field name="rif"/>
+                        </group>
+                        <group>
+                            <field name="apellidos"/>
+                            <field name="nombres"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Informacion Personal">
+                            <group>
+                                <group>
+                                    <field name="fecha_nacimiento"/>
+                                    <field name="edad"/>
+                                    <field name="genero"/>
+                                    <field name="estado_civil"/>
+                                    <field name="hijos"/>
+                                </group>
+                                <group string="Datos Socioeconomicos">
+                                    <field name="nivel_estudios"/>
+                                    <field name="trabaja"/>
+                                    <field name="profesion"/>
+                                    <field name="ingresos_mensuales"/>
+                                    <field name="limite_tdc"/>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Informacion de Contacto">
+                            <group>
+                                <group>
+                                    <field name="telefono_celular"/>
+                                    <field name="telefono_celular2"/>
+                                    <field name="telefono_habitacion"/>
+                                    <field name="telefono_oficina"/>
+                                    <field name="telefono_fax"/>
+                                    <field name="correo_electronico"/>
+                                    <field name="correo_electronico2"/>
+                                    <field name="cuenta_twitter"/>
+                                </group>
+                                <group string="Direccion">
+                                    <field name="pais_id" options='{"no_open": True, "no_create": True}'/>
+                                    <field name="estado_id" domain="[('country_id','=',pais_id)]" options='{"no_open": True, "no_create": True}'/>
+                                    <field name="municipio_id" domain="[('state_id','=',estado_id)]" options='{"no_open": True, "no_create": True}'/>
+                                    <field name="parroquia_id" domain="[('municipality_id','=',municipio_id)]" options='{"no_open": True, "no_create": True}'/>
+                                    <field name="ciudad"/>
+                                    <field name="direccion"/>
+                                    <field name="direccion2"/>
+                                    <field name="codigo_postal"/>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Informacion Familiar">
+                            <group>
+                                <field name="familiares_ids"/>
+                                <field name="conyuges_ids"/>
+                            </group>
+                        </page>
+                        <page string="Unidades Productivas">
+                            <group>
+                                <field name="unidades_productivas_ids"/>
+                            </group>
+                        </page>
+                        <page string="Solicitudes de Credito">
+                            <group>
+                                <field name="propuestas_ids"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </form>
             </field>
         </record>
 
