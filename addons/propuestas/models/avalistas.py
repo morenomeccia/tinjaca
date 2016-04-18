@@ -32,3 +32,8 @@ class Avalistas(models.Model):
     total_ingresos = fields.Float(string='Total de Ingresos') #calculado!!!
 
     cuentas_bancarias_avalista_ids = fields.One2many('propuestas.cuentas_bancarias_avalista','avalistas_id',string='Cuentas Bancarias del Avalista')
+
+    _sql_constraints = [
+        ('avalista_unico', 'unique(cedula)', 'El numero de cedula ya existe!')
+    ]
+
