@@ -27,9 +27,10 @@
         # 'templates.xml',
         # 'security/ir.model.access.csv',
         'views/solicitantes_views.xml',
+        'views/talleres_views.xml',
         'views/propuestas_views.xml',
         'views/propuestas_workflow.xml',
-        'views/talleres_views.xml',
+        'views/propuestas_menu.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

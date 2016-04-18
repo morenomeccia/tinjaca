@@ -4,8 +4,8 @@
 
         <!-- Vistas para Talleres -->
 
-        <record model="ir.ui.view" id="vista_formulario_talleres">
-            <field name="name">talleres.form</field>
+        <record id="view_talleres_form" model="ir.ui.view">
+            <field name="name">formulario_talleres</field>
             <field name="model">propuestas.talleres</field>
             <field name="arch" type="xml">
                 <form string="Formulario Talleres">
@@ -19,8 +19,8 @@
             </field>
         </record>
 
-        <record model="ir.ui.view" id="vista_arbol_talleres">
-            <field name="name">talleres.tree</field>
+        <record id="view_talleres_tree" model="ir.ui.view">
+            <field name="name">arbol_talleres</field>
             <field name="model">propuestas.talleres</field>
             <field name="arch" type="xml">
                 <tree string="Listado Talleres">
@@ -28,25 +28,6 @@
                 </tree>
             </field>
         </record>
-
-        <!-- Accion de ventana para Talleres -->
-
-        <record model="ir.actions.act_window" id="accion_listar_talleres">
-            <field name="name">Talleres</field>
-            <field name="res_model">propuestas.talleres</field>
-            <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
-            <field name="help" type="html">
-                <p class="oe_view_nocontent_create">Crear taller</p>
-            </field>
-        </record>
-
-        <!-- Menu Talleres (top level menu: no parent) -->
-        <menuitem id="talleres_main_menu" name="Talleres" groups="fomdes.group_gerente_credito"/>
-        <!-- Submenu para Talleres -->
-        <menuitem id="talleres_menu" name="Talleres" parent="talleres_main_menu"/>
-        <!-- Entrada de menu para el modelo de Talleres -->
-        <menuitem id="talleres_lista_menu" name="Talleres" parent="talleres_menu" action="accion_listar_talleres"/>
 
     </data>
 </openerp>
