@@ -69,3 +69,10 @@ class Personas(models.Model):
         f_nac = datetime.strptime(self.fecha_nacimiento, "%Y-%m-%d").date()
         dif_t = relativedelta(date.today(), f_nac)
         self.edad = dif_t.years
+
+    _sql_constraints = [
+        ('persona_unica', 'unique(cedula)', 'Este numero de cedula ya existe!')
+    ]
+
+
+
