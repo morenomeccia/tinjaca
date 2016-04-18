@@ -19,3 +19,7 @@ class CuentasBancariasAvalista(models.Model):
                                                         ('banco_venezuela','Venezuela')])
     tipo_cuenta = fields.Selection(string="Tipo de cuenta", selection=[('cuenta_corriente','Corriente'),
                                                                        ('cuenta_ahorro','Ahorro')])
+
+    _sql_constraints = [
+        ('numero_cuenta_unico', 'unique(nro_cuenta)', 'El numero de cuenta ya existe!')
+    ]
