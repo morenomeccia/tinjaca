@@ -28,5 +28,7 @@ class Miembros(models.Model):
 
     consejos_ids = fields.Many2many('consejos.consejos', string="Consejos directivos", relation='consejos_consejos_miembros_rel')
 
-
+    _sql_constraints = [
+        ('miembro_consejo_unico', 'unique(cedula)', 'Este numero de cedula ya existe!')
+    ]
 

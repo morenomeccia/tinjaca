@@ -26,6 +26,9 @@ class Visitantes(models.Model):
     #     for record in self:
     #         record.name = "{} {}".format(record.nombres, record.apellidos)
 
+    _sql_constraints = [
+        ('visitante_unico', 'unique(cedula)', 'El numero de cedula ya existe!')
+    ]
 
 class Visitas(models.Model):
     _name = 'recepcion.visitas'

@@ -45,6 +45,7 @@ class Solicitudes(models.Model):
     avaluo_id = fields.One2many('solicitudes.avaluo', 'solicitudes_id', string="Avaluo")
     inspeccion_id = fields.One2many('solicitudes.inspecciones', 'solicitudes_id', string="Inspeccion")
     informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', 'solicitudes_id', string="Informe tecnico")
+    observaciones_ids = fields.One2many('solicitudes.observaciones_estaciones', 'solicitudes_id', string="Observaciones de la estacion")
     consejos_directivos_ids = fields.Many2many('consejos.consejos', string="Consejo directivo", relation='consejos_consejos_solicitudes_rel')
     #cuentas_cobrar_ids = fields.One2many('administracion.cuentas_cobrar', string="Cuenta por cobrar") #Error!!!
     #cheques_ids = fields.One2many('administracion.cheques', 'solicitudes_id', string="Cuenta por cobrar") #Error!!!
@@ -525,7 +526,9 @@ class Solicitudes(models.Model):
     def action_estatus_devol_arch_a_admin(self):
         self.estatus_archivo = 'estatus_devuelto_a_administracion'
 
-
+    _sql_constraints = [
+        ('numero_expediente_unico', 'unique(nro_expediente)', 'El numero de expediente ya existe!')
+    ]
 
 
     # display_name = fields.Char(

@@ -36,8 +36,8 @@
                         <group>
                             <field name="codigo_planilla"/>
                             <field name="fecha_recibida"/>
-                            <field name="solicitantes_id"/>
-                            <field name="unidades_productivas_id"/>
+                            <field name="solicitantes_id" domain="[('habilitado','=',True)]"/>
+                            <field name="unidades_productivas_id" domain="[('habilitado','=',True)]"/>
                             <field name="up_empresa_establecida"/>
                         </group>
                         <notebook>
@@ -68,7 +68,7 @@
                             </page>
                             <page string="Garantia">
                                 <group>
-                                    <field name="tipos_garantia_id"/>
+                                    <field name="tipos_garantia_id" domain="[('habilitado','=',True)]"/>
                                     <field name="codigo_garantia" invisible="True"/>
                                     <field name="garantias_ids" atrrs="{'invisible': [('codigo_garantia', '=', 'Letra')]}"/> <!-- TODO No funciona! -->
                                     <field name="avalistas_ids" atrrs="{'invisible': [('codigo_garantia', '!=', 'Letra')]}"/> <!-- TODO No funciona! -->
@@ -253,7 +253,7 @@
                     <sheet>
                         <group>
                             <field name="propuestas_id"/>
-                            <field name="tipos_garantia_id"/>
+                            <field name="tipos_garantia_id" domain="[('habilitado','=',True)]"/>
                             <field name="descripcion"/>
                             <field name="avaluo"/>
                         </group>
@@ -284,7 +284,7 @@
                     <sheet>
                         <group>
                             <field name="propuestas_id"/>
-                            <field name="rubro_id"/>
+                            <field name="rubro_id" domain="[('habilitado','=',True)]"/>
                             <field name="descripcion"/>
                             <field name="aporte_propio"/>
                             <field name="aporte_fomdes"/>

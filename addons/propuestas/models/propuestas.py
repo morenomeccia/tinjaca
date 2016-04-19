@@ -64,4 +64,6 @@ class Propuestas(models.Model):
     def action_estacion_improcedentes(self):
         self.state = 'estacion_4_improcedentes'
 
-
+    _sql_constraints = [
+        ('numero_planilla_unico', 'unique(codigo_planilla)', 'El numero de propuesta ya existe!')
+    ]

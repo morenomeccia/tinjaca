@@ -13,3 +13,6 @@ class Consejos(models.Model):
 
     miembros_ids = fields.Many2many('consejos.miembros', string="Miembros", relation='consejos_consejos_miembros_rel')
 
+    _sql_constraints = [
+        ('numero_consejo_unico', 'unique(numero)', 'El numero de consejo ya existe!')
+    ]

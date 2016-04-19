@@ -286,8 +286,8 @@
                     </header>
                     <sheet>
                         <group>
-                            <field name="propuestas_id"/>
-                            <field name="sector_id"/>
+                            <field name="propuestas_id" domain="[('state','=','estacion_3_creacion_expediente')]"/>
+			    <field name="sector_id" domain="[('habilitado','=',True)]"/>
                             <field name="nro_expediente"/>
                         </group>
                         <group>
@@ -350,7 +350,7 @@
                                 <group>
                                     <field name="monto_total"/>
                                     <field name="plazo_pago"/>
-				    <field name="forma_pago_id"/>
+				    <field name="forma_pago_id" domain="[('habilitado','=',True)]"/>
                                     <field name="periodos_gracia"/>
                                     <field name="tasa_interes"/>
                                     <field name="tasa_mora"/>
@@ -372,6 +372,11 @@
                             </page>
                         </notebook>
                     </sheet>
+					<footer>
+                        <group>
+                            <field name="observaciones_ids"/>
+                        </group>						
+					</footer>
                 </form>
             </field>
         </record>
@@ -420,7 +425,7 @@
                     <sheet>
                         <group>
                             <field name="solicitudes_id"/>
-                            <field name="documentos_generales_id"/>
+                            <field name="documentos_generales_id" domain="[('habilitado','=',True)]"/>
                             <field name="documento"/>
                             <field name="observaciones"/>
                             <field name="valido"/>
@@ -441,7 +446,7 @@
                         <group>
                             <field name="solicitudes_id"/>
                             <field name="sector_id_solicitud" readonly="1"/>
-                            <field name="documentos_sector_id" domain="[('sector_id','=',sector_id_solicitud)]"/>
+                            <field name="documentos_sector_id" domain="[('sector_id','=',sector_id_solicitud),('habilitado','=',True)]"/>
                             <field name="documento"/>
                             <field name="observaciones"/>
                             <field name="valido"/>
@@ -462,7 +467,7 @@
                         <group>
                             <field name="solicitudes_id"/>
                             <field name="solicitudes_tipos_garantia_id" readonly="1"/>
-                            <field name="documentos_garantia_id" domain="[('tipos_garantia_id','=',solicitudes_tipos_garantia_id)]"/>
+                            <field name="documentos_garantia_id" domain="[('tipos_garantia_id','=',solicitudes_tipos_garantia_id),('habilitado','=',True)]"/>
                             <field name="documento"/>
                             <field name="observaciones"/>
                             <field name="valido"/>
@@ -483,7 +488,7 @@
                         <group>
                             <field name="solicitudes_id"/>
                             <field name="solicitudes_empresa_establecida" readonly="1"/>
-                            <field name="documentos_empresa_id"/>
+                            <field name="documentos_empresa_id" domain="[('habilitado','=',True)]"/>
                             <field name="documento"/>
                             <field name="observaciones"/>
                             <field name="valido"/>
