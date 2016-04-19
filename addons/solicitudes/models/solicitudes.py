@@ -45,6 +45,7 @@ class Solicitudes(models.Model):
     avaluo_id = fields.One2many('solicitudes.avaluo', 'solicitudes_id', string="Avaluo")
     inspeccion_id = fields.One2many('solicitudes.inspecciones', 'solicitudes_id', string="Inspeccion")
     informe_tecnico_id = fields.One2many('solicitudes.informe_tecnico', 'solicitudes_id', string="Informe tecnico")
+    observaciones_ids = fields.One2many('solicitudes.observaciones_estaciones', 'solicitudes_id', string="Observaciones de la estacion")
     consejos_directivos_ids = fields.Many2many('consejos.consejos', string="Consejo directivo", relation='consejos_consejos_solicitudes_rel')
     #cuentas_cobrar_ids = fields.One2many('administracion.cuentas_cobrar', string="Cuenta por cobrar") #Error!!!
     #cheques_ids = fields.One2many('administracion.cheques', 'solicitudes_id', string="Cuenta por cobrar") #Error!!!
