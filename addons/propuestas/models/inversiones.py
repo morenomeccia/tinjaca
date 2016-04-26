@@ -8,7 +8,7 @@ class Inversiones(models.Model):
     _rec_name = 'descripcion'
 
     propuestas_id = fields.Many2one('propuestas.propuestas', string="Propuesta")
-    rubro_id = fields.Many2one('politicas.rubros', string="Rubro")
+    rubros_id = fields.Many2one('politicas.rubros', string="Rubro")
 
     descripcion = fields.Char(string="Descripcion")
     aporte_propio = fields.Float(string="Aporte Propio")
